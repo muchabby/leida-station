@@ -358,6 +358,19 @@
             <div class="src"><div class="pill" style="background:rgba(15,138,98,.1);color:var(--success)">✅ 已就绪</div><h5>无人值守 + 飞书推送</h5><p>抓取已固化为定时脚本（每日 9/13/18 点）。飞书推送代码已预留，填入群机器人 Webhook 即可自动推送。</p></div>
           </div>
         </div>
+        <div class="card">
+          <div class="card-head"><div><h4>📘 搭建 SOP · 一起学习</h4><p>从前期建站到上云、接入飞书的完整流程，欢迎大家照着复刻</p></div>
+            <a href="https://www.feishu.cn/docx/R0mRdnYBAonD4DxuqBtcQo4XnFf" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:6px;padding:8px 14px;border-radius:10px;background:var(--accent);color:#fff;font-size:13px;font-weight:600;text-decoration:none;white-space:nowrap">查看完整 SOP 文档 →</a>
+          </div>
+          <div class="src-grid">
+            <div class="src"><div class="pill">阶段一</div><h5>前期网页建设</h5><p>定品牌词与监测对象 → 搭纯前端单页 index.html → 写无依赖抓取脚本 fetch.js → 约定 data.js 数据格式 → 本地试跑调噪音。</p></div>
+            <div class="src"><div class="pill">阶段二</div><h5>本地定时跑</h5><p>上云前的过渡：Windows 任务计划每天 9/13/18 点跑，9 点抓全套含社交，SerpAPI Key 存环境变量。</p></div>
+            <div class="src"><div class="pill">阶段三</div><h5>上云（GitHub）</h5><p>建公开仓库 + 开 Pages 托管 → 密钥存 GitHub Secrets → Actions 每天 9 点定时抓取、bot 自动 commit data.js，完全不依赖本地电脑。</p></div>
+            <div class="src"><div class="pill">阶段四</div><h5>多设备星标同步</h5><p>Supabase 存 user_marks 表，前端用 publishable key + RLS 保护；启动先拉云端再渲染，避免多设备竞态。</p></div>
+            <div class="src"><div class="pill">阶段五</div><h5>接入飞书推送</h5><p>自定义机器人 + 关键词「雷达站」安全设置；fetch.js 的 pushLark() 负面置顶、有新增才推。</p></div>
+            <div class="src"><div class="pill">阶段六</div><h5>日常运维与扩展</h5><p>盯紧 SerpAPI 额度（90 次/月）、加词改频率的维护动作、密钥存放总表与已知局限。</p></div>
+          </div>
+        </div>
       </section>
     </main>
   </div>
