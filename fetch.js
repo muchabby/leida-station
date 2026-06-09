@@ -50,6 +50,8 @@ function judge(text){
 // ---- 工具 ----
 const stripTags = s => String(s||"").replace(/<[^>]+>/g,"").replace(/&nbsp;/g," ").replace(/\s+/g," ").trim();
 const toMin = t => String(t||"").slice(0,16); // 截到分钟："2026-06-09 09:50"
+// 北京时间的"现在"（云端 GitHub Actions 跑在 UTC，统一换算到 Asia/Shanghai 保证时间戳一致）
+const bjNow = () => new Date(new Date().toLocaleString("en-US", { timeZone: "Asia/Shanghai" }));
 
 // 相关性过滤：宽词（如"雷霆游戏"会被拆成"游戏"泛匹配）召回的结果
 // 必须真的提到品牌词才保留，否则全是"游戏黑产/博傻游戏"这类噪音
@@ -150,7 +152,7 @@ function isMeaningful(title){
 function parseZhihuDate(raw){
   const p = x => String(x).padStart(2,"0");
   const fmt = d => `${d.getFullYear()}-${p(d.getMonth()+1)}-${p(d.getDate())} ${p(d.getHours())}:${p(d.getMinutes())}`;
-  const now = new Date();
+  const now = bjNow();
   if(!raw) return fmt(now);
   const s = String(raw).trim();
   let m;
@@ -194,7 +196,7 @@ async function pushLark(newItems){
 
 // ---- 主流程 ----
 (async ()=>{
-  const now = new Date();
+  const now = bjNow();
   const pad = n => String(n).padStart(2,"0");
   const stamp = `${now.getFullYear()}-${pad(now.getMonth()+1)}-${pad(now.getDate())} ${pad(now.getHours())}:${pad(now.getMinutes())}`;
 
