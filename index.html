@@ -52,6 +52,13 @@
     .status{display:inline-flex;align-items:center;gap:10px;padding:10px 14px;border-radius:999px;background:rgba(255,255,255,.84);
       border:1px solid var(--line);box-shadow:var(--shadow);color:var(--muted);font-size:13px;white-space:nowrap}
     .status-dot{width:8px;height:8px;border-radius:999px;background:var(--success);box-shadow:0 0 0 6px rgba(15,138,98,.12)}
+    /* Supabase 同步状态徽标 */
+    .sync-badge{display:inline-flex;align-items:center;padding:7px 12px;border-radius:999px;font-size:12px;white-space:nowrap;
+      background:rgba(255,255,255,.84);border:1px solid var(--line);box-shadow:var(--shadow);color:var(--muted)}
+    .sync-badge.ok{color:var(--success);border-color:rgba(15,138,98,.3)}
+    .sync-badge.syncing{color:var(--accent);border-color:rgba(36,87,232,.3)}
+    .sync-badge.err{color:var(--danger);border-color:rgba(220,38,38,.3)}
+    [data-theme="dark"] .sync-badge{background:rgba(255,255,255,.06)}
     .section{display:none;animation:fadeUp 420ms ease both}
     .section.active{display:block}
     .panel,.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius-xl);box-shadow:var(--shadow)}
@@ -240,6 +247,7 @@
         </div>
         <div style="display:flex;gap:10px;align-items:center">
           <button class="status mobile-toggle" id="toggleSidebar" type="button">菜单</button>
+          <span class="sync-badge" id="syncStatus">☁ —</span>
           <button class="theme-btn" id="themeBtn" type="button" title="切换深色模式">🌙</button>
           <div class="status"><span class="status-dot"></span><span id="clock">监测中 · --:--</span></div>
         </div>
@@ -425,7 +433,60 @@
     // 「盯着他」更新提示：item.lastChange 比已读记录新，则该条有未读更新
     const getUpdSeen = () => { try { return JSON.parse(localStorage.getItem(UPDSEEN_KEY)||"{}"); } catch(e){ return {}; } };
     function hasUnreadUpdate(item){ return item.changeNote && item.lastChange && getUpdSeen()[item.id] !== item.lastChange; }
-    function markUpdateSeen(id){ const o=getUpdSeen(); const it=DATA.items.find(x=>x.id===id); if(it&&it.lastChange){ o[id]=it.lastChange; localStorage.setItem(UPDSEEN_KEY,JSON.stringify(o)); } }
+    function markUpdateSeen(id){ const o=getUpdSeen(); const it=DATA.items.find(x=>x.id===id); if(it&&it.lastChange){ o[id]=it.lastChange; localStorage.setItem(UPDSEEN_KEY,JSON.stringify(o)); pushMark(id); } }
+
+    // ============ Supabase 多设备同步 ============
+    // localStorage 作本地缓存+离线兜底，Supabase 作云端真相。写操作本地秒更新 + 异步推云端。
+    const SUPA_URL = "https://rugfatciofsyydgcwpww.supabase.co";
+    const SUPA_KEY = "sb_publishable_tbz8vUo4vSra2Q9KG7TGqw_RZh0KogU";
+    const supaHeaders = { "apikey": SUPA_KEY, "Authorization": "Bearer " + SUPA_KEY, "Content-Type": "application/json" };
+    let syncStatusEl = null;
+    function setSync(text, cls){ if(!syncStatusEl) syncStatusEl=document.getElementById("syncStatus"); if(syncStatusEl){ syncStatusEl.textContent=text; syncStatusEl.className="sync-badge "+(cls||""); } }
+
+    // 把某条的当前本地状态整体推到云端（upsert）
+    async function pushMark(id){
+      const row = {
+        item_id: id,
+        starred: isStar(id),
+        done: isDone(id),
+        note: getNote(id),
+        upd_seen: getUpdSeen()[id] || "",
+        updated_at: new Date().toISOString()
+      };
+      try{
+        setSync("☁ 同步中…","syncing");
+        const res = await fetch(`${SUPA_URL}/rest/v1/user_marks?on_conflict=item_id`, {
+          method:"POST",
+          headers:{ ...supaHeaders, "Prefer":"resolution=merge-duplicates" },
+          body: JSON.stringify(row)
+        });
+        if(!res.ok) throw new Error("HTTP "+res.status);
+        setSync("☁ 已同步","ok");
+      }catch(e){ setSync("⚠ 同步失败(本地已存)","err"); }
+    }
+
+    // 启动时从云端拉全部标记，灌进 localStorage，再渲染
+    async function pullAllMarks(){
+      try{
+        setSync("☁ 加载中…","syncing");
+        const res = await fetch(`${SUPA_URL}/rest/v1/user_marks?select=*`, { headers: supaHeaders });
+        if(!res.ok) throw new Error("HTTP "+res.status);
+        const rows = await res.json();
+        const stars=[], dones=[], notes={}, upd={};
+        rows.forEach(r=>{
+          if(r.starred) stars.push(r.item_id);
+          if(r.done) dones.push(r.item_id);
+          if(r.note) notes[r.item_id]=r.note;
+          if(r.upd_seen) upd[r.item_id]=r.upd_seen;
+        });
+        lsSet(STAR_KEY, stars); lsSet(DONE_KEY, dones);
+        localStorage.setItem(NOTE_KEY, JSON.stringify(notes));
+        localStorage.setItem(UPDSEEN_KEY, JSON.stringify(upd));
+        setSync(`☁ 已同步 ${rows.length} 条标记`,"ok");
+        return true;
+      }catch(e){ setSync("⚠ 云端连接失败(用本地缓存)","err"); return false; }
+    }
+    // ============ Supabase 同步结束 ============
 
     function itemHTML(item, seen){
       const isNew = !seen.includes(item.id), star=isStar(item.id), done=isDone(item.id), note=getNote(item.id);
@@ -708,6 +769,7 @@
       }
       if(act==="updseen"){ markUpdateSeen(id); renderAll(); return; } // 盯着他：标更新为已读
       toggleId(act==="star"?STAR_KEY:DONE_KEY, id);
+      pushMark(id);   // 同步到云端
       renderAll();
     });
 
@@ -719,6 +781,8 @@
     });
     document.body.addEventListener("focusout",e=>{
       const ta=e.target.closest(".note-box textarea"); if(!ta) return;
+      const id=ta.closest("[data-note-box]").getAttribute("data-note-box");
+      pushMark(id);   // 备注失焦时同步到云端（不在每次输入时推，省请求）
       renderAll();
     });
 
@@ -736,9 +800,11 @@
 
     function updateClock(){const n=new Date();document.getElementById("clock").textContent="监测中 · "+n.toLocaleTimeString("zh-CN",{hour:"2-digit",minute:"2-digit"});}
 
+    // 启动：先渲染（用本地缓存秒出），再从云端拉最新标记，拉到后重渲染
     renderAll();
     activateTab("overview");
     updateClock(); setInterval(updateClock,1000);
+    pullAllMarks().then(ok=>{ if(ok) renderAll(); });
   </script>
 </body>
 </html>

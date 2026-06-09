@@ -17,3 +17,6 @@ versions/
 Thumbs.db
 node_modules/
 *.local
+
+# Supabase 一次性建表脚本（本地留存即可）
+supabase_setup.sql
