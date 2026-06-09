@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>雷达站 · 厂牌舆情监测</title>
+  <style>
+    :root{
+      --bg:#f3f6fb; --surface:#fff; --surface-2:#f8fbff; --text:#0f172a; --muted:#64748b;
+      --line:#e3e9f2; --line-strong:#d5dde7; --accent:#2457e8; --accent-soft:rgba(36,87,232,.08);
+      --accent-strong:#173fb6; --warn:#d97706; --danger:#dc2626; --success:#0f8a62;
+      --shadow:0 14px 40px rgba(15,23,42,.06); --radius-xl:22px; --radius-lg:16px; --radius-md:12px;
+    }
+    [data-theme="dark"]{
+      --bg:#0b1120; --surface:#151e31; --surface-2:#1b263d; --text:#e6edf7; --muted:#94a3b8;
+      --line:#2a3650; --line-strong:#3a4a6b; --accent:#5b8bff; --accent-soft:rgba(91,139,255,.14);
+      --accent-strong:#7aa0ff; --shadow:0 14px 40px rgba(0,0,0,.35);
+    }
+    [data-theme="dark"] body{
+      background:radial-gradient(circle at top right,rgba(91,139,255,.08),transparent 22%),linear-gradient(180deg,#0d1526,#0b1120);
+    }
+    [data-theme="dark"] .tag{background:rgba(91,139,255,.16);color:#9db8ff}
+    [data-theme="dark"] .tag.gray{background:rgba(148,163,184,.16);color:#aab6c8}
+    [data-theme="dark"] .status,[data-theme="dark"] .theme-btn{background:rgba(255,255,255,.06)}
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{margin:0;color:var(--text);
+      background:radial-gradient(circle at top right,rgba(36,87,232,.05),transparent 22%),linear-gradient(180deg,#f8fbff,var(--bg));
+      font-family:"HarmonyOS Sans SC","PingFang SC","Microsoft YaHei","Noto Sans SC",sans-serif;-webkit-font-smoothing:antialiased}
+    .app{min-height:100vh;display:grid;grid-template-columns:280px minmax(0,1fr)}
+    .sidebar{background:linear-gradient(180deg,#111c34,#0f172a);color:#e2e8f0;padding:24px 18px;
+      display:flex;flex-direction:column;gap:20px;position:sticky;top:0;height:100vh;border-right:1px solid rgba(255,255,255,.06)}
+    .brand{display:flex;align-items:center;gap:12px;padding:8px 8px 12px}
+    .brand-mark{width:42px;height:42px;border-radius:14px;background:linear-gradient(135deg,#2e6cf6,#13a49a);box-shadow:0 12px 24px rgba(46,108,246,.24);flex:none}
+    .brand h1{margin:0;font-size:18px;line-height:1.1;color:#f8fafc}
+    .brand p{margin:4px 0 0;font-size:12px;color:rgba(226,232,240,.68);line-height:1.55}
+    .sidebar-card{border:1px solid rgba(255,255,255,.08);background:rgba(255,255,255,.04);border-radius:var(--radius-lg);padding:16px}
+    .sidebar-card .label{color:rgba(226,232,240,.66);font-size:12px}
+    .sidebar-card .value{margin-top:8px;font-size:28px;font-weight:700;letter-spacing:-.03em;color:#fff}
+    .sidebar-card .desc{margin-top:8px;color:rgba(226,232,240,.74);font-size:12px;line-height:1.6}
+    .nav{display:grid;gap:6px}
+    .nav button{appearance:none;border:0;background:transparent;color:rgba(226,232,240,.76);text-align:left;width:100%;
+      border-radius:14px;padding:13px 14px;display:flex;align-items:center;justify-content:space-between;font:inherit;cursor:pointer;transition:160ms}
+    .nav button:hover{background:rgba(255,255,255,.05);color:#fff}
+    .nav button.active{background:rgba(36,87,232,.18);color:#fff;box-shadow:inset 0 0 0 1px rgba(96,140,255,.18)}
+    .nav .tag{font-size:12px;color:rgba(226,232,240,.56)}
+    .sidebar-footer{margin-top:auto;padding:12px 8px 0;color:rgba(226,232,240,.54);font-size:12px;line-height:1.7}
+    .content{padding:18px 18px 24px}
+    .topbar{display:flex;justify-content:space-between;align-items:center;gap:16px;margin-bottom:16px}
+    .page-title h2{margin:0;font-size:24px;letter-spacing:-.02em}
+    .page-title p{margin:4px 0 0;color:var(--muted);font-size:13px;line-height:1.6}
+    .status{display:inline-flex;align-items:center;gap:10px;padding:10px 14px;border-radius:999px;background:rgba(255,255,255,.84);
+      border:1px solid var(--line);box-shadow:var(--shadow);color:var(--muted);font-size:13px;white-space:nowrap}
+    .status-dot{width:8px;height:8px;border-radius:999px;background:var(--success);box-shadow:0 0 0 6px rgba(15,138,98,.12)}
+    .section{display:none;animation:fadeUp 420ms ease both}
+    .section.active{display:block}
+    .panel,.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius-xl);box-shadow:var(--shadow)}
+    .card{padding:18px;margin-bottom:14px}
+    @keyframes fadeUp{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+    .card-head{display:flex;justify-content:space-between;align-items:end;gap:12px;margin-bottom:14px}
+    .card-head h4{margin:0;font-size:16px}
+    .card-head p{margin:4px 0 0;color:var(--muted);font-size:12px}
+    .summary-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;margin-bottom:14px}
+    .metric{padding:16px;border-radius:var(--radius-lg);background:var(--surface);border:1px solid var(--line);box-shadow:var(--shadow)}
+    .metric .k{color:var(--muted);font-size:12px}
+    .metric .v{margin-top:10px;font-size:28px;letter-spacing:-.03em}
+    .metric .s{margin-top:6px;color:var(--muted);font-size:12px}
+    /* 负面预警卡 */
+    .alert-card{border:1px solid rgba(220,38,38,.3);background:linear-gradient(180deg,rgba(220,38,38,.045),var(--surface))}
+    .alert-card .card-head h4{color:var(--danger)}
+    /* 总览：分类占比 + 关键词热点 并排 */
+    .overview-row{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:14px}
+    .donut-wrap{display:flex;align-items:center;gap:18px;flex-wrap:wrap}
+    .donut-legend{display:grid;gap:8px;flex:1;min-width:140px}
+    .donut-legend .lg{display:flex;align-items:center;gap:8px;font-size:13px;cursor:pointer;padding:4px 6px;border-radius:8px;transition:120ms}
+    .donut-legend .lg:hover{background:var(--surface-2)}
+    .donut-legend .dot{width:11px;height:11px;border-radius:3px;flex:none}
+    .donut-legend .lg .n{color:var(--muted);margin-left:auto;font-variant-numeric:tabular-nums}
+    .wordcloud{display:flex;flex-wrap:wrap;gap:8px;align-content:flex-start}
+    .wordcloud .w{display:inline-flex;align-items:center;padding:5px 11px;border-radius:999px;
+      background:var(--surface-2);border:1px solid var(--line);cursor:pointer;transition:120ms;line-height:1.2}
+    .wordcloud .w:hover{border-color:var(--accent);color:var(--accent)}
+    .wordcloud .w .c{color:var(--muted);font-size:11px;margin-left:5px}
+    @media(max-width:900px){.overview-row{grid-template-columns:1fr}}
+    /* 更新横幅 */
+    .update-banner{display:none;align-items:center;justify-content:space-between;gap:12px;margin-bottom:14px;padding:14px 18px;
+      border-radius:var(--radius-lg);background:linear-gradient(90deg,rgba(220,38,38,.10),rgba(217,119,6,.08));
+      border:1px solid rgba(220,38,38,.25);box-shadow:var(--shadow);animation:fadeUp 360ms ease both}
+    .update-banner.show{display:flex}
+    .update-banner .ub-left{display:flex;align-items:center;gap:12px}
+    .ub-dot{width:10px;height:10px;border-radius:999px;background:var(--danger);animation:pulse 1.6s infinite}
+    .ub-text strong{font-size:15px}
+    .ub-text span{display:block;font-size:12px;color:var(--muted);margin-top:2px}
+    .update-banner button{appearance:none;border:0;cursor:pointer;font:inherit;background:var(--accent);color:#fff;padding:9px 16px;border-radius:999px;font-size:13px}
+    .update-banner button:hover{background:var(--accent-strong)}
+    @keyframes pulse{0%,100%{box-shadow:0 0 0 4px rgba(220,38,38,.18)}50%{box-shadow:0 0 0 9px rgba(220,38,38,.05)}}
+    /* 筛选条 */
+    .filters{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:14px}
+    .chip{appearance:none;border:1px solid var(--line);background:#fff;color:#526170;padding:8px 14px;border-radius:999px;font:inherit;font-size:13px;cursor:pointer;transition:160ms}
+    .chip:hover{border-color:var(--line-strong)}
+    .chip.active{background:#eff5ff;border-color:rgba(36,87,232,.25);color:var(--accent);font-weight:600}
+    /* 消息列表 */
+    .feed-list{display:grid;gap:12px}
+    .feed-item{padding:16px 17px;border-radius:var(--radius-md);background:var(--surface-2);border:1px solid var(--line);border-left:4px solid var(--muted)}
+    .feed-item.positive{border-left-color:var(--success)}
+    .feed-item.negative{border-left-color:var(--danger)}
+    .feed-item.neutral{border-left-color:var(--accent)}
+    .feed-item.is-new{background:rgba(220,38,38,.04);border-color:rgba(220,38,38,.22)}
+    .feed-top{display:flex;justify-content:space-between;gap:10px;color:var(--muted);font-size:12px;margin-bottom:8px}
+    .feed-item h5{margin:0 0 8px;font-size:14px;line-height:1.55}
+    .feed-item h5 a{color:var(--text);text-decoration:none}
+    .feed-item h5 a:hover{color:var(--accent);text-decoration:underline}
+    .feed-item p{margin:0;color:var(--muted);font-size:12.5px;line-height:1.7}
+    .tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+    .tag{padding:5px 9px;border-radius:999px;background:#eaf1ff;color:#3558a6;font-size:12px}
+    .tag.gray{background:#eef2f7;color:#556175}
+    .badge-new{display:inline-block;margin-left:8px;padding:1px 7px;border-radius:999px;background:var(--danger);color:#fff;font-size:11px;vertical-align:middle}
+    .senti{font-weight:600}
+    .senti.positive{color:var(--success)}
+    .senti.negative{color:var(--danger)}
+    .senti.neutral{color:var(--accent)}
+    .empty{color:var(--muted);font-size:13px;padding:24px;text-align:center}
+    /* 时间快捷筛选 + 日期范围 */
+    .time-bar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:12px}
+    .time-bar .seg-label{font-size:12px;color:var(--muted);margin-right:2px}
+    .date-range{display:flex;align-items:center;gap:6px;margin-left:auto;flex-wrap:wrap}
+    .date-range input[type=date]{padding:7px 10px;border:1px solid var(--line);border-radius:10px;
+      background:var(--surface);color:var(--text);font:inherit;font-size:12.5px;outline:none}
+    .date-range input[type=date]:focus{border-color:var(--accent);box-shadow:0 0 0 3px var(--accent-soft)}
+    .date-range .tilde{color:var(--muted)}
+    .date-range .clear-date{appearance:none;border:1px solid var(--line);background:var(--surface);color:var(--muted);
+      border-radius:999px;padding:6px 12px;font:inherit;font-size:12px;cursor:pointer}
+    .date-range .clear-date:hover{border-color:var(--line-strong);color:var(--text)}
+    [data-theme="dark"] .date-range input[type=date]{color-scheme:dark}
+    /* 时间分组标题 */
+    .feed-group{margin:6px 0 4px;display:flex;align-items:center;gap:10px}
+    .feed-group .gl{font-size:13px;font-weight:600;color:var(--text)}
+    .feed-group .gc{font-size:12px;color:var(--muted);background:var(--surface-2);border:1px solid var(--line);border-radius:999px;padding:2px 9px}
+    .feed-group .gline{flex:1;height:1px;background:var(--line)}
+    /* 工具栏：搜索 + 排序 */
+    .toolbar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:14px}
+    .search-box{flex:1;min-width:200px;position:relative}
+    .search-box input{width:100%;padding:10px 14px 10px 38px;border:1px solid var(--line);border-radius:999px;
+      background:var(--surface);color:var(--text);font:inherit;font-size:13px;outline:none;transition:160ms}
+    .search-box input:focus{border-color:var(--accent);box-shadow:0 0 0 3px var(--accent-soft)}
+    .search-box .ico{position:absolute;left:14px;top:50%;transform:translateY(-50%);color:var(--muted);font-size:14px}
+    .sort-sel{padding:9px 14px;border:1px solid var(--line);border-radius:999px;background:var(--surface);color:var(--text);font:inherit;font-size:13px;cursor:pointer}
+    /* 消息操作按钮 */
+    .feed-actions{display:flex;gap:8px;margin-top:12px}
+    .act{appearance:none;border:1px solid var(--line);background:var(--surface);color:var(--muted);
+      padding:6px 12px;border-radius:999px;font:inherit;font-size:12px;cursor:pointer;transition:160ms;display:inline-flex;align-items:center;gap:5px}
+    .act:hover{border-color:var(--line-strong);color:var(--text)}
+    .act.on-star{background:#fff7e6;border-color:#f5c451;color:#b7791f}
+    .act.on-done{background:rgba(15,138,98,.1);border-color:rgba(15,138,98,.4);color:var(--success)}
+    .act.on-note{background:var(--accent-soft);border-color:rgba(36,87,232,.35);color:var(--accent)}
+    /* 备注 */
+    .note-box{margin-top:10px;display:none}
+    .note-box.show{display:block}
+    .note-box textarea{width:100%;min-height:56px;resize:vertical;padding:9px 11px;border:1px solid var(--line);
+      border-radius:var(--radius-md);background:var(--surface);color:var(--text);font:inherit;font-size:12.5px;line-height:1.6;outline:none}
+    .note-box textarea:focus{border-color:var(--accent);box-shadow:0 0 0 3px var(--accent-soft)}
+    .note-saved{margin-top:10px;padding:9px 12px;border-radius:var(--radius-md);background:var(--accent-soft);
+      border-left:3px solid var(--accent);font-size:12.5px;line-height:1.6;color:var(--text);white-space:pre-wrap}
+    .note-saved .nl{display:block;color:var(--muted);font-size:11px;margin-bottom:3px}
+    /* 盯着他：内容更新提示 */
+    .update-flag{margin-top:10px;padding:9px 12px;border-radius:var(--radius-md);
+      background:linear-gradient(90deg,rgba(220,38,38,.10),rgba(217,119,6,.06));
+      border-left:3px solid var(--danger);font-size:12.5px;line-height:1.6;color:var(--text)}
+    .update-flag .uf-h{display:flex;align-items:center;gap:6px;font-weight:600;color:var(--danger)}
+    .update-flag .uf-t{color:var(--muted);font-size:11px;margin-top:2px}
+    .update-flag .uf-clear{appearance:none;border:0;background:transparent;color:var(--accent);
+      font:inherit;font-size:11px;cursor:pointer;margin-left:auto;text-decoration:underline}
+    .feed-item.has-update{border-left-color:var(--danger);box-shadow:0 0 0 1px rgba(220,38,38,.18)}
+    /* 分类徽标 */
+    .cat-badge{display:inline-block;padding:2px 8px;border-radius:999px;font-size:11px;font-weight:600;margin-right:8px;vertical-align:middle}
+    .cat-财经新闻{background:rgba(36,87,232,.1);color:var(--accent)}
+    .cat-公司公告{background:rgba(15,138,98,.12);color:var(--success)}
+    .cat-社区讨论{background:rgba(217,119,6,.12);color:var(--warn)}
+    .cat-招聘信息{background:rgba(124,58,237,.12);color:#7c3aed}
+    [data-theme="dark"] .cat-招聘信息{color:#b89bff}
+    .feed-item{transition:transform 160ms,box-shadow 160ms}
+    .feed-item:hover{transform:translateY(-2px);box-shadow:var(--shadow)}
+    .feed-item.starred{border-left-color:#f5c451}
+    .feed-item.done{opacity:.62}
+    .corner{position:absolute;top:12px;right:14px;font-size:13px}
+    .feed-item{position:relative}
+    /* 深色模式开关 */
+    .theme-btn{appearance:none;border:1px solid var(--line);background:rgba(255,255,255,.84);color:var(--muted);
+      width:38px;height:38px;border-radius:999px;cursor:pointer;font-size:16px;box-shadow:var(--shadow)}
+    /* 平台热度条 */
+    .trend-row{display:grid;grid-template-columns:90px 1fr 48px;gap:10px;align-items:center;font-size:13px;margin-bottom:10px}
+    .bar{height:9px;border-radius:999px;background:#edf2f8;overflow:hidden}
+    .bar span{display:block;height:100%;border-radius:inherit;background:linear-gradient(90deg,var(--accent),#4f7df2)}
+    /* 来源说明 */
+    .src-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+    .src{padding:16px;border-radius:var(--radius-md);background:var(--surface-2);border:1px solid var(--line)}
+    .src .pill{display:inline-flex;padding:5px 11px;border-radius:999px;background:var(--accent-soft);color:var(--accent);font-size:12px;margin-bottom:10px}
+    .src h5{margin:0 0 6px;font-size:13px}
+    .src p{margin:0;color:var(--muted);font-size:12px;line-height:1.7}
+    .src .stat{display:inline-block;margin-top:8px;font-size:12px;color:var(--text);font-weight:600}
+    .mobile-toggle{display:none}
+    @media(max-width:1140px){.app{grid-template-columns:1fr}.sidebar{position:relative;height:auto}.mobile-toggle{display:inline-flex}
+      .sidebar.collapsed .nav,.sidebar.collapsed .sidebar-card,.sidebar.collapsed .sidebar-footer{display:none}}
+    @media(max-width:900px){.summary-grid{grid-template-columns:repeat(2,1fr)}.src-grid{grid-template-columns:1fr}}
+    @media(max-width:720px){.content{padding:14px}.topbar{flex-direction:column;align-items:flex-start}.status{width:100%;justify-content:space-between}}
+  </style>
+</head>
+<body>
+  <div class="app">
+    <aside class="sidebar" id="sidebar">
+      <div class="brand">
+        <div class="brand-mark"></div>
+        <div>
+          <h1>雷达站</h1>
+          <p>吉比特 · 雷霆游戏 厂牌舆情</p>
+        </div>
+      </div>
+      <div class="sidebar-card">
+        <div class="label">未读新消息</div>
+        <div class="value" id="sideFresh">0</div>
+        <div class="desc" id="sideDesc">抓取脚本发现的新增舆情会在这里计数。</div>
+      </div>
+      <nav class="nav" id="nav">
+        <button class="active" data-tab="overview"><span>总览</span><span class="tag">01</span></button>
+        <button data-tab="feed"><span>全部消息</span><span class="tag" id="navFeedCount">0</span></button>
+        <button data-tab="watch"><span>🎯 盯着他</span><span class="tag" id="navWatchCount">0</span></button>
+        <button data-tab="done"><span>已处理</span><span class="tag" id="navDoneCount">0</span></button>
+        <button data-tab="sources"><span>数据源</span><span class="tag">05</span></button>
+      </nav>
+      <div class="sidebar-footer">
+        网页负责沉淀与分析<br/>飞书负责实时触达
+      </div>
+    </aside>
+
+    <main class="content">
+      <div class="topbar">
+        <div class="page-title">
+          <h2 id="pageTitle">总览</h2>
+          <p id="pageDesc">厂牌舆情整体概况与最新动态</p>
+        </div>
+        <div style="display:flex;gap:10px;align-items:center">
+          <button class="status mobile-toggle" id="toggleSidebar" type="button">菜单</button>
+          <button class="theme-btn" id="themeBtn" type="button" title="切换深色模式">🌙</button>
+          <div class="status"><span class="status-dot"></span><span id="clock">监测中 · --:--</span></div>
+        </div>
+      </div>
+
+      <div class="update-banner" id="updateBanner">
+        <div class="ub-left">
+          <span class="ub-dot"></span>
+          <div class="ub-text"><strong id="ubTitle">发现新消息</strong><span id="ubSub"></span></div>
+        </div>
+        <button id="ubBtn" type="button">查看新消息</button>
+      </div>
+
+      <!-- 总览 -->
+      <section class="section active" id="overview">
+        <div class="summary-grid" id="metricGrid"></div>
+
+        <!-- 负面预警卡 -->
+        <div class="card alert-card" id="alertCard" style="display:none">
+          <div class="card-head"><div><h4>⚠️ 负面预警</h4><p id="alertSub">需要优先关注的负面舆情</p></div></div>
+          <div class="feed-list" id="alertFeed"></div>
+        </div>
+
+        <!-- 分类占比 + 关键词热点 -->
+        <div class="overview-row">
+          <div class="card">
+            <div class="card-head"><div><h4>分类占比</h4><p>点击分类直达「全部消息」对应筛选</p></div></div>
+            <div class="donut-wrap"><canvas id="catDonut" width="160" height="160"></canvas><div class="donut-legend" id="catLegend"></div></div>
+          </div>
+          <div class="card">
+            <div class="card-head"><div><h4>关键词热点</h4><p>近期标题/摘要里的高频词</p></div></div>
+            <div class="wordcloud" id="wordCloud"></div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-head"><div><h4>最新厂牌舆情</h4><p id="feedSub"></p></div></div>
+          <div class="feed-list" id="overviewFeed"></div>
+        </div>
+        <div class="card">
+          <div class="card-head"><div><h4>平台声量分布</h4><p>各数据源抓到的提及条数占比</p></div></div>
+          <div id="trendBars"></div>
+        </div>
+      </section>
+
+      <!-- 全部消息 -->
+      <section class="section" id="feed">
+        <div class="toolbar">
+          <div class="search-box"><span class="ico">🔍</span><input id="searchInput" type="text" placeholder="在已抓消息里搜关键词…" /></div>
+          <select class="sort-sel" id="sortSel">
+            <option value="new">最新优先</option>
+            <option value="old">最早优先</option>
+          </select>
+          <select class="sort-sel" id="sentiSel">
+            <option value="all">全部情绪</option>
+            <option value="positive">只看正向</option>
+            <option value="negative">只看负向</option>
+            <option value="neutral">只看中性</option>
+          </select>
+        </div>
+        <div class="time-bar">
+          <span class="seg-label">时间</span>
+          <button class="chip active" data-range="all">全部</button>
+          <button class="chip" data-range="today">今日</button>
+          <button class="chip" data-range="7d">近 7 天</button>
+          <button class="chip" data-range="30d">近 30 天</button>
+          <div class="date-range">
+            <input type="date" id="dateFrom" title="起始日期" />
+            <span class="tilde">~</span>
+            <input type="date" id="dateTo" title="结束日期" />
+            <button class="clear-date" id="clearDate" type="button">清除</button>
+          </div>
+        </div>
+        <div class="filters" id="filters"></div>
+        <div class="card"><div class="feed-list" id="fullFeed"></div></div>
+      </section>
+
+      <!-- 盯着他 -->
+      <section class="section" id="watch">
+        <div class="card">
+          <div class="card-head"><div><h4>🎯 盯着他</h4><p>加星的帖子在这里持续盯梢，每天抓取时若标题/摘要有变化，会在该条下提示「内容有更新」</p></div></div>
+          <div class="feed-list" id="watchFeed"></div>
+        </div>
+      </section>
+
+      <!-- 已处理 -->
+      <section class="section" id="done">
+        <div class="card">
+          <div class="card-head"><div><h4>已处理</h4><p>已经看过并标记完成的舆情归档</p></div></div>
+          <div class="feed-list" id="doneFeed"></div>
+        </div>
+      </section>
+
+      <!-- 数据源 -->
+      <section class="section" id="sources">
+        <div class="card">
+          <div class="card-head"><div><h4>当前覆盖的数据源</h4><p>每个来源抓到的真实条数，以及覆盖能力说明</p></div></div>
+          <div class="src-grid" id="srcGrid"></div>
+        </div>
+        <div class="card">
+          <div class="card-head"><div><h4>覆盖范围说明</h4><p>实事求是地标注目前能抓和暂时抓不到的</p></div></div>
+          <div class="src-grid">
+            <div class="src"><div class="pill">✅ 已覆盖</div><h5>财经 / 新闻 / 公告</h5><p>股价、财报、业绩预告、分红、上市公司公告等。东方财富接口免登录稳定抓取，每日定时更新。</p></div>
+            <div class="src"><div class="pill">✅ 已覆盖</div><h5>社区讨论 / 招聘信息</h5><p>知乎（玩家口碑、行业分析）、脉脉与牛客（招聘、面经）已经 SerpAPI 接入，每天 9 点抓取一次。</p></div>
+            <div class="src"><div class="pill" style="background:rgba(220,38,38,.1);color:var(--danger)">❌ 抓不到</div><h5>小红书</h5><p>小红书屏蔽搜索引擎收录，SerpAPI 实测返回 0 条，暂无可行的免登录抓取方案。</p></div>
+            <div class="src"><div class="pill" style="background:rgba(15,138,98,.1);color:var(--success)">✅ 已就绪</div><h5>无人值守 + 飞书推送</h5><p>抓取已固化为定时脚本（每日 9/13/18 点）。飞书推送代码已预留，填入群机器人 Webhook 即可自动推送。</p></div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="data.js"></script>
+  <script>
+    const DATA = window.MONITOR_DATA || { updatedAt:"", keywords:[], items:[] };
+    const SEEN_KEY = "brandMonitorSeenIds_v2";
+    const STAR_KEY = "brandMonitorStarred";
+    const DONE_KEY = "brandMonitorDone";
+    const NOTE_KEY = "brandMonitorNotes";
+    const THEME_KEY = "brandMonitorTheme";
+    const UPDSEEN_KEY = "brandMonitorUpdateSeen"; // {id: lastChange} 记录已读的更新标记
+    const SENTI = { positive:"正向", negative:"负向", neutral:"中性" };
+    const state = { tab:"overview", category:"全部", q:"", sort:"new", senti:"all", range:"all", from:"", to:"" };
+
+    // ---- 时间工具 ----
+    const todayStr = () => { const n=new Date(); const p=x=>String(x).padStart(2,"0"); return `${n.getFullYear()}-${p(n.getMonth()+1)}-${p(n.getDate())}`; };
+    const dayOf = item => (item.time||"").slice(0,10); // "2026-06-09"
+    // 用日期数差判断快捷区间
+    function inRange(item){
+      const d = dayOf(item); if(!d) return true;
+      // 自定义日期范围优先（任一端填了就生效）
+      if(state.from && d < state.from) return false;
+      if(state.to && d > state.to) return false;
+      if(state.from || state.to) return true;
+      if(state.range==="all") return true;
+      const today = todayStr();
+      if(state.range==="today") return d===today;
+      const diffDays = (Date.parse(today) - Date.parse(d)) / 86400000;
+      if(state.range==="7d") return diffDays < 7;
+      if(state.range==="30d") return diffDays < 30;
+      return true;
+    }
+    // 给一条消息归到哪个时间分组
+    function groupOf(item){
+      const d = dayOf(item), today = todayStr();
+      if(d===today) return "今天";
+      const diff = (Date.parse(today) - Date.parse(d)) / 86400000;
+      if(diff < 1.5) return "昨天";
+      if(diff < 7) return "本周更早";
+      // 更早的按"YYYY年M月"分组
+      const [y,m] = d.split("-"); return `${y}年${parseInt(m,10)}月`;
+    }
+    // 把已排序的列表渲染成"分组标题 + 卡片"的 HTML
+    function renderGrouped(items, seen){
+      if(!items.length) return "";
+      let html="", lastG=null;
+      for(const it of items){
+        const g = groupOf(it);
+        if(g!==lastG){
+          const cnt = items.filter(x=>groupOf(x)===g).length;
+          html += `<div class="feed-group"><span class="gl">${esc(g)}</span><span class="gc">${cnt} 条</span><span class="gline"></span></div>`;
+          lastG = g;
+        }
+        html += itemHTML(it, seen);
+      }
+      return html;
+    }
+
+    const lsGet = k => { try { return JSON.parse(localStorage.getItem(k)||"[]"); } catch(e){ return []; } };
+    const lsSet = (k,v) => localStorage.setItem(k, JSON.stringify(v));
+    const getSeen = () => lsGet(SEEN_KEY);
+    const markAllSeen = () => lsSet(SEEN_KEY, DATA.items.map(i=>i.id));
+    const newItems = () => { const s=getSeen(); return DATA.items.filter(i=>!s.includes(i.id)); };
+    const esc = s => String(s==null?"":s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+    function toggleId(key,id){ const a=lsGet(key); const i=a.indexOf(id); if(i>=0)a.splice(i,1); else a.push(id); lsSet(key,a); }
+    const isStar = id => lsGet(STAR_KEY).includes(id);
+    const isDone = id => lsGet(DONE_KEY).includes(id);
+    const getNotes = () => { try { return JSON.parse(localStorage.getItem(NOTE_KEY)||"{}"); } catch(e){ return {}; } };
+    const getNote = id => getNotes()[id] || "";
+    function saveNote(id,text){ const o=getNotes(); if(text.trim())o[id]=text.trim(); else delete o[id]; localStorage.setItem(NOTE_KEY,JSON.stringify(o)); }
+
+    // 「盯着他」更新提示：item.lastChange 比已读记录新，则该条有未读更新
+    const getUpdSeen = () => { try { return JSON.parse(localStorage.getItem(UPDSEEN_KEY)||"{}"); } catch(e){ return {}; } };
+    function hasUnreadUpdate(item){ return item.changeNote && item.lastChange && getUpdSeen()[item.id] !== item.lastChange; }
+    function markUpdateSeen(id){ const o=getUpdSeen(); const it=DATA.items.find(x=>x.id===id); if(it&&it.lastChange){ o[id]=it.lastChange; localStorage.setItem(UPDSEEN_KEY,JSON.stringify(o)); } }
+
+    function itemHTML(item, seen){
+      const isNew = !seen.includes(item.id), star=isStar(item.id), done=isDone(item.id), note=getNote(item.id);
+      const upd = hasUnreadUpdate(item);
+      return `<article class="feed-item ${item.sentiment} ${isNew?"is-new":""} ${star?"starred":""} ${done?"done":""} ${upd?"has-update":""}" data-id="${esc(item.id)}">
+        ${star?'<span class="corner">⭐</span>':''}
+        <div class="feed-top"><span>${item.category?`<span class="cat-badge cat-${esc(item.category)}">${esc(item.category)}</span>`:''}${esc(item.platform)} · ${esc(item.time)}</span>
+          <span class="senti ${item.sentiment}">${SENTI[item.sentiment]||"中性"}</span></div>
+        <h5><a href="${esc(item.url)}" target="_blank" rel="noopener">${esc(item.title)}</a>${isNew?'<span class="badge-new">NEW</span>':''}</h5>
+        <p>${esc(item.summary)}</p>
+        <div class="tags">${(item.tags||[]).map(t=>`<span class="tag gray">${esc(t)}</span>`).join("")}</div>
+        ${upd?`<div class="update-flag"><div class="uf-h">🔔 内容有更新：${esc(item.changeNote)}<button class="uf-clear" data-act="updseen" data-id="${esc(item.id)}">标为已读</button></div><div class="uf-t">检测于 ${esc(item.lastChange)} · 点标题去原帖看最新内容</div></div>`:''}
+        ${note?`<div class="note-saved"><span class="nl">📝 我的备注</span>${esc(note)}</div>`:''}
+        <div class="feed-actions">
+          <button class="act ${star?"on-star":""}" data-act="star" data-id="${esc(item.id)}">${star?"★ 已加星":"☆ 加星"}</button>
+          <button class="act ${done?"on-done":""}" data-act="done" data-id="${esc(item.id)}">${done?"✓ 已处理":"标记已处理"}</button>
+          <button class="act ${note?"on-note":""}" data-act="note" data-id="${esc(item.id)}">${note?"✎ 编辑备注":"+ 备注"}</button>
+        </div>
+        <div class="note-box" data-note-box="${esc(item.id)}">
+          <textarea placeholder="写点跟进备注…（自动保存）">${esc(note)}</textarea>
+        </div>
+      </article>`;
+    }
+
+    function renderMetrics(){
+      const total=DATA.items.length, pos=DATA.items.filter(i=>i.sentiment==="positive").length,
+        neg=DATA.items.filter(i=>i.sentiment==="negative").length, fresh=newItems().length,
+        posRate=total?Math.round(pos/total*100):0;
+      document.getElementById("metricGrid").innerHTML=`
+        <div class="metric"><div class="k">累计提及</div><div class="v">${total}</div><div class="s">关键词全平台合计</div></div>
+        <div class="metric"><div class="k">正向声量</div><div class="v">${posRate}%</div><div class="s">${pos} 正向 / ${neg} 负向</div></div>
+        <div class="metric"><div class="k">未读新消息</div><div class="v">${fresh}</div><div class="s">${fresh?"建议点开查看":"暂无新内容"}</div></div>
+        <div class="metric"><div class="k">数据更新</div><div class="v" style="font-size:18px">${(DATA.updatedAt||"--").split(" ")[1]||"--"}</div><div class="s">${(DATA.updatedAt||"").split(" ")[0]||""}</div></div>`;
+    }
+
+    function renderTrends(){
+      const map={}; DATA.items.forEach(i=>map[i.platform]=(map[i.platform]||0)+1);
+      const max=Math.max(1,...Object.values(map));
+      const rows=Object.entries(map).sort((a,b)=>b[1]-a[1]).map(([name,n])=>`
+        <div class="trend-row"><div>${esc(name)}</div>
+          <div class="bar"><span style="width:${Math.round(n/max*100)}%"></span></div>
+          <div style="text-align:right;color:var(--muted)">${n}</div></div>`).join("");
+      document.getElementById("trendBars").innerHTML=rows||'<div class="empty">暂无数据</div>';
+    }
+
+    function renderOverviewFeed(){
+      const seen=getSeen();
+      const latest=DATA.items.slice().sort((a,b)=>a.time<b.time?1:-1).slice(0,6);
+      document.getElementById("overviewFeed").innerHTML=renderGrouped(latest,seen)||'<div class="empty">暂无抓取到的消息</div>';
+      document.getElementById("feedSub").textContent=`「${(DATA.keywords||[]).join(" / ")}」· 共 ${DATA.items.length} 条 · 更新于 ${DATA.updatedAt||"--"}`;
+    }
+
+    // B. 负面预警卡：挑出负面消息，按时间倒序置顶展示
+    function renderAlert(){
+      const seen=getSeen();
+      const negs=DATA.items.filter(i=>i.sentiment==="negative").sort((a,b)=>a.time<b.time?1:-1);
+      const card=document.getElementById("alertCard");
+      if(!negs.length){ card.style.display="none"; return; }
+      card.style.display="";
+      document.getElementById("alertSub").textContent=`共 ${negs.length} 条负面舆情，建议优先核实处理`;
+      document.getElementById("alertFeed").innerHTML=negs.slice(0,5).map(i=>itemHTML(i,seen)).join("");
+    }
+
+    // C. 分类占比环形图（canvas 手绘，无依赖）
+    const CAT_COLORS={"财经新闻":"#2457e8","公司公告":"#0f8a62","社区讨论":"#d97706","招聘信息":"#7c3aed"};
+    function renderDonut(){
+      const order=["财经新闻","公司公告","社区讨论","招聘信息"];
+      const counts=order.map(c=>({c,n:DATA.items.filter(i=>i.category===c).length})).filter(x=>x.n>0);
+      const total=counts.reduce((s,x)=>s+x.n,0);
+      const cv=document.getElementById("catDonut"), ctx=cv.getContext("2d");
+      ctx.clearRect(0,0,160,160);
+      const cx=80,cy=80,r=66,inner=40; let start=-Math.PI/2;
+      if(!total){ document.getElementById("catLegend").innerHTML='<div class="empty">暂无数据</div>'; return; }
+      counts.forEach(({c,n})=>{
+        const ang=n/total*Math.PI*2;
+        ctx.beginPath(); ctx.moveTo(cx,cy);
+        ctx.arc(cx,cy,r,start,start+ang); ctx.closePath();
+        ctx.fillStyle=CAT_COLORS[c]||"#94a3b8"; ctx.fill();
+        start+=ang;
+      });
+      // 中间挖空做成环形
+      ctx.beginPath(); ctx.arc(cx,cy,inner,0,Math.PI*2);
+      ctx.fillStyle=getComputedStyle(document.querySelector(".card")).backgroundColor; ctx.fill();
+      ctx.fillStyle=getComputedStyle(document.body).color;
+      ctx.font="600 22px sans-serif"; ctx.textAlign="center"; ctx.textBaseline="middle";
+      ctx.fillText(String(total),cx,cy-6);
+      ctx.font="11px sans-serif"; ctx.fillStyle="#94a3b8"; ctx.fillText("总条数",cx,cy+13);
+      document.getElementById("catLegend").innerHTML=counts.map(({c,n})=>`
+        <div class="lg" data-cat="${esc(c)}"><span class="dot" style="background:${CAT_COLORS[c]}"></span>
+          <span>${esc(c)}</span><span class="n">${n}（${Math.round(n/total*100)}%）</span></div>`).join("");
+      document.querySelectorAll("#catLegend .lg").forEach(el=>el.onclick=()=>{
+        state.category=el.dataset.cat; renderFilters(); renderFullFeed(); activateTab("feed");
+      });
+    }
+
+    // D. 关键词热点：从标题+摘要提取高频词（无分词库，用预设词表匹配 + 计数）
+    const STOP_WORDS=["吉比特","雷霆游戏","雷霆","游戏","公司","表示","目前","进行","以及","可以","我们","他们","这个","一个","知乎","用户","回答","文章"];
+    // 业务相关的候选热词（命中即计数），覆盖财经/产品/招聘几类语义
+    const HOT_TERMS=["分红","派现","业绩","营收","净利","利润","增长","下滑","回购","股价","研报","财报","一季报","年报",
+      "出海","上线","新游","版号","流水","付费","买量","口碑","玩法","放置","RPG","制作人","AI","项目",
+      "招聘","校招","秋招","内推","面经","凉经","实习","岗位","offer","解散","裁员","调整","奖金"];
+    function renderWordCloud(){
+      const text=DATA.items.map(i=>(i.title||"")+(i.summary||"")).join(" ");
+      const freq={};
+      HOT_TERMS.forEach(w=>{
+        if(STOP_WORDS.includes(w)) return;
+        const re=new RegExp(w.replace(/[.*+?^${}()|[\]\\]/g,"\\$&"),"g");
+        const n=(text.match(re)||[]).length;
+        if(n>0) freq[w]=n;
+      });
+      const sorted=Object.entries(freq).sort((a,b)=>b[1]-a[1]).slice(0,18);
+      const box=document.getElementById("wordCloud");
+      if(!sorted.length){ box.innerHTML='<div class="empty">暂无足够数据提取热词</div>'; return; }
+      const max=sorted[0][1];
+      box.innerHTML=sorted.map(([w,n])=>{
+        const size=13+Math.round(n/max*7); // 13~20px 按热度
+        return `<span class="w" data-w="${esc(w)}" style="font-size:${size}px">${esc(w)}<span class="c">${n}</span></span>`;
+      }).join("");
+      box.querySelectorAll(".w").forEach(el=>el.onclick=()=>{
+        state.q=el.dataset.w; document.getElementById("searchInput").value=el.dataset.w;
+        renderFullFeed(); activateTab("feed");
+      });
+    }
+
+    function renderFilters(){
+      // 按分类筛选（财经新闻/公司公告/社区讨论/招聘信息），不再按单家媒体细分
+      const order=["财经新闻","公司公告","社区讨论","招聘信息"];
+      const present=order.filter(c=>DATA.items.some(i=>i.category===c));
+      const names=["全部",...present];
+      document.getElementById("filters").innerHTML=names.map(n=>{
+        const cnt=n==="全部"?DATA.items.length:DATA.items.filter(i=>i.category===n).length;
+        return `<button class="chip ${state.category===n?"active":""}" data-name="${esc(n)}">${esc(n)} (${cnt})</button>`;
+      }).join("");
+      document.querySelectorAll("#filters .chip").forEach(b=>b.onclick=()=>{state.category=b.dataset.name;renderFilters();renderFullFeed();});
+    }
+
+    function applyFilters(list){
+      let items=list.slice();
+      if(state.category!=="全部") items=items.filter(i=>i.category===state.category);
+      if(state.senti!=="all") items=items.filter(i=>i.sentiment===state.senti);
+      items=items.filter(inRange);
+      if(state.q.trim()){
+        const q=state.q.trim().toLowerCase();
+        items=items.filter(i=>(i.title+i.summary+(i.tags||[]).join("")).toLowerCase().includes(q));
+      }
+      items.sort((a,b)=> state.sort==="new" ? (a.time<b.time?1:-1) : (a.time>b.time?1:-1));
+      return items;
+    }
+
+    function renderFullFeed(){
+      const seen=getSeen();
+      const items=applyFilters(DATA.items);
+      const html = state.sort==="new" ? renderGrouped(items,seen) : items.map(i=>itemHTML(i,seen)).join("");
+      document.getElementById("fullFeed").innerHTML=html
+        || `<div class="empty">没有匹配的消息${state.q?`：找不到「${esc(state.q)}」`:""}</div>`;
+    }
+
+    function renderDone(){
+      const seen=getSeen();
+      const items=DATA.items.filter(i=>isDone(i.id)).filter(inRange)
+        .sort((a,b)=>a.time<b.time?1:-1);
+      document.getElementById("doneFeed").innerHTML=renderGrouped(items,seen)
+        || '<div class="empty">还没有标记已处理的消息（或不在当前时间范围内）。</div>';
+    }
+
+    // 盯着他：星标帖子单独一列，有未读更新的排在最前
+    function renderWatch(){
+      const seen=getSeen();
+      const items=DATA.items.filter(i=>isStar(i.id))
+        .sort((a,b)=>{
+          const ua=hasUnreadUpdate(a)?1:0, ub=hasUnreadUpdate(b)?1:0;
+          if(ua!==ub) return ub-ua;               // 有更新的置顶
+          return a.time<b.time?1:-1;               // 其余按时间倒序
+        });
+      document.getElementById("watchFeed").innerHTML=items.map(i=>itemHTML(i,seen)).join("")
+        || '<div class="empty">还没有盯梢的帖子。在任意消息上点 ☆ 加星，它就会进入这里被持续盯梢；每天抓取时若该帖标题/摘要有变化，会在此提示「内容有更新」。</div>';
+    }
+
+    function renderSources(){
+      const map={}; DATA.items.forEach(i=>map[i.platform]=(map[i.platform]||0)+1);
+      const entries=Object.entries(map).sort((a,b)=>b[1]-a[1]);
+      document.getElementById("srcGrid").innerHTML=entries.map(([n,c])=>`
+        <div class="src"><div class="pill">${esc(n)}</div><h5>已抓取 ${c} 条</h5>
+        <p>来自该来源的真实提及记录，可在「全部消息」中按此来源筛选查看。</p></div>`).join("")||'<div class="empty">暂无数据源</div>';
+    }
+
+    function renderBanner(){
+      const nw=newItems(), banner=document.getElementById("updateBanner");
+      if(nw.length){
+        document.getElementById("ubTitle").textContent=`发现 ${nw.length} 条新消息`;
+        document.getElementById("ubSub").textContent=nw[0].title.slice(0,40)+(nw[0].title.length>40?"…":"");
+        banner.classList.add("show");
+      } else banner.classList.remove("show");
+      const f=nw.length;
+      document.getElementById("sideFresh").textContent=String(f).padStart(2,"0");
+      document.getElementById("sideDesc").textContent=f?`有 ${f} 条新抓取的舆情待查看。`:"暂无新增，所有舆情均已查看。";
+      document.getElementById("navFeedCount").textContent=DATA.items.length;
+      document.getElementById("navDoneCount").textContent=lsGet(DONE_KEY).length;
+      // 盯着他：显示有未读更新的条数（无更新则显示盯梢总数）
+      const watchUpd=DATA.items.filter(i=>isStar(i.id)&&hasUnreadUpdate(i)).length;
+      const watchAll=DATA.items.filter(i=>isStar(i.id)).length;
+      const wc=document.getElementById("navWatchCount");
+      wc.textContent=watchUpd?`${watchUpd}🔴`:String(watchAll);
+    }
+
+    function renderAll(){ renderMetrics();renderTrends();renderAlert();renderDonut();renderWordCloud();renderOverviewFeed();renderFilters();renderFullFeed();renderWatch();renderDone();renderSources();renderBanner(); }
+  </script>
+
+  <script>
+    const tabMeta={
+      overview:{t:"总览",d:"厂牌舆情整体概况与最新动态"},
+      feed:{t:"全部消息",d:"搜索、筛选、排序，查看所有抓取到的提及"},
+      watch:{t:"🎯 盯着他",d:"加星的帖子持续盯梢，标题/摘要有变化即在该条下提示更新"},
+      done:{t:"已处理",d:"已经看过并标记完成的舆情归档"},
+      sources:{t:"数据源",d:"当前覆盖了哪些来源，以及覆盖能力边界"}
+    };
+    function activateTab(tab){
+      state.tab=tab;
+      document.querySelectorAll(".section").forEach(s=>s.classList.toggle("active",s.id===tab));
+      document.querySelectorAll("#nav button").forEach(b=>b.classList.toggle("active",b.dataset.tab===tab));
+      document.getElementById("pageTitle").textContent=tabMeta[tab].t;
+      document.getElementById("pageDesc").textContent=tabMeta[tab].d;
+    }
+    document.getElementById("nav").addEventListener("click",e=>{
+      const b=e.target.closest("button[data-tab]"); if(b) activateTab(b.dataset.tab);
+    });
+    document.getElementById("ubBtn").addEventListener("click",()=>{
+      activateTab("feed"); markAllSeen(); renderAll();
+      window.scrollTo({top:0,behavior:"smooth"});
+    });
+    document.getElementById("toggleSidebar").addEventListener("click",()=>document.getElementById("sidebar").classList.toggle("collapsed"));
+
+    // 工具栏：搜索 / 排序 / 情绪
+    document.getElementById("searchInput").addEventListener("input",e=>{state.q=e.target.value;renderFullFeed();});
+    document.getElementById("sortSel").addEventListener("change",e=>{state.sort=e.target.value;renderFullFeed();});
+    document.getElementById("sentiSel").addEventListener("change",e=>{state.senti=e.target.value;renderFullFeed();});
+
+    // 时间筛选影响 全部消息+已处理 两页，统一刷新（盯着他不按时间过滤）
+    function renderTimeAffected(){ renderFullFeed(); renderDone(); }
+
+    // 时间快捷筛选（全部/今日/近7天/近30天）
+    document.querySelector(".time-bar").addEventListener("click",e=>{
+      const b=e.target.closest("button[data-range]"); if(!b) return;
+      state.range=b.dataset.range;
+      // 选了快捷区间就清掉自定义日期，避免互相打架
+      state.from=""; state.to="";
+      document.getElementById("dateFrom").value=""; document.getElementById("dateTo").value="";
+      document.querySelectorAll(".time-bar button[data-range]").forEach(x=>x.classList.toggle("active",x===b));
+      renderTimeAffected();
+    });
+    // 自定义日期范围
+    function onDateChange(){
+      state.from=document.getElementById("dateFrom").value;
+      state.to=document.getElementById("dateTo").value;
+      if(state.from||state.to){
+        state.range="custom";
+        document.querySelectorAll(".time-bar button[data-range]").forEach(x=>x.classList.remove("active"));
+      }
+      renderTimeAffected();
+    }
+    document.getElementById("dateFrom").addEventListener("change",onDateChange);
+    document.getElementById("dateTo").addEventListener("change",onDateChange);
+    document.getElementById("clearDate").addEventListener("click",()=>{
+      state.from=""; state.to=""; state.range="all";
+      document.getElementById("dateFrom").value=""; document.getElementById("dateTo").value="";
+      const allBtn=document.querySelector('.time-bar button[data-range="all"]');
+      document.querySelectorAll(".time-bar button[data-range]").forEach(x=>x.classList.toggle("active",x===allBtn));
+      renderTimeAffected();
+    });
+
+    // 加星 / 已处理 / 备注（事件委托，覆盖所有列表）
+    document.body.addEventListener("click",e=>{
+      const btn=e.target.closest(".act"); if(!btn) return;
+      const id=btn.dataset.id, act=btn.dataset.act;
+      if(act==="note"){
+        // 展开/收起该条的备注编辑框，不重渲染（避免输入中断）
+        const box=document.querySelector(`[data-note-box="${CSS.escape(id)}"]`);
+        if(box){ box.classList.toggle("show"); if(box.classList.contains("show")) box.querySelector("textarea").focus(); }
+        return;
+      }
+      if(act==="updseen"){ markUpdateSeen(id); renderAll(); return; } // 盯着他：标更新为已读
+      toggleId(act==="star"?STAR_KEY:DONE_KEY, id);
+      renderAll();
+    });
+
+    // 备注自动保存（输入即存；失焦时重渲染以更新展示）
+    document.body.addEventListener("input",e=>{
+      const ta=e.target.closest(".note-box textarea"); if(!ta) return;
+      const id=ta.closest("[data-note-box]").getAttribute("data-note-box");
+      saveNote(id, ta.value);
+    });
+    document.body.addEventListener("focusout",e=>{
+      const ta=e.target.closest(".note-box textarea"); if(!ta) return;
+      renderAll();
+    });
+
+    // 深色模式
+    const themeBtn=document.getElementById("themeBtn");
+    function applyTheme(t){
+      if(t==="dark"){document.documentElement.setAttribute("data-theme","dark");themeBtn.textContent="☀️";}
+      else{document.documentElement.removeAttribute("data-theme");themeBtn.textContent="🌙";}
+    }
+    themeBtn.addEventListener("click",()=>{
+      const cur=localStorage.getItem(THEME_KEY)==="dark"?"light":"dark";
+      localStorage.setItem(THEME_KEY,cur); applyTheme(cur);
+    });
+    applyTheme(localStorage.getItem(THEME_KEY)||"light");
+
+    function updateClock(){const n=new Date();document.getElementById("clock").textContent="监测中 · "+n.toLocaleTimeString("zh-CN",{hour:"2-digit",minute:"2-digit"});}
+
+    renderAll();
+    activateTab("overview");
+    updateClock(); setInterval(updateClock,1000);
+  </script>
+</body>
+</html>
