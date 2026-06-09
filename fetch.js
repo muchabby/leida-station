@@ -187,14 +187,21 @@ function writeData(obj){
 async function pushLark(newItems){
   if(!LARK_WEBHOOK || !newItems.length) return;
   const SITE = "https://muchabby.github.io/leida-station/";
-  const sentiIcon = { positive:"🟢", negative:"🔴", neutral:"⚪" };
-  // 负面优先排在前面，醒目
+  // 清理标题：去掉知乎"- XX的回答/- 知乎用户的回答"等尾巴，去多余空白，过长截断
+  const clean = t => {
+    let s = String(t||"").replace(/\s*[-–—]\s*[^-–—]{0,20}的回答\s*$/,"")  // 去"- 翟健的回答"
+                         .replace(/\s*[-–—]\s*知乎.*$/,"")                  // 去"- 知乎用户..."
+                         .replace(/\s+/g," ").trim();
+    return s.length > 34 ? s.slice(0,34)+"…" : s;
+  };
+  // 负面排前面
   const sorted = newItems.slice().sort((a,b)=> (a.sentiment==="negative"?-1:0) - (b.sentiment==="negative"?-1:0));
   const negCount = newItems.filter(i=>i.sentiment==="negative").length;
-  const lines = sorted.slice(0,12).map((i,idx)=>`${idx+1}. ${sentiIcon[i.sentiment]||"⚪"}[${i.platform}] ${i.title}`).join("\n");
-  let head = `📡 雷达站 · 吉比特/雷霆游戏舆情更新\n发现 ${newItems.length} 条新消息`;
-  if(negCount) head += `，其中 ⚠️ ${negCount} 条负面`;
-  const text = `${head}\n\n${lines}\n\n👉 查看全部：${SITE}`;
+  const lines = sorted.slice(0,10).map(i=>`· ${clean(i.title)}`).join("\n");
+  const more = newItems.length>10 ? `\n… 还有 ${newItems.length-10} 条` : "";
+  let head = `📡 雷达站 · 今天更新 ${newItems.length} 条`;
+  if(negCount) head += `（含 ${negCount} 条负面 ⚠️）`;
+  const text = `${head}\n\n${lines}${more}\n\n👉 查看全部：${SITE}`;
   try{
     const res = await fetch(LARK_WEBHOOK, { method:"POST", headers:{"Content-Type":"application/json"},
       body: JSON.stringify({ msg_type:"text", content:{ text } }) });
