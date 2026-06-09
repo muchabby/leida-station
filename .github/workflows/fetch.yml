@@ -40,6 +40,7 @@ jobs:
       - name: 运行抓取
         env:
           SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
+          LARK_WEBHOOK: ${{ secrets.LARK_WEBHOOK }}
           FETCH_SOCIAL: ${{ steps.decide.outputs.social == 'true' && '1' || '0' }}
         run: node fetch.js
 

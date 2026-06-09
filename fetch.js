@@ -186,12 +186,21 @@ function writeData(obj){
 // ---- 飞书推送 ----
 async function pushLark(newItems){
   if(!LARK_WEBHOOK || !newItems.length) return;
-  const lines = newItems.slice(0,10).map((i,idx)=>`${idx+1}. [${i.platform}] ${i.title}`).join("\n");
-  const text = `📡 雷达站发现 ${newItems.length} 条新舆情（吉比特/雷霆游戏）\n\n${lines}`;
+  const SITE = "https://muchabby.github.io/leida-station/";
+  const sentiIcon = { positive:"🟢", negative:"🔴", neutral:"⚪" };
+  // 负面优先排在前面，醒目
+  const sorted = newItems.slice().sort((a,b)=> (a.sentiment==="negative"?-1:0) - (b.sentiment==="negative"?-1:0));
+  const negCount = newItems.filter(i=>i.sentiment==="negative").length;
+  const lines = sorted.slice(0,12).map((i,idx)=>`${idx+1}. ${sentiIcon[i.sentiment]||"⚪"}[${i.platform}] ${i.title}`).join("\n");
+  let head = `📡 雷达站 · 吉比特/雷霆游戏舆情更新\n发现 ${newItems.length} 条新消息`;
+  if(negCount) head += `，其中 ⚠️ ${negCount} 条负面`;
+  const text = `${head}\n\n${lines}\n\n👉 查看全部：${SITE}`;
   try{
-    await fetch(LARK_WEBHOOK, { method:"POST", headers:{"Content-Type":"application/json"},
+    const res = await fetch(LARK_WEBHOOK, { method:"POST", headers:{"Content-Type":"application/json"},
       body: JSON.stringify({ msg_type:"text", content:{ text } }) });
-    console.log("已推送飞书");
+    const r = await res.json().catch(()=>({}));
+    if(r.code && r.code!==0) console.log("飞书推送返回异常：", JSON.stringify(r));
+    else console.log("已推送飞书");
   }catch(e){ console.log("飞书推送失败：", e.message); }
 }
 
