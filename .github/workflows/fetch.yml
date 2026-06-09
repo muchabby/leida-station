@@ -1,0 +1,58 @@
+name: 雷达站定时抓取
+
+on:
+  schedule:
+    # 北京时间 = UTC+8。下面是 UTC 时间。
+    - cron: '3 1 * * *'   # 北京 09:03 —— 抓全套（含社交站）
+    - cron: '3 5 * * *'   # 北京 13:03 —— 只抓新闻+公告
+    - cron: '3 10 * * *'  # 北京 18:03 —— 只抓新闻+公告
+  workflow_dispatch:       # 允许在 Actions 页面手动触发
+    inputs:
+      fetch_social:
+        description: '是否抓社交站(知乎/脉脉/牛客，消耗SerpAPI额度)'
+        type: boolean
+        default: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write   # 允许 commit 回仓库
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+
+      - name: 安装 Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: 判断本次是否抓社交站
+        id: decide
+        run: |
+          # 定时触发：只有 UTC 01:03 那班（北京9点）抓社交；手动触发看输入
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "social=${{ github.event.inputs.fetch_social }}" >> "$GITHUB_OUTPUT"
+          elif [ "${{ github.event.schedule }}" = "3 1 * * *" ]; then
+            echo "social=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "social=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: 运行抓取
+        env:
+          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
+          FETCH_SOCIAL: ${{ steps.decide.outputs.social == 'true' && '1' || '0' }}
+        run: node fetch.js
+
+      - name: 提交更新的数据
+        run: |
+          git config user.name "leida-bot"
+          git config user.email "leida-bot@users.noreply.github.com"
+          if git diff --quiet data.js; then
+            echo "data.js 无变化，跳过提交"
+          else
+            git add data.js
+            git commit -m "自动更新舆情数据 $(date -u '+%Y-%m-%d %H:%M UTC')"
+            git push
+          fi
