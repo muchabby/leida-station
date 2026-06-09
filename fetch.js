@@ -148,12 +148,13 @@ function isMeaningful(title){
   return true;
 }
 
-// 解析知乎/搜索结果的时间：支持 "N天前/N小时前"、"2026年4月3日"、"2026-04-03"，失败则兜底当天
+// 解析知乎/搜索结果的发帖时间：支持 "N天前/N小时前"、"2026年4月3日"、"2026-04-03"。
+// 解析不出（SerpAPI 没返回日期）则返回空串 ""，排序时沉底、前端显示"日期未知"，绝不冒充抓取时间。
 function parseZhihuDate(raw){
   const p = x => String(x).padStart(2,"0");
   const fmt = d => `${d.getFullYear()}-${p(d.getMonth()+1)}-${p(d.getDate())} ${p(d.getHours())}:${p(d.getMinutes())}`;
   const now = bjNow();
-  if(!raw) return fmt(now);
+  if(!raw) return "";   // 无日期 → 空，不兜底当天
   const s = String(raw).trim();
   let m;
   if((m = s.match(/(\d+)\s*天前/)))   { const d=new Date(now); d.setDate(d.getDate()-(+m[1])); return fmt(d); }
@@ -164,7 +165,7 @@ function parseZhihuDate(raw){
     return `${m[1]}-${p(m[2])}-${p(m[3])} 00:00`;
   const t = Date.parse(s);
   if(!isNaN(t)) return fmt(new Date(t));
-  return fmt(now);  // 实在解析不出，兜底当天，至少不破坏排序
+  return "";   // 实在解析不出 → 空，沉底
 }
 
 // ---- 读取现有 data.js，拿到已有 items 做去重 ----
