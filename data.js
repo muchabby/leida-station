@@ -1,41 +1,12 @@
 // 舆情数据文件 —— 由 fetch.js 自动写入，请勿手动编辑
 // 页面通过 <script src="data.js"> 读取，避免 file:// 下 fetch 被浏览器拦截
 window.MONITOR_DATA = {
-  "updatedAt": "2026-06-09 15:38",
+  "updatedAt": "2026-06-09 16:15",
   "keywords": [
     "吉比特",
     "雷霆游戏"
   ],
   "items": [
-    {
-      "id": "zhihu-668992375",
-      "platform": "知乎",
-      "title": "深圳吉比特雷霆游戏前端日常实习面试面经",
-      "summary": "最新最全的求职面经、求职攻略戳：https://link.youzhiwk.com/r/6Aa8xwQHiO一面（40多分钟）1.自我介绍2.你是如何接触并学习前端的3.说一下你对vue3的了解，为什么vue3的 ...",
-      "url": "https://zhuanlan.zhihu.com/p/668992375",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "知乎",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "招聘信息"
-    },
-    {
-      "id": "zhihu-ktcWluZy1iYW8temhhbg",
-      "platform": "知乎",
-      "title": "雷霆游戏情报站",
-      "summary": "属于雷霆游戏玩家的情报站，最新动态资讯、试玩评测都在这里！ -官方公众号：LTGames -官方微博：@雷霆游戏 -官方b站账号：雷霆游戏. 详细资料​ ...",
-      "url": "https://www.zhihu.com/org/lei-ting-you-xi-qing-bao-zhan",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "知乎",
-        "雷霆游戏"
-      ],
-      "category": "社区讨论"
-    },
     {
       "id": "gb-2026q1-actual",
       "platform": "财经新闻",
@@ -65,20 +36,6 @@ window.MONITOR_DATA = {
         "公告"
       ],
       "category": "公司公告"
-    },
-    {
-      "id": "maimai-1891474590",
-      "platform": "脉脉",
-      "title": "吉比特【无界计划】内推",
-      "summary": "计划有大量校招和社招需求，校招不仅限应届。三年内的游戏人都可以投递 。欢迎联系内推~ ⁠加入【无界计划】，成为创作者，你将能获得； ⁠1.与创始人共创下一个世界级玩法， ...",
-      "url": "https://maimai.cn/article/detail?fid=1891474590&efid=r6IJimx8vxkGBwBwBI2a8w",
-      "sentiment": "positive",
-      "time": "",
-      "tags": [
-        "脉脉",
-        "吉比特"
-      ],
-      "category": "招聘信息"
     },
     {
       "id": "gb-2026q1-forecast",
@@ -221,20 +178,6 @@ window.MONITOR_DATA = {
         "深圳商报·读创"
       ],
       "category": "财经新闻"
-    },
-    {
-      "id": "zhihu-2045441323797305152",
-      "platform": "知乎",
-      "title": "这款助吉比特度过困局的放置RPG依然能打",
-      "summary": "吉比特能快速逆转局面，主要靠2025年接连推出的《问剑长生》、《杖剑传说》 ... 《杖剑传说》之外，今年下半年吉比特产品端还有不少新的动作值得期待。",
-      "url": "https://zhuanlan.zhihu.com/p/2045441323797305152",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "知乎",
-        "吉比特"
-      ],
-      "category": "社区讨论"
     },
     {
       "id": "news-202605263749943766",
@@ -647,6 +590,21 @@ window.MONITOR_DATA = {
       "category": "公司公告"
     },
     {
+      "id": "zhihu-2002357272408507128",
+      "platform": "知乎",
+      "title": "吉比特用千万房产和iPhone重奖项目组，如果你是开发者",
+      "summary": "《杖剑传说》制作人林笋获赠一套价值1000万的房产，《杖剑传说》项目组每人获赠了20克的定制金币；. 雷霆游戏也为旗下70名优秀员工赠送了15g的金币；. 这也 ...",
+      "url": "https://www.zhihu.com/question/2002357272408507128/answer/2002709513753605347",
+      "sentiment": "neutral",
+      "time": "2026-02-03 00:00",
+      "tags": [
+        "知乎",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "社区讨论"
+    },
+    {
       "id": "zhihu-2002097943726035223",
       "platform": "知乎",
       "title": "给制作人送一套房子，给研发奖20g黄金：这家上市公司太壕 ...",
@@ -928,6 +886,21 @@ window.MONITOR_DATA = {
       "category": "社区讨论"
     },
     {
+      "id": "zhihu-25342693",
+      "platform": "知乎",
+      "title": "厦门吉比特游戏公司怎么样？ - 翟健的回答",
+      "summary": "1、吉比特以及雷霆游戏是一家只想扎根游戏行业，坚持创造美好游戏理念的研发和运营的公司，也许现在还没达到，但这是目标。 2、在公司赚钱的前提下 ...",
+      "url": "https://www.zhihu.com/question/25342693/answer/108489415",
+      "sentiment": "neutral",
+      "time": "2014-09-12 00:00",
+      "tags": [
+        "知乎",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "社区讨论"
+    },
+    {
       "id": "zhihu-20866421",
       "platform": "知乎",
       "title": "在游戏公司中遇到的奇葩事情有哪些？ - 雷霆游戏的回答",
@@ -940,6 +913,78 @@ window.MONITOR_DATA = {
         "雷霆游戏"
       ],
       "category": "社区讨论"
+    },
+    {
+      "id": "zhihu-xNTAwNjkyNDgcGFnZT0z",
+      "platform": "知乎",
+      "title": "吉比特&雷霆游戏未来游戏制作人大赛",
+      "summary": "2021年4月2日，第三届未来游戏制作人大赛正式开启报名。该赛事是由深圳市文化广电旅游体育局指导，南山区文化广电旅游体育局支持，吉比特&雷霆游戏主办的面向全球在校 ...",
+      "url": "https://www.zhihu.com/column/c_1360538184150069248?page=3",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "知乎",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "社区讨论"
+    },
+    {
+      "id": "zhihu-2045441323797305152",
+      "platform": "知乎",
+      "title": "这款助吉比特度过困局的放置RPG依然能打",
+      "summary": "吉比特能快速逆转局面，主要靠2025年接连推出的《问剑长生》、《杖剑传说》 ... 《杖剑传说》之外，今年下半年吉比特产品端还有不少新的动作值得期待。",
+      "url": "https://zhuanlan.zhihu.com/p/2045441323797305152",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "知乎",
+        "吉比特"
+      ],
+      "category": "社区讨论"
+    },
+    {
+      "id": "maimai-1891474590",
+      "platform": "脉脉",
+      "title": "吉比特【无界计划】内推",
+      "summary": "计划有大量校招和社招需求，校招不仅限应届。三年内的游戏人都可以投递 。欢迎联系内推~ ⁠加入【无界计划】，成为创作者，你将能获得； ⁠1.与创始人共创下一个世界级玩法， ...",
+      "url": "https://maimai.cn/article/detail?fid=1891474590&efid=r6IJimx8vxkGBwBwBI2a8w",
+      "sentiment": "positive",
+      "time": "",
+      "tags": [
+        "脉脉",
+        "吉比特"
+      ],
+      "category": "招聘信息"
+    },
+    {
+      "id": "zhihu-ktcWluZy1iYW8temhhbg",
+      "platform": "知乎",
+      "title": "雷霆游戏情报站",
+      "summary": "属于雷霆游戏玩家的情报站，最新动态资讯、试玩评测都在这里！ -官方公众号：LTGames -官方微博：@雷霆游戏 -官方b站账号：雷霆游戏. 详细资料​ ...",
+      "url": "https://www.zhihu.com/org/lei-ting-you-xi-qing-bao-zhan",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "知乎",
+        "雷霆游戏"
+      ],
+      "category": "社区讨论"
+    },
+    {
+      "id": "zhihu-668992375",
+      "platform": "知乎",
+      "title": "深圳吉比特雷霆游戏前端日常实习面试面经",
+      "summary": "最新最全的求职面经、求职攻略戳：https://link.youzhiwk.com/r/6Aa8xwQHiO一面（40多分钟）1.自我介绍2.你是如何接触并学习前端的3.说一下你对vue3的了解，为什么vue3的 ...",
+      "url": "https://zhuanlan.zhihu.com/p/668992375",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "知乎",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "招聘信息"
     },
     {
       "id": "nowcoder-5",
@@ -1179,11 +1224,11 @@ window.MONITOR_DATA = {
       "category": "招聘信息"
     },
     {
-      "id": "zhihu-xNTAwNjkyNDgcGFnZT0z",
+      "id": "zhihu-1MzgxODQxNTAwNjkyNDg",
       "platform": "知乎",
       "title": "吉比特&雷霆游戏未来游戏制作人大赛",
       "summary": "2021年4月2日，第三届未来游戏制作人大赛正式开启报名。该赛事是由深圳市文化广电旅游体育局指导，南山区文化广电旅游体育局支持，吉比特&雷霆游戏主办的面向全球在校 ...",
-      "url": "https://www.zhihu.com/column/c_1360538184150069248?page=3",
+      "url": "https://www.zhihu.com/column/c_1360538184150069248",
       "sentiment": "neutral",
       "time": "",
       "tags": [
