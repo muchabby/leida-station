@@ -78,11 +78,12 @@
     /* 总览：分类占比 + 关键词热点 并排 */
     .overview-row{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:14px}
     .donut-wrap{display:flex;align-items:center;gap:18px;flex-wrap:wrap}
-    .donut-legend{display:grid;gap:8px;flex:1;min-width:140px}
-    .donut-legend .lg{display:flex;align-items:center;gap:8px;font-size:13px;cursor:pointer;padding:4px 6px;border-radius:8px;transition:120ms}
+    .donut-legend{display:grid;gap:6px;min-width:150px}
+    .donut-legend .lg{display:flex;align-items:center;gap:7px;font-size:13px;cursor:pointer;padding:4px 8px;border-radius:8px;transition:120ms}
     .donut-legend .lg:hover{background:var(--surface-2)}
     .donut-legend .dot{width:11px;height:11px;border-radius:3px;flex:none}
-    .donut-legend .lg .n{color:var(--muted);margin-left:auto;font-variant-numeric:tabular-nums}
+    .donut-legend .lg .ln{min-width:64px}
+    .donut-legend .lg .n{color:var(--muted);font-variant-numeric:tabular-nums}
     .wordcloud{display:flex;flex-wrap:wrap;gap:8px;align-content:flex-start}
     .wordcloud .w{display:inline-flex;align-items:center;padding:5px 11px;border-radius:999px;
       background:var(--surface-2);border:1px solid var(--line);cursor:pointer;transition:120ms;line-height:1.2}
@@ -314,6 +315,7 @@
           <button class="chip" data-range="today">今日</button>
           <button class="chip" data-range="7d">近 7 天</button>
           <button class="chip" data-range="30d">近 30 天</button>
+          <button class="chip" data-range="unknown">日期未知</button>
           <div class="date-range">
             <input type="date" id="dateFrom" title="起始日期" />
             <span class="tilde">~</span>
@@ -385,7 +387,14 @@
     }
     // 用日期数差判断快捷区间
     function inRange(item){
-      const d = dayOf(item); if(!d) return true;
+      const d = dayOf(item);
+      // “日期未知”筛选：只显示没有发帖日期的帖子
+      if(state.range==="unknown") return !d;
+      if(!d){
+        // 无日期的帖子：在"全部"下显示；在 今日/近7天/近30天 下不显示（它们没日期）；自定义日期范围下不显示
+        if(state.from || state.to) return false;
+        return state.range==="all";
+      }
       // 自定义日期范围优先（任一端填了就生效）
       if(state.from && d < state.from) return false;
       if(state.to && d > state.to) return false;
@@ -548,14 +557,14 @@
       document.getElementById("feedSub").textContent=`「${(DATA.keywords||[]).join(" / ")}」· 共 ${DATA.items.length} 条 · 更新于 ${DATA.updatedAt||"--"}`;
     }
 
-    // B. 负面预警卡：挑出负面消息，按时间倒序置顶展示
+    // B. 负面预警卡：挑出"未处理"的负面消息置顶；已处理的不再显示，全部处理完则隐藏整卡
     function renderAlert(){
       const seen=getSeen();
-      const negs=DATA.items.filter(i=>i.sentiment==="negative").sort((a,b)=>cmpTime(a,b,"new"));
+      const negs=DATA.items.filter(i=>i.sentiment==="negative" && !isDone(i.id)).sort((a,b)=>cmpTime(a,b,"new"));
       const card=document.getElementById("alertCard");
-      if(!negs.length){ card.style.display="none"; return; }
+      if(!negs.length){ card.style.display="none"; return; }  // 没有未处理的负面 → 整卡隐藏
       card.style.display="";
-      document.getElementById("alertSub").textContent=`共 ${negs.length} 条负面舆情，建议优先核实处理`;
+      document.getElementById("alertSub").textContent=`共 ${negs.length} 条未处理负面舆情，建议优先核实`;
       document.getElementById("alertFeed").innerHTML=negs.slice(0,5).map(i=>itemHTML(i,seen)).join("");
     }
 
@@ -585,7 +594,7 @@
       ctx.font="11px sans-serif"; ctx.fillStyle="#94a3b8"; ctx.fillText("总条数",cx,cy+13);
       document.getElementById("catLegend").innerHTML=counts.map(({c,n})=>`
         <div class="lg" data-cat="${esc(c)}"><span class="dot" style="background:${CAT_COLORS[c]}"></span>
-          <span>${esc(c)}</span><span class="n">${n}（${Math.round(n/total*100)}%）</span></div>`).join("");
+          <span class="ln">${esc(c)}</span><span class="n">${n} 条 · ${Math.round(n/total*100)}%</span></div>`).join("");
       document.querySelectorAll("#catLegend .lg").forEach(el=>el.onclick=()=>{
         state.category=el.dataset.cat; renderFilters(); renderFullFeed(); activateTab("feed");
       });
