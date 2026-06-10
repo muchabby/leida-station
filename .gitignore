@@ -19,6 +19,20 @@ fetch-xhs.js
 backfill-xhs-date.js
 manual-date.js
 
+# 知乎深度监测（CDP 接管本机 Chrome+登录态，本机专用，不上云）
+fetch-zhihu.js
+cdp-probe.js
+probe1.js
+probe2.js
+probe3.js
+probe4.js
+run-zhihu.cmd
+run-zhihu.log
+start-zhihu-chrome.cmd
+zhihu-watch.json
+data.before-zhihu.bak.js
+知乎监测-方案A.md
+
 # 历史快照（本地留存即可，不必上云）
 versions/
 

@@ -1,7 +1,7 @@
-// 舆情数据文件 —— 由 fetch.js 自动写入，请勿手动编辑
+// 舆情数据文件 —— 由 fetch.js / fetch-zhihu.js 自动写入，请勿手动编辑
 // 页面通过 <script src="data.js"> 读取，避免 file:// 下 fetch 被浏览器拦截
 window.MONITOR_DATA = {
-  "updatedAt": "2026-06-10 13:25",
+  "updatedAt": "2026-06-10 15:01",
   "keywords": [
     "吉比特",
     "雷霆游戏"
@@ -224,17 +224,20 @@ window.MONITOR_DATA = {
       "category": "小红书"
     },
     {
-      "id": "zhihu-2045441323797305152",
+      "id": "zhihu-q622600231",
       "platform": "知乎",
-      "title": "这款助吉比特度过困局的放置RPG依然能打",
-      "summary": "吉比特能快速逆转局面，主要靠2025年接连推出的《问剑长生》、《杖剑传说》 ... 《杖剑传说》之外，今年下半年吉比特产品端还有不少新的动作值得期待。",
-      "url": "https://zhuanlan.zhihu.com/p/2045441323797305152",
+      "title": "深圳吉比特（雷霆游戏）怎么样？",
+      "summary": "8 个回答，最近活动 编辑于2026-06-04 17:32",
+      "url": "https://www.zhihu.com/question/622600231",
       "sentiment": "neutral",
-      "time": "2026-06-03 00:00",
+      "time": "2026-06-04 17:32",
       "tags": [
         "知乎",
-        "吉比特"
+        "吉比特",
+        "雷霆游戏"
       ],
+      "answerCount": 8,
+      "source": "cdp",
       "category": "知乎"
     },
     {
@@ -444,20 +447,6 @@ window.MONITOR_DATA = {
       "category": "财经新闻"
     },
     {
-      "id": "ann-AN202605131822274496",
-      "platform": "公司公告",
-      "title": "吉比特:厦门吉比特网络技术股份有限公司2025年年度权益分派实施公告",
-      "summary": "吉比特:厦门吉比特网络技术股份有限公司2025年年度权益分派实施公告",
-      "url": "https://data.eastmoney.com/notices/detail/603444/AN202605131822274496.html",
-      "sentiment": "neutral",
-      "time": "2026-05-14 00:00",
-      "tags": [
-        "公告",
-        "分配方案实施"
-      ],
-      "category": "公司公告"
-    },
-    {
       "id": "ann-AN202605131822274497",
       "platform": "公司公告",
       "title": "吉比特:福建天衡联合律师事务所关于厦门吉比特网络技术股份有限公司差异化权益分派事项的法律意见书",
@@ -468,6 +457,20 @@ window.MONITOR_DATA = {
       "tags": [
         "公告",
         "法律意见书"
+      ],
+      "category": "公司公告"
+    },
+    {
+      "id": "ann-AN202605131822274496",
+      "platform": "公司公告",
+      "title": "吉比特:厦门吉比特网络技术股份有限公司2025年年度权益分派实施公告",
+      "summary": "吉比特:厦门吉比特网络技术股份有限公司2025年年度权益分派实施公告",
+      "url": "https://data.eastmoney.com/notices/detail/603444/AN202605131822274496.html",
+      "sentiment": "neutral",
+      "time": "2026-05-14 00:00",
+      "tags": [
+        "公告",
+        "分配方案实施"
       ],
       "category": "公司公告"
     },
@@ -558,16 +561,16 @@ window.MONITOR_DATA = {
       "category": "财经新闻"
     },
     {
-      "id": "ann-AN202604231821493820",
+      "id": "ann-AN202604231821493824",
       "platform": "公司公告",
-      "title": "吉比特:厦门吉比特网络技术股份有限公司2026年第一季度报告",
-      "summary": "吉比特:厦门吉比特网络技术股份有限公司2026年第一季度报告",
-      "url": "https://data.eastmoney.com/notices/detail/603444/AN202604231821493820.html",
+      "title": "吉比特:厦门吉比特网络技术股份有限公司第六届董事会第十二次会议决议公告",
+      "summary": "吉比特:厦门吉比特网络技术股份有限公司第六届董事会第十二次会议决议公告",
+      "url": "https://data.eastmoney.com/notices/detail/603444/AN202604231821493824.html",
       "sentiment": "neutral",
       "time": "2026-04-24 00:00",
       "tags": [
         "公告",
-        "一季度报告全文"
+        "董事会决议公告"
       ],
       "category": "公司公告"
     },
@@ -586,16 +589,16 @@ window.MONITOR_DATA = {
       "category": "公司公告"
     },
     {
-      "id": "ann-AN202604231821493824",
+      "id": "ann-AN202604231821493820",
       "platform": "公司公告",
-      "title": "吉比特:厦门吉比特网络技术股份有限公司第六届董事会第十二次会议决议公告",
-      "summary": "吉比特:厦门吉比特网络技术股份有限公司第六届董事会第十二次会议决议公告",
-      "url": "https://data.eastmoney.com/notices/detail/603444/AN202604231821493824.html",
+      "title": "吉比特:厦门吉比特网络技术股份有限公司2026年第一季度报告",
+      "summary": "吉比特:厦门吉比特网络技术股份有限公司2026年第一季度报告",
+      "url": "https://data.eastmoney.com/notices/detail/603444/AN202604231821493820.html",
       "sentiment": "neutral",
       "time": "2026-04-24 00:00",
       "tags": [
         "公告",
-        "董事会决议公告"
+        "一季度报告全文"
       ],
       "category": "公司公告"
     },
@@ -713,6 +716,20 @@ window.MONITOR_DATA = {
       "category": "小红书"
     },
     {
+      "id": "ann-AN202604161821265325",
+      "platform": "公司公告",
+      "title": "吉比特:北京市海问(深圳)律师事务所关于厦门吉比特网络技术股份有限公司2025年年度股东会会议的法律意见书",
+      "summary": "吉比特:北京市海问(深圳)律师事务所关于厦门吉比特网络技术股份有限公司2025年年度股东会会议的法律意见书",
+      "url": "https://data.eastmoney.com/notices/detail/603444/AN202604161821265325.html",
+      "sentiment": "neutral",
+      "time": "2026-04-17 00:00",
+      "tags": [
+        "公告",
+        "法律意见书"
+      ],
+      "category": "公司公告"
+    },
+    {
       "id": "ann-AN202604161821265324",
       "platform": "公司公告",
       "title": "吉比特:厦门吉比特网络技术股份有限公司2025年年度股东会会议决议公告",
@@ -724,20 +741,6 @@ window.MONITOR_DATA = {
         "公告",
         "分配方案决议公告",
         "股东大会决议公告"
-      ],
-      "category": "公司公告"
-    },
-    {
-      "id": "ann-AN202604161821265325",
-      "platform": "公司公告",
-      "title": "吉比特:北京市海问(深圳)律师事务所关于厦门吉比特网络技术股份有限公司2025年年度股东会会议的法律意见书",
-      "summary": "吉比特:北京市海问(深圳)律师事务所关于厦门吉比特网络技术股份有限公司2025年年度股东会会议的法律意见书",
-      "url": "https://data.eastmoney.com/notices/detail/603444/AN202604161821265325.html",
-      "sentiment": "neutral",
-      "time": "2026-04-17 00:00",
-      "tags": [
-        "公告",
-        "法律意见书"
       ],
       "category": "公司公告"
     },
@@ -815,23 +818,6 @@ window.MONITOR_DATA = {
       "category": "公司公告"
     },
     {
-      "id": "zhihu-2023356747276920448",
-      "platform": "知乎",
-      "title": "吉比特卢竑岩谈AI：以前靠产能建立的护城河，都不是真正的 ...",
-      "summary": "卢竑岩：公司的产品上线计划请关注雷霆游戏官网。代号95和98目前仍处于早期阶段，在做方向验证，接下去还要进行关键结果的验证和判断，之后根据这些 ...",
-      "url": "https://zhuanlan.zhihu.com/p/2023356747276920448",
-      "sentiment": "positive",
-      "time": "2026-04-03 00:00",
-      "tags": [
-        "知乎",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "lastChange": "2026-06-09 06:32",
-      "changeNote": "摘要有更新",
-      "category": "知乎"
-    },
-    {
       "id": "xhs-69ca02050000000023016597",
       "platform": "小红书",
       "title": "游戏公司分享：“雷霆游戏”",
@@ -876,16 +862,16 @@ window.MONITOR_DATA = {
       "category": "小红书"
     },
     {
-      "id": "ann-AN202603261820769316",
+      "id": "ann-AN202603261820769308",
       "platform": "公司公告",
-      "title": "吉比特:厦门吉比特网络技术股份有限公司2025年度独立董事述职报告-梁燕华",
-      "summary": "吉比特:厦门吉比特网络技术股份有限公司2025年度独立董事述职报告-梁燕华",
-      "url": "https://data.eastmoney.com/notices/detail/603444/AN202603261820769316.html",
+      "title": "吉比特:厦门吉比特网络技术股份有限公司董事薪酬管理制度(2026年3月)",
+      "summary": "吉比特:厦门吉比特网络技术股份有限公司董事薪酬管理制度(2026年3月)",
+      "url": "https://data.eastmoney.com/notices/detail/603444/AN202603261820769308.html",
       "sentiment": "neutral",
       "time": "2026-03-27 00:00",
       "tags": [
         "公告",
-        "独立董事述职报告"
+        "管理办法/制度"
       ],
       "category": "公司公告"
     },
@@ -904,16 +890,16 @@ window.MONITOR_DATA = {
       "category": "公司公告"
     },
     {
-      "id": "ann-AN202603261820769308",
+      "id": "ann-AN202603261820769316",
       "platform": "公司公告",
-      "title": "吉比特:厦门吉比特网络技术股份有限公司董事薪酬管理制度(2026年3月)",
-      "summary": "吉比特:厦门吉比特网络技术股份有限公司董事薪酬管理制度(2026年3月)",
-      "url": "https://data.eastmoney.com/notices/detail/603444/AN202603261820769308.html",
+      "title": "吉比特:厦门吉比特网络技术股份有限公司2025年度独立董事述职报告-梁燕华",
+      "summary": "吉比特:厦门吉比特网络技术股份有限公司2025年度独立董事述职报告-梁燕华",
+      "url": "https://data.eastmoney.com/notices/detail/603444/AN202603261820769316.html",
       "sentiment": "neutral",
       "time": "2026-03-27 00:00",
       "tags": [
         "公告",
-        "管理办法/制度"
+        "独立董事述职报告"
       ],
       "category": "公司公告"
     },
@@ -948,6 +934,22 @@ window.MONITOR_DATA = {
       "category": "小红书"
     },
     {
+      "id": "zhihu-q1914269825787733356",
+      "platform": "知乎",
+      "title": "如何看待吉比特砍4款版号产品后强推《杖剑传说》？中小厂该聚焦精品还是多元布局？",
+      "summary": "6 个回答，最近活动 发布于2026-03-08 11:02",
+      "url": "https://www.zhihu.com/question/1914269825787733356",
+      "sentiment": "neutral",
+      "time": "2026-03-08 11:02",
+      "tags": [
+        "知乎",
+        "吉比特"
+      ],
+      "answerCount": 6,
+      "source": "cdp",
+      "category": "知乎"
+    },
+    {
       "id": "xhs-6991dc39000000001a02141b",
       "platform": "小红书",
       "title": "吉比特一场年会，把整个行业都给干沉默了",
@@ -961,6 +963,38 @@ window.MONITOR_DATA = {
         "👍77"
       ],
       "category": "小红书"
+    },
+    {
+      "id": "zhihu-q2002357272408507128",
+      "platform": "知乎",
+      "title": "吉比特用千万房产和iPhone重奖项目组，如果你是开发者，这种奖励会影响你做游戏的设计理念与选择吗？",
+      "summary": "3 个回答，最近活动 发布于2026-02-05 18:57",
+      "url": "https://www.zhihu.com/question/2002357272408507128",
+      "sentiment": "neutral",
+      "time": "2026-02-05 18:57",
+      "tags": [
+        "知乎",
+        "吉比特"
+      ],
+      "answerCount": 3,
+      "source": "cdp",
+      "category": "知乎"
+    },
+    {
+      "id": "zhihu-q2002365189815808513",
+      "platform": "知乎",
+      "title": "游戏公司吉比特用千万房产和人手一台iPhone重奖项目组，话说游戏公司的钱就这么好赚吗？",
+      "summary": "1 个回答，最近活动 发布于2026-02-05 15:29",
+      "url": "https://www.zhihu.com/question/2002365189815808513",
+      "sentiment": "neutral",
+      "time": "2026-02-05 15:29",
+      "tags": [
+        "知乎",
+        "吉比特"
+      ],
+      "answerCount": 1,
+      "source": "cdp",
+      "category": "知乎"
     },
     {
       "id": "xhs-6982477f000000002801e16d",
@@ -1128,37 +1162,6 @@ window.MONITOR_DATA = {
       "category": "小红书"
     },
     {
-      "id": "zhihu-2002097943726035223",
-      "platform": "知乎",
-      "title": "给制作人送一套房子，给研发奖20g黄金：这家上市公司太壕 ...",
-      "summary": "不仅如此，雷霆游戏还对于去年最大的爆款产品《杖剑传说》项目组送出了专属的奖品，所有研发成员人均20g黄金。 并且更夸张的是，游戏制作人林笋则直接获赠一 ...",
-      "url": "https://zhuanlan.zhihu.com/p/2002097943726035223",
-      "sentiment": "neutral",
-      "time": "2026-02-03 00:00",
-      "tags": [
-        "知乎",
-        "雷霆游戏"
-      ],
-      "lastChange": "2026-06-09 11:34",
-      "changeNote": "摘要有更新",
-      "category": "知乎"
-    },
-    {
-      "id": "zhihu-2002357272408507128",
-      "platform": "知乎",
-      "title": "吉比特用千万房产和iPhone重奖项目组，如果你是开发者",
-      "summary": "《杖剑传说》制作人林笋获赠一套价值1000万的房产，《杖剑传说》项目组每人获赠了20克的定制金币；. 雷霆游戏也为旗下70名优秀员工赠送了15g的金币；. 这也 ...",
-      "url": "https://www.zhihu.com/question/2002357272408507128/answer/2002709513753605347",
-      "sentiment": "neutral",
-      "time": "2026-02-03 00:00",
-      "tags": [
-        "知乎",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "知乎"
-    },
-    {
       "id": "xhs-697b7682000000001a034555",
       "platform": "小红书",
       "title": "分享下您心目中的神仙公司吧~【吉比特】",
@@ -1187,20 +1190,6 @@ window.MONITOR_DATA = {
         "👍2"
       ],
       "category": "小红书"
-    },
-    {
-      "id": "zhihu-1999991556892026201",
-      "platform": "知乎",
-      "title": "刚刚发布：利润暴涨97%，吉比特逆风翻盘？",
-      "summary": "去年年中，吉比特发布2025年半年报时，便已经提到了一系列利好消息：截止到2025上半年，公司实现总营收25.18亿元，同比增长28.49%；归母净利润6.45亿元，同比增长 ...",
-      "url": "https://zhuanlan.zhihu.com/p/1999991556892026201",
-      "sentiment": "positive",
-      "time": "2026-01-28 00:00",
-      "tags": [
-        "知乎",
-        "吉比特"
-      ],
-      "category": "知乎"
     },
     {
       "id": "xhs-6961adbd000000002202f5a1",
@@ -1233,22 +1222,6 @@ window.MONITOR_DATA = {
       "category": "小红书"
     },
     {
-      "id": "zhihu-1985046086893709234",
-      "platform": "知乎",
-      "title": "吉比特25年爆款制作人罕见分享：上线7个月，赚超20个亿的 ...",
-      "summary": "根据吉比特三季度报显示，《仗剑传说》前三季度大陆版和海外版分别实现流水11.66亿元和4.78亿元。粗略估算下，2025年《仗剑传说》上线后，今年累积流水大约在 ...",
-      "url": "https://zhuanlan.zhihu.com/p/1985046086893709234",
-      "sentiment": "positive",
-      "time": "2025-12-19 00:00",
-      "tags": [
-        "知乎",
-        "吉比特"
-      ],
-      "lastChange": "2026-06-09 06:32",
-      "changeNote": "摘要有更新",
-      "category": "知乎"
-    },
-    {
       "id": "xhs-692155fb000000001e0069f0",
       "platform": "小红书",
       "title": "吉比特营销策划面经（秋招上岸版）",
@@ -1264,20 +1237,6 @@ window.MONITOR_DATA = {
       "category": "小红书"
     },
     {
-      "id": "zhihu-1971523196328055637",
-      "platform": "知乎",
-      "title": "年流水37亿利润超9亿！雷霆游戏靠什么实现持续增长？",
-      "summary": "去年，雷霆游戏交出了一份亮眼答卷：约37 亿流水和9.45 亿利润的成绩令人瞩目。不仅旗下的《问道》《一念逍遥》长盛不衰，今年新上线的《问剑长生》《杖 ...",
-      "url": "https://zhuanlan.zhihu.com/p/1971523196328055637",
-      "sentiment": "positive",
-      "time": "2025-11-11 00:00",
-      "tags": [
-        "知乎",
-        "雷霆游戏"
-      ],
-      "category": "知乎"
-    },
-    {
       "id": "xhs-6905fe3d00000000050107b4",
       "platform": "小红书",
       "title": "吉比特梦女来了",
@@ -1291,6 +1250,22 @@ window.MONITOR_DATA = {
         "👍34"
       ],
       "category": "小红书"
+    },
+    {
+      "id": "zhihu-q57133535",
+      "platform": "知乎",
+      "title": "吉比特是一家怎样的公司？为何可以一度超越茅台成为新股王？",
+      "summary": "23 个回答，最近活动 编辑于2025-10-30 09:36",
+      "url": "https://www.zhihu.com/question/57133535",
+      "sentiment": "neutral",
+      "time": "2025-10-30 09:36",
+      "tags": [
+        "知乎",
+        "吉比特"
+      ],
+      "answerCount": 23,
+      "source": "cdp",
+      "category": "知乎"
     },
     {
       "id": "xhs-6900a5b20000000007001216",
@@ -1338,6 +1313,22 @@ window.MONITOR_DATA = {
       "category": "小红书"
     },
     {
+      "id": "zhihu-q1948555571247686355",
+      "platform": "知乎",
+      "title": "吉比特投资的许多初创团队最终失败，但公司CEO说“内容开发是高风险高回报的事”。你认同这种说法么？",
+      "summary": "2 个回答，最近活动 发布于2025-09-09 17:32",
+      "url": "https://www.zhihu.com/question/1948555571247686355",
+      "sentiment": "negative",
+      "time": "2025-09-09 17:32",
+      "tags": [
+        "知乎",
+        "吉比特"
+      ],
+      "answerCount": 2,
+      "source": "cdp",
+      "category": "知乎"
+    },
+    {
       "id": "xhs-68bd23ae000000001b031b89",
       "platform": "小红书",
       "title": "在全是奥比的公司上班真的很幸福🥹",
@@ -1353,11 +1344,11 @@ window.MONITOR_DATA = {
       "category": "小红书"
     },
     {
-      "id": "nowcoder-U291cmNlPWhvbWUtYXBp",
+      "id": "nowcoder-2NWJlN2I4NWFjOTk2YWI",
       "platform": "牛客",
-      "title": "吉比特雷霆游戏2026秋招正式启动啦！",
-      "summary": "嗨，各位热爱游戏的同学们！ 吉比特雷霆游戏2026秋招正式启动啦。登录https://hr.g-bits.com/ ，用内推码（4N84QX）进行投递，直接快人一步，可以全程跟进 ...",
-      "url": "https://www.nowcoder.com/feed/main/detail/c80496f73ece42b7a6acfbb86b8a5f4a?urlSource=home-api",
+      "title": "吉比特雷霆游戏内推",
+      "summary": "吉比特&amp;雷霆游戏2026届校招内推码【1P0RS0】 【企业介绍】吉比特&amp;雷霆游戏，研运一体的一家上市游戏公司~研发/发行过《问道》《问道手 ...",
+      "url": "https://www.nowcoder.com/feed/main/detail/bd37e26c6a664945a65be7b85ac996ab",
       "sentiment": "neutral",
       "time": "2025-08-29 00:00",
       "tags": [
@@ -1368,11 +1359,11 @@ window.MONITOR_DATA = {
       "category": "牛客"
     },
     {
-      "id": "nowcoder-2NWJlN2I4NWFjOTk2YWI",
+      "id": "nowcoder-U291cmNlPWhvbWUtYXBp",
       "platform": "牛客",
-      "title": "吉比特雷霆游戏内推",
-      "summary": "吉比特&amp;雷霆游戏2026届校招内推码【1P0RS0】 【企业介绍】吉比特&amp;雷霆游戏，研运一体的一家上市游戏公司~研发/发行过《问道》《问道手 ...",
-      "url": "https://www.nowcoder.com/feed/main/detail/bd37e26c6a664945a65be7b85ac996ab",
+      "title": "吉比特雷霆游戏2026秋招正式启动啦！",
+      "summary": "嗨，各位热爱游戏的同学们！ 吉比特雷霆游戏2026秋招正式启动啦。登录https://hr.g-bits.com/ ，用内推码（4N84QX）进行投递，直接快人一步，可以全程跟进 ...",
+      "url": "https://www.nowcoder.com/feed/main/detail/c80496f73ece42b7a6acfbb86b8a5f4a?urlSource=home-api",
       "sentiment": "neutral",
       "time": "2025-08-29 00:00",
       "tags": [
@@ -1413,20 +1404,6 @@ window.MONITOR_DATA = {
       "category": "小红书"
     },
     {
-      "id": "zhihu-1935996830392518404",
-      "platform": "知乎",
-      "title": "雷霆游戏《杖剑传说》出海半月收入破亿；三七“斗罗”IP新作 ...",
-      "summary": "作为IP向游戏，该作在延续原著世界观设定的同时围绕玩家本身构建了一段高自由度的冒险历程，而非完全依照原作主角的脉络。这一设定极好地激发了玩家的探索 ...",
-      "url": "https://zhuanlan.zhihu.com/p/1935996830392518404",
-      "sentiment": "neutral",
-      "time": "2025-08-05 00:00",
-      "tags": [
-        "知乎",
-        "雷霆游戏"
-      ],
-      "category": "知乎"
-    },
-    {
       "id": "xhs-68760fdc000000001100313a",
       "platform": "小红书",
       "title": "🎮雷霆游戏靠小游戏翻身？从沉寂到爆火",
@@ -1440,34 +1417,6 @@ window.MONITOR_DATA = {
         "👍6"
       ],
       "category": "小红书"
-    },
-    {
-      "id": "zhihu-1894040433581065935",
-      "platform": "知乎",
-      "title": "游戏公司跨界做短剧，这事靠谱吗？",
-      "summary": "在团队配置上，雷霆游戏采用一个中文编剧搭配一个英文编剧的模式，不仅如此，在北美还有合作的承制团队，并且有监制长期驻扎负责把控内容的制作。 北美、尤其 ...",
-      "url": "https://zhuanlan.zhihu.com/p/1894040433581065935",
-      "sentiment": "positive",
-      "time": "2025-04-11 00:00",
-      "tags": [
-        "知乎",
-        "雷霆游戏"
-      ],
-      "category": "知乎"
-    },
-    {
-      "id": "zhihu-1891783240760677643",
-      "platform": "知乎",
-      "title": "吉比特业绩下滑、项目调整，未来发展引关注",
-      "summary": "近日，厦门吉比特网络技术股份有限公司发布2024年年报，公司业绩连续两年下滑引发行业关注。数据显示，吉比特2024年营业收入36.96亿元，同比下降11.69 ...",
-      "url": "https://zhuanlan.zhihu.com/p/1891783240760677643",
-      "sentiment": "negative",
-      "time": "2025-04-05 00:00",
-      "tags": [
-        "知乎",
-        "吉比特"
-      ],
-      "category": "知乎"
     },
     {
       "id": "nowcoder-3MDFjY2Q2MGM4NjQ4NTY",
@@ -1544,20 +1493,6 @@ window.MONITOR_DATA = {
       "category": "小红书"
     },
     {
-      "id": "zhihu-24904475351",
-      "platform": "知乎",
-      "title": "吉比特广州解散？或跟营收太差有关",
-      "summary": "这步走对了吗？ 2月19日，脉脉上有消息爆料吉比特广州解散了。 吉比特广州于2017年成立，位于车陂区的办公楼当时花了1.46亿。紧接着第二年，公司就组建了2 ...",
-      "url": "https://zhuanlan.zhihu.com/p/24904475351",
-      "sentiment": "neutral",
-      "time": "2025-02-19 00:00",
-      "tags": [
-        "知乎",
-        "吉比特"
-      ],
-      "category": "知乎"
-    },
-    {
       "id": "xhs-675e9b37000000000103f151",
       "platform": "小红书",
       "title": "1258天🔚 雷霆游戏X吉比特",
@@ -1586,6 +1521,22 @@ window.MONITOR_DATA = {
         "👍4"
       ],
       "category": "小红书"
+    },
+    {
+      "id": "zhihu-q522658634",
+      "platform": "知乎",
+      "title": "吉比特怎么样？",
+      "summary": "11 个回答，最近活动 编辑于2024-11-01 09:16",
+      "url": "https://www.zhihu.com/question/522658634",
+      "sentiment": "neutral",
+      "time": "2024-11-01 09:16",
+      "tags": [
+        "知乎",
+        "吉比特"
+      ],
+      "answerCount": 11,
+      "source": "cdp",
+      "category": "知乎"
     },
     {
       "id": "xhs-66ec266f0000000012010e65",
@@ -1663,52 +1614,19 @@ window.MONITOR_DATA = {
       "category": "小红书"
     },
     {
-      "id": "zhihu-682302631",
+      "id": "zhihu-q637340413",
       "platform": "知乎",
-      "title": "盘点吉比特&雷霆游戏的产品线",
-      "summary": "旗下游戏运营平台“雷霆游戏”，目前已建立了包括游戏品牌建设、媒体宣传、活动策划、合作渠道拓展及后续客户服务等一整套完备的运营系统，具备较为出色的游戏 ...",
-      "url": "https://zhuanlan.zhihu.com/p/682302631",
+      "title": "造成吉比特净利率降至 33.98% 的原因是什么？",
+      "summary": "1 个回答，最近活动 发布于2023-12-30 20:23",
+      "url": "https://www.zhihu.com/question/637340413",
       "sentiment": "positive",
-      "time": "2024-02-15 00:00",
+      "time": "2023-12-30 20:23",
       "tags": [
         "知乎",
-        "吉比特",
-        "雷霆游戏"
+        "吉比特"
       ],
-      "lastChange": "2026-06-09 11:34",
-      "changeNote": "摘要有更新",
-      "category": "知乎"
-    },
-    {
-      "id": "zhihu-622600231",
-      "platform": "知乎",
-      "title": "深圳吉比特（雷霆游戏）怎么样？",
-      "summary": "1，发行部门，美宣中心下班时间？周六休息吗 2，听说企业文化是“红卫兵”？真是这样吗 3，必须是有洁癖的人才能入 ...",
-      "url": "https://www.zhihu.com/question/622600231",
-      "sentiment": "neutral",
-      "time": "2023-09-18 00:00",
-      "tags": [
-        "知乎",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "lastChange": "2026-06-10 10:54",
-      "changeNote": "标题、摘要有更新",
-      "category": "知乎"
-    },
-    {
-      "id": "zhihu-522658634",
-      "platform": "知乎",
-      "title": "吉比特怎么样？",
-      "summary": "吉比特&雷霆游戏2022春季招聘开启啦！～关于吉比特：一家专业从事网络游戏创意策划、研发制作及商业化运营的国家重 ...",
-      "url": "https://www.zhihu.com/question/522658634",
-      "sentiment": "neutral",
-      "time": "2022-03-17 00:00",
-      "tags": [
-        "知乎",
-        "吉比特",
-        "雷霆游戏"
-      ],
+      "answerCount": 1,
+      "source": "cdp",
       "category": "知乎"
     },
     {
@@ -1726,260 +1644,11 @@ window.MONITOR_DATA = {
       "category": "脉脉"
     },
     {
-      "id": "zhihu-471942908",
-      "platform": "知乎",
-      "title": "如何看待吉比特和雷霆在游戏行业地位？其作品未来有没有 ...",
-      "summary": "根据iOS观察，吉比特的自主运营平台深圳雷霆信息也就是“雷霆游戏”，截至目前共发行了37款手游（25款正在运营，12款已经下架）。 （以上信息均为七麦数据iOS平台 ...",
-      "url": "https://www.zhihu.com/question/471942908",
-      "sentiment": "neutral",
-      "time": "2021-07-12 00:00",
-      "tags": [
-        "知乎",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "知乎"
-    },
-    {
-      "id": "zhihu-357849772",
-      "platform": "知乎",
-      "title": "吉比特的商业模式",
-      "summary": "雷霆股份，吉比特重要的子公司，主要负责游戏运营业务，吉比特持股60%，雷霆股份的董事长和总经理是翟健，38岁，持股雷霆股份的40%。 吉比特卖什么？购买者是谁？",
-      "url": "https://zhuanlan.zhihu.com/p/357849772",
-      "sentiment": "neutral",
-      "time": "2021-03-17 00:00",
-      "tags": [
-        "知乎",
-        "吉比特"
-      ],
-      "category": "知乎"
-    },
-    {
-      "id": "zhihu-172691800",
-      "platform": "知乎",
-      "title": "雷霆游戏宣布代理《纪元：变异》PC版和PS版",
-      "summary": "雷霆旗下的Lightning Games将正式代理《纪元：变异》PC版和PS版。这款由星空智工作室开发的国产赛博朋克像素风动作游戏，并且也是入选索尼中国之星计划 ...",
-      "url": "https://zhuanlan.zhihu.com/p/172691800",
-      "sentiment": "neutral",
-      "time": "2020-08-08 00:00",
-      "tags": [
-        "知乎",
-        "雷霆游戏"
-      ],
-      "category": "知乎"
-    },
-    {
-      "id": "zhihu-288865898",
-      "platform": "知乎",
-      "title": "吉比特无源光纤接入用户端设备是可以发出wifi信号吗？",
-      "summary": "现在的光猫大部分都带有无线功能，可以连接上网，但是速度肯定不会很快.",
-      "url": "https://www.zhihu.com/question/288865898/answer/1933046863",
-      "sentiment": "neutral",
-      "time": "2018-08-07 00:00",
-      "tags": [
-        "知乎",
-        "吉比特"
-      ],
-      "category": "知乎"
-    },
-    {
-      "id": "zhihu-25342693",
-      "platform": "知乎",
-      "title": "厦门吉比特游戏公司怎么样？ - 翟健的回答",
-      "summary": "1、吉比特以及雷霆游戏是一家只想扎根游戏行业，坚持创造美好游戏理念的研发和运营的公司，也许现在还没达到，但这是目标。 2、在公司赚钱的前提下 ...",
-      "url": "https://www.zhihu.com/question/25342693/answer/108489415",
-      "sentiment": "neutral",
-      "time": "2014-09-12 00:00",
-      "tags": [
-        "知乎",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "知乎"
-    },
-    {
-      "id": "zhihu-20866421",
-      "platform": "知乎",
-      "title": "在游戏公司中遇到的奇葩事情有哪些？ - 雷霆游戏的回答",
-      "summary": "说一个也称得上“奇葩”的事情吧。 自上年度起，雷霆游戏制定了一条新的年终奖规则——给离职员工补发年终奖。 初衷其实特别简单。",
-      "url": "https://www.zhihu.com/question/20866421/answer/335532217",
-      "sentiment": "neutral",
-      "time": "2013-03-19 00:00",
-      "tags": [
-        "知乎",
-        "雷霆游戏"
-      ],
-      "category": "知乎"
-    },
-    {
-      "id": "zhihu-xNTAwNjkyNDgcGFnZT0z",
-      "platform": "知乎",
-      "title": "吉比特&雷霆游戏未来游戏制作人大赛",
-      "summary": "2021年4月2日，第三届未来游戏制作人大赛正式开启报名。该赛事是由深圳市文化广电旅游体育局指导，南山区文化广电旅游体育局支持，吉比特&雷霆游戏主办的面向全球在校 ...",
-      "url": "https://www.zhihu.com/column/c_1360538184150069248?page=3",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "知乎",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "知乎"
-    },
-    {
-      "id": "zhihu-668992375",
-      "platform": "知乎",
-      "title": "深圳吉比特雷霆游戏前端日常实习面试面经",
-      "summary": "最新最全的求职面经、求职攻略戳：https://link.youzhiwk.com/r/6Aa8xwQHiO一面（40多分钟）1.自我介绍2.你是如何接触并学习前端的3.说一下你对vue3的了解，为什么vue3的 ...",
-      "url": "https://zhuanlan.zhihu.com/p/668992375",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "知乎",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "知乎"
-    },
-    {
-      "id": "maimai-1886207695",
-      "platform": "脉脉",
-      "title": "2026秋招进行时，吉比特&雷霆游戏招聘来啦！",
-      "summary": "吉比特&雷霆游戏招聘和小红书职场一起加入「校招看见行动」活动！2026校招季，我们将建立更高效透明的求职链路，我们珍视新生血液，希望看见每一封简历背后更真实的「你」！",
-      "url": "https://maimai.cn/article/detail?fid=1886207695&efid=cu7oaVfjig65QCjQsRc2-Q",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "脉脉",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "脉脉"
-    },
-    {
-      "id": "maimai-1902403700",
-      "platform": "脉脉",
-      "title": "吉比特雷霆游戏招聘持续中",
-      "summary": "执行主美，3D美术负责人，2D概念负责人，动作专家，UE5引擎专家等大量岗位虚位以待，欢迎推荐自荐！ 吉比特雷霆游戏招聘持续中脉脉.",
-      "url": "https://maimai.cn/article/detail?fid=1902403700&efid=ciyYMeBUyhcEIp-IxXB_kg",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "脉脉",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "脉脉"
-    },
-    {
-      "id": "maimai-1845433388",
-      "platform": "脉脉",
-      "title": "吉比特雷霆游戏内推助力校招求职！",
-      "summary": "吉比特&雷霆游戏2025秋季校园招聘开始啦！ 有《一念逍遥》《问道》《摩尔庄园》《奥比岛》《鬼谷八荒》等众多明星产品，更有拉满的福利待遇！ 深圳、广州、厦门三地， ...",
-      "url": "https://maimai.cn/article/detail?fid=1845433388&efid=S9ddeBYJ45A7ZsMTzG21mg",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "脉脉",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "脉脉"
-    },
-    {
-      "id": "maimai-1902402098",
-      "platform": "脉脉",
-      "title": "吉比特&雷霆游戏海量HC",
-      "summary": "吉比特&雷霆游戏海量HC ... 声明：本文内容由脉脉用户自发贡献，部分内容可能整编自互联网，版权归原作者所有，脉脉不拥有其著作权，亦不承担相应法律责任。如果您发现有涉嫌 ...",
-      "url": "https://maimai.cn/article/detail?fid=1902402098&efid=7yes1o1Z1PFxXXKFGVCMXA",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "脉脉",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "脉脉"
-    },
-    {
-      "id": "maimai-1902401072",
-      "platform": "脉脉",
-      "title": "吉比特＆雷霆游戏2月最新岗位",
-      "summary": "吉比特＆雷霆游戏2月最新岗位 ; 孤先生. 品宣视频后期适合我. 02-07 ; E先生. 求社招内推码. 02-05 ; 亚先生. 我面试没过，以后还能投吗. 02-05 ; 贝先生. 四年3d角色美术想投 ...",
-      "url": "https://maimai.cn/article/detail?fid=1902401072&efid=S9oDiailyobq1_wea6yi_g",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "脉脉",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "脉脉"
-    },
-    {
-      "id": "maimai-1842319110",
-      "platform": "脉脉",
-      "title": "2025秋招#吉比特雷霆游戏",
-      "summary": "来咯来咯～2025届秋招启动！ vvvvx公众号有奖转发，快来参加~ 搜：吉比特游戏[Yeah]. 2025秋招#吉比特雷霆游戏脉脉. END. 阅读 1. 声明：本文内容由脉脉用户自发贡献，部分 ...",
-      "url": "https://maimai.cn/article/detail?fid=1842319110&efid=aKOEa7wc2dJLUDnjXrVYtA",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "脉脉",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "脉脉"
-    },
-    {
-      "id": "maimai-1839424346",
-      "platform": "脉脉",
-      "title": "吉比特-雷霆游戏美术招聘",
-      "summary": "吉比特-雷霆游戏美术招聘. 头像. 瘦子江. 24-07-12 · 前端开发工程师. 好友. 吉比特-雷霆游戏美术招聘脉脉. END. 阅读 1. 声明：本文内容由脉脉用户自发贡献，部分内容 ...",
-      "url": "https://maimai.cn/article/detail?fid=1839424346&efid=vx2bNOZ90iGDdBtvBIYt_w",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "脉脉",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "脉脉"
-    },
-    {
-      "id": "maimai-1731026926",
-      "platform": "脉脉",
-      "title": "厦门吉比特网络工资待遇怎么样？薪资分布揭秘【2022】",
-      "summary": "1. 产品岗的中位数工资在32064上下浮动，平均薪资在32697左右浮动； · 2. 技术岗的中位数工资在24256上下浮动，平均薪资在26180左右浮动； · 3. 设计岗的中位数工资在26085上下 ...",
-      "url": "https://maimai.cn/article/detail?fid=1731026926&efid=qFJavILumH25w5OBqI_k5A",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "脉脉",
-        "吉比特"
-      ],
-      "category": "脉脉"
-    },
-    {
-      "id": "maimai-1891474590",
-      "platform": "脉脉",
-      "title": "吉比特【无界计划】内推",
-      "summary": "计划有大量校招和社招需求，校招不仅限应届。三年内的游戏人都可以投递 。欢迎联系内推~ ⁠加入【无界计划】，成为创作者，你将能获得； ⁠1.与创始人共创下一个世界级玩法， ...",
-      "url": "https://maimai.cn/article/detail?fid=1891474590&efid=r6IJimx8vxkGBwBwBI2a8w",
-      "sentiment": "positive",
-      "time": "",
-      "tags": [
-        "脉脉",
-        "吉比特"
-      ],
-      "category": "脉脉"
-    },
-    {
-      "id": "nowcoder-xZTVlZWY4NmEzZjU5NDk",
+      "id": "nowcoder-5",
       "platform": "牛客",
-      "title": "吉比特雷霆游戏内推邀请码- 话题",
-      "summary": "吉比特 ，雷霆游戏2023秋招开始了！ base：深圳、广州、厦门 校招内推码：U3F8J0 校招岗位信息:https://campus.g-bits.com/wap ...",
-      "url": "https://www.nowcoder.com/creation/subject/3c5cf3ad318d427eb1e5eef86a3f5949",
+      "title": "吉比特雷霆游戏2026届校园招聘内推",
+      "summary": "吉比特amp;雷霆游戏2026届校园招聘正式启动关于我们：研运一体上市游戏公司，专业从事网络游戏创意策划、研发制作及商业化运营。旗下有《问道》《问道手游》《一念 ...",
+      "url": "https://www.nowcoder.com/feed/main/detail/5c5cd0e06f684a7fa4e96bf7b0eb93e7",
       "sentiment": "neutral",
       "time": "",
       "tags": [
@@ -1990,11 +1659,11 @@ window.MONITOR_DATA = {
       "category": "牛客"
     },
     {
-      "id": "nowcoder-615162",
+      "id": "nowcoder-348440",
       "platform": "牛客",
-      "title": "【吉比特&雷霆游戏】——校园招聘之走进G社| 办公初体验",
-      "summary": "就可以拥有高质量的办公体验！ 一、2021届吉比特&雷霆游戏春招官网链接：. https://campus.g-bits.com/. 请小伙伴们多多向我们官网砸简历~. 二、2021届吉比特&雷霆游戏春招 ...",
-      "url": "https://www.nowcoder.com/discuss/615162",
+      "title": "【吉比特&雷霆游戏】技术岗社招内推，base深圳",
+      "summary": "旗下控股公司雷霆游戏成立于2011年，专注于游戏的研发、推广和商业化运营，成功发行《问道手游》《不思议迷宫》《地下城堡》《地下城堡2》和《斗仙》等精品游戏。 旗下参股 ...",
+      "url": "https://www.nowcoder.com/discuss/348440",
       "sentiment": "neutral",
       "time": "",
       "tags": [
@@ -2005,11 +1674,25 @@ window.MONITOR_DATA = {
       "category": "牛客"
     },
     {
-      "id": "nowcoder-114837",
+      "id": "nowcoder-L2VudGVycHJpc2UvNzYw",
       "platform": "牛客",
-      "title": "吉比特&雷霆游戏凉经",
-      "summary": "【吉比特&雷霆游戏】 笔试：（时长90分钟） 选择题中数学多，计算量较大，专业知识考察很基础； 填空题全是C++，读代码写输出。前面选择如果做得太慢，这部分会很有压力； ...",
-      "url": "https://www.nowcoder.com/discuss/114837",
+      "title": "吉比特2026年校招职位信息",
+      "summary": "招聘批次：. 26春招 ; 网申时间：. 2026/03/23 ~ 2026/05/23 ; 招聘城市：. 厦门、深圳 ; 招聘岗位：. 后端开发、前端开发、客户端开发、测试、数据、运维、产品、运营、游戏策划 ...",
+      "url": "https://www.nowcoder.com/enterprise/760",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "牛客",
+        "吉比特"
+      ],
+      "category": "牛客"
+    },
+    {
+      "id": "nowcoder-400957650471596032",
+      "platform": "牛客",
+      "title": "吉比特雷霆游戏23校招第2批笔试9月20日，速速投递",
+      "summary": "吉比特&雷霆游戏23校招第2批笔试9月20日，速速投递. 迎来 金9银10，招聘高峰，快抓住9月的小尾巴，还没投递吉比特&雷霆游戏全球招聘的小伙伴！！！ ... 内推码： MCY6 ，快打开校招 ...",
+      "url": "https://www.nowcoder.com/discuss/400957650471596032",
       "sentiment": "neutral",
       "time": "",
       "tags": [
@@ -2035,11 +1718,11 @@ window.MONITOR_DATA = {
       "category": "牛客"
     },
     {
-      "id": "nowcoder-400957650471596032",
+      "id": "nowcoder-114837",
       "platform": "牛客",
-      "title": "吉比特雷霆游戏23校招第2批笔试9月20日，速速投递",
-      "summary": "吉比特&雷霆游戏23校招第2批笔试9月20日，速速投递. 迎来 金9银10，招聘高峰，快抓住9月的小尾巴，还没投递吉比特&雷霆游戏全球招聘的小伙伴！！！ ... 内推码： MCY6 ，快打开校招 ...",
-      "url": "https://www.nowcoder.com/discuss/400957650471596032",
+      "title": "吉比特&雷霆游戏凉经",
+      "summary": "【吉比特&雷霆游戏】 笔试：（时长90分钟） 选择题中数学多，计算量较大，专业知识考察很基础； 填空题全是C++，读代码写输出。前面选择如果做得太慢，这部分会很有压力； ...",
+      "url": "https://www.nowcoder.com/discuss/114837",
       "sentiment": "neutral",
       "time": "",
       "tags": [
@@ -2050,77 +1733,167 @@ window.MONITOR_DATA = {
       "category": "牛客"
     },
     {
-      "id": "nowcoder-L2VudGVycHJpc2UvNzYw",
+      "id": "nowcoder-615162",
       "platform": "牛客",
-      "title": "吉比特2026年校招职位信息",
-      "summary": "招聘批次：. 26春招 ; 网申时间：. 2026/03/23 ~ 2026/05/23 ; 招聘城市：. 厦门、深圳 ; 招聘岗位：. 后端开发、前端开发、客户端开发、测试、数据、运维、产品、运营、游戏策划 ...",
-      "url": "https://www.nowcoder.com/enterprise/760",
+      "title": "【吉比特&雷霆游戏】——校园招聘之走进G社| 办公初体验",
+      "summary": "就可以拥有高质量的办公体验！ 一、2021届吉比特&雷霆游戏春招官网链接：. https://campus.g-bits.com/. 请小伙伴们多多向我们官网砸简历~. 二、2021届吉比特&雷霆游戏春招 ...",
+      "url": "https://www.nowcoder.com/discuss/615162",
       "sentiment": "neutral",
       "time": "",
       "tags": [
         "牛客",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "牛客"
+    },
+    {
+      "id": "nowcoder-xZTVlZWY4NmEzZjU5NDk",
+      "platform": "牛客",
+      "title": "吉比特雷霆游戏内推邀请码- 话题",
+      "summary": "吉比特 ，雷霆游戏2023秋招开始了！ base：深圳、广州、厦门 校招内推码：U3F8J0 校招岗位信息:https://campus.g-bits.com/wap ...",
+      "url": "https://www.nowcoder.com/creation/subject/3c5cf3ad318d427eb1e5eef86a3f5949",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "牛客",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "牛客"
+    },
+    {
+      "id": "maimai-1891474590",
+      "platform": "脉脉",
+      "title": "吉比特【无界计划】内推",
+      "summary": "计划有大量校招和社招需求，校招不仅限应届。三年内的游戏人都可以投递 。欢迎联系内推~ ⁠加入【无界计划】，成为创作者，你将能获得； ⁠1.与创始人共创下一个世界级玩法， ...",
+      "url": "https://maimai.cn/article/detail?fid=1891474590&efid=r6IJimx8vxkGBwBwBI2a8w",
+      "sentiment": "positive",
+      "time": "",
+      "tags": [
+        "脉脉",
         "吉比特"
       ],
-      "category": "牛客"
+      "category": "脉脉"
     },
     {
-      "id": "nowcoder-348440",
-      "platform": "牛客",
-      "title": "【吉比特&雷霆游戏】技术岗社招内推，base深圳",
-      "summary": "旗下控股公司雷霆游戏成立于2011年，专注于游戏的研发、推广和商业化运营，成功发行《问道手游》《不思议迷宫》《地下城堡》《地下城堡2》和《斗仙》等精品游戏。 旗下参股 ...",
-      "url": "https://www.nowcoder.com/discuss/348440",
+      "id": "maimai-1731026926",
+      "platform": "脉脉",
+      "title": "厦门吉比特网络工资待遇怎么样？薪资分布揭秘【2022】",
+      "summary": "1. 产品岗的中位数工资在32064上下浮动，平均薪资在32697左右浮动； · 2. 技术岗的中位数工资在24256上下浮动，平均薪资在26180左右浮动； · 3. 设计岗的中位数工资在26085上下 ...",
+      "url": "https://maimai.cn/article/detail?fid=1731026926&efid=qFJavILumH25w5OBqI_k5A",
       "sentiment": "neutral",
       "time": "",
       "tags": [
-        "牛客",
+        "脉脉",
+        "吉比特"
+      ],
+      "category": "脉脉"
+    },
+    {
+      "id": "maimai-1839424346",
+      "platform": "脉脉",
+      "title": "吉比特-雷霆游戏美术招聘",
+      "summary": "吉比特-雷霆游戏美术招聘. 头像. 瘦子江. 24-07-12 · 前端开发工程师. 好友. 吉比特-雷霆游戏美术招聘脉脉. END. 阅读 1. 声明：本文内容由脉脉用户自发贡献，部分内容 ...",
+      "url": "https://maimai.cn/article/detail?fid=1839424346&efid=vx2bNOZ90iGDdBtvBIYt_w",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "脉脉",
         "吉比特",
         "雷霆游戏"
       ],
-      "category": "牛客"
+      "category": "脉脉"
     },
     {
-      "id": "zhihu-ktcWluZy1iYW8temhhbg",
-      "platform": "知乎",
-      "title": "雷霆游戏情报站",
-      "summary": "属于雷霆游戏玩家的情报站，最新动态资讯、试玩评测都在这里！ -官方公众号：LTGames -官方微博：@雷霆游戏 -官方b站账号：雷霆游戏. 详细资料​ ...",
-      "url": "https://www.zhihu.com/org/lei-ting-you-xi-qing-bao-zhan",
+      "id": "maimai-1842319110",
+      "platform": "脉脉",
+      "title": "2025秋招#吉比特雷霆游戏",
+      "summary": "来咯来咯～2025届秋招启动！ vvvvx公众号有奖转发，快来参加~ 搜：吉比特游戏[Yeah]. 2025秋招#吉比特雷霆游戏脉脉. END. 阅读 1. 声明：本文内容由脉脉用户自发贡献，部分 ...",
+      "url": "https://maimai.cn/article/detail?fid=1842319110&efid=aKOEa7wc2dJLUDnjXrVYtA",
       "sentiment": "neutral",
       "time": "",
       "tags": [
-        "知乎",
-        "雷霆游戏"
-      ],
-      "category": "知乎"
-    },
-    {
-      "id": "nowcoder-5",
-      "platform": "牛客",
-      "title": "吉比特雷霆游戏2026届校园招聘内推",
-      "summary": "吉比特amp;雷霆游戏2026届校园招聘正式启动关于我们：研运一体上市游戏公司，专业从事网络游戏创意策划、研发制作及商业化运营。旗下有《问道》《问道手游》《一念 ...",
-      "url": "https://www.nowcoder.com/feed/main/detail/5c5cd0e06f684a7fa4e96bf7b0eb93e7",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "牛客",
+        "脉脉",
         "吉比特",
         "雷霆游戏"
       ],
-      "category": "牛客"
+      "category": "脉脉"
     },
     {
-      "id": "zhihu-1MzgxODQxNTAwNjkyNDg",
-      "platform": "知乎",
-      "title": "吉比特&雷霆游戏未来游戏制作人大赛",
-      "summary": "2021年4月2日，第三届未来游戏制作人大赛正式开启报名。该赛事是由深圳市文化广电旅游体育局指导，南山区文化广电旅游体育局支持，吉比特&雷霆游戏主办的面向全球在校 ...",
-      "url": "https://www.zhihu.com/column/c_1360538184150069248",
+      "id": "maimai-1902401072",
+      "platform": "脉脉",
+      "title": "吉比特＆雷霆游戏2月最新岗位",
+      "summary": "吉比特＆雷霆游戏2月最新岗位 ; 孤先生. 品宣视频后期适合我. 02-07 ; E先生. 求社招内推码. 02-05 ; 亚先生. 我面试没过，以后还能投吗. 02-05 ; 贝先生. 四年3d角色美术想投 ...",
+      "url": "https://maimai.cn/article/detail?fid=1902401072&efid=S9oDiailyobq1_wea6yi_g",
       "sentiment": "neutral",
       "time": "",
       "tags": [
-        "知乎",
+        "脉脉",
         "吉比特",
         "雷霆游戏"
       ],
-      "category": "知乎"
+      "category": "脉脉"
+    },
+    {
+      "id": "maimai-1902402098",
+      "platform": "脉脉",
+      "title": "吉比特&雷霆游戏海量HC",
+      "summary": "吉比特&雷霆游戏海量HC ... 声明：本文内容由脉脉用户自发贡献，部分内容可能整编自互联网，版权归原作者所有，脉脉不拥有其著作权，亦不承担相应法律责任。如果您发现有涉嫌 ...",
+      "url": "https://maimai.cn/article/detail?fid=1902402098&efid=7yes1o1Z1PFxXXKFGVCMXA",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "脉脉",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "脉脉"
+    },
+    {
+      "id": "maimai-1845433388",
+      "platform": "脉脉",
+      "title": "吉比特雷霆游戏内推助力校招求职！",
+      "summary": "吉比特&雷霆游戏2025秋季校园招聘开始啦！ 有《一念逍遥》《问道》《摩尔庄园》《奥比岛》《鬼谷八荒》等众多明星产品，更有拉满的福利待遇！ 深圳、广州、厦门三地， ...",
+      "url": "https://maimai.cn/article/detail?fid=1845433388&efid=S9ddeBYJ45A7ZsMTzG21mg",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "脉脉",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "脉脉"
+    },
+    {
+      "id": "maimai-1902403700",
+      "platform": "脉脉",
+      "title": "吉比特雷霆游戏招聘持续中",
+      "summary": "执行主美，3D美术负责人，2D概念负责人，动作专家，UE5引擎专家等大量岗位虚位以待，欢迎推荐自荐！ 吉比特雷霆游戏招聘持续中脉脉.",
+      "url": "https://maimai.cn/article/detail?fid=1902403700&efid=ciyYMeBUyhcEIp-IxXB_kg",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "脉脉",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "脉脉"
+    },
+    {
+      "id": "maimai-1886207695",
+      "platform": "脉脉",
+      "title": "2026秋招进行时，吉比特&雷霆游戏招聘来啦！",
+      "summary": "吉比特&雷霆游戏招聘和小红书职场一起加入「校招看见行动」活动！2026校招季，我们将建立更高效透明的求职链路，我们珍视新生血液，希望看见每一封简历背后更真实的「你」！",
+      "url": "https://maimai.cn/article/detail?fid=1886207695&efid=cu7oaVfjig65QCjQsRc2-Q",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "脉脉",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "脉脉"
     }
   ]
 };

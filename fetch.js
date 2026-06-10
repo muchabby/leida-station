@@ -128,14 +128,19 @@ async function fetchSocial(site){
     // id 取链接里的数字ID（question/123、p/456、discuss/123 等），比 base64 更有区分度，避免误去重
     const idPart = (r.link||"").match(/(?:question|answer|p|discuss|detail\?fid=|feed\/main\/detail)\/?=?(\d+)/);
     const key = idPart ? idPart[1] : Buffer.from(r.link||title).toString("base64").replace(/[^a-zA-Z0-9]/g,"").slice(-20);
+    // 知乎周末兜底：若能解析出 question id，用 zhihu-q{qid} 与本机 CDP 深挖(fetch-zhihu.js)同 id，
+    // 这样工作日 cdp 精确数据能覆盖周末 serp 糊数据（方案A去重）。解析不出才退化为带 answer/链接 id。
+    const qm = site.name==="知乎" ? (r.link||"").match(/\/question\/(\d+)/) : null;
+    const id = qm ? `zhihu-q${qm[1]}` : `${site.domain.split(".")[0]}-${key}`;
     return {
-      id: `${site.domain.split(".")[0]}-${key}`,
+      id,
       platform: site.name,
       title, summary,
       url: r.link || "",
       sentiment: judge(title + " " + summary),
       time: parseZhihuDate(r.date),  // 把"6天前/2026年4月3日"统一成 YYYY-MM-DD HH:MM
-      tags: [site.name, ...KEYWORDS.filter(k=>(title+summary).includes(k))]
+      tags: [site.name, ...KEYWORDS.filter(k=>(title+summary).includes(k))],
+      ...(site.name==="知乎" ? { source:"serp" } : {})  // 知乎周末兜底标记，merge 时让 cdp 优先
     };
   }).filter(i => isRelevant(i.title + " " + i.summary) && isMeaningful(i.title));
 }
@@ -241,8 +246,13 @@ async function pushLark(newItems, allItems, daily){
   catch(e){ console.log("抓取公告失败：", e.message); }
 
   // 社交站：仅在开了 FETCH_SOCIAL 的那次任务抓（每天1次，省额度）
+  // 方案A：知乎只在周末由 SerpAPI 兜底抓；工作日由本机 fetch-zhihu.js 经 CDP 深挖（更精确）。
+  // 脉脉/牛客不受影响，照常每天（开了FETCH_SOCIAL时）抓。
+  const dow = bjNow().getDay(); // 0=周日,6=周六
+  const isWeekend = (dow===0 || dow===6);
   if(FETCH_SOCIAL && SERPAPI_KEY){
     for(const site of SOCIAL_SITES){
+      if(site.name==="知乎" && !isWeekend) continue; // 工作日知乎交给本机CDP，云端不抓
       try { fetched.push(...await fetchSocial(site)); }
       catch(e){ console.log(`抓取${site.name}失败：`, e.message); }
     }
@@ -254,6 +264,13 @@ async function pushLark(newItems, allItems, daily){
 
   const existing = readExisting();
   const existMap = new Map((existing.items||[]).map(i=>[i.id, i]));
+
+  // 方案A去重：周末 serp 知乎条目，若库里已有同 id 的本机 cdp 精确版，丢弃 serp（cdp 永远优先，不被糊数据覆盖）。
+  fetched = fetched.filter(i => {
+    if(i.source==="serp"){ const old=existMap.get(i.id); if(old && old.source==="cdp") return false; }
+    return true;
+  });
+
   const fresh = fetched.filter(i => !existMap.has(i.id));
 
   // 「盯着他」：对库里已存在、这次又抓到的条目，比对标题+摘要快照。
