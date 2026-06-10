@@ -253,6 +253,10 @@
     .update-flag .uf-clear{appearance:none;border:0;background:transparent;color:var(--accent);
       font:inherit;font-size:11px;cursor:pointer;margin-left:auto;text-decoration:underline}
     .feed-item.has-update{border-left-color:var(--danger);box-shadow:0 0 0 1px rgba(192,57,43,.18)}
+    /* "有更新"分组标题：醒目金红 */
+    .feed-group.update-group .gl{color:var(--danger);font-family:var(--font-title)}
+    .feed-group.update-group .gc{background:linear-gradient(90deg,rgba(192,57,43,.12),rgba(200,160,74,.12));border-color:rgba(192,57,43,.3);color:var(--danger)}
+    .feed-group.update-group .gline{background:linear-gradient(90deg,rgba(192,57,43,.4),transparent)}
     /* 分类徽标 */
     .cat-badge{display:inline-block;padding:2px 9px;border-radius:999px;font-size:11px;font-weight:600;margin-right:8px;vertical-align:middle;letter-spacing:.02em}
     .cat-财经新闻{background:var(--accent-soft);color:var(--accent)}
@@ -761,7 +765,15 @@
     function renderFullFeed(){
       const seen=getSeen();
       const items=applyFilters(DATA.items);
-      const html = state.sort==="new" ? renderGrouped(items,seen) : items.map(i=>itemHTML(i,seen)).join("");
+      // 把"有未读更新"的帖子拎到最顶单独成区，其余照常按时间分组/排序
+      const updated=items.filter(hasUnreadUpdate);
+      const rest=items.filter(i=>!hasUnreadUpdate(i));
+      let html="";
+      if(updated.length){
+        html += `<div class="feed-group update-group"><span class="gl">🔔 内容有更新</span><span class="gc">${updated.length} 条</span><span class="gline"></span></div>`;
+        html += updated.map(i=>itemHTML(i,seen)).join("");
+      }
+      html += state.sort==="new" ? renderGrouped(rest,seen) : rest.map(i=>itemHTML(i,seen)).join("");
       document.getElementById("fullFeed").innerHTML=html
         || `<div class="empty">没有匹配的消息${state.q?`：找不到「${esc(state.q)}」`:""}</div>`;
     }
@@ -881,6 +893,9 @@
 
     // 加星 / 已处理 / 备注（事件委托，覆盖所有列表）
     document.body.addEventListener("click",e=>{
+      // "标为已读"按钮是 .uf-clear（不在 .act 体系里），需先单独处理，否则被下面的 .act 拦截 return
+      const ufBtn=e.target.closest(".uf-clear");
+      if(ufBtn){ markUpdateSeen(ufBtn.dataset.id); renderAll(); return; }
       const btn=e.target.closest(".act"); if(!btn) return;
       const id=btn.dataset.id, act=btn.dataset.act;
       if(act==="note"){
@@ -889,7 +904,6 @@
         if(box){ box.classList.toggle("show"); if(box.classList.contains("show")) box.querySelector("textarea").focus(); }
         return;
       }
-      if(act==="updseen"){ markUpdateSeen(id); renderAll(); return; } // 盯着他：标更新为已读
       toggleId(act==="star"?STAR_KEY:DONE_KEY, id);
       pushMark(id);   // 同步到云端
       renderAll();
