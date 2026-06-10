@@ -17,6 +17,7 @@ run-xhs.log
 # 小红书抓取脚本（依赖本机 Chrome+登录态，只能本地跑，不上云）
 fetch-xhs.js
 backfill-xhs-date.js
+manual-date.js
 
 # 历史快照（本地留存即可，不必上云）
 versions/
