@@ -32,6 +32,7 @@ start-zhihu-chrome.cmd
 zhihu-watch.json
 data.before-zhihu.bak.js
 知乎监测-方案A.md
+主题标签方案.md
 
 # 历史快照（本地留存即可，不必上云）
 versions/

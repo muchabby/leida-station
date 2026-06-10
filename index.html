@@ -268,6 +268,23 @@
     [data-theme="dark"] .cat-知乎{color:#7ea0e0}
     [data-theme="dark"] .cat-牛客{color:#6cc5c5}
     [data-theme="dark"] .cat-小红书{color:#e88aa8}
+    /* 主题标签 topic-badge（横切维度，与来源徽标并列；统一中性色，不抢来源色）*/
+    .topic-badge{display:inline-block;padding:2px 9px;border-radius:999px;font-size:11px;font-weight:600;margin-right:8px;vertical-align:middle;letter-spacing:.02em;background:var(--gold-soft);color:var(--muted);border:1px solid var(--line)}
+    .topic-filters{margin-top:-8px}
+    .topic-filters .seg-label{font-size:12px;color:var(--muted);margin-right:4px;align-self:center}
+    /* 正向宣传素材卡 */
+    .positive-card{border-left:3px solid var(--success)}
+    .pos-group{margin-bottom:14px}
+    .pos-group:last-child{margin-bottom:0}
+    .pos-gh{font-size:13px;font-weight:700;color:var(--success);margin-bottom:6px;display:flex;align-items:center;gap:6px}
+    .pos-gh .pos-cnt{font-size:11px;font-weight:600;color:var(--muted);background:rgba(63,125,94,.12);border-radius:999px;padding:1px 8px}
+    .pos-item{display:flex;align-items:center;gap:8px;padding:6px 0;border-bottom:1px dashed var(--line)}
+    .pos-item:last-child{border-bottom:none}
+    .pos-item>a{flex:1;color:var(--text);text-decoration:none;font-size:13px;line-height:1.5;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+    .pos-item>a:hover{color:var(--accent)}
+    .pos-meta{font-size:11px;color:var(--muted);white-space:nowrap;flex-shrink:0}
+    .pos-copy{flex-shrink:0;border:1px solid var(--line);background:var(--surface);border-radius:7px;cursor:pointer;font-size:12px;padding:3px 8px;color:var(--muted);transition:all .2s}
+    .pos-copy:hover{border-color:var(--success);color:var(--success);background:rgba(63,125,94,.08)}
     /* 玻璃卡片悬停：上浮 + 金色光泽 */
     .feed-item{transition:transform 320ms cubic-bezier(.22,1,.36,1),box-shadow 320ms,border-color 320ms;position:relative;overflow:hidden}
     .feed-item::after{content:"";position:absolute;top:0;left:-60%;width:50%;height:100%;pointer-events:none;
@@ -377,6 +394,12 @@
           </div>
         </div>
 
+        <!-- 正向宣传素材（聚合 positive，按主题分组，可一键复制做宣传）-->
+        <div class="card positive-card" id="positiveCard">
+          <div class="card-head"><div><h4>✨ 正向宣传素材</h4><p id="positiveSub">可作公司宣传的正向声音</p></div></div>
+          <div id="positiveBody"></div>
+        </div>
+
         <div class="card">
           <div class="card-head"><div><h4>最新厂牌舆情</h4><p id="feedSub"></p></div></div>
           <div class="feed-list" id="overviewFeed"></div>
@@ -417,6 +440,7 @@
           </div>
         </div>
         <div class="filters" id="filters"></div>
+        <div class="filters topic-filters" id="topicFilters"></div>
         <div class="card"><div class="feed-list" id="fullFeed"></div></div>
       </section>
 
@@ -479,7 +503,10 @@
     const THEME_KEY = "brandMonitorTheme";
     const UPDSEEN_KEY = "brandMonitorUpdateSeen"; // {id: lastChange} 记录已读的更新标记
     const SENTI = { positive:"正向", negative:"负向", neutral:"中性" };
-    const state = { tab:"overview", category:"全部", q:"", sort:"new", senti:"all", range:"all", from:"", to:"" };
+    // 主题标签(topicize 生成)的 emoji 与展示顺序
+    const TOPIC_EMOJI = {"企业文化":"🏛 ","理念价值观":"💡 ","经营管理":"⚙️ ","产品游戏":"🎮 ","招聘求职":"🧑‍💻 ","股票财务":"💰 ","公司综合":"🏢 "};
+    const TOPIC_ORDER = ["企业文化","理念价值观","经营管理","产品游戏","招聘求职","股票财务","公司综合"];
+    const state = { tab:"overview", category:"全部", topic:"全部", q:"", sort:"new", senti:"all", range:"all", from:"", to:"" };
 
     // ---- 时间工具 ----
     const todayStr = () => { const n=new Date(); const p=x=>String(x).padStart(2,"0"); return `${n.getFullYear()}-${p(n.getMonth()+1)}-${p(n.getDate())}`; };
@@ -618,7 +645,7 @@
       const upd = hasUnreadUpdate(item);
       return `<article class="feed-item ${item.sentiment} ${isNew?"is-new":""} ${star?"starred":""} ${done?"done":""} ${upd?"has-update":""}" data-id="${esc(item.id)}">
         ${star?'<span class="corner">⭐</span>':''}
-        <div class="feed-top"><span>${item.category?`<span class="cat-badge cat-${esc(item.category)}">${esc(item.category)}</span>`:''}${esc(item.platform)} · ${item.time?esc(item.time):'<span style="opacity:.6">日期未知</span>'}</span>
+        <div class="feed-top"><span>${item.category?`<span class="cat-badge cat-${esc(item.category)}">${esc(item.category)}</span>`:''}${item.topic?`<span class="topic-badge">${TOPIC_EMOJI[item.topic]||""}${esc(item.topic)}</span>`:''}${esc(item.platform)} · ${item.time?esc(item.time):'<span style="opacity:.6">日期未知</span>'}</span>
           <span class="senti ${item.sentiment}">${SENTI[item.sentiment]||"中性"}</span></div>
         <h5><a href="${esc(item.url)}" target="_blank" rel="noopener">${esc(item.title)}</a>${isNew?'<span class="badge-new">NEW</span>':''}</h5>
         <p>${esc(item.summary)}</p>
@@ -737,6 +764,36 @@
       });
     }
 
+    // E. 正向宣传素材：聚合 positive，按主题分组(每组最多3条)，每条可一键复制做宣传
+    function renderPositive(){
+      const pos=DATA.items.filter(i=>i.sentiment==="positive").sort((a,b)=>cmpTime(a,b,"new"));
+      const sub=document.getElementById("positiveSub");
+      const body=document.getElementById("positiveBody");
+      if(!pos.length){ sub.textContent="暂无正向声音"; body.innerHTML='<div class="empty">还没抓到正向信息，攒一攒就有了</div>'; return; }
+      sub.textContent=`共 ${pos.length} 条正向声音，可作公司宣传 · 点 📋 复制素材`;
+      // 按主题分组
+      const groups={};
+      pos.forEach(i=>{ (groups[i.topic]=groups[i.topic]||[]).push(i); });
+      const order=TOPIC_ORDER.filter(t=>groups[t]);
+      body.innerHTML=order.map(t=>{
+        const list=groups[t].slice(0,3);
+        const rows=list.map(i=>`
+          <div class="pos-item">
+            <a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.title)}</a>
+            <span class="pos-meta">${esc(i.platform)}${i.time?" · "+esc(i.time):""}</span>
+            <button class="pos-copy" data-id="${esc(i.id)}" title="复制标题+摘要+链接">📋</button>
+          </div>`).join("");
+        return `<div class="pos-group"><div class="pos-gh">${TOPIC_EMOJI[t]||""}${esc(t)} <span class="pos-cnt">${groups[t].length}</span></div>${rows}</div>`;
+      }).join("");
+      // 复制按钮：标题 + 摘要 + 链接
+      body.querySelectorAll(".pos-copy").forEach(b=>b.onclick=()=>{
+        const it=DATA.items.find(x=>x.id===b.dataset.id); if(!it) return;
+        const txt=`${it.title}\n${it.summary||""}\n${it.url||""}`.trim();
+        navigator.clipboard.writeText(txt).then(()=>{ b.textContent="✓"; setTimeout(()=>b.textContent="📋",1500); })
+          .catch(()=>{ b.textContent="✗"; setTimeout(()=>b.textContent="📋",1500); });
+      });
+    }
+
     function renderFilters(){
       // 按分类筛选：财经新闻/公司公告 按内容分，社交平台 知乎/脉脉/牛客/小红书 按来源分
       const order=["财经新闻","公司公告","知乎","脉脉","牛客","小红书"];
@@ -747,11 +804,21 @@
         return `<button class="chip ${state.category===n?"active":""}" data-name="${esc(n)}">${esc(n)} (${cnt})</button>`;
       }).join("");
       document.querySelectorAll("#filters .chip").forEach(b=>b.onclick=()=>{state.category=b.dataset.name;renderFilters();renderFullFeed();});
+      // 主题筛选(横切维度，与来源可叠加)
+      const tPresent=TOPIC_ORDER.filter(t=>DATA.items.some(i=>i.topic===t));
+      const tNames=["全部",...tPresent];
+      document.getElementById("topicFilters").innerHTML='<span class="seg-label">主题</span>'+tNames.map(n=>{
+        const cnt=n==="全部"?DATA.items.length:DATA.items.filter(i=>i.topic===n).length;
+        const label=n==="全部"?"全部":((TOPIC_EMOJI[n]||"")+n);
+        return `<button class="chip ${state.topic===n?"active":""}" data-topic="${esc(n)}">${esc(label)} (${cnt})</button>`;
+      }).join("");
+      document.querySelectorAll("#topicFilters .chip").forEach(b=>b.onclick=()=>{state.topic=b.dataset.topic;renderFilters();renderFullFeed();});
     }
 
     function applyFilters(list){
       let items=list.slice();
       if(state.category!=="全部") items=items.filter(i=>i.category===state.category);
+      if(state.topic!=="全部") items=items.filter(i=>i.topic===state.topic);
       if(state.senti!=="all") items=items.filter(i=>i.sentiment===state.senti);
       items=items.filter(inRange);
       if(state.q.trim()){
@@ -826,7 +893,7 @@
       wc.textContent=watchUpd?`${watchUpd}🔴`:String(watchAll);
     }
 
-    function renderAll(){ renderMetrics();renderTrends();renderAlert();renderDonut();renderWordCloud();renderOverviewFeed();renderFilters();renderFullFeed();renderWatch();renderDone();renderSources();renderBanner(); }
+    function renderAll(){ renderMetrics();renderTrends();renderAlert();renderDonut();renderWordCloud();renderPositive();renderOverviewFeed();renderFilters();renderFullFeed();renderWatch();renderDone();renderSources();renderBanner(); }
   </script>
 
   <script>

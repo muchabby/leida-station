@@ -32,6 +32,27 @@ function categorize(item){
   if(item.platform==="小红书") return "小红书";
   return "财经新闻";
 }
+
+// ===== 主题标签 topicize（横切维度，与来源 category 并行）=====
+// 【重要】此块在 fetch.js / fetch-xhs.js / fetch-zhihu.js 三处各维护一份，改词表要同步三处！
+// 按"讲什么内容"分 7 类，从专到泛、先命中先归类。无人值守关键词粗判，偶有误判可接受。
+const TOPIC_RULES = [
+  ["企业文化", ["年终奖","千万房产","豪宅","iPhone","重奖","福利","氛围","梦中情司","清流","加班","压榨","996","双休","食堂","团建","画饼","奋斗","幸福感","壕"]],
+  ["理念价值观", ["理念","价值观","高风险高回报","内容开发","初心","长期主义","精品","坚持","使命","愿景","格局","创始人","CEO说","老板说"]],
+  ["经营管理", ["管理","战略","版号","布局","组织","决策","转型","裁撤","架构","KPI","考核","收购","投资团队","初创","子公司","股权","治理"]],
+  ["产品游戏", ["一念逍遥","问道","奥比岛","摩尔庄园","杖剑传说","地下城堡","跨越星弧","魂之诗","新游","上线","流水","玩法","版本","代理","发行","买量","手游","制作人大赛","开罗"]],
+  ["招聘求职", ["招聘","校招","秋招","春招","内推","面经","凉经","实习","offer","薪资","岗位","HC","求职","入职","面试","笔试"]],
+  ["股票财务", ["股价","股票","市值","分红","派现","财报","研报","净利","营收","涨停","跌停","机构","估值","603444","业绩","回购","增持","减持","一季报","年报","翻倍","新股王","茅台"]],
+];
+function topicize(item){
+  const text = (item.title||"") + " " + (item.summary||"");
+  for(const [topic, words] of TOPIC_RULES){
+    if(words.some(w=>text.includes(w))) return topic;
+  }
+  return "公司综合"; // 兜底
+}
+// ===== topicize 结束 =====
+
 // 社交站每天只抓 1 次以省额度（3 站 × 30 天 = 90 次/月，卡在免费 100 次内）。
 // 设 FETCH_SOCIAL=1 的那次任务才抓社交站；不设则只抓新闻+公告（0 额度）。
 const FETCH_SOCIAL = process.env.FETCH_SOCIAL === "1";
@@ -297,7 +318,7 @@ async function pushLark(newItems, allItems, daily){
   const fetchedIds = new Set(fetched.map(i=>i.id));
   const untouched = (existing.items||[]).filter(i=>!fetchedIds.has(i.id));
   const merged = [...fetched, ...untouched].sort((a,b)=> (a.time<b.time?1:-1));
-  merged.forEach(i=>{ i.category = categorize(i); }); // 统一打分类标签（含回填旧条目）
+  merged.forEach(i=>{ i.category = categorize(i); i.topic = topicize(i); }); // 统一打来源分类+主题标签（含回填存量）
 
   writeData({ updatedAt: stamp, keywords: KEYWORDS, items: merged });
   const socialCnt = fetched.filter(i=>SOCIAL_SITES.some(s=>s.name===i.platform)).length;
