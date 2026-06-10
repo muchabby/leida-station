@@ -257,9 +257,13 @@
     .cat-badge{display:inline-block;padding:2px 9px;border-radius:999px;font-size:11px;font-weight:600;margin-right:8px;vertical-align:middle;letter-spacing:.02em}
     .cat-财经新闻{background:var(--accent-soft);color:var(--accent)}
     .cat-公司公告{background:rgba(63,125,94,.14);color:var(--success)}
-    .cat-社区讨论{background:rgba(194,121,42,.14);color:var(--warn)}
-    .cat-招聘信息{background:rgba(150,110,180,.14);color:#9a6cb4}
-    [data-theme="dark"] .cat-招聘信息{color:#c3a3dd}
+    .cat-知乎{background:rgba(74,114,194,.14);color:#4a72c2}
+    .cat-脉脉{background:rgba(194,121,42,.14);color:var(--warn)}
+    .cat-牛客{background:rgba(63,158,158,.14);color:#3f9e9e}
+    .cat-小红书{background:rgba(209,87,126,.14);color:#d1577e}
+    [data-theme="dark"] .cat-知乎{color:#7ea0e0}
+    [data-theme="dark"] .cat-牛客{color:#6cc5c5}
+    [data-theme="dark"] .cat-小红书{color:#e88aa8}
     /* 玻璃卡片悬停：上浮 + 金色光泽 */
     .feed-item{transition:transform 320ms cubic-bezier(.22,1,.36,1),box-shadow 320ms,border-color 320ms;position:relative;overflow:hidden}
     .feed-item::after{content:"";position:absolute;top:0;left:-60%;width:50%;height:100%;pointer-events:none;
@@ -438,9 +442,9 @@
           <div class="card-head"><div><h4>覆盖范围说明</h4><p>实事求是地标注目前能抓和暂时抓不到的</p></div></div>
           <div class="src-grid">
             <div class="src"><div class="pill">✅ 已覆盖</div><h5>财经 / 新闻 / 公告</h5><p>股价、财报、业绩预告、分红、上市公司公告等。东方财富接口免登录稳定抓取，每日定时更新。</p></div>
-            <div class="src"><div class="pill">✅ 已覆盖</div><h5>社区讨论 / 招聘信息</h5><p>知乎（玩家口碑、行业分析）、脉脉与牛客（招聘、面经）已经 SerpAPI 接入，每天 9 点抓取一次。</p></div>
-            <div class="src"><div class="pill" style="background:rgba(220,38,38,.1);color:var(--danger)">❌ 抓不到</div><h5>小红书</h5><p>小红书屏蔽搜索引擎收录，SerpAPI 实测返回 0 条，暂无可行的免登录抓取方案。</p></div>
-            <div class="src"><div class="pill" style="background:rgba(15,138,98,.1);color:var(--success)">✅ 已就绪</div><h5>无人值守 + 飞书推送</h5><p>抓取已固化为定时脚本（每日 9/13/18 点）。飞书推送代码已预留，填入群机器人 Webhook 即可自动推送。</p></div>
+            <div class="src"><div class="pill">✅ 已覆盖</div><h5>知乎 / 脉脉 / 牛客</h5><p>知乎（玩家口碑、行业分析）、脉脉与牛客（招聘、面经）经 SerpAPI 站内搜索接入，云端每天 9 点抓取一次。</p></div>
+            <div class="src"><div class="pill">✅ 已覆盖</div><h5>小红书</h5><p>经浏览器扩展用真实登录态抓取（绕过搜索引擎不收录的限制），关键词搜索 + 详情补发布日期。本机定时每天 14 点跑一次，自动同步上云。</p></div>
+            <div class="src"><div class="pill" style="background:rgba(15,138,98,.1);color:var(--success)">✅ 已就绪</div><h5>无人值守 + 飞书推送</h5><p>新闻 / 社交抓取已上云（GitHub Actions 每天 9 点），小红书本机定时每天 14 点。负面舆情自动推送飞书群。</p></div>
           </div>
         </div>
         <div class="card">
@@ -453,7 +457,8 @@
             <div class="src"><div class="pill">阶段三</div><h5>上云（GitHub）</h5><p>建公开仓库 + 开 Pages 托管 → 密钥存 GitHub Secrets → Actions 每天 9 点定时抓取、bot 自动 commit data.js，完全不依赖本地电脑。</p></div>
             <div class="src"><div class="pill">阶段四</div><h5>多设备星标同步</h5><p>Supabase 存 user_marks 表，前端用 publishable key + RLS 保护；启动先拉云端再渲染，避免多设备竞态。</p></div>
             <div class="src"><div class="pill">阶段五</div><h5>接入飞书推送</h5><p>自定义机器人 + 关键词「雷达站」安全设置；fetch.js 的 pushLark() 负面置顶、有新增才推。</p></div>
-            <div class="src"><div class="pill">阶段六</div><h5>日常运维与扩展</h5><p>盯紧 SerpAPI 额度（90 次/月）、加词改频率的维护动作、密钥存放总表与已知局限。</p></div>
+            <div class="src"><div class="pill">阶段六</div><h5>接入小红书（本机）</h5><p>小红书屏蔽搜索引擎，改用浏览器扩展 + 真实登录态抓取：搜索关键词 → 调详情补发布日期 → 并入 data.js。因依赖本机 Chrome 登录态，无法上云，走 Windows 任务计划每天 14 点本机定时 + 自动 push。</p></div>
+            <div class="src"><div class="pill">阶段七</div><h5>日常运维与扩展</h5><p>盯紧 SerpAPI 额度（90 次/月）、小红书登录态有效期，加词改频率的维护动作、密钥存放总表与已知局限。</p></div>
           </div>
         </div>
       </section>
@@ -667,9 +672,9 @@
     }
 
     // C. 分类占比环形图（canvas 手绘，无依赖）
-    const CAT_COLORS={"财经新闻":"#b8860b","公司公告":"#3f7d5e","社区讨论":"#c2792a","招聘信息":"#9a6cb4"};
+    const CAT_COLORS={"财经新闻":"#b8860b","公司公告":"#3f7d5e","知乎":"#4a72c2","脉脉":"#c2792a","牛客":"#3f9e9e","小红书":"#d1577e"};
     function renderDonut(){
-      const order=["财经新闻","公司公告","社区讨论","招聘信息"];
+      const order=["财经新闻","公司公告","知乎","脉脉","牛客","小红书"];
       const counts=order.map(c=>({c,n:DATA.items.filter(i=>i.category===c).length})).filter(x=>x.n>0);
       const total=counts.reduce((s,x)=>s+x.n,0);
       const cv=document.getElementById("catDonut"), ctx=cv.getContext("2d");
@@ -729,8 +734,8 @@
     }
 
     function renderFilters(){
-      // 按分类筛选（财经新闻/公司公告/社区讨论/招聘信息），不再按单家媒体细分
-      const order=["财经新闻","公司公告","社区讨论","招聘信息"];
+      // 按分类筛选：财经新闻/公司公告 按内容分，社交平台 知乎/脉脉/牛客/小红书 按来源分
+      const order=["财经新闻","公司公告","知乎","脉脉","牛客","小红书"];
       const present=order.filter(c=>DATA.items.some(i=>i.category===c));
       const names=["全部",...present];
       document.getElementById("filters").innerHTML=names.map(n=>{

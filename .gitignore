@@ -5,6 +5,7 @@ run.log
 data.backup-manual.js
 data.backup-*.js
 data.before-xhs.bak.js
+data.before-cat-date.bak.js
 
 # 本地任务计划用的批处理（云端用 GitHub Actions，不需要）
 run.cmd

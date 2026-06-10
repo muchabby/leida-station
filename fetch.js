@@ -22,13 +22,14 @@ const SOCIAL_SITES = [
 ];
 // 招聘相关词：用于把混进新闻/社区里的招聘内容也归到"招聘信息"
 const RECRUIT_HINT = ["招聘","校招","秋招","春招","内推","HC","岗位","求职","面经","凉经","入职","offer","实习"];
-// 给一条消息归类：财经新闻 / 公司公告 / 社区讨论 / 招聘信息
+// 给一条消息归类：财经新闻 / 公司公告 / 知乎 / 脉脉 / 牛客 / 小红书
+// 财经新闻和公告按内容归类，社交平台直接按来源平台归类（保留来源辨识度）
 function categorize(item){
   if(item.platform==="公司公告") return "公司公告";
-  const text = (item.title||"") + (item.summary||"");
-  if(RECRUIT_HINT.some(w=>text.includes(w))) return "招聘信息";
-  if(item.platform==="知乎") return "社区讨论";
-  if(item.platform==="脉脉"||item.platform==="牛客") return "招聘信息";
+  if(item.platform==="知乎") return "知乎";
+  if(item.platform==="脉脉") return "脉脉";
+  if(item.platform==="牛客") return "牛客";
+  if(item.platform==="小红书") return "小红书";
   return "财经新闻";
 }
 // 社交站每天只抓 1 次以省额度（3 站 × 30 天 = 90 次/月，卡在免费 100 次内）。
