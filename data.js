@@ -195,6 +195,21 @@ window.MONITOR_DATA = {
       "category": "财经新闻"
     },
     {
+      "id": "xhs-6a215260000000000702861c",
+      "platform": "小红书",
+      "title": "吉比特&雷霆游戏2026春招及暑期实习生🎯",
+      "summary": "😺爱吃的大饼 · 👍18 收藏8",
+      "url": "https://www.xiaohongshu.com/explore/6a215260000000000702861c?xsec_token=ABg6I5Zbc0Kf_cZB3z0HfzZTZq3M5MfzcifBlTZOwPyaY=",
+      "sentiment": "neutral",
+      "time": "2026-06-04 18:24",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍18"
+      ],
+      "category": "小红书"
+    },
+    {
       "id": "xhs-6a1ef4890000000008002aa8",
       "platform": "小红书",
       "title": "游戏圈打工人的“梦中情司”吉比特",
@@ -240,6 +255,21 @@ window.MONITOR_DATA = {
       "category": "小红书"
     },
     {
+      "id": "xhs-6a1a74ed00000000350319d4",
+      "platform": "小红书",
+      "title": "雷霆游戏 | 温泉物语♨️",
+      "summary": "一方通行* · 👍4 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/6a1a74ed00000000350319d4?xsec_token=AB4uevUR_oEPyE1TwSKOn4uIaHIWefcKn-B9ZbDc5ILqg=",
+      "sentiment": "neutral",
+      "time": "2026-05-30 13:26",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍4"
+      ],
+      "category": "小红书"
+    },
+    {
       "id": "news-202605263749943766",
       "platform": "证券日报",
       "title": "吉比特：公司各项经营活动均正常有序开展",
@@ -252,6 +282,21 @@ window.MONITOR_DATA = {
         "证券日报"
       ],
       "category": "财经新闻"
+    },
+    {
+      "id": "xhs-6a14fced00000000060216c7",
+      "platform": "小红书",
+      "title": "【5.26春招分享】吉比特游戏无界计划内推",
+      "summary": "春招实习内推薯 · 👍85 收藏74",
+      "url": "https://www.xiaohongshu.com/explore/6a14fced00000000060216c7?xsec_token=ABoUPd8LZQz9wZyU39Xg4z5OvZUeyd2xhWdrAD1ELgWAM=",
+      "sentiment": "neutral",
+      "time": "2026-05-26 09:52",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍85"
+      ],
+      "category": "小红书"
     },
     {
       "id": "xhs-6a12fa2d0000000008001068",
@@ -371,20 +416,6 @@ window.MONITOR_DATA = {
       "category": "财经新闻"
     },
     {
-      "id": "ann-AN202605131822274496",
-      "platform": "公司公告",
-      "title": "吉比特:厦门吉比特网络技术股份有限公司2025年年度权益分派实施公告",
-      "summary": "吉比特:厦门吉比特网络技术股份有限公司2025年年度权益分派实施公告",
-      "url": "https://data.eastmoney.com/notices/detail/603444/AN202605131822274496.html",
-      "sentiment": "neutral",
-      "time": "2026-05-14 00:00",
-      "tags": [
-        "公告",
-        "分配方案实施"
-      ],
-      "category": "公司公告"
-    },
-    {
       "id": "ann-AN202605131822274497",
       "platform": "公司公告",
       "title": "吉比特:福建天衡联合律师事务所关于厦门吉比特网络技术股份有限公司差异化权益分派事项的法律意见书",
@@ -395,6 +426,20 @@ window.MONITOR_DATA = {
       "tags": [
         "公告",
         "法律意见书"
+      ],
+      "category": "公司公告"
+    },
+    {
+      "id": "ann-AN202605131822274496",
+      "platform": "公司公告",
+      "title": "吉比特:厦门吉比特网络技术股份有限公司2025年年度权益分派实施公告",
+      "summary": "吉比特:厦门吉比特网络技术股份有限公司2025年年度权益分派实施公告",
+      "url": "https://data.eastmoney.com/notices/detail/603444/AN202605131822274496.html",
+      "sentiment": "neutral",
+      "time": "2026-05-14 00:00",
+      "tags": [
+        "公告",
+        "分配方案实施"
       ],
       "category": "公司公告"
     },
@@ -485,16 +530,16 @@ window.MONITOR_DATA = {
       "category": "财经新闻"
     },
     {
-      "id": "ann-AN202604231821493820",
+      "id": "ann-AN202604231821493824",
       "platform": "公司公告",
-      "title": "吉比特:厦门吉比特网络技术股份有限公司2026年第一季度报告",
-      "summary": "吉比特:厦门吉比特网络技术股份有限公司2026年第一季度报告",
-      "url": "https://data.eastmoney.com/notices/detail/603444/AN202604231821493820.html",
+      "title": "吉比特:厦门吉比特网络技术股份有限公司第六届董事会第十二次会议决议公告",
+      "summary": "吉比特:厦门吉比特网络技术股份有限公司第六届董事会第十二次会议决议公告",
+      "url": "https://data.eastmoney.com/notices/detail/603444/AN202604231821493824.html",
       "sentiment": "neutral",
       "time": "2026-04-24 00:00",
       "tags": [
         "公告",
-        "一季度报告全文"
+        "董事会决议公告"
       ],
       "category": "公司公告"
     },
@@ -513,16 +558,16 @@ window.MONITOR_DATA = {
       "category": "公司公告"
     },
     {
-      "id": "ann-AN202604231821493824",
+      "id": "ann-AN202604231821493820",
       "platform": "公司公告",
-      "title": "吉比特:厦门吉比特网络技术股份有限公司第六届董事会第十二次会议决议公告",
-      "summary": "吉比特:厦门吉比特网络技术股份有限公司第六届董事会第十二次会议决议公告",
-      "url": "https://data.eastmoney.com/notices/detail/603444/AN202604231821493824.html",
+      "title": "吉比特:厦门吉比特网络技术股份有限公司2026年第一季度报告",
+      "summary": "吉比特:厦门吉比特网络技术股份有限公司2026年第一季度报告",
+      "url": "https://data.eastmoney.com/notices/detail/603444/AN202604231821493820.html",
       "sentiment": "neutral",
       "time": "2026-04-24 00:00",
       "tags": [
         "公告",
-        "董事会决议公告"
+        "一季度报告全文"
       ],
       "category": "公司公告"
     },
@@ -640,6 +685,20 @@ window.MONITOR_DATA = {
       "category": "小红书"
     },
     {
+      "id": "ann-AN202604161821265325",
+      "platform": "公司公告",
+      "title": "吉比特:北京市海问(深圳)律师事务所关于厦门吉比特网络技术股份有限公司2025年年度股东会会议的法律意见书",
+      "summary": "吉比特:北京市海问(深圳)律师事务所关于厦门吉比特网络技术股份有限公司2025年年度股东会会议的法律意见书",
+      "url": "https://data.eastmoney.com/notices/detail/603444/AN202604161821265325.html",
+      "sentiment": "neutral",
+      "time": "2026-04-17 00:00",
+      "tags": [
+        "公告",
+        "法律意见书"
+      ],
+      "category": "公司公告"
+    },
+    {
       "id": "ann-AN202604161821265324",
       "platform": "公司公告",
       "title": "吉比特:厦门吉比特网络技术股份有限公司2025年年度股东会会议决议公告",
@@ -651,20 +710,6 @@ window.MONITOR_DATA = {
         "公告",
         "分配方案决议公告",
         "股东大会决议公告"
-      ],
-      "category": "公司公告"
-    },
-    {
-      "id": "ann-AN202604161821265325",
-      "platform": "公司公告",
-      "title": "吉比特:北京市海问(深圳)律师事务所关于厦门吉比特网络技术股份有限公司2025年年度股东会会议的法律意见书",
-      "summary": "吉比特:北京市海问(深圳)律师事务所关于厦门吉比特网络技术股份有限公司2025年年度股东会会议的法律意见书",
-      "url": "https://data.eastmoney.com/notices/detail/603444/AN202604161821265325.html",
-      "sentiment": "neutral",
-      "time": "2026-04-17 00:00",
-      "tags": [
-        "公告",
-        "法律意见书"
       ],
       "category": "公司公告"
     },
@@ -803,16 +848,16 @@ window.MONITOR_DATA = {
       "category": "小红书"
     },
     {
-      "id": "ann-AN202603261820769316",
+      "id": "ann-AN202603261820769308",
       "platform": "公司公告",
-      "title": "吉比特:厦门吉比特网络技术股份有限公司2025年度独立董事述职报告-梁燕华",
-      "summary": "吉比特:厦门吉比特网络技术股份有限公司2025年度独立董事述职报告-梁燕华",
-      "url": "https://data.eastmoney.com/notices/detail/603444/AN202603261820769316.html",
+      "title": "吉比特:厦门吉比特网络技术股份有限公司董事薪酬管理制度(2026年3月)",
+      "summary": "吉比特:厦门吉比特网络技术股份有限公司董事薪酬管理制度(2026年3月)",
+      "url": "https://data.eastmoney.com/notices/detail/603444/AN202603261820769308.html",
       "sentiment": "neutral",
       "time": "2026-03-27 00:00",
       "tags": [
         "公告",
-        "独立董事述职报告"
+        "管理办法/制度"
       ],
       "category": "公司公告"
     },
@@ -831,16 +876,16 @@ window.MONITOR_DATA = {
       "category": "公司公告"
     },
     {
-      "id": "ann-AN202603261820769308",
+      "id": "ann-AN202603261820769316",
       "platform": "公司公告",
-      "title": "吉比特:厦门吉比特网络技术股份有限公司董事薪酬管理制度(2026年3月)",
-      "summary": "吉比特:厦门吉比特网络技术股份有限公司董事薪酬管理制度(2026年3月)",
-      "url": "https://data.eastmoney.com/notices/detail/603444/AN202603261820769308.html",
+      "title": "吉比特:厦门吉比特网络技术股份有限公司2025年度独立董事述职报告-梁燕华",
+      "summary": "吉比特:厦门吉比特网络技术股份有限公司2025年度独立董事述职报告-梁燕华",
+      "url": "https://data.eastmoney.com/notices/detail/603444/AN202603261820769316.html",
       "sentiment": "neutral",
       "time": "2026-03-27 00:00",
       "tags": [
         "公告",
-        "管理办法/制度"
+        "独立董事述职报告"
       ],
       "category": "公司公告"
     },
@@ -856,6 +901,21 @@ window.MONITOR_DATA = {
         "小红书",
         "雷霆游戏",
         "👍29"
+      ],
+      "category": "小红书"
+    },
+    {
+      "id": "xhs-69c116ca0000000022002fbc",
+      "platform": "小红书",
+      "title": "雷霆游戏春招内推来啦~",
+      "summary": "雷克斯kk · 👍40 收藏35",
+      "url": "https://www.xiaohongshu.com/explore/69c116ca0000000022002fbc?xsec_token=ABAR_FQ3nji0jo5tE7RXivlis_yXkibpOkGtG0uLFL0ZU=",
+      "sentiment": "neutral",
+      "time": "2026-03-23 18:32",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍40"
       ],
       "category": "小红书"
     },
@@ -905,6 +965,36 @@ window.MONITOR_DATA = {
       "category": "小红书"
     },
     {
+      "id": "xhs-69820f36000000001a01ee03",
+      "platform": "小红书",
+      "title": "夯爆了！雷霆年会一出，谁与争锋！",
+      "summary": "蓝夕 · 👍12 收藏3",
+      "url": "https://www.xiaohongshu.com/explore/69820f36000000001a01ee03?xsec_token=ABkYFjgw-BUv9zRldw1ZfiGNo-YyTeRPXBLIu6X4QycUM=",
+      "sentiment": "positive",
+      "time": "2026-02-03 23:07",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍12"
+      ],
+      "category": "小红书"
+    },
+    {
+      "id": "xhs-69820554000000000e03fb9b",
+      "platform": "小红书",
+      "title": "吉比特&雷霆游戏这年会夯爆了",
+      "summary": "大厂那些事儿 · 👍15 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/69820554000000000e03fb9b?xsec_token=ABkYFjgw-BUv9zRldw1ZfiGAcYppH1RezhhCZYpPbrjRY=",
+      "sentiment": "positive",
+      "time": "2026-02-03 22:25",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍15"
+      ],
+      "category": "小红书"
+    },
+    {
       "id": "xhs-6981f1ae000000002200829e",
       "platform": "小红书",
       "title": "吉比特年会中大奖",
@@ -931,6 +1021,21 @@ window.MONITOR_DATA = {
         "小红书",
         "雷霆游戏",
         "👍96"
+      ],
+      "category": "小红书"
+    },
+    {
+      "id": "xhs-6981e6a10000000021029cfb",
+      "platform": "小红书",
+      "title": "雷霆游戏又给员工发房子了！",
+      "summary": "牢鹅出海 · 👍13 收藏1",
+      "url": "https://www.xiaohongshu.com/explore/6981e6a10000000021029cfb?xsec_token=ABjy_itKxINbNjPM68cgahqPJ2gHAysC4DcG2ST3K96x0=",
+      "sentiment": "neutral",
+      "time": "2026-02-03 20:14",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍13"
       ],
       "category": "小红书"
     },
@@ -995,21 +1100,6 @@ window.MONITOR_DATA = {
       "category": "小红书"
     },
     {
-      "id": "zhihu-2002357272408507128",
-      "platform": "知乎",
-      "title": "吉比特用千万房产和iPhone重奖项目组，如果你是开发者",
-      "summary": "《杖剑传说》制作人林笋获赠一套价值1000万的房产，《杖剑传说》项目组每人获赠了20克的定制金币；. 雷霆游戏也为旗下70名优秀员工赠送了15g的金币；. 这也 ...",
-      "url": "https://www.zhihu.com/question/2002357272408507128/answer/2002709513753605347",
-      "sentiment": "neutral",
-      "time": "2026-02-03 00:00",
-      "tags": [
-        "知乎",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "知乎"
-    },
-    {
       "id": "zhihu-2002097943726035223",
       "platform": "知乎",
       "title": "给制作人送一套房子，给研发奖20g黄金：这家上市公司太壕 ...",
@@ -1023,6 +1113,21 @@ window.MONITOR_DATA = {
       ],
       "lastChange": "2026-06-09 11:34",
       "changeNote": "摘要有更新",
+      "category": "知乎"
+    },
+    {
+      "id": "zhihu-2002357272408507128",
+      "platform": "知乎",
+      "title": "吉比特用千万房产和iPhone重奖项目组，如果你是开发者",
+      "summary": "《杖剑传说》制作人林笋获赠一套价值1000万的房产，《杖剑传说》项目组每人获赠了20克的定制金币；. 雷霆游戏也为旗下70名优秀员工赠送了15g的金币；. 这也 ...",
+      "url": "https://www.zhihu.com/question/2002357272408507128/answer/2002709513753605347",
+      "sentiment": "neutral",
+      "time": "2026-02-03 00:00",
+      "tags": [
+        "知乎",
+        "吉比特",
+        "雷霆游戏"
+      ],
       "category": "知乎"
     },
     {
@@ -1205,11 +1310,26 @@ window.MONITOR_DATA = {
       "category": "小红书"
     },
     {
-      "id": "nowcoder-2NWJlN2I4NWFjOTk2YWI",
+      "id": "xhs-68bd23ae000000001b031b89",
+      "platform": "小红书",
+      "title": "在全是奥比的公司上班真的很幸福🥹",
+      "summary": "鹅鹅 · 👍178 收藏62",
+      "url": "https://www.xiaohongshu.com/explore/68bd23ae000000001b031b89?xsec_token=AB_1yn6w_6cgFJbQnzh5vXqev3oHxSIMSCUhc1fP_RUn0=",
+      "sentiment": "positive",
+      "time": "2025-09-07 14:18",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍178"
+      ],
+      "category": "小红书"
+    },
+    {
+      "id": "nowcoder-U291cmNlPWhvbWUtYXBp",
       "platform": "牛客",
-      "title": "吉比特雷霆游戏内推",
-      "summary": "吉比特&amp;雷霆游戏2026届校招内推码【1P0RS0】 【企业介绍】吉比特&amp;雷霆游戏，研运一体的一家上市游戏公司~研发/发行过《问道》《问道手 ...",
-      "url": "https://www.nowcoder.com/feed/main/detail/bd37e26c6a664945a65be7b85ac996ab",
+      "title": "吉比特雷霆游戏2026秋招正式启动啦！",
+      "summary": "嗨，各位热爱游戏的同学们！ 吉比特雷霆游戏2026秋招正式启动啦。登录https://hr.g-bits.com/ ，用内推码（4N84QX）进行投递，直接快人一步，可以全程跟进 ...",
+      "url": "https://www.nowcoder.com/feed/main/detail/c80496f73ece42b7a6acfbb86b8a5f4a?urlSource=home-api",
       "sentiment": "neutral",
       "time": "2025-08-29 00:00",
       "tags": [
@@ -1220,11 +1340,11 @@ window.MONITOR_DATA = {
       "category": "牛客"
     },
     {
-      "id": "nowcoder-U291cmNlPWhvbWUtYXBp",
+      "id": "nowcoder-2NWJlN2I4NWFjOTk2YWI",
       "platform": "牛客",
-      "title": "吉比特雷霆游戏2026秋招正式启动啦！",
-      "summary": "嗨，各位热爱游戏的同学们！ 吉比特雷霆游戏2026秋招正式启动啦。登录https://hr.g-bits.com/ ，用内推码（4N84QX）进行投递，直接快人一步，可以全程跟进 ...",
-      "url": "https://www.nowcoder.com/feed/main/detail/c80496f73ece42b7a6acfbb86b8a5f4a?urlSource=home-api",
+      "title": "吉比特雷霆游戏内推",
+      "summary": "吉比特&amp;雷霆游戏2026届校招内推码【1P0RS0】 【企业介绍】吉比特&amp;雷霆游戏，研运一体的一家上市游戏公司~研发/发行过《问道》《问道手 ...",
+      "url": "https://www.nowcoder.com/feed/main/detail/bd37e26c6a664945a65be7b85ac996ab",
       "sentiment": "neutral",
       "time": "2025-08-29 00:00",
       "tags": [
@@ -1367,6 +1487,21 @@ window.MONITOR_DATA = {
       "category": "小红书"
     },
     {
+      "id": "xhs-67b58a6e000000000900d7ca",
+      "platform": "小红书",
+      "title": "广州吉比特解散?了?",
+      "summary": "游戏圈内儿 · 👍255 收藏95",
+      "url": "https://www.xiaohongshu.com/explore/67b58a6e000000000900d7ca?xsec_token=ABNzN-69aP1JncL8l7pC65rEcxyGvFpNzAdgmZ5rQYefM=",
+      "sentiment": "neutral",
+      "time": "2025-02-19 15:38",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍255"
+      ],
+      "category": "小红书"
+    },
+    {
       "id": "zhihu-24904475351",
       "platform": "知乎",
       "title": "吉比特广州解散？或跟营收太差有关",
@@ -1422,6 +1557,21 @@ window.MONITOR_DATA = {
         "小红书",
         "雷霆游戏",
         "👍6"
+      ],
+      "category": "小红书"
+    },
+    {
+      "id": "xhs-66cef92b000000001d019326",
+      "platform": "小红书",
+      "title": "深圳&研发研发大厂-吉比特秋招",
+      "summary": "李姐不解 · 👍49 收藏22",
+      "url": "https://www.xiaohongshu.com/explore/66cef92b000000001d019326?xsec_token=ABuffp-mdn1D_zf7o3tsz6SvXcbPN1Dk2EbSxxQi1HwuY=",
+      "sentiment": "neutral",
+      "time": "2024-08-28 21:01",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍49"
       ],
       "category": "小红书"
     },
@@ -1618,156 +1768,6 @@ window.MONITOR_DATA = {
         "雷霆游戏"
       ],
       "category": "知乎"
-    },
-    {
-      "id": "xhs-69820554000000000e03fb9b",
-      "platform": "小红书",
-      "title": "吉比特&雷霆游戏这年会夯爆了",
-      "summary": "大厂那些事儿 · 👍15 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/69820554000000000e03fb9b?xsec_token=ABkYFjgw-BUv9zRldw1ZfiGAcYppH1RezhhCZYpPbrjRY=",
-      "sentiment": "positive",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍15"
-      ],
-      "category": "小红书"
-    },
-    {
-      "id": "xhs-6a1a74ed00000000350319d4",
-      "platform": "小红书",
-      "title": "雷霆游戏 | 温泉物语♨️",
-      "summary": "一方通行* · 👍4 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/6a1a74ed00000000350319d4?xsec_token=AB4uevUR_oEPyE1TwSKOn4uIaHIWefcKn-B9ZbDc5ILqg=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍4"
-      ],
-      "category": "小红书"
-    },
-    {
-      "id": "xhs-67b58a6e000000000900d7ca",
-      "platform": "小红书",
-      "title": "广州吉比特解散?了?",
-      "summary": "游戏圈内儿 · 👍255 收藏95",
-      "url": "https://www.xiaohongshu.com/explore/67b58a6e000000000900d7ca?xsec_token=ABNzN-69aP1JncL8l7pC65rEcxyGvFpNzAdgmZ5rQYefM=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍255"
-      ],
-      "category": "小红书"
-    },
-    {
-      "id": "xhs-68bd23ae000000001b031b89",
-      "platform": "小红书",
-      "title": "在全是奥比的公司上班真的很幸福🥹",
-      "summary": "鹅鹅 · 👍178 收藏62",
-      "url": "https://www.xiaohongshu.com/explore/68bd23ae000000001b031b89?xsec_token=AB_1yn6w_6cgFJbQnzh5vXqev3oHxSIMSCUhc1fP_RUn0=",
-      "sentiment": "positive",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍178"
-      ],
-      "category": "小红书"
-    },
-    {
-      "id": "xhs-6a14fced00000000060216c7",
-      "platform": "小红书",
-      "title": "【5.26春招分享】吉比特游戏无界计划内推",
-      "summary": "春招实习内推薯 · 👍85 收藏74",
-      "url": "https://www.xiaohongshu.com/explore/6a14fced00000000060216c7?xsec_token=ABoUPd8LZQz9wZyU39Xg4z5OvZUeyd2xhWdrAD1ELgWAM=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍85"
-      ],
-      "category": "小红书"
-    },
-    {
-      "id": "xhs-66cef92b000000001d019326",
-      "platform": "小红书",
-      "title": "深圳&研发研发大厂-吉比特秋招",
-      "summary": "李姐不解 · 👍49 收藏22",
-      "url": "https://www.xiaohongshu.com/explore/66cef92b000000001d019326?xsec_token=ABuffp-mdn1D_zf7o3tsz6SvXcbPN1Dk2EbSxxQi1HwuY=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍49"
-      ],
-      "category": "小红书"
-    },
-    {
-      "id": "xhs-69c116ca0000000022002fbc",
-      "platform": "小红书",
-      "title": "雷霆游戏春招内推来啦~",
-      "summary": "雷克斯kk · 👍40 收藏35",
-      "url": "https://www.xiaohongshu.com/explore/69c116ca0000000022002fbc?xsec_token=ABAR_FQ3nji0jo5tE7RXivlis_yXkibpOkGtG0uLFL0ZU=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍40"
-      ],
-      "category": "小红书"
-    },
-    {
-      "id": "xhs-6a215260000000000702861c",
-      "platform": "小红书",
-      "title": "吉比特&雷霆游戏2026春招及暑期实习生🎯",
-      "summary": "😺爱吃的大饼 · 👍18 收藏8",
-      "url": "https://www.xiaohongshu.com/explore/6a215260000000000702861c?xsec_token=ABg6I5Zbc0Kf_cZB3z0HfzZTZq3M5MfzcifBlTZOwPyaY=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍18"
-      ],
-      "category": "小红书"
-    },
-    {
-      "id": "xhs-6981e6a10000000021029cfb",
-      "platform": "小红书",
-      "title": "雷霆游戏又给员工发房子了！",
-      "summary": "牢鹅出海 · 👍13 收藏1",
-      "url": "https://www.xiaohongshu.com/explore/6981e6a10000000021029cfb?xsec_token=ABjy_itKxINbNjPM68cgahqPJ2gHAysC4DcG2ST3K96x0=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍13"
-      ],
-      "category": "小红书"
-    },
-    {
-      "id": "xhs-69820f36000000001a01ee03",
-      "platform": "小红书",
-      "title": "夯爆了！雷霆年会一出，谁与争锋！",
-      "summary": "蓝夕 · 👍12 收藏3",
-      "url": "https://www.xiaohongshu.com/explore/69820f36000000001a01ee03?xsec_token=ABkYFjgw-BUv9zRldw1ZfiGNo-YyTeRPXBLIu6X4QycUM=",
-      "sentiment": "positive",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍12"
-      ],
-      "category": "小红书"
     },
     {
       "id": "zhihu-xNTAwNjkyNDgcGFnZT0z",

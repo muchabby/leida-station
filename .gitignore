@@ -6,6 +6,7 @@ data.backup-manual.js
 data.backup-*.js
 data.before-xhs.bak.js
 data.before-cat-date.bak.js
+data.before-backfill.bak.js
 
 # 本地任务计划用的批处理（云端用 GitHub Actions，不需要）
 run.cmd
@@ -15,6 +16,7 @@ run-xhs.log
 
 # 小红书抓取脚本（依赖本机 Chrome+登录态，只能本地跑，不上云）
 fetch-xhs.js
+backfill-xhs-date.js
 
 # 历史快照（本地留存即可，不必上云）
 versions/
