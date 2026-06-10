@@ -2,8 +2,9 @@ name: 雷达站定时抓取
 
 on:
   schedule:
-    # 北京时间 = UTC+8。每天上午9点抓一次（抓全套，含社交站）。
-    - cron: '3 1 * * *'   # 北京 09:03
+    # 北京时间 = UTC+8。避开 UTC 整点高峰（整点附近 schedule 易被 GitHub 延迟/跳过）。
+    - cron: '37 1 * * *'   # 北京 09:37 —— 抓全套（含社交站，消耗 SerpAPI 额度）
+    - cron: '41 4 * * *'   # 北京 12:41 —— 兜底，只抓新闻+公告（0 额度），防早班被 GitHub 跳过
   workflow_dispatch:       # 允许在 Actions 页面手动触发
     inputs:
       fetch_social:
@@ -28,13 +29,16 @@ jobs:
       - name: 判断本次是否抓社交站
         id: decide
         run: |
-          # 定时触发：只有 UTC 01:03 那班（北京9点）抓社交；手动触发看输入
+          # 定时触发：早班(UTC 01:37/北京9点)抓社交+每日固定推送；午间兜底班(UTC 04:41)不抓社交、只有新增才推；手动触发看输入
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             echo "social=${{ github.event.inputs.fetch_social }}" >> "$GITHUB_OUTPUT"
-          elif [ "${{ github.event.schedule }}" = "3 1 * * *" ]; then
+            echo "daily=1" >> "$GITHUB_OUTPUT"
+          elif [ "${{ github.event.schedule }}" = "37 1 * * *" ]; then
             echo "social=true" >> "$GITHUB_OUTPUT"
+            echo "daily=1" >> "$GITHUB_OUTPUT"
           else
             echo "social=false" >> "$GITHUB_OUTPUT"
+            echo "daily=0" >> "$GITHUB_OUTPUT"
           fi
 
       - name: 运行抓取
@@ -42,6 +46,7 @@ jobs:
           SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
           LARK_WEBHOOK: ${{ secrets.LARK_WEBHOOK }}
           FETCH_SOCIAL: ${{ steps.decide.outputs.social == 'true' && '1' || '0' }}
+          DAILY_PUSH: ${{ steps.decide.outputs.daily }}
         run: node fetch.js
 
       - name: 提交更新的数据

@@ -185,8 +185,10 @@ function writeData(obj){
 }
 
 // ---- 飞书推送 ----
-async function pushLark(newItems){
-  if(!LARK_WEBHOOK || !newItems.length) return;
+// newItems: 本次新增条目；allItems: 库内全部（用于"无新增也推今日概况"）；daily: 是否强制推送（每日固定推送模式）
+async function pushLark(newItems, allItems, daily){
+  // 既没新增、又不是每日固定推送 → 不推（兜底班的行为）
+  if(!LARK_WEBHOOK || (!newItems.length && !daily)) return;
   const SITE = "https://muchabby.github.io/leida-station/";
   // 清理标题：去掉知乎"- XX的回答/- 知乎用户的回答"等尾巴，去多余空白，过长截断
   const clean = t => {
@@ -195,14 +197,26 @@ async function pushLark(newItems){
                          .replace(/\s+/g," ").trim();
     return s.length > 34 ? s.slice(0,34)+"…" : s;
   };
-  // 负面排前面
-  const sorted = newItems.slice().sort((a,b)=> (a.sentiment==="negative"?-1:0) - (b.sentiment==="negative"?-1:0));
-  const negCount = newItems.filter(i=>i.sentiment==="negative").length;
-  const lines = sorted.slice(0,10).map(i=>`· ${clean(i.title)}`).join("\n");
-  const more = newItems.length>10 ? `\n… 还有 ${newItems.length-10} 条` : "";
-  let head = `📡 雷达站 · 今天更新 ${newItems.length} 条`;
-  if(negCount) head += `（含 ${negCount} 条负面 ⚠️）`;
-  const text = `${head}\n\n${lines}${more}\n\n👉 查看全部：${SITE}`;
+  const today = (new Date(new Date().toLocaleString("en-US",{timeZone:"Asia/Shanghai"}))).toISOString().slice(0,10);
+  let text;
+  if(newItems.length){
+    // 有新增：负面置顶，列最多10条
+    const sorted = newItems.slice().sort((a,b)=> (a.sentiment==="negative"?-1:0) - (b.sentiment==="negative"?-1:0));
+    const negCount = newItems.filter(i=>i.sentiment==="negative").length;
+    const lines = sorted.slice(0,10).map(i=>`· ${clean(i.title)}`).join("\n");
+    const more = newItems.length>10 ? `\n… 还有 ${newItems.length-10} 条` : "";
+    let head = `📡 雷达站 · 今天更新 ${newItems.length} 条`;
+    if(negCount) head += `（含 ${negCount} 条负面 ⚠️）`;
+    text = `${head}\n\n${lines}${more}\n\n👉 查看全部：${SITE}`;
+  } else {
+    // 无新增但每日固定推送：报当日概况 + 最新动态，保持存在感
+    const all = allItems || [];
+    const totalNeg = all.filter(i=>i.sentiment==="negative").length;
+    // 按时间倒序取最新3条（有日期的）
+    const latest = all.filter(i=>i.time).sort((a,b)=> a.time<b.time?1:-1).slice(0,3);
+    const latestLines = latest.length ? "\n\n最新动态：\n" + latest.map(i=>`· ${clean(i.title)}`).join("\n") : "";
+    text = `📡 雷达站 · ${today} 日报\n今日暂无新增舆情，库内共 ${all.length} 条（负面 ${totalNeg} 条）。${latestLines}\n\n👉 查看全部：${SITE}`;
+  }
   try{
     const res = await fetch(LARK_WEBHOOK, { method:"POST", headers:{"Content-Type":"application/json"},
       body: JSON.stringify({ msg_type:"text", content:{ text } }) });
@@ -272,6 +286,6 @@ async function pushLark(newItems){
   const socialCnt = fetched.filter(i=>SOCIAL_SITES.some(s=>s.name===i.platform)).length;
   console.log(`[${stamp}] 抓取 ${fetched.length} 条（社交站 ${socialCnt} 条/${FETCH_SOCIAL?"本次抓":"本次跳过"}，Key:${SERPAPI_KEY?"已配置":"未配置"}），新增 ${fresh.length} 条，内容更新 ${changed} 条，库内共 ${merged.length} 条`);
 
-  await pushLark(fresh);
+  await pushLark(fresh, merged, process.env.DAILY_PUSH === "1");
 })();
 
