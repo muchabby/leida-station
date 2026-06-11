@@ -213,8 +213,8 @@ function writeData(obj){
 // ---- 飞书推送 ----
 // newItems: 本次新增条目；allItems: 库内全部（用于"无新增也推今日概况"）；daily: 是否强制推送（每日固定推送模式）
 async function pushLark(newItems, allItems, daily){
-  // 既没新增、又不是每日固定推送 → 不推（兜底班的行为）
-  if(!LARK_WEBHOOK || (!newItems.length && !daily)) return;
+  // 只在每日固定推送（早班 DAILY_PUSH=1）时推，一天一条；兜底班 daily=0 一律不推，避免重复打扰
+  if(!LARK_WEBHOOK || !daily) return;
   const SITE = "https://muchabby.github.io/leida-station/";
   // 清理标题：去掉知乎"- XX的回答/- 知乎用户的回答"等尾巴，去多余空白，过长截断
   const clean = t => {
