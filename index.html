@@ -349,7 +349,8 @@
         <button data-tab="feed"><span>全部消息</span><span class="tag" id="navFeedCount">0</span></button>
         <button data-tab="watch"><span>🎯 重点关注</span><span class="tag" id="navWatchCount">0</span></button>
         <button data-tab="done"><span>已处理</span><span class="tag" id="navDoneCount">0</span></button>
-        <button data-tab="sources"><span>数据源</span><span class="tag">05</span></button>
+        <button data-tab="industry"><span>🌐 行业动态</span><span class="tag" id="navIndCount">0</span></button>
+        <button data-tab="sources"><span>数据源</span><span class="tag">06</span></button>
       </nav>
       <div class="sidebar-footer">
         网页负责沉淀与分析<br/>飞书负责实时触达
@@ -463,6 +464,14 @@
         <div class="card">
           <div class="card-head"><div><h4>已处理</h4><p>已经看过并标记完成的舆情归档</p></div></div>
           <div class="feed-list" id="doneFeed"></div>
+        </div>
+      </section>
+
+      <!-- 行业动态（游戏行业大盘，静默更新、不推飞书） -->
+      <section class="section" id="industry">
+        <div class="card">
+          <div class="card-head"><div><h4>🌐 游戏行业动态</h4><p>整个游戏行业的最新讯息（版号、新游、出海、厂商动向、监管政策等），每天随舆情抓取顺带更新，不做飞书推送</p></div></div>
+          <div class="feed-list" id="industryFeed"></div>
         </div>
       </section>
 
@@ -872,6 +881,14 @@
         || '<div class="empty">还没有盯梢的帖子。在任意消息上点 ☆ 加星，它就会进入这里被持续盯梢；每天抓取时若该帖标题/摘要有变化，会在此提示「内容有更新」。</div>';
     }
 
+    // 行业动态：section==="行业" 的条目（游戏行业大盘），按时间倒序。当前未开启行业抓取时为空。
+    function renderIndustry(){
+      const seen=getSeen();
+      const items=DATA.items.filter(i=>i.section==="行业").sort((a,b)=>cmpTime(a,b,"new"));
+      document.getElementById("industryFeed").innerHTML=renderGrouped(items,seen)
+        || '<div class="empty">行业抓取尚未开启。这里将汇集整个游戏行业的最新讯息（版号、新游、出海、厂商动向、监管政策等），随每日舆情抓取顺带更新，不打扰飞书。</div>';
+    }
+
     function renderSources(){
       const map={}; DATA.items.forEach(i=>map[i.platform]=(map[i.platform]||0)+1);
       const entries=Object.entries(map).sort((a,b)=>b[1]-a[1]);
@@ -897,9 +914,10 @@
       const watchAll=DATA.items.filter(i=>isStar(i.id)).length;
       const wc=document.getElementById("navWatchCount");
       wc.textContent=watchUpd?`${watchUpd}🔴`:String(watchAll);
+      document.getElementById("navIndCount").textContent=DATA.items.filter(i=>i.section==="行业").length;
     }
 
-    function renderAll(){ renderMetrics();renderTrends();renderAlert();renderDonut();renderWordCloud();renderPositive();renderOverviewFeed();renderFilters();renderFullFeed();renderWatch();renderDone();renderSources();renderBanner(); }
+    function renderAll(){ renderMetrics();renderTrends();renderAlert();renderDonut();renderWordCloud();renderPositive();renderOverviewFeed();renderFilters();renderFullFeed();renderWatch();renderDone();renderIndustry();renderSources();renderBanner(); }
   </script>
 
   <script>
@@ -908,6 +926,7 @@
       feed:{t:"全部消息",d:"搜索、筛选、排序，查看所有抓取到的提及"},
       watch:{t:"🎯 重点关注",d:"加星的帖子持续盯梢，标题/摘要有变化即在该条下提示更新"},
       done:{t:"已处理",d:"已经看过并标记完成的舆情归档"},
+      industry:{t:"🌐 游戏行业动态",d:"游戏行业大盘最新讯息，随舆情抓取顺带更新，不推飞书"},
       sources:{t:"数据源",d:"当前覆盖了哪些来源，以及覆盖能力边界"}
     };
     function activateTab(tab){

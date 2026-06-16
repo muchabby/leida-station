@@ -221,6 +221,9 @@ function writeData(obj){
 async function pushLark(newItems, allItems, daily){
   // 只在每日固定推送（早班 DAILY_PUSH=1）时推，一天一条；兜底班 daily=0 一律不推，避免重复打扰
   if(!LARK_WEBHOOK || !daily) return;
+  // 行业板块条目静默更新、不推飞书：推送只看 pushable!==false 的（即舆情）
+  newItems = (newItems||[]).filter(i=>i.pushable!==false);
+  allItems = (allItems||[]).filter(i=>i.pushable!==false);
   const SITE = "https://muchabby.github.io/leida-station/";
   // 清理标题：去掉知乎"- XX的回答/- 知乎用户的回答"等尾巴，去多余空白，过长截断
   const clean = t => {
@@ -324,7 +327,14 @@ async function pushLark(newItems, allItems, daily){
   const fetchedIds = new Set(fetched.map(i=>i.id));
   const untouched = (existing.items||[]).filter(i=>!fetchedIds.has(i.id));
   const merged = [...fetched, ...untouched].sort((a,b)=> (a.time<b.time?1:-1));
-  merged.forEach(i=>{ i.category = categorize(i); i.topic = topicize(i); }); // 统一打来源分类+主题标签（含回填存量）
+  merged.forEach(i=>{
+    i.category = categorize(i);
+    i.topic = topicize(i);
+    // section：舆情(本品牌 吉比特/雷霆) / 行业(游戏行业大盘)。当前只抓本品牌，缺省一律"舆情"。
+    if(!i.section) i.section = "舆情";
+    // pushable：是否推飞书。行业条目静默更新不推；舆情条目默认可推。
+    if(i.pushable === undefined) i.pushable = (i.section !== "行业");
+  }); // 统一打来源分类+主题标签+板块归属（含回填存量）
 
   writeData({ updatedAt: stamp, keywords: KEYWORDS, items: merged });
   const socialCnt = fetched.filter(i=>SOCIAL_SITES.some(s=>s.name===i.platform)).length;
