@@ -1,46 +1,12 @@
-// 舆情数据文件 — 由 fetch.js / fetch-xhs.js 自动写入，请勿手动编辑
+// 舆情数据文件 —— 由 fetch.js 自动写入，请勿手动编辑
 // 页面通过 <script src="data.js"> 读取，避免 file:// 下 fetch 被浏览器拦截
 window.MONITOR_DATA = {
-  "updatedAt": "2026-06-17 10:51",
+  "updatedAt": "2026-06-17 14:48",
   "keywords": [
     "吉比特",
     "雷霆游戏"
   ],
   "items": [
-    {
-      "id": "ind-202606173773737287",
-      "platform": "上海证券报",
-      "title": "儒意电影，最新发布",
-      "summary": "过去一年，儒意电影国内衍生品销售同比增长18%，与38个IP达成合作，覆盖影视、游戏、潮玩等多个类型。 基于这一思考，影时光正搭建一套IP生态养成系统。针对内容来源与供给，影时光搭建了五类IP内容池：潮流文化池、游戏联运池、档期共生池、集团资产池、原生孵化池。",
-      "url": "http://finance.eastmoney.com/a/202606173773737287.html",
-      "sentiment": "positive",
-      "time": "2026-06-17 08:42",
-      "tags": [
-        "游戏停服",
-        "上海证券报"
-      ],
-      "section": "行业",
-      "pushable": false,
-      "category": "财经新闻",
-      "topic": "公司综合"
-    },
-    {
-      "id": "ind-202606173773505249",
-      "platform": "每日经济新闻",
-      "title": "5月中国游戏市场收入同比增长超10%；米哈游在广州成立新公司“苍刚科技”｜游戏早参",
-      "summary": "NO.2 艺电推出游戏内广告平台“EA Advertising” 6月15日，美国艺电（EA）宣布推出游戏内广告平台“EA Advertising”。该平台允许品牌方通过动态投放技术将产品实时植入游戏中，涵盖体育游戏场边广告牌、定制游戏内容及带奖励的特殊任务等多种形式。",
-      "url": "http://finance.eastmoney.com/a/202606173773505249.html",
-      "sentiment": "positive",
-      "time": "2026-06-17 07:01",
-      "tags": [
-        "游戏停服",
-        "每日经济新闻"
-      ],
-      "section": "行业",
-      "pushable": false,
-      "category": "财经新闻",
-      "topic": "公司综合"
-    },
     {
       "id": "xhs-6a3124780000000021019297",
       "platform": "小红书",
@@ -55,7 +21,9 @@ window.MONITOR_DATA = {
         "👍0"
       ],
       "category": "小红书",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-6a3123de000000002003b805",
@@ -71,109 +39,9 @@ window.MONITOR_DATA = {
         "👍2"
       ],
       "category": "小红书",
-      "topic": "公司综合"
-    },
-    {
-      "id": "ind-202606163771976742",
-      "platform": "每日经济新闻",
-      "title": "祖龙娱乐《龙族：卡塞尔之门》全球累计注册用户数超千万；真人互动影视作品《绍宋：还我河山》开放Steam预约通道｜游戏早参",
-      "summary": "NO.3 祖龙娱乐《龙族：卡塞尔之门》全球累计注册用户数超千万 6月14日，祖龙娱乐旗下策略卡牌手游《龙族：卡塞尔之门》宣布，全球累计注册用户突破1000万。该作于2024年9月公测，获《龙族》小说及动画双重授权，已陆续登陆中国、韩国等多地市场。",
-      "url": "http://finance.eastmoney.com/a/202606163771976742.html",
-      "sentiment": "positive",
-      "time": "2026-06-16 06:32",
-      "tags": [
-        "新游公测",
-        "每日经济新闻"
-      ],
-      "section": "行业",
-      "pushable": false,
-      "category": "财经新闻",
-      "topic": "产品游戏"
-    },
-    {
-      "id": "ind-202606153771845080",
-      "platform": "界面新闻",
-      "title": "泡泡玛特手游《梦想家园》将于8月停运，两年亏了近1.2亿",
-      "summary": "图片来源：《梦想家园》App 公告发布后，不少开服玩家在社交媒体上抱怨官方长期不更新内容，等来的却是停服通知。也有玩家表示，自己在游戏里投入了大量时间与情感，角色和家园早已成为生活的一部分，停服让他们难以接受。",
-      "url": "http://finance.eastmoney.com/a/202606153771845080.html",
-      "sentiment": "negative",
-      "time": "2026-06-15 21:31",
-      "tags": [
-        "游戏停服",
-        "界面新闻"
-      ],
-      "section": "行业",
-      "pushable": false,
-      "category": "财经新闻",
-      "topic": "产品游戏"
-    },
-    {
-      "id": "ind-202606153771366151",
-      "platform": "21世纪经济报道",
-      "title": "《穿越火线》IP 3A新作发布；欧洲监管重罚任天堂丨游戏周报",
-      "summary": "5月中国手游发行商全球收入排行榜发布 近日，Sensor Tower商店情报平台发布的数据显示，2026年5月共38个中国厂商入围全球手游发行商收入榜TOP100，其中排名前十的中国厂商为腾讯、点点互动、柠檬微趣、网易、米哈游、三七互娱、叠纸、库洛、莉莉丝与灵犀互娱。",
-      "url": "http://finance.eastmoney.com/a/202606153771366151.html",
-      "sentiment": "neutral",
-      "time": "2026-06-15 13:10",
-      "tags": [
-        "米哈游",
-        "21世纪经济报道"
-      ],
-      "section": "行业",
-      "pushable": false,
-      "category": "财经新闻",
-      "topic": "产品游戏"
-    },
-    {
-      "id": "ind-202606153771513534",
-      "platform": "上观新闻",
-      "title": "文创出海不是单向传播，青年学者关注数字生产与文化协商",
-      "summary": "学者还赴米哈游参访，了解游戏全球传播、数字内容生产、IP开发和跨文化市场拓展。 本次工作坊由上海交大—南加州大学文化创意产业学院举办，设置文化转译与情感连接、平台逻辑与治理博弈两个论坛。",
-      "url": "http://finance.eastmoney.com/a/202606153771513534.html",
-      "sentiment": "neutral",
-      "time": "2026-06-15 09:01",
-      "tags": [
-        "米哈游",
-        "上观新闻"
-      ],
-      "section": "行业",
-      "pushable": false,
-      "category": "财经新闻",
-      "topic": "经营管理"
-    },
-    {
-      "id": "ind-202606153770795093",
-      "platform": "每日经济新闻",
-      "title": "Nexon停运《泡泡堂》韩服；腾讯《三角洲行动》国际邀请赛落地武汉 | 游戏早参",
-      "summary": "丨2026年6月15日星期一丨 NO.1Nexon停运《泡泡堂》韩服国服独立运营不受影响 近日，韩国游戏厂商Nexon发布公告称，运营25年的经典休闲网游《泡泡堂》韩服将于8月13日正式停服。该作2001年上线，曾创下最高70万人同时在线的纪录，是休闲竞技品类的开山之作。",
-      "url": "http://finance.eastmoney.com/a/202606153770795093.html",
-      "sentiment": "negative",
-      "time": "2026-06-15 06:30",
-      "tags": [
-        "游戏停服",
-        "每日经济新闻"
-      ],
-      "section": "行业",
-      "pushable": false,
-      "category": "财经新闻",
-      "topic": "产品游戏"
-    },
-    {
-      "id": "ind-202606133770289592",
-      "platform": "中国经营网",
-      "title": "合作不足一年宣告终止 冰川网络游戏海外运营生变",
-      "summary": "若双方协商授权游戏停服停运后，深圳超游有权将授权游戏剩余用户（如有）引导至深圳超游或其关联方旗下运营的其他游戏中，成都开心加无权再参与分成。 对于上述合作终止事宜，记者联系冰川网络方面置评，截至发稿，未获回复。",
-      "url": "http://finance.eastmoney.com/a/202606133770289592.html",
-      "sentiment": "negative",
-      "time": "2026-06-13 03:34",
-      "tags": [
-        "游戏停服",
-        "中国经营网"
-      ],
-      "section": "行业",
-      "pushable": false,
-      "category": "财经新闻",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "news-202606123769467588",
@@ -186,6 +54,23 @@ window.MONITOR_DATA = {
       "tags": [
         "吉比特",
         "界面新闻"
+      ],
+      "category": "财经新闻",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "news-202606113768332746",
+      "platform": "证券时报网",
+      "title": "传媒行业今日净流出资金31.70亿元，昆仑万维等9股净流出资金超亿元",
+      "summary": "以资金流向数据进行统计，该行业资金净流入的个股有26只，其中，净流入资金超千万元的有5只，净流入资金居首的是世纪华通，今日净流入资金9952.41万元，紧随其后的是三人行、吉比特，净流入资金分别为3688.26万元、1977.51万元。",
+      "url": "http://finance.eastmoney.com/a/202606113768332746.html",
+      "sentiment": "neutral",
+      "time": "2026-06-11 16:52",
+      "tags": [
+        "吉比特",
+        "证券时报网"
       ],
       "category": "财经新闻",
       "topic": "公司综合",
@@ -210,23 +95,6 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "news-202606113768332746",
-      "platform": "证券时报网",
-      "title": "传媒行业今日净流出资金31.70亿元，昆仑万维等9股净流出资金超亿元",
-      "summary": "以资金流向数据进行统计，该行业资金净流入的个股有26只，其中，净流入资金超千万元的有5只，净流入资金居首的是世纪华通，今日净流入资金9952.41万元，紧随其后的是三人行、吉比特，净流入资金分别为3688.26万元、1977.51万元。",
-      "url": "http://finance.eastmoney.com/a/202606113768332746.html",
-      "sentiment": "neutral",
-      "time": "2026-06-11 16:52",
-      "tags": [
-        "吉比特",
-        "证券时报网"
-      ],
-      "category": "财经新闻",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
       "id": "news-202606113767391185",
       "platform": "21世纪经济报道",
       "title": "伊朗宣布对所有船只关闭霍尔木兹海峡；“世界杯经济”开场哨将响丨盘前情报",
@@ -242,40 +110,6 @@ window.MONITOR_DATA = {
       "topic": "公司综合",
       "section": "舆情",
       "pushable": true
-    },
-    {
-      "id": "ind-202606113767167567",
-      "platform": "每日经济新闻",
-      "title": "腾讯光子工作室发起创作者大赛 ；点点互动旗下《Kingshot》5月收入环比增长11%丨游戏早参",
-      "summary": "点评：借助大赛完成工具实测与创作者招募，有助于腾讯完善内容生态闭环，在AI赋能游戏内容生产赛道抢占先机。",
-      "url": "http://finance.eastmoney.com/a/202606113767167567.html",
-      "sentiment": "positive",
-      "time": "2026-06-11 07:00",
-      "tags": [
-        "腾讯游戏",
-        "每日经济新闻"
-      ],
-      "section": "行业",
-      "pushable": false,
-      "category": "财经新闻",
-      "topic": "公司综合"
-    },
-    {
-      "id": "ind-202606103766829745",
-      "platform": "南方都市报",
-      "title": "《黑色信标》宣告停服，曾获腾讯投资，二次元游戏加速洗牌",
-      "summary": "此外，《追逐卡蕾多》等新作也在今年取得游戏版号。",
-      "url": "http://finance.eastmoney.com/a/202606103766829745.html",
-      "sentiment": "negative",
-      "time": "2026-06-10 18:30",
-      "tags": [
-        "游戏版号",
-        "南方都市报"
-      ],
-      "section": "行业",
-      "pushable": false,
-      "category": "财经新闻",
-      "topic": "经营管理"
     },
     {
       "id": "news-202606103766748821",
@@ -308,24 +142,9 @@ window.MONITOR_DATA = {
         "👍10"
       ],
       "category": "小红书",
-      "topic": "公司综合"
-    },
-    {
-      "id": "ind-202606103765566278",
-      "platform": "每日经济新闻",
-      "title": "B站《三国志：王道天下》定档；腾讯《异人之下》预约破3000万｜游戏早参",
-      "summary": "点评：该产品超3000万的预约体量，为腾讯游戏业务注入短期业绩预期，有望提振港股腾讯控股二级市场情绪。这款自研IP改编大作，验证了腾讯国漫全产业链的变现能力，打通动漫IP游戏化的成熟链路，强化公司自研产品矩阵，缓解市场对其新游供给不足的担忧。",
-      "url": "http://finance.eastmoney.com/a/202606103765566278.html",
-      "sentiment": "neutral",
-      "time": "2026-06-10 07:00",
-      "tags": [
-        "腾讯游戏",
-        "每日经济新闻"
-      ],
-      "section": "行业",
-      "pushable": false,
-      "category": "财经新闻",
-      "topic": "产品游戏"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "news-202606093765482643",
@@ -584,7 +403,9 @@ window.MONITOR_DATA = {
         "👍23"
       ],
       "category": "小红书",
-      "topic": "招聘求职"
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "zhihu-q622600231",
@@ -620,7 +441,9 @@ window.MONITOR_DATA = {
         "👍9"
       ],
       "category": "小红书",
-      "topic": "企业文化"
+      "topic": "企业文化",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-6a1ecdde000000003601ddae",
@@ -636,7 +459,9 @@ window.MONITOR_DATA = {
         "👍43"
       ],
       "category": "小红书",
-      "topic": "企业文化"
+      "topic": "企业文化",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-6a1b959500000000070119fe",
@@ -652,7 +477,9 @@ window.MONITOR_DATA = {
         "👍3"
       ],
       "category": "小红书",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-6a1a74ed00000000350319d4",
@@ -668,7 +495,9 @@ window.MONITOR_DATA = {
         "👍4"
       ],
       "category": "小红书",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "news-202605263749943766",
@@ -719,7 +548,9 @@ window.MONITOR_DATA = {
         "👍16"
       ],
       "category": "小红书",
-      "topic": "招聘求职"
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-6a12cdfc00000000380239fc",
@@ -753,7 +584,9 @@ window.MONITOR_DATA = {
         "👍2"
       ],
       "category": "小红书",
-      "topic": "招聘求职"
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-6a106f01000000003700e3db",
@@ -839,7 +672,9 @@ window.MONITOR_DATA = {
         "👍16"
       ],
       "category": "小红书",
-      "topic": "招聘求职"
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "news-202605143737185531",
@@ -859,23 +694,6 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "ann-AN202605131822274497",
-      "platform": "公司公告",
-      "title": "吉比特:福建天衡联合律师事务所关于厦门吉比特网络技术股份有限公司差异化权益分派事项的法律意见书",
-      "summary": "吉比特:福建天衡联合律师事务所关于厦门吉比特网络技术股份有限公司差异化权益分派事项的法律意见书",
-      "url": "https://data.eastmoney.com/notices/detail/603444/AN202605131822274497.html",
-      "sentiment": "neutral",
-      "time": "2026-05-14 00:00",
-      "tags": [
-        "公告",
-        "法律意见书"
-      ],
-      "category": "公司公告",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
       "id": "ann-AN202605131822274496",
       "platform": "公司公告",
       "title": "吉比特:厦门吉比特网络技术股份有限公司2025年年度权益分派实施公告",
@@ -886,6 +704,23 @@ window.MONITOR_DATA = {
       "tags": [
         "公告",
         "分配方案实施"
+      ],
+      "category": "公司公告",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "ann-AN202605131822274497",
+      "platform": "公司公告",
+      "title": "吉比特:福建天衡联合律师事务所关于厦门吉比特网络技术股份有限公司差异化权益分派事项的法律意见书",
+      "summary": "吉比特:福建天衡联合律师事务所关于厦门吉比特网络技术股份有限公司差异化权益分派事项的法律意见书",
+      "url": "https://data.eastmoney.com/notices/detail/603444/AN202605131822274497.html",
+      "sentiment": "neutral",
+      "time": "2026-05-14 00:00",
+      "tags": [
+        "公告",
+        "法律意见书"
       ],
       "category": "公司公告",
       "topic": "公司综合",
@@ -941,7 +776,9 @@ window.MONITOR_DATA = {
         "👍11"
       ],
       "category": "小红书",
-      "topic": "招聘求职"
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "ann-AN202605071822026704",
@@ -995,16 +832,16 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "ann-AN202604231821493824",
+      "id": "ann-AN202604231821493820",
       "platform": "公司公告",
-      "title": "吉比特:厦门吉比特网络技术股份有限公司第六届董事会第十二次会议决议公告",
-      "summary": "吉比特:厦门吉比特网络技术股份有限公司第六届董事会第十二次会议决议公告",
-      "url": "https://data.eastmoney.com/notices/detail/603444/AN202604231821493824.html",
+      "title": "吉比特:厦门吉比特网络技术股份有限公司2026年第一季度报告",
+      "summary": "吉比特:厦门吉比特网络技术股份有限公司2026年第一季度报告",
+      "url": "https://data.eastmoney.com/notices/detail/603444/AN202604231821493820.html",
       "sentiment": "neutral",
       "time": "2026-04-24 00:00",
       "tags": [
         "公告",
-        "董事会决议公告"
+        "一季度报告全文"
       ],
       "category": "公司公告",
       "topic": "公司综合",
@@ -1029,16 +866,16 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "ann-AN202604231821493820",
+      "id": "ann-AN202604231821493824",
       "platform": "公司公告",
-      "title": "吉比特:厦门吉比特网络技术股份有限公司2026年第一季度报告",
-      "summary": "吉比特:厦门吉比特网络技术股份有限公司2026年第一季度报告",
-      "url": "https://data.eastmoney.com/notices/detail/603444/AN202604231821493820.html",
+      "title": "吉比特:厦门吉比特网络技术股份有限公司第六届董事会第十二次会议决议公告",
+      "summary": "吉比特:厦门吉比特网络技术股份有限公司第六届董事会第十二次会议决议公告",
+      "url": "https://data.eastmoney.com/notices/detail/603444/AN202604231821493824.html",
       "sentiment": "neutral",
       "time": "2026-04-24 00:00",
       "tags": [
         "公告",
-        "一季度报告全文"
+        "董事会决议公告"
       ],
       "category": "公司公告",
       "topic": "公司综合",
@@ -1178,21 +1015,6 @@ window.MONITOR_DATA = {
         "👍13"
       ],
       "category": "小红书",
-      "topic": "公司综合"
-    },
-    {
-      "id": "ann-AN202604161821265325",
-      "platform": "公司公告",
-      "title": "吉比特:北京市海问(深圳)律师事务所关于厦门吉比特网络技术股份有限公司2025年年度股东会会议的法律意见书",
-      "summary": "吉比特:北京市海问(深圳)律师事务所关于厦门吉比特网络技术股份有限公司2025年年度股东会会议的法律意见书",
-      "url": "https://data.eastmoney.com/notices/detail/603444/AN202604161821265325.html",
-      "sentiment": "neutral",
-      "time": "2026-04-17 00:00",
-      "tags": [
-        "公告",
-        "法律意见书"
-      ],
-      "category": "公司公告",
       "topic": "公司综合",
       "section": "舆情",
       "pushable": true
@@ -1209,6 +1031,23 @@ window.MONITOR_DATA = {
         "公告",
         "分配方案决议公告",
         "股东大会决议公告"
+      ],
+      "category": "公司公告",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "ann-AN202604161821265325",
+      "platform": "公司公告",
+      "title": "吉比特:北京市海问(深圳)律师事务所关于厦门吉比特网络技术股份有限公司2025年年度股东会会议的法律意见书",
+      "summary": "吉比特:北京市海问(深圳)律师事务所关于厦门吉比特网络技术股份有限公司2025年年度股东会会议的法律意见书",
+      "url": "https://data.eastmoney.com/notices/detail/603444/AN202604161821265325.html",
+      "sentiment": "neutral",
+      "time": "2026-04-17 00:00",
+      "tags": [
+        "公告",
+        "法律意见书"
       ],
       "category": "公司公告",
       "topic": "公司综合",
@@ -1264,7 +1103,9 @@ window.MONITOR_DATA = {
         "👍13"
       ],
       "category": "小红书",
-      "topic": "企业文化"
+      "topic": "企业文化",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-69d7c752000000002301ea73",
@@ -1315,7 +1156,9 @@ window.MONITOR_DATA = {
         "👍1"
       ],
       "category": "小红书",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "ann-AN202603301820854716",
@@ -1348,22 +1191,24 @@ window.MONITOR_DATA = {
         "👍753"
       ],
       "category": "小红书",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
-      "id": "ann-AN202603261820769308",
+      "id": "ann-AN202603261820769316",
       "platform": "公司公告",
-      "title": "吉比特:厦门吉比特网络技术股份有限公司董事薪酬管理制度(2026年3月)",
-      "summary": "吉比特:厦门吉比特网络技术股份有限公司董事薪酬管理制度(2026年3月)",
-      "url": "https://data.eastmoney.com/notices/detail/603444/AN202603261820769308.html",
+      "title": "吉比特:厦门吉比特网络技术股份有限公司2025年度独立董事述职报告-梁燕华",
+      "summary": "吉比特:厦门吉比特网络技术股份有限公司2025年度独立董事述职报告-梁燕华",
+      "url": "https://data.eastmoney.com/notices/detail/603444/AN202603261820769316.html",
       "sentiment": "neutral",
       "time": "2026-03-27 00:00",
       "tags": [
         "公告",
-        "管理办法/制度"
+        "独立董事述职报告"
       ],
       "category": "公司公告",
-      "topic": "经营管理",
+      "topic": "公司综合",
       "section": "舆情",
       "pushable": true
     },
@@ -1385,19 +1230,19 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "ann-AN202603261820769316",
+      "id": "ann-AN202603261820769308",
       "platform": "公司公告",
-      "title": "吉比特:厦门吉比特网络技术股份有限公司2025年度独立董事述职报告-梁燕华",
-      "summary": "吉比特:厦门吉比特网络技术股份有限公司2025年度独立董事述职报告-梁燕华",
-      "url": "https://data.eastmoney.com/notices/detail/603444/AN202603261820769316.html",
+      "title": "吉比特:厦门吉比特网络技术股份有限公司董事薪酬管理制度(2026年3月)",
+      "summary": "吉比特:厦门吉比特网络技术股份有限公司董事薪酬管理制度(2026年3月)",
+      "url": "https://data.eastmoney.com/notices/detail/603444/AN202603261820769308.html",
       "sentiment": "neutral",
       "time": "2026-03-27 00:00",
       "tags": [
         "公告",
-        "独立董事述职报告"
+        "管理办法/制度"
       ],
       "category": "公司公告",
-      "topic": "公司综合",
+      "topic": "经营管理",
       "section": "舆情",
       "pushable": true
     },
@@ -1470,7 +1315,9 @@ window.MONITOR_DATA = {
         "👍41"
       ],
       "category": "小红书",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-6991dc39000000001a02141b",
@@ -1596,7 +1443,9 @@ window.MONITOR_DATA = {
         "👍15"
       ],
       "category": "小红书",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-6981f1ae000000002200829e",
@@ -1720,7 +1569,9 @@ window.MONITOR_DATA = {
         "👍1342"
       ],
       "category": "小红书",
-      "topic": "招聘求职"
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "zhihu-2002097943726035223",
@@ -1790,7 +1641,9 @@ window.MONITOR_DATA = {
         "👍748"
       ],
       "category": "小红书",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-695507ca000000001e017f2c",
@@ -1860,7 +1713,9 @@ window.MONITOR_DATA = {
         "👍71"
       ],
       "category": "小红书",
-      "topic": "招聘求职"
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-6905fe3d00000000050107b4",
@@ -1912,7 +1767,9 @@ window.MONITOR_DATA = {
         "👍92"
       ],
       "category": "小红书",
-      "topic": "产品游戏"
+      "topic": "产品游戏",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "nowcoder-yMmVmY2ZhZTMzMjRjNTI",
@@ -2005,24 +1862,6 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "nowcoder-U291cmNlPWhvbWUtYXBp",
-      "platform": "牛客",
-      "title": "吉比特雷霆游戏2026秋招正式启动啦！",
-      "summary": "嗨，各位热爱游戏的同学们！ 吉比特雷霆游戏2026秋招正式启动啦。登录https://hr.g-bits.com/ ，用内推码（4N84QX）进行投递，直接快人一步，可以全程跟进 ...",
-      "url": "https://www.nowcoder.com/feed/main/detail/c80496f73ece42b7a6acfbb86b8a5f4a?urlSource=home-api",
-      "sentiment": "neutral",
-      "time": "2025-08-29 00:00",
-      "tags": [
-        "牛客",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "牛客",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
       "id": "nowcoder-2NWJlN2I4NWFjOTk2YWI",
       "platform": "牛客",
       "title": "吉比特雷霆游戏内推",
@@ -2041,6 +1880,24 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
+      "id": "nowcoder-U291cmNlPWhvbWUtYXBp",
+      "platform": "牛客",
+      "title": "吉比特雷霆游戏2026秋招正式启动啦！",
+      "summary": "嗨，各位热爱游戏的同学们！ 吉比特雷霆游戏2026秋招正式启动啦。登录https://hr.g-bits.com/ ，用内推码（4N84QX）进行投递，直接快人一步，可以全程跟进 ...",
+      "url": "https://www.nowcoder.com/feed/main/detail/c80496f73ece42b7a6acfbb86b8a5f4a?urlSource=home-api",
+      "sentiment": "neutral",
+      "time": "2025-08-29 00:00",
+      "tags": [
+        "牛客",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "牛客",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
       "id": "xhs-68abe304000000001d00140d",
       "platform": "小红书",
       "title": "吉比特旗下运营品牌“雷霆游戏”💰待遇如何",
@@ -2054,7 +1911,9 @@ window.MONITOR_DATA = {
         "👍4"
       ],
       "category": "小红书",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-68a4a40b000000001c033639",
@@ -2178,7 +2037,9 @@ window.MONITOR_DATA = {
         "👍81"
       ],
       "category": "小红书",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-67472b88000000000702b678",
@@ -2194,7 +2055,9 @@ window.MONITOR_DATA = {
         "👍4"
       ],
       "category": "小红书",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "zhihu-q522658634",
@@ -2339,7 +2202,9 @@ window.MONITOR_DATA = {
         "👍69"
       ],
       "category": "小红书",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-6617718d000000001a0164a3",
@@ -2373,7 +2238,9 @@ window.MONITOR_DATA = {
         "👍116"
       ],
       "category": "小红书",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "zhihu-682302631",
@@ -2883,141 +2750,141 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "xhs-6a30dfdc0000000006036e13",
-      "platform": "小红书",
-      "title": "吉比特投资了Steam爆款《觅长生》主创团队",
-      "summary": "游戏新知 · 👍5 收藏2",
-      "url": "https://www.xiaohongshu.com/explore/6a30dfdc0000000006036e13?xsec_token=ABWkBgjHLBXMiLDmtHBdMOb7K54G8s9z4Q4BiCkIoj5bs=",
-      "sentiment": "positive",
+      "id": "nowcoder-hYzI3MjllZTljZTBkM2I",
+      "platform": "牛客",
+      "title": "吉比特校招- 话题",
+      "summary": "吉比特_孵化中心_游戏开发. 【游戏行业】吉比特&雷霆游戏春招内推. 岗位如图:岗位base:厦门/深圳/广州内推码：4DX53S投递流程：* 登陆校招官网 hr.g-bits.com ...",
+      "url": "https://www.nowcoder.com/creation/subject/ef3de6e43c504238bac2729ee9ce0d3b",
+      "sentiment": "neutral",
       "time": "",
       "tags": [
-        "小红书",
+        "牛客",
         "吉比特",
-        "👍5"
-      ],
-      "category": "小红书",
-      "topic": "公司综合"
-    },
-    {
-      "id": "zhihu-q480054079",
-      "platform": "知乎",
-      "title": "请问战争雷霆游戏里的blk文件怎么转成3d软件能打开的格式呀？",
-      "summary": "1 个回答",
-      "url": "https://www.zhihu.com/question/480054079",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "知乎",
         "雷霆游戏"
       ],
-      "answerCount": 1,
-      "source": "cdp",
-      "category": "知乎",
-      "topic": "公司综合",
+      "category": "牛客",
+      "topic": "招聘求职",
       "section": "舆情",
       "pushable": true
     },
     {
-      "id": "zhihu-q485121596",
+      "id": "zhihu-668992375",
       "platform": "知乎",
-      "title": "请问大佬们战争雷霆游戏出现这种情况怎么办？",
-      "summary": "4 个回答",
-      "url": "https://www.zhihu.com/question/485121596",
+      "title": "深圳吉比特雷霆游戏前端日常实习面试面经",
+      "summary": "最新最全的求职面经、求职攻略戳：https://link.youzhiwk.com/r/6Aa8xwQHiO一面（40多分钟）1.自我介绍2.你是如何接触并学习前端的3.说一下你对vue3的了解，为什么vue3的 ...",
+      "url": "https://zhuanlan.zhihu.com/p/668992375",
       "sentiment": "neutral",
       "time": "",
       "tags": [
         "知乎",
+        "吉比特",
         "雷霆游戏"
       ],
-      "answerCount": 4,
-      "source": "cdp",
+      "source": "serp",
       "category": "知乎",
-      "topic": "公司综合",
+      "topic": "招聘求职",
       "section": "舆情",
       "pushable": true
     },
     {
-      "id": "zhihu-q518228256",
+      "id": "zhihu-1MzgxODQxNTAwNjkyNDg",
       "platform": "知乎",
-      "title": "雷霆游戏代理《奥比岛：梦想国度》 预计 2022 年上线，你对该游戏有哪些期待？",
-      "summary": "0 个回答",
-      "url": "https://www.zhihu.com/question/518228256",
-      "sentiment": "positive",
+      "title": "吉比特&雷霆游戏未来游戏制作人大赛",
+      "summary": "2021年4月2日，第三届未来游戏制作人大赛正式开启报名。该赛事是由深圳市文化广电旅游体育局指导，南山区文化广电旅游体育局支持，吉比特&雷霆游戏主办的面向全球在校 ...",
+      "url": "https://www.zhihu.com/column/c_1360538184150069248",
+      "sentiment": "neutral",
       "time": "",
       "tags": [
         "知乎",
+        "吉比特",
         "雷霆游戏"
       ],
-      "answerCount": 0,
-      "source": "cdp",
+      "source": "serp",
       "category": "知乎",
       "topic": "产品游戏",
       "section": "舆情",
       "pushable": true
     },
     {
-      "id": "zhihu-q530210940",
+      "id": "zhihu-xNTAwNjkyNDgcGFnZT0z",
       "platform": "知乎",
-      "title": "雷霆游戏的特色有哪些？",
-      "summary": "2 个回答",
-      "url": "https://www.zhihu.com/question/530210940",
+      "title": "吉比特&雷霆游戏未来游戏制作人大赛",
+      "summary": "2021年4月2日，第三届未来游戏制作人大赛正式开启报名。该赛事是由深圳市文化广电旅游体育局指导，南山区文化广电旅游体育局支持，吉比特&雷霆游戏主办的面向全球在校 ...",
+      "url": "https://www.zhihu.com/column/c_1360538184150069248?page=3",
       "sentiment": "neutral",
       "time": "",
       "tags": [
         "知乎",
+        "吉比特",
         "雷霆游戏"
       ],
-      "answerCount": 2,
-      "source": "cdp",
+      "source": "serp",
       "category": "知乎",
-      "topic": "公司综合",
+      "topic": "产品游戏",
       "section": "舆情",
       "pushable": true
     },
     {
-      "id": "zhihu-q508596412",
-      "platform": "知乎",
-      "title": "雷霆游戏评价怎么样？",
-      "summary": "7 个回答",
-      "url": "https://www.zhihu.com/question/508596412",
+      "id": "maimai-1867602693",
+      "platform": "脉脉",
+      "title": "吉比特&雷霆2025春季校园招聘",
+      "summary": "吉比特&雷霆2025春季校园招聘正式启动，欢迎各位同学加入，一起创造游戏美好体验！内推码：SC5D02。 吉比特&雷霆2025春季校园招聘脉脉.",
+      "url": "https://maimai.cn/article/detail?fid=1867602693&efid=SHG-_c-B3eSF2CcopdpnrA",
       "sentiment": "neutral",
       "time": "",
       "tags": [
-        "知乎",
-        "雷霆游戏"
+        "脉脉",
+        "吉比特"
       ],
-      "answerCount": 7,
-      "source": "cdp",
-      "category": "知乎",
-      "topic": "公司综合",
+      "lastChange": "2026-06-13 14:00",
+      "changeNote": "摘要有更新",
+      "category": "脉脉",
+      "topic": "招聘求职",
       "section": "舆情",
       "pushable": true
     },
     {
-      "id": "zhihu-q649092230",
-      "platform": "知乎",
-      "title": "雷霆游戏（石油大亨）分安卓和苹果吗?",
-      "summary": "0 个回答",
-      "url": "https://www.zhihu.com/question/649092230",
+      "id": "nowcoder-5",
+      "platform": "牛客",
+      "title": "吉比特雷霆游戏2026届校园招聘内推",
+      "summary": "吉比特amp;雷霆游戏2026届校园招聘正式启动关于我们：研运一体上市游戏公司，专业从事网络游戏创意策划、研发制作及商业化运营。旗下有《问道》《问道手游》《一念 ...",
+      "url": "https://www.nowcoder.com/feed/main/detail/5c5cd0e06f684a7fa4e96bf7b0eb93e7",
       "sentiment": "neutral",
       "time": "",
       "tags": [
-        "知乎",
+        "牛客",
+        "吉比特",
         "雷霆游戏"
       ],
-      "answerCount": 0,
-      "source": "cdp",
-      "category": "知乎",
-      "topic": "公司综合",
+      "category": "牛客",
+      "topic": "产品游戏",
       "section": "舆情",
       "pushable": true
     },
     {
-      "id": "zhihu-q462900684",
+      "id": "nowcoder-UvNzYwL2ludGVydmlldw",
+      "platform": "牛客",
+      "title": "吉比特校招面经",
+      "summary": "吉比特（雷霆游戏）前端二面问题飞书总结 · 一、岗位与经历相关1. 介绍在吉比特雷霆游戏岗位负责的具体工作内容（如营销活动、H5页面等）。2. 你的岗位要求中 ...",
+      "url": "https://www.nowcoder.com/enterprise/760/interview",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "牛客",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "牛客",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "zhihu-q461123221",
       "platform": "知乎",
-      "title": "如何看待雷霆游戏？",
+      "title": "如何看待雷霆游戏的用户协议？",
       "summary": "5 个回答",
-      "url": "https://www.zhihu.com/question/462900684",
+      "url": "https://www.zhihu.com/question/461123221",
       "sentiment": "neutral",
       "time": "",
       "tags": [
@@ -3025,44 +2892,6 @@ window.MONITOR_DATA = {
         "雷霆游戏"
       ],
       "answerCount": 5,
-      "source": "cdp",
-      "category": "知乎",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "zhihu-q390457032",
-      "platform": "知乎",
-      "title": "如何看待雷霆游戏出了问道这个游戏？",
-      "summary": "2 个回答",
-      "url": "https://www.zhihu.com/question/390457032",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "知乎",
-        "雷霆游戏"
-      ],
-      "answerCount": 2,
-      "source": "cdp",
-      "category": "知乎",
-      "topic": "产品游戏",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "zhihu-q423173220",
-      "platform": "知乎",
-      "title": "雷霆游戏怎么样？",
-      "summary": "7 个回答",
-      "url": "https://www.zhihu.com/question/423173220",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "知乎",
-        "雷霆游戏"
-      ],
-      "answerCount": 7,
       "source": "cdp",
       "category": "知乎",
       "topic": "公司综合",
@@ -3089,11 +2918,49 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "zhihu-q461123221",
+      "id": "zhihu-q423173220",
       "platform": "知乎",
-      "title": "如何看待雷霆游戏的用户协议？",
+      "title": "雷霆游戏怎么样？",
+      "summary": "7 个回答",
+      "url": "https://www.zhihu.com/question/423173220",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "知乎",
+        "雷霆游戏"
+      ],
+      "answerCount": 7,
+      "source": "cdp",
+      "category": "知乎",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "zhihu-q390457032",
+      "platform": "知乎",
+      "title": "如何看待雷霆游戏出了问道这个游戏？",
+      "summary": "2 个回答",
+      "url": "https://www.zhihu.com/question/390457032",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "知乎",
+        "雷霆游戏"
+      ],
+      "answerCount": 2,
+      "source": "cdp",
+      "category": "知乎",
+      "topic": "产品游戏",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "zhihu-q462900684",
+      "platform": "知乎",
+      "title": "如何看待雷霆游戏？",
       "summary": "5 个回答",
-      "url": "https://www.zhihu.com/question/461123221",
+      "url": "https://www.zhihu.com/question/462900684",
       "sentiment": "neutral",
       "time": "",
       "tags": [
@@ -3108,132 +2975,134 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "nowcoder-UvNzYwL2ludGVydmlldw",
-      "platform": "牛客",
-      "title": "吉比特校招面经",
-      "summary": "吉比特（雷霆游戏）前端二面问题飞书总结 · 一、岗位与经历相关1. 介绍在吉比特雷霆游戏岗位负责的具体工作内容（如营销活动、H5页面等）。2. 你的岗位要求中 ...",
-      "url": "https://www.nowcoder.com/enterprise/760/interview",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "牛客",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "牛客",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "nowcoder-5",
-      "platform": "牛客",
-      "title": "吉比特雷霆游戏2026届校园招聘内推",
-      "summary": "吉比特amp;雷霆游戏2026届校园招聘正式启动关于我们：研运一体上市游戏公司，专业从事网络游戏创意策划、研发制作及商业化运营。旗下有《问道》《问道手游》《一念 ...",
-      "url": "https://www.nowcoder.com/feed/main/detail/5c5cd0e06f684a7fa4e96bf7b0eb93e7",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "牛客",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "牛客",
-      "topic": "产品游戏",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-1867602693",
-      "platform": "脉脉",
-      "title": "吉比特&雷霆2025春季校园招聘",
-      "summary": "吉比特&雷霆2025春季校园招聘正式启动，欢迎各位同学加入，一起创造游戏美好体验！内推码：SC5D02。 吉比特&雷霆2025春季校园招聘脉脉.",
-      "url": "https://maimai.cn/article/detail?fid=1867602693&efid=SHG-_c-B3eSF2CcopdpnrA",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "脉脉",
-        "吉比特"
-      ],
-      "lastChange": "2026-06-13 14:00",
-      "changeNote": "摘要有更新",
-      "category": "脉脉",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "zhihu-xNTAwNjkyNDgcGFnZT0z",
+      "id": "zhihu-q649092230",
       "platform": "知乎",
-      "title": "吉比特&雷霆游戏未来游戏制作人大赛",
-      "summary": "2021年4月2日，第三届未来游戏制作人大赛正式开启报名。该赛事是由深圳市文化广电旅游体育局指导，南山区文化广电旅游体育局支持，吉比特&雷霆游戏主办的面向全球在校 ...",
-      "url": "https://www.zhihu.com/column/c_1360538184150069248?page=3",
+      "title": "雷霆游戏（石油大亨）分安卓和苹果吗?",
+      "summary": "0 个回答",
+      "url": "https://www.zhihu.com/question/649092230",
       "sentiment": "neutral",
       "time": "",
       "tags": [
         "知乎",
-        "吉比特",
         "雷霆游戏"
       ],
-      "source": "serp",
+      "answerCount": 0,
+      "source": "cdp",
+      "category": "知乎",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "zhihu-q508596412",
+      "platform": "知乎",
+      "title": "雷霆游戏评价怎么样？",
+      "summary": "7 个回答",
+      "url": "https://www.zhihu.com/question/508596412",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "知乎",
+        "雷霆游戏"
+      ],
+      "answerCount": 7,
+      "source": "cdp",
+      "category": "知乎",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "zhihu-q530210940",
+      "platform": "知乎",
+      "title": "雷霆游戏的特色有哪些？",
+      "summary": "2 个回答",
+      "url": "https://www.zhihu.com/question/530210940",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "知乎",
+        "雷霆游戏"
+      ],
+      "answerCount": 2,
+      "source": "cdp",
+      "category": "知乎",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "zhihu-q518228256",
+      "platform": "知乎",
+      "title": "雷霆游戏代理《奥比岛：梦想国度》 预计 2022 年上线，你对该游戏有哪些期待？",
+      "summary": "0 个回答",
+      "url": "https://www.zhihu.com/question/518228256",
+      "sentiment": "positive",
+      "time": "",
+      "tags": [
+        "知乎",
+        "雷霆游戏"
+      ],
+      "answerCount": 0,
+      "source": "cdp",
       "category": "知乎",
       "topic": "产品游戏",
       "section": "舆情",
       "pushable": true
     },
     {
-      "id": "zhihu-1MzgxODQxNTAwNjkyNDg",
+      "id": "zhihu-q485121596",
       "platform": "知乎",
-      "title": "吉比特&雷霆游戏未来游戏制作人大赛",
-      "summary": "2021年4月2日，第三届未来游戏制作人大赛正式开启报名。该赛事是由深圳市文化广电旅游体育局指导，南山区文化广电旅游体育局支持，吉比特&雷霆游戏主办的面向全球在校 ...",
-      "url": "https://www.zhihu.com/column/c_1360538184150069248",
+      "title": "请问大佬们战争雷霆游戏出现这种情况怎么办？",
+      "summary": "4 个回答",
+      "url": "https://www.zhihu.com/question/485121596",
       "sentiment": "neutral",
       "time": "",
       "tags": [
         "知乎",
-        "吉比特",
         "雷霆游戏"
       ],
-      "source": "serp",
+      "answerCount": 4,
+      "source": "cdp",
       "category": "知乎",
-      "topic": "产品游戏",
+      "topic": "公司综合",
       "section": "舆情",
       "pushable": true
     },
     {
-      "id": "zhihu-668992375",
+      "id": "zhihu-q480054079",
       "platform": "知乎",
-      "title": "深圳吉比特雷霆游戏前端日常实习面试面经",
-      "summary": "最新最全的求职面经、求职攻略戳：https://link.youzhiwk.com/r/6Aa8xwQHiO一面（40多分钟）1.自我介绍2.你是如何接触并学习前端的3.说一下你对vue3的了解，为什么vue3的 ...",
-      "url": "https://zhuanlan.zhihu.com/p/668992375",
+      "title": "请问战争雷霆游戏里的blk文件怎么转成3d软件能打开的格式呀？",
+      "summary": "1 个回答",
+      "url": "https://www.zhihu.com/question/480054079",
       "sentiment": "neutral",
       "time": "",
       "tags": [
         "知乎",
-        "吉比特",
         "雷霆游戏"
       ],
-      "source": "serp",
+      "answerCount": 1,
+      "source": "cdp",
       "category": "知乎",
-      "topic": "招聘求职",
+      "topic": "公司综合",
       "section": "舆情",
       "pushable": true
     },
     {
-      "id": "nowcoder-hYzI3MjllZTljZTBkM2I",
-      "platform": "牛客",
-      "title": "吉比特校招- 话题",
-      "summary": "吉比特_孵化中心_游戏开发. 【游戏行业】吉比特&雷霆游戏春招内推. 岗位如图:岗位base:厦门/深圳/广州内推码：4DX53S投递流程：* 登陆校招官网 hr.g-bits.com ...",
-      "url": "https://www.nowcoder.com/creation/subject/ef3de6e43c504238bac2729ee9ce0d3b",
-      "sentiment": "neutral",
+      "id": "xhs-6a30dfdc0000000006036e13",
+      "platform": "小红书",
+      "title": "吉比特投资了Steam爆款《觅长生》主创团队",
+      "summary": "游戏新知 · 👍5 收藏2",
+      "url": "https://www.xiaohongshu.com/explore/6a30dfdc0000000006036e13?xsec_token=ABWkBgjHLBXMiLDmtHBdMOb7K54G8s9z4Q4BiCkIoj5bs=",
+      "sentiment": "positive",
       "time": "",
       "tags": [
-        "牛客",
+        "小红书",
         "吉比特",
-        "雷霆游戏"
+        "👍5"
       ],
-      "category": "牛客",
-      "topic": "招聘求职",
+      "category": "小红书",
+      "topic": "公司综合",
       "section": "舆情",
       "pushable": true
     },
@@ -3249,6 +3118,23 @@ window.MONITOR_DATA = {
         "牛客",
         "吉比特",
         "雷霆游戏"
+      ],
+      "category": "牛客",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "nowcoder-L2VudGVycHJpc2UvNzYw",
+      "platform": "牛客",
+      "title": "吉比特2026年校招职位信息",
+      "summary": "招聘批次：. 26春招 ; 网申时间：. 2026/03/23 ~ 2026/05/23 ; 招聘城市：. 厦门、深圳 ; 招聘岗位：. 后端开发、前端开发、客户端开发、测试、数据、运维、产品、运营、游戏策划 ...",
+      "url": "https://www.nowcoder.com/enterprise/760",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "牛客",
+        "吉比特"
       ],
       "category": "牛客",
       "topic": "招聘求职",
@@ -3274,16 +3160,17 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "nowcoder-L2VudGVycHJpc2UvNzYw",
+      "id": "nowcoder-114837",
       "platform": "牛客",
-      "title": "吉比特2026年校招职位信息",
-      "summary": "招聘批次：. 26春招 ; 网申时间：. 2026/03/23 ~ 2026/05/23 ; 招聘城市：. 厦门、深圳 ; 招聘岗位：. 后端开发、前端开发、客户端开发、测试、数据、运维、产品、运营、游戏策划 ...",
-      "url": "https://www.nowcoder.com/enterprise/760",
+      "title": "吉比特&雷霆游戏凉经",
+      "summary": "【吉比特&雷霆游戏】 笔试：（时长90分钟） 选择题中数学多，计算量较大，专业知识考察很基础； 填空题全是C++，读代码写输出。前面选择如果做得太慢，这部分会很有压力； ...",
+      "url": "https://www.nowcoder.com/discuss/114837",
       "sentiment": "neutral",
       "time": "",
       "tags": [
         "牛客",
-        "吉比特"
+        "吉比特",
+        "雷霆游戏"
       ],
       "category": "牛客",
       "topic": "招聘求职",
@@ -3291,11 +3178,11 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "nowcoder-114837",
+      "id": "nowcoder-865666807464550400",
       "platform": "牛客",
-      "title": "吉比特&雷霆游戏凉经",
-      "summary": "【吉比特&雷霆游戏】 笔试：（时长90分钟） 选择题中数学多，计算量较大，专业知识考察很基础； 填空题全是C++，读代码写输出。前面选择如果做得太慢，这部分会很有压力； ...",
-      "url": "https://www.nowcoder.com/discuss/114837",
+      "title": "【吉比特雷霆游戏】2026春招！内附内推马！",
+      "summary": "公司名称：吉比特雷霆游戏 招聘岗位：https://hr.g-bits.com/web/index.html#/post-web/post-list/ 内推码：0EF76K_牛客网_牛客在手,offer不愁.",
+      "url": "https://www.nowcoder.com/discuss/865666807464550400",
       "sentiment": "neutral",
       "time": "",
       "tags": [
@@ -3435,6 +3322,24 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
+      "id": "maimai-1843064743",
+      "platform": "脉脉",
+      "title": "吉比特&雷霆游戏2025届校招内推",
+      "summary": "【企业介绍】吉比特&雷霆游戏，研运一体的一家上市游戏公司~研发/发行过《问道》《问道手游》《一念逍遥》《奥比岛》《monster never cry》《飞吧龙骑士》《世界弹射 ...",
+      "url": "https://maimai.cn/article/detail?fid=1843064743&efid=F6nmz6gveec06V69fTavew",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "脉脉",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "脉脉",
+      "topic": "产品游戏",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
       "id": "maimai-1902401072",
       "platform": "脉脉",
       "title": "吉比特＆雷霆游戏2月最新岗位",
@@ -3523,6 +3428,210 @@ window.MONITOR_DATA = {
       "topic": "招聘求职",
       "section": "舆情",
       "pushable": true
+    },
+    {
+      "id": "ind-202606173774462268",
+      "platform": "界面新闻",
+      "title": "米哈游：“多摩万事屋”终审被判赔298万元",
+      "summary": "6月17日，米哈游法务部发文称，近日，米哈游诉“多摩万事屋”著作权侵权及不正当竞争纠纷一案迎来终审判决。上海知识产权法院二审驳回上诉，维持一审法院判决，即判令各被告立即停止侵权、公开发布声明消除影响，并连带赔偿米哈游经济损失及合理开支共计298万元。",
+      "url": "http://finance.eastmoney.com/a/202606173774462268.html",
+      "sentiment": "negative",
+      "time": "2026-06-17 14:31",
+      "tags": [
+        "米哈游",
+        "界面新闻"
+      ],
+      "section": "行业",
+      "pushable": false,
+      "category": "财经新闻",
+      "topic": "公司综合"
+    },
+    {
+      "id": "ind-202606173773737287",
+      "platform": "上海证券报",
+      "title": "儒意电影，最新发布",
+      "summary": "过去一年，儒意电影国内衍生品销售同比增长18%，与38个IP达成合作，覆盖影视、游戏、潮玩等多个类型。 基于这一思考，影时光正搭建一套IP生态养成系统。针对内容来源与供给，影时光搭建了五类IP内容池：潮流文化池、游戏联运池、档期共生池、集团资产池、原生孵化池。",
+      "url": "http://finance.eastmoney.com/a/202606173773737287.html",
+      "sentiment": "positive",
+      "time": "2026-06-17 08:42",
+      "tags": [
+        "游戏停服",
+        "上海证券报"
+      ],
+      "section": "行业",
+      "pushable": false,
+      "category": "财经新闻",
+      "topic": "公司综合"
+    },
+    {
+      "id": "ind-202606173773505249",
+      "platform": "每日经济新闻",
+      "title": "5月中国游戏市场收入同比增长超10%；米哈游在广州成立新公司“苍刚科技”｜游戏早参",
+      "summary": "NO.2 艺电推出游戏内广告平台“EA Advertising” 6月15日，美国艺电（EA）宣布推出游戏内广告平台“EA Advertising”。该平台允许品牌方通过动态投放技术将产品实时植入游戏中，涵盖体育游戏场边广告牌、定制游戏内容及带奖励的特殊任务等多种形式。",
+      "url": "http://finance.eastmoney.com/a/202606173773505249.html",
+      "sentiment": "positive",
+      "time": "2026-06-17 07:01",
+      "tags": [
+        "游戏停服",
+        "每日经济新闻"
+      ],
+      "section": "行业",
+      "pushable": false,
+      "category": "财经新闻",
+      "topic": "公司综合"
+    },
+    {
+      "id": "ind-202606163771976742",
+      "platform": "每日经济新闻",
+      "title": "祖龙娱乐《龙族：卡塞尔之门》全球累计注册用户数超千万；真人互动影视作品《绍宋：还我河山》开放Steam预约通道｜游戏早参",
+      "summary": "NO.3 祖龙娱乐《龙族：卡塞尔之门》全球累计注册用户数超千万 6月14日，祖龙娱乐旗下策略卡牌手游《龙族：卡塞尔之门》宣布，全球累计注册用户突破1000万。该作于2024年9月公测，获《龙族》小说及动画双重授权，已陆续登陆中国、韩国等多地市场。",
+      "url": "http://finance.eastmoney.com/a/202606163771976742.html",
+      "sentiment": "positive",
+      "time": "2026-06-16 06:32",
+      "tags": [
+        "新游公测",
+        "每日经济新闻"
+      ],
+      "section": "行业",
+      "pushable": false,
+      "category": "财经新闻",
+      "topic": "产品游戏"
+    },
+    {
+      "id": "ind-202606153771845080",
+      "platform": "界面新闻",
+      "title": "泡泡玛特手游《梦想家园》将于8月停运，两年亏了近1.2亿",
+      "summary": "图片来源：《梦想家园》App 公告发布后，不少开服玩家在社交媒体上抱怨官方长期不更新内容，等来的却是停服通知。也有玩家表示，自己在游戏里投入了大量时间与情感，角色和家园早已成为生活的一部分，停服让他们难以接受。",
+      "url": "http://finance.eastmoney.com/a/202606153771845080.html",
+      "sentiment": "negative",
+      "time": "2026-06-15 21:31",
+      "tags": [
+        "游戏停服",
+        "界面新闻"
+      ],
+      "section": "行业",
+      "pushable": false,
+      "category": "财经新闻",
+      "topic": "产品游戏"
+    },
+    {
+      "id": "ind-202606153771366151",
+      "platform": "21世纪经济报道",
+      "title": "《穿越火线》IP 3A新作发布；欧洲监管重罚任天堂丨游戏周报",
+      "summary": "5月中国手游发行商全球收入排行榜发布 近日，Sensor Tower商店情报平台发布的数据显示，2026年5月共38个中国厂商入围全球手游发行商收入榜TOP100，其中排名前十的中国厂商为腾讯、点点互动、柠檬微趣、网易、米哈游、三七互娱、叠纸、库洛、莉莉丝与灵犀互娱。",
+      "url": "http://finance.eastmoney.com/a/202606153771366151.html",
+      "sentiment": "neutral",
+      "time": "2026-06-15 13:10",
+      "tags": [
+        "米哈游",
+        "21世纪经济报道"
+      ],
+      "section": "行业",
+      "pushable": false,
+      "category": "财经新闻",
+      "topic": "产品游戏"
+    },
+    {
+      "id": "ind-202606153771513534",
+      "platform": "上观新闻",
+      "title": "文创出海不是单向传播，青年学者关注数字生产与文化协商",
+      "summary": "学者还赴米哈游参访，了解游戏全球传播、数字内容生产、IP开发和跨文化市场拓展。 本次工作坊由上海交大—南加州大学文化创意产业学院举办，设置文化转译与情感连接、平台逻辑与治理博弈两个论坛。",
+      "url": "http://finance.eastmoney.com/a/202606153771513534.html",
+      "sentiment": "neutral",
+      "time": "2026-06-15 09:01",
+      "tags": [
+        "米哈游",
+        "上观新闻"
+      ],
+      "section": "行业",
+      "pushable": false,
+      "category": "财经新闻",
+      "topic": "经营管理"
+    },
+    {
+      "id": "ind-202606153770795093",
+      "platform": "每日经济新闻",
+      "title": "Nexon停运《泡泡堂》韩服；腾讯《三角洲行动》国际邀请赛落地武汉 | 游戏早参",
+      "summary": "丨2026年6月15日星期一丨 NO.1Nexon停运《泡泡堂》韩服国服独立运营不受影响 近日，韩国游戏厂商Nexon发布公告称，运营25年的经典休闲网游《泡泡堂》韩服将于8月13日正式停服。该作2001年上线，曾创下最高70万人同时在线的纪录，是休闲竞技品类的开山之作。",
+      "url": "http://finance.eastmoney.com/a/202606153770795093.html",
+      "sentiment": "negative",
+      "time": "2026-06-15 06:30",
+      "tags": [
+        "游戏停服",
+        "每日经济新闻"
+      ],
+      "section": "行业",
+      "pushable": false,
+      "category": "财经新闻",
+      "topic": "产品游戏"
+    },
+    {
+      "id": "ind-202606133770289592",
+      "platform": "中国经营网",
+      "title": "合作不足一年宣告终止 冰川网络游戏海外运营生变",
+      "summary": "若双方协商授权游戏停服停运后，深圳超游有权将授权游戏剩余用户（如有）引导至深圳超游或其关联方旗下运营的其他游戏中，成都开心加无权再参与分成。 对于上述合作终止事宜，记者联系冰川网络方面置评，截至发稿，未获回复。",
+      "url": "http://finance.eastmoney.com/a/202606133770289592.html",
+      "sentiment": "negative",
+      "time": "2026-06-13 03:34",
+      "tags": [
+        "游戏停服",
+        "中国经营网"
+      ],
+      "section": "行业",
+      "pushable": false,
+      "category": "财经新闻",
+      "topic": "公司综合"
+    },
+    {
+      "id": "ind-202606113767167567",
+      "platform": "每日经济新闻",
+      "title": "腾讯光子工作室发起创作者大赛 ；点点互动旗下《Kingshot》5月收入环比增长11%丨游戏早参",
+      "summary": "点评：借助大赛完成工具实测与创作者招募，有助于腾讯完善内容生态闭环，在AI赋能游戏内容生产赛道抢占先机。",
+      "url": "http://finance.eastmoney.com/a/202606113767167567.html",
+      "sentiment": "positive",
+      "time": "2026-06-11 07:00",
+      "tags": [
+        "腾讯游戏",
+        "每日经济新闻"
+      ],
+      "section": "行业",
+      "pushable": false,
+      "category": "财经新闻",
+      "topic": "公司综合"
+    },
+    {
+      "id": "ind-202606103766829745",
+      "platform": "南方都市报",
+      "title": "《黑色信标》宣告停服，曾获腾讯投资，二次元游戏加速洗牌",
+      "summary": "此外，《追逐卡蕾多》等新作也在今年取得游戏版号。",
+      "url": "http://finance.eastmoney.com/a/202606103766829745.html",
+      "sentiment": "negative",
+      "time": "2026-06-10 18:30",
+      "tags": [
+        "游戏版号",
+        "南方都市报"
+      ],
+      "section": "行业",
+      "pushable": false,
+      "category": "财经新闻",
+      "topic": "经营管理"
+    },
+    {
+      "id": "ind-202606103765566278",
+      "platform": "每日经济新闻",
+      "title": "B站《三国志：王道天下》定档；腾讯《异人之下》预约破3000万｜游戏早参",
+      "summary": "点评：该产品超3000万的预约体量，为腾讯游戏业务注入短期业绩预期，有望提振港股腾讯控股二级市场情绪。这款自研IP改编大作，验证了腾讯国漫全产业链的变现能力，打通动漫IP游戏化的成熟链路，强化公司自研产品矩阵，缓解市场对其新游供给不足的担忧。",
+      "url": "http://finance.eastmoney.com/a/202606103765566278.html",
+      "sentiment": "neutral",
+      "time": "2026-06-10 07:00",
+      "tags": [
+        "腾讯游戏",
+        "每日经济新闻"
+      ],
+      "section": "行业",
+      "pushable": false,
+      "category": "财经新闻",
+      "topic": "产品游戏"
     }
   ]
 };
