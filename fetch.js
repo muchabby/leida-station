@@ -86,6 +86,18 @@ const bjNow = () => new Date(new Date().toLocaleString("en-US", { timeZone: "Asi
 const BRAND = ["吉比特","雷霆游戏","雷霆网络","G-bits","603444","一念逍遥","问道","奥比岛","摩尔庄园","M72"];
 const isRelevant = text => BRAND.some(b => text.includes(b));
 
+// ===== 行业动态（section="行业"）=====
+// 游戏行业大盘讯息，区别于本品牌舆情。判定逻辑集中在 monitor-rules.js（行业实体/事件/上下文词 + 三段式 isRelevant）。
+// 只取行业判定，不取它的 KEYWORDS/TOPIC_RULES（fetch.js 自有品牌版）。零额度：行业新闻走东方财富免费接口，不碰 SerpAPI。
+const { isIndustryRelevant, isIndustryNoise, isMeaningfulTitle: isIndustryMeaningful } = require("./monitor-rules");
+// 行业搜索入口词：精简版，只留高信号词——核心事件 + 主要厂商（命中厂商名质量最高）。
+// 砍掉"游戏行业/新游上线"等宽泛词（搜出来多是 ETF 行情、泛"上线"噪音）。
+const INDUSTRY_SEARCH = [
+  "游戏版号","游戏停服","游戏出海","新游公测",
+  "腾讯游戏","网易游戏","米哈游","三七互娱",
+];
+const INDUSTRY_MAX_AGE_DAYS = 7; // 行业新闻时间窗：只留近 N 天，防陈年旧闻灌入、控制总量
+
 async function getText(url){
   const res = await fetch(url, { headers:{ "User-Agent":"Mozilla/5.0", "Referer":"https://www.eastmoney.com/" } });
   return await res.text();
@@ -116,6 +128,86 @@ async function fetchNews(keyword){
       tags: [keyword, a.mediaName].filter(Boolean)
     };
   }).filter(i => isRelevant(i.title + " " + i.summary)); // 过滤泛匹配噪音
+}
+
+// ---- 行业动态：东方财富资讯按行业搜索词抓，行业判定过滤，排除本品牌（品牌归舆情）----
+// 零额度：和 fetchNews 同一个免费接口；section="行业"、pushable=false（静默更新不推飞书）。
+async function fetchIndustryNews(keyword){
+  const param = encodeURIComponent(JSON.stringify({
+    uid:"", keyword, type:["cmsArticleWebOld"], client:"web", clientType:"web", clientVersion:"curr",
+    param:{ cmsArticleWebOld:{ searchScope:"default", sort:"default", pageIndex:1, pageSize:20 } }
+  }));
+  const url = `https://search-api-web.eastmoney.com/search/jsonp?cb=cb&param=${param}`;
+  const raw = await getText(url);
+  const m = raw.match(/^cb\(([\s\S]*)\)\s*;?\s*$/);
+  if(!m) return [];
+  let json; try { json = JSON.parse(m[1]); } catch(e){ return []; }
+  const list = (json.result && json.result.cmsArticleWebOld) || [];
+  return list.map(a=>{
+    const title = stripTags(a.title);
+    const summary = stripTags(a.content) || title;
+    return {
+      id: "ind-" + (a.code || Buffer.from(title).toString("base64").slice(0,16)),
+      platform: a.mediaName || "行业资讯",
+      title, summary,
+      url: a.url || "",
+      sentiment: judge(title + " " + summary),
+      time: toMin(a.date),
+      tags: [keyword, a.mediaName].filter(Boolean),
+      section: "行业",
+      pushable: false,
+    };
+  }).filter(i => {
+    const text = i.title + " " + i.summary;
+    if(isIndustryNoise(i.title)) return false;    // 金融行情/泛财经/无关领域噪音，标题命中直接丢
+    if(isRelevant(text)) return false;            // 命中本品牌 → 归舆情，不进行业（避免重复）
+    if(!isIndustryRelevant(text)) return false;   // 行业三段式判定
+    if(!isIndustryMeaningful(i.title)) return false;
+    return true;
+  });
+}
+
+// 事件级去重：同一件事多家媒体报道（标题措辞不同但讲同一事），只保留一条。
+// 用标题 2-gram 的 Jaccard 相似度判同事件，阈值 0.42。输入已按时间倒序时，保留的是更新的那条。
+function titleGrams(t){
+  const s = String(t||"")
+    .replace(/[｜|丨].*$/,"")                     // 去"丨游戏早参""｜游戏周报"等聚合尾巴再比
+    .replace(/[\s\p{P}\p{S}]/gu,"").toLowerCase(); // 去标点/符号/空白
+  const g = new Set();
+  for(let i=0;i<s.length-1;i++) g.add(s.slice(i,i+2));
+  return g;
+}
+function jaccard(a,b){
+  if(!a.size || !b.size) return 0;
+  let inter=0; for(const x of a) if(b.has(x)) inter++;
+  return inter/(a.size + b.size - inter);
+}
+function gameNames(t){
+  return new Set([...String(t||"").matchAll(/[《【]([^》】]{2,20})[》】]/g)].map(m=>m[1]));
+}
+function isAggregate(t){
+  const bookMarks = (String(t||"").match(/[《【]/g)||[]).length;
+  return bookMarks >= 2 || /早参|周报|早报|周刊|盘点|一览/.test(String(t||""));
+}
+function dedupeIndustryEvents(items){
+  const ind = items.filter(i=>i.section==="行业").slice()
+    .sort((a,b)=> (a.time<b.time?1:-1));            // 时间倒序：先保留的是最新的
+  const rest = items.filter(i=>i.section!=="行业");
+  const kept = [];
+  for(const it of ind){
+    const g = titleGrams(it.title), names = gameNames(it.title), agg = isAggregate(it.title);
+    const dup = kept.some(k => {
+      const sim = jaccard(g, k._g);
+      if(sim >= 0.42) return true;                  // 措辞高度相似
+      if(!agg && !k._agg && sim >= 0.22){           // 同款游戏 + 中等相似（聚合稿不走此路）
+        for(const n of names) if(k._names.has(n)) return true;
+      }
+      return false;
+    });
+    if(!dup){ it._g = g; it._names = names; it._agg = agg; kept.push(it); }
+  }
+  kept.forEach(k=>{ delete k._g; delete k._names; delete k._agg; }); // 清临时字段，不写进 data.js
+  return [...rest, ...kept];
 }
 
 // ---- 来源2：东方财富 个股公告 ----
@@ -275,6 +367,13 @@ async function pushLark(newItems, allItems, daily){
   try { fetched.push(...await fetchAnn()); }
   catch(e){ console.log("抓取公告失败：", e.message); }
 
+  // 行业动态：用行业搜索词抓东方财富资讯（零额度），打 section="行业"、pushable=false。
+  // 每天都抓（不像社交站受 FETCH_SOCIAL 限制），因为走的是免费接口。
+  for(const kw of INDUSTRY_SEARCH){
+    try { fetched.push(...await fetchIndustryNews(kw)); }
+    catch(e){ console.log(`抓取行业[${kw}]失败：`, e.message); }
+  }
+
   // 社交站：仅在开了 FETCH_SOCIAL 的那次任务抓（每天1次，省额度）
   // 方案A：知乎只在周末由 SerpAPI 兜底抓；工作日由本机 fetch-zhihu.js 经 CDP 深挖（更精确）。
   // 脉脉/牛客不受影响，照常每天（开了FETCH_SOCIAL时）抓。
@@ -291,6 +390,12 @@ async function pushLark(newItems, allItems, daily){
   // 抓取结果内部按 id 去重
   const seen = new Set();
   fetched = fetched.filter(i => i.id && i.title && !seen.has(i.id) && seen.add(i.id));
+
+  // 行业时间窗：section="行业" 的条目只留近 INDUSTRY_MAX_AGE_DAYS 天，无日期的丢弃。
+  // （搜厂商名易翻出陈年旧闻；舆情条目不受此限，保留全部历史。）
+  const cutoff = new Date(bjNow()); cutoff.setDate(cutoff.getDate() - INDUSTRY_MAX_AGE_DAYS);
+  const cutoffStr = `${cutoff.getFullYear()}-${String(cutoff.getMonth()+1).padStart(2,"0")}-${String(cutoff.getDate()).padStart(2,"0")}`;
+  fetched = fetched.filter(i => i.section!=="行业" || (i.time && i.time.slice(0,10) >= cutoffStr));
 
   const existing = readExisting();
   const existMap = new Map((existing.items||[]).map(i=>[i.id, i]));
@@ -326,7 +431,12 @@ async function pushLark(newItems, allItems, daily){
   // 合并：这次抓到的（新+已更新内容）优先，再补上库里未被重新抓到的旧条目，按时间倒序
   const fetchedIds = new Set(fetched.map(i=>i.id));
   const untouched = (existing.items||[]).filter(i=>!fetchedIds.has(i.id));
-  const merged = [...fetched, ...untouched].sort((a,b)=> (a.time<b.time?1:-1));
+  let merged = [...fetched, ...untouched].sort((a,b)=> (a.time<b.time?1:-1));
+  // 行业条目滚动清理：库内 section="行业" 的，超过时间窗（或无日期）的一律剔除，防越积越多。
+  // 舆情条目不受此限，永久留存。
+  merged = merged.filter(i => i.section!=="行业" || (i.time && i.time.slice(0,10) >= cutoffStr));
+  // 行业事件去重：同一件事多家媒体报道只留最新一条（舆情不参与）。
+  merged = dedupeIndustryEvents(merged);
   merged.forEach(i=>{
     i.category = categorize(i);
     i.topic = topicize(i);
@@ -338,7 +448,9 @@ async function pushLark(newItems, allItems, daily){
 
   writeData({ updatedAt: stamp, keywords: KEYWORDS, items: merged });
   const socialCnt = fetched.filter(i=>SOCIAL_SITES.some(s=>s.name===i.platform)).length;
-  console.log(`[${stamp}] 抓取 ${fetched.length} 条（社交站 ${socialCnt} 条/${FETCH_SOCIAL?"本次抓":"本次跳过"}，Key:${SERPAPI_KEY?"已配置":"未配置"}），新增 ${fresh.length} 条，内容更新 ${changed} 条，库内共 ${merged.length} 条`);
+  const indCnt = fetched.filter(i=>i.section==="行业").length;
+  const indTotal = merged.filter(i=>i.section==="行业").length;
+  console.log(`[${stamp}] 抓取 ${fetched.length} 条（社交站 ${socialCnt} 条/${FETCH_SOCIAL?"本次抓":"本次跳过"}，行业 ${indCnt} 条，Key:${SERPAPI_KEY?"已配置":"未配置"}），新增 ${fresh.length} 条，内容更新 ${changed} 条，库内共 ${merged.length} 条（其中行业 ${indTotal} 条）`);
 
   await pushLark(fresh, merged, process.env.DAILY_PUSH === "1");
 })();

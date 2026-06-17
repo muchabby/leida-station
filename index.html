@@ -347,9 +347,9 @@
       <nav class="nav" id="nav">
         <button class="active" data-tab="overview"><span>总览</span><span class="tag">01</span></button>
         <button data-tab="feed"><span>全部消息</span><span class="tag" id="navFeedCount">0</span></button>
-        <button data-tab="watch"><span>🎯 重点关注</span><span class="tag" id="navWatchCount">0</span></button>
+        <button data-tab="watch"><span>重点关注</span><span class="tag" id="navWatchCount">0</span></button>
         <button data-tab="done"><span>已处理</span><span class="tag" id="navDoneCount">0</span></button>
-        <button data-tab="industry"><span>🌐 行业动态</span><span class="tag" id="navIndCount">0</span></button>
+        <button data-tab="industry"><span>行业动态</span><span class="tag" id="navIndCount">0</span></button>
         <button data-tab="sources"><span>数据源</span><span class="tag">06</span></button>
       </nav>
       <div class="sidebar-footer">
@@ -432,7 +432,7 @@
             <option value="neutral">只看中性</option>
           </select>
         </div>
-        <div class="time-bar">
+        <div class="time-bar" id="feedTimeBar">
           <span class="seg-label">时间</span>
           <button class="chip active" data-range="all">全部</button>
           <button class="chip" data-range="today">今日</button>
@@ -454,7 +454,7 @@
       <!-- 盯着他 -->
       <section class="section" id="watch">
         <div class="card">
-          <div class="card-head"><div><h4>🎯 重点关注</h4><p>加星的帖子在这里持续盯梢，每天抓取时若标题/摘要有变化，会在该条下提示「内容有更新」</p></div></div>
+          <div class="card-head"><div><h4>重点关注</h4><p>加星的帖子在这里持续盯梢，每天抓取时若标题/摘要有变化，会在该条下提示「内容有更新」</p></div></div>
           <div class="feed-list" id="watchFeed"></div>
         </div>
       </section>
@@ -470,7 +470,21 @@
       <!-- 行业动态（游戏行业大盘，静默更新、不推飞书） -->
       <section class="section" id="industry">
         <div class="card">
-          <div class="card-head"><div><h4>🌐 游戏行业动态</h4><p>整个游戏行业的最新讯息（版号、新游、出海、厂商动向、监管政策等），每天随舆情抓取顺带更新，不做飞书推送</p></div></div>
+          <div class="card-head"><div><h4>游戏行业动态</h4><p>整个游戏行业的最新讯息（版号、新游、出海、厂商动向、监管政策等），每天随舆情抓取顺带更新，不做飞书推送</p></div></div>
+          <div class="time-bar" id="indTimeBar">
+            <span class="seg-label">时间</span>
+            <button class="chip active" data-range="all">全部</button>
+            <button class="chip" data-range="today">今日</button>
+            <button class="chip" data-range="7d">近 7 天</button>
+            <button class="chip" data-range="30d">近 30 天</button>
+            <button class="chip" data-range="unknown">日期未知</button>
+            <div class="date-range">
+              <input type="date" id="indDateFrom" title="起始日期" />
+              <span class="tilde">~</span>
+              <input type="date" id="indDateTo" title="结束日期" />
+              <button class="clear-date" id="indClearDate" type="button">清除</button>
+            </div>
+          </div>
           <div class="feed-list" id="industryFeed"></div>
         </div>
       </section>
@@ -511,6 +525,10 @@
   <script src="data.js"></script>
   <script>
     const DATA = window.MONITOR_DATA || { updatedAt:"", keywords:[], items:[] };
+    // 数据分流：BIZ=本品牌舆情池（吉比特/雷霆，旧数据无 section 字段也归此）；IND=行业动态池。
+    // 总览/全部消息/预警/环形图/热词等"舆情概况"只看 BIZ，避免行业内容混入污染品牌指标。
+    const bizItems = () => DATA.items.filter(i=>i.section!=="行业");
+    const indItems = () => DATA.items.filter(i=>i.section==="行业");
     const SEEN_KEY = "brandMonitorSeenIds_v2";
     const STAR_KEY = "brandMonitorStarred";
     const DONE_KEY = "brandMonitorDone";
@@ -521,7 +539,7 @@
     // 主题标签(topicize 生成)的 emoji 与展示顺序
     const TOPIC_EMOJI = {"企业文化":"🏛 ","理念价值观":"💡 ","经营管理":"⚙️ ","产品游戏":"🎮 ","招聘求职":"🧑‍💻 ","股票财务":"💰 ","公司综合":"🏢 "};
     const TOPIC_ORDER = ["企业文化","理念价值观","经营管理","产品游戏","招聘求职","股票财务","公司综合"];
-    const state = { tab:"overview", category:"全部", topic:"全部", q:"", sort:"new", senti:"all", range:"all", from:"", to:"" };
+    const state = { tab:"overview", category:"全部", topic:"全部", q:"", sort:"new", senti:"all", range:"all", from:"", to:"", indRange:"all", indFrom:"", indTo:"" };
 
     // ---- 时间工具 ----
     const todayStr = () => { const n=new Date(); const p=x=>String(x).padStart(2,"0"); return `${n.getFullYear()}-${p(n.getMonth()+1)}-${p(n.getDate())}`; };
@@ -534,28 +552,30 @@
       if(!tb) return -1;  // b 无日期 → 沉底
       return dir==="old" ? (ta>tb?1:ta<tb?-1:0) : (ta<tb?1:ta>tb?-1:0);
     }
-    // 用日期数差判断快捷区间
-    function inRange(item){
+    // 用日期数差判断快捷区间。通用版：接受独立的 range/from/to，供"全部消息"和"行业动态"各自的时间状态复用。
+    function inRangeWith(item, range, from, to){
       const d = dayOf(item);
       // “日期未知”筛选：只显示没有发帖日期的帖子
-      if(state.range==="unknown") return !d;
+      if(range==="unknown") return !d;
       if(!d){
         // 无日期的帖子：在"全部"下显示；在 今日/近7天/近30天 下不显示（它们没日期）；自定义日期范围下不显示
-        if(state.from || state.to) return false;
-        return state.range==="all";
+        if(from || to) return false;
+        return range==="all";
       }
       // 自定义日期范围优先（任一端填了就生效）
-      if(state.from && d < state.from) return false;
-      if(state.to && d > state.to) return false;
-      if(state.from || state.to) return true;
-      if(state.range==="all") return true;
+      if(from && d < from) return false;
+      if(to && d > to) return false;
+      if(from || to) return true;
+      if(range==="all") return true;
       const today = todayStr();
-      if(state.range==="today") return d===today;
+      if(range==="today") return d===today;
       const diffDays = (Date.parse(today) - Date.parse(d)) / 86400000;
-      if(state.range==="7d") return diffDays < 7;
-      if(state.range==="30d") return diffDays < 30;
+      if(range==="7d") return diffDays < 7;
+      if(range==="30d") return diffDays < 30;
       return true;
     }
+    function inRange(item){ return inRangeWith(item, state.range, state.from, state.to); }
+    function inRangeInd(item){ return inRangeWith(item, state.indRange, state.indFrom, state.indTo); }
     // 给一条消息归到哪个时间分组
     function groupOf(item){
       const d = dayOf(item), today = todayStr();
@@ -586,8 +606,8 @@
     const lsGet = k => { try { return JSON.parse(localStorage.getItem(k)||"[]"); } catch(e){ return []; } };
     const lsSet = (k,v) => localStorage.setItem(k, JSON.stringify(v));
     const getSeen = () => lsGet(SEEN_KEY);
-    const markAllSeen = () => lsSet(SEEN_KEY, DATA.items.map(i=>i.id));
-    const newItems = () => { const s=getSeen(); return DATA.items.filter(i=>!s.includes(i.id)); };
+    const markAllSeen = () => lsSet(SEEN_KEY, bizItems().map(i=>i.id));
+    const newItems = () => { const s=getSeen(); return bizItems().filter(i=>!s.includes(i.id)); };
     const esc = s => String(s==null?"":s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 
     function toggleId(key,id){ const a=lsGet(key); const i=a.indexOf(id); if(i>=0)a.splice(i,1); else a.push(id); lsSet(key,a); }
@@ -679,8 +699,8 @@
     }
 
     function renderMetrics(){
-      const total=DATA.items.length, pos=DATA.items.filter(i=>i.sentiment==="positive").length,
-        neg=DATA.items.filter(i=>i.sentiment==="negative").length, fresh=newItems().length,
+      const total=bizItems().length, pos=bizItems().filter(i=>i.sentiment==="positive").length,
+        neg=bizItems().filter(i=>i.sentiment==="negative").length, fresh=newItems().length,
         posRate=total?Math.round(pos/total*100):0;
       document.getElementById("metricGrid").innerHTML=`
         <div class="metric"><div class="k">累计提及</div><div class="v">${total}</div><div class="s">关键词全平台合计</div></div>
@@ -690,7 +710,7 @@
     }
 
     function renderTrends(){
-      const map={}; DATA.items.forEach(i=>map[i.platform]=(map[i.platform]||0)+1);
+      const map={}; bizItems().forEach(i=>map[i.platform]=(map[i.platform]||0)+1);
       const max=Math.max(1,...Object.values(map));
       const rows=Object.entries(map).sort((a,b)=>b[1]-a[1]).map(([name,n])=>`
         <div class="trend-row"><div>${esc(name)}</div>
@@ -701,15 +721,15 @@
 
     function renderOverviewFeed(){
       const seen=getSeen();
-      const latest=DATA.items.slice().sort((a,b)=>cmpTime(a,b,"new")).slice(0,6);
+      const latest=bizItems().slice().sort((a,b)=>cmpTime(a,b,"new")).slice(0,6);
       document.getElementById("overviewFeed").innerHTML=renderGrouped(latest,seen)||'<div class="empty">暂无抓取到的消息</div>';
-      document.getElementById("feedSub").textContent=`「${(DATA.keywords||[]).join(" / ")}」· 共 ${DATA.items.length} 条 · 更新于 ${DATA.updatedAt||"--"}`;
+      document.getElementById("feedSub").textContent=`「${(DATA.keywords||[]).join(" / ")}」· 共 ${bizItems().length} 条 · 更新于 ${DATA.updatedAt||"--"}`;
     }
 
     // B. 负面预警卡：挑出"未处理"的负面消息置顶；已处理的不再显示，全部处理完则隐藏整卡
     function renderAlert(){
       const seen=getSeen();
-      const negs=DATA.items.filter(i=>i.sentiment==="negative" && !isDone(i.id)).sort((a,b)=>cmpTime(a,b,"new"));
+      const negs=bizItems().filter(i=>i.sentiment==="negative" && !isDone(i.id)).sort((a,b)=>cmpTime(a,b,"new"));
       const card=document.getElementById("alertCard");
       if(!negs.length){ card.style.display="none"; return; }  // 没有未处理的负面 → 整卡隐藏
       card.style.display="";
@@ -721,7 +741,7 @@
     const CAT_COLORS={"财经新闻":"#b8860b","公司公告":"#3f7d5e","知乎":"#4a72c2","脉脉":"#c2792a","牛客":"#3f9e9e","小红书":"#d1577e"};
     function renderDonut(){
       const order=["财经新闻","公司公告","知乎","脉脉","牛客","小红书"];
-      const counts=order.map(c=>({c,n:DATA.items.filter(i=>i.category===c).length})).filter(x=>x.n>0);
+      const counts=order.map(c=>({c,n:bizItems().filter(i=>i.category===c).length})).filter(x=>x.n>0);
       const total=counts.reduce((s,x)=>s+x.n,0);
       const cv=document.getElementById("catDonut"), ctx=cv.getContext("2d");
       ctx.clearRect(0,0,160,160);
@@ -757,7 +777,7 @@
       "出海","上线","新游","版号","流水","付费","买量","口碑","玩法","放置","RPG","制作人","AI","项目",
       "招聘","校招","秋招","内推","面经","凉经","实习","岗位","offer","解散","裁员","调整","奖金"];
     function renderWordCloud(){
-      const text=DATA.items.map(i=>(i.title||"")+(i.summary||"")).join(" ");
+      const text=bizItems().map(i=>(i.title||"")+(i.summary||"")).join(" ");
       const freq={};
       HOT_TERMS.forEach(w=>{
         if(STOP_WORDS.includes(w)) return;
@@ -781,7 +801,7 @@
 
     // E. 正向宣传素材：聚合 positive，按主题分组(每组最多3条)，每条可一键复制做宣传
     function renderPositive(){
-      const pos=DATA.items.filter(i=>i.sentiment==="positive").sort((a,b)=>cmpTime(a,b,"new"));
+      const pos=bizItems().filter(i=>i.sentiment==="positive").sort((a,b)=>cmpTime(a,b,"new"));
       const sub=document.getElementById("positiveSub");
       const body=document.getElementById("positiveBody");
       if(!pos.length){ sub.textContent="暂无正向声音"; body.innerHTML='<div class="empty">还没抓到正向信息，攒一攒就有了</div>'; return; }
@@ -812,18 +832,18 @@
     function renderFilters(){
       // 按分类筛选：财经新闻/公司公告 按内容分，社交平台 知乎/脉脉/牛客/小红书 按来源分
       const order=["财经新闻","公司公告","知乎","脉脉","牛客","小红书"];
-      const present=order.filter(c=>DATA.items.some(i=>i.category===c));
+      const present=order.filter(c=>bizItems().some(i=>i.category===c));
       const names=["全部",...present];
       document.getElementById("filters").innerHTML=names.map(n=>{
-        const cnt=n==="全部"?DATA.items.length:DATA.items.filter(i=>i.category===n).length;
+        const cnt=n==="全部"?bizItems().length:bizItems().filter(i=>i.category===n).length;
         return `<button class="chip ${state.category===n?"active":""}" data-name="${esc(n)}">${esc(n)} (${cnt})</button>`;
       }).join("");
       document.querySelectorAll("#filters .chip").forEach(b=>b.onclick=()=>{state.category=b.dataset.name;renderFilters();renderFullFeed();});
       // 主题筛选(横切维度，与来源可叠加)
-      const tPresent=TOPIC_ORDER.filter(t=>DATA.items.some(i=>i.topic===t));
+      const tPresent=TOPIC_ORDER.filter(t=>bizItems().some(i=>i.topic===t));
       const tNames=["全部",...tPresent];
       document.getElementById("topicFilters").innerHTML='<span class="seg-label">主题</span>'+tNames.map(n=>{
-        const cnt=n==="全部"?DATA.items.length:DATA.items.filter(i=>i.topic===n).length;
+        const cnt=n==="全部"?bizItems().length:bizItems().filter(i=>i.topic===n).length;
         const label=n==="全部"?"全部":((TOPIC_EMOJI[n]||"")+n);
         return `<button class="chip ${state.topic===n?"active":""}" data-topic="${esc(n)}">${esc(label)} (${cnt})</button>`;
       }).join("");
@@ -846,7 +866,7 @@
 
     function renderFullFeed(){
       const seen=getSeen();
-      const items=applyFilters(DATA.items);
+      const items=applyFilters(bizItems());
       // 把"有未读更新"的帖子拎到最顶单独成区，其余照常按时间分组/排序
       const updated=items.filter(hasUnreadUpdate);
       const rest=items.filter(i=>!hasUnreadUpdate(i));
@@ -881,12 +901,14 @@
         || '<div class="empty">还没有盯梢的帖子。在任意消息上点 ☆ 加星，它就会进入这里被持续盯梢；每天抓取时若该帖标题/摘要有变化，会在此提示「内容有更新」。</div>';
     }
 
-    // 行业动态：section==="行业" 的条目（游戏行业大盘），按时间倒序。当前未开启行业抓取时为空。
+    // 行业动态：section==="行业" 的条目（游戏行业大盘），按时间倒序。受行业独立时间筛选控制。
     function renderIndustry(){
       const seen=getSeen();
-      const items=DATA.items.filter(i=>i.section==="行业").sort((a,b)=>cmpTime(a,b,"new"));
+      const items=indItems().filter(inRangeInd).sort((a,b)=>cmpTime(a,b,"new"));
       document.getElementById("industryFeed").innerHTML=renderGrouped(items,seen)
-        || '<div class="empty">行业抓取尚未开启。这里将汇集整个游戏行业的最新讯息（版号、新游、出海、厂商动向、监管政策等），随每日舆情抓取顺带更新，不打扰飞书。</div>';
+        || (indItems().length
+            ? '<div class="empty">当前时间范围内没有行业动态，换个时间筛选看看。</div>'
+            : '<div class="empty">行业抓取尚未开启。这里将汇集整个游戏行业的最新讯息（版号、新游、出海、厂商动向、监管政策等），随每日舆情抓取顺带更新，不打扰飞书。</div>');
     }
 
     function renderSources(){
@@ -907,14 +929,14 @@
       const f=nw.length;
       document.getElementById("sideFresh").textContent=f?String(f).padStart(2,"0"):"无";
       document.getElementById("sideDesc").textContent=f?`有 ${f} 条新抓取的舆情待查看。`:"暂无新增，所有舆情均已查看。";
-      document.getElementById("navFeedCount").textContent=DATA.items.length;
+      document.getElementById("navFeedCount").textContent=bizItems().length;
       document.getElementById("navDoneCount").textContent=lsGet(DONE_KEY).length;
       // 盯着他：显示有未读更新的条数（无更新则显示盯梢总数）
       const watchUpd=DATA.items.filter(i=>isStar(i.id)&&hasUnreadUpdate(i)).length;
       const watchAll=DATA.items.filter(i=>isStar(i.id)).length;
       const wc=document.getElementById("navWatchCount");
       wc.textContent=watchUpd?`${watchUpd}🔴`:String(watchAll);
-      document.getElementById("navIndCount").textContent=DATA.items.filter(i=>i.section==="行业").length;
+      document.getElementById("navIndCount").textContent=indItems().length;
     }
 
     function renderAll(){ renderMetrics();renderTrends();renderAlert();renderDonut();renderWordCloud();renderPositive();renderOverviewFeed();renderFilters();renderFullFeed();renderWatch();renderDone();renderIndustry();renderSources();renderBanner(); }
@@ -924,9 +946,9 @@
     const tabMeta={
       overview:{t:"总览",d:"厂牌舆情整体概况与最新动态"},
       feed:{t:"全部消息",d:"搜索、筛选、排序，查看所有抓取到的提及"},
-      watch:{t:"🎯 重点关注",d:"加星的帖子持续盯梢，标题/摘要有变化即在该条下提示更新"},
+      watch:{t:"重点关注",d:"加星的帖子持续盯梢，标题/摘要有变化即在该条下提示更新"},
       done:{t:"已处理",d:"已经看过并标记完成的舆情归档"},
-      industry:{t:"🌐 游戏行业动态",d:"游戏行业大盘最新讯息，随舆情抓取顺带更新，不推飞书"},
+      industry:{t:"游戏行业动态",d:"游戏行业大盘最新讯息，随舆情抓取顺带更新，不推飞书"},
       sources:{t:"数据源",d:"当前覆盖了哪些来源，以及覆盖能力边界"}
     };
     function activateTab(tab){
@@ -953,14 +975,14 @@
     // 时间筛选影响 全部消息+已处理 两页，统一刷新（盯着他不按时间过滤）
     function renderTimeAffected(){ renderFullFeed(); renderDone(); }
 
-    // 时间快捷筛选（全部/今日/近7天/近30天）
-    document.querySelector(".time-bar").addEventListener("click",e=>{
+    // 时间快捷筛选（全部/今日/近7天/近30天）—— 全部消息页
+    document.getElementById("feedTimeBar").addEventListener("click",e=>{
       const b=e.target.closest("button[data-range]"); if(!b) return;
       state.range=b.dataset.range;
       // 选了快捷区间就清掉自定义日期，避免互相打架
       state.from=""; state.to="";
       document.getElementById("dateFrom").value=""; document.getElementById("dateTo").value="";
-      document.querySelectorAll(".time-bar button[data-range]").forEach(x=>x.classList.toggle("active",x===b));
+      document.querySelectorAll("#feedTimeBar button[data-range]").forEach(x=>x.classList.toggle("active",x===b));
       renderTimeAffected();
     });
     // 自定义日期范围
@@ -969,7 +991,7 @@
       state.to=document.getElementById("dateTo").value;
       if(state.from||state.to){
         state.range="custom";
-        document.querySelectorAll(".time-bar button[data-range]").forEach(x=>x.classList.remove("active"));
+        document.querySelectorAll("#feedTimeBar button[data-range]").forEach(x=>x.classList.remove("active"));
       }
       renderTimeAffected();
     }
@@ -978,9 +1000,37 @@
     document.getElementById("clearDate").addEventListener("click",()=>{
       state.from=""; state.to=""; state.range="all";
       document.getElementById("dateFrom").value=""; document.getElementById("dateTo").value="";
-      const allBtn=document.querySelector('.time-bar button[data-range="all"]');
-      document.querySelectorAll(".time-bar button[data-range]").forEach(x=>x.classList.toggle("active",x===allBtn));
+      const allBtn=document.querySelector('#feedTimeBar button[data-range="all"]');
+      document.querySelectorAll("#feedTimeBar button[data-range]").forEach(x=>x.classList.toggle("active",x===allBtn));
       renderTimeAffected();
+    });
+
+    // 时间快捷筛选 —— 行业动态页（独立状态 indRange/indFrom/indTo，与全部消息互不影响）
+    document.getElementById("indTimeBar").addEventListener("click",e=>{
+      const b=e.target.closest("button[data-range]"); if(!b) return;
+      state.indRange=b.dataset.range;
+      state.indFrom=""; state.indTo="";
+      document.getElementById("indDateFrom").value=""; document.getElementById("indDateTo").value="";
+      document.querySelectorAll("#indTimeBar button[data-range]").forEach(x=>x.classList.toggle("active",x===b));
+      renderIndustry();
+    });
+    function onIndDateChange(){
+      state.indFrom=document.getElementById("indDateFrom").value;
+      state.indTo=document.getElementById("indDateTo").value;
+      if(state.indFrom||state.indTo){
+        state.indRange="custom";
+        document.querySelectorAll("#indTimeBar button[data-range]").forEach(x=>x.classList.remove("active"));
+      }
+      renderIndustry();
+    }
+    document.getElementById("indDateFrom").addEventListener("change",onIndDateChange);
+    document.getElementById("indDateTo").addEventListener("change",onIndDateChange);
+    document.getElementById("indClearDate").addEventListener("click",()=>{
+      state.indFrom=""; state.indTo=""; state.indRange="all";
+      document.getElementById("indDateFrom").value=""; document.getElementById("indDateTo").value="";
+      const allBtn=document.querySelector('#indTimeBar button[data-range="all"]');
+      document.querySelectorAll("#indTimeBar button[data-range]").forEach(x=>x.classList.toggle("active",x===allBtn));
+      renderIndustry();
     });
 
     // 加星 / 已处理 / 备注（事件委托，覆盖所有列表）
