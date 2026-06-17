@@ -1,7 +1,7 @@
 // 舆情数据文件 —— 由 fetch.js 自动写入，请勿手动编辑
 // 页面通过 <script src="data.js"> 读取，避免 file:// 下 fetch 被浏览器拦截
 window.MONITOR_DATA = {
-  "updatedAt": "2026-06-16 15:04",
+  "updatedAt": "2026-06-17 10:18",
   "keywords": [
     "吉比特",
     "雷霆游戏"
@@ -20,7 +20,9 @@ window.MONITOR_DATA = {
         "界面新闻"
       ],
       "category": "财经新闻",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "news-202606113768332746",
@@ -35,7 +37,9 @@ window.MONITOR_DATA = {
         "证券时报网"
       ],
       "category": "财经新闻",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "news-202606113768325282",
@@ -50,7 +54,9 @@ window.MONITOR_DATA = {
         "证券时报网"
       ],
       "category": "财经新闻",
-      "topic": "股票财务"
+      "topic": "股票财务",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "news-202606113767391185",
@@ -65,7 +71,9 @@ window.MONITOR_DATA = {
         "21世纪经济报道"
       ],
       "category": "财经新闻",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "news-202606103766748821",
@@ -80,7 +88,9 @@ window.MONITOR_DATA = {
         "证券日报"
       ],
       "category": "财经新闻",
-      "topic": "股票财务"
+      "topic": "股票财务",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-6a283813000000001603d3cf",
@@ -96,7 +106,9 @@ window.MONITOR_DATA = {
         "👍6"
       ],
       "category": "小红书",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "news-202606093765482643",
@@ -111,7 +123,9 @@ window.MONITOR_DATA = {
         "第一财经"
       ],
       "category": "财经新闻",
-      "topic": "股票财务"
+      "topic": "股票财务",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-6a280c0e0000000022022e81",
@@ -127,7 +141,9 @@ window.MONITOR_DATA = {
         "👍2"
       ],
       "category": "小红书",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "gb-2026q1-actual",
@@ -143,7 +159,9 @@ window.MONITOR_DATA = {
         "正向"
       ],
       "category": "财经新闻",
-      "topic": "股票财务"
+      "topic": "股票财务",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "gb-2025-dividend-impl",
@@ -159,7 +177,9 @@ window.MONITOR_DATA = {
         "公告"
       ],
       "category": "公司公告",
-      "topic": "经营管理"
+      "topic": "经营管理",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "gb-2026q1-forecast",
@@ -175,7 +195,9 @@ window.MONITOR_DATA = {
         "正向"
       ],
       "category": "财经新闻",
-      "topic": "股票财务"
+      "topic": "股票财务",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "gb-2025-annual",
@@ -191,7 +213,9 @@ window.MONITOR_DATA = {
         "正向"
       ],
       "category": "财经新闻",
-      "topic": "股票财务"
+      "topic": "股票财务",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "gb-2024-annual-report",
@@ -206,7 +230,9 @@ window.MONITOR_DATA = {
         "分红"
       ],
       "category": "财经新闻",
-      "topic": "经营管理"
+      "topic": "经营管理",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "news-202606053762044017",
@@ -221,7 +247,9 @@ window.MONITOR_DATA = {
         "中国经营报"
       ],
       "category": "财经新闻",
-      "topic": "产品游戏"
+      "topic": "产品游戏",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "news-202606053761693092",
@@ -236,7 +264,9 @@ window.MONITOR_DATA = {
         "券商中国"
       ],
       "category": "财经新闻",
-      "topic": "产品游戏"
+      "topic": "产品游戏",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "news-202606053761719456",
@@ -251,7 +281,9 @@ window.MONITOR_DATA = {
         "每日经济新闻"
       ],
       "category": "财经新闻",
-      "topic": "经营管理"
+      "topic": "经营管理",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "news-202606053761721787",
@@ -266,7 +298,9 @@ window.MONITOR_DATA = {
         "界面新闻"
       ],
       "category": "财经新闻",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "news-202606053761832867",
@@ -281,7 +315,9 @@ window.MONITOR_DATA = {
         "界面新闻"
       ],
       "category": "财经新闻",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "news-202606053761373876",
@@ -296,7 +332,9 @@ window.MONITOR_DATA = {
         "财联社"
       ],
       "category": "财经新闻",
-      "topic": "经营管理"
+      "topic": "经营管理",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "news-202606053761615960",
@@ -311,7 +349,9 @@ window.MONITOR_DATA = {
         "深圳商报·读创"
       ],
       "category": "财经新闻",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-6a215260000000000702861c",
@@ -327,7 +367,9 @@ window.MONITOR_DATA = {
         "👍19"
       ],
       "category": "小红书",
-      "topic": "招聘求职"
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "zhihu-q622600231",
@@ -345,7 +387,9 @@ window.MONITOR_DATA = {
       "answerCount": 8,
       "source": "cdp",
       "category": "知乎",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-6a1ef4890000000008002aa8",
@@ -361,7 +405,9 @@ window.MONITOR_DATA = {
         "👍8"
       ],
       "category": "小红书",
-      "topic": "企业文化"
+      "topic": "企业文化",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-6a1ecdde000000003601ddae",
@@ -377,7 +423,9 @@ window.MONITOR_DATA = {
         "👍36"
       ],
       "category": "小红书",
-      "topic": "企业文化"
+      "topic": "企业文化",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-6a1b959500000000070119fe",
@@ -393,7 +441,9 @@ window.MONITOR_DATA = {
         "👍3"
       ],
       "category": "小红书",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-6a1a74ed00000000350319d4",
@@ -409,7 +459,9 @@ window.MONITOR_DATA = {
         "👍4"
       ],
       "category": "小红书",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "news-202605263749943766",
@@ -424,7 +476,9 @@ window.MONITOR_DATA = {
         "证券日报"
       ],
       "category": "财经新闻",
-      "topic": "股票财务"
+      "topic": "股票财务",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-6a14fced00000000060216c7",
@@ -440,7 +494,9 @@ window.MONITOR_DATA = {
         "👍85"
       ],
       "category": "小红书",
-      "topic": "招聘求职"
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-6a12fa2d0000000008001068",
@@ -456,7 +512,9 @@ window.MONITOR_DATA = {
         "👍16"
       ],
       "category": "小红书",
-      "topic": "招聘求职"
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-6a12cdfc00000000380239fc",
@@ -472,7 +530,9 @@ window.MONITOR_DATA = {
         "👍5"
       ],
       "category": "小红书",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-6a106f01000000003700e3db",
@@ -488,7 +548,9 @@ window.MONITOR_DATA = {
         "👍1"
       ],
       "category": "小红书",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "ann-AN202605211822643220",
@@ -503,7 +565,9 @@ window.MONITOR_DATA = {
         "关联交易"
       ],
       "category": "公司公告",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-6a0a66d30000000008000346",
@@ -519,7 +583,9 @@ window.MONITOR_DATA = {
         "👍3"
       ],
       "category": "小红书",
-      "topic": "股票财务"
+      "topic": "股票财务",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "news-202605153739230566",
@@ -534,7 +600,9 @@ window.MONITOR_DATA = {
         "财联社"
       ],
       "category": "财经新闻",
-      "topic": "产品游戏"
+      "topic": "产品游戏",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-6a05ae52000000000603713a",
@@ -550,7 +618,9 @@ window.MONITOR_DATA = {
         "👍15"
       ],
       "category": "小红书",
-      "topic": "招聘求职"
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "news-202605143737185531",
@@ -565,7 +635,9 @@ window.MONITOR_DATA = {
         "每日经济新闻"
       ],
       "category": "财经新闻",
-      "topic": "经营管理"
+      "topic": "经营管理",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "ann-AN202605131822274496",
@@ -580,7 +652,9 @@ window.MONITOR_DATA = {
         "分配方案实施"
       ],
       "category": "公司公告",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "ann-AN202605131822274497",
@@ -595,7 +669,9 @@ window.MONITOR_DATA = {
         "法律意见书"
       ],
       "category": "公司公告",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "news-202605133736041539",
@@ -610,7 +686,9 @@ window.MONITOR_DATA = {
         "南方财经网"
       ],
       "category": "财经新闻",
-      "topic": "经营管理"
+      "topic": "经营管理",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-6a0324810000000008033106",
@@ -626,7 +704,9 @@ window.MONITOR_DATA = {
         "👍6"
       ],
       "category": "小红书",
-      "topic": "招聘求职"
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-69fee4680000000035030ef0",
@@ -642,7 +722,9 @@ window.MONITOR_DATA = {
         "👍10"
       ],
       "category": "小红书",
-      "topic": "招聘求职"
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "ann-AN202605071822026704",
@@ -657,7 +739,9 @@ window.MONITOR_DATA = {
         "调研活动"
       ],
       "category": "公司公告",
-      "topic": "股票财务"
+      "topic": "股票财务",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "news-202604243717299341",
@@ -672,7 +756,9 @@ window.MONITOR_DATA = {
         "界面新闻"
       ],
       "category": "财经新闻",
-      "topic": "股票财务"
+      "topic": "股票财务",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "news-202604243717214526",
@@ -687,7 +773,9 @@ window.MONITOR_DATA = {
         "中国证券报·中证网"
       ],
       "category": "财经新闻",
-      "topic": "股票财务"
+      "topic": "股票财务",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "ann-AN202604231821493820",
@@ -702,7 +790,9 @@ window.MONITOR_DATA = {
         "一季度报告全文"
       ],
       "category": "公司公告",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "ann-AN202604231821493819",
@@ -717,7 +807,9 @@ window.MONITOR_DATA = {
         "其他"
       ],
       "category": "公司公告",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "ann-AN202604231821493824",
@@ -732,7 +824,9 @@ window.MONITOR_DATA = {
         "董事会决议公告"
       ],
       "category": "公司公告",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "news-202604233716388444",
@@ -747,7 +841,9 @@ window.MONITOR_DATA = {
         "证券日报"
       ],
       "category": "财经新闻",
-      "topic": "理念价值观"
+      "topic": "理念价值观",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "news-202604233716162064",
@@ -762,7 +858,9 @@ window.MONITOR_DATA = {
         "上海证券报·中国证券网"
       ],
       "category": "财经新闻",
-      "topic": "股票财务"
+      "topic": "股票财务",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "news-202604233715988114",
@@ -777,7 +875,9 @@ window.MONITOR_DATA = {
         "第一财经"
       ],
       "category": "财经新闻",
-      "topic": "股票财务"
+      "topic": "股票财务",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "news-202604233715976511",
@@ -792,7 +892,9 @@ window.MONITOR_DATA = {
         "人民财讯"
       ],
       "category": "财经新闻",
-      "topic": "股票财务"
+      "topic": "股票财务",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "news-202604233715969184",
@@ -807,7 +909,9 @@ window.MONITOR_DATA = {
         "每日经济新闻"
       ],
       "category": "财经新闻",
-      "topic": "股票财务"
+      "topic": "股票财务",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "news-202604233715967832",
@@ -822,7 +926,9 @@ window.MONITOR_DATA = {
         "南方财经网"
       ],
       "category": "财经新闻",
-      "topic": "股票财务"
+      "topic": "股票财务",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "news-202604233715956319",
@@ -837,7 +943,9 @@ window.MONITOR_DATA = {
         "财联社"
       ],
       "category": "财经新闻",
-      "topic": "股票财务"
+      "topic": "股票财务",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-69e4339b000000001a02ffce",
@@ -853,7 +961,9 @@ window.MONITOR_DATA = {
         "👍13"
       ],
       "category": "小红书",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "ann-AN202604161821265324",
@@ -869,7 +979,9 @@ window.MONITOR_DATA = {
         "股东大会决议公告"
       ],
       "category": "公司公告",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "ann-AN202604161821265325",
@@ -884,7 +996,9 @@ window.MONITOR_DATA = {
         "法律意见书"
       ],
       "category": "公司公告",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-69df4b22000000002200e0b7",
@@ -900,7 +1014,9 @@ window.MONITOR_DATA = {
         "👍8"
       ],
       "category": "小红书",
-      "topic": "股票财务"
+      "topic": "股票财务",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "ann-AN202604141821177455",
@@ -915,7 +1031,9 @@ window.MONITOR_DATA = {
         "业绩预告"
       ],
       "category": "公司公告",
-      "topic": "股票财务"
+      "topic": "股票财务",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-69db5b6e000000001d01a91d",
@@ -931,7 +1049,9 @@ window.MONITOR_DATA = {
         "👍13"
       ],
       "category": "小红书",
-      "topic": "企业文化"
+      "topic": "企业文化",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-69d7c752000000002301ea73",
@@ -947,7 +1067,9 @@ window.MONITOR_DATA = {
         "👍5"
       ],
       "category": "小红书",
-      "topic": "招聘求职"
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "ann-AN202604081821062516",
@@ -962,7 +1084,9 @@ window.MONITOR_DATA = {
         "股东大会资料"
       ],
       "category": "公司公告",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-69ca02050000000023016597",
@@ -978,7 +1102,9 @@ window.MONITOR_DATA = {
         "👍1"
       ],
       "category": "小红书",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "ann-AN202603301820854716",
@@ -993,7 +1119,9 @@ window.MONITOR_DATA = {
         "调研活动"
       ],
       "category": "公司公告",
-      "topic": "股票财务"
+      "topic": "股票财务",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-69c7ad16000000001b000def",
@@ -1009,7 +1137,9 @@ window.MONITOR_DATA = {
         "👍753"
       ],
       "category": "小红书",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "ann-AN202603261820769316",
@@ -1024,7 +1154,9 @@ window.MONITOR_DATA = {
         "独立董事述职报告"
       ],
       "category": "公司公告",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "ann-AN202603261820769319",
@@ -1039,7 +1171,9 @@ window.MONITOR_DATA = {
         "其他"
       ],
       "category": "公司公告",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "ann-AN202603261820769308",
@@ -1054,7 +1188,9 @@ window.MONITOR_DATA = {
         "管理办法/制度"
       ],
       "category": "公司公告",
-      "topic": "经营管理"
+      "topic": "经营管理",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-69c4c8090000000021006009",
@@ -1070,7 +1206,9 @@ window.MONITOR_DATA = {
         "👍29"
       ],
       "category": "小红书",
-      "topic": "招聘求职"
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-69c116ca0000000022002fbc",
@@ -1086,7 +1224,9 @@ window.MONITOR_DATA = {
         "👍40"
       ],
       "category": "小红书",
-      "topic": "招聘求职"
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "zhihu-q1914269825787733356",
@@ -1103,7 +1243,9 @@ window.MONITOR_DATA = {
       "answerCount": 7,
       "source": "cdp",
       "category": "知乎",
-      "topic": "理念价值观"
+      "topic": "理念价值观",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-699467b0000000001d027f25",
@@ -1119,7 +1261,9 @@ window.MONITOR_DATA = {
         "👍39"
       ],
       "category": "小红书",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-6991dc39000000001a02141b",
@@ -1135,7 +1279,9 @@ window.MONITOR_DATA = {
         "👍78"
       ],
       "category": "小红书",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "zhihu-q2002357272408507128",
@@ -1152,7 +1298,9 @@ window.MONITOR_DATA = {
       "answerCount": 3,
       "source": "cdp",
       "category": "知乎",
-      "topic": "企业文化"
+      "topic": "企业文化",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "zhihu-q2002365189815808513",
@@ -1169,7 +1317,9 @@ window.MONITOR_DATA = {
       "answerCount": 1,
       "source": "cdp",
       "category": "知乎",
-      "topic": "企业文化"
+      "topic": "企业文化",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-6982477f000000002801e16d",
@@ -1185,7 +1335,9 @@ window.MONITOR_DATA = {
         "👍7"
       ],
       "category": "小红书",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-69821c36000000000d009397",
@@ -1201,7 +1353,9 @@ window.MONITOR_DATA = {
         "👍6"
       ],
       "category": "小红书",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-69820f36000000001a01ee03",
@@ -1217,7 +1371,9 @@ window.MONITOR_DATA = {
         "👍12"
       ],
       "category": "小红书",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-69820554000000000e03fb9b",
@@ -1233,7 +1389,9 @@ window.MONITOR_DATA = {
         "👍15"
       ],
       "category": "小红书",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-6981f1ae000000002200829e",
@@ -1249,7 +1407,9 @@ window.MONITOR_DATA = {
         "👍35"
       ],
       "category": "小红书",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-6981e928000000001a01c05a",
@@ -1265,7 +1425,9 @@ window.MONITOR_DATA = {
         "👍96"
       ],
       "category": "小红书",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-6981e6a10000000021029cfb",
@@ -1281,7 +1443,9 @@ window.MONITOR_DATA = {
         "👍13"
       ],
       "category": "小红书",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-6981e21a000000001a0335b3",
@@ -1297,7 +1461,9 @@ window.MONITOR_DATA = {
         "👍170"
       ],
       "category": "小红书",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-6981e136000000000d0092e2",
@@ -1313,7 +1479,9 @@ window.MONITOR_DATA = {
         "👍74"
       ],
       "category": "小红书",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-6981d43d000000002103c8eb",
@@ -1329,7 +1497,9 @@ window.MONITOR_DATA = {
         "👍96"
       ],
       "category": "小红书",
-      "topic": "企业文化"
+      "topic": "企业文化",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-6980584e000000002200be6b",
@@ -1345,7 +1515,9 @@ window.MONITOR_DATA = {
         "👍1339"
       ],
       "category": "小红书",
-      "topic": "招聘求职"
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "zhihu-2002097943726035223",
@@ -1361,7 +1533,9 @@ window.MONITOR_DATA = {
       ],
       "source": "serp",
       "category": "知乎",
-      "topic": "企业文化"
+      "topic": "企业文化",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-697b7682000000001a034555",
@@ -1377,7 +1551,9 @@ window.MONITOR_DATA = {
         "👍18"
       ],
       "category": "小红书",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-6976e58700000000280080cf",
@@ -1393,7 +1569,9 @@ window.MONITOR_DATA = {
         "👍2"
       ],
       "category": "小红书",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-6961adbd000000002202f5a1",
@@ -1409,7 +1587,9 @@ window.MONITOR_DATA = {
         "👍747"
       ],
       "category": "小红书",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-695507ca000000001e017f2c",
@@ -1425,7 +1605,9 @@ window.MONITOR_DATA = {
         "👍905"
       ],
       "category": "小红书",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "zhihu-1985046086893709234",
@@ -1441,7 +1623,9 @@ window.MONITOR_DATA = {
       ],
       "source": "serp",
       "category": "知乎",
-      "topic": "产品游戏"
+      "topic": "产品游戏",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-6931832e000000000d00e786",
@@ -1457,7 +1641,9 @@ window.MONITOR_DATA = {
         "👍4"
       ],
       "category": "小红书",
-      "topic": "股票财务"
+      "topic": "股票财务",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-692155fb000000001e0069f0",
@@ -1473,7 +1659,9 @@ window.MONITOR_DATA = {
         "👍70"
       ],
       "category": "小红书",
-      "topic": "招聘求职"
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-6905fe3d00000000050107b4",
@@ -1489,7 +1677,9 @@ window.MONITOR_DATA = {
         "👍34"
       ],
       "category": "小红书",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-6900a5b20000000007001216",
@@ -1505,7 +1695,9 @@ window.MONITOR_DATA = {
         "👍153"
       ],
       "category": "小红书",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-68ee71dc0000000005038acf",
@@ -1521,7 +1713,9 @@ window.MONITOR_DATA = {
         "👍91"
       ],
       "category": "小红书",
-      "topic": "产品游戏"
+      "topic": "产品游戏",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "nowcoder-yMmVmY2ZhZTMzMjRjNTI",
@@ -1536,7 +1730,9 @@ window.MONITOR_DATA = {
         "吉比特"
       ],
       "category": "牛客",
-      "topic": "招聘求职"
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-68d385d3000000000e02407d",
@@ -1552,7 +1748,9 @@ window.MONITOR_DATA = {
         "👍267"
       ],
       "category": "小红书",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "zhihu-q1948555571247686355",
@@ -1569,7 +1767,9 @@ window.MONITOR_DATA = {
       "answerCount": 2,
       "source": "cdp",
       "category": "知乎",
-      "topic": "理念价值观"
+      "topic": "理念价值观",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-68bd23ae000000001b031b89",
@@ -1585,7 +1785,9 @@ window.MONITOR_DATA = {
         "👍179"
       ],
       "category": "小红书",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-68b52086000000001c03f830",
@@ -1601,23 +1803,9 @@ window.MONITOR_DATA = {
         "👍36"
       ],
       "category": "小红书",
-      "topic": "企业文化"
-    },
-    {
-      "id": "nowcoder-2NWJlN2I4NWFjOTk2YWI",
-      "platform": "牛客",
-      "title": "吉比特雷霆游戏内推",
-      "summary": "吉比特&amp;雷霆游戏2026届校招内推码【1P0RS0】 【企业介绍】吉比特&amp;雷霆游戏，研运一体的一家上市游戏公司~研发/发行过《问道》《问道手 ...",
-      "url": "https://www.nowcoder.com/feed/main/detail/bd37e26c6a664945a65be7b85ac996ab",
-      "sentiment": "neutral",
-      "time": "2025-08-29 00:00",
-      "tags": [
-        "牛客",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "牛客",
-      "topic": "产品游戏"
+      "topic": "企业文化",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "nowcoder-U291cmNlPWhvbWUtYXBp",
@@ -1633,7 +1821,27 @@ window.MONITOR_DATA = {
         "雷霆游戏"
       ],
       "category": "牛客",
-      "topic": "招聘求职"
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "nowcoder-2NWJlN2I4NWFjOTk2YWI",
+      "platform": "牛客",
+      "title": "吉比特雷霆游戏内推",
+      "summary": "吉比特&amp;雷霆游戏2026届校招内推码【1P0RS0】 【企业介绍】吉比特&amp;雷霆游戏，研运一体的一家上市游戏公司~研发/发行过《问道》《问道手 ...",
+      "url": "https://www.nowcoder.com/feed/main/detail/bd37e26c6a664945a65be7b85ac996ab",
+      "sentiment": "neutral",
+      "time": "2025-08-29 00:00",
+      "tags": [
+        "牛客",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "牛客",
+      "topic": "产品游戏",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-68abe304000000001d00140d",
@@ -1649,7 +1857,9 @@ window.MONITOR_DATA = {
         "👍4"
       ],
       "category": "小红书",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-68a4a40b000000001c033639",
@@ -1665,7 +1875,9 @@ window.MONITOR_DATA = {
         "👍21"
       ],
       "category": "小红书",
-      "topic": "产品游戏"
+      "topic": "产品游戏",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-68760fdc000000001100313a",
@@ -1681,7 +1893,9 @@ window.MONITOR_DATA = {
         "👍6"
       ],
       "category": "小红书",
-      "topic": "经营管理"
+      "topic": "经营管理",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-67d72506000000000603d3ac",
@@ -1697,7 +1911,9 @@ window.MONITOR_DATA = {
         "👍143"
       ],
       "category": "小红书",
-      "topic": "产品游戏"
+      "topic": "产品游戏",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-67b9f034000000002900ac79",
@@ -1713,7 +1929,9 @@ window.MONITOR_DATA = {
         "👍254"
       ],
       "category": "小红书",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-67b59041000000002a003d13",
@@ -1729,7 +1947,9 @@ window.MONITOR_DATA = {
         "👍106"
       ],
       "category": "小红书",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-67b58a6e000000000900d7ca",
@@ -1745,7 +1965,9 @@ window.MONITOR_DATA = {
         "👍255"
       ],
       "category": "小红书",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-675e9b37000000000103f151",
@@ -1761,7 +1983,9 @@ window.MONITOR_DATA = {
         "👍81"
       ],
       "category": "小红书",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-67472b88000000000702b678",
@@ -1777,7 +2001,9 @@ window.MONITOR_DATA = {
         "👍4"
       ],
       "category": "小红书",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "zhihu-q522658634",
@@ -1794,7 +2020,9 @@ window.MONITOR_DATA = {
       "answerCount": 12,
       "source": "cdp",
       "category": "知乎",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-670a3af8000000001b02c549",
@@ -1810,7 +2038,9 @@ window.MONITOR_DATA = {
         "👍256"
       ],
       "category": "小红书",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-66ec266f0000000012010e65",
@@ -1826,7 +2056,9 @@ window.MONITOR_DATA = {
         "👍6"
       ],
       "category": "小红书",
-      "topic": "招聘求职"
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-66e258d1000000000c0189e3",
@@ -1842,7 +2074,9 @@ window.MONITOR_DATA = {
         "👍65"
       ],
       "category": "小红书",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-66cef92b000000001d019326",
@@ -1858,7 +2092,9 @@ window.MONITOR_DATA = {
         "👍49"
       ],
       "category": "小红书",
-      "topic": "招聘求职"
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-66a0feb8000000000d00dfbb",
@@ -1874,7 +2110,9 @@ window.MONITOR_DATA = {
         "👍89"
       ],
       "category": "小红书",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "zhihu-q397218665",
@@ -1892,7 +2130,9 @@ window.MONITOR_DATA = {
       "answerCount": 117,
       "source": "cdp",
       "category": "知乎",
-      "topic": "产品游戏"
+      "topic": "产品游戏",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-66448fd1000000001e031c5a",
@@ -1908,7 +2148,9 @@ window.MONITOR_DATA = {
         "👍69"
       ],
       "category": "小红书",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-6617718d000000001a0164a3",
@@ -1924,7 +2166,9 @@ window.MONITOR_DATA = {
         "👍145"
       ],
       "category": "小红书",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-65ea6911000000000b00cecf",
@@ -1940,7 +2184,9 @@ window.MONITOR_DATA = {
         "👍115"
       ],
       "category": "小红书",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "zhihu-682302631",
@@ -1957,7 +2203,9 @@ window.MONITOR_DATA = {
       ],
       "source": "serp",
       "category": "知乎",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "zhihu-q637340413",
@@ -1974,7 +2222,9 @@ window.MONITOR_DATA = {
       "answerCount": 1,
       "source": "cdp",
       "category": "知乎",
-      "topic": "股票财务"
+      "topic": "股票财务",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "zhihu-q437967492",
@@ -1991,7 +2241,9 @@ window.MONITOR_DATA = {
       "answerCount": 4,
       "source": "cdp",
       "category": "知乎",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "zhihu-q612383535",
@@ -2008,7 +2260,9 @@ window.MONITOR_DATA = {
       "answerCount": 3,
       "source": "cdp",
       "category": "知乎",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "zhihu-q471942908",
@@ -2025,7 +2279,9 @@ window.MONITOR_DATA = {
       "answerCount": 5,
       "source": "cdp",
       "category": "知乎",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "zhihu-q551686765",
@@ -2042,7 +2298,9 @@ window.MONITOR_DATA = {
       "answerCount": 1,
       "source": "cdp",
       "category": "知乎",
-      "topic": "招聘求职"
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "zhihu-q545102564",
@@ -2059,7 +2317,9 @@ window.MONITOR_DATA = {
       "answerCount": 2,
       "source": "cdp",
       "category": "知乎",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "zhihu-q552215240",
@@ -2076,7 +2336,9 @@ window.MONITOR_DATA = {
       "answerCount": 1,
       "source": "cdp",
       "category": "知乎",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "zhihu-q518196518",
@@ -2093,7 +2355,9 @@ window.MONITOR_DATA = {
       "answerCount": 29,
       "source": "cdp",
       "category": "知乎",
-      "topic": "产品游戏"
+      "topic": "产品游戏",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "zhihu-q411531684",
@@ -2110,7 +2374,9 @@ window.MONITOR_DATA = {
       "answerCount": 33,
       "source": "cdp",
       "category": "知乎",
-      "topic": "产品游戏"
+      "topic": "产品游戏",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "zhihu-q510294745",
@@ -2127,7 +2393,9 @@ window.MONITOR_DATA = {
       "answerCount": 16,
       "source": "cdp",
       "category": "知乎",
-      "topic": "企业文化"
+      "topic": "企业文化",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "zhihu-q487611434",
@@ -2144,7 +2412,9 @@ window.MONITOR_DATA = {
       "answerCount": 23,
       "source": "cdp",
       "category": "知乎",
-      "topic": "产品游戏"
+      "topic": "产品游戏",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "zhihu-q500698799",
@@ -2161,7 +2431,9 @@ window.MONITOR_DATA = {
       "answerCount": 3,
       "source": "cdp",
       "category": "知乎",
-      "topic": "产品游戏"
+      "topic": "产品游戏",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "maimai-1677318801",
@@ -2176,7 +2448,9 @@ window.MONITOR_DATA = {
         "吉比特"
       ],
       "category": "脉脉",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "zhihu-q488736370",
@@ -2193,7 +2467,9 @@ window.MONITOR_DATA = {
       "answerCount": 1,
       "source": "cdp",
       "category": "知乎",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "zhihu-q463704962",
@@ -2210,7 +2486,9 @@ window.MONITOR_DATA = {
       "answerCount": 81,
       "source": "cdp",
       "category": "知乎",
-      "topic": "产品游戏"
+      "topic": "产品游戏",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "zhihu-q453824978",
@@ -2227,7 +2505,9 @@ window.MONITOR_DATA = {
       "answerCount": 2,
       "source": "cdp",
       "category": "知乎",
-      "topic": "股票财务"
+      "topic": "股票财务",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "zhihu-357849772",
@@ -2243,7 +2523,9 @@ window.MONITOR_DATA = {
       ],
       "source": "serp",
       "category": "知乎",
-      "topic": "经营管理"
+      "topic": "经营管理",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "zhihu-q363715517",
@@ -2260,7 +2542,9 @@ window.MONITOR_DATA = {
       "answerCount": 3,
       "source": "cdp",
       "category": "知乎",
-      "topic": "产品游戏"
+      "topic": "产品游戏",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "zhihu-q425578133",
@@ -2277,7 +2561,9 @@ window.MONITOR_DATA = {
       "answerCount": 1,
       "source": "cdp",
       "category": "知乎",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "zhihu-q25342693",
@@ -2294,7 +2580,9 @@ window.MONITOR_DATA = {
       "answerCount": 73,
       "source": "cdp",
       "category": "知乎",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "zhihu-q270695457",
@@ -2311,7 +2599,9 @@ window.MONITOR_DATA = {
       "answerCount": 5,
       "source": "cdp",
       "category": "知乎",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "zhihu-q365719765",
@@ -2328,7 +2618,9 @@ window.MONITOR_DATA = {
       "answerCount": 4,
       "source": "cdp",
       "category": "知乎",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "zhihu-q315857144",
@@ -2344,7 +2636,9 @@ window.MONITOR_DATA = {
       ],
       "source": "cdp",
       "category": "知乎",
-      "topic": "产品游戏"
+      "topic": "产品游戏",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "zhihu-q288865898",
@@ -2360,7 +2654,9 @@ window.MONITOR_DATA = {
       ],
       "source": "serp",
       "category": "知乎",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "zhihu-q57133535",
@@ -2377,7 +2673,9 @@ window.MONITOR_DATA = {
       "answerCount": 23,
       "source": "cdp",
       "category": "知乎",
-      "topic": "股票财务"
+      "topic": "股票财务",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "zhihu-q20866421",
@@ -2393,364 +2691,176 @@ window.MONITOR_DATA = {
       ],
       "source": "serp",
       "category": "知乎",
-      "topic": "企业文化"
+      "topic": "企业文化",
+      "section": "舆情",
+      "pushable": true
     },
     {
-      "id": "zhihu-q480054079",
-      "platform": "知乎",
-      "title": "请问战争雷霆游戏里的blk文件怎么转成3d软件能打开的格式呀？",
-      "summary": "1 个回答",
-      "url": "https://www.zhihu.com/question/480054079",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "知乎",
-        "雷霆游戏"
-      ],
-      "answerCount": 1,
-      "source": "cdp",
-      "category": "知乎",
-      "topic": "公司综合"
-    },
-    {
-      "id": "zhihu-q485121596",
-      "platform": "知乎",
-      "title": "请问大佬们战争雷霆游戏出现这种情况怎么办？",
-      "summary": "4 个回答",
-      "url": "https://www.zhihu.com/question/485121596",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "知乎",
-        "雷霆游戏"
-      ],
-      "answerCount": 4,
-      "source": "cdp",
-      "category": "知乎",
-      "topic": "公司综合"
-    },
-    {
-      "id": "zhihu-q518228256",
-      "platform": "知乎",
-      "title": "雷霆游戏代理《奥比岛：梦想国度》 预计 2022 年上线，你对该游戏有哪些期待？",
-      "summary": "0 个回答",
-      "url": "https://www.zhihu.com/question/518228256",
-      "sentiment": "positive",
-      "time": "",
-      "tags": [
-        "知乎",
-        "雷霆游戏"
-      ],
-      "answerCount": 0,
-      "source": "cdp",
-      "category": "知乎",
-      "topic": "产品游戏"
-    },
-    {
-      "id": "zhihu-q530210940",
-      "platform": "知乎",
-      "title": "雷霆游戏的特色有哪些？",
-      "summary": "2 个回答",
-      "url": "https://www.zhihu.com/question/530210940",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "知乎",
-        "雷霆游戏"
-      ],
-      "answerCount": 2,
-      "source": "cdp",
-      "category": "知乎",
-      "topic": "公司综合"
-    },
-    {
-      "id": "zhihu-q508596412",
-      "platform": "知乎",
-      "title": "雷霆游戏评价怎么样？",
-      "summary": "7 个回答",
-      "url": "https://www.zhihu.com/question/508596412",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "知乎",
-        "雷霆游戏"
-      ],
-      "answerCount": 7,
-      "source": "cdp",
-      "category": "知乎",
-      "topic": "公司综合"
-    },
-    {
-      "id": "zhihu-q649092230",
-      "platform": "知乎",
-      "title": "雷霆游戏（石油大亨）分安卓和苹果吗?",
-      "summary": "0 个回答",
-      "url": "https://www.zhihu.com/question/649092230",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "知乎",
-        "雷霆游戏"
-      ],
-      "answerCount": 0,
-      "source": "cdp",
-      "category": "知乎",
-      "topic": "公司综合"
-    },
-    {
-      "id": "zhihu-q462900684",
-      "platform": "知乎",
-      "title": "如何看待雷霆游戏？",
-      "summary": "5 个回答",
-      "url": "https://www.zhihu.com/question/462900684",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "知乎",
-        "雷霆游戏"
-      ],
-      "answerCount": 5,
-      "source": "cdp",
-      "category": "知乎",
-      "topic": "公司综合"
-    },
-    {
-      "id": "zhihu-q390457032",
-      "platform": "知乎",
-      "title": "如何看待雷霆游戏出了问道这个游戏？",
-      "summary": "2 个回答",
-      "url": "https://www.zhihu.com/question/390457032",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "知乎",
-        "雷霆游戏"
-      ],
-      "answerCount": 2,
-      "source": "cdp",
-      "category": "知乎",
-      "topic": "产品游戏"
-    },
-    {
-      "id": "zhihu-q423173220",
-      "platform": "知乎",
-      "title": "雷霆游戏怎么样？",
-      "summary": "7 个回答",
-      "url": "https://www.zhihu.com/question/423173220",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "知乎",
-        "雷霆游戏"
-      ],
-      "answerCount": 7,
-      "source": "cdp",
-      "category": "知乎",
-      "topic": "公司综合"
-    },
-    {
-      "id": "zhihu-q511979732",
-      "platform": "知乎",
-      "title": "《雷霆游戏》怎么玩主力的大剑？",
-      "summary": "1 个回答",
-      "url": "https://www.zhihu.com/question/511979732",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "知乎",
-        "雷霆游戏"
-      ],
-      "answerCount": 1,
-      "source": "cdp",
-      "category": "知乎",
-      "topic": "公司综合"
-    },
-    {
-      "id": "zhihu-q461123221",
-      "platform": "知乎",
-      "title": "如何看待雷霆游戏的用户协议？",
-      "summary": "5 个回答",
-      "url": "https://www.zhihu.com/question/461123221",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "知乎",
-        "雷霆游戏"
-      ],
-      "answerCount": 5,
-      "source": "cdp",
-      "category": "知乎",
-      "topic": "公司综合"
-    },
-    {
-      "id": "nowcoder-UvNzYwL2ludGVydmlldw",
-      "platform": "牛客",
-      "title": "吉比特校招面经",
-      "summary": "吉比特（雷霆游戏）前端二面问题飞书总结 · 一、岗位与经历相关1. 介绍在吉比特雷霆游戏岗位负责的具体工作内容（如营销活动、H5页面等）。2. 你的岗位要求中 ...",
-      "url": "https://www.nowcoder.com/enterprise/760/interview",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "牛客",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "牛客",
-      "topic": "招聘求职"
-    },
-    {
-      "id": "nowcoder-5",
-      "platform": "牛客",
-      "title": "吉比特雷霆游戏2026届校园招聘内推",
-      "summary": "吉比特amp;雷霆游戏2026届校园招聘正式启动关于我们：研运一体上市游戏公司，专业从事网络游戏创意策划、研发制作及商业化运营。旗下有《问道》《问道手游》《一念 ...",
-      "url": "https://www.nowcoder.com/feed/main/detail/5c5cd0e06f684a7fa4e96bf7b0eb93e7",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "牛客",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "牛客",
-      "topic": "产品游戏"
-    },
-    {
-      "id": "maimai-1867602693",
+      "id": "maimai-1886207695",
       "platform": "脉脉",
-      "title": "吉比特&雷霆2025春季校园招聘",
-      "summary": "吉比特&雷霆2025春季校园招聘正式启动，欢迎各位同学加入，一起创造游戏美好体验！内推码：SC5D02。 吉比特&雷霆2025春季校园招聘脉脉.",
-      "url": "https://maimai.cn/article/detail?fid=1867602693&efid=SHG-_c-B3eSF2CcopdpnrA",
+      "title": "2026秋招进行时，吉比特&雷霆游戏招聘来啦！",
+      "summary": "吉比特&雷霆游戏招聘和小红书职场一起加入「校招看见行动」活动！2026校招季，我们将建立更高效透明的求职链路，我们珍视新生血液，希望看见每一封简历背后更真实的「你」！",
+      "url": "https://maimai.cn/article/detail?fid=1886207695&efid=cu7oaVfjig65QCjQsRc2-Q",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "脉脉",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "脉脉",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-1902403700",
+      "platform": "脉脉",
+      "title": "吉比特雷霆游戏招聘持续中",
+      "summary": "执行主美，3D美术负责人，2D概念负责人，动作专家，UE5引擎专家等大量岗位虚位以待，欢迎推荐自荐！ 吉比特雷霆游戏招聘持续中脉脉.",
+      "url": "https://maimai.cn/article/detail?fid=1902403700&efid=ciyYMeBUyhcEIp-IxXB_kg",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "脉脉",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "脉脉",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-1845433388",
+      "platform": "脉脉",
+      "title": "吉比特雷霆游戏内推助力校招求职！",
+      "summary": "吉比特&雷霆游戏2025秋季校园招聘开始啦！ 有《一念逍遥》《问道》《摩尔庄园》《奥比岛》《鬼谷八荒》等众多明星产品，更有拉满的福利待遇！ 深圳、广州、厦门三地， ...",
+      "url": "https://maimai.cn/article/detail?fid=1845433388&efid=S9ddeBYJ45A7ZsMTzG21mg",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "脉脉",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "脉脉",
+      "topic": "企业文化",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-1902402098",
+      "platform": "脉脉",
+      "title": "吉比特&雷霆游戏海量HC",
+      "summary": "吉比特&雷霆游戏海量HC ... 声明：本文内容由脉脉用户自发贡献，部分内容可能整编自互联网，版权归原作者所有，脉脉不拥有其著作权，亦不承担相应法律责任。如果您发现有涉嫌 ...",
+      "url": "https://maimai.cn/article/detail?fid=1902402098&efid=7yes1o1Z1PFxXXKFGVCMXA",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "脉脉",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "脉脉",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-1902401072",
+      "platform": "脉脉",
+      "title": "吉比特＆雷霆游戏2月最新岗位",
+      "summary": "吉比特＆雷霆游戏2月最新岗位 ; 孤先生. 品宣视频后期适合我. 02-07 ; E先生. 求社招内推码. 02-05 ; 亚先生. 我面试没过，以后还能投吗. 02-05 ; 贝先生. 四年3d角色美术想投 ...",
+      "url": "https://maimai.cn/article/detail?fid=1902401072&efid=S9oDiailyobq1_wea6yi_g",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "脉脉",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "脉脉",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-1842319110",
+      "platform": "脉脉",
+      "title": "2025秋招#吉比特雷霆游戏",
+      "summary": "来咯来咯～2025届秋招启动！ vvvvx公众号有奖转发，快来参加~ 搜：吉比特游戏[Yeah]. 2025秋招#吉比特雷霆游戏脉脉. END. 阅读 1. 声明：本文内容由脉脉用户自发贡献，部分 ...",
+      "url": "https://maimai.cn/article/detail?fid=1842319110&efid=aKOEa7wc2dJLUDnjXrVYtA",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "脉脉",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "脉脉",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-1731026926",
+      "platform": "脉脉",
+      "title": "厦门吉比特网络工资待遇怎么样？薪资分布揭秘【2022】",
+      "summary": "1. 产品岗的中位数工资在32064上下浮动，平均薪资在32697左右浮动； · 2. 技术岗的中位数工资在24256上下浮动，平均薪资在26180左右浮动； · 3. 设计岗的中位数工资在26085上下 ...",
+      "url": "https://maimai.cn/article/detail?fid=1731026926&efid=qFJavILumH25w5OBqI_k5A",
       "sentiment": "neutral",
       "time": "",
       "tags": [
         "脉脉",
         "吉比特"
       ],
-      "lastChange": "2026-06-13 14:00",
-      "changeNote": "摘要有更新",
       "category": "脉脉",
-      "topic": "招聘求职"
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
     },
     {
-      "id": "zhihu-xNTAwNjkyNDgcGFnZT0z",
-      "platform": "知乎",
-      "title": "吉比特&雷霆游戏未来游戏制作人大赛",
-      "summary": "2021年4月2日，第三届未来游戏制作人大赛正式开启报名。该赛事是由深圳市文化广电旅游体育局指导，南山区文化广电旅游体育局支持，吉比特&雷霆游戏主办的面向全球在校 ...",
-      "url": "https://www.zhihu.com/column/c_1360538184150069248?page=3",
+      "id": "maimai-1839424346",
+      "platform": "脉脉",
+      "title": "吉比特-雷霆游戏美术招聘",
+      "summary": "吉比特-雷霆游戏美术招聘. 头像. 瘦子江. 24-07-12 · 前端开发工程师. 好友. 吉比特-雷霆游戏美术招聘脉脉. END. 阅读 1. 声明：本文内容由脉脉用户自发贡献，部分内容 ...",
+      "url": "https://maimai.cn/article/detail?fid=1839424346&efid=vx2bNOZ90iGDdBtvBIYt_w",
       "sentiment": "neutral",
       "time": "",
       "tags": [
-        "知乎",
+        "脉脉",
         "吉比特",
         "雷霆游戏"
       ],
-      "source": "serp",
-      "category": "知乎",
-      "topic": "产品游戏"
+      "category": "脉脉",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
     },
     {
-      "id": "zhihu-1MzgxODQxNTAwNjkyNDg",
-      "platform": "知乎",
-      "title": "吉比特&雷霆游戏未来游戏制作人大赛",
-      "summary": "2021年4月2日，第三届未来游戏制作人大赛正式开启报名。该赛事是由深圳市文化广电旅游体育局指导，南山区文化广电旅游体育局支持，吉比特&雷霆游戏主办的面向全球在校 ...",
-      "url": "https://www.zhihu.com/column/c_1360538184150069248",
-      "sentiment": "neutral",
+      "id": "maimai-1891474590",
+      "platform": "脉脉",
+      "title": "吉比特【无界计划】内推",
+      "summary": "计划有大量校招和社招需求，校招不仅限应届。三年内的游戏人都可以投递 。欢迎联系内推~ ⁠加入【无界计划】，成为创作者，你将能获得； ⁠1.与创始人共创下一个世界级玩法， ...",
+      "url": "https://maimai.cn/article/detail?fid=1891474590&efid=r6IJimx8vxkGBwBwBI2a8w",
+      "sentiment": "positive",
       "time": "",
       "tags": [
-        "知乎",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "source": "serp",
-      "category": "知乎",
-      "topic": "产品游戏"
-    },
-    {
-      "id": "zhihu-668992375",
-      "platform": "知乎",
-      "title": "深圳吉比特雷霆游戏前端日常实习面试面经",
-      "summary": "最新最全的求职面经、求职攻略戳：https://link.youzhiwk.com/r/6Aa8xwQHiO一面（40多分钟）1.自我介绍2.你是如何接触并学习前端的3.说一下你对vue3的了解，为什么vue3的 ...",
-      "url": "https://zhuanlan.zhihu.com/p/668992375",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "知乎",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "source": "serp",
-      "category": "知乎",
-      "topic": "招聘求职"
-    },
-    {
-      "id": "nowcoder-hYzI3MjllZTljZTBkM2I",
-      "platform": "牛客",
-      "title": "吉比特校招- 话题",
-      "summary": "吉比特_孵化中心_游戏开发. 【游戏行业】吉比特&雷霆游戏春招内推. 岗位如图:岗位base:厦门/深圳/广州内推码：4DX53S投递流程：* 登陆校招官网 hr.g-bits.com ...",
-      "url": "https://www.nowcoder.com/creation/subject/ef3de6e43c504238bac2729ee9ce0d3b",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "牛客",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "牛客",
-      "topic": "招聘求职"
-    },
-    {
-      "id": "nowcoder-400957650471596032",
-      "platform": "牛客",
-      "title": "吉比特雷霆游戏23校招第2批笔试9月20日，速速投递",
-      "summary": "吉比特&雷霆游戏23校招第2批笔试9月20日，速速投递. 迎来 金9银10，招聘高峰，快抓住9月的小尾巴，还没投递吉比特&雷霆游戏全球招聘的小伙伴！！！ ... 内推码： MCY6 ，快打开校招 ...",
-      "url": "https://www.nowcoder.com/discuss/400957650471596032",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "牛客",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "牛客",
-      "topic": "招聘求职"
-    },
-    {
-      "id": "nowcoder-348440",
-      "platform": "牛客",
-      "title": "【吉比特&雷霆游戏】技术岗社招内推，base深圳",
-      "summary": "旗下控股公司雷霆游戏成立于2011年，专注于游戏的研发、推广和商业化运营，成功发行《问道手游》《不思议迷宫》《地下城堡》《地下城堡2》和《斗仙》等精品游戏。 旗下参股 ...",
-      "url": "https://www.nowcoder.com/discuss/348440",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "牛客",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "牛客",
-      "topic": "理念价值观"
-    },
-    {
-      "id": "nowcoder-L2VudGVycHJpc2UvNzYw",
-      "platform": "牛客",
-      "title": "吉比特2026年校招职位信息",
-      "summary": "招聘批次：. 26春招 ; 网申时间：. 2026/03/23 ~ 2026/05/23 ; 招聘城市：. 厦门、深圳 ; 招聘岗位：. 后端开发、前端开发、客户端开发、测试、数据、运维、产品、运营、游戏策划 ...",
-      "url": "https://www.nowcoder.com/enterprise/760",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "牛客",
+        "脉脉",
         "吉比特"
       ],
-      "category": "牛客",
-      "topic": "招聘求职"
+      "category": "脉脉",
+      "topic": "理念价值观",
+      "section": "舆情",
+      "pushable": true
     },
     {
-      "id": "nowcoder-114837",
+      "id": "nowcoder-xZTVlZWY4NmEzZjU5NDk",
       "platform": "牛客",
-      "title": "吉比特&雷霆游戏凉经",
-      "summary": "【吉比特&雷霆游戏】 笔试：（时长90分钟） 选择题中数学多，计算量较大，专业知识考察很基础； 填空题全是C++，读代码写输出。前面选择如果做得太慢，这部分会很有压力； ...",
-      "url": "https://www.nowcoder.com/discuss/114837",
+      "title": "吉比特雷霆游戏内推邀请码- 话题",
+      "summary": "吉比特 ，雷霆游戏2023秋招开始了！ base：深圳、广州、厦门 校招内推码：U3F8J0 校招岗位信息:https://campus.g-bits.com/wap ...",
+      "url": "https://www.nowcoder.com/creation/subject/3c5cf3ad318d427eb1e5eef86a3f5949",
       "sentiment": "neutral",
       "time": "",
       "tags": [
@@ -2759,7 +2869,27 @@ window.MONITOR_DATA = {
         "雷霆游戏"
       ],
       "category": "牛客",
-      "topic": "招聘求职"
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "nowcoder-615162",
+      "platform": "牛客",
+      "title": "【吉比特&雷霆游戏】——校园招聘之走进G社| 办公初体验",
+      "summary": "就可以拥有高质量的办公体验！ 一、2021届吉比特&雷霆游戏春招官网链接：. https://campus.g-bits.com/. 请小伙伴们多多向我们官网砸简历~. 二、2021届吉比特&雷霆游戏春招 ...",
+      "url": "https://www.nowcoder.com/discuss/615162",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "牛客",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "牛客",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "nowcoder-3MDFjY2Q2MGM4NjQ4NTY",
@@ -2777,14 +2907,16 @@ window.MONITOR_DATA = {
       "lastChange": "2026-06-13 14:00",
       "changeNote": "摘要有更新",
       "category": "牛客",
-      "topic": "招聘求职"
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
     },
     {
-      "id": "nowcoder-615162",
+      "id": "nowcoder-114837",
       "platform": "牛客",
-      "title": "【吉比特&雷霆游戏】——校园招聘之走进G社| 办公初体验",
-      "summary": "就可以拥有高质量的办公体验！ 一、2021届吉比特&雷霆游戏春招官网链接：. https://campus.g-bits.com/. 请小伙伴们多多向我们官网砸简历~. 二、2021届吉比特&雷霆游戏春招 ...",
-      "url": "https://www.nowcoder.com/discuss/615162",
+      "title": "吉比特&雷霆游戏凉经",
+      "summary": "【吉比特&雷霆游戏】 笔试：（时长90分钟） 选择题中数学多，计算量较大，专业知识考察很基础； 填空题全是C++，读代码写输出。前面选择如果做得太慢，这部分会很有压力； ...",
+      "url": "https://www.nowcoder.com/discuss/114837",
       "sentiment": "neutral",
       "time": "",
       "tags": [
@@ -2793,14 +2925,33 @@ window.MONITOR_DATA = {
         "雷霆游戏"
       ],
       "category": "牛客",
-      "topic": "招聘求职"
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
     },
     {
-      "id": "nowcoder-xZTVlZWY4NmEzZjU5NDk",
+      "id": "nowcoder-L2VudGVycHJpc2UvNzYw",
       "platform": "牛客",
-      "title": "吉比特雷霆游戏内推邀请码- 话题",
-      "summary": "吉比特 ，雷霆游戏2023秋招开始了！ base：深圳、广州、厦门 校招内推码：U3F8J0 校招岗位信息:https://campus.g-bits.com/wap ...",
-      "url": "https://www.nowcoder.com/creation/subject/3c5cf3ad318d427eb1e5eef86a3f5949",
+      "title": "吉比特2026年校招职位信息",
+      "summary": "招聘批次：. 26春招 ; 网申时间：. 2026/03/23 ~ 2026/05/23 ; 招聘城市：. 厦门、深圳 ; 招聘岗位：. 后端开发、前端开发、客户端开发、测试、数据、运维、产品、运营、游戏策划 ...",
+      "url": "https://www.nowcoder.com/enterprise/760",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "牛客",
+        "吉比特"
+      ],
+      "category": "牛客",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "nowcoder-348440",
+      "platform": "牛客",
+      "title": "【吉比特&雷霆游戏】技术岗社招内推，base深圳",
+      "summary": "旗下控股公司雷霆游戏成立于2011年，专注于游戏的研发、推广和商业化运营，成功发行《问道手游》《不思议迷宫》《地下城堡》《地下城堡2》和《斗仙》等精品游戏。 旗下参股 ...",
+      "url": "https://www.nowcoder.com/discuss/348440",
       "sentiment": "neutral",
       "time": "",
       "tags": [
@@ -2809,149 +2960,553 @@ window.MONITOR_DATA = {
         "雷霆游戏"
       ],
       "category": "牛客",
-      "topic": "招聘求职"
+      "topic": "理念价值观",
+      "section": "舆情",
+      "pushable": true
     },
     {
-      "id": "maimai-1891474590",
+      "id": "nowcoder-400957650471596032",
+      "platform": "牛客",
+      "title": "吉比特雷霆游戏23校招第2批笔试9月20日，速速投递",
+      "summary": "吉比特&雷霆游戏23校招第2批笔试9月20日，速速投递. 迎来 金9银10，招聘高峰，快抓住9月的小尾巴，还没投递吉比特&雷霆游戏全球招聘的小伙伴！！！ ... 内推码： MCY6 ，快打开校招 ...",
+      "url": "https://www.nowcoder.com/discuss/400957650471596032",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "牛客",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "牛客",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "nowcoder-hYzI3MjllZTljZTBkM2I",
+      "platform": "牛客",
+      "title": "吉比特校招- 话题",
+      "summary": "吉比特_孵化中心_游戏开发. 【游戏行业】吉比特&雷霆游戏春招内推. 岗位如图:岗位base:厦门/深圳/广州内推码：4DX53S投递流程：* 登陆校招官网 hr.g-bits.com ...",
+      "url": "https://www.nowcoder.com/creation/subject/ef3de6e43c504238bac2729ee9ce0d3b",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "牛客",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "牛客",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "zhihu-668992375",
+      "platform": "知乎",
+      "title": "深圳吉比特雷霆游戏前端日常实习面试面经",
+      "summary": "最新最全的求职面经、求职攻略戳：https://link.youzhiwk.com/r/6Aa8xwQHiO一面（40多分钟）1.自我介绍2.你是如何接触并学习前端的3.说一下你对vue3的了解，为什么vue3的 ...",
+      "url": "https://zhuanlan.zhihu.com/p/668992375",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "知乎",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "source": "serp",
+      "category": "知乎",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "zhihu-1MzgxODQxNTAwNjkyNDg",
+      "platform": "知乎",
+      "title": "吉比特&雷霆游戏未来游戏制作人大赛",
+      "summary": "2021年4月2日，第三届未来游戏制作人大赛正式开启报名。该赛事是由深圳市文化广电旅游体育局指导，南山区文化广电旅游体育局支持，吉比特&雷霆游戏主办的面向全球在校 ...",
+      "url": "https://www.zhihu.com/column/c_1360538184150069248",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "知乎",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "source": "serp",
+      "category": "知乎",
+      "topic": "产品游戏",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "zhihu-xNTAwNjkyNDgcGFnZT0z",
+      "platform": "知乎",
+      "title": "吉比特&雷霆游戏未来游戏制作人大赛",
+      "summary": "2021年4月2日，第三届未来游戏制作人大赛正式开启报名。该赛事是由深圳市文化广电旅游体育局指导，南山区文化广电旅游体育局支持，吉比特&雷霆游戏主办的面向全球在校 ...",
+      "url": "https://www.zhihu.com/column/c_1360538184150069248?page=3",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "知乎",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "source": "serp",
+      "category": "知乎",
+      "topic": "产品游戏",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-1867602693",
       "platform": "脉脉",
-      "title": "吉比特【无界计划】内推",
-      "summary": "计划有大量校招和社招需求，校招不仅限应届。三年内的游戏人都可以投递 。欢迎联系内推~ ⁠加入【无界计划】，成为创作者，你将能获得； ⁠1.与创始人共创下一个世界级玩法， ...",
-      "url": "https://maimai.cn/article/detail?fid=1891474590&efid=r6IJimx8vxkGBwBwBI2a8w",
+      "title": "吉比特&雷霆2025春季校园招聘",
+      "summary": "吉比特&雷霆2025春季校园招聘正式启动，欢迎各位同学加入，一起创造游戏美好体验！内推码：SC5D02。 吉比特&雷霆2025春季校园招聘脉脉.",
+      "url": "https://maimai.cn/article/detail?fid=1867602693&efid=SHG-_c-B3eSF2CcopdpnrA",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "脉脉",
+        "吉比特"
+      ],
+      "lastChange": "2026-06-13 14:00",
+      "changeNote": "摘要有更新",
+      "category": "脉脉",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "nowcoder-5",
+      "platform": "牛客",
+      "title": "吉比特雷霆游戏2026届校园招聘内推",
+      "summary": "吉比特amp;雷霆游戏2026届校园招聘正式启动关于我们：研运一体上市游戏公司，专业从事网络游戏创意策划、研发制作及商业化运营。旗下有《问道》《问道手游》《一念 ...",
+      "url": "https://www.nowcoder.com/feed/main/detail/5c5cd0e06f684a7fa4e96bf7b0eb93e7",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "牛客",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "牛客",
+      "topic": "产品游戏",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "nowcoder-UvNzYwL2ludGVydmlldw",
+      "platform": "牛客",
+      "title": "吉比特校招面经",
+      "summary": "吉比特（雷霆游戏）前端二面问题飞书总结 · 一、岗位与经历相关1. 介绍在吉比特雷霆游戏岗位负责的具体工作内容（如营销活动、H5页面等）。2. 你的岗位要求中 ...",
+      "url": "https://www.nowcoder.com/enterprise/760/interview",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "牛客",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "牛客",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "zhihu-q461123221",
+      "platform": "知乎",
+      "title": "如何看待雷霆游戏的用户协议？",
+      "summary": "5 个回答",
+      "url": "https://www.zhihu.com/question/461123221",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "知乎",
+        "雷霆游戏"
+      ],
+      "answerCount": 5,
+      "source": "cdp",
+      "category": "知乎",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "zhihu-q511979732",
+      "platform": "知乎",
+      "title": "《雷霆游戏》怎么玩主力的大剑？",
+      "summary": "1 个回答",
+      "url": "https://www.zhihu.com/question/511979732",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "知乎",
+        "雷霆游戏"
+      ],
+      "answerCount": 1,
+      "source": "cdp",
+      "category": "知乎",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "zhihu-q423173220",
+      "platform": "知乎",
+      "title": "雷霆游戏怎么样？",
+      "summary": "7 个回答",
+      "url": "https://www.zhihu.com/question/423173220",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "知乎",
+        "雷霆游戏"
+      ],
+      "answerCount": 7,
+      "source": "cdp",
+      "category": "知乎",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "zhihu-q390457032",
+      "platform": "知乎",
+      "title": "如何看待雷霆游戏出了问道这个游戏？",
+      "summary": "2 个回答",
+      "url": "https://www.zhihu.com/question/390457032",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "知乎",
+        "雷霆游戏"
+      ],
+      "answerCount": 2,
+      "source": "cdp",
+      "category": "知乎",
+      "topic": "产品游戏",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "zhihu-q462900684",
+      "platform": "知乎",
+      "title": "如何看待雷霆游戏？",
+      "summary": "5 个回答",
+      "url": "https://www.zhihu.com/question/462900684",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "知乎",
+        "雷霆游戏"
+      ],
+      "answerCount": 5,
+      "source": "cdp",
+      "category": "知乎",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "zhihu-q649092230",
+      "platform": "知乎",
+      "title": "雷霆游戏（石油大亨）分安卓和苹果吗?",
+      "summary": "0 个回答",
+      "url": "https://www.zhihu.com/question/649092230",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "知乎",
+        "雷霆游戏"
+      ],
+      "answerCount": 0,
+      "source": "cdp",
+      "category": "知乎",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "zhihu-q508596412",
+      "platform": "知乎",
+      "title": "雷霆游戏评价怎么样？",
+      "summary": "7 个回答",
+      "url": "https://www.zhihu.com/question/508596412",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "知乎",
+        "雷霆游戏"
+      ],
+      "answerCount": 7,
+      "source": "cdp",
+      "category": "知乎",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "zhihu-q530210940",
+      "platform": "知乎",
+      "title": "雷霆游戏的特色有哪些？",
+      "summary": "2 个回答",
+      "url": "https://www.zhihu.com/question/530210940",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "知乎",
+        "雷霆游戏"
+      ],
+      "answerCount": 2,
+      "source": "cdp",
+      "category": "知乎",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "zhihu-q518228256",
+      "platform": "知乎",
+      "title": "雷霆游戏代理《奥比岛：梦想国度》 预计 2022 年上线，你对该游戏有哪些期待？",
+      "summary": "0 个回答",
+      "url": "https://www.zhihu.com/question/518228256",
       "sentiment": "positive",
       "time": "",
       "tags": [
-        "脉脉",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "理念价值观"
-    },
-    {
-      "id": "maimai-1839424346",
-      "platform": "脉脉",
-      "title": "吉比特-雷霆游戏美术招聘",
-      "summary": "吉比特-雷霆游戏美术招聘. 头像. 瘦子江. 24-07-12 · 前端开发工程师. 好友. 吉比特-雷霆游戏美术招聘脉脉. END. 阅读 1. 声明：本文内容由脉脉用户自发贡献，部分内容 ...",
-      "url": "https://maimai.cn/article/detail?fid=1839424346&efid=vx2bNOZ90iGDdBtvBIYt_w",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "脉脉",
-        "吉比特",
+        "知乎",
         "雷霆游戏"
       ],
-      "category": "脉脉",
-      "topic": "招聘求职"
+      "answerCount": 0,
+      "source": "cdp",
+      "category": "知乎",
+      "topic": "产品游戏",
+      "section": "舆情",
+      "pushable": true
     },
     {
-      "id": "maimai-1731026926",
-      "platform": "脉脉",
-      "title": "厦门吉比特网络工资待遇怎么样？薪资分布揭秘【2022】",
-      "summary": "1. 产品岗的中位数工资在32064上下浮动，平均薪资在32697左右浮动； · 2. 技术岗的中位数工资在24256上下浮动，平均薪资在26180左右浮动； · 3. 设计岗的中位数工资在26085上下 ...",
-      "url": "https://maimai.cn/article/detail?fid=1731026926&efid=qFJavILumH25w5OBqI_k5A",
+      "id": "zhihu-q485121596",
+      "platform": "知乎",
+      "title": "请问大佬们战争雷霆游戏出现这种情况怎么办？",
+      "summary": "4 个回答",
+      "url": "https://www.zhihu.com/question/485121596",
       "sentiment": "neutral",
       "time": "",
       "tags": [
-        "脉脉",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "招聘求职"
-    },
-    {
-      "id": "maimai-1842319110",
-      "platform": "脉脉",
-      "title": "2025秋招#吉比特雷霆游戏",
-      "summary": "来咯来咯～2025届秋招启动！ vvvvx公众号有奖转发，快来参加~ 搜：吉比特游戏[Yeah]. 2025秋招#吉比特雷霆游戏脉脉. END. 阅读 1. 声明：本文内容由脉脉用户自发贡献，部分 ...",
-      "url": "https://maimai.cn/article/detail?fid=1842319110&efid=aKOEa7wc2dJLUDnjXrVYtA",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "脉脉",
-        "吉比特",
+        "知乎",
         "雷霆游戏"
       ],
-      "category": "脉脉",
-      "topic": "招聘求职"
+      "answerCount": 4,
+      "source": "cdp",
+      "category": "知乎",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
-      "id": "maimai-1902401072",
-      "platform": "脉脉",
-      "title": "吉比特＆雷霆游戏2月最新岗位",
-      "summary": "吉比特＆雷霆游戏2月最新岗位 ; 孤先生. 品宣视频后期适合我. 02-07 ; E先生. 求社招内推码. 02-05 ; 亚先生. 我面试没过，以后还能投吗. 02-05 ; 贝先生. 四年3d角色美术想投 ...",
-      "url": "https://maimai.cn/article/detail?fid=1902401072&efid=S9oDiailyobq1_wea6yi_g",
+      "id": "zhihu-q480054079",
+      "platform": "知乎",
+      "title": "请问战争雷霆游戏里的blk文件怎么转成3d软件能打开的格式呀？",
+      "summary": "1 个回答",
+      "url": "https://www.zhihu.com/question/480054079",
       "sentiment": "neutral",
       "time": "",
       "tags": [
-        "脉脉",
-        "吉比特",
+        "知乎",
         "雷霆游戏"
       ],
-      "category": "脉脉",
-      "topic": "招聘求职"
+      "answerCount": 1,
+      "source": "cdp",
+      "category": "知乎",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
-      "id": "maimai-1902402098",
-      "platform": "脉脉",
-      "title": "吉比特&雷霆游戏海量HC",
-      "summary": "吉比特&雷霆游戏海量HC ... 声明：本文内容由脉脉用户自发贡献，部分内容可能整编自互联网，版权归原作者所有，脉脉不拥有其著作权，亦不承担相应法律责任。如果您发现有涉嫌 ...",
-      "url": "https://maimai.cn/article/detail?fid=1902402098&efid=7yes1o1Z1PFxXXKFGVCMXA",
-      "sentiment": "neutral",
-      "time": "",
+      "id": "ind-202606173773737287",
+      "platform": "上海证券报",
+      "title": "儒意电影，最新发布",
+      "summary": "过去一年，儒意电影国内衍生品销售同比增长18%，与38个IP达成合作，覆盖影视、游戏、潮玩等多个类型。 基于这一思考，影时光正搭建一套IP生态养成系统。针对内容来源与供给，影时光搭建了五类IP内容池：潮流文化池、游戏联运池、档期共生池、集团资产池、原生孵化池。",
+      "url": "http://finance.eastmoney.com/a/202606173773737287.html",
+      "sentiment": "positive",
+      "time": "2026-06-17 08:42",
       "tags": [
-        "脉脉",
-        "吉比特",
-        "雷霆游戏"
+        "游戏停服",
+        "上海证券报"
       ],
-      "category": "脉脉",
-      "topic": "招聘求职"
+      "section": "行业",
+      "pushable": false,
+      "category": "财经新闻",
+      "topic": "公司综合"
     },
     {
-      "id": "maimai-1845433388",
-      "platform": "脉脉",
-      "title": "吉比特雷霆游戏内推助力校招求职！",
-      "summary": "吉比特&雷霆游戏2025秋季校园招聘开始啦！ 有《一念逍遥》《问道》《摩尔庄园》《奥比岛》《鬼谷八荒》等众多明星产品，更有拉满的福利待遇！ 深圳、广州、厦门三地， ...",
-      "url": "https://maimai.cn/article/detail?fid=1845433388&efid=S9ddeBYJ45A7ZsMTzG21mg",
-      "sentiment": "neutral",
-      "time": "",
+      "id": "ind-202606173773505249",
+      "platform": "每日经济新闻",
+      "title": "5月中国游戏市场收入同比增长超10%；米哈游在广州成立新公司“苍刚科技”｜游戏早参",
+      "summary": "NO.2 艺电推出游戏内广告平台“EA Advertising” 6月15日，美国艺电（EA）宣布推出游戏内广告平台“EA Advertising”。该平台允许品牌方通过动态投放技术将产品实时植入游戏中，涵盖体育游戏场边广告牌、定制游戏内容及带奖励的特殊任务等多种形式。",
+      "url": "http://finance.eastmoney.com/a/202606173773505249.html",
+      "sentiment": "positive",
+      "time": "2026-06-17 07:01",
       "tags": [
-        "脉脉",
-        "吉比特",
-        "雷霆游戏"
+        "游戏停服",
+        "每日经济新闻"
       ],
-      "category": "脉脉",
-      "topic": "企业文化"
+      "section": "行业",
+      "pushable": false,
+      "category": "财经新闻",
+      "topic": "公司综合"
     },
     {
-      "id": "maimai-1902403700",
-      "platform": "脉脉",
-      "title": "吉比特雷霆游戏招聘持续中",
-      "summary": "执行主美，3D美术负责人，2D概念负责人，动作专家，UE5引擎专家等大量岗位虚位以待，欢迎推荐自荐！ 吉比特雷霆游戏招聘持续中脉脉.",
-      "url": "https://maimai.cn/article/detail?fid=1902403700&efid=ciyYMeBUyhcEIp-IxXB_kg",
-      "sentiment": "neutral",
-      "time": "",
+      "id": "ind-202606163771976742",
+      "platform": "每日经济新闻",
+      "title": "祖龙娱乐《龙族：卡塞尔之门》全球累计注册用户数超千万；真人互动影视作品《绍宋：还我河山》开放Steam预约通道｜游戏早参",
+      "summary": "NO.3 祖龙娱乐《龙族：卡塞尔之门》全球累计注册用户数超千万 6月14日，祖龙娱乐旗下策略卡牌手游《龙族：卡塞尔之门》宣布，全球累计注册用户突破1000万。该作于2024年9月公测，获《龙族》小说及动画双重授权，已陆续登陆中国、韩国等多地市场。",
+      "url": "http://finance.eastmoney.com/a/202606163771976742.html",
+      "sentiment": "positive",
+      "time": "2026-06-16 06:32",
       "tags": [
-        "脉脉",
-        "吉比特",
-        "雷霆游戏"
+        "新游公测",
+        "每日经济新闻"
       ],
-      "category": "脉脉",
-      "topic": "招聘求职"
+      "section": "行业",
+      "pushable": false,
+      "category": "财经新闻",
+      "topic": "产品游戏"
     },
     {
-      "id": "maimai-1886207695",
-      "platform": "脉脉",
-      "title": "2026秋招进行时，吉比特&雷霆游戏招聘来啦！",
-      "summary": "吉比特&雷霆游戏招聘和小红书职场一起加入「校招看见行动」活动！2026校招季，我们将建立更高效透明的求职链路，我们珍视新生血液，希望看见每一封简历背后更真实的「你」！",
-      "url": "https://maimai.cn/article/detail?fid=1886207695&efid=cu7oaVfjig65QCjQsRc2-Q",
-      "sentiment": "neutral",
-      "time": "",
+      "id": "ind-202606153771845080",
+      "platform": "界面新闻",
+      "title": "泡泡玛特手游《梦想家园》将于8月停运，两年亏了近1.2亿",
+      "summary": "图片来源：《梦想家园》App 公告发布后，不少开服玩家在社交媒体上抱怨官方长期不更新内容，等来的却是停服通知。也有玩家表示，自己在游戏里投入了大量时间与情感，角色和家园早已成为生活的一部分，停服让他们难以接受。",
+      "url": "http://finance.eastmoney.com/a/202606153771845080.html",
+      "sentiment": "negative",
+      "time": "2026-06-15 21:31",
       "tags": [
-        "脉脉",
-        "吉比特",
-        "雷霆游戏"
+        "游戏停服",
+        "界面新闻"
       ],
-      "category": "脉脉",
-      "topic": "招聘求职"
+      "section": "行业",
+      "pushable": false,
+      "category": "财经新闻",
+      "topic": "产品游戏"
+    },
+    {
+      "id": "ind-202606153771366151",
+      "platform": "21世纪经济报道",
+      "title": "《穿越火线》IP 3A新作发布；欧洲监管重罚任天堂丨游戏周报",
+      "summary": "5月中国手游发行商全球收入排行榜发布 近日，Sensor Tower商店情报平台发布的数据显示，2026年5月共38个中国厂商入围全球手游发行商收入榜TOP100，其中排名前十的中国厂商为腾讯、点点互动、柠檬微趣、网易、米哈游、三七互娱、叠纸、库洛、莉莉丝与灵犀互娱。",
+      "url": "http://finance.eastmoney.com/a/202606153771366151.html",
+      "sentiment": "neutral",
+      "time": "2026-06-15 13:10",
+      "tags": [
+        "米哈游",
+        "21世纪经济报道"
+      ],
+      "section": "行业",
+      "pushable": false,
+      "category": "财经新闻",
+      "topic": "产品游戏"
+    },
+    {
+      "id": "ind-202606153771513534",
+      "platform": "上观新闻",
+      "title": "文创出海不是单向传播，青年学者关注数字生产与文化协商",
+      "summary": "学者还赴米哈游参访，了解游戏全球传播、数字内容生产、IP开发和跨文化市场拓展。 本次工作坊由上海交大—南加州大学文化创意产业学院举办，设置文化转译与情感连接、平台逻辑与治理博弈两个论坛。",
+      "url": "http://finance.eastmoney.com/a/202606153771513534.html",
+      "sentiment": "neutral",
+      "time": "2026-06-15 09:01",
+      "tags": [
+        "米哈游",
+        "上观新闻"
+      ],
+      "section": "行业",
+      "pushable": false,
+      "category": "财经新闻",
+      "topic": "经营管理"
+    },
+    {
+      "id": "ind-202606153770795093",
+      "platform": "每日经济新闻",
+      "title": "Nexon停运《泡泡堂》韩服；腾讯《三角洲行动》国际邀请赛落地武汉 | 游戏早参",
+      "summary": "丨2026年6月15日星期一丨 NO.1Nexon停运《泡泡堂》韩服国服独立运营不受影响 近日，韩国游戏厂商Nexon发布公告称，运营25年的经典休闲网游《泡泡堂》韩服将于8月13日正式停服。该作2001年上线，曾创下最高70万人同时在线的纪录，是休闲竞技品类的开山之作。",
+      "url": "http://finance.eastmoney.com/a/202606153770795093.html",
+      "sentiment": "negative",
+      "time": "2026-06-15 06:30",
+      "tags": [
+        "游戏停服",
+        "每日经济新闻"
+      ],
+      "section": "行业",
+      "pushable": false,
+      "category": "财经新闻",
+      "topic": "产品游戏"
+    },
+    {
+      "id": "ind-202606133770289592",
+      "platform": "中国经营网",
+      "title": "合作不足一年宣告终止 冰川网络游戏海外运营生变",
+      "summary": "若双方协商授权游戏停服停运后，深圳超游有权将授权游戏剩余用户（如有）引导至深圳超游或其关联方旗下运营的其他游戏中，成都开心加无权再参与分成。 对于上述合作终止事宜，记者联系冰川网络方面置评，截至发稿，未获回复。",
+      "url": "http://finance.eastmoney.com/a/202606133770289592.html",
+      "sentiment": "negative",
+      "time": "2026-06-13 03:34",
+      "tags": [
+        "游戏停服",
+        "中国经营网"
+      ],
+      "section": "行业",
+      "pushable": false,
+      "category": "财经新闻",
+      "topic": "公司综合"
+    },
+    {
+      "id": "ind-202606113767167567",
+      "platform": "每日经济新闻",
+      "title": "腾讯光子工作室发起创作者大赛 ；点点互动旗下《Kingshot》5月收入环比增长11%丨游戏早参",
+      "summary": "点评：借助大赛完成工具实测与创作者招募，有助于腾讯完善内容生态闭环，在AI赋能游戏内容生产赛道抢占先机。",
+      "url": "http://finance.eastmoney.com/a/202606113767167567.html",
+      "sentiment": "positive",
+      "time": "2026-06-11 07:00",
+      "tags": [
+        "腾讯游戏",
+        "每日经济新闻"
+      ],
+      "section": "行业",
+      "pushable": false,
+      "category": "财经新闻",
+      "topic": "公司综合"
+    },
+    {
+      "id": "ind-202606103766829745",
+      "platform": "南方都市报",
+      "title": "《黑色信标》宣告停服，曾获腾讯投资，二次元游戏加速洗牌",
+      "summary": "此外，《追逐卡蕾多》等新作也在今年取得游戏版号。",
+      "url": "http://finance.eastmoney.com/a/202606103766829745.html",
+      "sentiment": "negative",
+      "time": "2026-06-10 18:30",
+      "tags": [
+        "游戏版号",
+        "南方都市报"
+      ],
+      "section": "行业",
+      "pushable": false,
+      "category": "财经新闻",
+      "topic": "经营管理"
+    },
+    {
+      "id": "ind-202606103765566278",
+      "platform": "每日经济新闻",
+      "title": "B站《三国志：王道天下》定档；腾讯《异人之下》预约破3000万｜游戏早参",
+      "summary": "点评：该产品超3000万的预约体量，为腾讯游戏业务注入短期业绩预期，有望提振港股腾讯控股二级市场情绪。这款自研IP改编大作，验证了腾讯国漫全产业链的变现能力，打通动漫IP游戏化的成熟链路，强化公司自研产品矩阵，缓解市场对其新游供给不足的担忧。",
+      "url": "http://finance.eastmoney.com/a/202606103765566278.html",
+      "sentiment": "neutral",
+      "time": "2026-06-10 07:00",
+      "tags": [
+        "腾讯游戏",
+        "每日经济新闻"
+      ],
+      "section": "行业",
+      "pushable": false,
+      "category": "财经新闻",
+      "topic": "产品游戏"
     }
   ]
 };
