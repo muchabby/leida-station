@@ -84,7 +84,9 @@ const bjNow = () => new Date(new Date().toLocaleString("en-US", { timeZone: "Asi
 // 相关性过滤：宽词（如"雷霆游戏"会被拆成"游戏"泛匹配）召回的结果
 // 必须真的提到品牌词才保留，否则全是"游戏黑产/博傻游戏"这类噪音
 const BRAND = ["吉比特","雷霆游戏","雷霆网络","G-bits","603444","一念逍遥","问道","奥比岛","摩尔庄园","M72"];
-const isRelevant = text => BRAND.some(b => text.includes(b));
+// 干扰词：与品牌无关但子串会误命中的（"战争雷霆游戏"含"雷霆游戏"）。匹配前先抹掉，避免误收。
+const BRAND_NEG = ["战争雷霆"];
+const isRelevant = text => { let t = String(text||""); for(const n of BRAND_NEG) t = t.split(n).join(""); return BRAND.some(b => t.includes(b)); };
 
 // ===== 行业动态（section="行业"）=====
 // 游戏行业大盘讯息，区别于本品牌舆情。判定逻辑集中在 monitor-rules.js（行业实体/事件/上下文词 + 三段式 isRelevant）。
@@ -236,7 +238,7 @@ async function fetchAnn(){
 async function fetchSocial(site){
   if(!SERPAPI_KEY) return [];
   const q = encodeURIComponent(`site:${site.domain} ${KEYWORDS.join(" OR ")}`);
-  const url = `https://serpapi.com/search.json?engine=google&q=${q}&num=10&hl=zh-cn&api_key=${SERPAPI_KEY}`;
+  const url = `https://serpapi.com/search.json?engine=google&q=${q}&num=20&hl=zh-cn&api_key=${SERPAPI_KEY}`;
   const raw = await getText(url);
   let json; try { json = JSON.parse(raw); } catch(e){ return []; }
   if(json.error) { console.log(`  [${site.name}] SerpAPI: ${json.error}`); return []; }
@@ -316,6 +318,9 @@ async function pushLark(newItems, allItems, daily){
   // 行业板块条目静默更新、不推飞书：推送只看 pushable!==false 的（即舆情）
   newItems = (newItems||[]).filter(i=>i.pushable!==false);
   allItems = (allItems||[]).filter(i=>i.pushable!==false);
+  // 老帖回流过滤：id 首次入库但拿不到真实日期（time 为空，前端会沉底"日期未知"）的，
+  // 多是搜索接口翻出的旧帖，无时效价值，不计入"今天更新 N 条"，避免"推了却进站找不到"。
+  newItems = newItems.filter(i => i.time && i.time.trim());
   const SITE = "https://muchabby.github.io/leida-station/";
   // 清理标题：去掉知乎"- XX的回答/- 知乎用户的回答"等尾巴，去多余空白，过长截断
   const clean = t => {
