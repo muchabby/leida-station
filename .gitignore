@@ -34,6 +34,16 @@ data.before-zhihu.bak.js
 知乎监测-方案A.md
 主题标签方案.md
 
+# 脉脉职言监测（CDP 接管本机 Chrome+登录态，本机专用，不上云）
+fetch-maimai.js
+probe-maimai.js
+run-maimai.cmd
+run-maimai.log
+start-maimai-chrome.cmd
+data.before-maimai.js
+merge-xhs.js
+data.local-backup-*.js
+
 # 历史快照（本地留存即可，不必上云）
 versions/
 
