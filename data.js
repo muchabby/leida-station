@@ -1,4 +1,4 @@
-// 舆情数据文件 —— 由 fetch.js 自动写入，请勿手动编辑
+// 舆情数据文件 — 由 fetch.js / fetch-xhs.js 自动写入，请勿手动编辑
 // 页面通过 <script src="data.js"> 读取，避免 file:// 下 fetch 被浏览器拦截
 window.MONITOR_DATA = {
   "updatedAt": "2026-06-22 15:02",
@@ -3817,6 +3817,166 @@ window.MONITOR_DATA = {
       "changeNote": "摘要有更新",
       "category": "财经新闻",
       "topic": "经营管理"
+    },
+    {
+      "id": "xhs-6a33e1a50000000008033cbe",
+      "platform": "小红书",
+      "title": "吉比特（603444）投资分析",
+      "summary": "宁静*.*港湾 · 👍1 收藏2",
+      "url": "https://www.xiaohongshu.com/explore/6a33e1a50000000008033cbe?xsec_token=ABTaA22ePWmONcp23EICHlHf_unUipF4RA621gEc_UlTg=",
+      "sentiment": "neutral",
+      "time": "2026-06-18 20:16",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍1"
+      ],
+      "category": "小红书",
+      "topic": "股票财务"
+    },
+    {
+      "id": "xhs-6a33b872000000001702d95b",
+      "platform": "小红书",
+      "title": "吉比特",
+      "summary": "爱吃萝卜和蔬菜 · 👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/6a33b872000000001702d95b?xsec_token=ABTaA22ePWmONcp23EICHlHbHC8okJnOIi1RXmA4BCG_c=",
+      "sentiment": "neutral",
+      "time": "2026-06-18 17:20",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "topic": "公司综合"
+    },
+    {
+      "id": "xhs-69f034e8000000003503a61c",
+      "platform": "小红书",
+      "title": "奥比岛换工作室了",
+      "summary": "云云大吃 · 👍839 收藏47",
+      "url": "https://www.xiaohongshu.com/explore/69f034e8000000003503a61c?xsec_token=ABc5pLwVTUqEPZVqQeUHtColctuRmXbYyMYwpZid4duM4=",
+      "sentiment": "neutral",
+      "time": "2026-04-28 12:17",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍839"
+      ],
+      "category": "小红书",
+      "topic": "产品游戏"
+    },
+    {
+      "id": "xhs-69ca8fed0000000023015a3e",
+      "platform": "小红书",
+      "title": "从中手游裁员，看吉比特“小步快跑”的含",
+      "summary": "高玩看世界 · 👍9 收藏6",
+      "url": "https://www.xiaohongshu.com/explore/69ca8fed0000000023015a3e?xsec_token=ABfAqpXOAA8A5xRZHaY5qOCCL2Uj7QUAj9zSxjtQ_8ESM=",
+      "sentiment": "neutral",
+      "time": "2026-03-30 22:59",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍9"
+      ],
+      "category": "小红书",
+      "topic": "产品游戏"
+    },
+    {
+      "id": "xhs-69c1081b000000001b00151a",
+      "platform": "小红书",
+      "title": "吉比特雷霆游戏26春招&暑期实习招聘启动！",
+      "summary": "吉比特游戏 · 👍454 收藏355",
+      "url": "https://www.xiaohongshu.com/explore/69c1081b000000001b00151a?xsec_token=ABAR_FQ3nji0jo5tE7RXivlhm4fnyZJnEkgxRTyR2jOHU=",
+      "sentiment": "neutral",
+      "time": "2026-03-23 17:30",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍454"
+      ],
+      "category": "小红书",
+      "topic": "招聘求职"
+    },
+    {
+      "id": "xhs-69b3d2cf000000002800b353",
+      "platform": "小红书",
+      "title": "这雷霆游戏😭美国人请给我一个准确姓氏！",
+      "summary": "ssuser · 👍27 收藏6",
+      "url": "https://www.xiaohongshu.com/explore/69b3d2cf000000002800b353?xsec_token=ABY7TwY4nOh26YyyRg3Bo6_kRtQxG92tI-CCMkVYHy52s=",
+      "sentiment": "neutral",
+      "time": "2026-03-13 17:03",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍27"
+      ],
+      "category": "小红书",
+      "topic": "公司综合"
+    },
+    {
+      "id": "xhs-68cd06350000000013006e16",
+      "platform": "小红书",
+      "title": "在高铁上玩奥比岛遇到了雷霆的副总裁",
+      "summary": "小晓晓晓（好运版） · 👍1531 收藏123",
+      "url": "https://www.xiaohongshu.com/explore/68cd06350000000013006e16?xsec_token=ABDsV-NKgJX84mFb_rA8jFp_ug3f9yYY6qd8L7uhj0BPM=",
+      "sentiment": "neutral",
+      "time": "2025-09-19 15:28",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍1531"
+      ],
+      "category": "小红书",
+      "topic": "产品游戏"
+    },
+    {
+      "id": "xhs-6777b469000000000900e68d",
+      "platform": "小红书",
+      "title": "国产游戏厂商大赏：吉比特",
+      "summary": "YOYO游友 · 👍3 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/6777b469000000000900e68d?xsec_token=ABO_cs5RrxnQtsGrTdZrRX7nPFPQE47_iFwQSkD_Wh8-8=",
+      "sentiment": "neutral",
+      "time": "2025-01-04 16:31",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍3"
+      ],
+      "category": "小红书",
+      "topic": "公司综合"
+    },
+    {
+      "id": "xhs-671f0c0d000000001b01070d",
+      "platform": "小红书",
+      "title": "秋招第十九挂：吉比特-财务",
+      "summary": "二本财务勇闯天涯-接接接 · 👍13 收藏1",
+      "url": "https://www.xiaohongshu.com/explore/671f0c0d000000001b01070d?xsec_token=AB42eKFv6-7sC4N-Vp-d8C2AILNEX9ekpBUiZYI23xSjg=",
+      "sentiment": "neutral",
+      "time": "2024-10-28 11:59",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍13"
+      ],
+      "category": "小红书",
+      "topic": "招聘求职"
+    },
+    {
+      "id": "xhs-65fb0a55000000001203e846",
+      "platform": "小红书",
+      "title": "吉比特&雷霆游戏福利总结！小伙伴快来！",
+      "summary": "凯文 · 👍17 收藏5",
+      "url": "https://www.xiaohongshu.com/explore/65fb0a55000000001203e846?xsec_token=ABpM-zC25Fj27xgSuM-DSpRaaEFwSraevQDyttM7cQrvA=",
+      "sentiment": "neutral",
+      "time": "2024-03-21 00:09",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍17"
+      ],
+      "category": "小红书",
+      "topic": "企业文化"
     }
   ]
 };
