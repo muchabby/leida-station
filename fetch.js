@@ -312,7 +312,7 @@ function writeData(obj){
 
 // ---- 飞书推送 ----
 // newItems: 本次新增条目；allItems: 库内全部（用于"无新增也推今日概况"）；daily: 是否强制推送（每日固定推送模式）
-async function pushLark(newItems, allItems, daily){
+async function pushLark(newItems, allItems, daily, loginStatus){
   // 只在每日固定推送（早班 DAILY_PUSH=1）时推，一天一条；兜底班 daily=0 一律不推，避免重复打扰
   if(!LARK_WEBHOOK || !daily) return;
   // 行业板块条目静默更新、不推飞书：推送只看 pushable!==false 的（即舆情）
@@ -330,6 +330,18 @@ async function pushLark(newItems, allItems, daily){
     return s.length > 34 ? s.slice(0,34)+"…" : s;
   };
   const today = (new Date(new Date().toLocaleString("en-US",{timeZone:"Asia/Shanghai"}))).toISOString().slice(0,10);
+  // 登录失效告警：本机三条线（脉脉/小红书/知乎）登录过期时会写 loginStatus，这里搭日报的车带出提醒。
+  let warn = "";
+  const ls = loginStatus || {};
+  const failed = Object.keys(ls);
+  if(failed.length){
+    const lines = failed.map(name=>{
+      const since = (ls[name] && ls[name].failedSince) ? ls[name].failedSince.slice(0,10) : today;
+      const days = Math.max(0, Math.round((Date.parse(today) - Date.parse(since)) / 86400000));
+      return `· ${name}：登录失效${days>0?`已 ${days} 天`:"（今天）"}，请去对应 Chrome 重新扫码`;
+    }).join("\n");
+    warn = `\n\n⚠️ 数据源登录提醒\n${lines}`;
+  }
   let text;
   if(newItems.length){
     // 有新增：负面置顶，列最多10条
@@ -339,7 +351,7 @@ async function pushLark(newItems, allItems, daily){
     const more = newItems.length>10 ? `\n… 还有 ${newItems.length-10} 条` : "";
     let head = `📡 雷达站 · 今天更新 ${newItems.length} 条`;
     if(negCount) head += `（含 ${negCount} 条负面 ⚠️）`;
-    text = `${head}\n\n${lines}${more}\n\n👉 查看全部：${SITE}`;
+    text = `${head}\n\n${lines}${more}${warn}\n\n👉 查看全部：${SITE}`;
   } else {
     // 无新增但每日固定推送：报当日概况 + 最新动态，保持存在感
     const all = allItems || [];
@@ -347,7 +359,7 @@ async function pushLark(newItems, allItems, daily){
     // 按时间倒序取最新3条（有日期的）
     const latest = all.filter(i=>i.time).sort((a,b)=> a.time<b.time?1:-1).slice(0,3);
     const latestLines = latest.length ? "\n\n最新动态：\n" + latest.map(i=>`· ${clean(i.title)}`).join("\n") : "";
-    text = `📡 雷达站 · ${today} 日报\n今日暂无新增舆情，库内共 ${all.length} 条（负面 ${totalNeg} 条）。${latestLines}\n\n👉 查看全部：${SITE}`;
+    text = `📡 雷达站 · ${today} 日报\n今日暂无新增舆情，库内共 ${all.length} 条（负面 ${totalNeg} 条）。${latestLines}${warn}\n\n👉 查看全部：${SITE}`;
   }
   try{
     const res = await fetch(LARK_WEBHOOK, { method:"POST", headers:{"Content-Type":"application/json"},
@@ -451,12 +463,13 @@ async function pushLark(newItems, allItems, daily){
     if(i.pushable === undefined) i.pushable = (i.section !== "行业");
   }); // 统一打来源分类+主题标签+板块归属（含回填存量）
 
-  writeData({ updatedAt: stamp, keywords: KEYWORDS, items: merged });
+  // loginStatus 由本机三条线（脉脉/小红书/知乎）写入，云端只透传不改，否则会被这里抹掉
+  writeData({ updatedAt: stamp, keywords: KEYWORDS, loginStatus: existing.loginStatus || {}, items: merged });
   const socialCnt = fetched.filter(i=>SOCIAL_SITES.some(s=>s.name===i.platform)).length;
   const indCnt = fetched.filter(i=>i.section==="行业").length;
   const indTotal = merged.filter(i=>i.section==="行业").length;
   console.log(`[${stamp}] 抓取 ${fetched.length} 条（社交站 ${socialCnt} 条/${FETCH_SOCIAL?"本次抓":"本次跳过"}，行业 ${indCnt} 条，Key:${SERPAPI_KEY?"已配置":"未配置"}），新增 ${fresh.length} 条，内容更新 ${changed} 条，库内共 ${merged.length} 条（其中行业 ${indTotal} 条）`);
 
-  await pushLark(fresh, merged, process.env.DAILY_PUSH === "1");
+  await pushLark(fresh, merged, process.env.DAILY_PUSH === "1", existing.loginStatus || {});
 })();
 

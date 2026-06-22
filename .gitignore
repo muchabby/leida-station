@@ -43,6 +43,7 @@ start-maimai-chrome.cmd
 data.before-maimai.js
 merge-xhs.js
 data.local-backup-*.js
+data.before-*.js
 
 # 历史快照（本地留存即可，不必上云）
 versions/
