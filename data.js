@@ -256,7 +256,8 @@ window.MONITOR_DATA = {
       "time": "2026-07-14 18:34",
       "tags": [
         "脉脉",
-        "职言"
+        "职言",
+        "吉比特"
       ],
       "category": "脉脉",
       "topic": "公司综合"
@@ -1124,7 +1125,8 @@ window.MONITOR_DATA = {
       "time": "2026-07-07 14:33",
       "tags": [
         "脉脉",
-        "职言"
+        "职言",
+        "吉比特"
       ],
       "category": "脉脉",
       "topic": "公司综合"
@@ -1342,7 +1344,8 @@ window.MONITOR_DATA = {
       "time": "2026-07-06 02:59",
       "tags": [
         "脉脉",
-        "职言"
+        "职言",
+        "雷霆游戏"
       ],
       "category": "脉脉",
       "topic": "公司综合"
@@ -2287,7 +2290,8 @@ window.MONITOR_DATA = {
       "time": "2026-06-14 10:29",
       "tags": [
         "脉脉",
-        "职言"
+        "职言",
+        "吉比特"
       ],
       "category": "脉脉",
       "topic": "企业文化"
@@ -2334,7 +2338,8 @@ window.MONITOR_DATA = {
       "time": "2026-06-12 17:40",
       "tags": [
         "脉脉",
-        "职言"
+        "职言",
+        "雷霆游戏"
       ],
       "category": "脉脉",
       "topic": "公司综合"
@@ -2594,7 +2599,8 @@ window.MONITOR_DATA = {
       "time": "2026-06-06 02:30",
       "tags": [
         "脉脉",
-        "职言"
+        "职言",
+        "吉比特"
       ],
       "category": "脉脉",
       "topic": "公司综合"
@@ -3097,7 +3103,8 @@ window.MONITOR_DATA = {
       "time": "2026-05-14 17:39",
       "tags": [
         "脉脉",
-        "职言"
+        "职言",
+        "雷霆游戏"
       ],
       "category": "脉脉",
       "topic": "公司综合"
@@ -3112,7 +3119,8 @@ window.MONITOR_DATA = {
       "time": "2026-05-14 16:49",
       "tags": [
         "脉脉",
-        "职言"
+        "职言",
+        "雷霆游戏"
       ],
       "category": "脉脉",
       "topic": "公司综合"
@@ -3231,7 +3239,8 @@ window.MONITOR_DATA = {
       "time": "2026-05-11 11:51",
       "tags": [
         "脉脉",
-        "职言"
+        "职言",
+        "雷霆游戏"
       ],
       "category": "脉脉",
       "topic": "公司综合"
@@ -3246,7 +3255,8 @@ window.MONITOR_DATA = {
       "time": "2026-05-10 14:08",
       "tags": [
         "脉脉",
-        "职言"
+        "职言",
+        "雷霆游戏"
       ],
       "category": "脉脉",
       "topic": "公司综合"
@@ -3296,7 +3306,8 @@ window.MONITOR_DATA = {
       "time": "2026-05-05 14:40",
       "tags": [
         "脉脉",
-        "职言"
+        "职言",
+        "吉比特"
       ],
       "category": "脉脉",
       "topic": "公司综合"
@@ -3362,7 +3373,8 @@ window.MONITOR_DATA = {
       "time": "2026-04-24 14:28",
       "tags": [
         "脉脉",
-        "职言"
+        "职言",
+        "吉比特"
       ],
       "category": "脉脉",
       "topic": "公司综合"
@@ -3614,7 +3626,8 @@ window.MONITOR_DATA = {
       "time": "2026-04-22 15:30",
       "tags": [
         "脉脉",
-        "职言"
+        "职言",
+        "吉比特"
       ],
       "category": "脉脉",
       "topic": "公司综合"
@@ -4078,7 +4091,8 @@ window.MONITOR_DATA = {
       "tags": [
         "脉脉",
         "职言",
-        "雷霆游戏"
+        "雷霆游戏",
+        "吉比特"
       ],
       "category": "脉脉",
       "topic": "公司综合"
@@ -4219,7 +4233,8 @@ window.MONITOR_DATA = {
       "tags": [
         "脉脉",
         "职言",
-        "吉比特"
+        "吉比特",
+        "雷霆游戏"
       ],
       "category": "脉脉",
       "topic": "公司综合"
@@ -4235,7 +4250,8 @@ window.MONITOR_DATA = {
       "tags": [
         "脉脉",
         "职言",
-        "吉比特"
+        "吉比特",
+        "雷霆游戏"
       ],
       "category": "脉脉",
       "topic": "公司综合"
@@ -4251,7 +4267,8 @@ window.MONITOR_DATA = {
       "tags": [
         "脉脉",
         "职言",
-        "吉比特"
+        "吉比特",
+        "雷霆游戏"
       ],
       "category": "脉脉",
       "topic": "公司综合"
@@ -4266,7 +4283,8 @@ window.MONITOR_DATA = {
       "time": "2026-03-13 19:53",
       "tags": [
         "脉脉",
-        "职言"
+        "职言",
+        "雷霆游戏"
       ],
       "category": "脉脉",
       "topic": "公司综合"
@@ -4656,7 +4674,8 @@ window.MONITOR_DATA = {
       "time": "2026-02-05 10:51",
       "tags": [
         "脉脉",
-        "职言"
+        "职言",
+        "吉比特"
       ],
       "category": "脉脉",
       "topic": "企业文化"
@@ -4723,7 +4742,8 @@ window.MONITOR_DATA = {
       "tags": [
         "脉脉",
         "职言",
-        "雷霆游戏"
+        "雷霆游戏",
+        "吉比特"
       ],
       "category": "脉脉",
       "topic": "公司综合"
@@ -4792,7 +4812,8 @@ window.MONITOR_DATA = {
       "sentiment": "positive",
       "time": "2026-02-04 16:15",
       "tags": [
-        "脉脉"
+        "脉脉",
+        "吉比特"
       ],
       "category": "脉脉",
       "topic": "公司综合",
@@ -4809,7 +4830,8 @@ window.MONITOR_DATA = {
       "time": "2026-02-04 16:15",
       "tags": [
         "脉脉",
-        "实名"
+        "实名",
+        "吉比特"
       ],
       "category": "脉脉",
       "topic": "公司综合"
@@ -4823,7 +4845,8 @@ window.MONITOR_DATA = {
       "sentiment": "neutral",
       "time": "2026-02-04 15:55",
       "tags": [
-        "脉脉"
+        "脉脉",
+        "吉比特"
       ],
       "category": "脉脉",
       "topic": "公司综合",
@@ -4840,7 +4863,8 @@ window.MONITOR_DATA = {
       "time": "2026-02-04 15:55",
       "tags": [
         "脉脉",
-        "实名"
+        "实名",
+        "吉比特"
       ],
       "category": "脉脉",
       "topic": "公司综合"
@@ -4889,7 +4913,8 @@ window.MONITOR_DATA = {
       "sentiment": "neutral",
       "time": "2026-02-04 15:46",
       "tags": [
-        "脉脉"
+        "脉脉",
+        "吉比特"
       ],
       "category": "脉脉",
       "topic": "招聘求职",
@@ -4906,7 +4931,8 @@ window.MONITOR_DATA = {
       "time": "2026-02-04 15:46",
       "tags": [
         "脉脉",
-        "实名"
+        "实名",
+        "吉比特"
       ],
       "category": "脉脉",
       "topic": "招聘求职"
@@ -4920,7 +4946,9 @@ window.MONITOR_DATA = {
       "sentiment": "neutral",
       "time": "2026-02-04 15:43",
       "tags": [
-        "脉脉"
+        "脉脉",
+        "吉比特",
+        "雷霆游戏"
       ],
       "category": "脉脉",
       "topic": "公司综合",
@@ -4937,7 +4965,9 @@ window.MONITOR_DATA = {
       "time": "2026-02-04 15:43",
       "tags": [
         "脉脉",
-        "实名"
+        "实名",
+        "吉比特",
+        "雷霆游戏"
       ],
       "category": "脉脉",
       "topic": "公司综合"
@@ -5042,7 +5072,8 @@ window.MONITOR_DATA = {
       "tags": [
         "脉脉",
         "职言",
-        "吉比特"
+        "吉比特",
+        "雷霆游戏"
       ],
       "category": "脉脉",
       "topic": "企业文化"
@@ -5058,7 +5089,8 @@ window.MONITOR_DATA = {
       "tags": [
         "脉脉",
         "职言",
-        "吉比特"
+        "吉比特",
+        "雷霆游戏"
       ],
       "category": "脉脉",
       "topic": "公司综合"
@@ -5091,7 +5123,8 @@ window.MONITOR_DATA = {
       "tags": [
         "脉脉",
         "职言",
-        "吉比特"
+        "吉比特",
+        "雷霆游戏"
       ],
       "category": "脉脉",
       "topic": "股票财务"
@@ -5738,7 +5771,8 @@ window.MONITOR_DATA = {
       "tags": [
         "脉脉",
         "职言",
-        "吉比特"
+        "吉比特",
+        "雷霆游戏"
       ],
       "category": "脉脉",
       "topic": "产品游戏"
@@ -5892,7 +5926,8 @@ window.MONITOR_DATA = {
       "tags": [
         "脉脉",
         "职言",
-        "吉比特"
+        "吉比特",
+        "雷霆游戏"
       ],
       "category": "脉脉",
       "topic": "招聘求职"
@@ -5908,7 +5943,8 @@ window.MONITOR_DATA = {
       "tags": [
         "脉脉",
         "职言",
-        "吉比特"
+        "吉比特",
+        "雷霆游戏"
       ],
       "category": "脉脉",
       "topic": "产品游戏",
@@ -5944,7 +5980,8 @@ window.MONITOR_DATA = {
       "tags": [
         "脉脉",
         "职言",
-        "吉比特"
+        "吉比特",
+        "雷霆游戏"
       ],
       "category": "脉脉",
       "topic": "公司综合",
@@ -5980,7 +6017,8 @@ window.MONITOR_DATA = {
       "tags": [
         "脉脉",
         "职言",
-        "吉比特"
+        "吉比特",
+        "雷霆游戏"
       ],
       "category": "脉脉",
       "topic": "公司综合",
@@ -6369,7 +6407,9 @@ window.MONITOR_DATA = {
       "sentiment": "neutral",
       "time": "2025-08-29 15:17",
       "tags": [
-        "脉脉"
+        "脉脉",
+        "吉比特",
+        "雷霆游戏"
       ],
       "category": "脉脉",
       "topic": "招聘求职",
@@ -6386,7 +6426,9 @@ window.MONITOR_DATA = {
       "time": "2025-08-29 15:17",
       "tags": [
         "脉脉",
-        "实名"
+        "实名",
+        "吉比特",
+        "雷霆游戏"
       ],
       "category": "脉脉",
       "topic": "招聘求职"
@@ -6400,7 +6442,9 @@ window.MONITOR_DATA = {
       "sentiment": "neutral",
       "time": "2025-08-29 14:24",
       "tags": [
-        "脉脉"
+        "脉脉",
+        "吉比特",
+        "雷霆游戏"
       ],
       "category": "脉脉",
       "topic": "招聘求职",
@@ -6417,7 +6461,9 @@ window.MONITOR_DATA = {
       "time": "2025-08-29 14:24",
       "tags": [
         "脉脉",
-        "实名"
+        "实名",
+        "吉比特",
+        "雷霆游戏"
       ],
       "category": "脉脉",
       "topic": "招聘求职"
@@ -6781,7 +6827,9 @@ window.MONITOR_DATA = {
       "sentiment": "neutral",
       "time": "2025-03-10 15:27",
       "tags": [
-        "脉脉"
+        "脉脉",
+        "吉比特",
+        "雷霆游戏"
       ],
       "category": "脉脉",
       "topic": "招聘求职",
@@ -6798,7 +6846,9 @@ window.MONITOR_DATA = {
       "time": "2025-03-10 15:27",
       "tags": [
         "脉脉",
-        "实名"
+        "实名",
+        "吉比特",
+        "雷霆游戏"
       ],
       "category": "脉脉",
       "topic": "招聘求职"
@@ -6812,7 +6862,9 @@ window.MONITOR_DATA = {
       "sentiment": "neutral",
       "time": "2025-03-10 13:16",
       "tags": [
-        "脉脉"
+        "脉脉",
+        "吉比特",
+        "雷霆游戏"
       ],
       "category": "脉脉",
       "topic": "公司综合",
@@ -6829,7 +6881,9 @@ window.MONITOR_DATA = {
       "time": "2025-03-10 13:16",
       "tags": [
         "脉脉",
-        "实名"
+        "实名",
+        "吉比特",
+        "雷霆游戏"
       ],
       "category": "脉脉",
       "topic": "公司综合"
@@ -7732,7 +7786,8 @@ window.MONITOR_DATA = {
       "sentiment": "neutral",
       "time": "2024-09-12 15:00",
       "tags": [
-        "脉脉"
+        "脉脉",
+        "吉比特"
       ],
       "category": "脉脉",
       "topic": "公司综合",
@@ -7749,7 +7804,8 @@ window.MONITOR_DATA = {
       "time": "2024-09-12 15:00",
       "tags": [
         "脉脉",
-        "实名"
+        "实名",
+        "吉比特"
       ],
       "category": "脉脉",
       "topic": "公司综合"
@@ -7958,7 +8014,9 @@ window.MONITOR_DATA = {
       "sentiment": "neutral",
       "time": "2024-09-06 18:19",
       "tags": [
-        "脉脉"
+        "脉脉",
+        "吉比特",
+        "雷霆游戏"
       ],
       "category": "脉脉",
       "topic": "公司综合",
@@ -7975,7 +8033,9 @@ window.MONITOR_DATA = {
       "time": "2024-09-06 18:19",
       "tags": [
         "脉脉",
-        "实名"
+        "实名",
+        "吉比特",
+        "雷霆游戏"
       ],
       "category": "脉脉",
       "topic": "公司综合"
@@ -7989,7 +8049,9 @@ window.MONITOR_DATA = {
       "sentiment": "neutral",
       "time": "2024-09-06 11:31",
       "tags": [
-        "脉脉"
+        "脉脉",
+        "吉比特",
+        "雷霆游戏"
       ],
       "category": "脉脉",
       "topic": "公司综合",
@@ -8006,7 +8068,9 @@ window.MONITOR_DATA = {
       "time": "2024-09-06 11:31",
       "tags": [
         "脉脉",
-        "实名"
+        "实名",
+        "吉比特",
+        "雷霆游戏"
       ],
       "category": "脉脉",
       "topic": "公司综合"
@@ -8411,7 +8475,8 @@ window.MONITOR_DATA = {
       "time": "2024-06-25 18:16",
       "tags": [
         "脉脉",
-        "雷霆游戏"
+        "雷霆游戏",
+        "吉比特"
       ],
       "category": "脉脉",
       "topic": "招聘求职",
@@ -8429,7 +8494,8 @@ window.MONITOR_DATA = {
       "tags": [
         "脉脉",
         "实名",
-        "雷霆游戏"
+        "雷霆游戏",
+        "吉比特"
       ],
       "category": "脉脉",
       "topic": "招聘求职"
@@ -9501,7 +9567,8 @@ window.MONITOR_DATA = {
       "time": "2023-02-21 13:48",
       "tags": [
         "脉脉",
-        "吉比特"
+        "吉比特",
+        "雷霆游戏"
       ],
       "category": "脉脉",
       "topic": "招聘求职",
