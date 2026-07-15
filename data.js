@@ -1,4 +1,4 @@
-// 舆情数据文件 —— 由 fetch.js 自动写入，请勿手动编辑
+// 舆情数据文件 — 由 fetch.js / fetch-xhs.js / fetch-zhihu.js / fetch-maimai.js 自动写入，请勿手动编辑
 // 页面通过 <script src="data.js"> 读取，避免 file:// 下 fetch 被浏览器拦截
 window.MONITOR_DATA = {
   "updatedAt": "2026-07-15 12:32",
@@ -6,7 +6,12 @@ window.MONITOR_DATA = {
     "吉比特",
     "雷霆游戏"
   ],
-  "loginStatus": {},
+  "loginStatus": {
+    "脉脉": {
+      "failedSince": "2026-07-15 13:39",
+      "lastCheck": "2026-07-15 13:39"
+    }
+  },
   "items": [
     {
       "id": "xhs-6a5479540000000021009076",
