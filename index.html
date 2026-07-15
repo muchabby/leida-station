@@ -323,10 +323,43 @@
     .src p{margin:0;color:var(--muted);font-size:12px;line-height:1.7}
     .src .stat{display:inline-block;margin-top:8px;font-size:12px;color:var(--text);font-weight:600}
     .mobile-toggle{display:none}
-    @media(max-width:1140px){.app{grid-template-columns:1fr}.sidebar{position:relative;height:auto}.mobile-toggle{display:inline-flex}
-      .sidebar.collapsed .nav,.sidebar.collapsed .sidebar-card,.sidebar.collapsed .sidebar-footer{display:none}}
-    @media(max-width:900px){.summary-grid{grid-template-columns:repeat(2,1fr)}.src-grid{grid-template-columns:1fr}}
-    @media(max-width:720px){.content{padding:14px}.topbar{flex-direction:column;align-items:flex-start}.status{width:100%;justify-content:space-between}}
+    /* ===== 响应式 / 移动端适配 ===== */
+    /* 全局兜底：任何情况下都不许出现横向滚动 */
+    html,body{max-width:100%;overflow-x:hidden}
+    @media(max-width:1140px){
+      .app{grid-template-columns:1fr}
+      /* 侧栏改为顶部抽屉：默认收起（只在点"菜单"后展开），收起时整体不占高、不撑宽 */
+      .sidebar{position:relative;height:auto;padding:16px 18px;overflow:hidden}
+      .sidebar::before{display:none}                 /* 关掉会撑尺寸的绝对定位装饰 */
+      .sidebar .brand{margin-bottom:0}
+      .sidebar.collapsed .sidebar-card,
+      .sidebar.collapsed .nav,
+      .sidebar.collapsed .sidebar-footer{display:none}
+      .mobile-toggle{display:inline-flex}
+      .nav{flex-direction:row;flex-wrap:wrap}         /* 展开时导航横向排列更省高度 */
+      .nav button{flex:1 1 auto}
+    }
+    @media(max-width:900px){
+      .summary-grid{grid-template-columns:repeat(2,1fr);gap:12px}
+      .src-grid{grid-template-columns:1fr}
+      .overview-row{grid-template-columns:1fr}        /* 环形图与热词改上下排列，不再挤在一行 */
+    }
+    @media(max-width:600px){
+      .content{padding:14px}
+      .topbar{flex-direction:column;align-items:stretch;gap:12px}
+      .topbar>div:last-child{flex-wrap:wrap}          /* topbar 右侧按钮组允许换行 */
+      .status{font-size:12px;padding:8px 12px}
+      .summary-grid{gap:10px}
+      .metric .v{font-size:26px}                      /* 统计数字略缩，避免撑破卡片 */
+      .filters,.toolbar{gap:6px}
+      .chip{padding:7px 12px;font-size:12px}
+      .donut-wrap{justify-content:center}
+      .feed-item{padding:14px}
+      h2#pageTitle{font-size:20px}
+    }
+    @media(max-width:400px){
+      .summary-grid{grid-template-columns:1fr}         /* 极窄屏统计卡单列，彻底不挤 */
+    }
   </style>
 </head>
 <body>
@@ -966,6 +999,15 @@
       window.scrollTo({top:0,behavior:"smooth"});
     });
     document.getElementById("toggleSidebar").addEventListener("click",()=>document.getElementById("sidebar").classList.toggle("collapsed"));
+    // 移动端（≤1140px）默认收起侧栏，避免一进页面侧栏占满首屏；点"菜单"再展开。
+    // 点导航项后自动收起，回到内容区。
+    (function initSidebarForMobile(){
+      const sb=document.getElementById("sidebar");
+      if(window.matchMedia("(max-width:1140px)").matches) sb.classList.add("collapsed");
+      document.getElementById("nav").addEventListener("click",e=>{
+        if(e.target.closest("button") && window.matchMedia("(max-width:1140px)").matches) sb.classList.add("collapsed");
+      });
+    })();
 
     // 工具栏：搜索 / 排序 / 情绪
     document.getElementById("searchInput").addEventListener("input",e=>{state.q=e.target.value;renderFullFeed();});
