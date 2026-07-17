@@ -1,4 +1,4 @@
-// 舆情数据文件 — 由 fetch.js / fetch-zhihu.js 自动写入，请勿手动编辑
+// 舆情数据文件 — 由 fetch.js / fetch-xhs.js 自动写入，请勿手动编辑
 // 页面通过 <script src="data.js"> 读取，避免 file:// 下 fetch 被浏览器拦截
 window.MONITOR_DATA = {
   "loginStatus": {},
@@ -12161,6 +12161,29 @@ window.MONITOR_DATA = {
       "topic": "招聘求职",
       "section": "舆情",
       "pushable": true
+    },
+    {
+      "id": "xhs-6a58c1ea000000001101eaeb",
+      "platform": "小红书",
+      "title": "大厂 互联网大厂 游戏圈那些事 裁员 游戏圈八卦 薪资 绩效 吉比特 雷霆游戏",
+      "summary": "游戏营销seven哥 · 👍3 收藏1 · 评论:赚那么多钱还降薪/不是一直说吉比特待遇好吗",
+      "url": "https://www.xiaohongshu.com/explore/6a58c1ea000000001101eaeb?xsec_token=ABktLs3mtQ4SEOr7VPiOg6E4H4GPPx7D4u69oo7yso3VE=",
+      "sentiment": "negative",
+      "time": "2026-07-16 19:35",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "雷霆游戏",
+        "裁员",
+        "薪资",
+        "绩效",
+        "👍3",
+        "手动补录"
+      ],
+      "category": "小红书",
+      "_liked": 3,
+      "_feedId": "6a58c1ea000000001101eaeb",
+      "_xsecToken": "ABktLs3mtQ4SEOr7VPiOg6E4H4GPPx7D4u69oo7yso3VE="
     }
   ]
 };
