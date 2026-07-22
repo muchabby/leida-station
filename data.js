@@ -1,13 +1,765 @@
 // 舆情数据文件 — 由 fetch.js / fetch-xhs.js / fetch-zhihu.js / fetch-maimai.js 自动写入，请勿手动编辑
 // 页面通过 <script src="data.js"> 读取，避免 file:// 下 fetch 被浏览器拦截
 window.MONITOR_DATA = {
-  "updatedAt": "2026-07-22 11:15",
+  "updatedAt": "2026-07-22 11:29",
   "keywords": [
     "吉比特",
     "雷霆游戏"
   ],
   "loginStatus": {},
   "items": [
+    {
+      "id": "maimai-26ef748bcd0eb41c",
+      "platform": "脉脉",
+      "title": "16楼，有个兄弟或者姐妹，26号早上茶叶没倒哈！   我差点给你接盘了，…",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/0/6",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "neutral",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合"
+    },
+    {
+      "id": "maimai-c4335e4c30195fae",
+      "platform": "脉脉",
+      "title": "诸位如何看？",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/7/4",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "neutral",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合"
+    },
+    {
+      "id": "maimai-c589b2cc3ac050cb",
+      "platform": "脉脉",
+      "title": "旗帜鲜明996",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/6/7",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "neutral",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "企业文化"
+    },
+    {
+      "id": "maimai-532afa5bd17ab7f4",
+      "platform": "脉脉",
+      "title": "想起来，前面让签署的加班工资包含在工资内的条款，以及自愿加班协议都是无效…",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/2/3",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "negative",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "企业文化"
+    },
+    {
+      "id": "maimai-9277305de99fbf75",
+      "platform": "脉脉",
+      "title": "怎么老发扶农产品啊………",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/0/2",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "neutral",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合"
+    },
+    {
+      "id": "maimai-3a85ed736d257c82",
+      "platform": "脉脉",
+      "title": "真的这么多人这么开心？\n底层人民发的奖金和奖品金额都在一定的预算范围内，…",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/6/3",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "neutral",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合"
+    },
+    {
+      "id": "maimai-f80e72fad572b7fd",
+      "platform": "脉脉",
+      "title": "G刻成长那个成长故事话题互动为啥没人参加呢？",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/3/1",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "neutral",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合"
+    },
+    {
+      "id": "maimai-901ab16699e70fd1",
+      "platform": "脉脉",
+      "title": "中国游戏市场10月销售收入超197亿元，6个月内首次环比正增长\n11月2…",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/0/3",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "positive",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合"
+    },
+    {
+      "id": "maimai-45e9fc486ee12fab",
+      "platform": "脉脉",
+      "title": "一个人，到底应该睡右边或左边？",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/1/9",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "neutral",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合"
+    },
+    {
+      "id": "maimai-4286719fed03cc89",
+      "platform": "脉脉",
+      "title": "怎么这里没人说话 隔壁藤子好热闹",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/0/1",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "neutral",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合"
+    },
+    {
+      "id": "maimai-c89a500d50fb5126",
+      "platform": "脉脉",
+      "title": "后悔过来了 太卷了 一点没有做事的氛围",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/6/8",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "negative",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "企业文化"
+    },
+    {
+      "id": "maimai-15afd3b6976dafb6",
+      "platform": "脉脉",
+      "title": "木有粽子\n连粽子都没有了\nDamn",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/3/3",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "neutral",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合"
+    },
+    {
+      "id": "maimai-480155b11cb7adfc",
+      "platform": "脉脉",
+      "title": "不想干了好烦",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/2/3",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "neutral",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合"
+    },
+    {
+      "id": "maimai-e7ea8c9bb78374aa",
+      "platform": "脉脉",
+      "title": "初来乍到，发现hr是真的好看",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/13/6",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "neutral",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合"
+    },
+    {
+      "id": "maimai-a01b17e9b458a356",
+      "platform": "脉脉",
+      "title": "有N+1攻略吗？想离职了。",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/2/3",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "neutral",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合"
+    },
+    {
+      "id": "maimai-79a023c85bf0610c",
+      "platform": "脉脉",
+      "title": "深圳运营也996了？",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/8/4",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "neutral",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "企业文化"
+    },
+    {
+      "id": "maimai-0a90d02e484f7f60",
+      "platform": "脉脉",
+      "title": "运营同学还好不？",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/3/4",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "neutral",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合"
+    },
+    {
+      "id": "maimai-bb11f06591264964",
+      "platform": "脉脉",
+      "title": "哇，这个祝福真是太贴心了，但愿是真的！",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/0/1",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "neutral",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合"
+    },
+    {
+      "id": "maimai-f5d21e7cd5dbbc96",
+      "platform": "脉脉",
+      "title": "我的祝福卡是“每次都能获得大额外卖券”，那一会儿就去点外卖",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/0/1",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "neutral",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合"
+    },
+    {
+      "id": "maimai-c5c7331b634e8a3d",
+      "platform": "脉脉",
+      "title": "希望市场可以好起来",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/0/2",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "neutral",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合"
+    },
+    {
+      "id": "maimai-1c0b1e2011f1ade4",
+      "platform": "脉脉",
+      "title": "身体是第一位的，感谢今天的祝福卡",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/1/3",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "neutral",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合"
+    },
+    {
+      "id": "maimai-34b9eb6315a96a6e",
+      "platform": "脉脉",
+      "title": "72成了？",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/0/4",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "neutral",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合"
+    },
+    {
+      "id": "maimai-dfa82c3632c6c054",
+      "platform": "脉脉",
+      "title": "进来的时候说14，现在给的时候就变成12.5了，这年终奖给的我还以为是加…",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/11/2",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "negative",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "企业文化"
+    },
+    {
+      "id": "maimai-a7ad9f6ebba95c69",
+      "platform": "脉脉",
+      "title": "下班就去狂吃",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/0/2",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "neutral",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合"
+    },
+    {
+      "id": "maimai-dc567616310862f9",
+      "platform": "脉脉",
+      "title": "提前放假咯",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/10/5",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "neutral",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合"
+    },
+    {
+      "id": "maimai-03c471f0c0563894",
+      "platform": "脉脉",
+      "title": "奋斗多年心身疲，牛马之日何时是个头？",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/1/3",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "neutral",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "企业文化"
+    },
+    {
+      "id": "maimai-b37f7050f8bb5545",
+      "platform": "脉脉",
+      "title": "没听太明白，有谁翻译翻译今天大会的主题是啥？",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/1/3",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "neutral",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合"
+    },
+    {
+      "id": "maimai-8dd7a4d8a9e78f4f",
+      "platform": "脉脉",
+      "title": "**公司",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/3/6",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "neutral",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合"
+    },
+    {
+      "id": "maimai-a88ff8ed8981fa7e",
+      "platform": "脉脉",
+      "title": "近年大裁员后，努力干活的人，有能力的人基本全裁了，可惜，我指的也并不是单…",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/7/4",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "negative",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合"
+    },
+    {
+      "id": "maimai-01efdcbfb3cfdab1",
+      "platform": "脉脉",
+      "title": "71发生了什么？",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/1/3",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "neutral",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合"
+    },
+    {
+      "id": "maimai-e6307a845968f211",
+      "platform": "脉脉",
+      "title": "好羡慕那些能把一点小事吹成大功劳的人啊，为什么我就不会把汇报写的那么有水…",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/1/6",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "neutral",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合"
+    },
+    {
+      "id": "maimai-5efe14f93de74be8",
+      "platform": "脉脉",
+      "title": "为什么上了班之后越来越觉得世界太草台班子了？",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/1/7",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "neutral",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合"
+    },
+    {
+      "id": "maimai-de2ecf96d2481972",
+      "platform": "脉脉",
+      "title": "年底了，是不是要准备准备，冲击一下明年的金三银四？",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/0/5",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "neutral",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合"
+    },
+    {
+      "id": "maimai-bd189e19254d0d3f",
+      "platform": "脉脉",
+      "title": "问一下圈内的友友们，直系领导和大领导都给你派发工作，且冲突，你会咋办？",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/1/3",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "neutral",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合"
+    },
+    {
+      "id": "maimai-2b50ab1a7baeacb0",
+      "platform": "脉脉",
+      "title": "大家过年去哪里玩啊？",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/0/2",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "neutral",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合"
+    },
+    {
+      "id": "maimai-e9b325c65d8d60b9",
+      "platform": "脉脉",
+      "title": "新年去哪里玩，有推荐的吗？",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/0/1",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "positive",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合"
+    },
+    {
+      "id": "maimai-c982a3849c7a2da0",
+      "platform": "脉脉",
+      "title": "今天是不是没人不开心",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/1/5",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "neutral",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合"
+    },
+    {
+      "id": "maimai-aaf4e5dddae00f18",
+      "platform": "脉脉",
+      "title": "啥时候发年终啊，非得磨磨唧唧～笑哭]",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/1/1",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "neutral",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合"
+    },
+    {
+      "id": "maimai-2da50479fa0375cc",
+      "platform": "脉脉",
+      "title": "1-5分，咱们公司你给打几分？",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/2/1",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "neutral",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合"
+    },
+    {
+      "id": "maimai-f46b511671978397",
+      "platform": "脉脉",
+      "title": "大家都是如何处理职场中的人情世故的？",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/1/1",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "neutral",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合"
+    },
+    {
+      "id": "maimai-02cf06b9408a47f4",
+      "platform": "脉脉",
+      "title": "感觉今年股市还能涨，感觉要多加一点",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/0/3",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "neutral",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合"
+    },
+    {
+      "id": "maimai-ec72b2ecd6b1cb34",
+      "platform": "脉脉",
+      "title": "从夯到垃，给自己过去一年打个分吧，我终极简直拉完了",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/0/1",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "neutral",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合"
+    },
+    {
+      "id": "maimai-9e80964d72419e97",
+      "platform": "脉脉",
+      "title": "许愿我今年可以涨工资！",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/3/2",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "neutral",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合"
+    },
+    {
+      "id": "maimai-a6c4aeb82fa7e37b",
+      "platform": "脉脉",
+      "title": "这波职级调整是变相降薪逼人离职吗",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 5/8/10",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "negative",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合"
+    },
+    {
+      "id": "maimai-d2c8e892655806d6",
+      "platform": "脉脉",
+      "title": "大家怎么看待G言的？",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 1/6/4",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "neutral",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合"
+    },
+    {
+      "id": "maimai-285402f71f453c6e",
+      "platform": "脉脉",
+      "title": "降薪离职二选一，各位怎么选？",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 5/18/6",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "negative",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合"
+    },
+    {
+      "id": "maimai-ce19298a30858677",
+      "platform": "脉脉",
+      "title": "为什么突然降薪啊，不是去年今年赚的都挺多的吗",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 3/5/3",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "negative",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合"
+    },
     {
       "id": "maimai-3456a7f008601207",
       "platform": "脉脉",
