@@ -1,7 +1,7 @@
-// 舆情数据文件 —— 由 fetch.js 自动写入，请勿手动编辑
+// 舆情数据文件 — 由 fetch.js / fetch-xhs.js / fetch-zhihu.js / fetch-maimai.js 自动写入，请勿手动编辑
 // 页面通过 <script src="data.js"> 读取，避免 file:// 下 fetch 被浏览器拦截
 window.MONITOR_DATA = {
-  "updatedAt": "2026-08-05 12:46",
+  "updatedAt": "2026-08-05 13:28",
   "keywords": [
     "吉比特",
     "雷霆游戏"
@@ -15575,6 +15575,293 @@ window.MONITOR_DATA = {
       "topic": "招聘求职",
       "section": "舆情",
       "pushable": true
+    },
+    {
+      "id": "xhs-6a721ab50000000022010e88",
+      "platform": "小红书",
+      "title": "雷霆游戏配雷霆表情包",
+      "summary": "硬汉 · 👍8 收藏3 · 视频",
+      "url": "https://www.xiaohongshu.com/explore/6a721ab50000000022010e88?xsec_token=ABSzYc3cSz_l5thvCv3efMiPOl4QZHG3_wvPfz7PCMOXI=",
+      "sentiment": "neutral",
+      "time": "2026-08-05 01:00",
+      "tags": [
+        "小红书",
+        "👍8",
+        "熊大",
+        "游戏",
+        "熊大熊二",
+        "老玩家的回忆",
+        "熊出没",
+        "经典游戏"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏 降薪",
+      "topic": "公司综合"
+    },
+    {
+      "id": "xhs-6a71e813000000002201304e",
+      "platform": "小红书",
+      "title": "多年以后他们会感谢自己做了这个雷霆游戏",
+      "summary": "大板凳娱乐 · 👍889 收藏298 · 视频",
+      "url": "https://www.xiaohongshu.com/explore/6a71e813000000002201304e?xsec_token=ABkXf98DUPbkVbRzjJ7lGMjkW_T7aKxEYVsJkBfz9oRpM=",
+      "sentiment": "neutral",
+      "time": "2026-08-04 21:24",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍889",
+        "青春",
+        "高中生",
+        "完蛋我被男同学包围了",
+        "游戏",
+        "真人实拍"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合"
+    },
+    {
+      "id": "xhs-6a71ca3f000000002701d93a",
+      "platform": "小红书",
+      "title": "必须发一下这个雷霆游戏",
+      "summary": "佛说不可说 · 👍33 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/6a71ca3f000000002701d93a?xsec_token=ABkXf98DUPbkVbRzjJ7lGMjghpx0Qb-5CnexNTFBMyWEA=",
+      "sentiment": "neutral",
+      "time": "2026-08-04 19:17",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍33",
+        "搞笑",
+        "完蛋我被男同学包围了",
+        "steam游戏"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合"
+    },
+    {
+      "id": "maimai-0da700b1d582a242",
+      "platform": "脉脉",
+      "title": "四大1年半跳槽吉比特财务 1.薪资情况...总包25w，游戏上市公司标准…",
+      "summary": "💬职言 职言匿名",
+      "url": "https://maimai.cn/web/search_center?type=gossip&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
+      "sentiment": "positive",
+      "time": "2026-08-04 14:42",
+      "tags": [
+        "脉脉",
+        "职言",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "招聘求职"
+    },
+    {
+      "id": "maimai-f7e887489356782e",
+      "platform": "脉脉",
+      "title": "ADI集创北方中科芯芯海ARM寒武纪复容微比特大陆算能科技展锐...裕太…",
+      "summary": "💬职言 职言匿名 · 2 赞 25 评论",
+      "url": "https://maimai.cn/web/search_center?type=gossip&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
+      "sentiment": "neutral",
+      "time": "2026-07-30 12:21",
+      "tags": [
+        "脉脉",
+        "职言",
+        "雷霆游戏"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合"
+    },
+    {
+      "id": "maimai-56e7083af7118176",
+      "platform": "脉脉",
+      "title": "雷霆游戏税务岗，怎么样",
+      "summary": "💬职言 职言匿名",
+      "url": "https://maimai.cn/web/search_center?type=gossip&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
+      "sentiment": "neutral",
+      "time": "2026-07-25 08:55",
+      "tags": [
+        "脉脉",
+        "职言",
+        "雷霆游戏",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合"
+    },
+    {
+      "id": "maimai-d98c2b8df3fe6440",
+      "platform": "脉脉",
+      "title": "最近痴迷杖剑，刷到了吉比特的报告，现在AI...在游戏使用的这么厉害吗，…",
+      "summary": "💬职言 职言匿名 · 1 赞 7 评论",
+      "url": "https://maimai.cn/web/search_center?type=gossip&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
+      "sentiment": "neutral",
+      "time": "2026-07-24 17:42",
+      "tags": [
+        "脉脉",
+        "职言",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合"
+    },
+    {
+      "id": "maimai-89258308f71a0404",
+      "platform": "脉脉",
+      "title": "吉比特：每10股派100元现金红利，有员工说自己薪资没涨...，这个话题…",
+      "summary": "💬职言 职言匿名 · 2 赞 1 评论",
+      "url": "https://maimai.cn/web/search_center?type=gossip&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
+      "sentiment": "neutral",
+      "time": "2026-07-23 08:39",
+      "tags": [
+        "脉脉",
+        "职言",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "招聘求职"
+    },
+    {
+      "id": "xhs-69804ceb000000002200bc89",
+      "platform": "小红书",
+      "title": "丙午火马启新局✨吉比特2月热招岗位来啦！",
+      "summary": "吉比特招聘 · 👍404 收藏236",
+      "url": "https://www.xiaohongshu.com/explore/69804ceb000000002200bc89?xsec_token=ABN5kpPDIYX_cjurbLqeMreShYhl6FIVIP4MjZLvwHCz8=",
+      "sentiment": "neutral",
+      "time": "2026-02-03 11:00",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍404",
+        "吉比特",
+        "社招",
+        "游戏",
+        "求职",
+        "游戏公司",
+        "招聘",
+        "找工作",
+        "就业",
+        "offer"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "招聘求职"
+    },
+    {
+      "id": "maimai-be389cc0e0caaeed",
+      "platform": "脉脉",
+      "title": "渴望自己的创作才能被充分看见 欢迎来这里看看，吉比特...",
+      "summary": "吉比特游戏·企业号人力资源(HR)/人事 · 3 赞 1 分享",
+      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
+      "sentiment": "neutral",
+      "time": "2025-09-24 10:02",
+      "tags": [
+        "脉脉",
+        "实名",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合"
+    },
+    {
+      "id": "maimai-bb6bdd0f2c35df09",
+      "platform": "脉脉",
+      "title": "吉比特Q3业绩下滑，董事长：剔除那些制作人自己都没有那么热爱的产品...…",
+      "summary": "Ken·速得伯信息Managing consultant · 1 赞",
+      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
+      "sentiment": "neutral",
+      "time": "2024-10-31 15:40",
+      "tags": [
+        "脉脉",
+        "实名",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "股票财务"
+    },
+    {
+      "id": "maimai-3a375b8d7f0c198b",
+      "platform": "脉脉",
+      "title": "股上市头部游戏公司中，三七互娱、完美世界、吉比特...：向全体股东每 1…",
+      "summary": "王乐·面包财经总裁 · 1 评论",
+      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
+      "sentiment": "positive",
+      "time": "2024-08-28 09:40",
+      "tags": [
+        "脉脉",
+        "实名",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合"
+    },
+    {
+      "id": "xhs-6c4f4a02-8890-48a4-8e63-230e0995a9da#1785907863766",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/6c4f4a02-8890-48a4-8e63-230e0995a9da#1785907863766?xsec_token=ABOoeh1tUEA3SdmwalB38H9u1yiTZwJnaXwtvGeCt4INr3kkHZ0KfOBnX2j7zMEMMIX6ClQXNitW_-ZKprfajYzsO0n3TKilGBK-wR-fCQoto=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合"
+    },
+    {
+      "id": "xhs-af9f96dd-3eb1-4115-b831-cd41b5638cdc#1785907864589",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/af9f96dd-3eb1-4115-b831-cd41b5638cdc#1785907864589?xsec_token=AB3EU62txFzvAGXYsIRrQep4FAUPyxnNWNXd91Us8Ygi8o009qXo2Q-cdlPadpnHOBig46a9VO0f76jYwqtn0uPap6026XSsG5VlGSWrl_Tko=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合"
+    },
+    {
+      "id": "xhs-6c8e6a4a-8f52-49c3-882f-8b26fcff9ada#1785907871675",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/6c8e6a4a-8f52-49c3-882f-8b26fcff9ada#1785907871675?xsec_token=AB1D9r7G94Zdsr2qLslaqGG6ZsFDzPk4KYxeeCAMlYHu9GtHAcJZOS82VUN9xCBLqzLaTpNV1b_oJEVqt1cm7xtQQ-4uqqR9e9oO_AGhTV0EI=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合"
+    },
+    {
+      "id": "xhs-753f8640-abde-4fdf-ab10-ff033d9099ba#1785907872856",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/753f8640-abde-4fdf-ab10-ff033d9099ba#1785907872856?xsec_token=ABZroQtmzU2Uc2aLo4lV343gCKhh8VNytIauewm6wZNBP0u57bchsjt2a3MIsY7jpGNPRII8aj4EV0mfHJKCugs7ye0-pxgknU9RH2NI13d0w=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合"
     }
   ]
 };
