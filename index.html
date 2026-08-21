@@ -295,6 +295,10 @@
     .cat-脉脉{background:rgba(194,121,42,.14);color:var(--warn)}
     .cat-牛客{background:rgba(63,158,158,.14);color:#3f9e9e}
     .cat-小红书{background:rgba(209,87,126,.14);color:#d1577e}
+    .cat-游戏垂媒{background:rgba(122,95,178,.14);color:#7a5fb2}
+    .cat-版号{background:rgba(176,58,58,.13);color:#b03a3a}
+    [data-theme="dark"] .cat-游戏垂媒{color:#a58ad6}
+    [data-theme="dark"] .cat-版号{color:#e08585}
     [data-theme="dark"] .cat-知乎{color:#7ea0e0}
     [data-theme="dark"] .cat-牛客{color:#6cc5c5}
     [data-theme="dark"] .cat-小红书{color:#e88aa8}
@@ -563,6 +567,8 @@
             <div class="src"><div class="pill">✅ 已覆盖</div><h5>财经 / 新闻 / 公告</h5><p>股价、财报、业绩预告、分红、上市公司公告等。东方财富接口免登录稳定抓取，每日定时更新。</p></div>
             <div class="src"><div class="pill">✅ 已覆盖</div><h5>知乎 / 脉脉 / 牛客</h5><p>知乎（玩家口碑、行业分析）、脉脉与牛客（招聘、面经）经 SerpAPI 站内搜索接入，云端每天 9 点抓取一次。</p></div>
             <div class="src"><div class="pill">✅ 已覆盖</div><h5>小红书</h5><p>经浏览器扩展用真实登录态抓取（绕过搜索引擎不收录的限制），关键词搜索 + 详情补发布日期。本机定时每天 14 点跑一次，自动同步上云。</p></div>
+            <div class="src"><div class="pill">✅ 已覆盖</div><h5>游戏垂媒（陀螺 / 触乐 / GameLook）</h5><p>走各站 RSS 抓取，零 SerpAPI 额度、每天跟车更新。提到本司的进品牌舆情，其余行业内容进「行业动态」。垂媒是新游立项、竞品动向最早露头的地方。</p></div>
+            <div class="src"><div class="pill">✅ 已覆盖</div><h5>版号公示（国家新闻出版署）</h5><p>官方月度公示，可核实硬信号。只收录出版 / 运营单位为本司的获批游戏（按公司名判定，避免《雷霆奇迹》这类撞词误判），当月汇成一条。</p></div>
             <div class="src"><div class="pill" style="background:rgba(15,138,98,.1);color:var(--success)">✅ 已就绪</div><h5>无人值守 + 飞书推送</h5><p>新闻 / 社交抓取已上云（GitHub Actions 每天 9 点），小红书本机定时每天 14 点。负面舆情自动推送飞书群。</p></div>
           </div>
         </div>
@@ -819,9 +825,9 @@
     }
 
     // C. 分类占比环形图（canvas 手绘，无依赖）
-    const CAT_COLORS={"财经新闻":"#b8860b","公司公告":"#3f7d5e","知乎":"#4a72c2","脉脉":"#c2792a","牛客":"#3f9e9e","小红书":"#d1577e"};
+    const CAT_COLORS={"财经新闻":"#b8860b","公司公告":"#3f7d5e","知乎":"#4a72c2","脉脉":"#c2792a","牛客":"#3f9e9e","小红书":"#d1577e","游戏垂媒":"#7a5fb2","版号":"#b03a3a"};
     function renderDonut(){
-      const order=["财经新闻","公司公告","知乎","脉脉","牛客","小红书"];
+      const order=["财经新闻","公司公告","版号","游戏垂媒","知乎","脉脉","牛客","小红书"];
       const counts=order.map(c=>({c,n:bizItems().filter(i=>i.category===c).length})).filter(x=>x.n>0);
       const total=counts.reduce((s,x)=>s+x.n,0);
       const cv=document.getElementById("catDonut"), ctx=cv.getContext("2d");
@@ -912,7 +918,7 @@
 
     function renderFilters(){
       // 按分类筛选：财经新闻/公司公告 按内容分，社交平台 知乎/脉脉/牛客/小红书 按来源分
-      const order=["财经新闻","公司公告","知乎","脉脉","牛客","小红书"];
+      const order=["财经新闻","公司公告","版号","游戏垂媒","知乎","脉脉","牛客","小红书"];
       const present=order.filter(c=>bizItems().some(i=>i.category===c));
       const names=["全部",...present];
       document.getElementById("filters").innerHTML=names.map(n=>{

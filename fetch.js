@@ -30,6 +30,9 @@ function categorize(item){
   if(item.platform==="脉脉") return "脉脉";
   if(item.platform==="牛客") return "牛客";
   if(item.platform==="小红书") return "小红书";
+  if(item.platform==="版号公示") return "版号";
+  // 垂媒三家（游戏陀螺/触乐/GameLook）归一类，前端只需一个徽标
+  if(item.platform==="游戏陀螺" || item.platform==="触乐" || item.platform==="GameLook") return "游戏垂媒";
   return "财经新闻";
 }
 
@@ -92,6 +95,8 @@ const isRelevant = text => { let t = String(text||""); for(const n of BRAND_NEG)
 // 游戏行业大盘讯息，区别于本品牌舆情。判定逻辑集中在 monitor-rules.js（行业实体/事件/上下文词 + 三段式 isRelevant）。
 // 只取行业判定，不取它的 KEYWORDS/TOPIC_RULES（fetch.js 自有品牌版）。零额度：行业新闻走东方财富免费接口，不碰 SerpAPI。
 const { isIndustryRelevant, isIndustryNoise, isMeaningfulTitle: isIndustryMeaningful } = require("./monitor-rules");
+// 垂媒 RSS（游戏陀螺/触乐/GameLook）+ 版号公示，均零 SerpAPI 额度。判定规则由本文件注入，不在那边重复维护。
+const { fetchMediaFeeds, fetchNppa } = require("./fetch-media");
 // 行业搜索入口词：精简版，只留高信号词——核心事件 + 主要厂商（命中厂商名质量最高）。
 // 砍掉"游戏行业/新游上线"等宽泛词（搜出来多是 ETF 行情、泛"上线"噪音）。
 const INDUSTRY_SEARCH = [
@@ -390,6 +395,20 @@ async function pushLark(newItems, allItems, daily, loginStatus){
     try { fetched.push(...await fetchIndustryNews(kw)); }
     catch(e){ console.log(`抓取行业[${kw}]失败：`, e.message); }
   }
+
+  // 垂媒 RSS + 版号公示：零额度，每天都抓。内部自行做品牌/行业两路分流。
+  const mediaDeps = { isRelevant, judge, isIndustryRelevant, isIndustryNoise };
+  let mediaCnt = 0, nppaCnt = 0;
+  try {
+    const mediaItems = await fetchMediaFeeds(mediaDeps);
+    mediaCnt = mediaItems.length;
+    fetched.push(...mediaItems);
+  } catch(e){ console.log("抓取垂媒失败：", e.message); }
+  try {
+    const nppaItems = await fetchNppa(mediaDeps);
+    nppaCnt = nppaItems.length;
+    fetched.push(...nppaItems);
+  } catch(e){ console.log("抓取版号失败：", e.message); }
 
   // 社交站：仅在开了 FETCH_SOCIAL 的那次任务抓（每天1次，省额度）
   // 方案A：知乎只在周末由 SerpAPI 兜底抓；工作日由本机 fetch-zhihu.js 经 CDP 深挖（更精确）。
