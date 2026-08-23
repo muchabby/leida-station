@@ -1,4 +1,4 @@
-// 舆情数据文件 —— 由 fetch.js 自动写入，请勿手动编辑
+// 舆情数据文件 — 由 fetch.js / fetch-xhs.js / fetch-zhihu.js / fetch-maimai.js 自动写入，请勿手动编辑
 // 页面通过 <script src="data.js"> 读取，避免 file:// 下 fetch 被浏览器拦截
 window.MONITOR_DATA = {
   "updatedAt": "2026-08-23 10:48",
@@ -9,7 +9,7 @@ window.MONITOR_DATA = {
   "loginStatus": {
     "脉脉": {
       "failedSince": "2026-08-22 11:00",
-      "lastCheck": "2026-08-22 11:00"
+      "lastCheck": "2026-08-23 11:00"
     }
   },
   "items": [
