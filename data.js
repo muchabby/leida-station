@@ -1,18 +1,146 @@
-// 舆情数据文件 — 由 fetch.js / fetch-xhs.js / fetch-zhihu.js / fetch-maimai.js 自动写入，请勿手动编辑
+// 舆情数据文件 — 由 fetch.js / fetch-xhs.js 自动写入，请勿手动编辑
 // 页面通过 <script src="data.js"> 读取，避免 file:// 下 fetch 被浏览器拦截
 window.MONITOR_DATA = {
+  "loginStatus": {
+    "脉脉": {
+      "failedSince": "2026-09-04 11:00",
+      "lastCheck": "2026-09-04 11:00"
+    }
+  },
   "updatedAt": "2026-09-06 16:53",
   "keywords": [
     "吉比特",
     "雷霆游戏"
   ],
-  "loginStatus": {
-    "脉脉": {
-      "failedSince": "2026-09-04 11:00",
-      "lastCheck": "2026-09-07 09:37"
-    }
-  },
   "items": [
+    {
+      "id": "xhs-6a9e145a000000002803a182",
+      "platform": "小红书",
+      "title": "吉比特减仓",
+      "summary": "买猫砂送猫 · 👍1 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/6a9e145a000000002803a182?xsec_token=ABnK6eBQzDZ1J-ODnVI7t7QvDjXiNXnINzfIIJHEJGp08=",
+      "sentiment": "neutral",
+      "time": "2026-09-07 09:33",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍1",
+        "我的炒股日记",
+        "股票"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合"
+    },
+    {
+      "id": "xhs-6a9c52d0000000002901774d",
+      "platform": "小红书",
+      "title": "吉比特/雷霆已投",
+      "summary": "momo（27秋招版） · 👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/6a9c52d0000000002901774d?xsec_token=ABsZPwKI8jVtHqIJ3gFDkvkvB1HPobGNHR3ST6FN9SKbw=",
+      "sentiment": "neutral",
+      "time": "2026-09-06 01:35",
+      "tags": [
+        "小红书",
+        "👍0",
+        "秋招",
+        "求offer"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特 降薪",
+      "topic": "招聘求职"
+    },
+    {
+      "id": "media-7nn5sg",
+      "platform": "触乐",
+      "title": "20年老牌IP加MMO，看起来过时的组合首测却爆了？",
+      "summary": "点开《仙境传说》原声专辑的评论区，像打开一本童年回忆录。2015年，玩家评论听见《普隆德拉主题曲》就想落眼泪，想起了陪自己坐在南门角落闲聊的人；在登录曲《Title》下，有人回忆第一次听就惊为天人。他们偶尔循环这些歌曲回想青春，也不时提及即将上线的RO新游，希望和大家再聚一次。今年8月中旬，《Title》的最新评论为&ldquo;RO3快出了&rdquo;。 听见一首老歌的时候 这对于RO玩家是一种情怀。在仍需电话拨号上网的2004年，",
+      "url": "http://www.chuapp.com/article/291613.html",
+      "sentiment": "positive",
+      "time": "2026-09-05 11:00",
+      "tags": [
+        "触乐",
+        "行业"
+      ],
+      "section": "行业",
+      "pushable": false,
+      "category": "财经新闻",
+      "topic": "产品游戏"
+    },
+    {
+      "id": "media-qcozt2",
+      "platform": "游戏陀螺",
+      "title": "运营11年，冲进免费榜近三月最高，这款MMO凭什么还能打",
+      "summary": "一款运营11年的MMO，还能靠什么吸引新玩家？ 最近，《梦幻西游》手游接连推出了几项更新：七夕联动《大话西游之大圣娶亲》，轻享服迎来一周年，新主角玄天一与岭南道版本也陆续上线。 这轮动作着实带来了不小的热度，游戏前不久进入iOS免费榜第15名。 单看起来，这像是一次常规版本节点带来的热度。但实际上，这并不是它第一次进入免费榜前列，iOS畅销榜也长期保持在前十。对一款运营11年的MMO来说，这样的表现很难只用一次爆量解释。 长线MMO的难",
+      "url": "https://www.youxituoluo.com/534858.html",
+      "sentiment": "positive",
+      "time": "2026-09-05 05:25",
+      "tags": [
+        "游戏陀螺",
+        "行业"
+      ],
+      "section": "行业",
+      "pushable": false,
+      "category": "财经新闻",
+      "topic": "产品游戏"
+    },
+    {
+      "id": "media-qtqm79",
+      "platform": "游戏陀螺",
+      "title": "日活850万，这款“佛系”游戏放弃年入1.4亿美元的广告收入",
+      "summary": "有一款&ldquo;游戏&rdquo;长期占据美国应用商店游戏榜单前列,近期甚至攀升至美国iOS畅销榜Top 5，其DAU（日活跃用户）近千万，受众极度优质，但它的买量策略近乎于无，广告变现方式在传统游戏从业者看来甚至有些&ldquo;暴殄天物&rdquo;。 NYT Games过去30日美国iOS游戏畅销榜排行。来源：data.AI 它就是《纽约时报》旗下的游戏矩阵应用&mdash;&mdash;NYT Games（主打《Wordle",
+      "url": "https://www.youxituoluo.com/534857.html",
+      "sentiment": "neutral",
+      "time": "2026-09-04 18:34",
+      "tags": [
+        "游戏陀螺",
+        "行业"
+      ],
+      "section": "行业",
+      "pushable": false,
+      "category": "财经新闻",
+      "topic": "产品游戏"
+    },
+    {
+      "id": "xhs-6a9a99aa000000002602398b",
+      "platform": "小红书",
+      "title": "吉比特实习",
+      "summary": "清欢 · 👍24 收藏8",
+      "url": "https://www.xiaohongshu.com/explore/6a9a99aa000000002602398b?xsec_token=AB0nudx9WpJ8AAB0WRegVt1EdOaPs9KePe3ELGB14-T_I=",
+      "sentiment": "neutral",
+      "time": "2026-09-04 18:12",
+      "tags": [
+        "小红书",
+        "👍24",
+        "秋招",
+        "内推",
+        "吉比特招聘",
+        "实习"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特 裁员",
+      "topic": "招聘求职"
+    },
+    {
+      "id": "xhs-6a9a6fc8000000001001e7c0",
+      "platform": "小红书",
+      "title": "吉比特游戏2027届校招开启啦",
+      "summary": "今天早睡了吗 · 👍1 收藏1",
+      "url": "https://www.xiaohongshu.com/explore/6a9a6fc8000000001001e7c0?xsec_token=AB0nudx9WpJ8AAB0WRegVt1K2Cj_046xjIkAQp9QFG-6c=",
+      "sentiment": "neutral",
+      "time": "2026-09-04 15:14",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍1",
+        "校招",
+        "吉比特秋招",
+        "2027届秋招"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "招聘求职"
+    },
     {
       "id": "xhs-6a9a5d8b0000000029012401",
       "platform": "小红书",
@@ -62,6 +190,40 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
+      "id": "media-x467ak",
+      "platform": "GameLook",
+      "title": "独游慷慨赴死！Steam一周720款新游，“躲过手游买量，逃不过Steam踩踏”",
+      "summary": "【Game Look专稿，禁止转载！】 Game look报道/过去很长一段时间，Steam都是许多中小团队以及独游开发者眼中的“应许之地”，去中心化的流量分发模式、无需向平台上供...",
+      "url": "http://www.gamelook.com.cn/2026/09/601501/",
+      "sentiment": "neutral",
+      "time": "2026-09-04 10:46",
+      "tags": [
+        "GameLook",
+        "行业"
+      ],
+      "section": "行业",
+      "pushable": false,
+      "category": "财经新闻",
+      "topic": "产品游戏"
+    },
+    {
+      "id": "media-x46prc",
+      "platform": "GameLook",
+      "title": "网易投资胡牌了！CDPR前总监新游Steam全球畅销榜夺冠",
+      "summary": "【Game Look专稿，禁止转载！】 Game look报道/过去两年，网易在海外主机赛道的布局留给外界的印象更多是收缩：多家欧美自建工作室关停、部分明星项目中途撤资。另一家大厂...",
+      "url": "http://www.gamelook.com.cn/2026/09/601464/",
+      "sentiment": "neutral",
+      "time": "2026-09-04 10:08",
+      "tags": [
+        "GameLook",
+        "行业"
+      ],
+      "section": "行业",
+      "pushable": false,
+      "category": "财经新闻",
+      "topic": "经营管理"
+    },
+    {
       "id": "xhs-6a9a25a9000000001001da7f",
       "platform": "小红书",
       "title": "吉比特&雷霆游戏2027秋季校园招聘",
@@ -87,6 +249,40 @@ window.MONITOR_DATA = {
       "topic": "招聘求职",
       "section": "舆情",
       "pushable": true
+    },
+    {
+      "id": "media-x46qkm",
+      "platform": "GameLook",
+      "title": "8月抖音小游戏畅销榜Top 100：《灵画师》连冠、三七6款入榜",
+      "summary": "【GameLook专稿，禁止转载！】 GameLook报道/8月份，抖音小游戏市场在经历了一个月的剧烈洗牌之后，开始进入了相对稳定的盘整期。 与7月份相比，8月份的抖音小游戏畅销榜...",
+      "url": "http://www.gamelook.com.cn/2026/09/601451/",
+      "sentiment": "neutral",
+      "time": "2026-09-04 09:17",
+      "tags": [
+        "GameLook",
+        "行业"
+      ],
+      "section": "行业",
+      "pushable": false,
+      "category": "财经新闻",
+      "topic": "公司综合"
+    },
+    {
+      "id": "media-x46r7v",
+      "platform": "GameLook",
+      "title": "独立创业者疲惫！1人维护SteamDB出售，买家Nexus Mods同样创始人太累退出",
+      "summary": "【GameLook专稿，禁止转载！】 GameLook报道/北京时间9月3日,全球最大游戏Mod平台Nexus Mods与第三方Steam数据库SteamDB同日发布声明,宣布Ne...",
+      "url": "http://www.gamelook.com.cn/2026/09/601445/",
+      "sentiment": "neutral",
+      "time": "2026-09-04 09:12",
+      "tags": [
+        "GameLook",
+        "行业"
+      ],
+      "section": "行业",
+      "pushable": false,
+      "category": "财经新闻",
+      "topic": "理念价值观"
     },
     {
       "id": "xhs-6a996ab8000000002700b9c3",
@@ -130,6 +326,57 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
+      "id": "media-84os6n",
+      "platform": "触乐",
+      "title": "做了三年AI教程后，他决定自己做一款游戏",
+      "summary": "《群侠传：幸存者》上架Steam一周后，制作人Nenly在评价区看到一条留言：&ldquo;虽然是AI的，深度很低，可玩性一般般，但他敢免费啊。&rdquo;这条评价来自一位总游戏时长18.9小时的玩家。Nenly看完后没觉得沮丧，反而有点高兴。 &ldquo;因为玩家在面对普通的AI游戏Demo，是不会存在这样一系列讨论的。&rdquo;他说。 Nenly是一名全职AI内容创作者。2023年，他从Stable Diffusion教程做",
+      "url": "http://www.chuapp.com/article/291612.html",
+      "sentiment": "neutral",
+      "time": "2026-09-03 18:35",
+      "tags": [
+        "触乐",
+        "行业"
+      ],
+      "section": "行业",
+      "pushable": false,
+      "category": "财经新闻",
+      "topic": "公司综合"
+    },
+    {
+      "id": "media-92s0z1",
+      "platform": "触乐",
+      "title": "触乐怪话：既要自由度，又要抄作业",
+      "summary": "触乐怪话，每天胡侃和游戏有关的屁事、鬼事、新鲜事。 图/小罗 这段时间，我终于开始玩《潜水员戴夫》。说来也奇怪，以它的玩法和风格，我应该在发售第一天就美美开玩才对，不知为何拖到现在。但不论如何，趁着Steam打折，我总算是玩上了。 了解《潜水员戴夫》的朋友应该知道，这款游戏的节奏本来就是不紧不慢的，越是随心所欲，越能体会到游戏的&ldquo;自由度&rdquo;&mdash;&mdash;就连游戏官方，都发视频给玩家的赚钱方式分了几派，",
+      "url": "http://www.chuapp.com/article/291610.html",
+      "sentiment": "neutral",
+      "time": "2026-09-03 18:35",
+      "tags": [
+        "触乐",
+        "行业"
+      ],
+      "section": "行业",
+      "pushable": false,
+      "category": "财经新闻",
+      "topic": "产品游戏"
+    },
+    {
+      "id": "media-spx3s1",
+      "platform": "游戏陀螺",
+      "title": "7天超2000万流水：没人看好的慢生活“摆烂”小游戏，悄悄卖疯了",
+      "summary": "最近，在一个大家意想不到的赛道上，Steam又悄悄跑出了一匹小黑马。 这款名为《维修物语》的电器维修游戏，上线至今已在Steam获得超9000条评论，好评率88%。 官方表示，《维修物语》发售之初即取得梦幻开局：上线不到24小时，Steam同时在线人数超1.5万，游戏销量近10万份。 而在发售一周后，游戏销量已突破30万份&mdash;&mdash;由此推算，其流水或超2000万。 其实不只是《维修物语》，如果将目光聚焦于Steam&l",
+      "url": "https://www.youxituoluo.com/534853.html",
+      "sentiment": "positive",
+      "time": "2026-09-03 18:20",
+      "tags": [
+        "游戏陀螺",
+        "行业"
+      ],
+      "section": "行业",
+      "pushable": false,
+      "category": "财经新闻",
+      "topic": "产品游戏"
+    },
+    {
       "id": "xhs-6a992ca80000000026009b73",
       "platform": "小红书",
       "title": "吉比特秋招开始啦🎉",
@@ -154,29 +401,59 @@ window.MONITOR_DATA = {
       "id": "xhs-6a992ba4000000002a024aa5",
       "platform": "小红书",
       "title": "内推‼️厦门应届生冲🔥吉比特 雷霆游戏秋招",
-      "summary": "耶比 · 👍10 收藏7",
-      "url": "https://www.xiaohongshu.com/explore/6a992ba4000000002a024aa5?xsec_token=ABw93fX4BWIR0KH4b0s3bfXd1K1QYXXxihGh2EXZcEO9E=",
+      "summary": "耶比 · 👍13 收藏8",
+      "url": "https://www.xiaohongshu.com/explore/6a992ba4000000002a024aa5?xsec_token=ABw93fX4BWIR0KH4b0s3bfXWFQch7q5jVrGRaxzTuae1E=",
       "sentiment": "neutral",
       "time": "2026-09-03 16:11",
       "tags": [
         "小红书",
-        "雷霆游戏",
-        "👍10",
-        "秋招有路子",
         "吉比特",
-        "校招",
-        "校园招聘",
+        "👍13"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "招聘求职"
+    },
+    {
+      "id": "xhs-6a992bb4000000001001c2e3",
+      "platform": "小红书",
+      "title": "吉比特2027校招（26届友好 内推码：4J67PM",
+      "summary": "快乐每一天 · 👍20 收藏22",
+      "url": "https://www.xiaohongshu.com/explore/6a992bb4000000001001c2e3?xsec_token=ABw93fX4BWIR0KH4b0s3bfXRVcAYc-3vmXuXmZt-1-kaI=",
+      "sentiment": "neutral",
+      "time": "2026-09-03 16:11",
+      "tags": [
+        "小红书",
+        "👍20",
         "秋招",
-        "27秋招",
-        "游戏",
-        "求职",
-        "游戏行业求职"
+        "吉比特",
+        "雷霆游戏",
+        "找工作",
+        "游戏"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特 裁员",
+      "topic": "招聘求职"
+    },
+    {
+      "id": "xhs-6a9925e40000000026023d2e",
+      "platform": "小红书",
+      "title": "吉比特&雷霆游戏校招！",
+      "summary": "🌙 · 👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/6a9925e40000000026023d2e?xsec_token=ABw93fX4BWIR0KH4b0s3bfXbDmmMpiUwnKMGglHY9y1pg=",
+      "sentiment": "neutral",
+      "time": "2026-09-03 15:46",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0",
+        "吉比特",
+        "吉比特招聘",
+        "雷霆游戏招聘"
       ],
       "category": "小红书",
       "_srcKw": "雷霆游戏",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
+      "topic": "招聘求职"
     },
     {
       "id": "xhs-6a9924cd000000001001d86d",
@@ -197,6 +474,23 @@ window.MONITOR_DATA = {
       "topic": "招聘求职",
       "section": "舆情",
       "pushable": true
+    },
+    {
+      "id": "xhs-6a9924030000000012026768",
+      "platform": "小红书",
+      "title": "吉比特&雷霆游戏2027秋季校园招聘正式启动！欢迎大家加入。内推码：39JP2T",
+      "summary": "我是一只鱼🐟 · 👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/6a9924030000000012026768?xsec_token=ABw93fX4BWIR0KH4b0s3bfXWXAVaBZfh7hHuVbDZMOayA=",
+      "sentiment": "neutral",
+      "time": "2026-09-03 15:38",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "招聘求职"
     },
     {
       "id": "xhs-6a9923430000000025036cbc",
@@ -288,25 +582,6 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "xhs-6a991f49000000002902fe92",
-      "platform": "小红书",
-      "title": "吉比特&雷霆游戏2027秋招内推",
-      "summary": "lmy · 👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/6a991f49000000002902fe92?xsec_token=ABw93fX4BWIR0KH4b0s3bfXeskeMbFi5mjH3oqpiCdO0A=",
-      "sentiment": "neutral",
-      "time": "2026-09-03 15:18",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
       "id": "xhs-6a991f4a000000002802e9d4",
       "platform": "小红书",
       "title": "吉比特2027校招开始啦",
@@ -334,6 +609,25 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
+      "id": "xhs-6a991f49000000002902fe92",
+      "platform": "小红书",
+      "title": "吉比特&雷霆游戏2027秋招内推",
+      "summary": "lmy · 👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/6a991f49000000002902fe92?xsec_token=ABw93fX4BWIR0KH4b0s3bfXeskeMbFi5mjH3oqpiCdO0A=",
+      "sentiment": "neutral",
+      "time": "2026-09-03 15:18",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
       "id": "xhs-6a991ed9000000002b025529",
       "platform": "小红书",
       "title": "吉比特雷霆游戏27秋招&暑期实习招聘启动！",
@@ -351,25 +645,6 @@ window.MONITOR_DATA = {
       ],
       "category": "小红书",
       "_srcKw": "吉比特",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-6a991e1800000000280371a3",
-      "platform": "小红书",
-      "title": "吉比特&雷霆游戏最新校招来啦～ 内推码：5F9W4C",
-      "summary": "爱好大宝 · 👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/6a991e1800000000280371a3?xsec_token=ABw93fX4BWIR0KH4b0s3bfXatVKP3yuKMhkricOSQOhnM=",
-      "sentiment": "neutral",
-      "time": "2026-09-03 15:13",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
       "topic": "招聘求职",
       "section": "舆情",
       "pushable": true
@@ -394,32 +669,142 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
+      "id": "xhs-6a991e1800000000280371a3",
+      "platform": "小红书",
+      "title": "吉比特&雷霆游戏最新校招来啦～ 内推码：5F9W4C",
+      "summary": "爱好大宝 · 👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/6a991e1800000000280371a3?xsec_token=ABw93fX4BWIR0KH4b0s3bfXatVKP3yuKMhkricOSQOhnM=",
+      "sentiment": "neutral",
+      "time": "2026-09-03 15:13",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "media-8lqeku",
+      "platform": "触乐",
+      "title": "西山居新游《剑侠世界4：无限》10月15日全平台公测",
+      "summary": "一代人的江湖，就是剑侠！西山居打造的剑侠世界系列收官之作《剑侠世界4：无限》将于10月15日全平台公测！游戏承袭经典武侠内核，原汁原味还原剑侠系列经典玩法，致力于让每位剑侠迷重回当年的快意江湖！今日，高燃世界观CG震撼首曝，一场专属于剑侠玩家的武侠盛宴即将开启！ 全平台公测时间：10月15日。更多详情： 《剑侠世界4：无限》官网 。 ■ 高燃CG曝光，经典剑侠焕新登场 《剑侠世界4：无限》世界观CG今日正式曝光，在南宋乱世背景下，杨影枫",
+      "url": "http://www.chuapp.com/article/291611.html",
+      "sentiment": "neutral",
+      "time": "2026-09-03 15:08",
+      "tags": [
+        "触乐",
+        "行业"
+      ],
+      "section": "行业",
+      "pushable": false,
+      "category": "财经新闻",
+      "topic": "产品游戏"
+    },
+    {
       "id": "xhs-6a991b35000000001203d233",
       "platform": "小红书",
       "title": "因为热爱，所以出发！吉比特2027秋招启动！",
-      "summary": "吉比特招聘 · 👍345 收藏239",
-      "url": "https://www.xiaohongshu.com/explore/6a991b35000000001203d233?xsec_token=ABw93fX4BWIR0KH4b0s3bfXYoAbGJ0yKMkOkaQXTzUSXY=",
+      "summary": "吉比特招聘 · 👍456 收藏307",
+      "url": "https://www.xiaohongshu.com/explore/6a991b35000000001203d233?xsec_token=ABw93fX4BWIR0KH4b0s3bfXSVOfx0qsxTkW0qC-y1_HQA=",
       "sentiment": "neutral",
       "time": "2026-09-03 15:01",
       "tags": [
         "小红书",
         "吉比特",
-        "👍345",
-        "秋招有路子",
-        "雷霆游戏",
-        "校招",
-        "校园招聘",
-        "秋招",
-        "27秋招",
-        "游戏",
-        "求职",
-        "游戏行业求职"
+        "👍456"
       ],
       "category": "小红书",
       "_srcKw": "吉比特",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
+      "topic": "招聘求职"
+    },
+    {
+      "id": "media-x46tfy",
+      "platform": "GameLook",
+      "title": "错过鹰角、投过TapTap，这家游戏资本要在上海赌 AI 与游戏下个十年",
+      "summary": "【GameLook专稿，禁止转载！】 GameLook报道/在游戏行业，尤其是对于从事投资的同行来说，错过爆款的机会，可能远多于成功的投资案例。比如在8月25日举行的漕河泾AI加速...",
+      "url": "http://www.gamelook.com.cn/2026/09/601415/",
+      "sentiment": "positive",
+      "time": "2026-09-03 10:53",
+      "tags": [
+        "GameLook",
+        "行业"
+      ],
+      "section": "行业",
+      "pushable": false,
+      "category": "财经新闻",
+      "topic": "公司综合"
+    },
+    {
+      "id": "media-x47bzb",
+      "platform": "GameLook",
+      "title": "8月微信小游戏畅销榜Top 100：《向僵尸开炮》登顶、三七多达8款入榜",
+      "summary": "【GameLook专稿，禁止转载！】 GameLook报道/8月份，暑期档进入下半段，微信小游戏市场在经历7月的剧烈洗牌后，进入相对缓和的调整节奏。 与7月份相比，8月份的微信小游...",
+      "url": "http://www.gamelook.com.cn/2026/09/601375/",
+      "sentiment": "positive",
+      "time": "2026-09-03 10:52",
+      "tags": [
+        "GameLook",
+        "行业"
+      ],
+      "section": "行业",
+      "pushable": false,
+      "category": "财经新闻",
+      "topic": "公司综合"
+    },
+    {
+      "id": "media-x47dgp",
+      "platform": "GameLook",
+      "title": "休闲游戏成香馍馍！MMO大佬已花20亿并购，表态：“继续买休闲厂商”",
+      "summary": "【GameLook专稿，禁止转载！】 GameLook报道/在前不久的科隆展上，韩国大厂NCSoft展示了FPS新作《Like or Die》，这款设定在平行宇宙首尔的新游戏采用了...",
+      "url": "http://www.gamelook.com.cn/2026/09/601355/",
+      "sentiment": "neutral",
+      "time": "2026-09-03 09:00",
+      "tags": [
+        "GameLook",
+        "行业"
+      ],
+      "section": "行业",
+      "pushable": false,
+      "category": "财经新闻",
+      "topic": "产品游戏"
+    },
+    {
+      "id": "media-t6yq68",
+      "platform": "游戏陀螺",
+      "title": "完美世界、三七互娱、4399参投，做AI 3D的VAST半年融了50亿元",
+      "summary": "9月1日，AI 3D公司VAST宣布完成B轮和B+轮融资，合计约30亿元人民币。经纬创投领投，完美世界、三七互娱、蓝色光标、中科创达等产业资本参投，达晨财智、春华资本、四三九九等老股东继续追加投资。 算上此前几轮融资，VAST不到半年累计融资约50亿元。VAST称，这一金额刷新了AI 3D领域的融资纪录。本轮资金将用于模型和数据迭代、训练与推理基础设施建设，以及产品商业化。 VAST旗下产品Tripo可以根据文字或图片生成3D模型。公司",
+      "url": "https://www.youxituoluo.com/534852.html",
+      "sentiment": "neutral",
+      "time": "2026-09-02 22:28",
+      "tags": [
+        "游戏陀螺",
+        "行业"
+      ],
+      "section": "行业",
+      "pushable": false,
+      "category": "财经新闻",
+      "topic": "公司综合"
+    },
+    {
+      "id": "media-to0ckf",
+      "platform": "游戏陀螺",
+      "title": "游戏爆卖2000万份，CEO却说：我们不想扩张，只想做150人的小团队",
+      "summary": "2024年2月，瑞典独立工作室Arrowhead Game Studios凭借《绝地潜兵2》一跃成为行业焦点。 这款由俯视角射击转型为第三人称合作射击的作品， 发售后三天内销量突破百万份，十天内在Steam平台达成超过33万同时在线玩家峰值， 一度超越多款同期3A级即时服务大作。 截至2026年，行业分析机构Alinea估算其累计销量已超过2000万份，总收入逾7亿美元； 该作亦在TGA 2024中摘得&ldquo;最佳多人游戏&rdq",
+      "url": "https://www.youxituoluo.com/534851.html",
+      "sentiment": "positive",
+      "time": "2026-09-02 19:37",
+      "tags": [
+        "游戏陀螺",
+        "行业"
+      ],
+      "section": "行业",
+      "pushable": false,
+      "category": "财经新闻",
+      "topic": "经营管理"
     },
     {
       "id": "xhs-6a95782c0000000025018a64",
@@ -443,6 +828,57 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
+      "id": "media-x47ex8",
+      "platform": "GameLook",
+      "title": "欧美游戏圈“再添荒唐事”！《星战》新游爆卖，80%员工却停薪留职",
+      "summary": "【GameLook专稿，禁止转载！】 GameLook报道/刚刚落幕的科隆游戏展，留给外界两件反差强烈的荒唐事。一件是游戏开发者的电脑在科隆游戏展中被盗，作为全球最大的游戏会展，今...",
+      "url": "http://www.gamelook.com.cn/2026/09/601336/",
+      "sentiment": "neutral",
+      "time": "2026-09-02 13:28",
+      "tags": [
+        "GameLook",
+        "行业"
+      ],
+      "section": "行业",
+      "pushable": false,
+      "category": "财经新闻",
+      "topic": "产品游戏"
+    },
+    {
+      "id": "media-x47ft3",
+      "platform": "GameLook",
+      "title": "9月预计12款新游上线：腾讯《王者万象棋》领衔，莉莉丝,完美,B站,趣加逐个登场",
+      "summary": "【Game Look专稿，禁止转载！】 Game Look 报道/暑期档结束后，9月新游档也正式拉开帷幕。据Game Look统计，本月预计有12款新游戏上线，腾讯、完美世界、莉莉...",
+      "url": "http://www.gamelook.com.cn/2026/09/601320/",
+      "sentiment": "positive",
+      "time": "2026-09-02 10:59",
+      "tags": [
+        "GameLook",
+        "行业"
+      ],
+      "section": "行业",
+      "pushable": false,
+      "category": "财经新闻",
+      "topic": "产品游戏"
+    },
+    {
+      "id": "media-x47xib",
+      "platform": "GameLook",
+      "title": "苹果护城河塌了！App Store收入十年首次下滑，中国游戏成“全球手游顶梁柱”",
+      "summary": "【GameLook专稿，禁止转载！】 GameLook报道/终于，苹果正式换帅进入“特努斯时代”。但同时，游戏圈先见证了另一个旧时代的落幕：今年二季度App Store美国区支出十...",
+      "url": "http://www.gamelook.com.cn/2026/09/601294/",
+      "sentiment": "negative",
+      "time": "2026-09-02 09:46",
+      "tags": [
+        "GameLook",
+        "行业"
+      ],
+      "section": "行业",
+      "pushable": false,
+      "category": "财经新闻",
+      "topic": "产品游戏"
+    },
+    {
       "id": "xhs-6a9577d9000000002501884e",
       "platform": "小红书",
       "title": "吉比特2026年半年报01",
@@ -460,6 +896,57 @@ window.MONITOR_DATA = {
       "topic": "股票财务",
       "section": "舆情",
       "pushable": true
+    },
+    {
+      "id": "media-uh2ec8",
+      "platform": "游戏陀螺",
+      "title": "9月新游清单请查收！《王者万象棋》《伊莫》《闪耀吧！噜咪》上桌",
+      "summary": "暑期档的硝烟尚未散尽，9月的战鼓却已悄然擂响。 据陀螺君粗略统计，9月移动新游的供给量已从8月的&ldquo;洪峰&rdquo;骤然回落至17款定档、14款测试，数量近乎腰斩。 究其原因，暑期档结束后，多数厂商进入新一轮产品排期评估期，同时部分重磅作品选择将上线窗口推迟至第四季度，以规避开学季初期用户注意力的分散效应。 不过，尽管数量下滑，头部厂商的核心产品密度并未降低。 腾讯、莉莉丝、B站、蛮啾网络等重点厂商的重磅项目依然在9月集中落",
+      "url": "https://www.youxituoluo.com/534849.html",
+      "sentiment": "neutral",
+      "time": "2026-09-01 23:17",
+      "tags": [
+        "游戏陀螺",
+        "行业"
+      ],
+      "section": "行业",
+      "pushable": false,
+      "category": "财经新闻",
+      "topic": "产品游戏"
+    },
+    {
+      "id": "media-kwwktw",
+      "platform": "触乐",
+      "title": "《流放之路2》制作人：我们已经准备好进入1.0了",
+      "summary": "《流放之路》（Path of Exile）由新西兰工作室Grinding Gear Games（下文简称GGG）开发，是一款很难用几句话解释清楚的ARPG。 2013年正式上线后，它靠丰富的Build体系、庞大的天赋树、赛季制内容和玩家主导的交易与攻略生态运营了十余年。对不少老玩家来说，它的魅力恰恰来自那些需要花时间研究的系统：一个技能、一件装备或者一次天赋调整，都可能让玩家重新思考自己的Build。 2016年，腾讯代理了《流放之路》",
+      "url": "http://www.chuapp.com/article/291606.html",
+      "sentiment": "positive",
+      "time": "2026-09-01 22:37",
+      "tags": [
+        "触乐",
+        "行业"
+      ],
+      "section": "行业",
+      "pushable": false,
+      "category": "财经新闻",
+      "topic": "产品游戏"
+    },
+    {
+      "id": "media-u00ry1",
+      "platform": "游戏陀螺",
+      "title": "游戏停运，人已上岸：《米姆米姆哈》官宣停运，创始人入职网易",
+      "summary": "8月31日，趣糖网络发布公告，旗下游戏《米姆米姆哈》将于2026年11月30日终止运营。 官方解释称，项目上线至今一直在争取维持正常服务，但受当前运营状况和后续投入条件限制，已无法保障长期稳定的游戏体验。 同日，游戏全平台关闭新用户注册与充值通道，下载入口则自9月30日起逐步关闭。 至此，这款曾在上线首日同时登顶App Store国区免费榜与TapTap热门游戏榜的产品，在经历约16个月的运营周期后，正式走向终点。 对于许多关注过这款产",
+      "url": "https://www.youxituoluo.com/534848.html",
+      "sentiment": "positive",
+      "time": "2026-09-01 19:48",
+      "tags": [
+        "游戏陀螺",
+        "行业"
+      ],
+      "section": "行业",
+      "pushable": false,
+      "category": "财经新闻",
+      "topic": "理念价值观"
     },
     {
       "id": "xhs-6a96b2590000000029016e65",
@@ -481,6 +968,40 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
+      "id": "media-tiz5ju",
+      "platform": "游戏陀螺",
+      "title": "8月版号下发：数量首次突破200，网易《射雕》更名",
+      "summary": "8月31日，国家新闻出版署发布了8月新一批游戏版号。 本批次版号共计215款。其中，国产游戏版号209个，进口游戏版号6个。截至8月，2026年过审游戏版号数量已达1362款，包括1319款国产网络游戏和43款进口网络游戏。 这8月的版号当中，知名的厂商或产品有：蓝飞互娱《大鹅花园》、三七《凡人修仙传：大道》、大梦龙途《我家有座茶山》、北京畅游《天龙八部：经典永恒》、厦门魔兔《勇者工坊》、上海散爆《指尖突围》、上海数龙《龙之谷：经典》、",
+      "url": "https://www.youxituoluo.com/534847.html",
+      "sentiment": "positive",
+      "time": "2026-09-01 18:32",
+      "tags": [
+        "游戏陀螺",
+        "行业"
+      ],
+      "section": "行业",
+      "pushable": false,
+      "category": "财经新闻",
+      "topic": "经营管理"
+    },
+    {
+      "id": "media-ldy783",
+      "platform": "触乐",
+      "title": "为了在游戏行业“上岸”，首先要准备两年",
+      "summary": "■ 秋招提前开始了 7月中旬，小周刚开启暑期实习不到两周，突然发现：他关注的几家游戏公司的2027届秋招提前批开了。 &ldquo;提前批&rdquo;即秋招前奏，大厂为抢占优质生源提前开启的招聘，与之对应的招聘程序也会做一些简化。不过对于小周来说，提前批比预想中得早了很多。 米哈游的提前批和正式批，毕业生只能投递一次 小周是2027届毕业生，想要找一份游戏客户端开发的工作。暑期实习刚刚开始，他的简历还没有更新。与此同时，他还发现：&l",
+      "url": "http://www.chuapp.com/article/291605.html",
+      "sentiment": "neutral",
+      "time": "2026-09-01 18:29",
+      "tags": [
+        "触乐",
+        "行业"
+      ],
+      "section": "行业",
+      "pushable": false,
+      "category": "财经新闻",
+      "topic": "招聘求职"
+    },
+    {
       "id": "xhs-6a969ea60000000025034896",
       "platform": "小红书",
       "title": "【涂山资本】#吉比特脉冲式成长股并且现",
@@ -498,6 +1019,40 @@ window.MONITOR_DATA = {
       "topic": "公司综合",
       "section": "舆情",
       "pushable": true
+    },
+    {
+      "id": "media-x4814c",
+      "platform": "GameLook",
+      "title": "对话腾讯李纳川：腾讯游戏的使命是什么？",
+      "summary": "【GameLook专稿，禁止转载！】 GameLook报道/在今年的科隆，腾讯游戏的参与程度比以往更加深入。 在场馆内，腾讯带来了超过20款产品，组成历届规模最大的参展阵容，覆盖《...",
+      "url": "http://www.gamelook.com.cn/2026/09/601248/",
+      "sentiment": "neutral",
+      "time": "2026-09-01 11:46",
+      "tags": [
+        "GameLook",
+        "行业"
+      ],
+      "section": "行业",
+      "pushable": false,
+      "category": "财经新闻",
+      "topic": "理念价值观"
+    },
+    {
+      "id": "media-x480dn",
+      "platform": "GameLook",
+      "title": "幻塔工作室负责人张御：《异环》要打造难以复制的内容、不靠焦虑逼氪",
+      "summary": "【GameLook专稿，禁止转载！】 GameLook报道/近日，日本游戏媒体4Gamer对幻塔工作室负责人、《异环》制作人张御进行了采访。 自今年4月全球公测以来，《异环》已经运...",
+      "url": "http://www.gamelook.com.cn/2026/09/601258/",
+      "sentiment": "neutral",
+      "time": "2026-09-01 11:36",
+      "tags": [
+        "GameLook",
+        "行业"
+      ],
+      "section": "行业",
+      "pushable": false,
+      "category": "财经新闻",
+      "topic": "公司综合"
     },
     {
       "id": "maimai-38af53dbc3138c32",
@@ -518,6 +1073,40 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
+      "id": "media-x482ob",
+      "platform": "GameLook",
+      "title": "209款国产6款进口游戏获版号：《凡人修仙传》《龙之谷》过审，三七散爆盛趣畅游在列",
+      "summary": "【GameLook专稿，禁止转载！】 GameLook报道/8月31日，国家新闻出版署公布了8月份国产网络游戏审批信息。本月共计有209款国产网络游戏与5款进口网络游戏版号过审，另...",
+      "url": "http://www.gamelook.com.cn/2026/09/601225/",
+      "sentiment": "neutral",
+      "time": "2026-09-01 09:58",
+      "tags": [
+        "GameLook",
+        "行业"
+      ],
+      "section": "行业",
+      "pushable": false,
+      "category": "财经新闻",
+      "topic": "经营管理"
+    },
+    {
+      "id": "media-x483e5",
+      "platform": "GameLook",
+      "title": "Steam经济全貌：1%游戏赚走Steam营收84.5%，绝大多数游戏“穷的叮当响”",
+      "summary": "【GameLook专稿，禁止转载！】 GameLook报道/对很多人来说，游戏市场的长尾效应可能都不是新鲜事，少数头部游戏占据了大部分的收入，而剩余的市场份额，则由大部分游戏瓜分。...",
+      "url": "http://www.gamelook.com.cn/2026/09/601216/",
+      "sentiment": "neutral",
+      "time": "2026-09-01 09:29",
+      "tags": [
+        "GameLook",
+        "行业"
+      ],
+      "section": "行业",
+      "pushable": false,
+      "category": "财经新闻",
+      "topic": "股票财务"
+    },
+    {
       "id": "xhs-6a95b477000000000d026e4d",
       "platform": "小红书",
       "title": "我又又又又来玩这个雷霆游戏了",
@@ -534,6 +1123,74 @@ window.MONITOR_DATA = {
       "topic": "公司综合",
       "section": "舆情",
       "pushable": true
+    },
+    {
+      "id": "media-t1xj5n",
+      "platform": "游戏陀螺",
+      "title": "郭炜炜离职西山居，米哈游《源初之结》首曝，网易《无限大》定档 | 陀螺周报",
+      "summary": "随着这些年国内游戏厂商声量壮大，中国游戏全球化/区域化新品布局、中国厂商于宣发联动、投资并购等业态频发。在越来越多成功者试行的案例面前，我们是否能从中寻索到适合自己的最新机遇！每周末，我们将为大家盘点一周的产业要点。 业内声音🔊 &mdash;&mdash;多年来，游戏向我们展示了它能对人们产生怎样的影响。它促成终生友谊的建立，让个人挣扎得到治愈，使亲人重新建立联系，并让希望重燃。 这些时刻让我们相信，游戏有能力以深刻的方式触动生活。",
+      "url": "https://www.youxituoluo.com/534846.html",
+      "sentiment": "neutral",
+      "time": "2026-09-01 00:34",
+      "tags": [
+        "游戏陀螺",
+        "行业"
+      ],
+      "section": "行业",
+      "pushable": false,
+      "category": "财经新闻",
+      "topic": "经营管理"
+    },
+    {
+      "id": "media-skvwrg",
+      "platform": "游戏陀螺",
+      "title": "告别固定合成配方：从生成式 AI 到 Gameplay 的核心重构",
+      "summary": "AI赋能游戏到底能做什么？ 用于各个研发环节的生产，这无疑是大大了提升了我们的研发效率与下限，但似乎AI只是在游戏的外层。还是将大语言模型引入游戏，让NPC多说几句非预设的话，还是&ldquo;把文本框变成对话框&rdquo;？AI 似乎成了游戏的&ldquo;挂件&rdquo;，而非&ldquo;骨架&rdquo;。 AI未必只能做&ldquo;陪聊NPC&rdquo;：我们用多个Agent，重构了游戏里的&ldquo;核心体验&rd",
+      "url": "https://www.youxituoluo.com/534845.html",
+      "sentiment": "neutral",
+      "time": "2026-08-31 23:46",
+      "tags": [
+        "游戏陀螺",
+        "行业"
+      ],
+      "section": "行业",
+      "pushable": false,
+      "category": "财经新闻",
+      "topic": "公司综合"
+    },
+    {
+      "id": "media-s3uad9",
+      "platform": "游戏陀螺",
+      "title": "吸金超60亿美元全球爆款，“收割”从第一颗骰子开始",
+      "summary": "如果要盘点近年来全球手游市场的现象级产品，Scopely 旗下的《Monopoly Go！》是一个绕不开的名字。 从官方数据与第三方监测来看，它的成绩令人侧目。据Sensor Tower 预测，在2025 年，该游戏生命周期内购收入已突破60 亿美元。 不仅 Scopely 凭此实现收入跃升，IP 授权方孩之宝（Hasbro）同样在财报中提及该作的强劲贡献&mdash;&mdash;仅 2026 年上半年，授权收入就达8500 万美元，",
+      "url": "https://www.youxituoluo.com/534844.html",
+      "sentiment": "positive",
+      "time": "2026-08-31 23:12",
+      "tags": [
+        "游戏陀螺",
+        "行业"
+      ],
+      "section": "行业",
+      "pushable": false,
+      "category": "财经新闻",
+      "topic": "产品游戏"
+    },
+    {
+      "id": "media-rmsnz2",
+      "platform": "游戏陀螺",
+      "title": "2026科隆游戏奖名单出炉：腾讯投资的国产3A成功“偷家”",
+      "summary": "8月28日，2026年科隆国际游戏展Gamescom Award颁奖典礼在德国科隆举行，涵盖19个奖项类别的获奖名单正式揭晓。 其中，腾讯投资的动作冒险游戏《湮灭之潮》斩获了&ldquo;最具史诗感游戏（Most Epic）&rdquo;，成为该奖项历史上首个获奖的国产游戏作品。 最具史诗感游戏表彰具有史诗感叙事、视听奇观和宏大战斗体验的作品，如果你对这个奖项还不太眼熟，不妨看看过去三年拿下此奖的游戏有哪些，也能大概看出奖项所青睐的风格",
+      "url": "https://www.youxituoluo.com/534843.html",
+      "sentiment": "neutral",
+      "time": "2026-08-31 22:54",
+      "tags": [
+        "游戏陀螺",
+        "行业"
+      ],
+      "section": "行业",
+      "pushable": false,
+      "category": "财经新闻",
+      "topic": "公司综合"
     },
     {
       "id": "xhs-6a9573fe0000000026004cf4",
@@ -553,6 +1210,23 @@ window.MONITOR_DATA = {
       "topic": "公司综合",
       "section": "舆情",
       "pushable": true
+    },
+    {
+      "id": "media-385aa4",
+      "platform": "GameLook",
+      "title": "中年人鼓起勇气发问：“44岁想做游戏是否太老”？同行：“行业艰难，有热情就不晚”",
+      "summary": "【GameLook专稿，禁止转载！】 图片来源：Pixabay GameLook报道/游戏开发行业向来被视作“青春饭”的聚集地。那么，当一位年过四旬的职场人想要中途转行投身游戏研发...",
+      "url": "http://www.gamelook.com.cn/2026/08/601049/",
+      "sentiment": "neutral",
+      "time": "2026-08-31 10:05",
+      "tags": [
+        "GameLook",
+        "行业"
+      ],
+      "section": "行业",
+      "pushable": false,
+      "category": "财经新闻",
+      "topic": "产品游戏"
     },
     {
       "id": "maimai-043edd93c3aa4476",
@@ -584,7 +1258,7 @@ window.MONITOR_DATA = {
         "版号",
         "官方"
       ],
-      "category": "版号",
+      "category": "财经新闻",
       "topic": "经营管理",
       "section": "舆情",
       "pushable": true
@@ -611,20 +1285,18 @@ window.MONITOR_DATA = {
       "id": "xhs-6a9180090000000026037dad",
       "platform": "小红书",
       "title": "🔥吉比特｜《杖剑传说》项目热招中!",
-      "summary": "吉比特招聘 · 👍36 收藏6",
-      "url": "https://www.xiaohongshu.com/explore/6a9180090000000026037dad?xsec_token=ABRjSKb2UrCSJF2BGhPYhes6nmy5QROCvuu2UaK0b6d_o=",
+      "summary": "吉比特招聘 · 👍37 收藏6",
+      "url": "https://www.xiaohongshu.com/explore/6a9180090000000026037dad?xsec_token=ABRjSKb2UrCSJF2BGhPYhesy6jv7IwIR9yO82ZRQh0blE=",
       "sentiment": "neutral",
       "time": "2026-08-28 20:33",
       "tags": [
         "小红书",
         "吉比特",
-        "👍36"
+        "👍37"
       ],
       "category": "小红书",
       "_srcKw": "吉比特",
-      "topic": "产品游戏",
-      "section": "舆情",
-      "pushable": true
+      "topic": "产品游戏"
     },
     {
       "id": "maimai-7817e8aeaaffd6bd",
@@ -759,19 +1431,17 @@ window.MONITOR_DATA = {
       "id": "xhs-6a89841d0000000018019eeb",
       "platform": "小红书",
       "title": "地球团被雷霆游戏逼疯，全体力竭",
-      "summary": "腾讯综艺满级小鹅 · 👍899 收藏116 · 视频",
-      "url": "https://www.xiaohongshu.com/explore/6a89841d0000000018019eeb?xsec_token=ABSJxQz0P24b2D-2vn514WwALc3ykDwMJtfLVTGPTcoMs=",
+      "summary": "腾讯综艺满级小鹅 · 👍922 收藏119 · 视频",
+      "url": "https://www.xiaohongshu.com/explore/6a89841d0000000018019eeb?xsec_token=ABSJxQz0P24b2D-2vn514WwLNxAWUsGPlEPmYE-LO6u8k=",
       "sentiment": "neutral",
       "time": "2026-08-23 11:53",
       "tags": [
         "小红书",
-        "👍899"
+        "👍922"
       ],
       "category": "小红书",
       "_srcKw": "雷霆游戏 降薪",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
+      "topic": "公司综合"
     },
     {
       "id": "xhs-6a89b4f30000000029019770",
@@ -853,24 +1523,6 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-3144339c710ee998",
-      "platform": "脉脉",
-      "title": "我们公司……有战略？",
-      "summary": "🏢同事圈 吉比特游戏同事圈 · 1/1/4",
-      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
-      "sentiment": "neutral",
-      "time": "2026-08-21 11:00",
-      "tags": [
-        "脉脉",
-        "同事圈",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "经营管理",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
       "id": "maimai-84bd33b940270be7",
       "platform": "脉脉",
       "title": "摸个鱼还能被同事举报。",
@@ -885,6 +1537,24 @@ window.MONITOR_DATA = {
       ],
       "category": "脉脉",
       "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-3144339c710ee998",
+      "platform": "脉脉",
+      "title": "我们公司……有战略？",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 1/1/4",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "neutral",
+      "time": "2026-08-21 11:00",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "经营管理",
       "section": "舆情",
       "pushable": true
     },
@@ -1054,7 +1724,7 @@ window.MONITOR_DATA = {
       "platform": "小红书",
       "title": "吉比特董事长真是个有意思的人",
       "summary": "今天也要准时下班 · 👍2 收藏2",
-      "url": "https://www.xiaohongshu.com/explore/6a83e0de000000002c002db9?xsec_token=ABfHyR-Ia5knbH_eNj6TJ0JUOSDPv_G2K35a5FQT1gR80=",
+      "url": "https://www.xiaohongshu.com/explore/6a83e0de000000002c002db9?xsec_token=ABfHyR-Ia5knbH_eNj6TJ0JaJUFpMYS-Rqz7gSVJUQNDw=",
       "sentiment": "neutral",
       "time": "2026-08-18 12:34",
       "tags": [
@@ -1064,9 +1734,7 @@ window.MONITOR_DATA = {
       ],
       "category": "小红书",
       "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
+      "topic": "公司综合"
     },
     {
       "id": "xhs-6a8329c7000000002202d019",
@@ -1162,7 +1830,7 @@ window.MONITOR_DATA = {
         "GameLook",
         "品牌相关"
       ],
-      "category": "游戏垂媒",
+      "category": "财经新闻",
       "topic": "产品游戏",
       "section": "舆情",
       "pushable": true
@@ -1172,7 +1840,7 @@ window.MONITOR_DATA = {
       "platform": "小红书",
       "title": "看吉比特JD，我先分研发还是发行",
       "summary": "花生碎 · 👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/6a8280860000000028000e67?xsec_token=ABLyMvZxX0B4EnccMd7_LxicWLmgcx_Oirrxp2RQJ6RIo=",
+      "url": "https://www.xiaohongshu.com/explore/6a8280860000000028000e67?xsec_token=ABLyMvZxX0B4EnccMd7_LxiSNys11Zq_fOtZSwGgGGNN4=",
       "sentiment": "neutral",
       "time": "2026-08-17 11:31",
       "tags": [
@@ -1181,9 +1849,7 @@ window.MONITOR_DATA = {
       ],
       "category": "小红书",
       "_srcKw": "吉比特 裁员",
-      "topic": "产品游戏",
-      "section": "舆情",
-      "pushable": true
+      "topic": "产品游戏"
     },
     {
       "id": "xhs-6a82803b000000002800a786",
@@ -1208,19 +1874,16 @@ window.MONITOR_DATA = {
       "platform": "小红书",
       "title": "吉比特校招岗位多，我反而不敢乱投",
       "summary": "花生碎 · 👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/6a8280610000000028005ef4?xsec_token=ABLyMvZxX0B4EnccMd7_LxiT5TzD4jdwOhTtwbl4haVCY=",
+      "url": "https://www.xiaohongshu.com/explore/6a8280610000000028005ef4?xsec_token=ABLyMvZxX0B4EnccMd7_LxiVZgrtvif1XYlaklR3U31iM=",
       "sentiment": "neutral",
       "time": "2026-08-17 11:30",
       "tags": [
         "小红书",
-        "吉比特",
         "👍0"
       ],
       "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
+      "_srcKw": "吉比特 裁员",
+      "topic": "招聘求职"
     },
     {
       "id": "ann-AN202608171828048111",
@@ -1238,6 +1901,23 @@ window.MONITOR_DATA = {
       "topic": "股票财务",
       "section": "舆情",
       "pushable": true
+    },
+    {
+      "id": "xhs-6a8123ef000000003302ed86",
+      "platform": "小红书",
+      "title": "游戏怪谈 #游戏解说 #主机游戏#游戏中的名场面#steam游戏",
+      "summary": "囍囍 · 👍252 收藏156 · 视频",
+      "url": "https://www.xiaohongshu.com/explore/6a8123ef000000003302ed86?xsec_token=AB3A8W-9xPxsaiJEXZjfiwaA08xN6rntJ6lx4JbNF2vXM=",
+      "sentiment": "neutral",
+      "time": "2026-08-16 10:43",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍252"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合"
     },
     {
       "id": "xhs-6a806d4d0000000025014537",
@@ -1311,7 +1991,7 @@ window.MONITOR_DATA = {
         "触乐",
         "品牌相关"
       ],
-      "category": "游戏垂媒",
+      "category": "财经新闻",
       "topic": "经营管理",
       "section": "舆情",
       "pushable": true
@@ -1343,7 +2023,7 @@ window.MONITOR_DATA = {
       "platform": "小红书",
       "title": "游戏行业研究·吉比特",
       "summary": "小泥人 · 👍3 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/6a7fc943000000002403e19c?xsec_token=ABJ5f5IZloQ9gjyRVezYBpeuocRPcr1eojjIVrqrrzU6Y=",
+      "url": "https://www.xiaohongshu.com/explore/6a7fc943000000002403e19c?xsec_token=ABJ5f5IZloQ9gjyRVezYBpekZA_Bh4e9pubaljUyy2KL0=",
       "sentiment": "neutral",
       "time": "2026-08-15 10:04",
       "tags": [
@@ -1353,9 +2033,7 @@ window.MONITOR_DATA = {
       ],
       "category": "小红书",
       "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
+      "topic": "公司综合"
     },
     {
       "id": "media-244sua",
@@ -1369,7 +2047,7 @@ window.MONITOR_DATA = {
         "游戏陀螺",
         "品牌相关"
       ],
-      "category": "游戏垂媒",
+      "category": "财经新闻",
       "topic": "企业文化",
       "section": "舆情",
       "pushable": true
@@ -1593,36 +2271,33 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "zhihu-2071647699951170287",
-      "platform": "知乎",
-      "title": "董事长获2.14亿分红，吉比特利润大涨69%",
-      "summary": "子公司层面，雷霆互动、雷霆股份及深圳雷霆信息均保持较高盈利水平，其中核心发行主体深圳雷霆信息上半年实现净利润4.44亿元，同比提升26%，是公司盈利 ...",
-      "url": "https://zhuanlan.zhihu.com/p/2071647699951170287",
-      "sentiment": "positive",
+      "id": "ann-AN202608131827941668",
+      "platform": "公司公告",
+      "title": "吉比特:厦门吉比特网络技术股份有限公司信息披露管理办法(2026年8月)",
+      "summary": "吉比特:厦门吉比特网络技术股份有限公司信息披露管理办法(2026年8月)",
+      "url": "https://data.eastmoney.com/notices/detail/603444/AN202608131827941668.html",
+      "sentiment": "neutral",
       "time": "2026-08-14 00:00",
       "tags": [
-        "知乎",
-        "吉比特"
+        "公告",
+        "管理办法/制度"
       ],
-      "source": "serp",
-      "lastChange": "2026-09-05 14:16",
-      "changeNote": "摘要有更新",
-      "category": "知乎",
+      "category": "公司公告",
       "topic": "经营管理",
       "section": "舆情",
       "pushable": true
     },
     {
-      "id": "ann-AN202608131827941663",
+      "id": "ann-AN202608131827941665",
       "platform": "公司公告",
-      "title": "吉比特:厦门吉比特网络技术股份有限公司2026年半年度利润分配方案公告",
-      "summary": "吉比特:厦门吉比特网络技术股份有限公司2026年半年度利润分配方案公告",
-      "url": "https://data.eastmoney.com/notices/detail/603444/AN202608131827941663.html",
+      "title": "吉比特:厦门吉比特网络技术股份有限公司董事会提名委员会工作规则(2026年8月)",
+      "summary": "吉比特:厦门吉比特网络技术股份有限公司董事会提名委员会工作规则(2026年8月)",
+      "url": "https://data.eastmoney.com/notices/detail/603444/AN202608131827941665.html",
       "sentiment": "neutral",
       "time": "2026-08-14 00:00",
       "tags": [
         "公告",
-        "分配预案"
+        "议事规则/实施细则"
       ],
       "category": "公司公告",
       "topic": "公司综合",
@@ -1630,16 +2305,16 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "ann-AN202608131827941664",
+      "id": "ann-AN202608131827941666",
       "platform": "公司公告",
-      "title": "吉比特:厦门吉比特网络技术股份有限公司2026年半年度报告",
-      "summary": "吉比特:厦门吉比特网络技术股份有限公司2026年半年度报告",
-      "url": "https://data.eastmoney.com/notices/detail/603444/AN202608131827941664.html",
+      "title": "吉比特:厦门吉比特网络技术股份有限公司2026年半年度报告摘要",
+      "summary": "吉比特:厦门吉比特网络技术股份有限公司2026年半年度报告摘要",
+      "url": "https://data.eastmoney.com/notices/detail/603444/AN202608131827941666.html",
       "sentiment": "neutral",
       "time": "2026-08-14 00:00",
       "tags": [
         "公告",
-        "半年度报告全文"
+        "半年度报告摘要"
       ],
       "category": "公司公告",
       "topic": "公司综合",
@@ -1665,16 +2340,16 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "ann-AN202608131827941666",
+      "id": "ann-AN202608131827941664",
       "platform": "公司公告",
-      "title": "吉比特:厦门吉比特网络技术股份有限公司2026年半年度报告摘要",
-      "summary": "吉比特:厦门吉比特网络技术股份有限公司2026年半年度报告摘要",
-      "url": "https://data.eastmoney.com/notices/detail/603444/AN202608131827941666.html",
+      "title": "吉比特:厦门吉比特网络技术股份有限公司2026年半年度报告",
+      "summary": "吉比特:厦门吉比特网络技术股份有限公司2026年半年度报告",
+      "url": "https://data.eastmoney.com/notices/detail/603444/AN202608131827941664.html",
       "sentiment": "neutral",
       "time": "2026-08-14 00:00",
       "tags": [
         "公告",
-        "半年度报告摘要"
+        "半年度报告全文"
       ],
       "category": "公司公告",
       "topic": "公司综合",
@@ -1682,16 +2357,16 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "ann-AN202608131827941665",
+      "id": "ann-AN202608131827941663",
       "platform": "公司公告",
-      "title": "吉比特:厦门吉比特网络技术股份有限公司董事会提名委员会工作规则(2026年8月)",
-      "summary": "吉比特:厦门吉比特网络技术股份有限公司董事会提名委员会工作规则(2026年8月)",
-      "url": "https://data.eastmoney.com/notices/detail/603444/AN202608131827941665.html",
+      "title": "吉比特:厦门吉比特网络技术股份有限公司2026年半年度利润分配方案公告",
+      "summary": "吉比特:厦门吉比特网络技术股份有限公司2026年半年度利润分配方案公告",
+      "url": "https://data.eastmoney.com/notices/detail/603444/AN202608131827941663.html",
       "sentiment": "neutral",
       "time": "2026-08-14 00:00",
       "tags": [
         "公告",
-        "议事规则/实施细则"
+        "分配预案"
       ],
       "category": "公司公告",
       "topic": "公司综合",
@@ -1699,18 +2374,21 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "ann-AN202608131827941668",
-      "platform": "公司公告",
-      "title": "吉比特:厦门吉比特网络技术股份有限公司信息披露管理办法(2026年8月)",
-      "summary": "吉比特:厦门吉比特网络技术股份有限公司信息披露管理办法(2026年8月)",
-      "url": "https://data.eastmoney.com/notices/detail/603444/AN202608131827941668.html",
-      "sentiment": "neutral",
+      "id": "zhihu-2071647699951170287",
+      "platform": "知乎",
+      "title": "董事长获2.14亿分红，吉比特利润大涨69%",
+      "summary": "子公司层面，雷霆互动、雷霆股份及深圳雷霆信息均保持较高盈利水平，其中核心发行主体深圳雷霆信息上半年实现净利润4.44亿元，同比提升26%，是公司盈利 ...",
+      "url": "https://zhuanlan.zhihu.com/p/2071647699951170287",
+      "sentiment": "positive",
       "time": "2026-08-14 00:00",
       "tags": [
-        "公告",
-        "管理办法/制度"
+        "知乎",
+        "吉比特"
       ],
-      "category": "公司公告",
+      "source": "serp",
+      "lastChange": "2026-09-05 14:16",
+      "changeNote": "摘要有更新",
+      "category": "知乎",
       "topic": "经营管理",
       "section": "舆情",
       "pushable": true
@@ -3080,7 +3758,7 @@ window.MONITOR_DATA = {
       "platform": "小红书",
       "title": "【维权方式整合】反对联动rsq游戏一念逍遥",
       "summary": "脑阔疼 · 👍224 收藏23",
-      "url": "https://www.xiaohongshu.com/explore/6a7426400000000025010d03?xsec_token=ABk1E3n_TIA5SV1z4Fgt_8oca53Tl_xlNpRyNn4M-B2r4=",
+      "url": "https://www.xiaohongshu.com/explore/6a7426400000000025010d03?xsec_token=ABk1E3n_TIA5SV1z4Fgt_8oQFTta2iHOV-cA28e6YWULc=",
       "sentiment": "negative",
       "time": "2026-08-06 14:14",
       "tags": [
@@ -3090,9 +3768,7 @@ window.MONITOR_DATA = {
       ],
       "category": "小红书",
       "_srcKw": "雷霆游戏",
-      "topic": "产品游戏",
-      "section": "舆情",
-      "pushable": true
+      "topic": "产品游戏"
     },
     {
       "id": "xhs-6a7332220000000025006114",
@@ -3253,8 +3929,8 @@ window.MONITOR_DATA = {
       "id": "xhs-6a7064700000000022014308",
       "platform": "小红书",
       "title": "强度不小！25w！四大1年半跳槽吉比特财务",
-      "summary": "max在大厂 · 👍81 收藏101",
-      "url": "https://www.xiaohongshu.com/explore/6a7064700000000022014308?xsec_token=AB7UcIcNYTwwvrYEsBuuGbJ71fP3ANUJm9_Y2cq42WVGg=",
+      "summary": "max在大厂 · 👍81 收藏102",
+      "url": "https://www.xiaohongshu.com/explore/6a7064700000000022014308?xsec_token=AB7UcIcNYTwwvrYEsBuuGbJzuljfA4NJmJ5fbGrLxex3E=",
       "sentiment": "neutral",
       "time": "2026-08-03 17:50",
       "tags": [
@@ -3264,9 +3940,7 @@ window.MONITOR_DATA = {
       ],
       "category": "小红书",
       "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
+      "topic": "公司综合"
     },
     {
       "id": "xhs-6a7057c8000000003202088a",
@@ -3392,7 +4066,7 @@ window.MONITOR_DATA = {
       "platform": "小红书",
       "title": "吉比特又发钱了，为什么股民还是不高兴？",
       "summary": "混分巨兽小一土 · 👍7 收藏2",
-      "url": "https://www.xiaohongshu.com/explore/6a6ded8d0000000032030693?xsec_token=ABfCizPesIMleLlzSgQa1oxvIXhByEaG7_Qf9_yJ1OZ_U=",
+      "url": "https://www.xiaohongshu.com/explore/6a6ded8d0000000032030693?xsec_token=ABfCizPesIMleLlzSgQa1oxg1MSCvFa7jQX4xSaFP9NHA=",
       "sentiment": "neutral",
       "time": "2026-08-01 20:58",
       "tags": [
@@ -3402,9 +4076,7 @@ window.MONITOR_DATA = {
       ],
       "category": "小红书",
       "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
+      "topic": "公司综合"
     },
     {
       "id": "xhs-6a6aedfa000000000100e32f",
@@ -3887,7 +4559,7 @@ window.MONITOR_DATA = {
         "版号",
         "官方"
       ],
-      "category": "版号",
+      "category": "财经新闻",
       "topic": "经营管理",
       "section": "舆情",
       "pushable": true
@@ -4019,46 +4691,10 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-285402f71f453c6e",
+      "id": "maimai-c4335e4c30195fae",
       "platform": "脉脉",
-      "title": "降薪离职二选一，各位怎么选？",
-      "summary": "🏢同事圈 吉比特游戏同事圈 · 5/19/6",
-      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
-      "sentiment": "negative",
-      "time": "2026-07-22 11:26",
-      "tags": [
-        "脉脉",
-        "同事圈",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-ce19298a30858677",
-      "platform": "脉脉",
-      "title": "为什么突然降薪啊，不是去年今年赚的都挺多的吗",
-      "summary": "🏢同事圈 吉比特游戏同事圈 · 3/5/4",
-      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
-      "sentiment": "negative",
-      "time": "2026-07-22 11:26",
-      "tags": [
-        "脉脉",
-        "同事圈",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-d2c8e892655806d6",
-      "platform": "脉脉",
-      "title": "大家怎么看待G言的？",
-      "summary": "🏢同事圈 吉比特游戏同事圈 · 1/6/4",
+      "title": "诸位如何看？",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/7/4",
       "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
       "sentiment": "neutral",
       "time": "2026-07-22 11:26",
@@ -4073,10 +4709,46 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-a6c4aeb82fa7e37b",
+      "id": "maimai-26ef748bcd0eb41c",
       "platform": "脉脉",
-      "title": "这波职级调整是变相降薪逼人离职吗",
-      "summary": "🏢同事圈 吉比特游戏同事圈 · 5/8/10",
+      "title": "16楼，有个兄弟或者姐妹，26号早上茶叶没倒哈！   我差点给你接盘了，…",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/0/6",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "neutral",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-c589b2cc3ac050cb",
+      "platform": "脉脉",
+      "title": "旗帜鲜明996",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/6/7",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "neutral",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "企业文化",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-532afa5bd17ab7f4",
+      "platform": "脉脉",
+      "title": "想起来，前面让签署的加班工资包含在工资内的条款，以及自愿加班协议都是无效…",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/2/3",
       "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
       "sentiment": "negative",
       "time": "2026-07-22 11:26",
@@ -4086,15 +4758,15 @@ window.MONITOR_DATA = {
         "吉比特"
       ],
       "category": "脉脉",
-      "topic": "公司综合",
+      "topic": "企业文化",
       "section": "舆情",
       "pushable": true
     },
     {
-      "id": "maimai-9e80964d72419e97",
+      "id": "maimai-9277305de99fbf75",
       "platform": "脉脉",
-      "title": "许愿我今年可以涨工资！",
-      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/3/2",
+      "title": "怎么老发扶农产品啊………",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/0/2",
       "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
       "sentiment": "neutral",
       "time": "2026-07-22 11:26",
@@ -4109,10 +4781,10 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-ec72b2ecd6b1cb34",
+      "id": "maimai-3a85ed736d257c82",
       "platform": "脉脉",
-      "title": "从夯到垃，给自己过去一年打个分吧，我终极简直拉完了",
-      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/0/1",
+      "title": "真的这么多人这么开心？\n底层人民发的奖金和奖品金额都在一定的预算范围内，…",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/6/3",
       "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
       "sentiment": "neutral",
       "time": "2026-07-22 11:26",
@@ -4127,100 +4799,28 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-02cf06b9408a47f4",
+      "id": "maimai-f80e72fad572b7fd",
       "platform": "脉脉",
-      "title": "感觉今年股市还能涨，感觉要多加一点",
+      "title": "G刻成长那个成长故事话题互动为啥没人参加呢？",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/3/1",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "neutral",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-901ab16699e70fd1",
+      "platform": "脉脉",
+      "title": "中国游戏市场10月销售收入超197亿元，6个月内首次环比正增长\n11月2…",
       "summary": "🏢同事圈 吉比特游戏同事圈 · 0/0/3",
-      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
-      "sentiment": "neutral",
-      "time": "2026-07-22 11:26",
-      "tags": [
-        "脉脉",
-        "同事圈",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-f46b511671978397",
-      "platform": "脉脉",
-      "title": "大家都是如何处理职场中的人情世故的？",
-      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/1/1",
-      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
-      "sentiment": "neutral",
-      "time": "2026-07-22 11:26",
-      "tags": [
-        "脉脉",
-        "同事圈",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-2da50479fa0375cc",
-      "platform": "脉脉",
-      "title": "1-5分，咱们公司你给打几分？",
-      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/2/1",
-      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
-      "sentiment": "neutral",
-      "time": "2026-07-22 11:26",
-      "tags": [
-        "脉脉",
-        "同事圈",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-aaf4e5dddae00f18",
-      "platform": "脉脉",
-      "title": "啥时候发年终啊，非得磨磨唧唧～笑哭]",
-      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/1/1",
-      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
-      "sentiment": "neutral",
-      "time": "2026-07-22 11:26",
-      "tags": [
-        "脉脉",
-        "同事圈",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-c982a3849c7a2da0",
-      "platform": "脉脉",
-      "title": "今天是不是没人不开心",
-      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/1/5",
-      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
-      "sentiment": "neutral",
-      "time": "2026-07-22 11:26",
-      "tags": [
-        "脉脉",
-        "同事圈",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-e9b325c65d8d60b9",
-      "platform": "脉脉",
-      "title": "新年去哪里玩，有推荐的吗？",
-      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/0/1",
       "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
       "sentiment": "positive",
       "time": "2026-07-22 11:26",
@@ -4235,10 +4835,10 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-2b50ab1a7baeacb0",
+      "id": "maimai-45e9fc486ee12fab",
       "platform": "脉脉",
-      "title": "大家过年去哪里玩啊？",
-      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/0/2",
+      "title": "一个人，到底应该睡右边或左边？",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/1/9",
       "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
       "sentiment": "neutral",
       "time": "2026-07-22 11:26",
@@ -4253,279 +4853,9 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-bd189e19254d0d3f",
+      "id": "maimai-4286719fed03cc89",
       "platform": "脉脉",
-      "title": "问一下圈内的友友们，直系领导和大领导都给你派发工作，且冲突，你会咋办？",
-      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/1/3",
-      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
-      "sentiment": "neutral",
-      "time": "2026-07-22 11:26",
-      "tags": [
-        "脉脉",
-        "同事圈",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-de2ecf96d2481972",
-      "platform": "脉脉",
-      "title": "年底了，是不是要准备准备，冲击一下明年的金三银四？",
-      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/0/5",
-      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
-      "sentiment": "neutral",
-      "time": "2026-07-22 11:26",
-      "tags": [
-        "脉脉",
-        "同事圈",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-5efe14f93de74be8",
-      "platform": "脉脉",
-      "title": "为什么上了班之后越来越觉得世界太草台班子了？",
-      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/1/7",
-      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
-      "sentiment": "neutral",
-      "time": "2026-07-22 11:26",
-      "tags": [
-        "脉脉",
-        "同事圈",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-e6307a845968f211",
-      "platform": "脉脉",
-      "title": "好羡慕那些能把一点小事吹成大功劳的人啊，为什么我就不会把汇报写的那么有水…",
-      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/1/6",
-      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
-      "sentiment": "neutral",
-      "time": "2026-07-22 11:26",
-      "tags": [
-        "脉脉",
-        "同事圈",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-01efdcbfb3cfdab1",
-      "platform": "脉脉",
-      "title": "71发生了什么？",
-      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/1/3",
-      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
-      "sentiment": "neutral",
-      "time": "2026-07-22 11:26",
-      "tags": [
-        "脉脉",
-        "同事圈",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-a88ff8ed8981fa7e",
-      "platform": "脉脉",
-      "title": "近年大裁员后，努力干活的人，有能力的人基本全裁了，可惜，我指的也并不是单…",
-      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/7/4",
-      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
-      "sentiment": "negative",
-      "time": "2026-07-22 11:26",
-      "tags": [
-        "脉脉",
-        "同事圈",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-8dd7a4d8a9e78f4f",
-      "platform": "脉脉",
-      "title": "**公司",
-      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/3/6",
-      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
-      "sentiment": "neutral",
-      "time": "2026-07-22 11:26",
-      "tags": [
-        "脉脉",
-        "同事圈",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-b37f7050f8bb5545",
-      "platform": "脉脉",
-      "title": "没听太明白，有谁翻译翻译今天大会的主题是啥？",
-      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/1/3",
-      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
-      "sentiment": "neutral",
-      "time": "2026-07-22 11:26",
-      "tags": [
-        "脉脉",
-        "同事圈",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-03c471f0c0563894",
-      "platform": "脉脉",
-      "title": "奋斗多年心身疲，牛马之日何时是个头？",
-      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/1/3",
-      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
-      "sentiment": "neutral",
-      "time": "2026-07-22 11:26",
-      "tags": [
-        "脉脉",
-        "同事圈",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "企业文化",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-dc567616310862f9",
-      "platform": "脉脉",
-      "title": "提前放假咯",
-      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/10/5",
-      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
-      "sentiment": "neutral",
-      "time": "2026-07-22 11:26",
-      "tags": [
-        "脉脉",
-        "同事圈",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-a7ad9f6ebba95c69",
-      "platform": "脉脉",
-      "title": "下班就去狂吃",
-      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/0/2",
-      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
-      "sentiment": "neutral",
-      "time": "2026-07-22 11:26",
-      "tags": [
-        "脉脉",
-        "同事圈",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-dfa82c3632c6c054",
-      "platform": "脉脉",
-      "title": "进来的时候说14，现在给的时候就变成12.5了，这年终奖给的我还以为是加…",
-      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/11/2",
-      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
-      "sentiment": "negative",
-      "time": "2026-07-22 11:26",
-      "tags": [
-        "脉脉",
-        "同事圈",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "企业文化",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-34b9eb6315a96a6e",
-      "platform": "脉脉",
-      "title": "72成了？",
-      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/0/4",
-      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
-      "sentiment": "neutral",
-      "time": "2026-07-22 11:26",
-      "tags": [
-        "脉脉",
-        "同事圈",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-1c0b1e2011f1ade4",
-      "platform": "脉脉",
-      "title": "身体是第一位的，感谢今天的祝福卡",
-      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/1/3",
-      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
-      "sentiment": "neutral",
-      "time": "2026-07-22 11:26",
-      "tags": [
-        "脉脉",
-        "同事圈",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-c5c7331b634e8a3d",
-      "platform": "脉脉",
-      "title": "希望市场可以好起来",
-      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/0/2",
-      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
-      "sentiment": "neutral",
-      "time": "2026-07-22 11:26",
-      "tags": [
-        "脉脉",
-        "同事圈",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-f5d21e7cd5dbbc96",
-      "platform": "脉脉",
-      "title": "我的祝福卡是“每次都能获得大额外卖券”，那一会儿就去点外卖",
+      "title": "怎么这里没人说话 隔壁藤子好热闹",
       "summary": "🏢同事圈 吉比特游戏同事圈 · 0/0/1",
       "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
       "sentiment": "neutral",
@@ -4541,48 +4871,12 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-bb11f06591264964",
+      "id": "maimai-c89a500d50fb5126",
       "platform": "脉脉",
-      "title": "哇，这个祝福真是太贴心了，但愿是真的！",
-      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/0/1",
+      "title": "后悔过来了 太卷了 一点没有做事的氛围",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/6/8",
       "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
-      "sentiment": "neutral",
-      "time": "2026-07-22 11:26",
-      "tags": [
-        "脉脉",
-        "同事圈",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-0a90d02e484f7f60",
-      "platform": "脉脉",
-      "title": "运营同学还好不？",
-      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/3/4",
-      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
-      "sentiment": "neutral",
-      "time": "2026-07-22 11:26",
-      "tags": [
-        "脉脉",
-        "同事圈",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-79a023c85bf0610c",
-      "platform": "脉脉",
-      "title": "深圳运营也996了？",
-      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/8/4",
-      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
-      "sentiment": "neutral",
+      "sentiment": "negative",
       "time": "2026-07-22 11:26",
       "tags": [
         "脉脉",
@@ -4595,9 +4889,27 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-a01b17e9b458a356",
+      "id": "maimai-15afd3b6976dafb6",
       "platform": "脉脉",
-      "title": "有N+1攻略吗？想离职了。",
+      "title": "木有粽子\n连粽子都没有了\nDamn",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/3/3",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "neutral",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-480155b11cb7adfc",
+      "platform": "脉脉",
+      "title": "不想干了好烦",
       "summary": "🏢同事圈 吉比特游戏同事圈 · 0/2/3",
       "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
       "sentiment": "neutral",
@@ -4631,9 +4943,9 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-480155b11cb7adfc",
+      "id": "maimai-a01b17e9b458a356",
       "platform": "脉脉",
-      "title": "不想干了好烦",
+      "title": "有N+1攻略吗？想离职了。",
       "summary": "🏢同事圈 吉比特游戏同事圈 · 0/2/3",
       "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
       "sentiment": "neutral",
@@ -4649,10 +4961,28 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-15afd3b6976dafb6",
+      "id": "maimai-79a023c85bf0610c",
       "platform": "脉脉",
-      "title": "木有粽子\n连粽子都没有了\nDamn",
-      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/3/3",
+      "title": "深圳运营也996了？",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/8/4",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "neutral",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "企业文化",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-0a90d02e484f7f60",
+      "platform": "脉脉",
+      "title": "运营同学还好不？",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/3/4",
       "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
       "sentiment": "neutral",
       "time": "2026-07-22 11:26",
@@ -4667,27 +4997,9 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-c89a500d50fb5126",
+      "id": "maimai-bb11f06591264964",
       "platform": "脉脉",
-      "title": "后悔过来了 太卷了 一点没有做事的氛围",
-      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/6/8",
-      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
-      "sentiment": "negative",
-      "time": "2026-07-22 11:26",
-      "tags": [
-        "脉脉",
-        "同事圈",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "企业文化",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-4286719fed03cc89",
-      "platform": "脉脉",
-      "title": "怎么这里没人说话 隔壁藤子好热闹",
+      "title": "哇，这个祝福真是太贴心了，但愿是真的！",
       "summary": "🏢同事圈 吉比特游戏同事圈 · 0/0/1",
       "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
       "sentiment": "neutral",
@@ -4703,10 +5015,10 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-45e9fc486ee12fab",
+      "id": "maimai-f5d21e7cd5dbbc96",
       "platform": "脉脉",
-      "title": "一个人，到底应该睡右边或左边？",
-      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/1/9",
+      "title": "我的祝福卡是“每次都能获得大额外卖券”，那一会儿就去点外卖",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/0/1",
       "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
       "sentiment": "neutral",
       "time": "2026-07-22 11:26",
@@ -4721,63 +5033,9 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-901ab16699e70fd1",
+      "id": "maimai-c5c7331b634e8a3d",
       "platform": "脉脉",
-      "title": "中国游戏市场10月销售收入超197亿元，6个月内首次环比正增长\n11月2…",
-      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/0/3",
-      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
-      "sentiment": "positive",
-      "time": "2026-07-22 11:26",
-      "tags": [
-        "脉脉",
-        "同事圈",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-f80e72fad572b7fd",
-      "platform": "脉脉",
-      "title": "G刻成长那个成长故事话题互动为啥没人参加呢？",
-      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/3/1",
-      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
-      "sentiment": "neutral",
-      "time": "2026-07-22 11:26",
-      "tags": [
-        "脉脉",
-        "同事圈",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-3a85ed736d257c82",
-      "platform": "脉脉",
-      "title": "真的这么多人这么开心？\n底层人民发的奖金和奖品金额都在一定的预算范围内，…",
-      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/6/3",
-      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
-      "sentiment": "neutral",
-      "time": "2026-07-22 11:26",
-      "tags": [
-        "脉脉",
-        "同事圈",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-9277305de99fbf75",
-      "platform": "脉脉",
-      "title": "怎么老发扶农产品啊………",
+      "title": "希望市场可以好起来",
       "summary": "🏢同事圈 吉比特游戏同事圈 · 0/0/2",
       "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
       "sentiment": "neutral",
@@ -4793,46 +5051,10 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-532afa5bd17ab7f4",
+      "id": "maimai-1c0b1e2011f1ade4",
       "platform": "脉脉",
-      "title": "想起来，前面让签署的加班工资包含在工资内的条款，以及自愿加班协议都是无效…",
-      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/2/3",
-      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
-      "sentiment": "negative",
-      "time": "2026-07-22 11:26",
-      "tags": [
-        "脉脉",
-        "同事圈",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "企业文化",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-c589b2cc3ac050cb",
-      "platform": "脉脉",
-      "title": "旗帜鲜明996",
-      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/6/7",
-      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
-      "sentiment": "neutral",
-      "time": "2026-07-22 11:26",
-      "tags": [
-        "脉脉",
-        "同事圈",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "企业文化",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-26ef748bcd0eb41c",
-      "platform": "脉脉",
-      "title": "16楼，有个兄弟或者姐妹，26号早上茶叶没倒哈！   我差点给你接盘了，…",
-      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/0/6",
+      "title": "身体是第一位的，感谢今天的祝福卡",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/1/3",
       "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
       "sentiment": "neutral",
       "time": "2026-07-22 11:26",
@@ -4847,12 +5069,462 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-c4335e4c30195fae",
+      "id": "maimai-34b9eb6315a96a6e",
       "platform": "脉脉",
-      "title": "诸位如何看？",
-      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/7/4",
+      "title": "72成了？",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/0/4",
       "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
       "sentiment": "neutral",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-dfa82c3632c6c054",
+      "platform": "脉脉",
+      "title": "进来的时候说14，现在给的时候就变成12.5了，这年终奖给的我还以为是加…",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/11/2",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "negative",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "企业文化",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-a7ad9f6ebba95c69",
+      "platform": "脉脉",
+      "title": "下班就去狂吃",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/0/2",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "neutral",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-dc567616310862f9",
+      "platform": "脉脉",
+      "title": "提前放假咯",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/10/5",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "neutral",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-03c471f0c0563894",
+      "platform": "脉脉",
+      "title": "奋斗多年心身疲，牛马之日何时是个头？",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/1/3",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "neutral",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "企业文化",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-b37f7050f8bb5545",
+      "platform": "脉脉",
+      "title": "没听太明白，有谁翻译翻译今天大会的主题是啥？",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/1/3",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "neutral",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-8dd7a4d8a9e78f4f",
+      "platform": "脉脉",
+      "title": "**公司",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/3/6",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "neutral",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-a88ff8ed8981fa7e",
+      "platform": "脉脉",
+      "title": "近年大裁员后，努力干活的人，有能力的人基本全裁了，可惜，我指的也并不是单…",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/7/4",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "negative",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-01efdcbfb3cfdab1",
+      "platform": "脉脉",
+      "title": "71发生了什么？",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/1/3",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "neutral",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-e6307a845968f211",
+      "platform": "脉脉",
+      "title": "好羡慕那些能把一点小事吹成大功劳的人啊，为什么我就不会把汇报写的那么有水…",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/1/6",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "neutral",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-5efe14f93de74be8",
+      "platform": "脉脉",
+      "title": "为什么上了班之后越来越觉得世界太草台班子了？",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/1/7",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "neutral",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-de2ecf96d2481972",
+      "platform": "脉脉",
+      "title": "年底了，是不是要准备准备，冲击一下明年的金三银四？",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/0/5",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "neutral",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-bd189e19254d0d3f",
+      "platform": "脉脉",
+      "title": "问一下圈内的友友们，直系领导和大领导都给你派发工作，且冲突，你会咋办？",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/1/3",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "neutral",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-2b50ab1a7baeacb0",
+      "platform": "脉脉",
+      "title": "大家过年去哪里玩啊？",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/0/2",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "neutral",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-e9b325c65d8d60b9",
+      "platform": "脉脉",
+      "title": "新年去哪里玩，有推荐的吗？",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/0/1",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "positive",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-c982a3849c7a2da0",
+      "platform": "脉脉",
+      "title": "今天是不是没人不开心",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/1/5",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "neutral",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-aaf4e5dddae00f18",
+      "platform": "脉脉",
+      "title": "啥时候发年终啊，非得磨磨唧唧～笑哭]",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/1/1",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "neutral",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-2da50479fa0375cc",
+      "platform": "脉脉",
+      "title": "1-5分，咱们公司你给打几分？",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/2/1",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "neutral",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-f46b511671978397",
+      "platform": "脉脉",
+      "title": "大家都是如何处理职场中的人情世故的？",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/1/1",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "neutral",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-02cf06b9408a47f4",
+      "platform": "脉脉",
+      "title": "感觉今年股市还能涨，感觉要多加一点",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/0/3",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "neutral",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-ec72b2ecd6b1cb34",
+      "platform": "脉脉",
+      "title": "从夯到垃，给自己过去一年打个分吧，我终极简直拉完了",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/0/1",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "neutral",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-9e80964d72419e97",
+      "platform": "脉脉",
+      "title": "许愿我今年可以涨工资！",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/3/2",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "neutral",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-a6c4aeb82fa7e37b",
+      "platform": "脉脉",
+      "title": "这波职级调整是变相降薪逼人离职吗",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 5/8/10",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "negative",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-d2c8e892655806d6",
+      "platform": "脉脉",
+      "title": "大家怎么看待G言的？",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 1/6/4",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "neutral",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-ce19298a30858677",
+      "platform": "脉脉",
+      "title": "为什么突然降薪啊，不是去年今年赚的都挺多的吗",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 3/5/4",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "negative",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-285402f71f453c6e",
+      "platform": "脉脉",
+      "title": "降薪离职二选一，各位怎么选？",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 5/19/6",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "negative",
       "time": "2026-07-22 11:26",
       "tags": [
         "脉脉",
@@ -4886,19 +5558,17 @@ window.MONITOR_DATA = {
       "platform": "小红书",
       "title": "吉比特&雷霆游戏大手笔分红！",
       "summary": "GameQuest · 👍14 收藏5",
-      "url": "https://www.xiaohongshu.com/explore/6a5f935b000000000503b472?xsec_token=ABMYyFEcbZkksmGhLNLr3009U1m03CO5bQG7KU2kKwOfI=",
+      "url": "https://www.xiaohongshu.com/explore/6a5f935b000000000503b472?xsec_token=ABMYyFEcbZkksmGhLNLr3009UBy2QUVd-vI1ijMqYq1kc=",
       "sentiment": "positive",
       "time": "2026-07-21 23:42",
       "tags": [
         "小红书",
-        "雷霆游戏",
+        "吉比特",
         "👍14"
       ],
       "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "股票财务",
-      "section": "舆情",
-      "pushable": true
+      "_srcKw": "吉比特",
+      "topic": "股票财务"
     },
     {
       "id": "xhs-6a5f928c0000000011004218",
@@ -5503,25 +6173,6 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "xhs-6a56a03a000000001101f641",
-      "platform": "小红书",
-      "title": "停电怎么凉快",
-      "summary": "吉比特 · 👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/6a56a03a000000001101f641?xsec_token=ABlmeEV5sH_EkJbHt6qonjcjytUaoYcpiEMcLRMypzmzM=",
-      "sentiment": "neutral",
-      "time": "2026-07-15 04:46",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
       "id": "xhs-6a56a02c000000000f006368",
       "platform": "小红书",
       "title": "停电怎么凉快",
@@ -5533,6 +6184,25 @@ window.MONITOR_DATA = {
         "小红书",
         "吉比特",
         "👍1"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-6a56a03a000000001101f641",
+      "platform": "小红书",
+      "title": "停电怎么凉快",
+      "summary": "吉比特 · 👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/6a56a03a000000001101f641?xsec_token=ABlmeEV5sH_EkJbHt6qonjcjytUaoYcpiEMcLRMypzmzM=",
+      "sentiment": "neutral",
+      "time": "2026-07-15 04:46",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
       ],
       "category": "小红书",
       "_srcKw": "吉比特",
@@ -6157,7 +6827,7 @@ window.MONITOR_DATA = {
       "platform": "小红书",
       "title": "我勒个雷霆游戏啊！",
       "summary": "宝朱 · 👍17 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/6a4b3b7d000000000702a976?xsec_token=ABQSBsGapLWazpk7v2aEa017ZfgnHIT9d3LySGGcN3sx8=",
+      "url": "https://www.xiaohongshu.com/explore/6a4b3b7d000000000702a976?xsec_token=ABQSBsGapLWazpk7v2aEa0191n2pdxcqfwoWuXs_BSG7Q=",
       "sentiment": "neutral",
       "time": "2026-07-06 13:22",
       "tags": [
@@ -6167,9 +6837,7 @@ window.MONITOR_DATA = {
       ],
       "category": "小红书",
       "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
+      "topic": "公司综合"
     },
     {
       "id": "news-202607063795038257",
@@ -6300,11 +6968,11 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "news-202607033793601461",
+      "id": "news-202607033793595520",
       "platform": "证券时报网",
-      "title": "近日海外机构调研股名单",
-      "summary": "13.58 电子 600160 巨化股份 1 49.35 11.85 基础化工 300323 华灿光电 17 17.95 11.28 电子 603163 圣晖集成 1 125.40 11.13 建筑装饰 688322 奥比中光 11 147.33 10.17 电子 603444 吉比特",
-      "url": "http://finance.eastmoney.com/a/202607033793601461.html",
+      "title": "传媒行业今日净流出资金29.50亿元，蓝色光标等7股净流出资金超亿元",
+      "summary": "3353.42 300182 捷成股份 -1.43 3.21 -3285.50 300063 天龙集团 -6.12 8.96 -3275.61 300251 光线传媒 -0.34 2.20 -3209.80 300315 掌趣科技 -2.46 2.81 -3151.20 603444 吉比特",
+      "url": "http://finance.eastmoney.com/a/202607033793595520.html",
       "sentiment": "neutral",
       "time": "2026-07-03 16:39",
       "tags": [
@@ -6317,11 +6985,11 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "news-202607033793595520",
+      "id": "news-202607033793601461",
       "platform": "证券时报网",
-      "title": "传媒行业今日净流出资金29.50亿元，蓝色光标等7股净流出资金超亿元",
-      "summary": "3353.42 300182 捷成股份 -1.43 3.21 -3285.50 300063 天龙集团 -6.12 8.96 -3275.61 300251 光线传媒 -0.34 2.20 -3209.80 300315 掌趣科技 -2.46 2.81 -3151.20 603444 吉比特",
-      "url": "http://finance.eastmoney.com/a/202607033793595520.html",
+      "title": "近日海外机构调研股名单",
+      "summary": "13.58 电子 600160 巨化股份 1 49.35 11.85 基础化工 300323 华灿光电 17 17.95 11.28 电子 603163 圣晖集成 1 125.40 11.13 建筑装饰 688322 奥比中光 11 147.33 10.17 电子 603444 吉比特",
+      "url": "http://finance.eastmoney.com/a/202607033793601461.html",
       "sentiment": "neutral",
       "time": "2026-07-03 16:39",
       "tags": [
@@ -6490,28 +7158,28 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "news-202607013790564241",
+      "id": "news-202607013790564765",
       "platform": "证券日报",
-      "title": "吉比特：2026年第二季度，《杖剑传说》在中国大陆App Store游戏畅销榜平均排名为69名，最高至该榜单第54名",
-      "summary": "证券日报网7月1日讯 ，吉比特在接受调研者提问时表示，2026年第二季度，《杖剑传说》中国大陆版主要围绕新赛季与周年庆推进核心内容：4月上线与B.Duck小黄鸭的全新联动；5月开启S5赛季“霜焰之歌”，并正式开放新国度“伊格尼斯”，游戏一周年庆典期间还上线了“重建乐园”“梦幻留影”",
-      "url": "http://finance.eastmoney.com/a/202607013790564241.html",
-      "sentiment": "positive",
+      "title": "吉比特：公司一直将游戏出海作为长期战略方向持续推进",
+      "summary": "证券日报网7月1日讯 ，吉比特在接受调研者提问时表示，公司一直将游戏出海作为长期战略方向持续推进，谷歌和苹果渠道分成比例的下调有助于降低发行成本，对境外业务发展有一定积极影响。",
+      "url": "http://finance.eastmoney.com/a/202607013790564765.html",
+      "sentiment": "neutral",
       "time": "2026-07-01 21:34",
       "tags": [
         "吉比特",
         "证券日报"
       ],
       "category": "财经新闻",
-      "topic": "产品游戏",
+      "topic": "经营管理",
       "section": "舆情",
       "pushable": true
     },
     {
-      "id": "news-202607013790564462",
+      "id": "news-202607013790565478",
       "platform": "证券日报",
-      "title": "吉比特：《九牧之野》于2025年12月18日公测，截至2026年第二季度末，游戏已推进至第四个赛季",
-      "summary": "证券日报网7月1日讯 ，吉比特在接受调研者提问时表示，《九牧之野》于2025年12月18日公测，截至2026年第二季度末，游戏已推进至第四个赛季，游戏内容更新节奏稳定，核心玩家社群保持活跃。",
-      "url": "http://finance.eastmoney.com/a/202607013790564462.html",
+      "title": "吉比特：AI技术已深入应用于公司研发的多个环节",
+      "summary": "证券日报网7月1日讯 ，吉比特在接受调研者提问时表示，AI技术已深入应用于公司研发的多个环节。",
+      "url": "http://finance.eastmoney.com/a/202607013790565478.html",
       "sentiment": "neutral",
       "time": "2026-07-01 21:34",
       "tags": [
@@ -6524,12 +7192,12 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "news-202607013790563691",
+      "id": "news-202607013790564095",
       "platform": "证券日报",
-      "title": "吉比特：公司将于2026年下半年推出自研产品《问剑长生（欧美版）》及代理产品《失落城堡2》",
-      "summary": "证券日报网7月1日讯 ，吉比特在接受调研者提问时表示，公司将于2026年下半年推出自研产品《问剑长生（欧美版）》及代理产品《失落城堡2》，产品发行计划可关注雷霆游戏官网。",
-      "url": "http://finance.eastmoney.com/a/202607013790563691.html",
-      "sentiment": "neutral",
+      "title": "吉比特：《杖剑传说》欧美版上线首月曾同时位于10多个区域市场App Store游戏畅销榜Top50",
+      "summary": "证券日报网7月1日讯 ，吉比特在接受调研者提问时表示，《杖剑传说》欧美版（Sword x Staff）于2026年5月19日上线，欧美版延续“轻松冒险、放置成长、策略搭配”的游戏定位，上线首月曾同时位于10多个区域市场App Store游戏畅销榜Top50，其中美国地区平均排名44",
+      "url": "http://finance.eastmoney.com/a/202607013790564095.html",
+      "sentiment": "positive",
       "time": "2026-07-01 21:34",
       "tags": [
         "吉比特",
@@ -6558,12 +7226,12 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "news-202607013790564095",
+      "id": "news-202607013790563691",
       "platform": "证券日报",
-      "title": "吉比特：《杖剑传说》欧美版上线首月曾同时位于10多个区域市场App Store游戏畅销榜Top50",
-      "summary": "证券日报网7月1日讯 ，吉比特在接受调研者提问时表示，《杖剑传说》欧美版（Sword x Staff）于2026年5月19日上线，欧美版延续“轻松冒险、放置成长、策略搭配”的游戏定位，上线首月曾同时位于10多个区域市场App Store游戏畅销榜Top50，其中美国地区平均排名44",
-      "url": "http://finance.eastmoney.com/a/202607013790564095.html",
-      "sentiment": "positive",
+      "title": "吉比特：公司将于2026年下半年推出自研产品《问剑长生（欧美版）》及代理产品《失落城堡2》",
+      "summary": "证券日报网7月1日讯 ，吉比特在接受调研者提问时表示，公司将于2026年下半年推出自研产品《问剑长生（欧美版）》及代理产品《失落城堡2》，产品发行计划可关注雷霆游戏官网。",
+      "url": "http://finance.eastmoney.com/a/202607013790563691.html",
+      "sentiment": "neutral",
       "time": "2026-07-01 21:34",
       "tags": [
         "吉比特",
@@ -6575,11 +7243,11 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "news-202607013790565478",
+      "id": "news-202607013790564462",
       "platform": "证券日报",
-      "title": "吉比特：AI技术已深入应用于公司研发的多个环节",
-      "summary": "证券日报网7月1日讯 ，吉比特在接受调研者提问时表示，AI技术已深入应用于公司研发的多个环节。",
-      "url": "http://finance.eastmoney.com/a/202607013790565478.html",
+      "title": "吉比特：《九牧之野》于2025年12月18日公测，截至2026年第二季度末，游戏已推进至第四个赛季",
+      "summary": "证券日报网7月1日讯 ，吉比特在接受调研者提问时表示，《九牧之野》于2025年12月18日公测，截至2026年第二季度末，游戏已推进至第四个赛季，游戏内容更新节奏稳定，核心玩家社群保持活跃。",
+      "url": "http://finance.eastmoney.com/a/202607013790564462.html",
       "sentiment": "neutral",
       "time": "2026-07-01 21:34",
       "tags": [
@@ -6592,19 +7260,19 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "news-202607013790564765",
+      "id": "news-202607013790564241",
       "platform": "证券日报",
-      "title": "吉比特：公司一直将游戏出海作为长期战略方向持续推进",
-      "summary": "证券日报网7月1日讯 ，吉比特在接受调研者提问时表示，公司一直将游戏出海作为长期战略方向持续推进，谷歌和苹果渠道分成比例的下调有助于降低发行成本，对境外业务发展有一定积极影响。",
-      "url": "http://finance.eastmoney.com/a/202607013790564765.html",
-      "sentiment": "neutral",
+      "title": "吉比特：2026年第二季度，《杖剑传说》在中国大陆App Store游戏畅销榜平均排名为69名，最高至该榜单第54名",
+      "summary": "证券日报网7月1日讯 ，吉比特在接受调研者提问时表示，2026年第二季度，《杖剑传说》中国大陆版主要围绕新赛季与周年庆推进核心内容：4月上线与B.Duck小黄鸭的全新联动；5月开启S5赛季“霜焰之歌”，并正式开放新国度“伊格尼斯”，游戏一周年庆典期间还上线了“重建乐园”“梦幻留影”",
+      "url": "http://finance.eastmoney.com/a/202607013790564241.html",
+      "sentiment": "positive",
       "time": "2026-07-01 21:34",
       "tags": [
         "吉比特",
         "证券日报"
       ],
       "category": "财经新闻",
-      "topic": "经营管理",
+      "topic": "产品游戏",
       "section": "舆情",
       "pushable": true
     },
@@ -6752,7 +7420,7 @@ window.MONITOR_DATA = {
       "platform": "小红书",
       "title": "游戏公司吉比特为什么这么牛？钱从哪来？",
       "summary": "上海字符无限 · 👍14 收藏1",
-      "url": "https://www.xiaohongshu.com/explore/6a40d429000000001603ff7d?xsec_token=ABD4Zr5UFXuZU377qmwmOcxnu0Mm0N9F2Flq9QWt8icPs=",
+      "url": "https://www.xiaohongshu.com/explore/6a40d429000000001603ff7d?xsec_token=ABD4Zr5UFXuZU377qmwmOcxr6lS8z1vQDz1UqoPoLe_nY=",
       "sentiment": "neutral",
       "time": "2026-06-29 12:59",
       "tags": [
@@ -6762,9 +7430,7 @@ window.MONITOR_DATA = {
       ],
       "category": "小红书",
       "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
+      "topic": "公司综合"
     },
     {
       "id": "news-202606293786420144",
@@ -6871,23 +7537,6 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "news-202606253782515022",
-      "platform": "界面新闻",
-      "title": "游戏板块震荡上扬，巨人网络触及涨停",
-      "summary": "游戏板块震荡上扬，巨人网络触及涨停，中青宝、冰川网络、三七互娱、完美世界、吉比特跟涨。",
-      "url": "http://finance.eastmoney.com/a/202606253782515022.html",
-      "sentiment": "neutral",
-      "time": "2026-06-25 09:58",
-      "tags": [
-        "吉比特",
-        "界面新闻"
-      ],
-      "category": "财经新闻",
-      "topic": "股票财务",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
       "id": "news-202606253782485781",
       "platform": "每日经济新闻",
       "title": "游戏板块震荡上扬，巨人网络涨停",
@@ -6905,19 +7554,19 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "news-202606253782515116",
-      "platform": "财联社",
-      "title": "游戏板块震荡反弹 巨人网络涨停",
-      "summary": "游戏板块震荡反弹，巨人网络涨停，冰川网络、三七互娱、完美世界、吉比特、神州泰岳跟涨。消息面上，5月游戏版号发放节奏保持稳定，单月共发放158款版号，年内累计已达779款，同比增长19.11%。",
-      "url": "http://finance.eastmoney.com/a/202606253782515116.html",
-      "sentiment": "positive",
-      "time": "2026-06-25 09:57",
+      "id": "news-202606253782515022",
+      "platform": "界面新闻",
+      "title": "游戏板块震荡上扬，巨人网络触及涨停",
+      "summary": "游戏板块震荡上扬，巨人网络触及涨停，中青宝、冰川网络、三七互娱、完美世界、吉比特跟涨。",
+      "url": "http://finance.eastmoney.com/a/202606253782515022.html",
+      "sentiment": "neutral",
+      "time": "2026-06-25 09:58",
       "tags": [
         "吉比特",
-        "财联社"
+        "界面新闻"
       ],
       "category": "财经新闻",
-      "topic": "经营管理",
+      "topic": "股票财务",
       "section": "舆情",
       "pushable": true
     },
@@ -6932,6 +7581,23 @@ window.MONITOR_DATA = {
       "tags": [
         "吉比特",
         "东方财富Choice数据"
+      ],
+      "category": "财经新闻",
+      "topic": "经营管理",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "news-202606253782515116",
+      "platform": "财联社",
+      "title": "游戏板块震荡反弹 巨人网络涨停",
+      "summary": "游戏板块震荡反弹，巨人网络涨停，冰川网络、三七互娱、完美世界、吉比特、神州泰岳跟涨。消息面上，5月游戏版号发放节奏保持稳定，单月共发放158款版号，年内累计已达779款，同比增长19.11%。",
+      "url": "http://finance.eastmoney.com/a/202606253782515116.html",
+      "sentiment": "positive",
+      "time": "2026-06-25 09:57",
+      "tags": [
+        "吉比特",
+        "财联社"
       ],
       "category": "财经新闻",
       "topic": "经营管理",
@@ -7080,20 +7746,18 @@ window.MONITOR_DATA = {
       "id": "xhs-6a3941ce000000000702e91b",
       "platform": "小红书",
       "title": "吉比特AI视频面试：直属领导vs大Boss",
-      "summary": "黄金豆 · 👍16 收藏9",
-      "url": "https://www.xiaohongshu.com/explore/6a3941ce000000000702e91b?xsec_token=ABoSF3D1Ap8xMyb_Vk61GjOthV4cXgT9noOCX1OyqzMmU=",
+      "summary": "黄金豆 · 👍17 收藏9",
+      "url": "https://www.xiaohongshu.com/explore/6a3941ce000000000702e91b?xsec_token=ABoSF3D1Ap8xMyb_Vk61GjOlUtv2Mie8_WXn9eCkE4SWk=",
       "sentiment": "neutral",
       "time": "2026-06-22 22:08",
       "tags": [
         "小红书",
-        "雷霆游戏",
-        "👍16"
+        "吉比特",
+        "👍17"
       ],
       "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
+      "_srcKw": "吉比特",
+      "topic": "招聘求职"
     },
     {
       "id": "news-202606223778357468",
@@ -7173,6 +7837,24 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
+      "id": "xhs-6a33e1a50000000008033cbe",
+      "platform": "小红书",
+      "title": "吉比特（603444）投资分析",
+      "summary": "宁静*.*港湾 · 👍1 收藏2",
+      "url": "https://www.xiaohongshu.com/explore/6a33e1a50000000008033cbe?xsec_token=ABTaA22ePWmONcp23EICHlHf_unUipF4RA621gEc_UlTg=",
+      "sentiment": "neutral",
+      "time": "2026-06-18 20:16",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍1"
+      ],
+      "category": "小红书",
+      "topic": "股票财务",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
       "id": "news-202606183776396728",
       "platform": "时代周报",
       "title": "2500亿上银基金总经理、督察长先后离任！重仓游戏股，“新潮买手”陈博有产品年内亏23%",
@@ -7188,24 +7870,6 @@ window.MONITOR_DATA = {
       "changeNote": "摘要有更新",
       "category": "财经新闻",
       "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-6a33e1a50000000008033cbe",
-      "platform": "小红书",
-      "title": "吉比特（603444）投资分析",
-      "summary": "宁静*.*港湾 · 👍1 收藏2",
-      "url": "https://www.xiaohongshu.com/explore/6a33e1a50000000008033cbe?xsec_token=ABTaA22ePWmONcp23EICHlHf_unUipF4RA621gEc_UlTg=",
-      "sentiment": "neutral",
-      "time": "2026-06-18 20:16",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍1"
-      ],
-      "category": "小红书",
-      "topic": "股票财务",
       "section": "舆情",
       "pushable": true
     },
@@ -7391,23 +8055,6 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "news-202606113768325282",
-      "platform": "证券时报网",
-      "title": "今日385只个股突破五日均线",
-      "summary": "到目前为止，今日有385只A股价格突破了五日均线，其中乖离率较大的个股有华特气体、川金诺、爱迪特等，乖离率分别为15.74%、14.95%、14.49%；吉比特、凯瑞德、新产业等个股乖离率较小，刚刚站上五日均线。",
-      "url": "http://finance.eastmoney.com/a/202606113768325282.html",
-      "sentiment": "positive",
-      "time": "2026-06-11 16:52",
-      "tags": [
-        "吉比特",
-        "证券时报网"
-      ],
-      "category": "财经新闻",
-      "topic": "股票财务",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
       "id": "news-202606113768332746",
       "platform": "证券时报网",
       "title": "传媒行业今日净流出资金31.70亿元，昆仑万维等9股净流出资金超亿元",
@@ -7421,6 +8068,23 @@ window.MONITOR_DATA = {
       ],
       "category": "财经新闻",
       "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "news-202606113768325282",
+      "platform": "证券时报网",
+      "title": "今日385只个股突破五日均线",
+      "summary": "到目前为止，今日有385只A股价格突破了五日均线，其中乖离率较大的个股有华特气体、川金诺、爱迪特等，乖离率分别为15.74%、14.95%、14.49%；吉比特、凯瑞德、新产业等个股乖离率较小，刚刚站上五日均线。",
+      "url": "http://finance.eastmoney.com/a/202606113768325282.html",
+      "sentiment": "positive",
+      "time": "2026-06-11 16:52",
+      "tags": [
+        "吉比特",
+        "证券时报网"
+      ],
+      "category": "财经新闻",
+      "topic": "股票财务",
       "section": "舆情",
       "pushable": true
     },
@@ -7872,19 +8536,17 @@ window.MONITOR_DATA = {
       "platform": "小红书",
       "title": "吉比特，游戏人的梦中情司",
       "summary": "GameQuest · 👍61 收藏20",
-      "url": "https://www.xiaohongshu.com/explore/6a1ecdde000000003601ddae?xsec_token=ABqmWIODjVrA1iRbJ2NvLgYm2mbxngU6uu-O6XQ4N7-qw=",
+      "url": "https://www.xiaohongshu.com/explore/6a1ecdde000000003601ddae?xsec_token=ABqmWIODjVrA1iRbJ2NvLgYggrnQu7fJnHHhfGSDWpWaA=",
       "sentiment": "neutral",
       "time": "2026-06-02 20:34",
       "tags": [
         "小红书",
-        "雷霆游戏",
+        "吉比特",
         "👍61"
       ],
       "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "企业文化",
-      "section": "舆情",
-      "pushable": true
+      "_srcKw": "吉比特",
+      "topic": "企业文化"
     },
     {
       "id": "xhs-6a1b959500000000070119fe",
@@ -7909,7 +8571,7 @@ window.MONITOR_DATA = {
       "platform": "小红书",
       "title": "雷霆游戏 | 温泉物语♨️",
       "summary": "一方通行* · 👍7 收藏2",
-      "url": "https://www.xiaohongshu.com/explore/6a1a74ed00000000350319d4?xsec_token=AB4uevUR_oEPyE1TwSKOn4uOFvnpz1J0k3r1EMKtFqmgg=",
+      "url": "https://www.xiaohongshu.com/explore/6a1a74ed00000000350319d4?xsec_token=AB4uevUR_oEPyE1TwSKOn4uBgeE0NH1H0K3tp796446bU=",
       "sentiment": "neutral",
       "time": "2026-05-30 13:26",
       "tags": [
@@ -7919,9 +8581,7 @@ window.MONITOR_DATA = {
       ],
       "category": "小红书",
       "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
+      "topic": "公司综合"
     },
     {
       "id": "nowcoder-4",
@@ -8231,23 +8891,6 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "ann-AN202605131822274496",
-      "platform": "公司公告",
-      "title": "吉比特:厦门吉比特网络技术股份有限公司2025年年度权益分派实施公告",
-      "summary": "吉比特:厦门吉比特网络技术股份有限公司2025年年度权益分派实施公告",
-      "url": "https://data.eastmoney.com/notices/detail/603444/AN202605131822274496.html",
-      "sentiment": "neutral",
-      "time": "2026-05-14 00:00",
-      "tags": [
-        "公告",
-        "分配方案实施"
-      ],
-      "category": "公司公告",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
       "id": "ann-AN202605131822274497",
       "platform": "公司公告",
       "title": "吉比特:福建天衡联合律师事务所关于厦门吉比特网络技术股份有限公司差异化权益分派事项的法律意见书",
@@ -8258,6 +8901,23 @@ window.MONITOR_DATA = {
       "tags": [
         "公告",
         "法律意见书"
+      ],
+      "category": "公司公告",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "ann-AN202605131822274496",
+      "platform": "公司公告",
+      "title": "吉比特:厦门吉比特网络技术股份有限公司2025年年度权益分派实施公告",
+      "summary": "吉比特:厦门吉比特网络技术股份有限公司2025年年度权益分派实施公告",
+      "url": "https://data.eastmoney.com/notices/detail/603444/AN202605131822274496.html",
+      "sentiment": "neutral",
+      "time": "2026-05-14 00:00",
+      "tags": [
+        "公告",
+        "分配方案实施"
       ],
       "category": "公司公告",
       "topic": "公司综合",
@@ -8286,7 +8946,7 @@ window.MONITOR_DATA = {
       "platform": "小红书",
       "title": "每日一家公司入职建议——吉比特",
       "summary": "小丁职场日记 · 👍7 收藏1",
-      "url": "https://www.xiaohongshu.com/explore/6a0324810000000008033106?xsec_token=ABdzYKiVwq8K9yaVBsGA-fMuwgCxtAi_ccltB3E8kg29Y=",
+      "url": "https://www.xiaohongshu.com/explore/6a0324810000000008033106?xsec_token=ABdzYKiVwq8K9yaVBsGA-fMpgPZpWSa1kOqg1WyVnjdnA=",
       "sentiment": "neutral",
       "time": "2026-05-12 21:00",
       "tags": [
@@ -8296,9 +8956,7 @@ window.MONITOR_DATA = {
       ],
       "category": "小红书",
       "_srcKw": "吉比特",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
+      "topic": "招聘求职"
     },
     {
       "id": "xhs-6a0307160000000007025fe5",
@@ -8359,18 +9017,17 @@ window.MONITOR_DATA = {
       "platform": "小红书",
       "title": "每日一家公司入职建议——吉比特",
       "summary": "小丁职场日记 · 👍20 收藏10",
-      "url": "https://www.xiaohongshu.com/explore/69fee4680000000035030ef0?xsec_token=ABKwdaSm14GVcIRcQPo7GBODoc8h0vjYPLWc3qkf-0QGA=",
+      "url": "https://www.xiaohongshu.com/explore/69fee4680000000035030ef0?xsec_token=ABKwdaSm14GVcIRcQPo7GBOCbtTsjRAlcl1AceCE5dK14=",
       "sentiment": "neutral",
       "time": "2026-05-09 15:38",
       "tags": [
         "小红书",
+        "吉比特",
         "👍20"
       ],
       "category": "小红书",
-      "_srcKw": "吉比特 绩效",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
+      "_srcKw": "吉比特",
+      "topic": "招聘求职"
     },
     {
       "id": "ann-AN202605071822026704",
@@ -8427,6 +9084,23 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
+      "id": "maimai-8ee86b40e470c057",
+      "platform": "脉脉",
+      "title": "东方明珠涨停，华策影视、中国科传涨超4% ，...三七互娱、吉比特、捷成…",
+      "summary": "同壁财经·上海同壁企业管理有限公司媒介总监",
+      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
+      "sentiment": "positive",
+      "time": "2026-04-27 11:05",
+      "tags": [
+        "脉脉",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "经营管理",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
       "id": "maimai-4a29a335d0864306",
       "platform": "脉脉",
       "title": "东方明珠涨停，华策影视、中国科传涨超4% ，...三七互娱、吉比特、捷成…",
@@ -8437,23 +9111,6 @@ window.MONITOR_DATA = {
       "tags": [
         "脉脉",
         "实名",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "经营管理",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-8ee86b40e470c057",
-      "platform": "脉脉",
-      "title": "东方明珠涨停，华策影视、中国科传涨超4% ，...三七互娱、吉比特、捷成…",
-      "summary": "同壁财经·上海同壁企业管理有限公司媒介总监",
-      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
-      "sentiment": "positive",
-      "time": "2026-04-27 11:05",
-      "tags": [
-        "脉脉",
         "吉比特"
       ],
       "category": "脉脉",
@@ -8480,6 +9137,23 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
+      "id": "maimai-924ede667aada0af",
+      "platform": "脉脉",
+      "title": "517770）跟踪的SHS游戏传媒指数样本股中，吉比特...",
+      "summary": "同壁财经·上海同壁企业管理有限公司媒介总监",
+      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
+      "sentiment": "neutral",
+      "time": "2026-04-24 12:23",
+      "tags": [
+        "脉脉",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "经营管理",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
       "id": "maimai-895d18138f7a33aa",
       "platform": "脉脉",
       "title": "517770）跟踪的SHS游戏传媒指数样本股中，吉比特...",
@@ -8490,23 +9164,6 @@ window.MONITOR_DATA = {
       "tags": [
         "脉脉",
         "实名",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "经营管理",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-924ede667aada0af",
-      "platform": "脉脉",
-      "title": "517770）跟踪的SHS游戏传媒指数样本股中，吉比特...",
-      "summary": "同壁财经·上海同壁企业管理有限公司媒介总监",
-      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
-      "sentiment": "neutral",
-      "time": "2026-04-24 12:23",
-      "tags": [
-        "脉脉",
         "吉比特"
       ],
       "category": "脉脉",
@@ -8549,16 +9206,16 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "ann-AN202604231821493820",
+      "id": "ann-AN202604231821493824",
       "platform": "公司公告",
-      "title": "吉比特:厦门吉比特网络技术股份有限公司2026年第一季度报告",
-      "summary": "吉比特:厦门吉比特网络技术股份有限公司2026年第一季度报告",
-      "url": "https://data.eastmoney.com/notices/detail/603444/AN202604231821493820.html",
+      "title": "吉比特:厦门吉比特网络技术股份有限公司第六届董事会第十二次会议决议公告",
+      "summary": "吉比特:厦门吉比特网络技术股份有限公司第六届董事会第十二次会议决议公告",
+      "url": "https://data.eastmoney.com/notices/detail/603444/AN202604231821493824.html",
       "sentiment": "neutral",
       "time": "2026-04-24 00:00",
       "tags": [
         "公告",
-        "一季度报告全文"
+        "董事会决议公告"
       ],
       "category": "公司公告",
       "topic": "公司综合",
@@ -8583,16 +9240,16 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "ann-AN202604231821493824",
+      "id": "ann-AN202604231821493820",
       "platform": "公司公告",
-      "title": "吉比特:厦门吉比特网络技术股份有限公司第六届董事会第十二次会议决议公告",
-      "summary": "吉比特:厦门吉比特网络技术股份有限公司第六届董事会第十二次会议决议公告",
-      "url": "https://data.eastmoney.com/notices/detail/603444/AN202604231821493824.html",
+      "title": "吉比特:厦门吉比特网络技术股份有限公司2026年第一季度报告",
+      "summary": "吉比特:厦门吉比特网络技术股份有限公司2026年第一季度报告",
+      "url": "https://data.eastmoney.com/notices/detail/603444/AN202604231821493820.html",
       "sentiment": "neutral",
       "time": "2026-04-24 00:00",
       "tags": [
         "公告",
-        "董事会决议公告"
+        "一季度报告全文"
       ],
       "category": "公司公告",
       "topic": "公司综合",
@@ -8824,6 +9481,23 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
+      "id": "ann-AN202604161821265325",
+      "platform": "公司公告",
+      "title": "吉比特:北京市海问(深圳)律师事务所关于厦门吉比特网络技术股份有限公司2025年年度股东会会议的法律意见书",
+      "summary": "吉比特:北京市海问(深圳)律师事务所关于厦门吉比特网络技术股份有限公司2025年年度股东会会议的法律意见书",
+      "url": "https://data.eastmoney.com/notices/detail/603444/AN202604161821265325.html",
+      "sentiment": "neutral",
+      "time": "2026-04-17 00:00",
+      "tags": [
+        "公告",
+        "法律意见书"
+      ],
+      "category": "公司公告",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
       "id": "ann-AN202604161821265324",
       "platform": "公司公告",
       "title": "吉比特:厦门吉比特网络技术股份有限公司2025年年度股东会会议决议公告",
@@ -8835,23 +9509,6 @@ window.MONITOR_DATA = {
         "公告",
         "分配方案决议公告",
         "股东大会决议公告"
-      ],
-      "category": "公司公告",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "ann-AN202604161821265325",
-      "platform": "公司公告",
-      "title": "吉比特:北京市海问(深圳)律师事务所关于厦门吉比特网络技术股份有限公司2025年年度股东会会议的法律意见书",
-      "summary": "吉比特:北京市海问(深圳)律师事务所关于厦门吉比特网络技术股份有限公司2025年年度股东会会议的法律意见书",
-      "url": "https://data.eastmoney.com/notices/detail/603444/AN202604161821265325.html",
-      "sentiment": "neutral",
-      "time": "2026-04-17 00:00",
-      "tags": [
-        "公告",
-        "法律意见书"
       ],
       "category": "公司公告",
       "topic": "公司综合",
@@ -8935,7 +9592,7 @@ window.MONITOR_DATA = {
       "platform": "小红书",
       "title": "感觉游戏行业里，吉比特雷霆相比下是股清流",
       "summary": "嘎嘎 · 👍17 收藏3",
-      "url": "https://www.xiaohongshu.com/explore/69db5b6e000000001d01a91d?xsec_token=ABCILWmxtslkvHNGKOineJEMppMRoTvvthUhjnILH_Yds=",
+      "url": "https://www.xiaohongshu.com/explore/69db5b6e000000001d01a91d?xsec_token=ABCILWmxtslkvHNGKOineJEGH6lt3npW8brxhjrrWL8KA=",
       "sentiment": "positive",
       "time": "2026-04-12 16:44",
       "tags": [
@@ -8944,9 +9601,7 @@ window.MONITOR_DATA = {
       ],
       "category": "小红书",
       "_srcKw": "吉比特 降薪",
-      "topic": "企业文化",
-      "section": "舆情",
-      "pushable": true
+      "topic": "企业文化"
     },
     {
       "id": "xhs-69d906a2000000001a025533",
@@ -9109,7 +9764,7 @@ window.MONITOR_DATA = {
       "platform": "小红书",
       "title": "每天一个游戏公司——雷霆游戏",
       "summary": "椰椰在招人 · 👍1 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/69cb95ba000000001a021900?xsec_token=AB3EgfVzd-DpZDZ0ERZ8Or4a8xmRBrgW29nG0oMCfKHt8=",
+      "url": "https://www.xiaohongshu.com/explore/69cb95ba000000001a021900?xsec_token=AB3EgfVzd-DpZDZ0ERZ8Or4W8kKRBFPu_Oc-XJINSJIOM=",
       "sentiment": "neutral",
       "time": "2026-03-31 17:36",
       "tags": [
@@ -9119,9 +9774,7 @@ window.MONITOR_DATA = {
       ],
       "category": "小红书",
       "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
+      "topic": "公司综合"
     },
     {
       "id": "xhs-69ca8fed0000000023015a3e",
@@ -9164,7 +9817,7 @@ window.MONITOR_DATA = {
       "platform": "小红书",
       "title": "游戏公司分享：“雷霆游戏”",
       "summary": "爱吃香菜（Pluss版） · 👍5 收藏1",
-      "url": "https://www.xiaohongshu.com/explore/69ca02050000000023016597?xsec_token=ABfAqpXOAA8A5xRZHaY5qOCORb6OoRxUQ7BprdhfUBzwk=",
+      "url": "https://www.xiaohongshu.com/explore/69ca02050000000023016597?xsec_token=ABfAqpXOAA8A5xRZHaY5qOCBPLbefKf8HcqJDQnU0EejE=",
       "sentiment": "neutral",
       "time": "2026-03-30 12:54",
       "tags": [
@@ -9174,9 +9827,7 @@ window.MONITOR_DATA = {
       ],
       "category": "小红书",
       "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
+      "topic": "公司综合"
     },
     {
       "id": "maimai-0e0594e17000c81a",
@@ -9237,7 +9888,7 @@ window.MONITOR_DATA = {
       "platform": "小红书",
       "title": "原来雷霆游戏是一家企业…",
       "summary": "你什么身份？ · 👍759 收藏33",
-      "url": "https://www.xiaohongshu.com/explore/69c7ad16000000001b000def?xsec_token=ABjbrOxPGkotbRerj6m4RX0SqpYgesI_L6MzNIEb8CwIU=",
+      "url": "https://www.xiaohongshu.com/explore/69c7ad16000000001b000def?xsec_token=ABjbrOxPGkotbRerj6m4RX0XFSkKvJzdUssR--2CConYs=",
       "sentiment": "neutral",
       "time": "2026-03-28 18:27",
       "tags": [
@@ -9247,24 +9898,22 @@ window.MONITOR_DATA = {
       ],
       "category": "小红书",
       "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
+      "topic": "公司综合"
     },
     {
-      "id": "ann-AN202603261820769308",
+      "id": "ann-AN202603261820769316",
       "platform": "公司公告",
-      "title": "吉比特:厦门吉比特网络技术股份有限公司董事薪酬管理制度(2026年3月)",
-      "summary": "吉比特:厦门吉比特网络技术股份有限公司董事薪酬管理制度(2026年3月)",
-      "url": "https://data.eastmoney.com/notices/detail/603444/AN202603261820769308.html",
+      "title": "吉比特:厦门吉比特网络技术股份有限公司2025年度独立董事述职报告-梁燕华",
+      "summary": "吉比特:厦门吉比特网络技术股份有限公司2025年度独立董事述职报告-梁燕华",
+      "url": "https://data.eastmoney.com/notices/detail/603444/AN202603261820769316.html",
       "sentiment": "neutral",
       "time": "2026-03-27 00:00",
       "tags": [
         "公告",
-        "管理办法/制度"
+        "独立董事述职报告"
       ],
       "category": "公司公告",
-      "topic": "经营管理",
+      "topic": "公司综合",
       "section": "舆情",
       "pushable": true
     },
@@ -9286,19 +9935,19 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "ann-AN202603261820769316",
+      "id": "ann-AN202603261820769308",
       "platform": "公司公告",
-      "title": "吉比特:厦门吉比特网络技术股份有限公司2025年度独立董事述职报告-梁燕华",
-      "summary": "吉比特:厦门吉比特网络技术股份有限公司2025年度独立董事述职报告-梁燕华",
-      "url": "https://data.eastmoney.com/notices/detail/603444/AN202603261820769316.html",
+      "title": "吉比特:厦门吉比特网络技术股份有限公司董事薪酬管理制度(2026年3月)",
+      "summary": "吉比特:厦门吉比特网络技术股份有限公司董事薪酬管理制度(2026年3月)",
+      "url": "https://data.eastmoney.com/notices/detail/603444/AN202603261820769308.html",
       "sentiment": "neutral",
       "time": "2026-03-27 00:00",
       "tags": [
         "公告",
-        "独立董事述职报告"
+        "管理办法/制度"
       ],
       "category": "公司公告",
-      "topic": "公司综合",
+      "topic": "经营管理",
       "section": "舆情",
       "pushable": true
     },
@@ -9532,7 +10181,7 @@ window.MONITOR_DATA = {
       "platform": "小红书",
       "title": "吉比特雷霆游戏26春招&暑期实习招聘启动！",
       "summary": "吉比特招聘 · 👍139 收藏83",
-      "url": "https://www.xiaohongshu.com/explore/69be2cf10000000022000608?xsec_token=ABjskKgdfhitQvOyaFi6E8AO2hGDATvl_-XTRRs-G5NRk=",
+      "url": "https://www.xiaohongshu.com/explore/69be2cf10000000022000608?xsec_token=ABjskKgdfhitQvOyaFi6E8AP1_FOdj-f89IH3dxXymPjE=",
       "sentiment": "neutral",
       "time": "2026-03-23 17:30",
       "tags": [
@@ -9542,9 +10191,7 @@ window.MONITOR_DATA = {
       ],
       "category": "小红书",
       "_srcKw": "雷霆游戏",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
+      "topic": "招聘求职"
     },
     {
       "id": "maimai-fd2b5c9121284296",
@@ -9637,6 +10284,25 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
+      "id": "xhs-69b8fef2000000001a030543",
+      "platform": "小红书",
+      "title": "深圳吉比特二面 📍面试公司：深圳吉比特 🕐面试时间：2026.3.12 💻面试岗位：前端开发实",
+      "summary": "Action · 👍13 收藏12",
+      "url": "https://www.xiaohongshu.com/explore/69b8fef2000000001a030543?xsec_token=ABCgINy60uGphMIPg8WOvmQjD1R6NLOLZ_lBfcZpdN5fQ=",
+      "sentiment": "neutral",
+      "time": "2026-03-17 15:12",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍13"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
       "id": "xhs-69b8fee0000000002102ea72",
       "platform": "小红书",
       "title": "面经 面试 面试技巧",
@@ -9651,25 +10317,6 @@ window.MONITOR_DATA = {
         "面经",
         "面试",
         "面试技巧"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-69b8fef2000000001a030543",
-      "platform": "小红书",
-      "title": "深圳吉比特二面 📍面试公司：深圳吉比特 🕐面试时间：2026.3.12 💻面试岗位：前端开发实",
-      "summary": "Action · 👍13 收藏12",
-      "url": "https://www.xiaohongshu.com/explore/69b8fef2000000001a030543?xsec_token=ABCgINy60uGphMIPg8WOvmQjD1R6NLOLZ_lBfcZpdN5fQ=",
-      "sentiment": "neutral",
-      "time": "2026-03-17 15:12",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍13"
       ],
       "category": "小红书",
       "_srcKw": "吉比特",
@@ -9829,20 +10476,18 @@ window.MONITOR_DATA = {
       "id": "xhs-699467b0000000001d027f25",
       "platform": "小红书",
       "title": "吉比特: 游戏板块里的现金奶🐮公司",
-      "summary": "羽白 · 👍68 收藏44",
-      "url": "https://www.xiaohongshu.com/explore/699467b0000000001d027f25?xsec_token=ABjfij2Rb0NVhrgpPkME_BB7Tn84wudveFqzePAvWAMDs=",
+      "summary": "羽白 · 👍70 收藏44",
+      "url": "https://www.xiaohongshu.com/explore/699467b0000000001d027f25?xsec_token=ABjfij2Rb0NVhrgpPkME_BB21B7taPYNxqVUD6z_r9-rY=",
       "sentiment": "neutral",
       "time": "2026-02-17 21:05",
       "tags": [
         "小红书",
         "吉比特",
-        "👍68"
+        "👍70"
       ],
       "category": "小红书",
       "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
+      "topic": "公司综合"
     },
     {
       "id": "xhs-6991dc39000000001a02141b",
@@ -9863,6 +10508,23 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
+      "id": "maimai-776ea9a05e145792",
+      "platform": "脉脉",
+      "title": "厦门一家叫吉比特的游戏公司，开年会直接把整个行业给干沉默了...他们公司…",
+      "summary": "于见专栏·潮起网&于见专栏＆深度美业主编 · 157 赞 81 分享 66 评论",
+      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
+      "sentiment": "neutral",
+      "time": "2026-02-15 17:52",
+      "tags": [
+        "脉脉",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
       "id": "maimai-87718a156a351075",
       "platform": "脉脉",
       "title": "厦门一家叫吉比特的游戏公司，开年会直接把整个行业给干沉默了...他们公司…",
@@ -9873,23 +10535,6 @@ window.MONITOR_DATA = {
       "tags": [
         "脉脉",
         "实名",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-776ea9a05e145792",
-      "platform": "脉脉",
-      "title": "厦门一家叫吉比特的游戏公司，开年会直接把整个行业给干沉默了...他们公司…",
-      "summary": "于见专栏·潮起网&于见专栏＆深度美业主编 · 157 赞 81 分享 66 评论",
-      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
-      "sentiment": "neutral",
-      "time": "2026-02-15 17:52",
-      "tags": [
-        "脉脉",
         "吉比特"
       ],
       "category": "脉脉",
@@ -9938,7 +10583,7 @@ window.MONITOR_DATA = {
       "platform": "小红书",
       "title": "我将不会再在奥比岛充一分钱！#雷霆游戏#奥比岛#年会#年终奖",
       "summary": "小鹿娱乐酱 · 👍225 收藏26 · 视频",
-      "url": "https://www.xiaohongshu.com/explore/69886ebf000000000903b4aa?xsec_token=ABlJY5Oa88NWapFBh_RV7JqXr7pFuxwPANP0Fl-1sBVSc=",
+      "url": "https://www.xiaohongshu.com/explore/69886ebf000000000903b4aa?xsec_token=ABlJY5Oa88NWapFBh_RV7JqUPEG2DL4b2EDFmrFGi1qlg=",
       "sentiment": "neutral",
       "time": "2026-02-08 19:08",
       "tags": [
@@ -9947,9 +10592,7 @@ window.MONITOR_DATA = {
       ],
       "category": "小红书",
       "_srcKw": "雷霆游戏 绩效",
-      "topic": "企业文化",
-      "section": "舆情",
-      "pushable": true
+      "topic": "企业文化"
     },
     {
       "id": "xhs-6986b6ab000000000a0337ee",
@@ -9967,6 +10610,23 @@ window.MONITOR_DATA = {
       "category": "小红书",
       "_srcKw": "雷霆游戏",
       "topic": "产品游戏",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-ce3b4f84de7e47ad",
+      "platform": "脉脉",
+      "title": "游戏公司吉比特年会给所有员工发顶配版iPhone...17 Pro Ma…",
+      "summary": "AI招聘外包出海唐格·AA投资（vc机构）投后顾问&IR负责人",
+      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
+      "sentiment": "neutral",
+      "time": "2026-02-06 22:16",
+      "tags": [
+        "脉脉",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "企业文化",
       "section": "舆情",
       "pushable": true
     },
@@ -9989,19 +10649,19 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-ce3b4f84de7e47ad",
+      "id": "maimai-b752a08e0938e954",
       "platform": "脉脉",
-      "title": "游戏公司吉比特年会给所有员工发顶配版iPhone...17 Pro Ma…",
-      "summary": "AI招聘外包出海唐格·AA投资（vc机构）投后顾问&IR负责人",
+      "title": "家公司预告归母净利润超10亿元，分别是世纪华通、吉比特...",
+      "summary": "同壁财经·上海同壁企业管理有限公司媒介总监",
       "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
-      "sentiment": "neutral",
-      "time": "2026-02-06 22:16",
+      "sentiment": "positive",
+      "time": "2026-02-06 15:15",
       "tags": [
         "脉脉",
         "吉比特"
       ],
       "category": "脉脉",
-      "topic": "企业文化",
+      "topic": "经营管理",
       "section": "舆情",
       "pushable": true
     },
@@ -10016,23 +10676,6 @@ window.MONITOR_DATA = {
       "tags": [
         "脉脉",
         "实名",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "经营管理",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-b752a08e0938e954",
-      "platform": "脉脉",
-      "title": "家公司预告归母净利润超10亿元，分别是世纪华通、吉比特...",
-      "summary": "同壁财经·上海同壁企业管理有限公司媒介总监",
-      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
-      "sentiment": "positive",
-      "time": "2026-02-06 15:15",
-      "tags": [
-        "脉脉",
         "吉比特"
       ],
       "category": "脉脉",
@@ -10152,6 +10795,24 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
+      "id": "maimai-097801771b180ff9",
+      "platform": "脉脉",
+      "title": "吉比特&雷霆游戏年会，给《杖剑传说》制作人发了一套价值...",
+      "summary": "Lynn·苏州壹心茹壹企业管理有限公司资深猎头顾问/合伙人",
+      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
+      "sentiment": "neutral",
+      "time": "2026-02-05 12:48",
+      "tags": [
+        "脉脉",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "脉脉",
+      "topic": "经营管理",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
       "id": "maimai-e2673fec88a97788",
       "platform": "脉脉",
       "title": "吉比特&雷霆游戏年会，给《杖剑传说》制作人发了一套价值...",
@@ -10167,24 +10828,6 @@ window.MONITOR_DATA = {
       ],
       "category": "脉脉",
       "topic": "产品游戏",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-097801771b180ff9",
-      "platform": "脉脉",
-      "title": "吉比特&雷霆游戏年会，给《杖剑传说》制作人发了一套价值...",
-      "summary": "Lynn·苏州壹心茹壹企业管理有限公司资深猎头顾问/合伙人",
-      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
-      "sentiment": "neutral",
-      "time": "2026-02-05 12:48",
-      "tags": [
-        "脉脉",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "脉脉",
-      "topic": "经营管理",
       "section": "舆情",
       "pushable": true
     },
@@ -10232,6 +10875,24 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
+      "id": "maimai-bf4a2c478161f110",
+      "platform": "脉脉",
+      "title": "2月3日，吉比特&雷霆游戏年会上，公司大手笔分奖金...所有已转正并在职…",
+      "summary": "吕建新·北京德尔菲信息咨询服务中心（个人独资）人力内容创作者",
+      "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
+      "sentiment": "neutral",
+      "time": "2026-02-05 09:20",
+      "tags": [
+        "脉脉",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
       "id": "maimai-dc43291677b7761c",
       "platform": "脉脉",
       "title": "2月3日，吉比特&雷霆游戏年会上，公司大手笔分奖金...所有已转正并在职…",
@@ -10242,24 +10903,6 @@ window.MONITOR_DATA = {
       "tags": [
         "脉脉",
         "实名",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-bf4a2c478161f110",
-      "platform": "脉脉",
-      "title": "2月3日，吉比特&雷霆游戏年会上，公司大手笔分奖金...所有已转正并在职…",
-      "summary": "吕建新·北京德尔菲信息咨询服务中心（个人独资）人力内容创作者",
-      "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
-      "sentiment": "neutral",
-      "time": "2026-02-05 09:20",
-      "tags": [
-        "脉脉",
         "吉比特",
         "雷霆游戏"
       ],
@@ -10442,24 +11085,6 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-d821c1bf16185600",
-      "platform": "脉脉",
-      "title": "执行主美，3D美术负责人，2D概念负责人，动作专家，UE5引擎专家等大量…",
-      "summary": "古凯·厦门吉比特网络技术股份有限公司HR Supervisor · 13 赞 2 分享 3 评论",
-      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
-      "sentiment": "positive",
-      "time": "2026-02-04 16:15",
-      "tags": [
-        "脉脉",
-        "实名",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
       "id": "maimai-db6be5344749507f",
       "platform": "脉脉",
       "title": "执行主美，3D美术负责人，2D概念负责人，动作专家，UE5引擎专家等大量…",
@@ -10477,13 +11102,13 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-e9db61faec34b0ee",
+      "id": "maimai-d821c1bf16185600",
       "platform": "脉脉",
-      "title": "真的不来和我们做同事吗",
-      "summary": "曾臻·吉比特游戏HR · 6 赞 3 分享 3 评论",
+      "title": "执行主美，3D美术负责人，2D概念负责人，动作专家，UE5引擎专家等大量…",
+      "summary": "古凯·厦门吉比特网络技术股份有限公司HR Supervisor · 13 赞 2 分享 3 评论",
       "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
-      "sentiment": "neutral",
-      "time": "2026-02-04 15:55",
+      "sentiment": "positive",
+      "time": "2026-02-04 16:15",
       "tags": [
         "脉脉",
         "实名",
@@ -10512,17 +11137,35 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
+      "id": "maimai-e9db61faec34b0ee",
+      "platform": "脉脉",
+      "title": "真的不来和我们做同事吗",
+      "summary": "曾臻·吉比特游戏HR · 6 赞 3 分享 3 评论",
+      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
+      "sentiment": "neutral",
+      "time": "2026-02-04 15:55",
+      "tags": [
+        "脉脉",
+        "实名",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
       "id": "xhs-6982fa5f000000002200ad2e",
       "platform": "小红书",
       "title": "年会 阳光普照奖 游戏 奥比岛",
-      "summary": "青春娱乐 · 👍1064 收藏77 · 视频",
-      "url": "https://www.xiaohongshu.com/explore/6982fa5f000000002200ad2e?xsec_token=ABkYFjgw-BUv9zRldw1ZfiGERqHLzC9edkmRqAL-9pr-I=",
+      "summary": "青春娱乐 · 👍1065 收藏77 · 视频",
+      "url": "https://www.xiaohongshu.com/explore/6982fa5f000000002200ad2e?xsec_token=ABkYFjgw-BUv9zRldw1ZfiGMfmeN412NIfzyEdMAPj_7g=",
       "sentiment": "neutral",
       "time": "2026-02-04 15:50",
       "tags": [
         "小红书",
         "雷霆游戏",
-        "👍1064",
+        "👍1065",
         "年会",
         "阳光普照奖",
         "游戏",
@@ -10530,7 +11173,23 @@ window.MONITOR_DATA = {
       ],
       "category": "小红书",
       "_srcKw": "雷霆游戏",
-      "topic": "产品游戏",
+      "topic": "产品游戏"
+    },
+    {
+      "id": "maimai-f919336c1cec7be8",
+      "platform": "脉脉",
+      "title": "吉比特&雷霆游戏HC多多，职等你来!...join.g-bits.com…",
+      "summary": "Violet 小秋·吉比特游戏HR · 1 赞",
+      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
+      "sentiment": "neutral",
+      "time": "2026-02-04 15:48",
+      "tags": [
+        "脉脉",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "脉脉",
+      "topic": "招聘求职",
       "section": "舆情",
       "pushable": true
     },
@@ -10554,17 +11213,16 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-f919336c1cec7be8",
+      "id": "maimai-7fe0467a82e7ffe7",
       "platform": "脉脉",
-      "title": "吉比特&雷霆游戏HC多多，职等你来!...join.g-bits.com…",
-      "summary": "Violet 小秋·吉比特游戏HR · 1 赞",
+      "title": "没错！！！有感兴趣的岗位欢迎投递～欢迎加入",
+      "summary": "李诗瑶·吉比特游戏招聘专员 · 4 赞",
       "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
       "sentiment": "neutral",
-      "time": "2026-02-04 15:48",
+      "time": "2026-02-04 15:46",
       "tags": [
         "脉脉",
-        "吉比特",
-        "雷霆游戏"
+        "吉比特"
       ],
       "category": "脉脉",
       "topic": "招聘求职",
@@ -10590,19 +11248,20 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-7fe0467a82e7ffe7",
+      "id": "maimai-d77f5ad8f34ec375",
       "platform": "脉脉",
-      "title": "没错！！！有感兴趣的岗位欢迎投递～欢迎加入",
-      "summary": "李诗瑶·吉比特游戏招聘专员 · 4 赞",
-      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
+      "title": "快和我一起做同事，join.g-bits.com",
+      "summary": "季新波·吉比特游戏HR · 5 赞 4 分享 6 评论",
+      "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
       "sentiment": "neutral",
-      "time": "2026-02-04 15:46",
+      "time": "2026-02-04 15:43",
       "tags": [
         "脉脉",
-        "吉比特"
+        "吉比特",
+        "雷霆游戏"
       ],
       "category": "脉脉",
-      "topic": "招聘求职",
+      "topic": "公司综合",
       "section": "舆情",
       "pushable": true
     },
@@ -10625,20 +11284,20 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-d77f5ad8f34ec375",
+      "id": "maimai-c767cfd470bd1ed2",
       "platform": "脉脉",
-      "title": "快和我一起做同事，join.g-bits.com",
-      "summary": "季新波·吉比特游戏HR · 5 赞 4 分享 6 评论",
-      "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
+      "title": "吉比特&雷霆游戏2月招聘岗位，欢迎大家咨询和投递...",
+      "summary": "吉比特游戏·企业号人力资源(HR)/人事 · 2 赞 1 分享 1 评论",
+      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
       "sentiment": "neutral",
-      "time": "2026-02-04 15:43",
+      "time": "2026-02-04 15:40",
       "tags": [
         "脉脉",
         "吉比特",
         "雷霆游戏"
       ],
       "category": "脉脉",
-      "topic": "公司综合",
+      "topic": "招聘求职",
       "section": "舆情",
       "pushable": true
     },
@@ -10653,24 +11312,6 @@ window.MONITOR_DATA = {
       "tags": [
         "脉脉",
         "实名",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "脉脉",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-c767cfd470bd1ed2",
-      "platform": "脉脉",
-      "title": "吉比特&雷霆游戏2月招聘岗位，欢迎大家咨询和投递...",
-      "summary": "吉比特游戏·企业号人力资源(HR)/人事 · 2 赞 1 分享 1 评论",
-      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
-      "sentiment": "neutral",
-      "time": "2026-02-04 15:40",
-      "tags": [
-        "脉脉",
         "吉比特",
         "雷霆游戏"
       ],
@@ -10734,25 +11375,6 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-e881d8a974cd3bb7",
-      "platform": "脉脉",
-      "title": "2026年开年，有的厂在偷偷优化，吉比特直接全员顶配手机加千万房产...…",
-      "summary": "💬职言 职言匿名",
-      "url": "https://maimai.cn/web/search_center?type=gossip&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
-      "sentiment": "neutral",
-      "time": "2026-02-04 11:56",
-      "tags": [
-        "脉脉",
-        "职言",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "脉脉",
-      "topic": "企业文化",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
       "id": "maimai-c6aec04c345057e6",
       "platform": "脉脉",
       "title": "游戏圈卷疯了？ 吉比特年会又刷屏了。...普通员工也有顶配手机保底，这种…",
@@ -10768,6 +11390,25 @@ window.MONITOR_DATA = {
       ],
       "category": "脉脉",
       "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-e881d8a974cd3bb7",
+      "platform": "脉脉",
+      "title": "2026年开年，有的厂在偷偷优化，吉比特直接全员顶配手机加千万房产...…",
+      "summary": "💬职言 职言匿名",
+      "url": "https://maimai.cn/web/search_center?type=gossip&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
+      "sentiment": "neutral",
+      "time": "2026-02-04 11:56",
+      "tags": [
+        "脉脉",
+        "职言",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "脉脉",
+      "topic": "企业文化",
       "section": "舆情",
       "pushable": true
     },
@@ -10810,24 +11451,6 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-0b750e8dfa8975f6",
-      "platform": "脉脉",
-      "title": "吉比特的高福利激励，也体现出游戏行业正在向精品化...",
-      "summary": "💬职言 职言匿名",
-      "url": "https://maimai.cn/web/search_center?type=gossip&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
-      "sentiment": "neutral",
-      "time": "2026-02-04 11:47",
-      "tags": [
-        "脉脉",
-        "职言",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "企业文化",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
       "id": "maimai-99d999cf22552f56",
       "platform": "脉脉",
       "title": "吉比特这波年会真的太暖心了，阳光普照+重点激励兼顾...游戏行业本身拼创…",
@@ -10842,6 +11465,24 @@ window.MONITOR_DATA = {
       ],
       "category": "脉脉",
       "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-0b750e8dfa8975f6",
+      "platform": "脉脉",
+      "title": "吉比特的高福利激励，也体现出游戏行业正在向精品化...",
+      "summary": "💬职言 职言匿名",
+      "url": "https://maimai.cn/web/search_center?type=gossip&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
+      "sentiment": "neutral",
+      "time": "2026-02-04 11:47",
+      "tags": [
+        "脉脉",
+        "职言",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "企业文化",
       "section": "舆情",
       "pushable": true
     },
@@ -10938,24 +11579,6 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-5050911b281beadc",
-      "platform": "脉脉",
-      "title": "吉比特知道游戏行业人才是核心，用千万房产这种重磅福利...",
-      "summary": "💬职言 职言匿名 · 1 赞",
-      "url": "https://maimai.cn/web/search_center?type=gossip&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
-      "sentiment": "neutral",
-      "time": "2026-02-04 10:50",
-      "tags": [
-        "脉脉",
-        "职言",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "企业文化",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
       "id": "maimai-d4d19223fa156588",
       "platform": "脉脉",
       "title": "吉比特这波大方是真有底气！...游戏公司本来利润就高，今年肯定赚得盆满钵…",
@@ -10970,6 +11593,24 @@ window.MONITOR_DATA = {
       ],
       "category": "脉脉",
       "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-5050911b281beadc",
+      "platform": "脉脉",
+      "title": "吉比特知道游戏行业人才是核心，用千万房产这种重磅福利...",
+      "summary": "💬职言 职言匿名 · 1 赞",
+      "url": "https://maimai.cn/web/search_center?type=gossip&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
+      "sentiment": "neutral",
+      "time": "2026-02-04 10:50",
+      "tags": [
+        "脉脉",
+        "职言",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "企业文化",
       "section": "舆情",
       "pushable": true
     },
@@ -10992,7 +11633,7 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-3d825908abe59e8b",
+      "id": "maimai-53542fd03aaab379",
       "platform": "脉脉",
       "title": "据游戏那点事Gamez报道，吉比特及其旗下雷霆游戏针对...",
       "summary": "互联网那些事·南京那些事文化传媒有限公司品牌主理人",
@@ -11001,7 +11642,24 @@ window.MONITOR_DATA = {
       "time": "2026-02-04 10:26",
       "tags": [
         "脉脉",
-        "实名",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-44d3afb9c3162b42",
+      "platform": "脉脉",
+      "title": "2月3日消息，据多方消息，吉比特&雷霆游戏又发房子了...与此同时，今年…",
+      "summary": "慢放·北京品牌故事科技有限公司品牌主理人",
+      "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
+      "sentiment": "positive",
+      "time": "2026-02-04 10:26",
+      "tags": [
+        "脉脉",
         "吉比特",
         "雷霆游戏"
       ],
@@ -11030,49 +11688,13 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-44d3afb9c3162b42",
-      "platform": "脉脉",
-      "title": "2月3日消息，据多方消息，吉比特&雷霆游戏又发房子了...与此同时，今年…",
-      "summary": "慢放·北京品牌故事科技有限公司品牌主理人",
-      "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
-      "sentiment": "positive",
-      "time": "2026-02-04 10:26",
-      "tags": [
-        "脉脉",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-53542fd03aaab379",
+      "id": "maimai-3d825908abe59e8b",
       "platform": "脉脉",
       "title": "据游戏那点事Gamez报道，吉比特及其旗下雷霆游戏针对...",
       "summary": "互联网那些事·南京那些事文化传媒有限公司品牌主理人",
       "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
       "sentiment": "neutral",
       "time": "2026-02-04 10:26",
-      "tags": [
-        "脉脉",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-908fe1a866a46c32",
-      "platform": "脉脉",
-      "title": "在昨日吉比特&雷霆游戏举办的年会上，公司向...所有已转正并年会当天在职…",
-      "summary": "大佬说·南京小马哥文化传媒有限公司运营经理",
-      "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
-      "sentiment": "neutral",
-      "time": "2026-02-04 10:01",
       "tags": [
         "脉脉",
         "实名",
@@ -11094,6 +11716,25 @@ window.MONITOR_DATA = {
       "time": "2026-02-04 10:01",
       "tags": [
         "脉脉",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-908fe1a866a46c32",
+      "platform": "脉脉",
+      "title": "在昨日吉比特&雷霆游戏举办的年会上，公司向...所有已转正并年会当天在职…",
+      "summary": "大佬说·南京小马哥文化传媒有限公司运营经理",
+      "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
+      "sentiment": "neutral",
+      "time": "2026-02-04 10:01",
+      "tags": [
+        "脉脉",
+        "实名",
         "吉比特",
         "雷霆游戏"
       ],
@@ -11125,7 +11766,7 @@ window.MONITOR_DATA = {
       "platform": "小红书",
       "title": "吉比特 🐮",
       "summary": "大强子 · 👍6 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/69821c36000000000d009397?xsec_token=ABkYFjgw-BUv9zRldw1ZfiGJe2S0va0y2PUc2YQXKI0k8=",
+      "url": "https://www.xiaohongshu.com/explore/69821c36000000000d009397?xsec_token=ABkYFjgw-BUv9zRldw1ZfiGFQJFfV9e1ks7bIuRT0g0A4=",
       "sentiment": "neutral",
       "time": "2026-02-04 00:03",
       "tags": [
@@ -11133,10 +11774,8 @@ window.MONITOR_DATA = {
         "👍6"
       ],
       "category": "小红书",
-      "_srcKw": "吉比特 离职",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
+      "_srcKw": "吉比特 绩效",
+      "topic": "公司综合"
     },
     {
       "id": "xhs-69820f36000000001a01ee03",
@@ -11180,19 +11819,17 @@ window.MONITOR_DATA = {
       "platform": "小红书",
       "title": "吉比特&雷霆游戏这年会夯爆了",
       "summary": "大厂那些事儿 · 👍16 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/69820554000000000e03fb9b?xsec_token=ABkYFjgw-BUv9zRldw1ZfiGJ53e5XUDF_glIYuOY1fbEA=",
+      "url": "https://www.xiaohongshu.com/explore/69820554000000000e03fb9b?xsec_token=ABkYFjgw-BUv9zRldw1ZfiGDvpX0qaZrO_BQcVDrySVVc=",
       "sentiment": "neutral",
       "time": "2026-02-03 22:25",
       "tags": [
         "小红书",
-        "雷霆游戏",
+        "吉比特",
         "👍16"
       ],
       "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
+      "_srcKw": "吉比特",
+      "topic": "公司综合"
     },
     {
       "id": "maimai-01e2427663561dba",
@@ -11237,18 +11874,17 @@ window.MONITOR_DATA = {
       "platform": "小红书",
       "title": "吉比特年会中大奖",
       "summary": "边缘 · 👍36 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/6981f1ae000000002200829e?xsec_token=ABjy_itKxINbNjPM68cgahqMoZwQMr_aoTMiE-E9l4pC0=",
+      "url": "https://www.xiaohongshu.com/explore/6981f1ae000000002200829e?xsec_token=ABjy_itKxINbNjPM68cgahqOPKhO94RdlPXsKwmX-vP38=",
       "sentiment": "neutral",
       "time": "2026-02-03 21:01",
       "tags": [
         "小红书",
+        "吉比特",
         "👍36"
       ],
       "category": "小红书",
-      "_srcKw": "吉比特 绩效",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
+      "_srcKw": "吉比特",
+      "topic": "公司综合"
     },
     {
       "id": "maimai-a8e9250fbe36b690",
@@ -11273,26 +11909,24 @@ window.MONITOR_DATA = {
       "platform": "小红书",
       "title": "吉比特送爆款制作人1000万的房",
       "summary": "天天开柒 · 👍96 收藏5",
-      "url": "https://www.xiaohongshu.com/explore/6981e928000000001a01c05a?xsec_token=ABjy_itKxINbNjPM68cgahqEe1TU2741qOTaKrrJBm9pI=",
+      "url": "https://www.xiaohongshu.com/explore/6981e928000000001a01c05a?xsec_token=ABjy_itKxINbNjPM68cgahqLestXYUkQyxmmw1Tui8aNc=",
       "sentiment": "positive",
       "time": "2026-02-03 20:25",
       "tags": [
         "小红书",
-        "雷霆游戏",
+        "吉比特",
         "👍96"
       ],
       "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
+      "_srcKw": "吉比特",
+      "topic": "公司综合"
     },
     {
       "id": "xhs-6981e6a10000000021029cfb",
       "platform": "小红书",
       "title": "雷霆游戏又给员工发房子了！",
       "summary": "牢鹅出海 · 👍13 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/6981e6a10000000021029cfb?xsec_token=ABjy_itKxINbNjPM68cgahqGVGuXScXTnLBVz0Iix201E=",
+      "url": "https://www.xiaohongshu.com/explore/6981e6a10000000021029cfb?xsec_token=ABjy_itKxINbNjPM68cgahqCvHsf83CuTP8Gb_49HxadQ=",
       "sentiment": "neutral",
       "time": "2026-02-03 20:14",
       "tags": [
@@ -11302,9 +11936,7 @@ window.MONITOR_DATA = {
       ],
       "category": "小红书",
       "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
+      "topic": "公司综合"
     },
     {
       "id": "xhs-6981e21a000000001a0335b3",
@@ -11347,19 +11979,17 @@ window.MONITOR_DATA = {
       "platform": "小红书",
       "title": "吉比特年会直接发千万房产，人均一部苹果17",
       "summary": "竞核 · 👍96 收藏15",
-      "url": "https://www.xiaohongshu.com/explore/6981d43d000000002103c8eb?xsec_token=ABjy_itKxINbNjPM68cgahqDe1zNfGRNBIhFR-I7b-zcI=",
+      "url": "https://www.xiaohongshu.com/explore/6981d43d000000002103c8eb?xsec_token=ABjy_itKxINbNjPM68cgahqFbQL890i-REESVG6qZPN4Q=",
       "sentiment": "neutral",
       "time": "2026-02-03 18:55",
       "tags": [
         "小红书",
-        "雷霆游戏",
+        "吉比特",
         "👍96"
       ],
       "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "企业文化",
-      "section": "舆情",
-      "pushable": true
+      "_srcKw": "吉比特",
+      "topic": "企业文化"
     },
     {
       "id": "xhs-6981cdef000000002200b596",
@@ -11385,7 +12015,7 @@ window.MONITOR_DATA = {
       "platform": "小红书",
       "title": "丙午火马启新局✨吉比特2月热招岗位来啦！",
       "summary": "吉比特招聘 · 👍404 收藏234",
-      "url": "https://www.xiaohongshu.com/explore/69804ceb000000002200bc89?xsec_token=ABN5kpPDIYX_cjurbLqeMreRXbac7YBf3cbGhSyN9fKPE=",
+      "url": "https://www.xiaohongshu.com/explore/69804ceb000000002200bc89?xsec_token=ABN5kpPDIYX_cjurbLqeMreZbPykeUaPJJDLa-XrYhmFo=",
       "sentiment": "neutral",
       "time": "2026-02-03 11:00",
       "tags": [
@@ -11395,28 +12025,24 @@ window.MONITOR_DATA = {
       ],
       "category": "小红书",
       "_srcKw": "雷霆游戏",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
+      "topic": "招聘求职"
     },
     {
       "id": "xhs-6980584e000000002200be6b",
       "platform": "小红书",
       "title": "【吉比特】2月热招岗位出炉，职等你来！",
       "summary": "吉比特游戏 · 👍1372 收藏773",
-      "url": "https://www.xiaohongshu.com/explore/6980584e000000002200be6b?xsec_token=ABN5kpPDIYX_cjurbLqeMreTtSDTv9_epVoStdMO-jCdo=",
+      "url": "https://www.xiaohongshu.com/explore/6980584e000000002200be6b?xsec_token=ABN5kpPDIYX_cjurbLqeMrefS__5qJXGla3xBI_y3L8Mg=",
       "sentiment": "neutral",
       "time": "2026-02-03 11:00",
       "tags": [
         "小红书",
-        "雷霆游戏",
+        "吉比特",
         "👍1372"
       ],
       "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
+      "_srcKw": "吉比特",
+      "topic": "招聘求职"
     },
     {
       "id": "zhihu-2002097943726035223",
@@ -11574,16 +12200,32 @@ window.MONITOR_DATA = {
       "id": "xhs-695507ca000000001e017f2c",
       "platform": "小红书",
       "title": "从我的第一家游戏公司吉比特毕业啦！",
-      "summary": "透舞 · 👍929 收藏109",
-      "url": "https://www.xiaohongshu.com/explore/695507ca000000001e017f2c?xsec_token=ABSPBVx1llELYBUeBG2Kc2M5jUNpmlJVfxOmPTCywbqTE=",
+      "summary": "透舞 · 👍930 收藏109",
+      "url": "https://www.xiaohongshu.com/explore/695507ca000000001e017f2c?xsec_token=ABSPBVx1llELYBUeBG2Kc2M9-WTCK4oy63Ur2bXh4dE3o=",
       "sentiment": "negative",
       "time": "2025-12-31 19:23",
       "tags": [
         "小红书",
-        "👍929"
+        "吉比特",
+        "👍930"
       ],
       "category": "小红书",
-      "_srcKw": "吉比特 绩效",
+      "_srcKw": "吉比特",
+      "topic": "公司综合"
+    },
+    {
+      "id": "maimai-54395f788ae4f9ea",
+      "platform": "脉脉",
+      "title": "深圳的游戏公司：腾讯，尚游，冰川，忘尘，吉比特...",
+      "summary": "卡比皮卡丘·字节跳动运营经理 · 14 赞 3 分享 35 评论",
+      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
+      "sentiment": "neutral",
+      "time": "2025-12-21 00:46",
+      "tags": [
+        "脉脉",
+        "吉比特"
+      ],
+      "category": "脉脉",
       "topic": "公司综合",
       "section": "舆情",
       "pushable": true
@@ -11607,19 +12249,19 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-54395f788ae4f9ea",
+      "id": "maimai-21945c8de6efa656",
       "platform": "脉脉",
-      "title": "深圳的游戏公司：腾讯，尚游，冰川，忘尘，吉比特...",
-      "summary": "卡比皮卡丘·字节跳动运营经理 · 14 赞 3 分享 35 评论",
+      "title": "团队氛围：同事多数来自腾网吉比特等大厂，能力性格都很...",
+      "summary": "Reyson枘森·艾维乐游（深圳）科技有限公司HRBP · 2 赞 2 评论",
       "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
       "sentiment": "neutral",
-      "time": "2025-12-21 00:46",
+      "time": "2025-12-20 22:50",
       "tags": [
         "脉脉",
         "吉比特"
       ],
       "category": "脉脉",
-      "topic": "公司综合",
+      "topic": "企业文化",
       "section": "舆情",
       "pushable": true
     },
@@ -11634,23 +12276,6 @@ window.MONITOR_DATA = {
       "tags": [
         "脉脉",
         "实名",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "企业文化",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-21945c8de6efa656",
-      "platform": "脉脉",
-      "title": "团队氛围：同事多数来自腾网吉比特等大厂，能力性格都很...",
-      "summary": "Reyson枘森·艾维乐游（深圳）科技有限公司HRBP · 2 赞 2 评论",
-      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
-      "sentiment": "neutral",
-      "time": "2025-12-20 22:50",
-      "tags": [
-        "脉脉",
         "吉比特"
       ],
       "category": "脉脉",
@@ -11831,7 +12456,7 @@ window.MONITOR_DATA = {
       "platform": "小红书",
       "title": "吉比特梦女来了",
       "summary": "AKA屁股瓣 · 👍36 收藏13",
-      "url": "https://www.xiaohongshu.com/explore/6905fe3d00000000050107b4?xsec_token=ABfe-HSblKs9GT-juVoXzM-G01Zu7HlPaQ8i6YePQurgM=",
+      "url": "https://www.xiaohongshu.com/explore/6905fe3d00000000050107b4?xsec_token=ABfe-HSblKs9GT-juVoXzM-IqSsJvdoeiSBlJ-AtGJraM=",
       "sentiment": "neutral",
       "time": "2025-11-01 20:34",
       "tags": [
@@ -11841,9 +12466,7 @@ window.MONITOR_DATA = {
       ],
       "category": "小红书",
       "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
+      "topic": "公司综合"
     },
     {
       "id": "zhihu-q57133535",
@@ -11888,7 +12511,7 @@ window.MONITOR_DATA = {
       "platform": "小红书",
       "title": "✨从吉比特毕业啦✨",
       "summary": "ZN. · 👍155 收藏12",
-      "url": "https://www.xiaohongshu.com/explore/6900a5b20000000007001216?xsec_token=ABy7Cp3MUJILFwPNB-4k03E6kkwx9lDt0ZLrpflM3sj1k=",
+      "url": "https://www.xiaohongshu.com/explore/6900a5b20000000007001216?xsec_token=ABy7Cp3MUJILFwPNB-4k03E2loXYJWO4t6lHgA4yASg3E=",
       "sentiment": "negative",
       "time": "2025-10-28 19:14",
       "tags": [
@@ -11897,9 +12520,7 @@ window.MONITOR_DATA = {
       ],
       "category": "小红书",
       "_srcKw": "吉比特 离职",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
+      "topic": "公司综合"
     },
     {
       "id": "maimai-7845650e270944a3",
@@ -11966,7 +12587,7 @@ window.MONITOR_DATA = {
       "platform": "小红书",
       "title": "雷霆游戏IOS的开罗你出快点啊！",
       "summary": "一吨奶茶🥤 · 👍103 收藏24",
-      "url": "https://www.xiaohongshu.com/explore/68ee71dc0000000005038acf?xsec_token=ABQqtzm-qEzKeia6MrIkfXQr3BcmslGZvjHnVu2XFyiNU=",
+      "url": "https://www.xiaohongshu.com/explore/68ee71dc0000000005038acf?xsec_token=ABQqtzm-qEzKeia6MrIkfXQmlGJgHOIB6j5izItTNhxZM=",
       "sentiment": "neutral",
       "time": "2025-10-14 23:53",
       "tags": [
@@ -11976,9 +12597,7 @@ window.MONITOR_DATA = {
       ],
       "category": "小红书",
       "_srcKw": "雷霆游戏",
-      "topic": "产品游戏",
-      "section": "舆情",
-      "pushable": true
+      "topic": "产品游戏"
     },
     {
       "id": "xhs-68dd1ae50000000005031055",
@@ -12094,8 +12713,8 @@ window.MONITOR_DATA = {
       "id": "xhs-68c5701f000000001d01b38a",
       "platform": "小红书",
       "title": "吉比特2026年招聘来啦👏👏👏",
-      "summary": "前程似锦ens · 👍19 收藏9",
-      "url": "https://www.xiaohongshu.com/explore/68c5701f000000001d01b38a?xsec_token=ABnvuOsWFZVdXw-SWyOofSELUDrX6ROyTYk58W738idHQ=",
+      "summary": "前程似锦ens · 👍19 收藏10",
+      "url": "https://www.xiaohongshu.com/explore/68c5701f000000001d01b38a?xsec_token=ABnvuOsWFZVdXw-SWyOofSEKKDoQK0soFcEufl5EWylpk=",
       "sentiment": "neutral",
       "time": "2025-09-13 21:22",
       "tags": [
@@ -12104,9 +12723,7 @@ window.MONITOR_DATA = {
       ],
       "category": "小红书",
       "_srcKw": "吉比特 绩效",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
+      "topic": "招聘求职"
     },
     {
       "id": "zhihu-q1948555571247686355",
@@ -12183,6 +12800,24 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
+      "id": "maimai-706cb6ce4e5d7783",
+      "platform": "脉脉",
+      "title": "吉比特&雷霆游戏招聘和小红书职场一起加入...我们将建立更高效透明的求职…",
+      "summary": "张鹤·吉比特游戏招聘hr · 1 赞 1 评论",
+      "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
+      "sentiment": "neutral",
+      "time": "2025-09-01 19:37",
+      "tags": [
+        "脉脉",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "脉脉",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
       "id": "maimai-c53a9bee5d600fe0",
       "platform": "脉脉",
       "title": "吉比特&雷霆游戏招聘和小红书职场一起加入...我们将建立更高效透明的求职…",
@@ -12193,24 +12828,6 @@ window.MONITOR_DATA = {
       "tags": [
         "脉脉",
         "实名",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "脉脉",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-706cb6ce4e5d7783",
-      "platform": "脉脉",
-      "title": "吉比特&雷霆游戏招聘和小红书职场一起加入...我们将建立更高效透明的求职…",
-      "summary": "张鹤·吉比特游戏招聘hr · 1 赞 1 评论",
-      "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
-      "sentiment": "neutral",
-      "time": "2025-09-01 19:37",
-      "tags": [
-        "脉脉",
         "吉比特",
         "雷霆游戏"
       ],
@@ -12294,24 +12911,6 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-cf82a41ab5de15a4",
-      "platform": "脉脉",
-      "title": "内推码Z2M6I4",
-      "summary": "陈俊鸿·吉比特雷霆游戏游戏研发工程师 · 1 评论",
-      "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
-      "sentiment": "neutral",
-      "time": "2025-08-29 15:17",
-      "tags": [
-        "脉脉",
-        "实名",
-        "雷霆游戏"
-      ],
-      "category": "脉脉",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
       "id": "maimai-05e4572c92613141",
       "platform": "脉脉",
       "title": "内推码Z2M6I4",
@@ -12330,13 +12929,13 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-733840c6ed66863f",
+      "id": "maimai-cf82a41ab5de15a4",
       "platform": "脉脉",
-      "title": "内推码：UL101H",
-      "summary": "林林·吉比特游戏游戏测试工程师",
+      "title": "内推码Z2M6I4",
+      "summary": "陈俊鸿·吉比特雷霆游戏游戏研发工程师 · 1 评论",
       "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
       "sentiment": "neutral",
-      "time": "2025-08-29 14:24",
+      "time": "2025-08-29 15:17",
       "tags": [
         "脉脉",
         "实名",
@@ -12366,6 +12965,24 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
+      "id": "maimai-733840c6ed66863f",
+      "platform": "脉脉",
+      "title": "内推码：UL101H",
+      "summary": "林林·吉比特游戏游戏测试工程师",
+      "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
+      "sentiment": "neutral",
+      "time": "2025-08-29 14:24",
+      "tags": [
+        "脉脉",
+        "实名",
+        "雷霆游戏"
+      ],
+      "category": "脉脉",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
       "id": "xhs-68b11d5d000000001d028dcf",
       "platform": "小红书",
       "title": "吉比特校招开启啦",
@@ -12379,25 +12996,6 @@ window.MONITOR_DATA = {
         "👍29"
       ],
       "category": "小红书",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-68b02544000000001d008518",
-      "platform": "小红书",
-      "title": "吉比特2026届秋季校园招聘正式启动！",
-      "summary": "吉比特游戏 · 👍118 收藏89",
-      "url": "https://www.xiaohongshu.com/explore/68b02544000000001d008518?xsec_token=ABRuTFseSOnKk3uVIgTl_7Ed5jQSwEL3AIBVuI2LEJMGA=",
-      "sentiment": "neutral",
-      "time": "2025-08-29 10:30",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍118"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
       "topic": "招聘求职",
       "section": "舆情",
       "pushable": true
@@ -12422,31 +13020,30 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "nowcoder-2YWNmYmI4NmI4YTVmNGE",
-      "platform": "牛客",
-      "title": "吉比特雷霆游戏2026秋招正式启动啦！",
-      "summary": "... 嗨，各位热爱游戏的同学们！ 吉比特雷霆游戏2026秋招正式启动啦。登录https://hr.g-bits.com/ ，用内推码（4N84QX）进行投递，直接快人一步， ...",
-      "url": "https://www.nowcoder.com/feed/main/detail/c80496f73ece42b7a6acfbb86b8a5f4a",
+      "id": "xhs-68b02544000000001d008518",
+      "platform": "小红书",
+      "title": "吉比特2026届秋季校园招聘正式启动！",
+      "summary": "吉比特游戏 · 👍118 收藏89",
+      "url": "https://www.xiaohongshu.com/explore/68b02544000000001d008518?xsec_token=ABRuTFseSOnKk3uVIgTl_7Ed5jQSwEL3AIBVuI2LEJMGA=",
       "sentiment": "neutral",
-      "time": "2025-08-29 00:00",
+      "time": "2025-08-29 10:30",
       "tags": [
-        "牛客",
+        "小红书",
         "吉比特",
-        "雷霆游戏"
+        "👍118"
       ],
-      "lastChange": "2026-08-02 12:58",
-      "changeNote": "摘要有更新",
-      "category": "牛客",
+      "category": "小红书",
+      "_srcKw": "吉比特",
       "topic": "招聘求职",
       "section": "舆情",
       "pushable": true
     },
     {
-      "id": "nowcoder-87",
+      "id": "nowcoder-U291cmNlPWhvbWUtYXBp",
       "platform": "牛客",
       "title": "吉比特雷霆游戏2026秋招正式启动啦！",
-      "summary": "本次秋招面向人群：2026届应届毕业生 招聘节点预览: 8月29日起|岗位招满即止,先投先面! ... 10月中下旬|offer发放进行时! Base地点：深圳/厦门 加入 ...",
-      "url": "https://www.nowcoder.com/feed/main/detail/87cb6d3d905c45b89a96e701472607d5?urlSource=sitemap",
+      "summary": "嗨，各位热爱游戏的同学们！ 吉比特雷霆游戏2026秋招正式启动啦。登录https://hr.g-bits.com/ ，用内推码（4N84QX）进行投递，直接快人一步，可以全程跟进 ...",
+      "url": "https://www.nowcoder.com/feed/main/detail/c80496f73ece42b7a6acfbb86b8a5f4a?urlSource=home-api",
       "sentiment": "neutral",
       "time": "2025-08-29 00:00",
       "tags": [
@@ -12478,11 +13075,11 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "nowcoder-U291cmNlPWhvbWUtYXBp",
+      "id": "nowcoder-87",
       "platform": "牛客",
       "title": "吉比特雷霆游戏2026秋招正式启动啦！",
-      "summary": "嗨，各位热爱游戏的同学们！ 吉比特雷霆游戏2026秋招正式启动啦。登录https://hr.g-bits.com/ ，用内推码（4N84QX）进行投递，直接快人一步，可以全程跟进 ...",
-      "url": "https://www.nowcoder.com/feed/main/detail/c80496f73ece42b7a6acfbb86b8a5f4a?urlSource=home-api",
+      "summary": "本次秋招面向人群：2026届应届毕业生 招聘节点预览: 8月29日起|岗位招满即止,先投先面! ... 10月中下旬|offer发放进行时! Base地点：深圳/厦门 加入 ...",
+      "url": "https://www.nowcoder.com/feed/main/detail/87cb6d3d905c45b89a96e701472607d5?urlSource=sitemap",
       "sentiment": "neutral",
       "time": "2025-08-29 00:00",
       "tags": [
@@ -12490,6 +13087,26 @@ window.MONITOR_DATA = {
         "吉比特",
         "雷霆游戏"
       ],
+      "category": "牛客",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "nowcoder-2YWNmYmI4NmI4YTVmNGE",
+      "platform": "牛客",
+      "title": "吉比特雷霆游戏2026秋招正式启动啦！",
+      "summary": "... 嗨，各位热爱游戏的同学们！ 吉比特雷霆游戏2026秋招正式启动啦。登录https://hr.g-bits.com/ ，用内推码（4N84QX）进行投递，直接快人一步， ...",
+      "url": "https://www.nowcoder.com/feed/main/detail/c80496f73ece42b7a6acfbb86b8a5f4a",
+      "sentiment": "neutral",
+      "time": "2025-08-29 00:00",
+      "tags": [
+        "牛客",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "lastChange": "2026-08-02 12:58",
+      "changeNote": "摘要有更新",
       "category": "牛客",
       "topic": "招聘求职",
       "section": "舆情",
@@ -12520,7 +13137,7 @@ window.MONITOR_DATA = {
       "platform": "小红书",
       "title": "吉比特旗下运营品牌“雷霆游戏”💰待遇如何",
       "summary": "字符无限课代表 · 👍5 收藏1",
-      "url": "https://www.xiaohongshu.com/explore/68abe304000000001d00140d?xsec_token=ABjRNMvaO4rwO38iY-qpLW2mUKEktAehsjdW33L4P8pIQ=",
+      "url": "https://www.xiaohongshu.com/explore/68abe304000000001d00140d?xsec_token=ABjRNMvaO4rwO38iY-qpLW2hzuMgQdbpXTWgJ4e-yY8SA=",
       "sentiment": "neutral",
       "time": "2025-08-25 12:13",
       "tags": [
@@ -12529,9 +13146,7 @@ window.MONITOR_DATA = {
       ],
       "category": "小红书",
       "_srcKw": "雷霆游戏 绩效",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
+      "topic": "公司综合"
     },
     {
       "id": "xhs-68a4a40b000000001c033639",
@@ -12618,6 +13233,23 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
+      "id": "maimai-63a6c6befad81843",
+      "platform": "脉脉",
+      "title": "世纪华通、完美世界到掌趣科技、恺英网络、雷霆游戏无不在积极布局...，尤…",
+      "summary": "张晓红·News Break招聘经理",
+      "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
+      "sentiment": "neutral",
+      "time": "2025-07-01 10:54",
+      "tags": [
+        "脉脉",
+        "雷霆游戏"
+      ],
+      "category": "脉脉",
+      "topic": "经营管理",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
       "id": "maimai-01636488e17c8445",
       "platform": "脉脉",
       "title": "世纪华通、完美世界到掌趣科技、恺英网络、雷霆游戏无不在积极布局...，尤…",
@@ -12636,19 +13268,19 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-63a6c6befad81843",
+      "id": "maimai-d239c4da13edb37c",
       "platform": "脉脉",
-      "title": "世纪华通、完美世界到掌趣科技、恺英网络、雷霆游戏无不在积极布局...，尤…",
-      "summary": "张晓红·News Break招聘经理",
-      "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
+      "title": "完美世界、心动、掌趣、中手游、有序、电魂、吉比特...",
+      "summary": "AI招聘外包出海唐格·AA投资（vc机构）投后顾问&IR负责人",
+      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
       "sentiment": "neutral",
-      "time": "2025-07-01 10:54",
+      "time": "2025-05-15 08:09",
       "tags": [
         "脉脉",
-        "雷霆游戏"
+        "吉比特"
       ],
       "category": "脉脉",
-      "topic": "经营管理",
+      "topic": "产品游戏",
       "section": "舆情",
       "pushable": true
     },
@@ -12663,23 +13295,6 @@ window.MONITOR_DATA = {
       "tags": [
         "脉脉",
         "实名",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "产品游戏",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-d239c4da13edb37c",
-      "platform": "脉脉",
-      "title": "完美世界、心动、掌趣、中手游、有序、电魂、吉比特...",
-      "summary": "AI招聘外包出海唐格·AA投资（vc机构）投后顾问&IR负责人",
-      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
-      "sentiment": "neutral",
-      "time": "2025-05-15 08:09",
-      "tags": [
-        "脉脉",
         "吉比特"
       ],
       "category": "脉脉",
@@ -12724,6 +13339,23 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
+      "id": "maimai-0e63802521cf556b",
+      "platform": "脉脉",
+      "title": "为什么吉比特口碑那么好？",
+      "summary": "艾瑞克·腾讯研发工程师 · 11 赞 5 分享 34 评论",
+      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
+      "sentiment": "neutral",
+      "time": "2025-04-30 08:24",
+      "tags": [
+        "脉脉",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
       "id": "maimai-25cc3fd5cb2a63a0",
       "platform": "脉脉",
       "title": "为什么吉比特口碑那么好？",
@@ -12734,23 +13366,6 @@ window.MONITOR_DATA = {
       "tags": [
         "脉脉",
         "实名",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-0e63802521cf556b",
-      "platform": "脉脉",
-      "title": "为什么吉比特口碑那么好？",
-      "summary": "艾瑞克·腾讯研发工程师 · 11 赞 5 分享 34 评论",
-      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
-      "sentiment": "neutral",
-      "time": "2025-04-30 08:24",
-      "tags": [
-        "脉脉",
         "吉比特"
       ],
       "category": "脉脉",
@@ -12779,6 +13394,24 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
+      "id": "maimai-e10002a93b7d97d5",
+      "platform": "脉脉",
+      "title": "吉比特&雷霆游戏25届春招&26届暑期实习招聘今日启动...【关于我们】…",
+      "summary": "Eric·四川大学通信工程",
+      "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
+      "sentiment": "neutral",
+      "time": "2025-03-27 09:25",
+      "tags": [
+        "脉脉",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "脉脉",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
       "id": "maimai-f9ee9ab19097c6b4",
       "platform": "脉脉",
       "title": "吉比特&雷霆游戏25届春招&26届暑期实习招聘今日启动...【关于我们】…",
@@ -12789,24 +13422,6 @@ window.MONITOR_DATA = {
       "tags": [
         "脉脉",
         "实名",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "脉脉",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-e10002a93b7d97d5",
-      "platform": "脉脉",
-      "title": "吉比特&雷霆游戏25届春招&26届暑期实习招聘今日启动...【关于我们】…",
-      "summary": "Eric·四川大学通信工程",
-      "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
-      "sentiment": "neutral",
-      "time": "2025-03-27 09:25",
-      "tags": [
-        "脉脉",
         "吉比特",
         "雷霆游戏"
       ],
@@ -12870,6 +13485,24 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
+      "id": "maimai-9a87c7456e1cfb84",
+      "platform": "脉脉",
+      "title": "内推码U8O08F",
+      "summary": "陈俊鸿·吉比特雷霆游戏游戏研发工程师 · 1 赞",
+      "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
+      "sentiment": "neutral",
+      "time": "2025-03-10 15:27",
+      "tags": [
+        "脉脉",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "脉脉",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
       "id": "maimai-3b1a6cb1921fb4ba",
       "platform": "脉脉",
       "title": "内推码U8O08F",
@@ -12888,20 +13521,20 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-9a87c7456e1cfb84",
+      "id": "maimai-16f8903dc34d193e",
       "platform": "脉脉",
-      "title": "内推码U8O08F",
-      "summary": "陈俊鸿·吉比特雷霆游戏游戏研发工程师 · 1 赞",
+      "title": "欢迎加入我们一起来做好玩有趣的游戏！...",
+      "summary": "季新波·吉比特游戏HR · 1 赞 1 评论",
       "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
       "sentiment": "neutral",
-      "time": "2025-03-10 15:27",
+      "time": "2025-03-10 13:16",
       "tags": [
         "脉脉",
         "吉比特",
         "雷霆游戏"
       ],
       "category": "脉脉",
-      "topic": "招聘求职",
+      "topic": "公司综合",
       "section": "舆情",
       "pushable": true
     },
@@ -12924,20 +13557,20 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-16f8903dc34d193e",
+      "id": "maimai-94e872127f498ec6",
       "platform": "脉脉",
-      "title": "欢迎加入我们一起来做好玩有趣的游戏！...",
-      "summary": "季新波·吉比特游戏HR · 1 赞 1 评论",
+      "title": "吉比特雷霆游戏秋招开始咯！！！...",
+      "summary": "挂号金兵·前上海欢乐互娱网络科技有限公司Unity客户端开发工程师",
       "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
       "sentiment": "neutral",
-      "time": "2025-03-10 13:16",
+      "time": "2025-03-10 11:34",
       "tags": [
         "脉脉",
         "吉比特",
         "雷霆游戏"
       ],
       "category": "脉脉",
-      "topic": "公司综合",
+      "topic": "招聘求职",
       "section": "舆情",
       "pushable": true
     },
@@ -12961,29 +13594,11 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-94e872127f498ec6",
-      "platform": "脉脉",
-      "title": "吉比特雷霆游戏秋招开始咯！！！...",
-      "summary": "挂号金兵·前上海欢乐互娱网络科技有限公司Unity客户端开发工程师",
-      "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
-      "sentiment": "neutral",
-      "time": "2025-03-10 11:34",
-      "tags": [
-        "脉脉",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "脉脉",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
       "id": "xhs-67c3c525000000001203f67e",
       "platform": "小红书",
       "title": "吉比特董事长卢竑岩回应:没有大裁员,没躺平",
       "summary": "上海字符无限 · 👍5 收藏1",
-      "url": "https://www.xiaohongshu.com/explore/67c3c525000000001203f67e?xsec_token=ABqFB-XswyiCKWRBG4_oOUsfQmnzSDHJULowAlRcKQVy8=",
+      "url": "https://www.xiaohongshu.com/explore/67c3c525000000001203f67e?xsec_token=ABqFB-XswyiCKWRBG4_oOUsTdeGU0PrtLg8bnPnrEjCAE=",
       "sentiment": "negative",
       "time": "2025-03-02 10:40",
       "tags": [
@@ -12992,6 +13607,22 @@ window.MONITOR_DATA = {
       ],
       "category": "小红书",
       "_srcKw": "吉比特 离职",
+      "topic": "公司综合"
+    },
+    {
+      "id": "maimai-347ea075dfc9fa74",
+      "platform": "脉脉",
+      "title": "金三银四就要到了，吉比特&雷霆游戏程序、策划...",
+      "summary": "Richard·雷霆游戏产品运营 · 1 赞 1 评论",
+      "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
+      "sentiment": "neutral",
+      "time": "2025-02-24 11:00",
+      "tags": [
+        "脉脉",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "脉脉",
       "topic": "公司综合",
       "section": "舆情",
       "pushable": true
@@ -13016,40 +13647,21 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-347ea075dfc9fa74",
-      "platform": "脉脉",
-      "title": "金三银四就要到了，吉比特&雷霆游戏程序、策划...",
-      "summary": "Richard·雷霆游戏产品运营 · 1 赞 1 评论",
-      "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
-      "sentiment": "neutral",
-      "time": "2025-02-24 11:00",
-      "tags": [
-        "脉脉",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
       "id": "xhs-67b9f034000000002900ac79",
       "platform": "小红书",
       "title": "每日一家公司职场内幕——吉比特（深圳）",
-      "summary": "打工没有自由 · 👍269 收藏144",
-      "url": "https://www.xiaohongshu.com/explore/67b9f034000000002900ac79?xsec_token=ABXV6PDy0Gyd7sLIxUbVNG5G4ek-EBtRjRiAIf3aKm-Dw=",
+      "summary": "打工没有自由 · 👍269 收藏145",
+      "url": "https://www.xiaohongshu.com/explore/67b9f034000000002900ac79?xsec_token=ABXV6PDy0Gyd7sLIxUbVNG5IAMs4q_2wjWSyeLe0DB6Yg=",
       "sentiment": "neutral",
       "time": "2025-02-22 23:41",
       "tags": [
         "小红书",
+        "吉比特",
         "👍269"
       ],
       "category": "小红书",
-      "_srcKw": "吉比特 绩效",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
+      "_srcKw": "吉比特",
+      "topic": "公司综合"
     },
     {
       "id": "xhs-67b758630000000029013b59",
@@ -13066,6 +13678,23 @@ window.MONITOR_DATA = {
       "category": "小红书",
       "_srcKw": "吉比特 离职",
       "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-ae345912f94f3a0d",
+      "platform": "脉脉",
+      "title": "看到吉比特收缩代理线，第一反应是“终于卷不动了...吉比特手里捏着《问道…",
+      "summary": "小王·科大讯飞HRBP · 2 赞 1 分享",
+      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
+      "sentiment": "negative",
+      "time": "2025-02-20 11:09",
+      "tags": [
+        "脉脉",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "产品游戏",
       "section": "舆情",
       "pushable": true
     },
@@ -13088,16 +13717,16 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-ae345912f94f3a0d",
+      "id": "maimai-8b60bf60df26ee12",
       "platform": "脉脉",
-      "title": "看到吉比特收缩代理线，第一反应是“终于卷不动了...吉比特手里捏着《问道…",
-      "summary": "小王·科大讯飞HRBP · 2 赞 1 分享",
-      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
-      "sentiment": "negative",
-      "time": "2025-02-20 11:09",
+      "title": "月15日起，《异象回声》手游运营主体将从雷霆游戏变更为开发方苍火游戏..…",
+      "summary": "青年说·南京背包走天下文化传媒有限公司运营 · 1 分享",
+      "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
+      "sentiment": "neutral",
+      "time": "2025-02-20 09:58",
       "tags": [
         "脉脉",
-        "吉比特"
+        "雷霆游戏"
       ],
       "category": "脉脉",
       "topic": "产品游戏",
@@ -13115,23 +13744,6 @@ window.MONITOR_DATA = {
       "tags": [
         "脉脉",
         "实名",
-        "雷霆游戏"
-      ],
-      "category": "脉脉",
-      "topic": "产品游戏",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-8b60bf60df26ee12",
-      "platform": "脉脉",
-      "title": "月15日起，《异象回声》手游运营主体将从雷霆游戏变更为开发方苍火游戏..…",
-      "summary": "青年说·南京背包走天下文化传媒有限公司运营 · 1 分享",
-      "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
-      "sentiment": "neutral",
-      "time": "2025-02-20 09:58",
-      "tags": [
-        "脉脉",
         "雷霆游戏"
       ],
       "category": "脉脉",
@@ -13197,6 +13809,23 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
+      "id": "maimai-513566947f425de6",
+      "platform": "脉脉",
+      "title": "星辉娱乐、冰川网络等涨幅居前，仅恺英网络、吉比特...",
+      "summary": "同壁财经·上海同壁企业管理有限公司媒介总监",
+      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
+      "sentiment": "neutral",
+      "time": "2025-01-09 12:44",
+      "tags": [
+        "脉脉",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "经营管理",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
       "id": "maimai-caa5da54065c3d16",
       "platform": "脉脉",
       "title": "星辉娱乐、冰川网络等涨幅居前，仅恺英网络、吉比特...",
@@ -13207,23 +13836,6 @@ window.MONITOR_DATA = {
       "tags": [
         "脉脉",
         "实名",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "经营管理",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-513566947f425de6",
-      "platform": "脉脉",
-      "title": "星辉娱乐、冰川网络等涨幅居前，仅恺英网络、吉比特...",
-      "summary": "同壁财经·上海同壁企业管理有限公司媒介总监",
-      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
-      "sentiment": "neutral",
-      "time": "2025-01-09 12:44",
-      "tags": [
-        "脉脉",
         "吉比特"
       ],
       "category": "脉脉",
@@ -13250,24 +13862,6 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-10f0005510b1dc04",
-      "platform": "脉脉",
-      "title": "吉比特开年重点项目，问剑长生，1.2公测，...",
-      "summary": "季新波·吉比特游戏HR · 5 赞 2 分享 5 评论",
-      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
-      "sentiment": "neutral",
-      "time": "2024-12-31 18:34",
-      "tags": [
-        "脉脉",
-        "实名",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
       "id": "maimai-e0282e37a932d87f",
       "platform": "脉脉",
       "title": "吉比特开年重点项目，问剑长生，1.2公测，...",
@@ -13285,13 +13879,13 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-2b77303a16220c3e",
+      "id": "maimai-10f0005510b1dc04",
       "platform": "脉脉",
-      "title": "网龙出来伙伴们，有看机会私戳我们～吉比特需求还很多",
-      "summary": "郑松月·厦门吉比特网络技术股份有限公司HRBP · 5 赞 1 分享 11 评论",
+      "title": "吉比特开年重点项目，问剑长生，1.2公测，...",
+      "summary": "季新波·吉比特游戏HR · 5 赞 2 分享 5 评论",
       "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
       "sentiment": "neutral",
-      "time": "2024-12-16 14:20",
+      "time": "2024-12-31 18:34",
       "tags": [
         "脉脉",
         "实名",
@@ -13320,11 +13914,29 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
+      "id": "maimai-2b77303a16220c3e",
+      "platform": "脉脉",
+      "title": "网龙出来伙伴们，有看机会私戳我们～吉比特需求还很多",
+      "summary": "郑松月·厦门吉比特网络技术股份有限公司HRBP · 5 赞 1 分享 11 评论",
+      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
+      "sentiment": "neutral",
+      "time": "2024-12-16 14:20",
+      "tags": [
+        "脉脉",
+        "实名",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
       "id": "xhs-675e9b37000000000103f151",
       "platform": "小红书",
       "title": "1258天🔚 雷霆游戏X吉比特",
       "summary": "乜（猜到你不会读这个字了） · 👍82 收藏17",
-      "url": "https://www.xiaohongshu.com/explore/675e9b37000000000103f151?xsec_token=ABaIVRAMrVJ1eXXQF55msgl4oXAJCCYouIAPyaoVkkPco=",
+      "url": "https://www.xiaohongshu.com/explore/675e9b37000000000103f151?xsec_token=ABaIVRAMrVJ1eXXQF55msgl8yYUvwDbUI_ClwG0QEBp-k=",
       "sentiment": "neutral",
       "time": "2024-12-15 17:02",
       "tags": [
@@ -13334,9 +13946,7 @@ window.MONITOR_DATA = {
       ],
       "category": "小红书",
       "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
+      "topic": "公司综合"
     },
     {
       "id": "xhs-675b07c60000000002024284",
@@ -13352,6 +13962,23 @@ window.MONITOR_DATA = {
       ],
       "category": "小红书",
       "_srcKw": "雷霆游戏 绩效",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-b547af950cac2770",
+      "platform": "脉脉",
+      "title": "该基金三季度末重仓股包括视源股份、灿瑞科技、浩辰软件、吉比特等企业...…",
+      "summary": "王乐·面包财经总裁",
+      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
+      "sentiment": "neutral",
+      "time": "2024-12-10 14:13",
+      "tags": [
+        "脉脉",
+        "吉比特"
+      ],
+      "category": "脉脉",
       "topic": "公司综合",
       "section": "舆情",
       "pushable": true
@@ -13375,19 +14002,19 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-b547af950cac2770",
+      "id": "maimai-18b1cdf019c6be80",
       "platform": "脉脉",
-      "title": "该基金三季度末重仓股包括视源股份、灿瑞科技、浩辰软件、吉比特等企业...…",
-      "summary": "王乐·面包财经总裁",
+      "title": "吉比特游戏还在招人，程序策划美术都有hc哦...",
+      "summary": "Hellywang·蕉下招聘运营 · 6 赞 15 评论",
       "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
       "sentiment": "neutral",
-      "time": "2024-12-10 14:13",
+      "time": "2024-12-10 10:37",
       "tags": [
         "脉脉",
         "吉比特"
       ],
       "category": "脉脉",
-      "topic": "公司综合",
+      "topic": "招聘求职",
       "section": "舆情",
       "pushable": true
     },
@@ -13410,19 +14037,19 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-18b1cdf019c6be80",
+      "id": "maimai-6d07c1bbd53073c0",
       "platform": "脉脉",
-      "title": "吉比特游戏还在招人，程序策划美术都有hc哦...",
-      "summary": "Hellywang·蕉下招聘运营 · 6 赞 15 评论",
+      "title": "159869）现翻红微涨，持仓股涨跌互现，吉比特大涨超...12天发布更…",
+      "summary": "同壁财经·上海同壁企业管理有限公司媒介总监",
       "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
       "sentiment": "neutral",
-      "time": "2024-12-10 10:37",
+      "time": "2024-12-09 13:03",
       "tags": [
         "脉脉",
         "吉比特"
       ],
       "category": "脉脉",
-      "topic": "招聘求职",
+      "topic": "经营管理",
       "section": "舆情",
       "pushable": true
     },
@@ -13437,23 +14064,6 @@ window.MONITOR_DATA = {
       "tags": [
         "脉脉",
         "实名",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "经营管理",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-6d07c1bbd53073c0",
-      "platform": "脉脉",
-      "title": "159869）现翻红微涨，持仓股涨跌互现，吉比特大涨超...12天发布更…",
-      "summary": "同壁财经·上海同壁企业管理有限公司媒介总监",
-      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
-      "sentiment": "neutral",
-      "time": "2024-12-09 13:03",
-      "tags": [
-        "脉脉",
         "吉比特"
       ],
       "category": "脉脉",
@@ -13482,6 +14092,24 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
+      "id": "maimai-4c90b2c12c547a57",
+      "platform": "脉脉",
+      "title": "6.吉比特/雷霆游戏通知：25年取消16薪...",
+      "summary": "游戏圈内那些事·米哈游公司员工 · 4 赞 1 评论",
+      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
+      "sentiment": "neutral",
+      "time": "2024-12-02 00:43",
+      "tags": [
+        "脉脉",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
       "id": "maimai-2f0c9b6eca2d3e0d",
       "platform": "脉脉",
       "title": "6.吉比特/雷霆游戏通知：25年取消16薪...",
@@ -13492,24 +14120,6 @@ window.MONITOR_DATA = {
       "tags": [
         "脉脉",
         "实名",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-4c90b2c12c547a57",
-      "platform": "脉脉",
-      "title": "6.吉比特/雷霆游戏通知：25年取消16薪...",
-      "summary": "游戏圈内那些事·米哈游公司员工 · 4 赞 1 评论",
-      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
-      "sentiment": "neutral",
-      "time": "2024-12-02 00:43",
-      "tags": [
-        "脉脉",
         "吉比特",
         "雷霆游戏"
       ],
@@ -13541,7 +14151,7 @@ window.MONITOR_DATA = {
       "platform": "小红书",
       "title": "圈内富哥-雷霆游戏后续调整",
       "summary": "娜娜不明 · 👍4 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/67472b88000000000702b678?xsec_token=AB0rSIMS9A4eTeYHQmINg3Ed6Lhy8xAyP8z4pCF9h2JWs=",
+      "url": "https://www.xiaohongshu.com/explore/67472b88000000000702b678?xsec_token=AB0rSIMS9A4eTeYHQmINg3EZHMhs4qvp04ssxcmOr7ciQ=",
       "sentiment": "neutral",
       "time": "2024-11-27 22:24",
       "tags": [
@@ -13550,16 +14160,14 @@ window.MONITOR_DATA = {
       ],
       "category": "小红书",
       "_srcKw": "雷霆游戏 绩效",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
+      "topic": "公司综合"
     },
     {
       "id": "xhs-6747287500000000080079fb",
       "platform": "小红书",
       "title": "雷霆游戏：未来3年原则上不调薪",
       "summary": "游戏葡萄 · 👍25 收藏7 · 视频",
-      "url": "https://www.xiaohongshu.com/explore/6747287500000000080079fb?xsec_token=AB0rSIMS9A4eTeYHQmINg3ETaW0bf9Rne2Z0S5RlImih8=",
+      "url": "https://www.xiaohongshu.com/explore/6747287500000000080079fb?xsec_token=AB0rSIMS9A4eTeYHQmINg3EQapVW9skg1q-SnD9HW-3pw=",
       "sentiment": "negative",
       "time": "2024-11-27 22:11",
       "tags": [
@@ -13568,16 +14176,14 @@ window.MONITOR_DATA = {
       ],
       "category": "小红书",
       "_srcKw": "雷霆游戏 绩效",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
+      "topic": "公司综合"
     },
     {
       "id": "xhs-67471c470000000008007ee2",
       "platform": "小红书",
       "title": "不裁员的吉比特_雷霆游戏 开始降本增效",
       "summary": "夏天不想读书🤪 · 👍9 收藏4",
-      "url": "https://www.xiaohongshu.com/explore/67471c470000000008007ee2?xsec_token=AB0rSIMS9A4eTeYHQmINg3EUXp3ndt34bkqHDZgSwSa1Y=",
+      "url": "https://www.xiaohongshu.com/explore/67471c470000000008007ee2?xsec_token=AB0rSIMS9A4eTeYHQmINg3EbeY89jy5mTX2aXlGlGfSrA=",
       "sentiment": "negative",
       "time": "2024-11-27 21:19",
       "tags": [
@@ -13586,16 +14192,14 @@ window.MONITOR_DATA = {
       ],
       "category": "小红书",
       "_srcKw": "雷霆游戏 绩效",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
+      "topic": "公司综合"
     },
     {
       "id": "xhs-6746ff2f0000000006014982",
       "platform": "小红书",
       "title": "吉比特取消16薪，节前主动离职补偿N+1！",
       "summary": "游戏圈内儿 · 👍416 收藏231",
-      "url": "https://www.xiaohongshu.com/explore/6746ff2f0000000006014982?xsec_token=ABTnfHICj0_LBBScYSTDkX05vOc5g_LfM0p4-BXmFfiJk=",
+      "url": "https://www.xiaohongshu.com/explore/6746ff2f0000000006014982?xsec_token=ABTnfHICj0_LBBScYSTDkX08g_eygfhg6INtc__oYh0Gw=",
       "sentiment": "negative",
       "time": "2024-11-27 19:14",
       "tags": [
@@ -13604,9 +14208,7 @@ window.MONITOR_DATA = {
       ],
       "category": "小红书",
       "_srcKw": "吉比特 绩效",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
+      "topic": "公司综合"
     },
     {
       "id": "maimai-bb6bdd0f2c35df09",
@@ -13645,6 +14247,23 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
+      "id": "maimai-2fccd794b8785e16",
+      "platform": "脉脉",
+      "title": "游开投了一家又一家 灵犀4399友塔吉比特三七巨人白日梦途游西山居哈乐沃…",
+      "summary": "李子琪·东家APP前端开发工程师 · 2 评论",
+      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
+      "sentiment": "neutral",
+      "time": "2024-10-24 08:04",
+      "tags": [
+        "脉脉",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
       "id": "maimai-35a1324eeddea3ec",
       "platform": "脉脉",
       "title": "游开投了一家又一家 灵犀4399友塔吉比特三七巨人白日梦途游西山居哈乐沃…",
@@ -13655,23 +14274,6 @@ window.MONITOR_DATA = {
       "tags": [
         "脉脉",
         "实名",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-2fccd794b8785e16",
-      "platform": "脉脉",
-      "title": "游开投了一家又一家 灵犀4399友塔吉比特三七巨人白日梦途游西山居哈乐沃…",
-      "summary": "李子琪·东家APP前端开发工程师 · 2 评论",
-      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
-      "sentiment": "neutral",
-      "time": "2024-10-24 08:04",
-      "tags": [
-        "脉脉",
         "吉比特"
       ],
       "category": "脉脉",
@@ -13698,6 +14300,23 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
+      "id": "maimai-257358b0988f34db",
+      "platform": "脉脉",
+      "title": "游戏技术岗 面了好几个公司 总结下来，吉比特面试感受最好...",
+      "summary": "康琪·自由职业无线开发专家 · 9 赞 1 分享",
+      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
+      "sentiment": "neutral",
+      "time": "2024-10-21 17:29",
+      "tags": [
+        "脉脉",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
       "id": "maimai-89df4d241d35a120",
       "platform": "脉脉",
       "title": "游戏技术岗 面了好几个公司 总结下来，吉比特面试感受最好...",
@@ -13716,19 +14335,19 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-257358b0988f34db",
+      "id": "maimai-4889ed71635e533b",
       "platform": "脉脉",
-      "title": "游戏技术岗 面了好几个公司 总结下来，吉比特面试感受最好...",
-      "summary": "康琪·自由职业无线开发专家 · 9 赞 1 分享",
+      "title": "，《盗墓笔记：启程》9月底首轮删档测试；吉比特...",
+      "summary": "魏伯亚·深圳优米有范科技有限公司创始合伙人",
       "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
       "sentiment": "neutral",
-      "time": "2024-10-21 17:29",
+      "time": "2024-10-14 08:47",
       "tags": [
         "脉脉",
         "吉比特"
       ],
       "category": "脉脉",
-      "topic": "招聘求职",
+      "topic": "公司综合",
       "section": "舆情",
       "pushable": true
     },
@@ -13743,23 +14362,6 @@ window.MONITOR_DATA = {
       "tags": [
         "脉脉",
         "实名",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-4889ed71635e533b",
-      "platform": "脉脉",
-      "title": "，《盗墓笔记：启程》9月底首轮删档测试；吉比特...",
-      "summary": "魏伯亚·深圳优米有范科技有限公司创始合伙人",
-      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
-      "sentiment": "neutral",
-      "time": "2024-10-14 08:47",
-      "tags": [
-        "脉脉",
         "吉比特"
       ],
       "category": "脉脉",
@@ -13787,6 +14389,23 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
+      "id": "maimai-552780faaf7cb027",
+      "platform": "脉脉",
+      "title": "● 三七互娱 ● 世纪华通 ● 雷霆游戏...● 睿琪软件 ● 点点互动…",
+      "summary": "刘武华·扬帆出海创始人兼CEO · 2 赞",
+      "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
+      "sentiment": "neutral",
+      "time": "2024-10-11 09:25",
+      "tags": [
+        "脉脉",
+        "雷霆游戏"
+      ],
+      "category": "脉脉",
+      "topic": "理念价值观",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
       "id": "maimai-68819d78a7b74ca2",
       "platform": "脉脉",
       "title": "● 三七互娱 ● 世纪华通 ● 雷霆游戏...● 睿琪软件 ● 点点互动…",
@@ -13805,19 +14424,19 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-552780faaf7cb027",
+      "id": "maimai-5b0457c5d5ca7779",
       "platform": "脉脉",
-      "title": "● 三七互娱 ● 世纪华通 ● 雷霆游戏...● 睿琪软件 ● 点点互动…",
-      "summary": "刘武华·扬帆出海创始人兼CEO · 2 赞",
-      "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
+      "title": "华为节后开面 烽火二面结束 美的投晚了无面 吉比特简历挂...美团简历挂…",
+      "summary": "王迪壬·华为Java开发工程师 · 1 评论",
+      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
       "sentiment": "neutral",
-      "time": "2024-10-11 09:25",
+      "time": "2024-10-09 09:30",
       "tags": [
         "脉脉",
-        "雷霆游戏"
+        "吉比特"
       ],
       "category": "脉脉",
-      "topic": "理念价值观",
+      "topic": "公司综合",
       "section": "舆情",
       "pushable": true
     },
@@ -13840,19 +14459,19 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-5b0457c5d5ca7779",
+      "id": "maimai-830115dec85ebe98",
       "platform": "脉脉",
-      "title": "华为节后开面 烽火二面结束 美的投晚了无面 吉比特简历挂...美团简历挂…",
-      "summary": "王迪壬·华为Java开发工程师 · 1 评论",
+      "title": "🚀 重装前哨 招聘专场开启！...欢迎私信，欢迎砸简历~ 更多资料vv…",
+      "summary": "依依·吉比特游戏HRBP · 1 赞 1 分享 2 评论",
       "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
       "sentiment": "neutral",
-      "time": "2024-10-09 09:30",
+      "time": "2024-09-25 11:25",
       "tags": [
         "脉脉",
         "吉比特"
       ],
       "category": "脉脉",
-      "topic": "公司综合",
+      "topic": "招聘求职",
       "section": "舆情",
       "pushable": true
     },
@@ -13875,19 +14494,19 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-830115dec85ebe98",
+      "id": "maimai-920bc5bb5808ed83",
       "platform": "脉脉",
-      "title": "🚀 重装前哨 招聘专场开启！...欢迎私信，欢迎砸简历~ 更多资料vv…",
-      "summary": "依依·吉比特游戏HRBP · 1 赞 1 分享 2 评论",
+      "title": "打造出一条高增长赛道，成就了三七互娱、世纪华通、吉比特...，2024年…",
+      "summary": "韭菜财经·韭菜财经编辑 · 1 赞",
       "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
-      "sentiment": "neutral",
-      "time": "2024-09-25 11:25",
+      "sentiment": "positive",
+      "time": "2024-09-25 09:41",
       "tags": [
         "脉脉",
         "吉比特"
       ],
       "category": "脉脉",
-      "topic": "招聘求职",
+      "topic": "公司综合",
       "section": "舆情",
       "pushable": true
     },
@@ -13910,19 +14529,19 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-920bc5bb5808ed83",
+      "id": "maimai-7a48e0386f4140d1",
       "platform": "脉脉",
-      "title": "打造出一条高增长赛道，成就了三七互娱、世纪华通、吉比特...，2024年…",
-      "summary": "韭菜财经·韭菜财经编辑 · 1 赞",
+      "title": "#吉比特重装前哨招聘",
+      "summary": "melo·吉比特游戏HRBP · 4 赞 1 分享 7 评论",
       "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
-      "sentiment": "positive",
-      "time": "2024-09-25 09:41",
+      "sentiment": "neutral",
+      "time": "2024-09-24 21:14",
       "tags": [
         "脉脉",
         "吉比特"
       ],
       "category": "脉脉",
-      "topic": "公司综合",
+      "topic": "招聘求职",
       "section": "舆情",
       "pushable": true
     },
@@ -13937,23 +14556,6 @@ window.MONITOR_DATA = {
       "tags": [
         "脉脉",
         "实名",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-7a48e0386f4140d1",
-      "platform": "脉脉",
-      "title": "#吉比特重装前哨招聘",
-      "summary": "melo·吉比特游戏HRBP · 4 赞 1 分享 7 评论",
-      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
-      "sentiment": "neutral",
-      "time": "2024-09-24 21:14",
-      "tags": [
-        "脉脉",
         "吉比特"
       ],
       "category": "脉脉",
@@ -13981,6 +14583,23 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
+      "id": "maimai-f5a39db7b95ee8c5",
+      "platform": "脉脉",
+      "title": "hi 盆友们，预祝大家中秋节快乐呢 今年公司月饼...🥮一如既往地 #…",
+      "summary": "依依·吉比特游戏HRBP · 2 赞",
+      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
+      "sentiment": "neutral",
+      "time": "2024-09-12 15:00",
+      "tags": [
+        "脉脉",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
       "id": "maimai-cfc31ec650579bc8",
       "platform": "脉脉",
       "title": "hi 盆友们，预祝大家中秋节快乐呢 今年公司月饼...🥮一如既往地 #…",
@@ -13992,23 +14611,6 @@ window.MONITOR_DATA = {
         "脉脉",
         "实名",
         "雷霆游戏"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-f5a39db7b95ee8c5",
-      "platform": "脉脉",
-      "title": "hi 盆友们，预祝大家中秋节快乐呢 今年公司月饼...🥮一如既往地 #…",
-      "summary": "依依·吉比特游戏HRBP · 2 赞",
-      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
-      "sentiment": "neutral",
-      "time": "2024-09-12 15:00",
-      "tags": [
-        "脉脉",
-        "吉比特"
       ],
       "category": "脉脉",
       "topic": "公司综合",
@@ -14034,6 +14636,24 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
+      "id": "maimai-04486aea891a4c12",
+      "platform": "脉脉",
+      "title": "吉比特雷霆游戏近期美术需求大爆发，正在看机会的美术大佬们看过来哦...",
+      "summary": "Richard·雷霆游戏产品运营 · 2 赞 2 评论",
+      "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
+      "sentiment": "neutral",
+      "time": "2024-09-11 15:07",
+      "tags": [
+        "脉脉",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
       "id": "maimai-44a2d3c96667693e",
       "platform": "脉脉",
       "title": "吉比特雷霆游戏近期美术需求大爆发，正在看机会的美术大佬们看过来哦...",
@@ -14053,20 +14673,20 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-04486aea891a4c12",
+      "id": "maimai-3e0ed235fbca8d3d",
       "platform": "脉脉",
-      "title": "吉比特雷霆游戏近期美术需求大爆发，正在看机会的美术大佬们看过来哦...",
-      "summary": "Richard·雷霆游戏产品运营 · 2 赞 2 评论",
+      "title": "吉比特雷霆游戏9月热招岗位来啦，程序、策划...",
+      "summary": "Richard·雷霆游戏产品运营 · 4 赞",
       "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
       "sentiment": "neutral",
-      "time": "2024-09-11 15:07",
+      "time": "2024-09-11 14:59",
       "tags": [
         "脉脉",
         "吉比特",
         "雷霆游戏"
       ],
       "category": "脉脉",
-      "topic": "公司综合",
+      "topic": "招聘求职",
       "section": "舆情",
       "pushable": true
     },
@@ -14081,24 +14701,6 @@ window.MONITOR_DATA = {
       "tags": [
         "脉脉",
         "实名",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "脉脉",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-3e0ed235fbca8d3d",
-      "platform": "脉脉",
-      "title": "吉比特雷霆游戏9月热招岗位来啦，程序、策划...",
-      "summary": "Richard·雷霆游戏产品运营 · 4 赞",
-      "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
-      "sentiment": "neutral",
-      "time": "2024-09-11 14:59",
-      "tags": [
-        "脉脉",
         "吉比特",
         "雷霆游戏"
       ],
@@ -14126,6 +14728,24 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
+      "id": "maimai-a036636046e113c4",
+      "platform": "脉脉",
+      "title": "吉比特董事长：游戏行业正陷入一种「卷透了之后的迷茫...公司董事长兼总经…",
+      "summary": "Ken·速得伯信息Managing consultant · 4 赞 3 评论",
+      "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
+      "sentiment": "neutral",
+      "time": "2024-09-10 10:44",
+      "tags": [
+        "脉脉",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
       "id": "maimai-a3806b3db1b40bf6",
       "platform": "脉脉",
       "title": "吉比特董事长：游戏行业正陷入一种「卷透了之后的迷茫...公司董事长兼总经…",
@@ -14136,24 +14756,6 @@ window.MONITOR_DATA = {
       "tags": [
         "脉脉",
         "实名",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-a036636046e113c4",
-      "platform": "脉脉",
-      "title": "吉比特董事长：游戏行业正陷入一种「卷透了之后的迷茫...公司董事长兼总经…",
-      "summary": "Ken·速得伯信息Managing consultant · 4 赞 3 评论",
-      "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
-      "sentiment": "neutral",
-      "time": "2024-09-10 10:44",
-      "tags": [
-        "脉脉",
         "吉比特",
         "雷霆游戏"
       ],
@@ -14184,25 +14786,6 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-004e33b866801129",
-      "platform": "脉脉",
-      "title": "4 【北京深圳广州上海长沙香港]途游游戏...5[深圳厦门]吉比特&雷霆…",
-      "summary": "AI招聘外包出海唐格·AA投资（vc机构）投后顾问&IR负责人 · 1 赞",
-      "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
-      "sentiment": "neutral",
-      "time": "2024-09-09 23:06",
-      "tags": [
-        "脉脉",
-        "实名",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "脉脉",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
       "id": "maimai-242878f7ad867baf",
       "platform": "脉脉",
       "title": "4 【北京深圳广州上海长沙香港]途游游戏...5[深圳厦门]吉比特&雷霆…",
@@ -14221,20 +14804,21 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-d36b8106e6a2dc4e",
+      "id": "maimai-004e33b866801129",
       "platform": "脉脉",
-      "title": "这里投递：hr.g-bits.com",
-      "summary": "季新波·吉比特游戏HR · 5 赞 2 分享",
+      "title": "4 【北京深圳广州上海长沙香港]途游游戏...5[深圳厦门]吉比特&雷霆…",
+      "summary": "AI招聘外包出海唐格·AA投资（vc机构）投后顾问&IR负责人 · 1 赞",
       "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
       "sentiment": "neutral",
-      "time": "2024-09-06 18:19",
+      "time": "2024-09-09 23:06",
       "tags": [
         "脉脉",
         "实名",
+        "吉比特",
         "雷霆游戏"
       ],
       "category": "脉脉",
-      "topic": "公司综合",
+      "topic": "招聘求职",
       "section": "舆情",
       "pushable": true
     },
@@ -14257,13 +14841,13 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-99b8332cf01878a2",
+      "id": "maimai-d36b8106e6a2dc4e",
       "platform": "脉脉",
-      "title": "众多新项目新需求！欢迎来投递，join.g-bits.com!",
-      "summary": "季新波·吉比特游戏HR · 4 赞 2 分享 1 评论",
+      "title": "这里投递：hr.g-bits.com",
+      "summary": "季新波·吉比特游戏HR · 5 赞 2 分享",
       "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
       "sentiment": "neutral",
-      "time": "2024-09-06 11:31",
+      "time": "2024-09-06 18:19",
       "tags": [
         "脉脉",
         "实名",
@@ -14285,6 +14869,24 @@ window.MONITOR_DATA = {
       "tags": [
         "脉脉",
         "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-99b8332cf01878a2",
+      "platform": "脉脉",
+      "title": "众多新项目新需求！欢迎来投递，join.g-bits.com!",
+      "summary": "季新波·吉比特游戏HR · 4 赞 2 分享 1 评论",
+      "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
+      "sentiment": "neutral",
+      "time": "2024-09-06 11:31",
+      "tags": [
+        "脉脉",
+        "实名",
         "雷霆游戏"
       ],
       "category": "脉脉",
@@ -14316,7 +14918,7 @@ window.MONITOR_DATA = {
       "platform": "小红书",
       "title": "深圳&研发研发大厂-吉比特秋招",
       "summary": "李姐不解 · 👍50 收藏22",
-      "url": "https://www.xiaohongshu.com/explore/66cef92b000000001d019326?xsec_token=ABuffp-mdn1D_zf7o3tsz6StPbCdpio-L58myneiHe1xA=",
+      "url": "https://www.xiaohongshu.com/explore/66cef92b000000001d019326?xsec_token=ABuffp-mdn1D_zf7o3tsz6Sp9XM-Ox3rnnl-U9eEBvH78=",
       "sentiment": "neutral",
       "time": "2024-08-28 21:01",
       "tags": [
@@ -14326,9 +14928,7 @@ window.MONITOR_DATA = {
       ],
       "category": "小红书",
       "_srcKw": "吉比特",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
+      "topic": "招聘求职"
     },
     {
       "id": "maimai-3a375b8d7f0c198b",
@@ -14338,24 +14938,6 @@ window.MONITOR_DATA = {
       "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
       "sentiment": "positive",
       "time": "2024-08-28 09:40",
-      "tags": [
-        "脉脉",
-        "实名",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-37273823df85edd9",
-      "platform": "脉脉",
-      "title": "米哈游#叠纸#鹰角#4399#库洛#乐元素#吉比特...",
-      "summary": "土豆泥·莉莉丝游戏研发工程师 · 2 赞 3 评论",
-      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
-      "sentiment": "neutral",
-      "time": "2024-08-27 20:13",
       "tags": [
         "脉脉",
         "实名",
@@ -14384,20 +14966,20 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-f5440cfe66ee9d8e",
+      "id": "maimai-37273823df85edd9",
       "platform": "脉脉",
-      "title": "游戏测试工程师(吉比特)-秋招",
-      "summary": "凯文·钛动科技后端开发工程师 · 1 赞",
+      "title": "米哈游#叠纸#鹰角#4399#库洛#乐元素#吉比特...",
+      "summary": "土豆泥·莉莉丝游戏研发工程师 · 2 赞 3 评论",
       "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
       "sentiment": "neutral",
-      "time": "2024-08-23 11:34",
+      "time": "2024-08-27 20:13",
       "tags": [
         "脉脉",
         "实名",
         "吉比特"
       ],
       "category": "脉脉",
-      "topic": "招聘求职",
+      "topic": "公司综合",
       "section": "舆情",
       "pushable": true
     },
@@ -14419,20 +15001,20 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-e227959d5bfa701e",
+      "id": "maimai-f5440cfe66ee9d8e",
       "platform": "脉脉",
-      "title": "浙版传媒涨超5%，迅游科技、顺网科技、中青宝、吉比特等跟涨...这还仅仅…",
-      "summary": "互联网那些事·南京那些事文化传媒有限公司品牌主理人 · 1 赞",
+      "title": "游戏测试工程师(吉比特)-秋招",
+      "summary": "凯文·钛动科技后端开发工程师 · 1 赞",
       "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
       "sentiment": "neutral",
-      "time": "2024-08-20 16:09",
+      "time": "2024-08-23 11:34",
       "tags": [
         "脉脉",
         "实名",
         "吉比特"
       ],
       "category": "脉脉",
-      "topic": "公司综合",
+      "topic": "招聘求职",
       "section": "舆情",
       "pushable": true
     },
@@ -14454,13 +15036,13 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-093b96cf1c90f276",
+      "id": "maimai-e227959d5bfa701e",
       "platform": "脉脉",
-      "title": "米哈游#叠纸#鹰角#4399#库洛#乐元素#吉比特...",
-      "summary": "土豆泥·莉莉丝游戏研发工程师 · 5 赞 4 评论",
+      "title": "浙版传媒涨超5%，迅游科技、顺网科技、中青宝、吉比特等跟涨...这还仅仅…",
+      "summary": "互联网那些事·南京那些事文化传媒有限公司品牌主理人 · 1 赞",
       "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
       "sentiment": "neutral",
-      "time": "2024-08-17 00:59",
+      "time": "2024-08-20 16:09",
       "tags": [
         "脉脉",
         "实名",
@@ -14489,20 +15071,20 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-7426e24885ae40ad",
+      "id": "maimai-093b96cf1c90f276",
       "platform": "脉脉",
-      "title": "吉比特校招开始啦，欢迎投递！...",
-      "summary": "郑松月·厦门吉比特网络技术股份有限公司HRBP · 5 赞",
+      "title": "米哈游#叠纸#鹰角#4399#库洛#乐元素#吉比特...",
+      "summary": "土豆泥·莉莉丝游戏研发工程师 · 5 赞 4 评论",
       "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
       "sentiment": "neutral",
-      "time": "2024-08-15 08:57",
+      "time": "2024-08-17 00:59",
       "tags": [
         "脉脉",
         "实名",
         "吉比特"
       ],
       "category": "脉脉",
-      "topic": "招聘求职",
+      "topic": "公司综合",
       "section": "舆情",
       "pushable": true
     },
@@ -14524,21 +15106,20 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-c899c1c8aba771a2",
+      "id": "maimai-7426e24885ae40ad",
       "platform": "脉脉",
-      "title": "【企业介绍】吉比特&雷霆游戏，研运一体的一家上市游戏公司...cry》《…",
-      "summary": "X · 2 评论",
+      "title": "吉比特校招开始啦，欢迎投递！...",
+      "summary": "郑松月·厦门吉比特网络技术股份有限公司HRBP · 5 赞",
       "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
       "sentiment": "neutral",
-      "time": "2024-08-13 21:00",
+      "time": "2024-08-15 08:57",
       "tags": [
         "脉脉",
         "实名",
-        "吉比特",
-        "雷霆游戏"
+        "吉比特"
       ],
       "category": "脉脉",
-      "topic": "公司综合",
+      "topic": "招聘求职",
       "section": "舆情",
       "pushable": true
     },
@@ -14552,6 +15133,25 @@ window.MONITOR_DATA = {
       "time": "2024-08-13 21:00",
       "tags": [
         "脉脉",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-c899c1c8aba771a2",
+      "platform": "脉脉",
+      "title": "【企业介绍】吉比特&雷霆游戏，研运一体的一家上市游戏公司...cry》《…",
+      "summary": "X · 2 评论",
+      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
+      "sentiment": "neutral",
+      "time": "2024-08-13 21:00",
+      "tags": [
+        "脉脉",
+        "实名",
         "吉比特",
         "雷霆游戏"
       ],
@@ -14579,6 +15179,24 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
+      "id": "maimai-6152b176a3dc82c3",
+      "platform": "脉脉",
+      "title": "吉比特&雷霆游戏有大量招聘需求，在研项目多多...",
+      "summary": "Violet 小秋·吉比特游戏HR · 6 赞 1 分享 3 评论",
+      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
+      "sentiment": "neutral",
+      "time": "2024-08-09 18:10",
+      "tags": [
+        "脉脉",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "脉脉",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
       "id": "maimai-23501827663dc0ad",
       "platform": "脉脉",
       "title": "吉比特&雷霆游戏有大量招聘需求，在研项目多多...",
@@ -14598,17 +15216,17 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-6152b176a3dc82c3",
+      "id": "maimai-f9ee0650d039208a",
       "platform": "脉脉",
-      "title": "吉比特&雷霆游戏有大量招聘需求，在研项目多多...",
-      "summary": "Violet 小秋·吉比特游戏HR · 6 赞 1 分享 3 评论",
+      "title": "新的一年，吉比特2025秋招启动！",
+      "summary": "季新波·吉比特游戏HR · 4 赞 1 评论",
       "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
       "sentiment": "neutral",
-      "time": "2024-08-09 18:10",
+      "time": "2024-08-08 09:06",
       "tags": [
         "脉脉",
-        "吉比特",
-        "雷霆游戏"
+        "实名",
+        "吉比特"
       ],
       "category": "脉脉",
       "topic": "招聘求职",
@@ -14625,24 +15243,6 @@ window.MONITOR_DATA = {
       "time": "2024-08-08 09:06",
       "tags": [
         "脉脉",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-f9ee0650d039208a",
-      "platform": "脉脉",
-      "title": "新的一年，吉比特2025秋招启动！",
-      "summary": "季新波·吉比特游戏HR · 4 赞 1 评论",
-      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
-      "sentiment": "neutral",
-      "time": "2024-08-08 09:06",
-      "tags": [
-        "脉脉",
-        "实名",
         "吉比特"
       ],
       "category": "脉脉",
@@ -14670,23 +15270,6 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-a4dbaa98bef06d7e",
-      "platform": "脉脉",
-      "title": "胡莱游戏： 其余：腾讯，三七，Dena， 冰川...，中手游，吉比特，雷…",
-      "summary": "邹燕翔·君和佳仕（北京）企业管理咨询有限责任公司猎头合伙人",
-      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
-      "sentiment": "neutral",
-      "time": "2024-07-17 10:59",
-      "tags": [
-        "脉脉",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "经营管理",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
       "id": "maimai-2ba38f46ab5b5aaa",
       "platform": "脉脉",
       "title": "胡莱游戏： 其余：腾讯，三七，Dena， 冰川...，中手游，吉比特，雷…",
@@ -14697,6 +15280,23 @@ window.MONITOR_DATA = {
       "tags": [
         "脉脉",
         "实名",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "经营管理",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-a4dbaa98bef06d7e",
+      "platform": "脉脉",
+      "title": "胡莱游戏： 其余：腾讯，三七，Dena， 冰川...，中手游，吉比特，雷…",
+      "summary": "邹燕翔·君和佳仕（北京）企业管理咨询有限责任公司猎头合伙人",
+      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
+      "sentiment": "neutral",
+      "time": "2024-07-17 10:59",
+      "tags": [
+        "脉脉",
         "吉比特"
       ],
       "category": "脉脉",
@@ -14723,6 +15323,24 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
+      "id": "maimai-8d65e29d7831878f",
+      "platform": "脉脉",
+      "title": "#雷霆游戏自研招聘...最近公司有两个游戏自研项目（出海休闲）...#叠…",
+      "summary": "依依·吉比特游戏HRBP · 1 赞 1 评论",
+      "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
+      "sentiment": "neutral",
+      "time": "2024-06-25 18:16",
+      "tags": [
+        "脉脉",
+        "雷霆游戏",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
       "id": "maimai-7bfdb832e8734c57",
       "platform": "脉脉",
       "title": "#雷霆游戏自研招聘...最近公司有两个游戏自研项目（出海休闲）...#叠…",
@@ -14741,20 +15359,20 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-8d65e29d7831878f",
+      "id": "maimai-ee1e43a90391da10",
       "platform": "脉脉",
-      "title": "#雷霆游戏自研招聘...最近公司有两个游戏自研项目（出海休闲）...#叠…",
-      "summary": "依依·吉比特游戏HRBP · 1 赞 1 评论",
+      "title": "#吉比特...#雷霆游戏",
+      "summary": "依依·吉比特游戏HRBP · 1 评论",
       "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
       "sentiment": "neutral",
-      "time": "2024-06-25 18:16",
+      "time": "2024-06-20 11:29",
       "tags": [
         "脉脉",
-        "雷霆游戏",
-        "吉比特"
+        "吉比特",
+        "雷霆游戏"
       ],
       "category": "脉脉",
-      "topic": "招聘求职",
+      "topic": "公司综合",
       "section": "舆情",
       "pushable": true
     },
@@ -14778,20 +15396,20 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-ee1e43a90391da10",
+      "id": "maimai-7a3f53f1462c5e4d",
       "platform": "脉脉",
-      "title": "#吉比特...#雷霆游戏",
-      "summary": "依依·吉比特游戏HRBP · 1 评论",
+      "title": "吉比特雷霆游戏6月热招岗位来啦，程序、策划...",
+      "summary": "Richard·雷霆游戏产品运营 · 1 赞 7 评论",
       "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
       "sentiment": "neutral",
-      "time": "2024-06-20 11:29",
+      "time": "2024-06-13 10:12",
       "tags": [
         "脉脉",
         "吉比特",
         "雷霆游戏"
       ],
       "category": "脉脉",
-      "topic": "公司综合",
+      "topic": "招聘求职",
       "section": "舆情",
       "pushable": true
     },
@@ -14806,24 +15424,6 @@ window.MONITOR_DATA = {
       "tags": [
         "脉脉",
         "实名",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "脉脉",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-7a3f53f1462c5e4d",
-      "platform": "脉脉",
-      "title": "吉比特雷霆游戏6月热招岗位来啦，程序、策划...",
-      "summary": "Richard·雷霆游戏产品运营 · 1 赞 7 评论",
-      "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
-      "sentiment": "neutral",
-      "time": "2024-06-13 10:12",
-      "tags": [
-        "脉脉",
         "吉比特",
         "雷霆游戏"
       ],
@@ -14851,6 +15451,24 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
+      "id": "maimai-df581aad981a7c9c",
+      "platform": "脉脉",
+      "title": "吉比特&雷霆游戏厦门国风扁平在研项目美术岗位...餐饮补贴；休假制度；每…",
+      "summary": "郑松月·厦门吉比特网络技术股份有限公司HRBP · 2 赞 1 分享 4 评论",
+      "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
+      "sentiment": "neutral",
+      "time": "2024-05-31 10:11",
+      "tags": [
+        "脉脉",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "脉脉",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
       "id": "maimai-3e0a05c8308f0a90",
       "platform": "脉脉",
       "title": "吉比特&雷霆游戏厦门国风扁平在研项目美术岗位...餐饮补贴；休假制度；每…",
@@ -14861,24 +15479,6 @@ window.MONITOR_DATA = {
       "tags": [
         "脉脉",
         "实名",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "脉脉",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-df581aad981a7c9c",
-      "platform": "脉脉",
-      "title": "吉比特&雷霆游戏厦门国风扁平在研项目美术岗位...餐饮补贴；休假制度；每…",
-      "summary": "郑松月·厦门吉比特网络技术股份有限公司HRBP · 2 赞 1 分享 4 评论",
-      "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
-      "sentiment": "neutral",
-      "time": "2024-05-31 10:11",
-      "tags": [
-        "脉脉",
         "吉比特",
         "雷霆游戏"
       ],
@@ -14912,7 +15512,7 @@ window.MONITOR_DATA = {
       "platform": "小红书",
       "title": "聊聊那些年我对接过的人事01期：雷霆游戏HR",
       "summary": "游戏人张不是 · 👍70 收藏34",
-      "url": "https://www.xiaohongshu.com/explore/66448fd1000000001e031c5a?xsec_token=ABjGGnv1Y9ZZu-WpmnpLktw_N9GPnwWhDMC8Os9JL7Hgg=",
+      "url": "https://www.xiaohongshu.com/explore/66448fd1000000001e031c5a?xsec_token=ABjGGnv1Y9ZZu-WpmnpLktw1Wrl5UIyKxh0IRuaPKkd6g=",
       "sentiment": "neutral",
       "time": "2024-05-15 18:34",
       "tags": [
@@ -14922,9 +15522,7 @@ window.MONITOR_DATA = {
       ],
       "category": "小红书",
       "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
+      "topic": "公司综合"
     },
     {
       "id": "xhs-662f9fbc000000001e03bb0a",
@@ -14964,6 +15562,24 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
+      "id": "maimai-af528c1db17ac097",
+      "platform": "脉脉",
+      "title": "长期招： 海外发行制作人（欧美/日韩） 【...爆款项目或经验丰富】 中…",
+      "summary": "依依·吉比特游戏HRBP · 3 赞 1 评论",
+      "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
+      "sentiment": "neutral",
+      "time": "2024-04-12 20:29",
+      "tags": [
+        "脉脉",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "脉脉",
+      "topic": "产品游戏",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
       "id": "maimai-af89cb39a9a83ed2",
       "platform": "脉脉",
       "title": "长期招： 海外发行制作人（欧美/日韩） 【...爆款项目或经验丰富】 中…",
@@ -14974,24 +15590,6 @@ window.MONITOR_DATA = {
       "tags": [
         "脉脉",
         "实名",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "脉脉",
-      "topic": "产品游戏",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-af528c1db17ac097",
-      "platform": "脉脉",
-      "title": "长期招： 海外发行制作人（欧美/日韩） 【...爆款项目或经验丰富】 中…",
-      "summary": "依依·吉比特游戏HRBP · 3 赞 1 评论",
-      "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
-      "sentiment": "neutral",
-      "time": "2024-04-12 20:29",
-      "tags": [
-        "脉脉",
         "吉比特",
         "雷霆游戏"
       ],
@@ -15019,6 +15617,24 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
+      "id": "maimai-56076787894c1d1b",
+      "platform": "脉脉",
+      "title": "吉比特&雷霆游戏4月热招岗位来也！...",
+      "summary": "吉比特游戏·企业号人力资源(HR)/人事 · 4 赞 1 分享 2 评论",
+      "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
+      "sentiment": "neutral",
+      "time": "2024-04-08 13:54",
+      "tags": [
+        "脉脉",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "脉脉",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
       "id": "maimai-08137091a0eb0be3",
       "platform": "脉脉",
       "title": "吉比特&雷霆游戏4月热招岗位来也！...",
@@ -15038,20 +15654,20 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-56076787894c1d1b",
+      "id": "maimai-d716b8dd517dbb61",
       "platform": "脉脉",
-      "title": "吉比特&雷霆游戏4月热招岗位来也！...",
-      "summary": "吉比特游戏·企业号人力资源(HR)/人事 · 4 赞 1 分享 2 评论",
+      "title": "吉比特&雷霆游戏 所有福利看这个就够了！...",
+      "summary": "宋超·香港大宋投资有限公司高级咨询顾问 · 1 赞 2 评论",
       "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
       "sentiment": "neutral",
-      "time": "2024-04-08 13:54",
+      "time": "2024-04-01 14:57",
       "tags": [
         "脉脉",
         "吉比特",
         "雷霆游戏"
       ],
       "category": "脉脉",
-      "topic": "招聘求职",
+      "topic": "企业文化",
       "section": "舆情",
       "pushable": true
     },
@@ -15066,24 +15682,6 @@ window.MONITOR_DATA = {
       "tags": [
         "脉脉",
         "实名",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "脉脉",
-      "topic": "企业文化",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-d716b8dd517dbb61",
-      "platform": "脉脉",
-      "title": "吉比特&雷霆游戏 所有福利看这个就够了！...",
-      "summary": "宋超·香港大宋投资有限公司高级咨询顾问 · 1 赞 2 评论",
-      "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
-      "sentiment": "neutral",
-      "time": "2024-04-01 14:57",
-      "tags": [
-        "脉脉",
         "吉比特",
         "雷霆游戏"
       ],
@@ -15153,7 +15751,7 @@ window.MONITOR_DATA = {
       "platform": "小红书",
       "title": "吉比特&雷霆游戏 福利薪资part",
       "summary": "凯文 · 👍152 收藏104",
-      "url": "https://www.xiaohongshu.com/explore/65ec1a800000000004003dc2?xsec_token=ABlnhQzby7QeSYaG-e5cohmcgxXhVSTwIDC-vlqUaqjFE=",
+      "url": "https://www.xiaohongshu.com/explore/65ec1a800000000004003dc2?xsec_token=ABlnhQzby7QeSYaG-e5cohmT0j9wNZKFJf0ROSF2bLwY4=",
       "sentiment": "neutral",
       "time": "2024-03-09 16:14",
       "tags": [
@@ -15161,29 +15759,25 @@ window.MONITOR_DATA = {
         "👍152"
       ],
       "category": "小红书",
-      "_srcKw": "吉比特 绩效",
-      "topic": "企业文化",
-      "section": "舆情",
-      "pushable": true
+      "_srcKw": "雷霆游戏 绩效",
+      "topic": "企业文化"
     },
     {
       "id": "xhs-65ea6911000000000b00cecf",
       "platform": "小红书",
       "title": "吉比特雷霆怎么样？值得去吗？",
       "summary": "林酱咚咚咚 · 👍119 收藏71",
-      "url": "https://www.xiaohongshu.com/explore/65ea6911000000000b00cecf?xsec_token=ABj-UebzwNqppycTtLxFSKe8vZhiResnPAbxXvh_hnlUA=",
+      "url": "https://www.xiaohongshu.com/explore/65ea6911000000000b00cecf?xsec_token=ABj-UebzwNqppycTtLxFSKe47GgF8PPq2Kuy1Zz9Smghg=",
       "sentiment": "neutral",
       "time": "2024-03-08 09:25",
       "tags": [
         "小红书",
-        "雷霆游戏",
+        "吉比特",
         "👍119"
       ],
       "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
+      "_srcKw": "吉比特",
+      "topic": "公司综合"
     },
     {
       "id": "xhs-65e6e3140000000004003a37",
@@ -16235,11 +16829,11 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-WlV5N2ZVc280RlYxZVRR",
+      "id": "maimai-1759850598",
       "platform": "脉脉",
       "title": "大公司的朋友圈--网易、鹰角等八家公司的游戏投资版图",
-      "summary": "三、投资员工搞副业--吉比特雷霆的朋友圈. 吉比特雷霆*是国内投资比较活跃 ... 吉比特前员工，这在流动性大，又竞业泛滥的游戏行业不太常见。吉 ...",
-      "url": "https://maimai.cn/article/detail?fid\\u003d1759850598\\u0026efid\\u003d7LLgGnUZUy7fUso4FV1eTQ",
+      "summary": "吉比特雷霆*是国内投资比较活跃的大厂，近年来投资项目几十起，且所投 ... 吉比特前员工，这在流动性大，又竞业泛滥的游戏行业不太常见。吉比特 ...",
+      "url": "https://maimai.cn/article/detail?fid=1759850598&efid=7LLgGnUZUy7fUso4FV1eTQ",
       "sentiment": "neutral",
       "time": "2022-11-11 00:00",
       "tags": [
@@ -16252,11 +16846,11 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-1759850598",
+      "id": "maimai-WlV5N2ZVc280RlYxZVRR",
       "platform": "脉脉",
       "title": "大公司的朋友圈--网易、鹰角等八家公司的游戏投资版图",
-      "summary": "吉比特雷霆*是国内投资比较活跃的大厂，近年来投资项目几十起，且所投 ... 吉比特前员工，这在流动性大，又竞业泛滥的游戏行业不太常见。吉比特 ...",
-      "url": "https://maimai.cn/article/detail?fid=1759850598&efid=7LLgGnUZUy7fUso4FV1eTQ",
+      "summary": "三、投资员工搞副业--吉比特雷霆的朋友圈. 吉比特雷霆*是国内投资比较活跃 ... 吉比特前员工，这在流动性大，又竞业泛滥的游戏行业不太常见。吉 ...",
+      "url": "https://maimai.cn/article/detail?fid\\u003d1759850598\\u0026efid\\u003d7LLgGnUZUy7fUso4FV1eTQ",
       "sentiment": "neutral",
       "time": "2022-11-11 00:00",
       "tags": [
@@ -16358,23 +16952,6 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-230f733a7e406e14",
-      "platform": "脉脉",
-      "title": "一次可以投递四家游戏公司：真有趣、勇仕网络、极致游戏、吉比特...",
-      "summary": "吉比特游戏·企业号人力资源(HR)/人事 · 3 赞",
-      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true",
-      "sentiment": "neutral",
-      "time": "2022-10-24 20:48",
-      "tags": [
-        "脉脉",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
       "id": "maimai-1fb4a49cce1a547d",
       "platform": "脉脉",
       "title": "厦门四家游戏公司联合校招启动，动动手指，一次可以投递四家游戏公司...：…",
@@ -16389,6 +16966,23 @@ window.MONITOR_DATA = {
       ],
       "category": "脉脉",
       "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-230f733a7e406e14",
+      "platform": "脉脉",
+      "title": "一次可以投递四家游戏公司：真有趣、勇仕网络、极致游戏、吉比特...",
+      "summary": "吉比特游戏·企业号人力资源(HR)/人事 · 3 赞",
+      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true",
+      "sentiment": "neutral",
+      "time": "2022-10-24 20:48",
+      "tags": [
+        "脉脉",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
       "section": "舆情",
       "pushable": true
     },
@@ -16967,11 +17561,11 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-Uk1jd281VGpEeEM5Y1BR",
+      "id": "maimai-1691580146",
       "platform": "脉脉",
       "title": "《一念逍遥》发行负责人宗亚琴：从概念到设计，国风仙侠手游 ...",
       "summary": "在国风游戏产业论坛上，吉比特雷霆游戏《一念逍遥》发行负责人宗亚琴发表了《从概念到设计，国风仙侠手游的修仙之路》的演讲。",
-      "url": "https://maimai.cn/article/detail?fid\\u003d1691580146\\u0026efid\\u003dSIn24ffRMcwo5TjDxC9cPQ",
+      "url": "https://maimai.cn/article/detail?fid=1691580146&efid=SIn24ffRMcwo5TjDxC9cPQ",
       "sentiment": "neutral",
       "time": "2021-12-16 00:00",
       "tags": [
@@ -16985,11 +17579,11 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-1691580146",
+      "id": "maimai-Uk1jd281VGpEeEM5Y1BR",
       "platform": "脉脉",
       "title": "《一念逍遥》发行负责人宗亚琴：从概念到设计，国风仙侠手游 ...",
       "summary": "在国风游戏产业论坛上，吉比特雷霆游戏《一念逍遥》发行负责人宗亚琴发表了《从概念到设计，国风仙侠手游的修仙之路》的演讲。",
-      "url": "https://maimai.cn/article/detail?fid=1691580146&efid=SIn24ffRMcwo5TjDxC9cPQ",
+      "url": "https://maimai.cn/article/detail?fid\\u003d1691580146\\u0026efid\\u003dSIn24ffRMcwo5TjDxC9cPQ",
       "sentiment": "neutral",
       "time": "2021-12-16 00:00",
       "tags": [
@@ -17056,25 +17650,6 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-WmxSb1puczk0XzJKQ2Jn",
-      "platform": "脉脉",
-      "title": "吉比特技术中心自研编程语言介绍",
-      "summary": "沈予卿，吉比特技术中心负责人，《一念逍遥》制作人。 从高中就开始用文曲星摸索编程到如今与团队自研编程语言，是一名有着一头乌黑浓密的秀发、不爱 ...",
-      "url": "https://maimai.cn/article/detail?fid\\u003d1677318801\\u0026efid\\u003dEY6VzA9ZlRoZns94_2JCbg",
-      "sentiment": "neutral",
-      "time": "2021-10-29 00:00",
-      "tags": [
-        "脉脉",
-        "吉比特"
-      ],
-      "lastChange": "2026-08-17 10:45",
-      "changeNote": "摘要有更新",
-      "category": "脉脉",
-      "topic": "产品游戏",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
       "id": "maimai-1677318801",
       "platform": "脉脉",
       "title": "吉比特技术中心自研编程语言介绍",
@@ -17087,6 +17662,25 @@ window.MONITOR_DATA = {
         "吉比特"
       ],
       "lastChange": "2026-07-31 13:04",
+      "changeNote": "摘要有更新",
+      "category": "脉脉",
+      "topic": "产品游戏",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-WmxSb1puczk0XzJKQ2Jn",
+      "platform": "脉脉",
+      "title": "吉比特技术中心自研编程语言介绍",
+      "summary": "沈予卿，吉比特技术中心负责人，《一念逍遥》制作人。 从高中就开始用文曲星摸索编程到如今与团队自研编程语言，是一名有着一头乌黑浓密的秀发、不爱 ...",
+      "url": "https://maimai.cn/article/detail?fid\\u003d1677318801\\u0026efid\\u003dEY6VzA9ZlRoZns94_2JCbg",
+      "sentiment": "neutral",
+      "time": "2021-10-29 00:00",
+      "tags": [
+        "脉脉",
+        "吉比特"
+      ],
+      "lastChange": "2026-08-17 10:45",
       "changeNote": "摘要有更新",
       "category": "脉脉",
       "topic": "产品游戏",
@@ -17448,6 +18042,74 @@ window.MONITOR_DATA = {
       "topic": "企业文化",
       "section": "舆情",
       "pushable": true
+    },
+    {
+      "id": "xhs-425b1dd8-11fc-4752-8c65-26704df0accc#1788745064309",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/425b1dd8-11fc-4752-8c65-26704df0accc#1788745064309?xsec_token=ABgZ7_9U-h9dLMKQwAfzII1UEghC3vPzh9pWCGgrU7YbZIfz9pGvLwn9PJa3tgHXWLlvCDFJg_YeljWjYdnoO1o21s5kJVWoP3riSOLLhfJjI=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合"
+    },
+    {
+      "id": "xhs-6ddecad6-421a-4a9a-9cf5-22cec87a8975#1788745065102",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/6ddecad6-421a-4a9a-9cf5-22cec87a8975#1788745065102?xsec_token=ABWRvm4fZBzLrdg56KUmfSrxKjkr8LuvmG_4SCf_6xs_B4QEDG9FqGBOVL-afpxGFVSZ30suWIH1lxlbM0hcZP_G0Y_iJX1WiBc5iVXmqev3o=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合"
+    },
+    {
+      "id": "xhs-adf90386-17a3-4cb4-bfdf-3911ae6c8a48#1788745071968",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/adf90386-17a3-4cb4-bfdf-3911ae6c8a48#1788745071968?xsec_token=AB4LWWtxGgt-IjRilxPDg1HK5kw64r6zg1rpVWqNv5xGiwhwV7uiAssDnos3bS5xQ7DOHKt22tm9QFHfOtX9x_g7I6L7-Wt4oIeeBAT_r00N0=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合"
+    },
+    {
+      "id": "xhs-911cfafb-263b-466f-b771-39b1497b1269#1788745072844",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/911cfafb-263b-466f-b771-39b1497b1269#1788745072844?xsec_token=ABUEn8DhVGeoQz_izOPJA-ivoiNAvV_Mx5_FAmj1dLjI3XwZDN7tq7kdX_lWwcSOm3uWrvpgbOU5n4sGyYWUB6EcwEj4VnPBSPprMNqi9SY4I=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合"
     },
     {
       "id": "maimai-YkJ6dFpVZFV2dVAtR2ZB",
@@ -21577,567 +22239,6 @@ window.MONITOR_DATA = {
       "topic": "产品游戏",
       "section": "舆情",
       "pushable": true
-    },
-    {
-      "id": "media-7nn5sg",
-      "platform": "触乐",
-      "title": "20年老牌IP加MMO，看起来过时的组合首测却爆了？",
-      "summary": "点开《仙境传说》原声专辑的评论区，像打开一本童年回忆录。2015年，玩家评论听见《普隆德拉主题曲》就想落眼泪，想起了陪自己坐在南门角落闲聊的人；在登录曲《Title》下，有人回忆第一次听就惊为天人。他们偶尔循环这些歌曲回想青春，也不时提及即将上线的RO新游，希望和大家再聚一次。今年8月中旬，《Title》的最新评论为&ldquo;RO3快出了&rdquo;。 听见一首老歌的时候 这对于RO玩家是一种情怀。在仍需电话拨号上网的2004年，",
-      "url": "http://www.chuapp.com/article/291613.html",
-      "sentiment": "positive",
-      "time": "2026-09-05 11:00",
-      "tags": [
-        "触乐",
-        "行业"
-      ],
-      "section": "行业",
-      "pushable": false,
-      "category": "游戏垂媒",
-      "topic": "产品游戏"
-    },
-    {
-      "id": "media-qcozt2",
-      "platform": "游戏陀螺",
-      "title": "运营11年，冲进免费榜近三月最高，这款MMO凭什么还能打",
-      "summary": "一款运营11年的MMO，还能靠什么吸引新玩家？ 最近，《梦幻西游》手游接连推出了几项更新：七夕联动《大话西游之大圣娶亲》，轻享服迎来一周年，新主角玄天一与岭南道版本也陆续上线。 这轮动作着实带来了不小的热度，游戏前不久进入iOS免费榜第15名。 单看起来，这像是一次常规版本节点带来的热度。但实际上，这并不是它第一次进入免费榜前列，iOS畅销榜也长期保持在前十。对一款运营11年的MMO来说，这样的表现很难只用一次爆量解释。 长线MMO的难",
-      "url": "https://www.youxituoluo.com/534858.html",
-      "sentiment": "positive",
-      "time": "2026-09-05 05:25",
-      "tags": [
-        "游戏陀螺",
-        "行业"
-      ],
-      "section": "行业",
-      "pushable": false,
-      "category": "游戏垂媒",
-      "topic": "产品游戏"
-    },
-    {
-      "id": "media-qtqm79",
-      "platform": "游戏陀螺",
-      "title": "日活850万，这款“佛系”游戏放弃年入1.4亿美元的广告收入",
-      "summary": "有一款&ldquo;游戏&rdquo;长期占据美国应用商店游戏榜单前列,近期甚至攀升至美国iOS畅销榜Top 5，其DAU（日活跃用户）近千万，受众极度优质，但它的买量策略近乎于无，广告变现方式在传统游戏从业者看来甚至有些&ldquo;暴殄天物&rdquo;。 NYT Games过去30日美国iOS游戏畅销榜排行。来源：data.AI 它就是《纽约时报》旗下的游戏矩阵应用&mdash;&mdash;NYT Games（主打《Wordle",
-      "url": "https://www.youxituoluo.com/534857.html",
-      "sentiment": "neutral",
-      "time": "2026-09-04 18:34",
-      "tags": [
-        "游戏陀螺",
-        "行业"
-      ],
-      "section": "行业",
-      "pushable": false,
-      "category": "游戏垂媒",
-      "topic": "产品游戏"
-    },
-    {
-      "id": "media-x467ak",
-      "platform": "GameLook",
-      "title": "独游慷慨赴死！Steam一周720款新游，“躲过手游买量，逃不过Steam踩踏”",
-      "summary": "【Game Look专稿，禁止转载！】 Game look报道/过去很长一段时间，Steam都是许多中小团队以及独游开发者眼中的“应许之地”，去中心化的流量分发模式、无需向平台上供...",
-      "url": "http://www.gamelook.com.cn/2026/09/601501/",
-      "sentiment": "neutral",
-      "time": "2026-09-04 10:46",
-      "tags": [
-        "GameLook",
-        "行业"
-      ],
-      "section": "行业",
-      "pushable": false,
-      "category": "游戏垂媒",
-      "topic": "产品游戏"
-    },
-    {
-      "id": "media-x46prc",
-      "platform": "GameLook",
-      "title": "网易投资胡牌了！CDPR前总监新游Steam全球畅销榜夺冠",
-      "summary": "【Game Look专稿，禁止转载！】 Game look报道/过去两年，网易在海外主机赛道的布局留给外界的印象更多是收缩：多家欧美自建工作室关停、部分明星项目中途撤资。另一家大厂...",
-      "url": "http://www.gamelook.com.cn/2026/09/601464/",
-      "sentiment": "neutral",
-      "time": "2026-09-04 10:08",
-      "tags": [
-        "GameLook",
-        "行业"
-      ],
-      "section": "行业",
-      "pushable": false,
-      "category": "游戏垂媒",
-      "topic": "经营管理"
-    },
-    {
-      "id": "media-x46qkm",
-      "platform": "GameLook",
-      "title": "8月抖音小游戏畅销榜Top 100：《灵画师》连冠、三七6款入榜",
-      "summary": "【GameLook专稿，禁止转载！】 GameLook报道/8月份，抖音小游戏市场在经历了一个月的剧烈洗牌之后，开始进入了相对稳定的盘整期。 与7月份相比，8月份的抖音小游戏畅销榜...",
-      "url": "http://www.gamelook.com.cn/2026/09/601451/",
-      "sentiment": "neutral",
-      "time": "2026-09-04 09:17",
-      "tags": [
-        "GameLook",
-        "行业"
-      ],
-      "section": "行业",
-      "pushable": false,
-      "category": "游戏垂媒",
-      "topic": "公司综合"
-    },
-    {
-      "id": "media-x46r7v",
-      "platform": "GameLook",
-      "title": "独立创业者疲惫！1人维护SteamDB出售，买家Nexus Mods同样创始人太累退出",
-      "summary": "【GameLook专稿，禁止转载！】 GameLook报道/北京时间9月3日,全球最大游戏Mod平台Nexus Mods与第三方Steam数据库SteamDB同日发布声明,宣布Ne...",
-      "url": "http://www.gamelook.com.cn/2026/09/601445/",
-      "sentiment": "neutral",
-      "time": "2026-09-04 09:12",
-      "tags": [
-        "GameLook",
-        "行业"
-      ],
-      "section": "行业",
-      "pushable": false,
-      "category": "游戏垂媒",
-      "topic": "理念价值观"
-    },
-    {
-      "id": "media-92s0z1",
-      "platform": "触乐",
-      "title": "触乐怪话：既要自由度，又要抄作业",
-      "summary": "触乐怪话，每天胡侃和游戏有关的屁事、鬼事、新鲜事。 图/小罗 这段时间，我终于开始玩《潜水员戴夫》。说来也奇怪，以它的玩法和风格，我应该在发售第一天就美美开玩才对，不知为何拖到现在。但不论如何，趁着Steam打折，我总算是玩上了。 了解《潜水员戴夫》的朋友应该知道，这款游戏的节奏本来就是不紧不慢的，越是随心所欲，越能体会到游戏的&ldquo;自由度&rdquo;&mdash;&mdash;就连游戏官方，都发视频给玩家的赚钱方式分了几派，",
-      "url": "http://www.chuapp.com/article/291610.html",
-      "sentiment": "neutral",
-      "time": "2026-09-03 18:35",
-      "tags": [
-        "触乐",
-        "行业"
-      ],
-      "section": "行业",
-      "pushable": false,
-      "category": "游戏垂媒",
-      "topic": "产品游戏"
-    },
-    {
-      "id": "media-84os6n",
-      "platform": "触乐",
-      "title": "做了三年AI教程后，他决定自己做一款游戏",
-      "summary": "《群侠传：幸存者》上架Steam一周后，制作人Nenly在评价区看到一条留言：&ldquo;虽然是AI的，深度很低，可玩性一般般，但他敢免费啊。&rdquo;这条评价来自一位总游戏时长18.9小时的玩家。Nenly看完后没觉得沮丧，反而有点高兴。 &ldquo;因为玩家在面对普通的AI游戏Demo，是不会存在这样一系列讨论的。&rdquo;他说。 Nenly是一名全职AI内容创作者。2023年，他从Stable Diffusion教程做",
-      "url": "http://www.chuapp.com/article/291612.html",
-      "sentiment": "neutral",
-      "time": "2026-09-03 18:35",
-      "tags": [
-        "触乐",
-        "行业"
-      ],
-      "section": "行业",
-      "pushable": false,
-      "category": "游戏垂媒",
-      "topic": "公司综合"
-    },
-    {
-      "id": "media-spx3s1",
-      "platform": "游戏陀螺",
-      "title": "7天超2000万流水：没人看好的慢生活“摆烂”小游戏，悄悄卖疯了",
-      "summary": "最近，在一个大家意想不到的赛道上，Steam又悄悄跑出了一匹小黑马。 这款名为《维修物语》的电器维修游戏，上线至今已在Steam获得超9000条评论，好评率88%。 官方表示，《维修物语》发售之初即取得梦幻开局：上线不到24小时，Steam同时在线人数超1.5万，游戏销量近10万份。 而在发售一周后，游戏销量已突破30万份&mdash;&mdash;由此推算，其流水或超2000万。 其实不只是《维修物语》，如果将目光聚焦于Steam&l",
-      "url": "https://www.youxituoluo.com/534853.html",
-      "sentiment": "positive",
-      "time": "2026-09-03 18:20",
-      "tags": [
-        "游戏陀螺",
-        "行业"
-      ],
-      "section": "行业",
-      "pushable": false,
-      "category": "游戏垂媒",
-      "topic": "产品游戏"
-    },
-    {
-      "id": "media-8lqeku",
-      "platform": "触乐",
-      "title": "西山居新游《剑侠世界4：无限》10月15日全平台公测",
-      "summary": "一代人的江湖，就是剑侠！西山居打造的剑侠世界系列收官之作《剑侠世界4：无限》将于10月15日全平台公测！游戏承袭经典武侠内核，原汁原味还原剑侠系列经典玩法，致力于让每位剑侠迷重回当年的快意江湖！今日，高燃世界观CG震撼首曝，一场专属于剑侠玩家的武侠盛宴即将开启！ 全平台公测时间：10月15日。更多详情： 《剑侠世界4：无限》官网 。 ■ 高燃CG曝光，经典剑侠焕新登场 《剑侠世界4：无限》世界观CG今日正式曝光，在南宋乱世背景下，杨影枫",
-      "url": "http://www.chuapp.com/article/291611.html",
-      "sentiment": "neutral",
-      "time": "2026-09-03 15:08",
-      "tags": [
-        "触乐",
-        "行业"
-      ],
-      "section": "行业",
-      "pushable": false,
-      "category": "游戏垂媒",
-      "topic": "产品游戏"
-    },
-    {
-      "id": "media-x46tfy",
-      "platform": "GameLook",
-      "title": "错过鹰角、投过TapTap，这家游戏资本要在上海赌 AI 与游戏下个十年",
-      "summary": "【GameLook专稿，禁止转载！】 GameLook报道/在游戏行业，尤其是对于从事投资的同行来说，错过爆款的机会，可能远多于成功的投资案例。比如在8月25日举行的漕河泾AI加速...",
-      "url": "http://www.gamelook.com.cn/2026/09/601415/",
-      "sentiment": "positive",
-      "time": "2026-09-03 10:53",
-      "tags": [
-        "GameLook",
-        "行业"
-      ],
-      "section": "行业",
-      "pushable": false,
-      "category": "游戏垂媒",
-      "topic": "公司综合"
-    },
-    {
-      "id": "media-x47bzb",
-      "platform": "GameLook",
-      "title": "8月微信小游戏畅销榜Top 100：《向僵尸开炮》登顶、三七多达8款入榜",
-      "summary": "【GameLook专稿，禁止转载！】 GameLook报道/8月份，暑期档进入下半段，微信小游戏市场在经历7月的剧烈洗牌后，进入相对缓和的调整节奏。 与7月份相比，8月份的微信小游...",
-      "url": "http://www.gamelook.com.cn/2026/09/601375/",
-      "sentiment": "positive",
-      "time": "2026-09-03 10:52",
-      "tags": [
-        "GameLook",
-        "行业"
-      ],
-      "section": "行业",
-      "pushable": false,
-      "category": "游戏垂媒",
-      "topic": "公司综合"
-    },
-    {
-      "id": "media-x47dgp",
-      "platform": "GameLook",
-      "title": "休闲游戏成香馍馍！MMO大佬已花20亿并购，表态：“继续买休闲厂商”",
-      "summary": "【GameLook专稿，禁止转载！】 GameLook报道/在前不久的科隆展上，韩国大厂NCSoft展示了FPS新作《Like or Die》，这款设定在平行宇宙首尔的新游戏采用了...",
-      "url": "http://www.gamelook.com.cn/2026/09/601355/",
-      "sentiment": "neutral",
-      "time": "2026-09-03 09:00",
-      "tags": [
-        "GameLook",
-        "行业"
-      ],
-      "section": "行业",
-      "pushable": false,
-      "category": "游戏垂媒",
-      "topic": "产品游戏"
-    },
-    {
-      "id": "media-t6yq68",
-      "platform": "游戏陀螺",
-      "title": "完美世界、三七互娱、4399参投，做AI 3D的VAST半年融了50亿元",
-      "summary": "9月1日，AI 3D公司VAST宣布完成B轮和B+轮融资，合计约30亿元人民币。经纬创投领投，完美世界、三七互娱、蓝色光标、中科创达等产业资本参投，达晨财智、春华资本、四三九九等老股东继续追加投资。 算上此前几轮融资，VAST不到半年累计融资约50亿元。VAST称，这一金额刷新了AI 3D领域的融资纪录。本轮资金将用于模型和数据迭代、训练与推理基础设施建设，以及产品商业化。 VAST旗下产品Tripo可以根据文字或图片生成3D模型。公司",
-      "url": "https://www.youxituoluo.com/534852.html",
-      "sentiment": "neutral",
-      "time": "2026-09-02 22:28",
-      "tags": [
-        "游戏陀螺",
-        "行业"
-      ],
-      "section": "行业",
-      "pushable": false,
-      "category": "游戏垂媒",
-      "topic": "公司综合"
-    },
-    {
-      "id": "media-to0ckf",
-      "platform": "游戏陀螺",
-      "title": "游戏爆卖2000万份，CEO却说：我们不想扩张，只想做150人的小团队",
-      "summary": "2024年2月，瑞典独立工作室Arrowhead Game Studios凭借《绝地潜兵2》一跃成为行业焦点。 这款由俯视角射击转型为第三人称合作射击的作品， 发售后三天内销量突破百万份，十天内在Steam平台达成超过33万同时在线玩家峰值， 一度超越多款同期3A级即时服务大作。 截至2026年，行业分析机构Alinea估算其累计销量已超过2000万份，总收入逾7亿美元； 该作亦在TGA 2024中摘得&ldquo;最佳多人游戏&rdq",
-      "url": "https://www.youxituoluo.com/534851.html",
-      "sentiment": "positive",
-      "time": "2026-09-02 19:37",
-      "tags": [
-        "游戏陀螺",
-        "行业"
-      ],
-      "section": "行业",
-      "pushable": false,
-      "category": "游戏垂媒",
-      "topic": "经营管理"
-    },
-    {
-      "id": "media-x47ex8",
-      "platform": "GameLook",
-      "title": "欧美游戏圈“再添荒唐事”！《星战》新游爆卖，80%员工却停薪留职",
-      "summary": "【GameLook专稿，禁止转载！】 GameLook报道/刚刚落幕的科隆游戏展，留给外界两件反差强烈的荒唐事。一件是游戏开发者的电脑在科隆游戏展中被盗，作为全球最大的游戏会展，今...",
-      "url": "http://www.gamelook.com.cn/2026/09/601336/",
-      "sentiment": "neutral",
-      "time": "2026-09-02 13:28",
-      "tags": [
-        "GameLook",
-        "行业"
-      ],
-      "section": "行业",
-      "pushable": false,
-      "category": "游戏垂媒",
-      "topic": "产品游戏"
-    },
-    {
-      "id": "media-x47ft3",
-      "platform": "GameLook",
-      "title": "9月预计12款新游上线：腾讯《王者万象棋》领衔，莉莉丝,完美,B站,趣加逐个登场",
-      "summary": "【Game Look专稿，禁止转载！】 Game Look 报道/暑期档结束后，9月新游档也正式拉开帷幕。据Game Look统计，本月预计有12款新游戏上线，腾讯、完美世界、莉莉...",
-      "url": "http://www.gamelook.com.cn/2026/09/601320/",
-      "sentiment": "positive",
-      "time": "2026-09-02 10:59",
-      "tags": [
-        "GameLook",
-        "行业"
-      ],
-      "section": "行业",
-      "pushable": false,
-      "category": "游戏垂媒",
-      "topic": "产品游戏"
-    },
-    {
-      "id": "media-x47xib",
-      "platform": "GameLook",
-      "title": "苹果护城河塌了！App Store收入十年首次下滑，中国游戏成“全球手游顶梁柱”",
-      "summary": "【GameLook专稿，禁止转载！】 GameLook报道/终于，苹果正式换帅进入“特努斯时代”。但同时，游戏圈先见证了另一个旧时代的落幕：今年二季度App Store美国区支出十...",
-      "url": "http://www.gamelook.com.cn/2026/09/601294/",
-      "sentiment": "negative",
-      "time": "2026-09-02 09:46",
-      "tags": [
-        "GameLook",
-        "行业"
-      ],
-      "section": "行业",
-      "pushable": false,
-      "category": "游戏垂媒",
-      "topic": "产品游戏"
-    },
-    {
-      "id": "media-uh2ec8",
-      "platform": "游戏陀螺",
-      "title": "9月新游清单请查收！《王者万象棋》《伊莫》《闪耀吧！噜咪》上桌",
-      "summary": "暑期档的硝烟尚未散尽，9月的战鼓却已悄然擂响。 据陀螺君粗略统计，9月移动新游的供给量已从8月的&ldquo;洪峰&rdquo;骤然回落至17款定档、14款测试，数量近乎腰斩。 究其原因，暑期档结束后，多数厂商进入新一轮产品排期评估期，同时部分重磅作品选择将上线窗口推迟至第四季度，以规避开学季初期用户注意力的分散效应。 不过，尽管数量下滑，头部厂商的核心产品密度并未降低。 腾讯、莉莉丝、B站、蛮啾网络等重点厂商的重磅项目依然在9月集中落",
-      "url": "https://www.youxituoluo.com/534849.html",
-      "sentiment": "neutral",
-      "time": "2026-09-01 23:17",
-      "tags": [
-        "游戏陀螺",
-        "行业"
-      ],
-      "section": "行业",
-      "pushable": false,
-      "category": "游戏垂媒",
-      "topic": "产品游戏"
-    },
-    {
-      "id": "media-kwwktw",
-      "platform": "触乐",
-      "title": "《流放之路2》制作人：我们已经准备好进入1.0了",
-      "summary": "《流放之路》（Path of Exile）由新西兰工作室Grinding Gear Games（下文简称GGG）开发，是一款很难用几句话解释清楚的ARPG。 2013年正式上线后，它靠丰富的Build体系、庞大的天赋树、赛季制内容和玩家主导的交易与攻略生态运营了十余年。对不少老玩家来说，它的魅力恰恰来自那些需要花时间研究的系统：一个技能、一件装备或者一次天赋调整，都可能让玩家重新思考自己的Build。 2016年，腾讯代理了《流放之路》",
-      "url": "http://www.chuapp.com/article/291606.html",
-      "sentiment": "positive",
-      "time": "2026-09-01 22:37",
-      "tags": [
-        "触乐",
-        "行业"
-      ],
-      "section": "行业",
-      "pushable": false,
-      "category": "游戏垂媒",
-      "topic": "产品游戏"
-    },
-    {
-      "id": "media-u00ry1",
-      "platform": "游戏陀螺",
-      "title": "游戏停运，人已上岸：《米姆米姆哈》官宣停运，创始人入职网易",
-      "summary": "8月31日，趣糖网络发布公告，旗下游戏《米姆米姆哈》将于2026年11月30日终止运营。 官方解释称，项目上线至今一直在争取维持正常服务，但受当前运营状况和后续投入条件限制，已无法保障长期稳定的游戏体验。 同日，游戏全平台关闭新用户注册与充值通道，下载入口则自9月30日起逐步关闭。 至此，这款曾在上线首日同时登顶App Store国区免费榜与TapTap热门游戏榜的产品，在经历约16个月的运营周期后，正式走向终点。 对于许多关注过这款产",
-      "url": "https://www.youxituoluo.com/534848.html",
-      "sentiment": "positive",
-      "time": "2026-09-01 19:48",
-      "tags": [
-        "游戏陀螺",
-        "行业"
-      ],
-      "section": "行业",
-      "pushable": false,
-      "category": "游戏垂媒",
-      "topic": "理念价值观"
-    },
-    {
-      "id": "media-tiz5ju",
-      "platform": "游戏陀螺",
-      "title": "8月版号下发：数量首次突破200，网易《射雕》更名",
-      "summary": "8月31日，国家新闻出版署发布了8月新一批游戏版号。 本批次版号共计215款。其中，国产游戏版号209个，进口游戏版号6个。截至8月，2026年过审游戏版号数量已达1362款，包括1319款国产网络游戏和43款进口网络游戏。 这8月的版号当中，知名的厂商或产品有：蓝飞互娱《大鹅花园》、三七《凡人修仙传：大道》、大梦龙途《我家有座茶山》、北京畅游《天龙八部：经典永恒》、厦门魔兔《勇者工坊》、上海散爆《指尖突围》、上海数龙《龙之谷：经典》、",
-      "url": "https://www.youxituoluo.com/534847.html",
-      "sentiment": "positive",
-      "time": "2026-09-01 18:32",
-      "tags": [
-        "游戏陀螺",
-        "行业"
-      ],
-      "section": "行业",
-      "pushable": false,
-      "category": "游戏垂媒",
-      "topic": "经营管理"
-    },
-    {
-      "id": "media-ldy783",
-      "platform": "触乐",
-      "title": "为了在游戏行业“上岸”，首先要准备两年",
-      "summary": "■ 秋招提前开始了 7月中旬，小周刚开启暑期实习不到两周，突然发现：他关注的几家游戏公司的2027届秋招提前批开了。 &ldquo;提前批&rdquo;即秋招前奏，大厂为抢占优质生源提前开启的招聘，与之对应的招聘程序也会做一些简化。不过对于小周来说，提前批比预想中得早了很多。 米哈游的提前批和正式批，毕业生只能投递一次 小周是2027届毕业生，想要找一份游戏客户端开发的工作。暑期实习刚刚开始，他的简历还没有更新。与此同时，他还发现：&l",
-      "url": "http://www.chuapp.com/article/291605.html",
-      "sentiment": "neutral",
-      "time": "2026-09-01 18:29",
-      "tags": [
-        "触乐",
-        "行业"
-      ],
-      "section": "行业",
-      "pushable": false,
-      "category": "游戏垂媒",
-      "topic": "招聘求职"
-    },
-    {
-      "id": "media-x4814c",
-      "platform": "GameLook",
-      "title": "对话腾讯李纳川：腾讯游戏的使命是什么？",
-      "summary": "【GameLook专稿，禁止转载！】 GameLook报道/在今年的科隆，腾讯游戏的参与程度比以往更加深入。 在场馆内，腾讯带来了超过20款产品，组成历届规模最大的参展阵容，覆盖《...",
-      "url": "http://www.gamelook.com.cn/2026/09/601248/",
-      "sentiment": "neutral",
-      "time": "2026-09-01 11:46",
-      "tags": [
-        "GameLook",
-        "行业"
-      ],
-      "section": "行业",
-      "pushable": false,
-      "category": "游戏垂媒",
-      "topic": "理念价值观"
-    },
-    {
-      "id": "media-x480dn",
-      "platform": "GameLook",
-      "title": "幻塔工作室负责人张御：《异环》要打造难以复制的内容、不靠焦虑逼氪",
-      "summary": "【GameLook专稿，禁止转载！】 GameLook报道/近日，日本游戏媒体4Gamer对幻塔工作室负责人、《异环》制作人张御进行了采访。 自今年4月全球公测以来，《异环》已经运...",
-      "url": "http://www.gamelook.com.cn/2026/09/601258/",
-      "sentiment": "neutral",
-      "time": "2026-09-01 11:36",
-      "tags": [
-        "GameLook",
-        "行业"
-      ],
-      "section": "行业",
-      "pushable": false,
-      "category": "游戏垂媒",
-      "topic": "公司综合"
-    },
-    {
-      "id": "media-x482ob",
-      "platform": "GameLook",
-      "title": "209款国产6款进口游戏获版号：《凡人修仙传》《龙之谷》过审，三七散爆盛趣畅游在列",
-      "summary": "【GameLook专稿，禁止转载！】 GameLook报道/8月31日，国家新闻出版署公布了8月份国产网络游戏审批信息。本月共计有209款国产网络游戏与5款进口网络游戏版号过审，另...",
-      "url": "http://www.gamelook.com.cn/2026/09/601225/",
-      "sentiment": "neutral",
-      "time": "2026-09-01 09:58",
-      "tags": [
-        "GameLook",
-        "行业"
-      ],
-      "section": "行业",
-      "pushable": false,
-      "category": "游戏垂媒",
-      "topic": "经营管理"
-    },
-    {
-      "id": "media-x483e5",
-      "platform": "GameLook",
-      "title": "Steam经济全貌：1%游戏赚走Steam营收84.5%，绝大多数游戏“穷的叮当响”",
-      "summary": "【GameLook专稿，禁止转载！】 GameLook报道/对很多人来说，游戏市场的长尾效应可能都不是新鲜事，少数头部游戏占据了大部分的收入，而剩余的市场份额，则由大部分游戏瓜分。...",
-      "url": "http://www.gamelook.com.cn/2026/09/601216/",
-      "sentiment": "neutral",
-      "time": "2026-09-01 09:29",
-      "tags": [
-        "GameLook",
-        "行业"
-      ],
-      "section": "行业",
-      "pushable": false,
-      "category": "游戏垂媒",
-      "topic": "股票财务"
-    },
-    {
-      "id": "media-t1xj5n",
-      "platform": "游戏陀螺",
-      "title": "郭炜炜离职西山居，米哈游《源初之结》首曝，网易《无限大》定档 | 陀螺周报",
-      "summary": "随着这些年国内游戏厂商声量壮大，中国游戏全球化/区域化新品布局、中国厂商于宣发联动、投资并购等业态频发。在越来越多成功者试行的案例面前，我们是否能从中寻索到适合自己的最新机遇！每周末，我们将为大家盘点一周的产业要点。 业内声音🔊 &mdash;&mdash;多年来，游戏向我们展示了它能对人们产生怎样的影响。它促成终生友谊的建立，让个人挣扎得到治愈，使亲人重新建立联系，并让希望重燃。 这些时刻让我们相信，游戏有能力以深刻的方式触动生活。",
-      "url": "https://www.youxituoluo.com/534846.html",
-      "sentiment": "neutral",
-      "time": "2026-09-01 00:34",
-      "tags": [
-        "游戏陀螺",
-        "行业"
-      ],
-      "section": "行业",
-      "pushable": false,
-      "category": "游戏垂媒",
-      "topic": "经营管理"
-    },
-    {
-      "id": "media-skvwrg",
-      "platform": "游戏陀螺",
-      "title": "告别固定合成配方：从生成式 AI 到 Gameplay 的核心重构",
-      "summary": "AI赋能游戏到底能做什么？ 用于各个研发环节的生产，这无疑是大大了提升了我们的研发效率与下限，但似乎AI只是在游戏的外层。还是将大语言模型引入游戏，让NPC多说几句非预设的话，还是&ldquo;把文本框变成对话框&rdquo;？AI 似乎成了游戏的&ldquo;挂件&rdquo;，而非&ldquo;骨架&rdquo;。 AI未必只能做&ldquo;陪聊NPC&rdquo;：我们用多个Agent，重构了游戏里的&ldquo;核心体验&rd",
-      "url": "https://www.youxituoluo.com/534845.html",
-      "sentiment": "neutral",
-      "time": "2026-08-31 23:46",
-      "tags": [
-        "游戏陀螺",
-        "行业"
-      ],
-      "section": "行业",
-      "pushable": false,
-      "category": "游戏垂媒",
-      "topic": "公司综合"
-    },
-    {
-      "id": "media-s3uad9",
-      "platform": "游戏陀螺",
-      "title": "吸金超60亿美元全球爆款，“收割”从第一颗骰子开始",
-      "summary": "如果要盘点近年来全球手游市场的现象级产品，Scopely 旗下的《Monopoly Go！》是一个绕不开的名字。 从官方数据与第三方监测来看，它的成绩令人侧目。据Sensor Tower 预测，在2025 年，该游戏生命周期内购收入已突破60 亿美元。 不仅 Scopely 凭此实现收入跃升，IP 授权方孩之宝（Hasbro）同样在财报中提及该作的强劲贡献&mdash;&mdash;仅 2026 年上半年，授权收入就达8500 万美元，",
-      "url": "https://www.youxituoluo.com/534844.html",
-      "sentiment": "positive",
-      "time": "2026-08-31 23:12",
-      "tags": [
-        "游戏陀螺",
-        "行业"
-      ],
-      "section": "行业",
-      "pushable": false,
-      "category": "游戏垂媒",
-      "topic": "产品游戏"
-    },
-    {
-      "id": "media-rmsnz2",
-      "platform": "游戏陀螺",
-      "title": "2026科隆游戏奖名单出炉：腾讯投资的国产3A成功“偷家”",
-      "summary": "8月28日，2026年科隆国际游戏展Gamescom Award颁奖典礼在德国科隆举行，涵盖19个奖项类别的获奖名单正式揭晓。 其中，腾讯投资的动作冒险游戏《湮灭之潮》斩获了&ldquo;最具史诗感游戏（Most Epic）&rdquo;，成为该奖项历史上首个获奖的国产游戏作品。 最具史诗感游戏表彰具有史诗感叙事、视听奇观和宏大战斗体验的作品，如果你对这个奖项还不太眼熟，不妨看看过去三年拿下此奖的游戏有哪些，也能大概看出奖项所青睐的风格",
-      "url": "https://www.youxituoluo.com/534843.html",
-      "sentiment": "neutral",
-      "time": "2026-08-31 22:54",
-      "tags": [
-        "游戏陀螺",
-        "行业"
-      ],
-      "section": "行业",
-      "pushable": false,
-      "category": "游戏垂媒",
-      "topic": "公司综合"
-    },
-    {
-      "id": "media-385aa4",
-      "platform": "GameLook",
-      "title": "中年人鼓起勇气发问：“44岁想做游戏是否太老”？同行：“行业艰难，有热情就不晚”",
-      "summary": "【GameLook专稿，禁止转载！】 图片来源：Pixabay GameLook报道/游戏开发行业向来被视作“青春饭”的聚集地。那么，当一位年过四旬的职场人想要中途转行投身游戏研发...",
-      "url": "http://www.gamelook.com.cn/2026/08/601049/",
-      "sentiment": "neutral",
-      "time": "2026-08-31 10:05",
-      "tags": [
-        "GameLook",
-        "行业"
-      ],
-      "section": "行业",
-      "pushable": false,
-      "category": "游戏垂媒",
-      "topic": "产品游戏"
     }
   ]
 };
