@@ -1,17 +1,17 @@
-// 舆情数据文件 — 由 fetch.js / fetch-xhs.js 自动写入，请勿手动编辑
+// 舆情数据文件 —— 由 fetch.js 自动写入，请勿手动编辑
 // 页面通过 <script src="data.js"> 读取，避免 file:// 下 fetch 被浏览器拦截
 window.MONITOR_DATA = {
+  "updatedAt": "2026-10-16 14:18",
+  "keywords": [
+    "吉比特",
+    "雷霆游戏"
+  ],
   "loginStatus": {
     "脉脉": {
       "failedSince": "2026-10-16 11:00",
       "lastCheck": "2026-10-16 11:00"
     }
   },
-  "updatedAt": "2026-10-16 10:23",
-  "keywords": [
-    "吉比特",
-    "雷霆游戏"
-  ],
   "items": [
     {
       "id": "xhs-6ad1a2dc000000001b0229de",
@@ -29,7 +29,9 @@ window.MONITOR_DATA = {
       ],
       "category": "小红书",
       "_srcKw": "雷霆游戏",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-6ad171c2000000001403802d",
@@ -49,7 +51,9 @@ window.MONITOR_DATA = {
       ],
       "category": "小红书",
       "_srcKw": "雷霆游戏",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-6ad16f3a000000001b01e61f",
@@ -70,7 +74,9 @@ window.MONITOR_DATA = {
       ],
       "category": "小红书",
       "_srcKw": "雷霆游戏",
-      "topic": "企业文化"
+      "topic": "企业文化",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-6acf9d48000000000b0066fd",
@@ -93,7 +99,9 @@ window.MONITOR_DATA = {
       ],
       "category": "小红书",
       "_srcKw": "雷霆游戏",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-6ad1098f00000000140006a5",
@@ -114,7 +122,9 @@ window.MONITOR_DATA = {
       ],
       "category": "小红书",
       "_srcKw": "雷霆游戏",
-      "topic": "产品游戏"
+      "topic": "产品游戏",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "ann-AN202610151830507971",
@@ -151,92 +161,9 @@ window.MONITOR_DATA = {
       ],
       "category": "小红书",
       "_srcKw": "吉比特",
-      "topic": "招聘求职"
-    },
-    {
-      "id": "media-f959we",
-      "platform": "游戏陀螺",
-      "title": "四个月创收超4亿元：外表像塔防的小游戏，到底为什么这么赚钱？",
-      "summary": "2026年5月21日，《塔塔冒险队》在海外上线。 4个月后，根据数据平台估算，游戏总收入已经达到4560万美元（约合人民币3.3亿元，加上国内等市场已超4亿）。 一个画风温馨可爱的小游戏，短时间内吸金这么多，确实很罕见。 它第一个月收入约800万美元，第二个月790万，第三个月涨到1050万，第四个月直接冲到1910万美元，几乎是第三个月的两倍，单月就占了总收入的42%。 很多靠狂打广告拉新人的游戏不是这种走势。它们通常一开始收入最猛，",
-      "url": "https://www.youxituoluo.com/534964.html",
-      "sentiment": "positive",
-      "time": "2026-10-15 18:24",
-      "tags": [
-        "游戏陀螺",
-        "行业"
-      ],
-      "section": "行业",
-      "pushable": false,
-      "category": "财经新闻",
-      "topic": "产品游戏"
-    },
-    {
-      "id": "media-jlo0at",
-      "platform": "GameLook",
-      "title": "开发者吐槽：“游戏刚发售、一大群Steam鉴赏家来要Key”，同行：90%是骗子！",
-      "summary": "【GameLook专稿，禁止转载！】 GameLook报道/很多读者可能都不陌生的是，这两年海外独立游戏圈聊得最多的，是曝光难、愿望单难、不买量就没活路：一款新游在 Steam 上...",
-      "url": "http://www.gamelook.com.cn/2026/10/603904/",
-      "sentiment": "negative",
-      "time": "2026-10-15 11:30",
-      "tags": [
-        "GameLook",
-        "行业"
-      ],
-      "section": "行业",
-      "pushable": false,
-      "category": "财经新闻",
-      "topic": "产品游戏"
-    },
-    {
-      "id": "media-jlo0de",
-      "platform": "GameLook",
-      "title": "大快人心！“用DEI祸害游戏”的Sweet Baby裁员80%、清空厂商合作",
-      "summary": "在过去这两年，Sweet Baby Inc.（简称SBI）几乎是欧美游戏“政治正确”（DEI）争议的代名词，他们作为咨询顾问反复出现在各家公司的名单上，让玩家避之不及。 然而，这家...",
-      "url": "http://www.gamelook.com.cn/2026/10/603907/",
-      "sentiment": "neutral",
-      "time": "2026-10-15 09:53",
-      "tags": [
-        "GameLook",
-        "行业"
-      ],
-      "section": "行业",
-      "pushable": false,
-      "category": "财经新闻",
-      "topic": "公司综合"
-    },
-    {
-      "id": "media-jlo2iw",
-      "platform": "GameLook",
-      "title": "“烧十亿token救妹妹”！国内玩家用AI把停服二游“奶”回来了？",
-      "summary": "【GameLook专稿，禁止转载！】 GameLook报道/前年二游市场前仆后继的惨烈情况依旧历历在目，其中大部分产品虽然都有充足的倒下的原因，但是对于喜欢该游戏的玩家而言，自己投...",
-      "url": "http://www.gamelook.com.cn/2026/10/603934/",
-      "sentiment": "negative",
-      "time": "2026-10-15 09:49",
-      "tags": [
-        "GameLook",
-        "行业"
-      ],
-      "section": "行业",
-      "pushable": false,
-      "category": "财经新闻",
-      "topic": "公司综合"
-    },
-    {
-      "id": "media-dcysbm",
-      "platform": "游戏陀螺",
-      "title": "移动游戏收入下滑7%，2026年为何没有一款新作冲进全球收入榜？",
-      "summary": "过去几年，移动游戏市场仍在不断诞生新的收入黑马。 从SLG到放置RPG，再到融合玩法产品，新游戏曾经可以凭借创新玩法快速突破市场。 2026年，移动游戏市场却出现了一个罕见现象。 根据Aream &amp; Co. 发布的《Video Game Market Update Q3 2026》，今年第三季度全球移动游戏内购收入同比下降7%，达到196亿美元。与此同时，2026 年上线的新游戏， 至今仍没有一款进入全球收入最高的移动游戏榜单。",
-      "url": "https://www.youxituoluo.com/534960.html",
-      "sentiment": "neutral",
-      "time": "2026-10-14 22:30",
-      "tags": [
-        "游戏陀螺",
-        "行业"
-      ],
-      "section": "行业",
-      "pushable": false,
-      "category": "财经新闻",
-      "topic": "产品游戏"
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-6acf50ab0000000015006270",
@@ -256,23 +183,7 @@ window.MONITOR_DATA = {
       ],
       "category": "小红书",
       "_srcKw": "吉比特",
-      "topic": "招聘求职"
-    },
-    {
-      "id": "maimai-ea7548f0635436d2",
-      "platform": "脉脉",
-      "title": "同事圈新功能已解锁 🔓 \n限时可见帖来了！\n首次打开限时阅读，读后自动…",
-      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/0/1",
-      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
-      "sentiment": "neutral",
-      "time": "2026-10-14 11:00",
-      "tags": [
-        "脉脉",
-        "同事圈",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
+      "topic": "招聘求职",
       "section": "舆情",
       "pushable": true
     },
@@ -295,55 +206,22 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "media-jlnfjd",
-      "platform": "GameLook",
-      "title": "韩国游戏大厂“主播充值3亿韩元，游戏干到畅销榜冠军”，被议员批斗“操纵榜单”！",
-      "summary": "【GameLook专稿，禁止转载！】 GameLook报道/十几年前，中国手游圈流行过一种朴素的营销智慧：游戏还没人花钱？公司先替玩家花。 当时的“自充值”，就是研发商或发行商掏钱...",
-      "url": "http://www.gamelook.com.cn/2026/10/603834/",
+      "id": "maimai-ea7548f0635436d2",
+      "platform": "脉脉",
+      "title": "同事圈新功能已解锁 🔓 \n限时可见帖来了！\n首次打开限时阅读，读后自动…",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/0/1",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
       "sentiment": "neutral",
-      "time": "2026-10-14 09:55",
+      "time": "2026-10-14 11:00",
       "tags": [
-        "GameLook",
-        "行业"
+        "脉脉",
+        "同事圈",
+        "吉比特"
       ],
-      "section": "行业",
-      "pushable": false,
-      "category": "财经新闻",
-      "topic": "产品游戏"
-    },
-    {
-      "id": "media-jlnjak",
-      "platform": "GameLook",
-      "title": "Epic与迪士尼IP大作延期：“要求员工只能用AI写代码、搞美术”，引爆全球玩家非议",
-      "summary": "【GameLook专稿，禁止转载！】 GameLook报道/近期Epic Games 与迪士尼合作的星战漫威射击新作，最近以一种相当荒诞的方式进入公众视野。由于游戏制作进度不及预期...",
-      "url": "http://www.gamelook.com.cn/2026/10/603886/",
-      "sentiment": "positive",
-      "time": "2026-10-14 09:54",
-      "tags": [
-        "GameLook",
-        "行业"
-      ],
-      "section": "行业",
-      "pushable": false,
-      "category": "财经新闻",
-      "topic": "公司综合"
-    },
-    {
-      "id": "media-jlnfk8",
-      "platform": "GameLook",
-      "title": "版署印发《出版业发展“十五五”规划》：网游首次纳入国家五年规划，游戏业迎新风口",
-      "summary": "国家新闻出版署近日正式印发《出版业发展“十五五”规划》（以下简称《规划》），网络游戏首次被系统性纳入国家级出版业五年规划框架。这份规划不仅为未来五年出版业发展定下基调，也为游戏产业...",
-      "url": "http://www.gamelook.com.cn/2026/10/603835/",
-      "sentiment": "neutral",
-      "time": "2026-10-14 09:53",
-      "tags": [
-        "GameLook",
-        "行业"
-      ],
-      "section": "行业",
-      "pushable": false,
-      "category": "财经新闻",
-      "topic": "公司综合"
+      "category": "脉脉",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-6ace1f6a0000000014001d1f",
@@ -364,7 +242,9 @@ window.MONITOR_DATA = {
       ],
       "category": "小红书",
       "_srcKw": "雷霆游戏",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-6ace1f07000000001a028a74",
@@ -390,7 +270,9 @@ window.MONITOR_DATA = {
       ],
       "category": "小红书",
       "_srcKw": "雷霆游戏",
-      "topic": "招聘求职"
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-6ace15c9000000000a0266a6",
@@ -412,41 +294,9 @@ window.MONITOR_DATA = {
       ],
       "category": "小红书",
       "_srcKw": "雷霆游戏",
-      "topic": "公司综合"
-    },
-    {
-      "id": "media-1bfhwf",
-      "platform": "游戏陀螺",
-      "title": "AI漫剧之后最大风口：零基础，6人爆肝4个月，做出赛道No.1产品",
-      "summary": "如果要问今年上半年，互联网文创行业最大风口是什么，想必很多人会脱口而出：AI漫剧。公开数据显示，仅2026上半年，抖音就上线了22万部+AI漫剧作品。 而到了这几个月， 新风口&mdash;&mdash;AI互动影游开始悄然涌现。 一方面，以字节跳动旗下《不问凡尘》为代表的，以玩法为驱动的AI互动游戏争相入局，打响了3D类AI互动产品登陆Steam的第一枪。 另一方面，剧情向AI互动影游也迎来了第一批吃螃蟹的人。最近，陀螺君就在Stea",
-      "url": "https://www.youxituoluo.com/534950.html",
-      "sentiment": "positive",
-      "time": "2026-10-13 19:09",
-      "tags": [
-        "游戏陀螺",
-        "行业"
-      ],
-      "section": "行业",
-      "pushable": false,
-      "category": "财经新闻",
-      "topic": "产品游戏"
-    },
-    {
-      "id": "media-ph5mz8",
-      "platform": "触乐",
-      "title": "裁员潮下，海外3A开发者挤进独立游戏赛道",
-      "summary": "2025年2月，由于《多元宇宙大乱斗》（Multiversus）的开发商Player First Games被华纳兄弟关闭，贾斯汀&middot;费舍尔（Justin Fischer）和布罗克&middot;费尔德曼（Brock Feldman）突然失去了工作。《多元宇宙大乱斗》是一款汇集华纳兄弟旗下众多明星角色的免费格斗游戏，最早在2022年启动抢先体验和开放测试，经过大约一年测试后重回开发阶段，并于2024年5月正式发布。华纳兄弟在",
-      "url": "http://www.chuapp.com/article/291686.html",
-      "sentiment": "neutral",
-      "time": "2026-10-13 18:11",
-      "tags": [
-        "触乐",
-        "行业"
-      ],
-      "section": "行业",
-      "pushable": false,
-      "category": "财经新闻",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-6acdff070000000014033046",
@@ -465,7 +315,9 @@ window.MONITOR_DATA = {
       ],
       "category": "小红书",
       "_srcKw": "雷霆游戏",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-6acdc8d40000000002011fcf",
@@ -487,7 +339,9 @@ window.MONITOR_DATA = {
       ],
       "category": "小红书",
       "_srcKw": "雷霆游戏",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-6acd9cbf000000001a027763",
@@ -504,7 +358,9 @@ window.MONITOR_DATA = {
       ],
       "category": "小红书",
       "_srcKw": "雷霆游戏",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-6acd9812000000000a021330",
@@ -533,125 +389,6 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "media-jlmqdh",
-      "platform": "GameLook",
-      "title": "起大风了！虚拟主播手游月收入稳定破亿、成头部二游，下一款是打牌？",
-      "summary": "【GameLook专稿，禁止转载！】 GameLook报道/游戏公司可能得重新认识一下自己的“带货主播”了。 7月23日上线的《Hololive Dreams》，如今已经走过两个多...",
-      "url": "http://www.gamelook.com.cn/2026/10/603706/",
-      "sentiment": "positive",
-      "time": "2026-10-13 10:16",
-      "tags": [
-        "GameLook",
-        "行业"
-      ],
-      "section": "行业",
-      "pushable": false,
-      "category": "财经新闻",
-      "topic": "产品游戏"
-    },
-    {
-      "id": "media-jlmqbr",
-      "platform": "GameLook",
-      "title": "苹果慌了？拉反垄断专家“写中国报告邀功”，米哈游网易成“官网充值”案例",
-      "summary": "【GameLook专稿，禁止转载！】 GameLook报道/不声不响地，苹果10月8日在官网Newsroom单独发布了《中国App Store生态系统——2025年开发者与用户价值...",
-      "url": "http://www.gamelook.com.cn/2026/10/603704/",
-      "sentiment": "neutral",
-      "time": "2026-10-13 10:15",
-      "tags": [
-        "GameLook",
-        "行业"
-      ],
-      "section": "行业",
-      "pushable": false,
-      "category": "财经新闻",
-      "topic": "公司综合"
-    },
-    {
-      "id": "media-jlmsna",
-      "platform": "GameLook",
-      "title": "《火影忍者》官宣出海，老外欢呼“苦等10年”！魔方连出三牌迎来“赛点时刻”？",
-      "summary": "【GameLook专稿，禁止转载！】 GameLook报道/自从腾讯开始全面推行长青游戏战略来看，我们能够看到腾讯每年几乎都会跑出一到两个爆款游戏，而今年腾讯的一大爆款，同时也是整...",
-      "url": "http://www.gamelook.com.cn/2026/10/603738/",
-      "sentiment": "positive",
-      "time": "2026-10-13 10:14",
-      "tags": [
-        "GameLook",
-        "行业"
-      ],
-      "section": "行业",
-      "pushable": false,
-      "category": "财经新闻",
-      "topic": "经营管理"
-    },
-    {
-      "id": "media-jlmsmf",
-      "platform": "GameLook",
-      "title": "“战棋大佬紫龙”下场钓鱼，新游《极境：垂钓者》能打动赛博钓鱼佬吗？",
-      "summary": "【GameLook专稿，禁止转载！】GameLook报道/“战棋还有活路吗？”这个问题，在2026年的游戏圈几乎每隔几个月就会被翻出来讨论一次。当紫龙游戏在7月22日放出《梦战：剑...",
-      "url": "http://www.gamelook.com.cn/2026/10/603737/",
-      "sentiment": "neutral",
-      "time": "2026-10-13 10:13",
-      "tags": [
-        "GameLook",
-        "行业"
-      ],
-      "section": "行业",
-      "pushable": false,
-      "category": "财经新闻",
-      "topic": "产品游戏"
-    },
-    {
-      "id": "media-n3xj09",
-      "platform": "触乐",
-      "title": "“巫师”系列制作人与中国策划在一起会聊什么",
-      "summary": "&ldquo;从业者采访从业者&rdquo;是触乐的一个新系列。这个系列会不定期地让一些处于开发一线的从业者朋友对另一些处于开发一线的从业者进行采访。我们会选择具备足够丰富经验的一线游戏行业工作者&mdash;&mdash;无论是访谈者还是受访者都是这样。与此前常见的&ldquo;编辑采访从业者&rdquo;相比，我们希望它能够做到更有趣、更有意义、更有价值，也希望它会为读者带来不同角度的阅读感受和启发。 在2026年的小红书Redla",
-      "url": "http://www.chuapp.com/article/291681.html",
-      "sentiment": "neutral",
-      "time": "2026-10-13 09:59",
-      "tags": [
-        "触乐",
-        "行业"
-      ],
-      "section": "行业",
-      "pushable": false,
-      "category": "财经新闻",
-      "topic": "公司综合"
-    },
-    {
-      "id": "media-jlmslk",
-      "platform": "GameLook",
-      "title": "《ARC Raiders》自救成功！Steam在线暴涨10倍至18万人，腾讯国服看到希望",
-      "summary": "【GameLook专稿，禁止转载！】 GameLook报道/10月8日，《ARC Raiders》2.0大版本“霜痕小径”正式上线，全平台免费畅玩同步开启。Steam同时在线从9月...",
-      "url": "http://www.gamelook.com.cn/2026/10/603736/",
-      "sentiment": "positive",
-      "time": "2026-10-13 09:58",
-      "tags": [
-        "GameLook",
-        "行业"
-      ],
-      "section": "行业",
-      "pushable": false,
-      "category": "财经新闻",
-      "topic": "产品游戏"
-    },
-    {
-      "id": "media-coifd3",
-      "platform": "游戏陀螺",
-      "title": "谷歌入局AI游戏开发，人人都在追的“一句话做游戏”，到底怎么样了？",
-      "summary": "10月7日，谷歌推出实验性AI游戏创作平台Google Playground，并宣布与 Unity宣布建立战略合作伙伴关系，代号Unity Spark。 与传统游戏开发工具不同，Playground试图将游戏制作的过程压缩成一场对话。用户不需要掌握编程、美术或游戏引擎等专业技能，只需通过自然语言描述自己想要的玩法、画面和交互方式，AI便能够生成一款可以在浏览器中运行的游戏。 如果对生成结果不满意，用户还可以继续通过对话调整内容。 从提出",
-      "url": "https://www.youxituoluo.com/534947.html",
-      "sentiment": "positive",
-      "time": "2026-10-12 18:23",
-      "tags": [
-        "游戏陀螺",
-        "行业"
-      ],
-      "section": "行业",
-      "pushable": false,
-      "category": "财经新闻",
-      "topic": "经营管理"
-    },
-    {
       "id": "xhs-6accaa240000000014030137",
       "platform": "小红书",
       "title": "2027秋招第一个简历挂，但是我要谢谢吉比特",
@@ -666,58 +403,9 @@ window.MONITOR_DATA = {
       ],
       "category": "小红书",
       "_srcKw": "吉比特",
-      "topic": "招聘求职"
-    },
-    {
-      "id": "media-jlm7wp",
-      "platform": "GameLook",
-      "title": "憋了9年！网易最强射击工作室掏出“真3A FPS”，要与腾讯正面刚",
-      "summary": "【GameLook专稿，禁止转载！】 GameLook报道/最近两年，网易游戏业务的调整很多，但整体的战略方向其实可以简单概括成一句话，聚焦资源，做长青游戏。 而如果说哪个赛道更容...",
-      "url": "http://www.gamelook.com.cn/2026/10/603669/",
-      "sentiment": "neutral",
-      "time": "2026-10-12 10:44",
-      "tags": [
-        "GameLook",
-        "行业"
-      ],
-      "section": "行业",
-      "pushable": false,
-      "category": "财经新闻",
-      "topic": "经营管理"
-    },
-    {
-      "id": "media-jllmdp",
-      "platform": "GameLook",
-      "title": "7年烧光千万、3次推倒重来，王老菊首款游戏终于要上线了？",
-      "summary": "10月23日，知名B站UP主“怕上火暴王老菊”（以下简称王老菊）创办的未来科技工作室推出的首款游戏《再再启程》，将正式在Steam平台上线。 从2019年5月王老菊高调官宣跨界做游...",
-      "url": "http://www.gamelook.com.cn/2026/10/603588/",
-      "sentiment": "positive",
-      "time": "2026-10-12 09:49",
-      "tags": [
-        "GameLook",
-        "行业"
-      ],
-      "section": "行业",
-      "pushable": false,
-      "category": "财经新闻",
-      "topic": "产品游戏"
-    },
-    {
-      "id": "media-jllkul",
-      "platform": "GameLook",
-      "title": "“最惨独游神作”？10年花掉2亿巨款，吹哥“推箱子游戏”，好评97%却卖不动？",
-      "summary": "【GameLook专稿，禁止转载！】 在如今这个快节奏的游戏行业，绝大多数项目都在追求短平快的开发周期。资本期待快速上线、快速回笼资金，流水线式的游戏作品一茬接着一茬涌入 Stea...",
-      "url": "http://www.gamelook.com.cn/2026/10/603566/",
-      "sentiment": "positive",
-      "time": "2026-10-12 09:37",
-      "tags": [
-        "GameLook",
-        "行业"
-      ],
-      "section": "行业",
-      "pushable": false,
-      "category": "财经新闻",
-      "topic": "产品游戏"
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-6acba5670000000018013982",
@@ -872,57 +560,6 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "media-dmlo5h",
-      "platform": "游戏陀螺",
-      "title": "独游开发者复盘：Steam 56万美元总流水，最终仅到手7.3万美元",
-      "summary": "随着这些年独立游戏逐步走入公众视野，不少开发者都怀揣着一个浪漫的暴富梦想：一个人、一台电脑、几年做出一款爆款游戏，上线Steam坐等流水暴涨，躺着赚米。 但最近海外一位名为Omer的独立游戏开发者的真实账单复盘，揭开了独游行业的残酷真相：他的两款游戏（《Northend Tower Defense》和《Deepstone Rift》）五年内在Steam累计总流水56万美元，看似是妥妥的成功案例。但层层扣费后，其个人最终实际到手仅7.3万",
-      "url": "https://www.youxituoluo.com/534945.html",
-      "sentiment": "positive",
-      "time": "2026-10-10 22:23",
-      "tags": [
-        "游戏陀螺",
-        "行业"
-      ],
-      "section": "行业",
-      "pushable": false,
-      "category": "财经新闻",
-      "topic": "产品游戏"
-    },
-    {
-      "id": "media-e3najo",
-      "platform": "游戏陀螺",
-      "title": "10月新游清单来了！《剑侠世界4》《影之刃零》《霓虹深渊2》你选谁？",
-      "summary": "中秋假期的余温尚未散去，10月的战鼓已经擂响。 据陀螺君不完全统计，10月已有28款新游预计上线，另有10款产品开启或即将开启限量测试。与9月相比，定档数量明显回升，测试产品则更聚焦于开放世界、MMO与硬核生存等细分赛道。 从发行排期来看，多数新品集中在10月中下旬上线，原因或在于国庆假期不少老游戏进行版本更新，新游上线面临的竞争压力较大。同时，本月PC跨端与海外发行产品占比提升，头部厂商在动作RPG、MMORPG与模拟经营赛道持续加码",
-      "url": "https://www.youxituoluo.com/534944.html",
-      "sentiment": "positive",
-      "time": "2026-10-10 18:25",
-      "tags": [
-        "游戏陀螺",
-        "行业"
-      ],
-      "section": "行业",
-      "pushable": false,
-      "category": "财经新闻",
-      "topic": "产品游戏"
-    },
-    {
-      "id": "media-o20rsn",
-      "platform": "触乐",
-      "title": "触乐本周行业大事：《王者荣耀》中国队名古屋亚运会卫冕，《三角洲行动》官宣日活破5800万",
-      "summary": "■ 名古屋亚运会《王者荣耀》中国队卫冕金牌 9月28日，在爱知 &middot; 名古屋亚运会电子竞技《王者荣耀》项目的决赛中，中国队以 4 比 0 击败马来西亚队，夺得金牌。 这是中国队继杭州亚运会之后再次夺得《王者荣耀》项目金牌。出场选手一诺（徐必成）成为全联盟首位、历史唯一一位双金牌得主。 中国队再次夺金 ■ 《三角洲行动》官宣日活突破5800万 10月8日，腾讯天美工作室群旗下《三角洲行动》项目组官宣，正值上线两周年之际，该游戏",
-      "url": "http://www.chuapp.com/article/291683.html",
-      "sentiment": "positive",
-      "time": "2026-10-10 17:18",
-      "tags": [
-        "触乐",
-        "行业"
-      ],
-      "section": "行业",
-      "pushable": false,
-      "category": "财经新闻",
-      "topic": "产品游戏"
-    },
-    {
       "id": "xhs-6ac9c46b000000001902780d",
       "platform": "小红书",
       "title": "吉比特游戏秋招！",
@@ -949,74 +586,6 @@ window.MONITOR_DATA = {
       "topic": "招聘求职",
       "section": "舆情",
       "pushable": true
-    },
-    {
-      "id": "media-jllk3w",
-      "platform": "GameLook",
-      "title": "育碧哭了！发布仅8个月《彩虹六号手游》海外停运，腾讯《彩六:围攻》待发",
-      "summary": "【GameLook专稿，禁止转载！】 GameLook报道/10月8日，育碧蒙特利尔工作室通过官方渠道发布了一封致玩家的公开信，正式宣布将停止《彩虹六号手游》（Rainbow Si...",
-      "url": "http://www.gamelook.com.cn/2026/10/603556/",
-      "sentiment": "negative",
-      "time": "2026-10-10 11:39",
-      "tags": [
-        "GameLook",
-        "行业"
-      ],
-      "section": "行业",
-      "pushable": false,
-      "category": "财经新闻",
-      "topic": "产品游戏"
-    },
-    {
-      "id": "media-jll035",
-      "platform": "GameLook",
-      "title": "末法时代的MMO：制作人离场,《剑侠世界4：无限》发“小作文”下周拼命！",
-      "summary": "【GameLook专稿，禁止转载！】 GameLook报道/都说MMO越来越像游戏圈困难户，随着年轻人被二游、竞技游戏、单机游戏先后重塑认知，“MMO没人玩”似乎成了很多人眼中的共...",
-      "url": "http://www.gamelook.com.cn/2026/10/603496/",
-      "sentiment": "neutral",
-      "time": "2026-10-10 11:13",
-      "tags": [
-        "GameLook",
-        "行业"
-      ],
-      "section": "行业",
-      "pushable": false,
-      "category": "财经新闻",
-      "topic": "公司综合"
-    },
-    {
-      "id": "media-jllihc",
-      "platform": "GameLook",
-      "title": "战棋卡牌小游戏新爆款？《精英军团》空降微信畅销榜Top 20！",
-      "summary": "【GameLook专稿，禁止转载！】 GameLook报道/在小游戏平台，战棋玩法并不是传统的热门品类，在畅销榜能见到的则更是凤毛麟角。4月份的时候，武汉多趣信息的《占城大师》在抖...",
-      "url": "http://www.gamelook.com.cn/2026/10/603530/",
-      "sentiment": "positive",
-      "time": "2026-10-10 11:05",
-      "tags": [
-        "GameLook",
-        "行业"
-      ],
-      "section": "行业",
-      "pushable": false,
-      "category": "财经新闻",
-      "topic": "产品游戏"
-    },
-    {
-      "id": "media-jllgfa",
-      "platform": "GameLook",
-      "title": "开发者自曝：“骗子用AI抄我游戏，威胁不给200美元就发Steam”！同行集体笑了",
-      "summary": "【GameLook专稿，禁止转载！】 GameLook报道/在生成式AI工具和Vibe Coding概念风靡的当下，游戏圈似乎迎来了一种新型诈骗手段。 最近，在游戏社区Reddit...",
-      "url": "http://www.gamelook.com.cn/2026/10/603507/",
-      "sentiment": "neutral",
-      "time": "2026-10-10 10:30",
-      "tags": [
-        "GameLook",
-        "行业"
-      ],
-      "section": "行业",
-      "pushable": false,
-      "category": "财经新闻",
-      "topic": "公司综合"
     },
     {
       "id": "xhs-6ac98e65000000000b006ae7",
@@ -1106,7 +675,9 @@ window.MONITOR_DATA = {
       ],
       "category": "小红书",
       "_srcKw": "雷霆游戏",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-6ac8c150000000001500e38a",
@@ -1127,40 +698,6 @@ window.MONITOR_DATA = {
       "topic": "公司综合",
       "section": "舆情",
       "pushable": true
-    },
-    {
-      "id": "media-f1qjc2",
-      "platform": "游戏陀螺",
-      "title": "《三角洲行动》日活突破5800万，华纳千亿美元合并，《艾希》续作众筹破3000万丨陀螺周报",
-      "summary": "随着国内游戏厂商持续推进全球化布局，游戏产业在资本投资、产品发行、技术研发及平台生态等领域不断出现新的变化。一方面，国内厂商通过海外合作、资本投资和支付本地化等方式拓展业务边界；另一方面，国际游戏行业的并购整合、工作室裁员及AI技术应用也在持续影响市场格局。本周，陀螺君将为大家盘点近期值得关注的游戏产业动态。 业内声音🔊 &mdash;&mdash;&ldquo;我们希望找到真正优秀的人才，以及拥有独特创作愿景的开发者。拉瑞安和Fro",
-      "url": "https://www.youxituoluo.com/534942.html",
-      "sentiment": "positive",
-      "time": "2026-10-09 18:25",
-      "tags": [
-        "游戏陀螺",
-        "行业"
-      ],
-      "section": "行业",
-      "pushable": false,
-      "category": "财经新闻",
-      "topic": "理念价值观"
-    },
-    {
-      "id": "media-mmvwm2",
-      "platform": "触乐",
-      "title": "触乐夜话：购买了游戏圈的未来",
-      "summary": "触乐怪话，每天胡侃和游戏有关的屁事、鬼事、新鲜事。 图/小罗 我突然发现，我的Steam游戏库里仍然有非常多的EA（抢先体验版）游戏。 其中，有一部分原因是我已经习惯了Steam的&ldquo;抢先体验&rdquo;模式。当我遇到了一款感兴趣的游戏之后，往往因为害怕再也无法与它相遇，于是便急头白脸地想要把它买进库内。大多数时候，这些游戏总是看起来充满活力，价格也不高。制作团队总会列出一个长长的更新计划，让人只看见就感到十分的安心。 同时",
-      "url": "http://www.chuapp.com/article/291680.html",
-      "sentiment": "neutral",
-      "time": "2026-10-09 18:08",
-      "tags": [
-        "触乐",
-        "行业"
-      ],
-      "section": "行业",
-      "pushable": false,
-      "category": "财经新闻",
-      "topic": "公司综合"
     },
     {
       "id": "xhs-6ac870c6000000001800437c",
@@ -1201,40 +738,6 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "media-jlkwct",
-      "platform": "GameLook",
-      "title": "独游《艾希:续》众筹、玩家疯狂充值3000万，制作人：“这辈子都不敢众筹了”！",
-      "summary": "【GameLook专稿，禁止转载！】 GameLook报道/最近两年，当“国产”、“独立游戏”、“众筹”三个词组合到一起时，玩家都会瞬间在心里拉响警铃。这是因为尽管众筹是独游开发者...",
-      "url": "http://www.gamelook.com.cn/2026/10/603445/",
-      "sentiment": "neutral",
-      "time": "2026-10-09 10:28",
-      "tags": [
-        "GameLook",
-        "行业"
-      ],
-      "section": "行业",
-      "pushable": false,
-      "category": "财经新闻",
-      "topic": "公司综合"
-    },
-    {
-      "id": "media-jlkw9d",
-      "platform": "GameLook",
-      "title": "韩国游戏公司CEO离谱丑闻：4个夜场美女&#8221;挂职领工资 ”，被诉贪污4亿韩元",
-      "summary": "【GameLook专稿，禁止转载！】 GameLook报道/近年来，游戏行业内的“反腐大风”吹遍了大江南北。从国内几大头部大厂如米哈游、网易等公司内部通报的数起反腐案件来看，贪腐问...",
-      "url": "http://www.gamelook.com.cn/2026/10/603441/",
-      "sentiment": "neutral",
-      "time": "2026-10-09 10:15",
-      "tags": [
-        "GameLook",
-        "行业"
-      ],
-      "section": "行业",
-      "pushable": false,
-      "category": "财经新闻",
-      "topic": "公司综合"
-    },
-    {
       "id": "xhs-6ac84ab7000000001203d9f1",
       "platform": "小红书",
       "title": "秋招每日一投 小红书校招 留学生校招 吉比特招聘 游戏公司校招",
@@ -1259,57 +762,6 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "media-jlkux5",
-      "platform": "GameLook",
-      "title": "米哈游大伟哥成“小红书RED LAND”最大“人形彩蛋”，玩家：合照来者不拒",
-      "summary": "【GameLook专稿，禁止转载！】 GameLook报道/10月2日至6日，小红书大型线下游戏、动漫活动RED LAND如约来到上海杨浦复兴岛。 相比去年，本届RED LAND的...",
-      "url": "http://www.gamelook.com.cn/2026/10/603427/",
-      "sentiment": "neutral",
-      "time": "2026-10-09 09:57",
-      "tags": [
-        "GameLook",
-        "行业"
-      ],
-      "section": "行业",
-      "pushable": false,
-      "category": "财经新闻",
-      "topic": "公司综合"
-    },
-    {
-      "id": "media-jlktfr",
-      "platform": "GameLook",
-      "title": "MMO又伟大了？《永恒之塔2》Steam爆红 40万人在线，“最小C杯”老外震惊",
-      "summary": "【GameLook专稿，禁止转载！】 GameLook报道/被誉为「MMORPG大国」的韩国，最近几年的日子过得多少有些艰辛。 端游时代靠钻研西幻题材吃到了甜头，但随着手游时代中国...",
-      "url": "http://www.gamelook.com.cn/2026/10/603407/",
-      "sentiment": "neutral",
-      "time": "2026-10-09 09:52",
-      "tags": [
-        "GameLook",
-        "行业"
-      ],
-      "section": "行业",
-      "pushable": false,
-      "category": "财经新闻",
-      "topic": "产品游戏"
-    },
-    {
-      "id": "media-jlktcb",
-      "platform": "GameLook",
-      "title": "又一大佬入局！谷歌与Unity推出AI游戏研发平台，“一句话生成游戏”",
-      "summary": "【GameLook专稿，禁止转载！】 GameLook报道/AI游戏引擎的风，最终还是刮了起来。 10月7日，谷歌与Unity宣布达成战略合作，共同推出面向下一代互动娱乐的AI游戏...",
-      "url": "http://www.gamelook.com.cn/2026/10/603403/",
-      "sentiment": "positive",
-      "time": "2026-10-09 09:08",
-      "tags": [
-        "GameLook",
-        "行业"
-      ],
-      "section": "行业",
-      "pushable": false,
-      "category": "财经新闻",
-      "topic": "经营管理"
-    },
-    {
       "id": "xhs-6ac81e8d0000000014000355",
       "platform": "小红书",
       "title": "我的世界网易版 雷霆模组 模组推荐",
@@ -1332,23 +784,6 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "media-jlkbh2",
-      "platform": "GameLook",
-      "title": "鸣潮又悄悄干成了一件大事？“鸣”式国风，太对味了",
-      "summary": "【GameLook专稿，禁止转载！】 GameLook报道/随着3.7版本「镜锁妄世，心照红尘」正式上线，《鸣潮》的玄方地界篇章也走到了尾声。 有意思的是，版本到了最后，玩家们反倒...",
-      "url": "http://www.gamelook.com.cn/2026/10/603370/",
-      "sentiment": "positive",
-      "time": "2026-10-09 01:14",
-      "tags": [
-        "GameLook",
-        "行业"
-      ],
-      "section": "行业",
-      "pushable": false,
-      "category": "财经新闻",
-      "topic": "产品游戏"
-    },
-    {
       "id": "xhs-6ac7a6aa0000000019032c4d",
       "platform": "小红书",
       "title": "号外！吉比特秋招内推启动",
@@ -1366,23 +801,6 @@ window.MONITOR_DATA = {
       "topic": "招聘求职",
       "section": "舆情",
       "pushable": true
-    },
-    {
-      "id": "media-rcwpl4",
-      "platform": "游戏陀螺",
-      "title": "立项近四年、公布不足一年：蓝洞“搜打撤PUBG”游戏终止开发",
-      "summary": "近日，KRAFTON旗下PUBG Studios通过Steam平台发布公告，正式宣布终止《PUBG: Black Budget》的开发。 这款以&ldquo;搜打撤&rdquo;射击为核心玩法的《绝地求生》衍生作品，在经历两轮封闭Alpha测试后，尚未正式发售便宣告终结。 开发团队在公告中表示：&ldquo;在审视项目的开发状态与未来方向后，我们得出结论，按照当前的开发方向，难以提供让玩家长期享受的体验。因此，我们做出了终止开发的艰难决",
-      "url": "https://www.youxituoluo.com/534937.html",
-      "sentiment": "neutral",
-      "time": "2026-10-08 22:18",
-      "tags": [
-        "游戏陀螺",
-        "行业"
-      ],
-      "section": "行业",
-      "pushable": false,
-      "category": "财经新闻",
-      "topic": "产品游戏"
     },
     {
       "id": "xhs-6ac799ab000000000a02297b",
@@ -1421,74 +839,6 @@ window.MONITOR_DATA = {
       "topic": "公司综合",
       "section": "舆情",
       "pushable": true
-    },
-    {
-      "id": "media-ss1krp",
-      "platform": "游戏陀螺",
-      "title": "《英雄不再》开发商草蜢工作室宣布脱离网易游戏，重新独立运营",
-      "summary": "9月30日，日本知名游戏工作室草蜢工作室（Grasshopper Manufacture）官方发布公告，宣布正式宣布脱离网易游戏，再度以独立开发商身份开展业务。 草蜢工作室由鬼才制作人须田刚一创立于1998年3月，是游戏行业极具个人风格的开发团队。工作室作品普遍带有浓烈的B级片、朋克与黑色电影气质，叙事大胆荒诞，代表作包括《英雄不再》系列、《杀手7》《电锯甜心》《杀手已死》等，以极强的作品辨识度收获了全球大量玩家。 2021年10月，网",
-      "url": "https://www.youxituoluo.com/534934.html",
-      "sentiment": "neutral",
-      "time": "2026-10-08 18:50",
-      "tags": [
-        "游戏陀螺",
-        "行业"
-      ],
-      "section": "行业",
-      "pushable": false,
-      "category": "财经新闻",
-      "topic": "公司综合"
-    },
-    {
-      "id": "media-jlka5p",
-      "platform": "GameLook",
-      "title": "9月微信小游戏畅销榜Top100：小游戏大势已定？仅1款新游戏跻身TOP50",
-      "summary": "【GameLook专稿，禁止转载！】 GameLook报道/9月份，暑期档正式收官，微信小游戏市场在经历7、8两个月的连续洗牌之后，进入一轮明显的降温与固化节奏。 与8月份相比，9...",
-      "url": "http://www.gamelook.com.cn/2026/10/603357/",
-      "sentiment": "neutral",
-      "time": "2026-10-08 14:08",
-      "tags": [
-        "GameLook",
-        "行业"
-      ],
-      "section": "行业",
-      "pushable": false,
-      "category": "财经新闻",
-      "topic": "产品游戏"
-    },
-    {
-      "id": "media-jlk72m",
-      "platform": "GameLook",
-      "title": "10月预计15款新游戏上线:《剑侠世界4：无限》领衔，Steam游戏反攻手游",
-      "summary": "【GameLook专稿，禁止转载！】 GameLook报道/金秋十月，国庆长假拉开帷幕，10月定档新游在数量上保持稳定。据GameLook统计，本月预计有15款游戏上线，西山居、灵...",
-      "url": "http://www.gamelook.com.cn/2026/10/603312/",
-      "sentiment": "positive",
-      "time": "2026-10-08 11:18",
-      "tags": [
-        "GameLook",
-        "行业"
-      ],
-      "section": "行业",
-      "pushable": false,
-      "category": "财经新闻",
-      "topic": "产品游戏"
-    },
-    {
-      "id": "media-jlk7zc",
-      "platform": "GameLook",
-      "title": "206款国产3款进口游戏获版号：米哈游《源初之结》祖龙《诡秘之主：愚者》过审",
-      "summary": "【GameLook专稿，禁止转载！】 GameLook报道/9月30日，国家新闻出版署公布了9月份国产网络游戏审批信息。本月共计有206款国产游戏，与3款进口网络游戏版号过审，另有...",
-      "url": "http://www.gamelook.com.cn/2026/10/603329/",
-      "sentiment": "neutral",
-      "time": "2026-10-08 09:47",
-      "tags": [
-        "GameLook",
-        "行业"
-      ],
-      "section": "行业",
-      "pushable": false,
-      "category": "财经新闻",
-      "topic": "经营管理"
     },
     {
       "id": "xhs-6ac63ccf000000001c00fe1f",
@@ -1530,23 +880,6 @@ window.MONITOR_DATA = {
       "topic": "公司综合",
       "section": "舆情",
       "pushable": true
-    },
-    {
-      "id": "media-jl3oby",
-      "platform": "GameLook",
-      "title": "APP端首周流水5000万，B站捉宠新游开始发力小游戏",
-      "summary": "【GameLook专稿，禁止转载！】 GameLook报道/狂飙几年的小游戏，依然是国内游戏行业关注度最高的一条赛道。从《2026年1—6月中国游戏产业报告》来看，上半年小游戏收入...",
-      "url": "http://www.gamelook.com.cn/2026/10/602850/",
-      "sentiment": "neutral",
-      "time": "2026-10-08 01:24",
-      "tags": [
-        "GameLook",
-        "行业"
-      ],
-      "section": "行业",
-      "pushable": false,
-      "category": "财经新闻",
-      "topic": "产品游戏"
     },
     {
       "id": "ann-AN202610081830207391",
@@ -1699,7 +1032,9 @@ window.MONITOR_DATA = {
       ],
       "category": "小红书",
       "_srcKw": "雷霆游戏",
-      "topic": "招聘求职"
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-6abf43fc000000001a02442b",
@@ -1779,7 +1114,9 @@ window.MONITOR_DATA = {
       ],
       "category": "小红书",
       "_srcKw": "吉比特",
-      "topic": "招聘求职"
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-6ab3a096000000000202a3d1",
@@ -2009,7 +1346,9 @@ window.MONITOR_DATA = {
       ],
       "category": "小红书",
       "_srcKw": "雷霆游戏",
-      "topic": "招聘求职"
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-6aaf5360000000001203d8eb",
@@ -2128,7 +1467,9 @@ window.MONITOR_DATA = {
       ],
       "category": "小红书",
       "_srcKw": "吉比特",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-6aac0cc4000000002803468c",
@@ -2182,7 +1523,9 @@ window.MONITOR_DATA = {
       ],
       "category": "小红书",
       "_srcKw": "雷霆游戏",
-      "topic": "招聘求职"
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-6aab74d6000000002a024dcb",
@@ -2199,7 +1542,9 @@ window.MONITOR_DATA = {
       ],
       "category": "小红书",
       "_srcKw": "吉比特",
-      "topic": "股票财务"
+      "topic": "股票财务",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-6aab6979000000002802ccc8",
@@ -2373,7 +1718,9 @@ window.MONITOR_DATA = {
       "lastChange": "2026-09-16 10:23",
       "changeNote": "新增 1 个回答",
       "category": "知乎",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-6aa9f7d0000000000b0025cb",
@@ -3142,7 +2489,9 @@ window.MONITOR_DATA = {
       ],
       "category": "小红书",
       "_srcKw": "吉比特",
-      "topic": "招聘求职"
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-6a9a6fc8000000001001e7c0",
@@ -3340,6 +2689,25 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
+      "id": "xhs-6a992bb4000000001001c2e3",
+      "platform": "小红书",
+      "title": "吉比特2027校招（26届友好 内推码：4J67PM",
+      "summary": "快乐每一天 · 👍82 收藏86",
+      "url": "https://www.xiaohongshu.com/explore/6a992bb4000000001001c2e3?xsec_token=ABw93fX4BWIR0KH4b0s3bfXdT47zJIhXbKrlwOyR9rWeQ=",
+      "sentiment": "neutral",
+      "time": "2026-09-03 16:11",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍82"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
       "id": "xhs-6a992ba4000000002a024aa5",
       "platform": "小红书",
       "title": "内推‼️厦门应届生冲🔥吉比特 雷霆游戏秋招",
@@ -3357,23 +2725,6 @@ window.MONITOR_DATA = {
       "topic": "招聘求职",
       "section": "舆情",
       "pushable": true
-    },
-    {
-      "id": "xhs-6a992bb4000000001001c2e3",
-      "platform": "小红书",
-      "title": "吉比特2027校招（26届友好 内推码：4J67PM",
-      "summary": "快乐每一天 · 👍82 收藏86",
-      "url": "https://www.xiaohongshu.com/explore/6a992bb4000000001001c2e3?xsec_token=ABw93fX4BWIR0KH4b0s3bfXdT47zJIhXbKrlwOyR9rWeQ=",
-      "sentiment": "neutral",
-      "time": "2026-09-03 16:11",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍82"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "招聘求职"
     },
     {
       "id": "xhs-6a9925e40000000026023d2e",
@@ -3612,25 +2963,6 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "xhs-6a991f49000000002902fe92",
-      "platform": "小红书",
-      "title": "吉比特&雷霆游戏2027秋招内推",
-      "summary": "lmy · 👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/6a991f49000000002902fe92?xsec_token=ABw93fX4BWIR0KH4b0s3bfXeskeMbFi5mjH3oqpiCdO0A=",
-      "sentiment": "neutral",
-      "time": "2026-09-03 15:18",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
       "id": "xhs-6a991f4a000000002802e9d4",
       "platform": "小红书",
       "title": "吉比特2027校招开始啦",
@@ -3650,20 +2982,20 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "xhs-6a991ed9000000002b025529",
+      "id": "xhs-6a991f49000000002902fe92",
       "platform": "小红书",
-      "title": "吉比特雷霆游戏27秋招&暑期实习招聘启动！",
-      "summary": "寰醉 · 👍4 收藏2",
-      "url": "https://www.xiaohongshu.com/explore/6a991ed9000000002b025529?xsec_token=ABw93fX4BWIR0KH4b0s3bfXaIRVMOREGJBWlHpv8B4vto=",
+      "title": "吉比特&雷霆游戏2027秋招内推",
+      "summary": "lmy · 👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/6a991f49000000002902fe92?xsec_token=ABw93fX4BWIR0KH4b0s3bfXeskeMbFi5mjH3oqpiCdO0A=",
       "sentiment": "neutral",
-      "time": "2026-09-03 15:16",
+      "time": "2026-09-03 15:18",
       "tags": [
         "小红书",
-        "吉比特",
-        "👍4"
+        "雷霆游戏",
+        "👍0"
       ],
       "category": "小红书",
-      "_srcKw": "吉比特",
+      "_srcKw": "雷霆游戏",
       "topic": "招聘求职",
       "section": "舆情",
       "pushable": true
@@ -3691,21 +3023,21 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "xhs-6a991e2000000000110354b8",
+      "id": "xhs-6a991ed9000000002b025529",
       "platform": "小红书",
-      "title": "来吉比特啦！",
-      "summary": "朝不悦 · 👍5 收藏3",
-      "url": "https://www.xiaohongshu.com/explore/6a991e2000000000110354b8?xsec_token=ABw93fX4BWIR0KH4b0s3bfXdyIpkNZqr4s1m-fRBmzXxw=",
+      "title": "吉比特雷霆游戏27秋招&暑期实习招聘启动！",
+      "summary": "寰醉 · 👍4 收藏2",
+      "url": "https://www.xiaohongshu.com/explore/6a991ed9000000002b025529?xsec_token=ABw93fX4BWIR0KH4b0s3bfXaIRVMOREGJBWlHpv8B4vto=",
       "sentiment": "neutral",
-      "time": "2026-09-03 15:13",
+      "time": "2026-09-03 15:16",
       "tags": [
         "小红书",
         "吉比特",
-        "👍5"
+        "👍4"
       ],
       "category": "小红书",
       "_srcKw": "吉比特",
-      "topic": "公司综合",
+      "topic": "招聘求职",
       "section": "舆情",
       "pushable": true
     },
@@ -3725,6 +3057,25 @@ window.MONITOR_DATA = {
       "category": "小红书",
       "_srcKw": "雷霆游戏",
       "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-6a991e2000000000110354b8",
+      "platform": "小红书",
+      "title": "来吉比特啦！",
+      "summary": "朝不悦 · 👍5 收藏3",
+      "url": "https://www.xiaohongshu.com/explore/6a991e2000000000110354b8?xsec_token=ABw93fX4BWIR0KH4b0s3bfXdyIpkNZqr4s1m-fRBmzXxw=",
+      "sentiment": "neutral",
+      "time": "2026-09-03 15:13",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍5"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
       "section": "舆情",
       "pushable": true
     },
@@ -3786,51 +3137,16 @@ window.MONITOR_DATA = {
       ],
       "category": "小红书",
       "_srcKw": "吉比特",
-      "topic": "招聘求职"
-    },
-    {
-      "id": "nowcoder-70",
-      "platform": "牛客",
-      "title": "吉比特2027 秋招【推荐码】Z0JA46_牛客网",
-      "summary": "吉比特2027 秋招⏰ 9 月3 日网申开启，岗位招满即止，尽早投递快人一步！ ✓ 核心岗位全覆盖：研发技术类、美术设计类、产品运营类、市场营销类、游戏 ...",
-      "url": "https://www.nowcoder.com/feed/main/detail/70cb63bd7ffd46e48b1d861c3cf9a2f5",
-      "sentiment": "neutral",
-      "time": "2026-09-03 00:00",
-      "tags": [
-        "牛客",
-        "吉比特"
-      ],
-      "category": "牛客",
       "topic": "招聘求职",
       "section": "舆情",
       "pushable": true
     },
     {
-      "id": "nowcoder-927624063936131072",
-      "platform": "牛客",
-      "title": "吉比特内推，吉比特游戏27秋招正式启动！",
-      "summary": "吉比特-雷霆游戏2027届校招正式启动!9月3日网申开启,招满即止,先投先面!内推更快!✓ 核心岗位全覆盖:研发技术类、美术设计类、产品运营类、市场 :研发技术 ...",
-      "url": "https://www.nowcoder.com/discuss/927624063936131072",
-      "sentiment": "neutral",
-      "time": "2026-09-03 00:00",
-      "tags": [
-        "牛客",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "lastChange": "2026-09-27 15:02",
-      "changeNote": "摘要有更新",
-      "category": "牛客",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "nowcoder-927196548797075456",
+      "id": "nowcoder-927965618244976640",
       "platform": "牛客",
       "title": "吉比特内推码分享",
       "summary": "吉比特-雷霆游戏2027届校招正式启动！9月3日网申开启，招满即止，先投先面！内推更快！ ✓ 核心岗位全覆盖：研发技术类、美术设计类、产品运营类、 ...",
-      "url": "https://www.nowcoder.com/discuss/927196548797075456",
+      "url": "https://www.nowcoder.com/discuss/927965618244976640",
       "sentiment": "neutral",
       "time": "2026-09-03 00:00",
       "tags": [
@@ -3844,65 +3160,11 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "nowcoder-929010979793301504",
-      "platform": "牛客",
-      "title": "吉比特内推，吉比特游戏27秋招正式启动！",
-      "summary": "吉比特-雷霆游戏2027届校招正式启动！9月3日网申开启，招满即止，先投先面！内推更快！ ✓ 核心岗位全覆盖：研发技术类、美术设计类、产品运营类、 ...",
-      "url": "https://www.nowcoder.com/discuss/929010979793301504?urlSource=home-api",
-      "sentiment": "neutral",
-      "time": "2026-09-03 00:00",
-      "tags": [
-        "牛客",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "牛客",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "nowcoder-925482650968625152",
+      "id": "nowcoder-926511309359706112",
       "platform": "牛客",
       "title": "吉比特内推码分享",
       "summary": "吉比特-雷霆游戏2027届校招正式启动！9月3日网申开启，招满即止，先投先面！内推更快！ ✓ 核心岗位全覆盖：研发技术类、美术设计类、产品运营类、 ...",
-      "url": "https://www.nowcoder.com/discuss/925482650968625152",
-      "sentiment": "neutral",
-      "time": "2026-09-03 00:00",
-      "tags": [
-        "牛客",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "牛客",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "nowcoder-929509682576621568",
-      "platform": "牛客",
-      "title": "吉比特内推码分享",
-      "summary": "吉比特-雷霆游戏2027届校招正式启动！9月3日网申开启，招满即止，先投先面！内推更快！ ✓ 核心岗位全覆盖：研发技术类、美术设计类、产品运营类、 ...",
-      "url": "https://www.nowcoder.com/discuss/929509682576621568?urlSource=home-api",
-      "sentiment": "neutral",
-      "time": "2026-09-03 00:00",
-      "tags": [
-        "牛客",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "牛客",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "nowcoder-926931458923458560",
-      "platform": "牛客",
-      "title": "吉比特内推，吉比特游戏27秋招正式启动！",
-      "summary": "吉比特-雷霆游戏2027届校招正式启动！9月3日网申开启，招满即止，先投先面！内推更快！ ✓ 核心岗位全覆盖：研发技术类、美术设计类、产品运营类、 ...",
-      "url": "https://www.nowcoder.com/discuss/926931458923458560?urlSource=home-api",
+      "url": "https://www.nowcoder.com/discuss/926511309359706112",
       "sentiment": "neutral",
       "time": "2026-09-03 00:00",
       "tags": [
@@ -3936,11 +3198,11 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "nowcoder-926511309359706112",
+      "id": "nowcoder-926931458923458560",
       "platform": "牛客",
-      "title": "吉比特内推码分享",
+      "title": "吉比特内推，吉比特游戏27秋招正式启动！",
       "summary": "吉比特-雷霆游戏2027届校招正式启动！9月3日网申开启，招满即止，先投先面！内推更快！ ✓ 核心岗位全覆盖：研发技术类、美术设计类、产品运营类、 ...",
-      "url": "https://www.nowcoder.com/discuss/926511309359706112",
+      "url": "https://www.nowcoder.com/discuss/926931458923458560?urlSource=home-api",
       "sentiment": "neutral",
       "time": "2026-09-03 00:00",
       "tags": [
@@ -3954,17 +3216,108 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "nowcoder-927965618244976640",
+      "id": "nowcoder-929509682576621568",
       "platform": "牛客",
       "title": "吉比特内推码分享",
       "summary": "吉比特-雷霆游戏2027届校招正式启动！9月3日网申开启，招满即止，先投先面！内推更快！ ✓ 核心岗位全覆盖：研发技术类、美术设计类、产品运营类、 ...",
-      "url": "https://www.nowcoder.com/discuss/927965618244976640",
+      "url": "https://www.nowcoder.com/discuss/929509682576621568?urlSource=home-api",
       "sentiment": "neutral",
       "time": "2026-09-03 00:00",
       "tags": [
         "牛客",
         "吉比特",
         "雷霆游戏"
+      ],
+      "category": "牛客",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "nowcoder-925482650968625152",
+      "platform": "牛客",
+      "title": "吉比特内推码分享",
+      "summary": "吉比特-雷霆游戏2027届校招正式启动！9月3日网申开启，招满即止，先投先面！内推更快！ ✓ 核心岗位全覆盖：研发技术类、美术设计类、产品运营类、 ...",
+      "url": "https://www.nowcoder.com/discuss/925482650968625152",
+      "sentiment": "neutral",
+      "time": "2026-09-03 00:00",
+      "tags": [
+        "牛客",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "牛客",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "nowcoder-929010979793301504",
+      "platform": "牛客",
+      "title": "吉比特内推，吉比特游戏27秋招正式启动！",
+      "summary": "吉比特-雷霆游戏2027届校招正式启动！9月3日网申开启，招满即止，先投先面！内推更快！ ✓ 核心岗位全覆盖：研发技术类、美术设计类、产品运营类、 ...",
+      "url": "https://www.nowcoder.com/discuss/929010979793301504?urlSource=home-api",
+      "sentiment": "neutral",
+      "time": "2026-09-03 00:00",
+      "tags": [
+        "牛客",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "牛客",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "nowcoder-927196548797075456",
+      "platform": "牛客",
+      "title": "吉比特内推码分享",
+      "summary": "吉比特-雷霆游戏2027届校招正式启动！9月3日网申开启，招满即止，先投先面！内推更快！ ✓ 核心岗位全覆盖：研发技术类、美术设计类、产品运营类、 ...",
+      "url": "https://www.nowcoder.com/discuss/927196548797075456",
+      "sentiment": "neutral",
+      "time": "2026-09-03 00:00",
+      "tags": [
+        "牛客",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "牛客",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "nowcoder-927624063936131072",
+      "platform": "牛客",
+      "title": "吉比特内推，吉比特游戏27秋招正式启动！",
+      "summary": "吉比特-雷霆游戏2027届校招正式启动!9月3日网申开启,招满即止,先投先面!内推更快!✓ 核心岗位全覆盖:研发技术类、美术设计类、产品运营类、市场 :研发技术 ...",
+      "url": "https://www.nowcoder.com/discuss/927624063936131072",
+      "sentiment": "neutral",
+      "time": "2026-09-03 00:00",
+      "tags": [
+        "牛客",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "lastChange": "2026-09-27 15:02",
+      "changeNote": "摘要有更新",
+      "category": "牛客",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "nowcoder-70",
+      "platform": "牛客",
+      "title": "吉比特2027 秋招【推荐码】Z0JA46_牛客网",
+      "summary": "吉比特2027 秋招⏰ 9 月3 日网申开启，岗位招满即止，尽早投递快人一步！ ✓ 核心岗位全覆盖：研发技术类、美术设计类、产品运营类、市场营销类、游戏 ...",
+      "url": "https://www.nowcoder.com/feed/main/detail/70cb63bd7ffd46e48b1d861c3cf9a2f5",
+      "sentiment": "neutral",
+      "time": "2026-09-03 00:00",
+      "tags": [
+        "牛客",
+        "吉比特"
       ],
       "category": "牛客",
       "topic": "招聘求职",
@@ -4100,7 +3453,9 @@ window.MONITOR_DATA = {
       ],
       "category": "小红书",
       "_srcKw": "吉比特",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "maimai-043edd93c3aa4476",
@@ -4132,7 +3487,7 @@ window.MONITOR_DATA = {
         "版号",
         "官方"
       ],
-      "category": "财经新闻",
+      "category": "版号",
       "topic": "经营管理",
       "section": "舆情",
       "pushable": true
@@ -4189,7 +3544,9 @@ window.MONITOR_DATA = {
       ],
       "category": "小红书",
       "_srcKw": "吉比特",
-      "topic": "产品游戏"
+      "topic": "产品游戏",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "maimai-7817e8aeaaffd6bd",
@@ -4437,24 +3794,6 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-84bd33b940270be7",
-      "platform": "脉脉",
-      "title": "摸个鱼还能被同事举报。",
-      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/6/5",
-      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
-      "sentiment": "neutral",
-      "time": "2026-08-21 11:00",
-      "tags": [
-        "脉脉",
-        "同事圈",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
       "id": "maimai-3144339c710ee998",
       "platform": "脉脉",
       "title": "我们公司……有战略？",
@@ -4469,6 +3808,24 @@ window.MONITOR_DATA = {
       ],
       "category": "脉脉",
       "topic": "经营管理",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-84bd33b940270be7",
+      "platform": "脉脉",
+      "title": "摸个鱼还能被同事举报。",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/6/5",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "neutral",
+      "time": "2026-08-21 11:00",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
       "section": "舆情",
       "pushable": true
     },
@@ -4727,7 +4084,7 @@ window.MONITOR_DATA = {
         "GameLook",
         "品牌相关"
       ],
-      "category": "财经新闻",
+      "category": "游戏垂媒",
       "topic": "产品游戏",
       "section": "舆情",
       "pushable": true
@@ -4751,24 +4108,6 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "xhs-6a82803b000000002800a786",
-      "platform": "小红书",
-      "title": "看吉比特机会，我更想先问项目阶段",
-      "summary": "花生碎 · 👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/6a82803b000000002800a786?xsec_token=ABLyMvZxX0B4EnccMd7_LxiQrjCgR3Dah5BqVXcXC16tU=",
-      "sentiment": "neutral",
-      "time": "2026-08-17 11:30",
-      "tags": [
-        "小红书",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特 裁员",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
       "id": "xhs-6a8280610000000028005ef4",
       "platform": "小红书",
       "title": "吉比特校招岗位多，我反而不敢乱投",
@@ -4784,6 +4123,24 @@ window.MONITOR_DATA = {
       "category": "小红书",
       "_srcKw": "吉比特",
       "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-6a82803b000000002800a786",
+      "platform": "小红书",
+      "title": "看吉比特机会，我更想先问项目阶段",
+      "summary": "花生碎 · 👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/6a82803b000000002800a786?xsec_token=ABLyMvZxX0B4EnccMd7_LxiQrjCgR3Dah5BqVXcXC16tU=",
+      "sentiment": "neutral",
+      "time": "2026-08-17 11:30",
+      "tags": [
+        "小红书",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特 裁员",
+      "topic": "公司综合",
       "section": "舆情",
       "pushable": true
     },
@@ -4895,7 +4252,7 @@ window.MONITOR_DATA = {
         "触乐",
         "品牌相关"
       ],
-      "category": "财经新闻",
+      "category": "游戏垂媒",
       "topic": "经营管理",
       "section": "舆情",
       "pushable": true
@@ -4971,7 +4328,7 @@ window.MONITOR_DATA = {
         "游戏陀螺",
         "品牌相关"
       ],
-      "category": "财经新闻",
+      "category": "游戏垂媒",
       "topic": "企业文化",
       "section": "舆情",
       "pushable": true
@@ -6884,7 +6241,9 @@ window.MONITOR_DATA = {
       ],
       "category": "小红书",
       "_srcKw": "吉比特",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-6a7057c8000000003202088a",
@@ -7020,7 +6379,9 @@ window.MONITOR_DATA = {
       ],
       "category": "小红书",
       "_srcKw": "吉比特",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-6a6aedfa000000000100e32f",
@@ -7482,7 +6843,7 @@ window.MONITOR_DATA = {
         "版号",
         "官方"
       ],
-      "category": "财经新闻",
+      "category": "版号",
       "topic": "经营管理",
       "section": "舆情",
       "pushable": true
@@ -7614,64 +6975,10 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-c4335e4c30195fae",
+      "id": "maimai-285402f71f453c6e",
       "platform": "脉脉",
-      "title": "诸位如何看？",
-      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/7/4",
-      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
-      "sentiment": "neutral",
-      "time": "2026-07-22 11:26",
-      "tags": [
-        "脉脉",
-        "同事圈",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-26ef748bcd0eb41c",
-      "platform": "脉脉",
-      "title": "16楼，有个兄弟或者姐妹，26号早上茶叶没倒哈！   我差点给你接盘了，…",
-      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/0/6",
-      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
-      "sentiment": "neutral",
-      "time": "2026-07-22 11:26",
-      "tags": [
-        "脉脉",
-        "同事圈",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-c589b2cc3ac050cb",
-      "platform": "脉脉",
-      "title": "旗帜鲜明996",
-      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/6/7",
-      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
-      "sentiment": "neutral",
-      "time": "2026-07-22 11:26",
-      "tags": [
-        "脉脉",
-        "同事圈",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "企业文化",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-532afa5bd17ab7f4",
-      "platform": "脉脉",
-      "title": "想起来，前面让签署的加班工资包含在工资内的条款，以及自愿加班协议都是无效…",
-      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/2/3",
+      "title": "降薪离职二选一，各位怎么选？",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 7/19/6",
       "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
       "sentiment": "negative",
       "time": "2026-07-22 11:26",
@@ -7681,15 +6988,33 @@ window.MONITOR_DATA = {
         "吉比特"
       ],
       "category": "脉脉",
-      "topic": "企业文化",
+      "topic": "公司综合",
       "section": "舆情",
       "pushable": true
     },
     {
-      "id": "maimai-9277305de99fbf75",
+      "id": "maimai-ce19298a30858677",
       "platform": "脉脉",
-      "title": "怎么老发扶农产品啊………",
-      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/0/2",
+      "title": "为什么突然降薪啊，不是去年今年赚的都挺多的吗",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 3/5/5",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "negative",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-d2c8e892655806d6",
+      "platform": "脉脉",
+      "title": "大家怎么看待G言的？",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 1/6/4",
       "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
       "sentiment": "neutral",
       "time": "2026-07-22 11:26",
@@ -7704,10 +7029,28 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-3a85ed736d257c82",
+      "id": "maimai-a6c4aeb82fa7e37b",
       "platform": "脉脉",
-      "title": "真的这么多人这么开心？\n底层人民发的奖金和奖品金额都在一定的预算范围内，…",
-      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/6/3",
+      "title": "这波职级调整是变相降薪逼人离职吗",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 5/8/10",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "negative",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-9e80964d72419e97",
+      "platform": "脉脉",
+      "title": "许愿我今年可以涨工资！",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/3/2",
       "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
       "sentiment": "neutral",
       "time": "2026-07-22 11:26",
@@ -7722,10 +7065,10 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-f80e72fad572b7fd",
+      "id": "maimai-ec72b2ecd6b1cb34",
       "platform": "脉脉",
-      "title": "G刻成长那个成长故事话题互动为啥没人参加呢？",
-      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/3/1",
+      "title": "从夯到垃，给自己过去一年打个分吧，我终极简直拉完了",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/0/1",
       "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
       "sentiment": "neutral",
       "time": "2026-07-22 11:26",
@@ -7740,29 +7083,11 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-901ab16699e70fd1",
+      "id": "maimai-02cf06b9408a47f4",
       "platform": "脉脉",
-      "title": "中国游戏市场10月销售收入超197亿元，6个月内首次环比正增长\n11月2…",
+      "title": "感觉今年股市还能涨，感觉要多加一点",
       "summary": "🏢同事圈 吉比特游戏同事圈 · 0/0/3",
       "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
-      "sentiment": "positive",
-      "time": "2026-07-22 11:26",
-      "tags": [
-        "脉脉",
-        "同事圈",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-45e9fc486ee12fab",
-      "platform": "脉脉",
-      "title": "一个人，到底应该睡右边或左边？",
-      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/1/9",
-      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
       "sentiment": "neutral",
       "time": "2026-07-22 11:26",
       "tags": [
@@ -7776,513 +7101,9 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-4286719fed03cc89",
+      "id": "maimai-f46b511671978397",
       "platform": "脉脉",
-      "title": "怎么这里没人说话 隔壁藤子好热闹",
-      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/0/1",
-      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
-      "sentiment": "neutral",
-      "time": "2026-07-22 11:26",
-      "tags": [
-        "脉脉",
-        "同事圈",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-c89a500d50fb5126",
-      "platform": "脉脉",
-      "title": "后悔过来了 太卷了 一点没有做事的氛围",
-      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/6/8",
-      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
-      "sentiment": "negative",
-      "time": "2026-07-22 11:26",
-      "tags": [
-        "脉脉",
-        "同事圈",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "企业文化",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-15afd3b6976dafb6",
-      "platform": "脉脉",
-      "title": "木有粽子\n连粽子都没有了\nDamn",
-      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/3/3",
-      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
-      "sentiment": "neutral",
-      "time": "2026-07-22 11:26",
-      "tags": [
-        "脉脉",
-        "同事圈",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-480155b11cb7adfc",
-      "platform": "脉脉",
-      "title": "不想干了好烦",
-      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/2/3",
-      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
-      "sentiment": "neutral",
-      "time": "2026-07-22 11:26",
-      "tags": [
-        "脉脉",
-        "同事圈",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-e7ea8c9bb78374aa",
-      "platform": "脉脉",
-      "title": "初来乍到，发现hr是真的好看",
-      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/13/6",
-      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
-      "sentiment": "neutral",
-      "time": "2026-07-22 11:26",
-      "tags": [
-        "脉脉",
-        "同事圈",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-a01b17e9b458a356",
-      "platform": "脉脉",
-      "title": "有N+1攻略吗？想离职了。",
-      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/2/3",
-      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
-      "sentiment": "neutral",
-      "time": "2026-07-22 11:26",
-      "tags": [
-        "脉脉",
-        "同事圈",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-79a023c85bf0610c",
-      "platform": "脉脉",
-      "title": "深圳运营也996了？",
-      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/8/4",
-      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
-      "sentiment": "neutral",
-      "time": "2026-07-22 11:26",
-      "tags": [
-        "脉脉",
-        "同事圈",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "企业文化",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-0a90d02e484f7f60",
-      "platform": "脉脉",
-      "title": "运营同学还好不？",
-      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/3/4",
-      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
-      "sentiment": "neutral",
-      "time": "2026-07-22 11:26",
-      "tags": [
-        "脉脉",
-        "同事圈",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-bb11f06591264964",
-      "platform": "脉脉",
-      "title": "哇，这个祝福真是太贴心了，但愿是真的！",
-      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/0/1",
-      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
-      "sentiment": "neutral",
-      "time": "2026-07-22 11:26",
-      "tags": [
-        "脉脉",
-        "同事圈",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-f5d21e7cd5dbbc96",
-      "platform": "脉脉",
-      "title": "我的祝福卡是“每次都能获得大额外卖券”，那一会儿就去点外卖",
-      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/0/1",
-      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
-      "sentiment": "neutral",
-      "time": "2026-07-22 11:26",
-      "tags": [
-        "脉脉",
-        "同事圈",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-c5c7331b634e8a3d",
-      "platform": "脉脉",
-      "title": "希望市场可以好起来",
-      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/0/2",
-      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
-      "sentiment": "neutral",
-      "time": "2026-07-22 11:26",
-      "tags": [
-        "脉脉",
-        "同事圈",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-1c0b1e2011f1ade4",
-      "platform": "脉脉",
-      "title": "身体是第一位的，感谢今天的祝福卡",
-      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/1/3",
-      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
-      "sentiment": "neutral",
-      "time": "2026-07-22 11:26",
-      "tags": [
-        "脉脉",
-        "同事圈",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-34b9eb6315a96a6e",
-      "platform": "脉脉",
-      "title": "72成了？",
-      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/0/4",
-      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
-      "sentiment": "neutral",
-      "time": "2026-07-22 11:26",
-      "tags": [
-        "脉脉",
-        "同事圈",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-dfa82c3632c6c054",
-      "platform": "脉脉",
-      "title": "进来的时候说14，现在给的时候就变成12.5了，这年终奖给的我还以为是加…",
-      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/11/2",
-      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
-      "sentiment": "negative",
-      "time": "2026-07-22 11:26",
-      "tags": [
-        "脉脉",
-        "同事圈",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "企业文化",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-a7ad9f6ebba95c69",
-      "platform": "脉脉",
-      "title": "下班就去狂吃",
-      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/0/2",
-      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
-      "sentiment": "neutral",
-      "time": "2026-07-22 11:26",
-      "tags": [
-        "脉脉",
-        "同事圈",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-dc567616310862f9",
-      "platform": "脉脉",
-      "title": "提前放假咯",
-      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/10/5",
-      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
-      "sentiment": "neutral",
-      "time": "2026-07-22 11:26",
-      "tags": [
-        "脉脉",
-        "同事圈",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-03c471f0c0563894",
-      "platform": "脉脉",
-      "title": "奋斗多年心身疲，牛马之日何时是个头？",
-      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/1/3",
-      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
-      "sentiment": "neutral",
-      "time": "2026-07-22 11:26",
-      "tags": [
-        "脉脉",
-        "同事圈",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "企业文化",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-b37f7050f8bb5545",
-      "platform": "脉脉",
-      "title": "没听太明白，有谁翻译翻译今天大会的主题是啥？",
-      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/1/3",
-      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
-      "sentiment": "neutral",
-      "time": "2026-07-22 11:26",
-      "tags": [
-        "脉脉",
-        "同事圈",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-8dd7a4d8a9e78f4f",
-      "platform": "脉脉",
-      "title": "**公司",
-      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/3/6",
-      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
-      "sentiment": "neutral",
-      "time": "2026-07-22 11:26",
-      "tags": [
-        "脉脉",
-        "同事圈",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-a88ff8ed8981fa7e",
-      "platform": "脉脉",
-      "title": "近年大裁员后，努力干活的人，有能力的人基本全裁了，可惜，我指的也并不是单…",
-      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/7/4",
-      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
-      "sentiment": "negative",
-      "time": "2026-07-22 11:26",
-      "tags": [
-        "脉脉",
-        "同事圈",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-01efdcbfb3cfdab1",
-      "platform": "脉脉",
-      "title": "71发生了什么？",
-      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/1/3",
-      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
-      "sentiment": "neutral",
-      "time": "2026-07-22 11:26",
-      "tags": [
-        "脉脉",
-        "同事圈",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-e6307a845968f211",
-      "platform": "脉脉",
-      "title": "好羡慕那些能把一点小事吹成大功劳的人啊，为什么我就不会把汇报写的那么有水…",
-      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/1/6",
-      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
-      "sentiment": "neutral",
-      "time": "2026-07-22 11:26",
-      "tags": [
-        "脉脉",
-        "同事圈",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-5efe14f93de74be8",
-      "platform": "脉脉",
-      "title": "为什么上了班之后越来越觉得世界太草台班子了？",
-      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/1/7",
-      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
-      "sentiment": "neutral",
-      "time": "2026-07-22 11:26",
-      "tags": [
-        "脉脉",
-        "同事圈",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-de2ecf96d2481972",
-      "platform": "脉脉",
-      "title": "年底了，是不是要准备准备，冲击一下明年的金三银四？",
-      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/0/5",
-      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
-      "sentiment": "neutral",
-      "time": "2026-07-22 11:26",
-      "tags": [
-        "脉脉",
-        "同事圈",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-bd189e19254d0d3f",
-      "platform": "脉脉",
-      "title": "问一下圈内的友友们，直系领导和大领导都给你派发工作，且冲突，你会咋办？",
-      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/1/3",
-      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
-      "sentiment": "neutral",
-      "time": "2026-07-22 11:26",
-      "tags": [
-        "脉脉",
-        "同事圈",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-2b50ab1a7baeacb0",
-      "platform": "脉脉",
-      "title": "大家过年去哪里玩啊？",
-      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/0/2",
-      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
-      "sentiment": "neutral",
-      "time": "2026-07-22 11:26",
-      "tags": [
-        "脉脉",
-        "同事圈",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-e9b325c65d8d60b9",
-      "platform": "脉脉",
-      "title": "新年去哪里玩，有推荐的吗？",
-      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/0/1",
-      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
-      "sentiment": "positive",
-      "time": "2026-07-22 11:26",
-      "tags": [
-        "脉脉",
-        "同事圈",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-c982a3849c7a2da0",
-      "platform": "脉脉",
-      "title": "今天是不是没人不开心",
-      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/1/5",
-      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
-      "sentiment": "neutral",
-      "time": "2026-07-22 11:26",
-      "tags": [
-        "脉脉",
-        "同事圈",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-aaf4e5dddae00f18",
-      "platform": "脉脉",
-      "title": "啥时候发年终啊，非得磨磨唧唧～笑哭]",
+      "title": "大家都是如何处理职场中的人情世故的？",
       "summary": "🏢同事圈 吉比特游戏同事圈 · 0/1/1",
       "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
       "sentiment": "neutral",
@@ -8316,9 +7137,9 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-f46b511671978397",
+      "id": "maimai-aaf4e5dddae00f18",
       "platform": "脉脉",
-      "title": "大家都是如何处理职场中的人情世故的？",
+      "title": "啥时候发年终啊，非得磨磨唧唧～笑哭]",
       "summary": "🏢同事圈 吉比特游戏同事圈 · 0/1/1",
       "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
       "sentiment": "neutral",
@@ -8334,10 +7155,10 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-02cf06b9408a47f4",
+      "id": "maimai-c982a3849c7a2da0",
       "platform": "脉脉",
-      "title": "感觉今年股市还能涨，感觉要多加一点",
-      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/0/3",
+      "title": "今天是不是没人不开心",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/1/5",
       "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
       "sentiment": "neutral",
       "time": "2026-07-22 11:26",
@@ -8352,9 +7173,315 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-ec72b2ecd6b1cb34",
+      "id": "maimai-e9b325c65d8d60b9",
       "platform": "脉脉",
-      "title": "从夯到垃，给自己过去一年打个分吧，我终极简直拉完了",
+      "title": "新年去哪里玩，有推荐的吗？",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/0/1",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "positive",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-2b50ab1a7baeacb0",
+      "platform": "脉脉",
+      "title": "大家过年去哪里玩啊？",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/0/2",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "neutral",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-bd189e19254d0d3f",
+      "platform": "脉脉",
+      "title": "问一下圈内的友友们，直系领导和大领导都给你派发工作，且冲突，你会咋办？",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/1/3",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "neutral",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-de2ecf96d2481972",
+      "platform": "脉脉",
+      "title": "年底了，是不是要准备准备，冲击一下明年的金三银四？",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/0/5",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "neutral",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-5efe14f93de74be8",
+      "platform": "脉脉",
+      "title": "为什么上了班之后越来越觉得世界太草台班子了？",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/1/7",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "neutral",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-e6307a845968f211",
+      "platform": "脉脉",
+      "title": "好羡慕那些能把一点小事吹成大功劳的人啊，为什么我就不会把汇报写的那么有水…",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/1/6",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "neutral",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-01efdcbfb3cfdab1",
+      "platform": "脉脉",
+      "title": "71发生了什么？",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/1/3",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "neutral",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-a88ff8ed8981fa7e",
+      "platform": "脉脉",
+      "title": "近年大裁员后，努力干活的人，有能力的人基本全裁了，可惜，我指的也并不是单…",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/7/4",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "negative",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-8dd7a4d8a9e78f4f",
+      "platform": "脉脉",
+      "title": "**公司",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/3/6",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "neutral",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-b37f7050f8bb5545",
+      "platform": "脉脉",
+      "title": "没听太明白，有谁翻译翻译今天大会的主题是啥？",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/1/3",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "neutral",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-03c471f0c0563894",
+      "platform": "脉脉",
+      "title": "奋斗多年心身疲，牛马之日何时是个头？",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/1/3",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "neutral",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "企业文化",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-dc567616310862f9",
+      "platform": "脉脉",
+      "title": "提前放假咯",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/10/5",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "neutral",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-a7ad9f6ebba95c69",
+      "platform": "脉脉",
+      "title": "下班就去狂吃",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/0/2",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "neutral",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-dfa82c3632c6c054",
+      "platform": "脉脉",
+      "title": "进来的时候说14，现在给的时候就变成12.5了，这年终奖给的我还以为是加…",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/11/2",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "negative",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "企业文化",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-34b9eb6315a96a6e",
+      "platform": "脉脉",
+      "title": "72成了？",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/0/4",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "neutral",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-1c0b1e2011f1ade4",
+      "platform": "脉脉",
+      "title": "身体是第一位的，感谢今天的祝福卡",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/1/3",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "neutral",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-c5c7331b634e8a3d",
+      "platform": "脉脉",
+      "title": "希望市场可以好起来",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/0/2",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "neutral",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-f5d21e7cd5dbbc96",
+      "platform": "脉脉",
+      "title": "我的祝福卡是“每次都能获得大额外卖券”，那一会儿就去点外卖",
       "summary": "🏢同事圈 吉比特游戏同事圈 · 0/0/1",
       "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
       "sentiment": "neutral",
@@ -8370,10 +7497,10 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-9e80964d72419e97",
+      "id": "maimai-bb11f06591264964",
       "platform": "脉脉",
-      "title": "许愿我今年可以涨工资！",
-      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/3/2",
+      "title": "哇，这个祝福真是太贴心了，但愿是真的！",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/0/1",
       "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
       "sentiment": "neutral",
       "time": "2026-07-22 11:26",
@@ -8388,28 +7515,10 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-a6c4aeb82fa7e37b",
+      "id": "maimai-0a90d02e484f7f60",
       "platform": "脉脉",
-      "title": "这波职级调整是变相降薪逼人离职吗",
-      "summary": "🏢同事圈 吉比特游戏同事圈 · 5/8/10",
-      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
-      "sentiment": "negative",
-      "time": "2026-07-22 11:26",
-      "tags": [
-        "脉脉",
-        "同事圈",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-d2c8e892655806d6",
-      "platform": "脉脉",
-      "title": "大家怎么看待G言的？",
-      "summary": "🏢同事圈 吉比特游戏同事圈 · 1/6/4",
+      "title": "运营同学还好不？",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/3/4",
       "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
       "sentiment": "neutral",
       "time": "2026-07-22 11:26",
@@ -8424,12 +7533,30 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-ce19298a30858677",
+      "id": "maimai-79a023c85bf0610c",
       "platform": "脉脉",
-      "title": "为什么突然降薪啊，不是去年今年赚的都挺多的吗",
-      "summary": "🏢同事圈 吉比特游戏同事圈 · 3/5/5",
+      "title": "深圳运营也996了？",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/8/4",
       "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
-      "sentiment": "negative",
+      "sentiment": "neutral",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "企业文化",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-a01b17e9b458a356",
+      "platform": "脉脉",
+      "title": "有N+1攻略吗？想离职了。",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/2/3",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "neutral",
       "time": "2026-07-22 11:26",
       "tags": [
         "脉脉",
@@ -8442,12 +7569,246 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-285402f71f453c6e",
+      "id": "maimai-e7ea8c9bb78374aa",
       "platform": "脉脉",
-      "title": "降薪离职二选一，各位怎么选？",
-      "summary": "🏢同事圈 吉比特游戏同事圈 · 7/19/6",
+      "title": "初来乍到，发现hr是真的好看",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/13/6",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "neutral",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-480155b11cb7adfc",
+      "platform": "脉脉",
+      "title": "不想干了好烦",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/2/3",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "neutral",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-15afd3b6976dafb6",
+      "platform": "脉脉",
+      "title": "木有粽子\n连粽子都没有了\nDamn",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/3/3",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "neutral",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-c89a500d50fb5126",
+      "platform": "脉脉",
+      "title": "后悔过来了 太卷了 一点没有做事的氛围",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/6/8",
       "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
       "sentiment": "negative",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "企业文化",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-4286719fed03cc89",
+      "platform": "脉脉",
+      "title": "怎么这里没人说话 隔壁藤子好热闹",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/0/1",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "neutral",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-45e9fc486ee12fab",
+      "platform": "脉脉",
+      "title": "一个人，到底应该睡右边或左边？",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/1/9",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "neutral",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-901ab16699e70fd1",
+      "platform": "脉脉",
+      "title": "中国游戏市场10月销售收入超197亿元，6个月内首次环比正增长\n11月2…",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/0/3",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "positive",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-f80e72fad572b7fd",
+      "platform": "脉脉",
+      "title": "G刻成长那个成长故事话题互动为啥没人参加呢？",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/3/1",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "neutral",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-3a85ed736d257c82",
+      "platform": "脉脉",
+      "title": "真的这么多人这么开心？\n底层人民发的奖金和奖品金额都在一定的预算范围内，…",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/6/3",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "neutral",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-9277305de99fbf75",
+      "platform": "脉脉",
+      "title": "怎么老发扶农产品啊………",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/0/2",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "neutral",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-532afa5bd17ab7f4",
+      "platform": "脉脉",
+      "title": "想起来，前面让签署的加班工资包含在工资内的条款，以及自愿加班协议都是无效…",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/2/3",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "negative",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "企业文化",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-c589b2cc3ac050cb",
+      "platform": "脉脉",
+      "title": "旗帜鲜明996",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/6/7",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "neutral",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "企业文化",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-26ef748bcd0eb41c",
+      "platform": "脉脉",
+      "title": "16楼，有个兄弟或者姐妹，26号早上茶叶没倒哈！   我差点给你接盘了，…",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/0/6",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "neutral",
+      "time": "2026-07-22 11:26",
+      "tags": [
+        "脉脉",
+        "同事圈",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-c4335e4c30195fae",
+      "platform": "脉脉",
+      "title": "诸位如何看？",
+      "summary": "🏢同事圈 吉比特游戏同事圈 · 0/7/4",
+      "url": "https://maimai.cn/company/gossip_discuss?webcid=L9SuHRET",
+      "sentiment": "neutral",
       "time": "2026-07-22 11:26",
       "tags": [
         "脉脉",
@@ -9097,25 +8458,6 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "xhs-6a56a02c000000000f006368",
-      "platform": "小红书",
-      "title": "停电怎么凉快",
-      "summary": "吉比特 · 👍1 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/6a56a02c000000000f006368?xsec_token=ABlmeEV5sH_EkJbHt6qonjcs3Xuah9YMSmNuy9wvxGos8=",
-      "sentiment": "neutral",
-      "time": "2026-07-15 04:46",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍1"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
       "id": "xhs-6a56a03a000000001101f641",
       "platform": "小红书",
       "title": "停电怎么凉快",
@@ -9127,6 +8469,25 @@ window.MONITOR_DATA = {
         "小红书",
         "吉比特",
         "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-6a56a02c000000000f006368",
+      "platform": "小红书",
+      "title": "停电怎么凉快",
+      "summary": "吉比特 · 👍1 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/6a56a02c000000000f006368?xsec_token=ABlmeEV5sH_EkJbHt6qonjcs3Xuah9YMSmNuy9wvxGos8=",
+      "sentiment": "neutral",
+      "time": "2026-07-15 04:46",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍1"
       ],
       "category": "小红书",
       "_srcKw": "吉比特",
@@ -9939,11 +9300,11 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "news-202607033793595520",
+      "id": "news-202607033793601461",
       "platform": "证券时报网",
-      "title": "传媒行业今日净流出资金29.50亿元，蓝色光标等7股净流出资金超亿元",
-      "summary": "3353.42 300182 捷成股份 -1.43 3.21 -3285.50 300063 天龙集团 -6.12 8.96 -3275.61 300251 光线传媒 -0.34 2.20 -3209.80 300315 掌趣科技 -2.46 2.81 -3151.20 603444 吉比特",
-      "url": "http://finance.eastmoney.com/a/202607033793595520.html",
+      "title": "近日海外机构调研股名单",
+      "summary": "13.58 电子 600160 巨化股份 1 49.35 11.85 基础化工 300323 华灿光电 17 17.95 11.28 电子 603163 圣晖集成 1 125.40 11.13 建筑装饰 688322 奥比中光 11 147.33 10.17 电子 603444 吉比特",
+      "url": "http://finance.eastmoney.com/a/202607033793601461.html",
       "sentiment": "neutral",
       "time": "2026-07-03 16:39",
       "tags": [
@@ -9956,11 +9317,11 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "news-202607033793601461",
+      "id": "news-202607033793595520",
       "platform": "证券时报网",
-      "title": "近日海外机构调研股名单",
-      "summary": "13.58 电子 600160 巨化股份 1 49.35 11.85 基础化工 300323 华灿光电 17 17.95 11.28 电子 603163 圣晖集成 1 125.40 11.13 建筑装饰 688322 奥比中光 11 147.33 10.17 电子 603444 吉比特",
-      "url": "http://finance.eastmoney.com/a/202607033793601461.html",
+      "title": "传媒行业今日净流出资金29.50亿元，蓝色光标等7股净流出资金超亿元",
+      "summary": "3353.42 300182 捷成股份 -1.43 3.21 -3285.50 300063 天龙集团 -6.12 8.96 -3275.61 300251 光线传媒 -0.34 2.20 -3209.80 300315 掌趣科技 -2.46 2.81 -3151.20 603444 吉比特",
+      "url": "http://finance.eastmoney.com/a/202607033793595520.html",
       "sentiment": "neutral",
       "time": "2026-07-03 16:39",
       "tags": [
@@ -10129,80 +9490,12 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "news-202607013790564765",
+      "id": "news-202607013790564241",
       "platform": "证券日报",
-      "title": "吉比特：公司一直将游戏出海作为长期战略方向持续推进",
-      "summary": "证券日报网7月1日讯 ，吉比特在接受调研者提问时表示，公司一直将游戏出海作为长期战略方向持续推进，谷歌和苹果渠道分成比例的下调有助于降低发行成本，对境外业务发展有一定积极影响。",
-      "url": "http://finance.eastmoney.com/a/202607013790564765.html",
-      "sentiment": "neutral",
-      "time": "2026-07-01 21:34",
-      "tags": [
-        "吉比特",
-        "证券日报"
-      ],
-      "category": "财经新闻",
-      "topic": "经营管理",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "news-202607013790565478",
-      "platform": "证券日报",
-      "title": "吉比特：AI技术已深入应用于公司研发的多个环节",
-      "summary": "证券日报网7月1日讯 ，吉比特在接受调研者提问时表示，AI技术已深入应用于公司研发的多个环节。",
-      "url": "http://finance.eastmoney.com/a/202607013790565478.html",
-      "sentiment": "neutral",
-      "time": "2026-07-01 21:34",
-      "tags": [
-        "吉比特",
-        "证券日报"
-      ],
-      "category": "财经新闻",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "news-202607013790564095",
-      "platform": "证券日报",
-      "title": "吉比特：《杖剑传说》欧美版上线首月曾同时位于10多个区域市场App Store游戏畅销榜Top50",
-      "summary": "证券日报网7月1日讯 ，吉比特在接受调研者提问时表示，《杖剑传说》欧美版（Sword x Staff）于2026年5月19日上线，欧美版延续“轻松冒险、放置成长、策略搭配”的游戏定位，上线首月曾同时位于10多个区域市场App Store游戏畅销榜Top50，其中美国地区平均排名44",
-      "url": "http://finance.eastmoney.com/a/202607013790564095.html",
+      "title": "吉比特：2026年第二季度，《杖剑传说》在中国大陆App Store游戏畅销榜平均排名为69名，最高至该榜单第54名",
+      "summary": "证券日报网7月1日讯 ，吉比特在接受调研者提问时表示，2026年第二季度，《杖剑传说》中国大陆版主要围绕新赛季与周年庆推进核心内容：4月上线与B.Duck小黄鸭的全新联动；5月开启S5赛季“霜焰之歌”，并正式开放新国度“伊格尼斯”，游戏一周年庆典期间还上线了“重建乐园”“梦幻留影”",
+      "url": "http://finance.eastmoney.com/a/202607013790564241.html",
       "sentiment": "positive",
-      "time": "2026-07-01 21:34",
-      "tags": [
-        "吉比特",
-        "证券日报"
-      ],
-      "category": "财经新闻",
-      "topic": "产品游戏",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "news-202607013790564866",
-      "platform": "证券日报",
-      "title": "吉比特：2026年第二季度，《问道手游》在App Store游戏畅销榜平均排名54名，最高至第16名",
-      "summary": "证券日报网7月1日讯 ，吉比特在接受调研者提问时表示，《问道手游》于2026年4月开启十周年庆，推出与电影《浪浪山小妖怪》及经典动画《葫芦兄弟》联名的10周年纪念宠，在游戏内同步开启周年抽奖、周年挑战、庆典祈福、周年庙会等系列活动，游戏热度与玩家活跃度保持较高水平。",
-      "url": "http://finance.eastmoney.com/a/202607013790564866.html",
-      "sentiment": "neutral",
-      "time": "2026-07-01 21:34",
-      "tags": [
-        "吉比特",
-        "证券日报"
-      ],
-      "category": "财经新闻",
-      "topic": "产品游戏",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "news-202607013790563691",
-      "platform": "证券日报",
-      "title": "吉比特：公司将于2026年下半年推出自研产品《问剑长生（欧美版）》及代理产品《失落城堡2》",
-      "summary": "证券日报网7月1日讯 ，吉比特在接受调研者提问时表示，公司将于2026年下半年推出自研产品《问剑长生（欧美版）》及代理产品《失落城堡2》，产品发行计划可关注雷霆游戏官网。",
-      "url": "http://finance.eastmoney.com/a/202607013790563691.html",
-      "sentiment": "neutral",
       "time": "2026-07-01 21:34",
       "tags": [
         "吉比特",
@@ -10231,11 +9524,45 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "news-202607013790564241",
+      "id": "news-202607013790563691",
       "platform": "证券日报",
-      "title": "吉比特：2026年第二季度，《杖剑传说》在中国大陆App Store游戏畅销榜平均排名为69名，最高至该榜单第54名",
-      "summary": "证券日报网7月1日讯 ，吉比特在接受调研者提问时表示，2026年第二季度，《杖剑传说》中国大陆版主要围绕新赛季与周年庆推进核心内容：4月上线与B.Duck小黄鸭的全新联动；5月开启S5赛季“霜焰之歌”，并正式开放新国度“伊格尼斯”，游戏一周年庆典期间还上线了“重建乐园”“梦幻留影”",
-      "url": "http://finance.eastmoney.com/a/202607013790564241.html",
+      "title": "吉比特：公司将于2026年下半年推出自研产品《问剑长生（欧美版）》及代理产品《失落城堡2》",
+      "summary": "证券日报网7月1日讯 ，吉比特在接受调研者提问时表示，公司将于2026年下半年推出自研产品《问剑长生（欧美版）》及代理产品《失落城堡2》，产品发行计划可关注雷霆游戏官网。",
+      "url": "http://finance.eastmoney.com/a/202607013790563691.html",
+      "sentiment": "neutral",
+      "time": "2026-07-01 21:34",
+      "tags": [
+        "吉比特",
+        "证券日报"
+      ],
+      "category": "财经新闻",
+      "topic": "产品游戏",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "news-202607013790564866",
+      "platform": "证券日报",
+      "title": "吉比特：2026年第二季度，《问道手游》在App Store游戏畅销榜平均排名54名，最高至第16名",
+      "summary": "证券日报网7月1日讯 ，吉比特在接受调研者提问时表示，《问道手游》于2026年4月开启十周年庆，推出与电影《浪浪山小妖怪》及经典动画《葫芦兄弟》联名的10周年纪念宠，在游戏内同步开启周年抽奖、周年挑战、庆典祈福、周年庙会等系列活动，游戏热度与玩家活跃度保持较高水平。",
+      "url": "http://finance.eastmoney.com/a/202607013790564866.html",
+      "sentiment": "neutral",
+      "time": "2026-07-01 21:34",
+      "tags": [
+        "吉比特",
+        "证券日报"
+      ],
+      "category": "财经新闻",
+      "topic": "产品游戏",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "news-202607013790564095",
+      "platform": "证券日报",
+      "title": "吉比特：《杖剑传说》欧美版上线首月曾同时位于10多个区域市场App Store游戏畅销榜Top50",
+      "summary": "证券日报网7月1日讯 ，吉比特在接受调研者提问时表示，《杖剑传说》欧美版（Sword x Staff）于2026年5月19日上线，欧美版延续“轻松冒险、放置成长、策略搭配”的游戏定位，上线首月曾同时位于10多个区域市场App Store游戏畅销榜Top50，其中美国地区平均排名44",
+      "url": "http://finance.eastmoney.com/a/202607013790564095.html",
       "sentiment": "positive",
       "time": "2026-07-01 21:34",
       "tags": [
@@ -10244,6 +9571,40 @@ window.MONITOR_DATA = {
       ],
       "category": "财经新闻",
       "topic": "产品游戏",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "news-202607013790565478",
+      "platform": "证券日报",
+      "title": "吉比特：AI技术已深入应用于公司研发的多个环节",
+      "summary": "证券日报网7月1日讯 ，吉比特在接受调研者提问时表示，AI技术已深入应用于公司研发的多个环节。",
+      "url": "http://finance.eastmoney.com/a/202607013790565478.html",
+      "sentiment": "neutral",
+      "time": "2026-07-01 21:34",
+      "tags": [
+        "吉比特",
+        "证券日报"
+      ],
+      "category": "财经新闻",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "news-202607013790564765",
+      "platform": "证券日报",
+      "title": "吉比特：公司一直将游戏出海作为长期战略方向持续推进",
+      "summary": "证券日报网7月1日讯 ，吉比特在接受调研者提问时表示，公司一直将游戏出海作为长期战略方向持续推进，谷歌和苹果渠道分成比例的下调有助于降低发行成本，对境外业务发展有一定积极影响。",
+      "url": "http://finance.eastmoney.com/a/202607013790564765.html",
+      "sentiment": "neutral",
+      "time": "2026-07-01 21:34",
+      "tags": [
+        "吉比特",
+        "证券日报"
+      ],
+      "category": "财经新闻",
+      "topic": "经营管理",
       "section": "舆情",
       "pushable": true
     },
@@ -10401,7 +9762,9 @@ window.MONITOR_DATA = {
       ],
       "category": "小红书",
       "_srcKw": "吉比特",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "news-202606293786420144",
@@ -10508,23 +9871,6 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "news-202606253782485781",
-      "platform": "每日经济新闻",
-      "title": "游戏板块震荡上扬，巨人网络涨停",
-      "summary": "游戏板块震荡上扬，巨人网络涨停，中青宝、冰川网络、三七互娱、完美世界、吉比特跟涨。",
-      "url": "http://finance.eastmoney.com/a/202606253782485781.html",
-      "sentiment": "neutral",
-      "time": "2026-06-25 09:58",
-      "tags": [
-        "吉比特",
-        "每日经济新闻"
-      ],
-      "category": "财经新闻",
-      "topic": "股票财务",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
       "id": "news-202606253782515022",
       "platform": "界面新闻",
       "title": "游戏板块震荡上扬，巨人网络触及涨停",
@@ -10542,19 +9888,19 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "news-202606253782477535",
-      "platform": "东方财富Choice数据",
-      "title": "游戏板块震荡上扬 巨人网络涨停",
-      "summary": "游戏板块震荡上扬，巨人网络涨停，中青宝、冰川网络、三七互娱、完美世界、吉比特跟涨。消息面上，5月游戏版号发放节奏保持稳定，单月共发放158款版号，年内累计已达779款，同比增长19.11%。",
-      "url": "http://finance.eastmoney.com/a/202606253782477535.html",
-      "sentiment": "positive",
-      "time": "2026-06-25 09:57",
+      "id": "news-202606253782485781",
+      "platform": "每日经济新闻",
+      "title": "游戏板块震荡上扬，巨人网络涨停",
+      "summary": "游戏板块震荡上扬，巨人网络涨停，中青宝、冰川网络、三七互娱、完美世界、吉比特跟涨。",
+      "url": "http://finance.eastmoney.com/a/202606253782485781.html",
+      "sentiment": "neutral",
+      "time": "2026-06-25 09:58",
       "tags": [
         "吉比特",
-        "东方财富Choice数据"
+        "每日经济新闻"
       ],
       "category": "财经新闻",
-      "topic": "经营管理",
+      "topic": "股票财务",
       "section": "舆情",
       "pushable": true
     },
@@ -10569,6 +9915,23 @@ window.MONITOR_DATA = {
       "tags": [
         "吉比特",
         "财联社"
+      ],
+      "category": "财经新闻",
+      "topic": "经营管理",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "news-202606253782477535",
+      "platform": "东方财富Choice数据",
+      "title": "游戏板块震荡上扬 巨人网络涨停",
+      "summary": "游戏板块震荡上扬，巨人网络涨停，中青宝、冰川网络、三七互娱、完美世界、吉比特跟涨。消息面上，5月游戏版号发放节奏保持稳定，单月共发放158款版号，年内累计已达779款，同比增长19.11%。",
+      "url": "http://finance.eastmoney.com/a/202606253782477535.html",
+      "sentiment": "positive",
+      "time": "2026-06-25 09:57",
+      "tags": [
+        "吉比特",
+        "东方财富Choice数据"
       ],
       "category": "财经新闻",
       "topic": "经营管理",
@@ -10728,7 +10091,9 @@ window.MONITOR_DATA = {
       ],
       "category": "小红书",
       "_srcKw": "吉比特",
-      "topic": "招聘求职"
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "news-202606223778357468",
@@ -10808,24 +10173,6 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "xhs-6a33e1a50000000008033cbe",
-      "platform": "小红书",
-      "title": "吉比特（603444）投资分析",
-      "summary": "宁静*.*港湾 · 👍1 收藏2",
-      "url": "https://www.xiaohongshu.com/explore/6a33e1a50000000008033cbe?xsec_token=ABTaA22ePWmONcp23EICHlHf_unUipF4RA621gEc_UlTg=",
-      "sentiment": "neutral",
-      "time": "2026-06-18 20:16",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍1"
-      ],
-      "category": "小红书",
-      "topic": "股票财务",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
       "id": "news-202606183776396728",
       "platform": "时代周报",
       "title": "2500亿上银基金总经理、督察长先后离任！重仓游戏股，“新潮买手”陈博有产品年内亏23%",
@@ -10841,6 +10188,24 @@ window.MONITOR_DATA = {
       "changeNote": "摘要有更新",
       "category": "财经新闻",
       "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-6a33e1a50000000008033cbe",
+      "platform": "小红书",
+      "title": "吉比特（603444）投资分析",
+      "summary": "宁静*.*港湾 · 👍1 收藏2",
+      "url": "https://www.xiaohongshu.com/explore/6a33e1a50000000008033cbe?xsec_token=ABTaA22ePWmONcp23EICHlHf_unUipF4RA621gEc_UlTg=",
+      "sentiment": "neutral",
+      "time": "2026-06-18 20:16",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍1"
+      ],
+      "category": "小红书",
+      "topic": "股票财务",
       "section": "舆情",
       "pushable": true
     },
@@ -10895,7 +10260,9 @@ window.MONITOR_DATA = {
       ],
       "category": "小红书",
       "_srcKw": "吉比特 裁员",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-6a3123de000000002003b805",
@@ -11024,23 +10391,6 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "news-202606113768332746",
-      "platform": "证券时报网",
-      "title": "传媒行业今日净流出资金31.70亿元，昆仑万维等9股净流出资金超亿元",
-      "summary": "以资金流向数据进行统计，该行业资金净流入的个股有26只，其中，净流入资金超千万元的有5只，净流入资金居首的是世纪华通，今日净流入资金9952.41万元，紧随其后的是三人行、吉比特，净流入资金分别为3688.26万元、1977.51万元。",
-      "url": "http://finance.eastmoney.com/a/202606113768332746.html",
-      "sentiment": "neutral",
-      "time": "2026-06-11 16:52",
-      "tags": [
-        "吉比特",
-        "证券时报网"
-      ],
-      "category": "财经新闻",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
       "id": "news-202606113768325282",
       "platform": "证券时报网",
       "title": "今日385只个股突破五日均线",
@@ -11054,6 +10404,23 @@ window.MONITOR_DATA = {
       ],
       "category": "财经新闻",
       "topic": "股票财务",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "news-202606113768332746",
+      "platform": "证券时报网",
+      "title": "传媒行业今日净流出资金31.70亿元，昆仑万维等9股净流出资金超亿元",
+      "summary": "以资金流向数据进行统计，该行业资金净流入的个股有26只，其中，净流入资金超千万元的有5只，净流入资金居首的是世纪华通，今日净流入资金9952.41万元，紧随其后的是三人行、吉比特，净流入资金分别为3688.26万元、1977.51万元。",
+      "url": "http://finance.eastmoney.com/a/202606113768332746.html",
+      "sentiment": "neutral",
+      "time": "2026-06-11 16:52",
+      "tags": [
+        "吉比特",
+        "证券时报网"
+      ],
+      "category": "财经新闻",
+      "topic": "公司综合",
       "section": "舆情",
       "pushable": true
     },
@@ -11460,7 +10827,9 @@ window.MONITOR_DATA = {
       "answerCount": 8,
       "source": "cdp",
       "category": "知乎",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "zhihu-2045441323797305152",
@@ -11513,7 +10882,9 @@ window.MONITOR_DATA = {
       ],
       "category": "小红书",
       "_srcKw": "吉比特",
-      "topic": "企业文化"
+      "topic": "企业文化",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-6a1b959500000000070119fe",
@@ -11860,23 +11231,6 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "ann-AN202605131822274497",
-      "platform": "公司公告",
-      "title": "吉比特:福建天衡联合律师事务所关于厦门吉比特网络技术股份有限公司差异化权益分派事项的法律意见书",
-      "summary": "吉比特:福建天衡联合律师事务所关于厦门吉比特网络技术股份有限公司差异化权益分派事项的法律意见书",
-      "url": "https://data.eastmoney.com/notices/detail/603444/AN202605131822274497.html",
-      "sentiment": "neutral",
-      "time": "2026-05-14 00:00",
-      "tags": [
-        "公告",
-        "法律意见书"
-      ],
-      "category": "公司公告",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
       "id": "ann-AN202605131822274496",
       "platform": "公司公告",
       "title": "吉比特:厦门吉比特网络技术股份有限公司2025年年度权益分派实施公告",
@@ -11887,6 +11241,23 @@ window.MONITOR_DATA = {
       "tags": [
         "公告",
         "分配方案实施"
+      ],
+      "category": "公司公告",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "ann-AN202605131822274497",
+      "platform": "公司公告",
+      "title": "吉比特:福建天衡联合律师事务所关于厦门吉比特网络技术股份有限公司差异化权益分派事项的法律意见书",
+      "summary": "吉比特:福建天衡联合律师事务所关于厦门吉比特网络技术股份有限公司差异化权益分派事项的法律意见书",
+      "url": "https://data.eastmoney.com/notices/detail/603444/AN202605131822274497.html",
+      "sentiment": "neutral",
+      "time": "2026-05-14 00:00",
+      "tags": [
+        "公告",
+        "法律意见书"
       ],
       "category": "公司公告",
       "topic": "公司综合",
@@ -11925,7 +11296,9 @@ window.MONITOR_DATA = {
       ],
       "category": "小红书",
       "_srcKw": "吉比特",
-      "topic": "招聘求职"
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-6a0307160000000007025fe5",
@@ -11996,7 +11369,9 @@ window.MONITOR_DATA = {
       ],
       "category": "小红书",
       "_srcKw": "吉比特",
-      "topic": "招聘求职"
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "ann-AN202605071822026704",
@@ -12053,23 +11428,6 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-8ee86b40e470c057",
-      "platform": "脉脉",
-      "title": "东方明珠涨停，华策影视、中国科传涨超4% ，...三七互娱、吉比特、捷成…",
-      "summary": "同壁财经·上海同壁企业管理有限公司媒介总监",
-      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
-      "sentiment": "positive",
-      "time": "2026-04-27 11:05",
-      "tags": [
-        "脉脉",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "经营管理",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
       "id": "maimai-4a29a335d0864306",
       "platform": "脉脉",
       "title": "东方明珠涨停，华策影视、中国科传涨超4% ，...三七互娱、吉比特、捷成…",
@@ -12080,6 +11438,23 @@ window.MONITOR_DATA = {
       "tags": [
         "脉脉",
         "实名",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "经营管理",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-8ee86b40e470c057",
+      "platform": "脉脉",
+      "title": "东方明珠涨停，华策影视、中国科传涨超4% ，...三七互娱、吉比特、捷成…",
+      "summary": "同壁财经·上海同壁企业管理有限公司媒介总监",
+      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
+      "sentiment": "positive",
+      "time": "2026-04-27 11:05",
+      "tags": [
+        "脉脉",
         "吉比特"
       ],
       "category": "脉脉",
@@ -12106,23 +11481,6 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-924ede667aada0af",
-      "platform": "脉脉",
-      "title": "517770）跟踪的SHS游戏传媒指数样本股中，吉比特...",
-      "summary": "同壁财经·上海同壁企业管理有限公司媒介总监",
-      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
-      "sentiment": "neutral",
-      "time": "2026-04-24 12:23",
-      "tags": [
-        "脉脉",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "经营管理",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
       "id": "maimai-895d18138f7a33aa",
       "platform": "脉脉",
       "title": "517770）跟踪的SHS游戏传媒指数样本股中，吉比特...",
@@ -12133,6 +11491,23 @@ window.MONITOR_DATA = {
       "tags": [
         "脉脉",
         "实名",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "经营管理",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-924ede667aada0af",
+      "platform": "脉脉",
+      "title": "517770）跟踪的SHS游戏传媒指数样本股中，吉比特...",
+      "summary": "同壁财经·上海同壁企业管理有限公司媒介总监",
+      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
+      "sentiment": "neutral",
+      "time": "2026-04-24 12:23",
+      "tags": [
+        "脉脉",
         "吉比特"
       ],
       "category": "脉脉",
@@ -12175,16 +11550,16 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "ann-AN202604231821493824",
+      "id": "ann-AN202604231821493820",
       "platform": "公司公告",
-      "title": "吉比特:厦门吉比特网络技术股份有限公司第六届董事会第十二次会议决议公告",
-      "summary": "吉比特:厦门吉比特网络技术股份有限公司第六届董事会第十二次会议决议公告",
-      "url": "https://data.eastmoney.com/notices/detail/603444/AN202604231821493824.html",
+      "title": "吉比特:厦门吉比特网络技术股份有限公司2026年第一季度报告",
+      "summary": "吉比特:厦门吉比特网络技术股份有限公司2026年第一季度报告",
+      "url": "https://data.eastmoney.com/notices/detail/603444/AN202604231821493820.html",
       "sentiment": "neutral",
       "time": "2026-04-24 00:00",
       "tags": [
         "公告",
-        "董事会决议公告"
+        "一季度报告全文"
       ],
       "category": "公司公告",
       "topic": "公司综合",
@@ -12209,16 +11584,16 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "ann-AN202604231821493820",
+      "id": "ann-AN202604231821493824",
       "platform": "公司公告",
-      "title": "吉比特:厦门吉比特网络技术股份有限公司2026年第一季度报告",
-      "summary": "吉比特:厦门吉比特网络技术股份有限公司2026年第一季度报告",
-      "url": "https://data.eastmoney.com/notices/detail/603444/AN202604231821493820.html",
+      "title": "吉比特:厦门吉比特网络技术股份有限公司第六届董事会第十二次会议决议公告",
+      "summary": "吉比特:厦门吉比特网络技术股份有限公司第六届董事会第十二次会议决议公告",
+      "url": "https://data.eastmoney.com/notices/detail/603444/AN202604231821493824.html",
       "sentiment": "neutral",
       "time": "2026-04-24 00:00",
       "tags": [
         "公告",
-        "一季度报告全文"
+        "董事会决议公告"
       ],
       "category": "公司公告",
       "topic": "公司综合",
@@ -12450,23 +11825,6 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "ann-AN202604161821265325",
-      "platform": "公司公告",
-      "title": "吉比特:北京市海问(深圳)律师事务所关于厦门吉比特网络技术股份有限公司2025年年度股东会会议的法律意见书",
-      "summary": "吉比特:北京市海问(深圳)律师事务所关于厦门吉比特网络技术股份有限公司2025年年度股东会会议的法律意见书",
-      "url": "https://data.eastmoney.com/notices/detail/603444/AN202604161821265325.html",
-      "sentiment": "neutral",
-      "time": "2026-04-17 00:00",
-      "tags": [
-        "公告",
-        "法律意见书"
-      ],
-      "category": "公司公告",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
       "id": "ann-AN202604161821265324",
       "platform": "公司公告",
       "title": "吉比特:厦门吉比特网络技术股份有限公司2025年年度股东会会议决议公告",
@@ -12478,6 +11836,23 @@ window.MONITOR_DATA = {
         "公告",
         "分配方案决议公告",
         "股东大会决议公告"
+      ],
+      "category": "公司公告",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "ann-AN202604161821265325",
+      "platform": "公司公告",
+      "title": "吉比特:北京市海问(深圳)律师事务所关于厦门吉比特网络技术股份有限公司2025年年度股东会会议的法律意见书",
+      "summary": "吉比特:北京市海问(深圳)律师事务所关于厦门吉比特网络技术股份有限公司2025年年度股东会会议的法律意见书",
+      "url": "https://data.eastmoney.com/notices/detail/603444/AN202604161821265325.html",
+      "sentiment": "neutral",
+      "time": "2026-04-17 00:00",
+      "tags": [
+        "公告",
+        "法律意见书"
       ],
       "category": "公司公告",
       "topic": "公司综合",
@@ -12571,7 +11946,9 @@ window.MONITOR_DATA = {
       ],
       "category": "小红书",
       "_srcKw": "吉比特",
-      "topic": "企业文化"
+      "topic": "企业文化",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-69d906a2000000001a025533",
@@ -12702,6 +12079,25 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
+      "id": "xhs-69cccdfc0000000022001bc4",
+      "platform": "小红书",
+      "title": "「无界计划」校招计划持续纳新，邀你共创！",
+      "summary": "吉比特招聘 · 👍79 收藏57",
+      "url": "https://www.xiaohongshu.com/explore/69cccdfc0000000022001bc4?xsec_token=ABxcIKcWmxpQDFhr5JfMnbBhhThRiYBAtKF7rw0acO3vA=",
+      "sentiment": "neutral",
+      "time": "2026-04-02 11:00",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍79"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
       "id": "xhs-69cce4a1000000001a02b6ca",
       "platform": "小红书",
       "title": "「无界计划」投递通道持续开放！职等你来！",
@@ -12726,25 +12122,6 @@ window.MONITOR_DATA = {
       "category": "小红书",
       "_srcKw": "吉比特",
       "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-69cccdfc0000000022001bc4",
-      "platform": "小红书",
-      "title": "「无界计划」校招计划持续纳新，邀你共创！",
-      "summary": "吉比特招聘 · 👍79 收藏57",
-      "url": "https://www.xiaohongshu.com/explore/69cccdfc0000000022001bc4?xsec_token=ABxcIKcWmxpQDFhr5JfMnbBhhThRiYBAtKF7rw0acO3vA=",
-      "sentiment": "neutral",
-      "time": "2026-04-02 11:00",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍79"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "招聘求职",
       "section": "舆情",
       "pushable": true
     },
@@ -12856,7 +12233,9 @@ window.MONITOR_DATA = {
       "answerCount": 1,
       "source": "cdp",
       "category": "知乎",
-      "topic": "股票财务"
+      "topic": "股票财务",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "maimai-62010718304241cd",
@@ -12913,19 +12292,19 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "ann-AN202603261820769316",
+      "id": "ann-AN202603261820769308",
       "platform": "公司公告",
-      "title": "吉比特:厦门吉比特网络技术股份有限公司2025年度独立董事述职报告-梁燕华",
-      "summary": "吉比特:厦门吉比特网络技术股份有限公司2025年度独立董事述职报告-梁燕华",
-      "url": "https://data.eastmoney.com/notices/detail/603444/AN202603261820769316.html",
+      "title": "吉比特:厦门吉比特网络技术股份有限公司董事薪酬管理制度(2026年3月)",
+      "summary": "吉比特:厦门吉比特网络技术股份有限公司董事薪酬管理制度(2026年3月)",
+      "url": "https://data.eastmoney.com/notices/detail/603444/AN202603261820769308.html",
       "sentiment": "neutral",
       "time": "2026-03-27 00:00",
       "tags": [
         "公告",
-        "独立董事述职报告"
+        "管理办法/制度"
       ],
       "category": "公司公告",
-      "topic": "公司综合",
+      "topic": "经营管理",
       "section": "舆情",
       "pushable": true
     },
@@ -12947,19 +12326,19 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "ann-AN202603261820769308",
+      "id": "ann-AN202603261820769316",
       "platform": "公司公告",
-      "title": "吉比特:厦门吉比特网络技术股份有限公司董事薪酬管理制度(2026年3月)",
-      "summary": "吉比特:厦门吉比特网络技术股份有限公司董事薪酬管理制度(2026年3月)",
-      "url": "https://data.eastmoney.com/notices/detail/603444/AN202603261820769308.html",
+      "title": "吉比特:厦门吉比特网络技术股份有限公司2025年度独立董事述职报告-梁燕华",
+      "summary": "吉比特:厦门吉比特网络技术股份有限公司2025年度独立董事述职报告-梁燕华",
+      "url": "https://data.eastmoney.com/notices/detail/603444/AN202603261820769316.html",
       "sentiment": "neutral",
       "time": "2026-03-27 00:00",
       "tags": [
         "公告",
-        "管理办法/制度"
+        "独立董事述职报告"
       ],
       "category": "公司公告",
-      "topic": "经营管理",
+      "topic": "公司综合",
       "section": "舆情",
       "pushable": true
     },
@@ -13170,25 +12549,6 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "xhs-69c1081b000000001b00151a",
-      "platform": "小红书",
-      "title": "吉比特雷霆游戏26春招&暑期实习招聘启动！",
-      "summary": "吉比特游戏 · 👍467 收藏358",
-      "url": "https://www.xiaohongshu.com/explore/69c1081b000000001b00151a?xsec_token=ABAR_FQ3nji0jo5tE7RXivlmhPRsi5pJyW9EGuu899rUo=",
-      "sentiment": "neutral",
-      "time": "2026-03-23 17:30",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍467"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
       "id": "xhs-69be2cf10000000022000608",
       "platform": "小红书",
       "title": "吉比特雷霆游戏26春招&暑期实习招聘启动！",
@@ -13203,6 +12563,25 @@ window.MONITOR_DATA = {
       ],
       "category": "小红书",
       "_srcKw": "雷霆游戏",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-69c1081b000000001b00151a",
+      "platform": "小红书",
+      "title": "吉比特雷霆游戏26春招&暑期实习招聘启动！",
+      "summary": "吉比特游戏 · 👍467 收藏358",
+      "url": "https://www.xiaohongshu.com/explore/69c1081b000000001b00151a?xsec_token=ABAR_FQ3nji0jo5tE7RXivlmhPRsi5pJyW9EGuu899rUo=",
+      "sentiment": "neutral",
+      "time": "2026-03-23 17:30",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍467"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
       "topic": "招聘求职",
       "section": "舆情",
       "pushable": true
@@ -13298,25 +12677,6 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "xhs-69b8fef2000000001a030543",
-      "platform": "小红书",
-      "title": "深圳吉比特二面 📍面试公司：深圳吉比特 🕐面试时间：2026.3.12 💻面试岗位：前端开发实",
-      "summary": "Action · 👍13 收藏12",
-      "url": "https://www.xiaohongshu.com/explore/69b8fef2000000001a030543?xsec_token=ABCgINy60uGphMIPg8WOvmQjD1R6NLOLZ_lBfcZpdN5fQ=",
-      "sentiment": "neutral",
-      "time": "2026-03-17 15:12",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍13"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
       "id": "xhs-69b8fee0000000002102ea72",
       "platform": "小红书",
       "title": "面经 面试 面试技巧",
@@ -13331,6 +12691,25 @@ window.MONITOR_DATA = {
         "面经",
         "面试",
         "面试技巧"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-69b8fef2000000001a030543",
+      "platform": "小红书",
+      "title": "深圳吉比特二面 📍面试公司：深圳吉比特 🕐面试时间：2026.3.12 💻面试岗位：前端开发实",
+      "summary": "Action · 👍13 收藏12",
+      "url": "https://www.xiaohongshu.com/explore/69b8fef2000000001a030543?xsec_token=ABCgINy60uGphMIPg8WOvmQjD1R6NLOLZ_lBfcZpdN5fQ=",
+      "sentiment": "neutral",
+      "time": "2026-03-17 15:12",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍13"
       ],
       "category": "小红书",
       "_srcKw": "吉比特",
@@ -13407,7 +12786,9 @@ window.MONITOR_DATA = {
       ],
       "category": "小红书",
       "_srcKw": "吉比特",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "zhihu-q1914269825787733356",
@@ -13426,7 +12807,9 @@ window.MONITOR_DATA = {
       "lastChange": "2026-09-16 10:23",
       "changeNote": "回答数 7→6",
       "category": "知乎",
-      "topic": "理念价值观"
+      "topic": "理念价值观",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-69a69f06000000001d010ece",
@@ -13517,7 +12900,9 @@ window.MONITOR_DATA = {
       ],
       "category": "小红书",
       "_srcKw": "吉比特",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-6991dc39000000001a02141b",
@@ -13534,21 +12919,6 @@ window.MONITOR_DATA = {
       ],
       "category": "小红书",
       "_srcKw": "吉比特",
-      "topic": "公司综合"
-    },
-    {
-      "id": "maimai-776ea9a05e145792",
-      "platform": "脉脉",
-      "title": "厦门一家叫吉比特的游戏公司，开年会直接把整个行业给干沉默了...他们公司…",
-      "summary": "于见专栏·潮起网&于见专栏＆深度美业主编 · 157 赞 81 分享 66 评论",
-      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
-      "sentiment": "neutral",
-      "time": "2026-02-15 17:52",
-      "tags": [
-        "脉脉",
-        "吉比特"
-      ],
-      "category": "脉脉",
       "topic": "公司综合",
       "section": "舆情",
       "pushable": true
@@ -13564,6 +12934,23 @@ window.MONITOR_DATA = {
       "tags": [
         "脉脉",
         "实名",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-776ea9a05e145792",
+      "platform": "脉脉",
+      "title": "厦门一家叫吉比特的游戏公司，开年会直接把整个行业给干沉默了...他们公司…",
+      "summary": "于见专栏·潮起网&于见专栏＆深度美业主编 · 157 赞 81 分享 66 评论",
+      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
+      "sentiment": "neutral",
+      "time": "2026-02-15 17:52",
+      "tags": [
+        "脉脉",
         "吉比特"
       ],
       "category": "脉脉",
@@ -13665,7 +13052,9 @@ window.MONITOR_DATA = {
       ],
       "category": "小红书",
       "_srcKw": "雷霆游戏 绩效",
-      "topic": "企业文化"
+      "topic": "企业文化",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-6986b6ab000000000a0337ee",
@@ -13683,23 +13072,6 @@ window.MONITOR_DATA = {
       "category": "小红书",
       "_srcKw": "雷霆游戏",
       "topic": "产品游戏",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-ce3b4f84de7e47ad",
-      "platform": "脉脉",
-      "title": "游戏公司吉比特年会给所有员工发顶配版iPhone...17 Pro Ma…",
-      "summary": "AI招聘外包出海唐格·AA投资（vc机构）投后顾问&IR负责人",
-      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
-      "sentiment": "neutral",
-      "time": "2026-02-06 22:16",
-      "tags": [
-        "脉脉",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "企业文化",
       "section": "舆情",
       "pushable": true
     },
@@ -13722,19 +13094,19 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-b752a08e0938e954",
+      "id": "maimai-ce3b4f84de7e47ad",
       "platform": "脉脉",
-      "title": "家公司预告归母净利润超10亿元，分别是世纪华通、吉比特...",
-      "summary": "同壁财经·上海同壁企业管理有限公司媒介总监",
+      "title": "游戏公司吉比特年会给所有员工发顶配版iPhone...17 Pro Ma…",
+      "summary": "AI招聘外包出海唐格·AA投资（vc机构）投后顾问&IR负责人",
       "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
-      "sentiment": "positive",
-      "time": "2026-02-06 15:15",
+      "sentiment": "neutral",
+      "time": "2026-02-06 22:16",
       "tags": [
         "脉脉",
         "吉比特"
       ],
       "category": "脉脉",
-      "topic": "经营管理",
+      "topic": "企业文化",
       "section": "舆情",
       "pushable": true
     },
@@ -13749,6 +13121,23 @@ window.MONITOR_DATA = {
       "tags": [
         "脉脉",
         "实名",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "经营管理",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-b752a08e0938e954",
+      "platform": "脉脉",
+      "title": "家公司预告归母净利润超10亿元，分别是世纪华通、吉比特...",
+      "summary": "同壁财经·上海同壁企业管理有限公司媒介总监",
+      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
+      "sentiment": "positive",
+      "time": "2026-02-06 15:15",
+      "tags": [
+        "脉脉",
         "吉比特"
       ],
       "category": "脉脉",
@@ -13829,7 +13218,9 @@ window.MONITOR_DATA = {
       "answerCount": 3,
       "source": "cdp",
       "category": "知乎",
-      "topic": "企业文化"
+      "topic": "企业文化",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "maimai-338af7c131bb44cd",
@@ -13864,7 +13255,9 @@ window.MONITOR_DATA = {
       "answerCount": 1,
       "source": "cdp",
       "category": "知乎",
-      "topic": "企业文化"
+      "topic": "企业文化",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-69843153000000001a025128",
@@ -13886,24 +13279,6 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-097801771b180ff9",
-      "platform": "脉脉",
-      "title": "吉比特&雷霆游戏年会，给《杖剑传说》制作人发了一套价值...",
-      "summary": "Lynn·苏州壹心茹壹企业管理有限公司资深猎头顾问/合伙人",
-      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
-      "sentiment": "neutral",
-      "time": "2026-02-05 12:48",
-      "tags": [
-        "脉脉",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "脉脉",
-      "topic": "经营管理",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
       "id": "maimai-e2673fec88a97788",
       "platform": "脉脉",
       "title": "吉比特&雷霆游戏年会，给《杖剑传说》制作人发了一套价值...",
@@ -13919,6 +13294,24 @@ window.MONITOR_DATA = {
       ],
       "category": "脉脉",
       "topic": "产品游戏",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-097801771b180ff9",
+      "platform": "脉脉",
+      "title": "吉比特&雷霆游戏年会，给《杖剑传说》制作人发了一套价值...",
+      "summary": "Lynn·苏州壹心茹壹企业管理有限公司资深猎头顾问/合伙人",
+      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
+      "sentiment": "neutral",
+      "time": "2026-02-05 12:48",
+      "tags": [
+        "脉脉",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "脉脉",
+      "topic": "经营管理",
       "section": "舆情",
       "pushable": true
     },
@@ -13959,24 +13352,6 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-bf4a2c478161f110",
-      "platform": "脉脉",
-      "title": "2月3日，吉比特&雷霆游戏年会上，公司大手笔分奖金...所有已转正并在职…",
-      "summary": "吕建新·北京德尔菲信息咨询服务中心（个人独资）人力内容创作者",
-      "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
-      "sentiment": "neutral",
-      "time": "2026-02-05 09:20",
-      "tags": [
-        "脉脉",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
       "id": "maimai-dc43291677b7761c",
       "platform": "脉脉",
       "title": "2月3日，吉比特&雷霆游戏年会上，公司大手笔分奖金...所有已转正并在职…",
@@ -13987,6 +13362,24 @@ window.MONITOR_DATA = {
       "tags": [
         "脉脉",
         "实名",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-bf4a2c478161f110",
+      "platform": "脉脉",
+      "title": "2月3日，吉比特&雷霆游戏年会上，公司大手笔分奖金...所有已转正并在职…",
+      "summary": "吕建新·北京德尔菲信息咨询服务中心（个人独资）人力内容创作者",
+      "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
+      "sentiment": "neutral",
+      "time": "2026-02-05 09:20",
+      "tags": [
+        "脉脉",
         "吉比特",
         "雷霆游戏"
       ],
@@ -14169,23 +13562,6 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-db6be5344749507f",
-      "platform": "脉脉",
-      "title": "执行主美，3D美术负责人，2D概念负责人，动作专家，UE5引擎专家等大量…",
-      "summary": "古凯·厦门吉比特网络技术股份有限公司HR Supervisor · 13 赞 2 分享 3 评论",
-      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
-      "sentiment": "positive",
-      "time": "2026-02-04 16:15",
-      "tags": [
-        "脉脉",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
       "id": "maimai-d821c1bf16185600",
       "platform": "脉脉",
       "title": "执行主美，3D美术负责人，2D概念负责人，动作专家，UE5引擎专家等大量…",
@@ -14204,13 +13580,13 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-8ce598f23cd75025",
+      "id": "maimai-db6be5344749507f",
       "platform": "脉脉",
-      "title": "真的不来和我们做同事吗",
-      "summary": "曾臻·吉比特游戏HR · 5 赞 3 分享 2 评论",
+      "title": "执行主美，3D美术负责人，2D概念负责人，动作专家，UE5引擎专家等大量…",
+      "summary": "古凯·厦门吉比特网络技术股份有限公司HR Supervisor · 13 赞 2 分享 3 评论",
       "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
-      "sentiment": "neutral",
-      "time": "2026-02-04 15:55",
+      "sentiment": "positive",
+      "time": "2026-02-04 16:15",
       "tags": [
         "脉脉",
         "吉比特"
@@ -14232,6 +13608,23 @@ window.MONITOR_DATA = {
         "脉脉",
         "实名",
         "雷霆游戏"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-8ce598f23cd75025",
+      "platform": "脉脉",
+      "title": "真的不来和我们做同事吗",
+      "summary": "曾臻·吉比特游戏HR · 5 赞 3 分享 2 评论",
+      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
+      "sentiment": "neutral",
+      "time": "2026-02-04 15:55",
+      "tags": [
+        "脉脉",
+        "吉比特"
       ],
       "category": "脉脉",
       "topic": "公司综合",
@@ -14262,24 +13655,6 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-f919336c1cec7be8",
-      "platform": "脉脉",
-      "title": "吉比特&雷霆游戏HC多多，职等你来!...join.g-bits.com…",
-      "summary": "Violet 小秋·吉比特游戏HR · 1 赞",
-      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
-      "sentiment": "neutral",
-      "time": "2026-02-04 15:48",
-      "tags": [
-        "脉脉",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "脉脉",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
       "id": "maimai-63835131e2be3e3e",
       "platform": "脉脉",
       "title": "吉比特&雷霆游戏HC多多，职等你来!...join.g-bits.com…",
@@ -14299,16 +13674,17 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-7fe0467a82e7ffe7",
+      "id": "maimai-f919336c1cec7be8",
       "platform": "脉脉",
-      "title": "没错！！！有感兴趣的岗位欢迎投递～欢迎加入",
-      "summary": "李诗瑶·吉比特游戏招聘专员 · 4 赞",
+      "title": "吉比特&雷霆游戏HC多多，职等你来!...join.g-bits.com…",
+      "summary": "Violet 小秋·吉比特游戏HR · 1 赞",
       "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
       "sentiment": "neutral",
-      "time": "2026-02-04 15:46",
+      "time": "2026-02-04 15:48",
       "tags": [
         "脉脉",
-        "吉比特"
+        "吉比特",
+        "雷霆游戏"
       ],
       "category": "脉脉",
       "topic": "招聘求职",
@@ -14334,20 +13710,19 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-d77f5ad8f34ec375",
+      "id": "maimai-7fe0467a82e7ffe7",
       "platform": "脉脉",
-      "title": "快和我一起做同事，join.g-bits.com",
-      "summary": "季新波·吉比特游戏HR · 5 赞 4 分享 6 评论",
-      "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
+      "title": "没错！！！有感兴趣的岗位欢迎投递～欢迎加入",
+      "summary": "李诗瑶·吉比特游戏招聘专员 · 4 赞",
+      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
       "sentiment": "neutral",
-      "time": "2026-02-04 15:43",
+      "time": "2026-02-04 15:46",
       "tags": [
         "脉脉",
-        "吉比特",
-        "雷霆游戏"
+        "吉比特"
       ],
       "category": "脉脉",
-      "topic": "公司综合",
+      "topic": "招聘求职",
       "section": "舆情",
       "pushable": true
     },
@@ -14370,20 +13745,20 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-c767cfd470bd1ed2",
+      "id": "maimai-d77f5ad8f34ec375",
       "platform": "脉脉",
-      "title": "吉比特&雷霆游戏2月招聘岗位，欢迎大家咨询和投递...",
-      "summary": "吉比特游戏·企业号人力资源(HR)/人事 · 2 赞 1 分享 1 评论",
-      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
+      "title": "快和我一起做同事，join.g-bits.com",
+      "summary": "季新波·吉比特游戏HR · 5 赞 4 分享 6 评论",
+      "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
       "sentiment": "neutral",
-      "time": "2026-02-04 15:40",
+      "time": "2026-02-04 15:43",
       "tags": [
         "脉脉",
         "吉比特",
         "雷霆游戏"
       ],
       "category": "脉脉",
-      "topic": "招聘求职",
+      "topic": "公司综合",
       "section": "舆情",
       "pushable": true
     },
@@ -14398,6 +13773,24 @@ window.MONITOR_DATA = {
       "tags": [
         "脉脉",
         "实名",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "脉脉",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-c767cfd470bd1ed2",
+      "platform": "脉脉",
+      "title": "吉比特&雷霆游戏2月招聘岗位，欢迎大家咨询和投递...",
+      "summary": "吉比特游戏·企业号人力资源(HR)/人事 · 2 赞 1 分享 1 评论",
+      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
+      "sentiment": "neutral",
+      "time": "2026-02-04 15:40",
+      "tags": [
+        "脉脉",
         "吉比特",
         "雷霆游戏"
       ],
@@ -14461,25 +13854,6 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-c6aec04c345057e6",
-      "platform": "脉脉",
-      "title": "游戏圈卷疯了？ 吉比特年会又刷屏了。...普通员工也有顶配手机保底，这种…",
-      "summary": "💬职言 职言匿名",
-      "url": "https://maimai.cn/web/search_center?type=gossip&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
-      "sentiment": "negative",
-      "time": "2026-02-04 11:56",
-      "tags": [
-        "脉脉",
-        "职言",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
       "id": "maimai-e881d8a974cd3bb7",
       "platform": "脉脉",
       "title": "2026年开年，有的厂在偷偷优化，吉比特直接全员顶配手机加千万房产...…",
@@ -14495,6 +13869,25 @@ window.MONITOR_DATA = {
       ],
       "category": "脉脉",
       "topic": "企业文化",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-c6aec04c345057e6",
+      "platform": "脉脉",
+      "title": "游戏圈卷疯了？ 吉比特年会又刷屏了。...普通员工也有顶配手机保底，这种…",
+      "summary": "💬职言 职言匿名",
+      "url": "https://maimai.cn/web/search_center?type=gossip&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
+      "sentiment": "negative",
+      "time": "2026-02-04 11:56",
+      "tags": [
+        "脉脉",
+        "职言",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
       "section": "舆情",
       "pushable": true
     },
@@ -14537,24 +13930,6 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-99d999cf22552f56",
-      "platform": "脉脉",
-      "title": "吉比特这波年会真的太暖心了，阳光普照+重点激励兼顾...游戏行业本身拼创…",
-      "summary": "💬职言 职言匿名",
-      "url": "https://maimai.cn/web/search_center?type=gossip&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
-      "sentiment": "neutral",
-      "time": "2026-02-04 11:47",
-      "tags": [
-        "脉脉",
-        "职言",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
       "id": "maimai-0b750e8dfa8975f6",
       "platform": "脉脉",
       "title": "吉比特的高福利激励，也体现出游戏行业正在向精品化...",
@@ -14569,6 +13944,24 @@ window.MONITOR_DATA = {
       ],
       "category": "脉脉",
       "topic": "企业文化",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-99d999cf22552f56",
+      "platform": "脉脉",
+      "title": "吉比特这波年会真的太暖心了，阳光普照+重点激励兼顾...游戏行业本身拼创…",
+      "summary": "💬职言 职言匿名",
+      "url": "https://maimai.cn/web/search_center?type=gossip&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
+      "sentiment": "neutral",
+      "time": "2026-02-04 11:47",
+      "tags": [
+        "脉脉",
+        "职言",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
       "section": "舆情",
       "pushable": true
     },
@@ -14665,24 +14058,6 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-d4d19223fa156588",
-      "platform": "脉脉",
-      "title": "吉比特这波大方是真有底气！...游戏公司本来利润就高，今年肯定赚得盆满钵…",
-      "summary": "💬职言 职言匿名 · 1 赞",
-      "url": "https://maimai.cn/web/search_center?type=gossip&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
-      "sentiment": "neutral",
-      "time": "2026-02-04 10:50",
-      "tags": [
-        "脉脉",
-        "职言",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
       "id": "maimai-5050911b281beadc",
       "platform": "脉脉",
       "title": "吉比特知道游戏行业人才是核心，用千万房产这种重磅福利...",
@@ -14697,6 +14072,24 @@ window.MONITOR_DATA = {
       ],
       "category": "脉脉",
       "topic": "企业文化",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-d4d19223fa156588",
+      "platform": "脉脉",
+      "title": "吉比特这波大方是真有底气！...游戏公司本来利润就高，今年肯定赚得盆满钵…",
+      "summary": "💬职言 职言匿名 · 1 赞",
+      "url": "https://maimai.cn/web/search_center?type=gossip&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
+      "sentiment": "neutral",
+      "time": "2026-02-04 10:50",
+      "tags": [
+        "脉脉",
+        "职言",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
       "section": "舆情",
       "pushable": true
     },
@@ -14719,7 +14112,7 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-53542fd03aaab379",
+      "id": "maimai-3d825908abe59e8b",
       "platform": "脉脉",
       "title": "据游戏那点事Gamez报道，吉比特及其旗下雷霆游戏针对...",
       "summary": "互联网那些事·南京那些事文化传媒有限公司品牌主理人",
@@ -14728,24 +14121,7 @@ window.MONITOR_DATA = {
       "time": "2026-02-04 10:26",
       "tags": [
         "脉脉",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-44d3afb9c3162b42",
-      "platform": "脉脉",
-      "title": "2月3日消息，据多方消息，吉比特&雷霆游戏又发房子了...与此同时，今年…",
-      "summary": "慢放·北京品牌故事科技有限公司品牌主理人",
-      "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
-      "sentiment": "positive",
-      "time": "2026-02-04 10:26",
-      "tags": [
-        "脉脉",
+        "实名",
         "吉比特",
         "雷霆游戏"
       ],
@@ -14774,16 +14150,15 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-3d825908abe59e8b",
+      "id": "maimai-44d3afb9c3162b42",
       "platform": "脉脉",
-      "title": "据游戏那点事Gamez报道，吉比特及其旗下雷霆游戏针对...",
-      "summary": "互联网那些事·南京那些事文化传媒有限公司品牌主理人",
+      "title": "2月3日消息，据多方消息，吉比特&雷霆游戏又发房子了...与此同时，今年…",
+      "summary": "慢放·北京品牌故事科技有限公司品牌主理人",
       "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
-      "sentiment": "neutral",
+      "sentiment": "positive",
       "time": "2026-02-04 10:26",
       "tags": [
         "脉脉",
-        "实名",
         "吉比特",
         "雷霆游戏"
       ],
@@ -14793,13 +14168,13 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-42936f87a1b2a253",
+      "id": "maimai-53542fd03aaab379",
       "platform": "脉脉",
-      "title": "在昨日吉比特&雷霆游戏举办的年会上，公司向...所有已转正并年会当天在职…",
-      "summary": "大佬说·南京小马哥文化传媒有限公司运营经理",
+      "title": "据游戏那点事Gamez报道，吉比特及其旗下雷霆游戏针对...",
+      "summary": "互联网那些事·南京那些事文化传媒有限公司品牌主理人",
       "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
       "sentiment": "neutral",
-      "time": "2026-02-04 10:01",
+      "time": "2026-02-04 10:26",
       "tags": [
         "脉脉",
         "吉比特",
@@ -14821,6 +14196,24 @@ window.MONITOR_DATA = {
       "tags": [
         "脉脉",
         "实名",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-42936f87a1b2a253",
+      "platform": "脉脉",
+      "title": "在昨日吉比特&雷霆游戏举办的年会上，公司向...所有已转正并年会当天在职…",
+      "summary": "大佬说·南京小马哥文化传媒有限公司运营经理",
+      "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
+      "sentiment": "neutral",
+      "time": "2026-02-04 10:01",
+      "tags": [
+        "脉脉",
         "吉比特",
         "雷霆游戏"
       ],
@@ -14861,7 +14254,9 @@ window.MONITOR_DATA = {
       ],
       "category": "小红书",
       "_srcKw": "吉比特 绩效",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "nowcoder-MTkyOTRfMTIxOTg0MTIx",
@@ -15011,7 +14406,9 @@ window.MONITOR_DATA = {
       ],
       "category": "小红书",
       "_srcKw": "吉比特",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "maimai-a8e9250fbe36b690",
@@ -15120,7 +14517,9 @@ window.MONITOR_DATA = {
       ],
       "category": "小红书",
       "_srcKw": "吉比特",
-      "topic": "企业文化"
+      "topic": "企业文化",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-6981cdef000000002200b596",
@@ -15142,6 +14541,25 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
+      "id": "xhs-6980584e000000002200be6b",
+      "platform": "小红书",
+      "title": "【吉比特】2月热招岗位出炉，职等你来！",
+      "summary": "吉比特游戏 · 👍1374 收藏774",
+      "url": "https://www.xiaohongshu.com/explore/6980584e000000002200be6b?xsec_token=ABN5kpPDIYX_cjurbLqeMreVQt5l7M-dJE80B_M0dwZYk=",
+      "sentiment": "neutral",
+      "time": "2026-02-03 11:00",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍1374"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
       "id": "xhs-69804ceb000000002200bc89",
       "platform": "小红书",
       "title": "丙午火马启新局✨吉比特2月热招岗位来啦！",
@@ -15159,23 +14577,6 @@ window.MONITOR_DATA = {
       "topic": "招聘求职",
       "section": "舆情",
       "pushable": true
-    },
-    {
-      "id": "xhs-6980584e000000002200be6b",
-      "platform": "小红书",
-      "title": "【吉比特】2月热招岗位出炉，职等你来！",
-      "summary": "吉比特游戏 · 👍1374 收藏774",
-      "url": "https://www.xiaohongshu.com/explore/6980584e000000002200be6b?xsec_token=ABN5kpPDIYX_cjurbLqeMreVQt5l7M-dJE80B_M0dwZYk=",
-      "sentiment": "neutral",
-      "time": "2026-02-03 11:00",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍1374"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "招聘求职"
     },
     {
       "id": "zhihu-2002097943726035223",
@@ -15362,21 +14763,6 @@ window.MONITOR_DATA = {
       ],
       "category": "小红书",
       "_srcKw": "吉比特",
-      "topic": "公司综合"
-    },
-    {
-      "id": "maimai-54395f788ae4f9ea",
-      "platform": "脉脉",
-      "title": "深圳的游戏公司：腾讯，尚游，冰川，忘尘，吉比特...",
-      "summary": "卡比皮卡丘·字节跳动运营经理 · 14 赞 3 分享 35 评论",
-      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
-      "sentiment": "neutral",
-      "time": "2025-12-21 00:46",
-      "tags": [
-        "脉脉",
-        "吉比特"
-      ],
-      "category": "脉脉",
       "topic": "公司综合",
       "section": "舆情",
       "pushable": true
@@ -15400,19 +14786,19 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-21945c8de6efa656",
+      "id": "maimai-54395f788ae4f9ea",
       "platform": "脉脉",
-      "title": "团队氛围：同事多数来自腾网吉比特等大厂，能力性格都很...",
-      "summary": "Reyson枘森·艾维乐游（深圳）科技有限公司HRBP · 2 赞 2 评论",
+      "title": "深圳的游戏公司：腾讯，尚游，冰川，忘尘，吉比特...",
+      "summary": "卡比皮卡丘·字节跳动运营经理 · 14 赞 3 分享 35 评论",
       "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
       "sentiment": "neutral",
-      "time": "2025-12-20 22:50",
+      "time": "2025-12-21 00:46",
       "tags": [
         "脉脉",
         "吉比特"
       ],
       "category": "脉脉",
-      "topic": "企业文化",
+      "topic": "公司综合",
       "section": "舆情",
       "pushable": true
     },
@@ -15427,6 +14813,23 @@ window.MONITOR_DATA = {
       "tags": [
         "脉脉",
         "实名",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "企业文化",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-21945c8de6efa656",
+      "platform": "脉脉",
+      "title": "团队氛围：同事多数来自腾网吉比特等大厂，能力性格都很...",
+      "summary": "Reyson枘森·艾维乐游（深圳）科技有限公司HRBP · 2 赞 2 评论",
+      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
+      "sentiment": "neutral",
+      "time": "2025-12-20 22:50",
+      "tags": [
+        "脉脉",
         "吉比特"
       ],
       "category": "脉脉",
@@ -15560,7 +14963,9 @@ window.MONITOR_DATA = {
       "answerCount": 1,
       "source": "cdp",
       "category": "知乎",
-      "topic": "股票财务"
+      "topic": "股票财务",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-692155fb000000001e0069f0",
@@ -15634,7 +15039,9 @@ window.MONITOR_DATA = {
       "answerCount": 23,
       "source": "cdp",
       "category": "知乎",
-      "topic": "股票财务"
+      "topic": "股票财务",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-6901cdde000000000301a001",
@@ -15669,7 +15076,9 @@ window.MONITOR_DATA = {
       ],
       "category": "小红书",
       "_srcKw": "吉比特 离职",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "maimai-7845650e270944a3",
@@ -15870,7 +15279,9 @@ window.MONITOR_DATA = {
       ],
       "category": "小红书",
       "_srcKw": "吉比特 绩效",
-      "topic": "招聘求职"
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "zhihu-q1948555571247686355",
@@ -15887,7 +15298,9 @@ window.MONITOR_DATA = {
       "answerCount": 2,
       "source": "cdp",
       "category": "知乎",
-      "topic": "理念价值观"
+      "topic": "理念价值观",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-68bd23ae000000001b031b89",
@@ -15947,24 +15360,6 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-706cb6ce4e5d7783",
-      "platform": "脉脉",
-      "title": "吉比特&雷霆游戏招聘和小红书职场一起加入...我们将建立更高效透明的求职…",
-      "summary": "张鹤·吉比特游戏招聘hr · 1 赞 1 评论",
-      "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
-      "sentiment": "neutral",
-      "time": "2025-09-01 19:37",
-      "tags": [
-        "脉脉",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "脉脉",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
       "id": "maimai-c53a9bee5d600fe0",
       "platform": "脉脉",
       "title": "吉比特&雷霆游戏招聘和小红书职场一起加入...我们将建立更高效透明的求职…",
@@ -15975,6 +15370,24 @@ window.MONITOR_DATA = {
       "tags": [
         "脉脉",
         "实名",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "脉脉",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-706cb6ce4e5d7783",
+      "platform": "脉脉",
+      "title": "吉比特&雷霆游戏招聘和小红书职场一起加入...我们将建立更高效透明的求职…",
+      "summary": "张鹤·吉比特游戏招聘hr · 1 赞 1 评论",
+      "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
+      "sentiment": "neutral",
+      "time": "2025-09-01 19:37",
+      "tags": [
+        "脉脉",
         "吉比特",
         "雷霆游戏"
       ],
@@ -16017,7 +15430,9 @@ window.MONITOR_DATA = {
       ],
       "category": "小红书",
       "_srcKw": "吉比特",
-      "topic": "企业文化"
+      "topic": "企业文化",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-68b4f6ee000000001d02cfa5",
@@ -16056,24 +15471,6 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-05e4572c92613141",
-      "platform": "脉脉",
-      "title": "内推码Z2M6I4",
-      "summary": "陈俊鸿·吉比特雷霆游戏游戏研发工程师 · 1 评论",
-      "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
-      "sentiment": "neutral",
-      "time": "2025-08-29 15:17",
-      "tags": [
-        "脉脉",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "脉脉",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
       "id": "maimai-cf82a41ab5de15a4",
       "platform": "脉脉",
       "title": "内推码Z2M6I4",
@@ -16092,13 +15489,13 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-4e32c0efb765fa1c",
+      "id": "maimai-05e4572c92613141",
       "platform": "脉脉",
-      "title": "内推码：UL101H",
-      "summary": "林林·吉比特游戏游戏测试工程师",
+      "title": "内推码Z2M6I4",
+      "summary": "陈俊鸿·吉比特雷霆游戏游戏研发工程师 · 1 评论",
       "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
       "sentiment": "neutral",
-      "time": "2025-08-29 14:24",
+      "time": "2025-08-29 15:17",
       "tags": [
         "脉脉",
         "吉比特",
@@ -16128,6 +15525,24 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
+      "id": "maimai-4e32c0efb765fa1c",
+      "platform": "脉脉",
+      "title": "内推码：UL101H",
+      "summary": "林林·吉比特游戏游戏测试工程师",
+      "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
+      "sentiment": "neutral",
+      "time": "2025-08-29 14:24",
+      "tags": [
+        "脉脉",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "脉脉",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
       "id": "xhs-68b11d5d000000001d028dcf",
       "platform": "小红书",
       "title": "吉比特校招开启啦",
@@ -16141,25 +15556,6 @@ window.MONITOR_DATA = {
         "👍29"
       ],
       "category": "小红书",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-68b02544000000001d008518",
-      "platform": "小红书",
-      "title": "吉比特2026届秋季校园招聘正式启动！",
-      "summary": "吉比特游戏 · 👍118 收藏89",
-      "url": "https://www.xiaohongshu.com/explore/68b02544000000001d008518?xsec_token=ABRuTFseSOnKk3uVIgTl_7Ed5jQSwEL3AIBVuI2LEJMGA=",
-      "sentiment": "neutral",
-      "time": "2025-08-29 10:30",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍118"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
       "topic": "招聘求职",
       "section": "舆情",
       "pushable": true
@@ -16184,11 +15580,50 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "nowcoder-U291cmNlPWhvbWUtYXBp",
+      "id": "xhs-68b02544000000001d008518",
+      "platform": "小红书",
+      "title": "吉比特2026届秋季校园招聘正式启动！",
+      "summary": "吉比特游戏 · 👍118 收藏89",
+      "url": "https://www.xiaohongshu.com/explore/68b02544000000001d008518?xsec_token=ABRuTFseSOnKk3uVIgTl_7Ed5jQSwEL3AIBVuI2LEJMGA=",
+      "sentiment": "neutral",
+      "time": "2025-08-29 10:30",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍118"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "nowcoder-2YWNmYmI4NmI4YTVmNGE",
       "platform": "牛客",
       "title": "吉比特雷霆游戏2026秋招正式启动啦！",
-      "summary": "嗨，各位热爱游戏的同学们！ 吉比特雷霆游戏2026秋招正式启动啦。登录https://hr.g-bits.com/ ，用内推码（4N84QX）进行投递，直接快人一步，可以全程跟进 ...",
-      "url": "https://www.nowcoder.com/feed/main/detail/c80496f73ece42b7a6acfbb86b8a5f4a?urlSource=home-api",
+      "summary": "... 嗨，各位热爱游戏的同学们！ 吉比特雷霆游戏2026秋招正式启动啦。登录https://hr.g-bits.com/ ，用内推码（4N84QX）进行投递，直接快人一步， ...",
+      "url": "https://www.nowcoder.com/feed/main/detail/c80496f73ece42b7a6acfbb86b8a5f4a",
+      "sentiment": "neutral",
+      "time": "2025-08-29 00:00",
+      "tags": [
+        "牛客",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "lastChange": "2026-08-02 12:58",
+      "changeNote": "摘要有更新",
+      "category": "牛客",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "nowcoder-87",
+      "platform": "牛客",
+      "title": "吉比特雷霆游戏2026秋招正式启动啦！",
+      "summary": "本次秋招面向人群：2026届应届毕业生 招聘节点预览: 8月29日起|岗位招满即止,先投先面! ... 10月中下旬|offer发放进行时! Base地点：深圳/厦门 加入 ...",
+      "url": "https://www.nowcoder.com/feed/main/detail/87cb6d3d905c45b89a96e701472607d5?urlSource=sitemap",
       "sentiment": "neutral",
       "time": "2025-08-29 00:00",
       "tags": [
@@ -16220,11 +15655,11 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "nowcoder-87",
+      "id": "nowcoder-U291cmNlPWhvbWUtYXBp",
       "platform": "牛客",
       "title": "吉比特雷霆游戏2026秋招正式启动啦！",
-      "summary": "本次秋招面向人群：2026届应届毕业生 招聘节点预览: 8月29日起|岗位招满即止,先投先面! ... 10月中下旬|offer发放进行时! Base地点：深圳/厦门 加入 ...",
-      "url": "https://www.nowcoder.com/feed/main/detail/87cb6d3d905c45b89a96e701472607d5?urlSource=sitemap",
+      "summary": "嗨，各位热爱游戏的同学们！ 吉比特雷霆游戏2026秋招正式启动啦。登录https://hr.g-bits.com/ ，用内推码（4N84QX）进行投递，直接快人一步，可以全程跟进 ...",
+      "url": "https://www.nowcoder.com/feed/main/detail/c80496f73ece42b7a6acfbb86b8a5f4a?urlSource=home-api",
       "sentiment": "neutral",
       "time": "2025-08-29 00:00",
       "tags": [
@@ -16232,26 +15667,6 @@ window.MONITOR_DATA = {
         "吉比特",
         "雷霆游戏"
       ],
-      "category": "牛客",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "nowcoder-2YWNmYmI4NmI4YTVmNGE",
-      "platform": "牛客",
-      "title": "吉比特雷霆游戏2026秋招正式启动啦！",
-      "summary": "... 嗨，各位热爱游戏的同学们！ 吉比特雷霆游戏2026秋招正式启动啦。登录https://hr.g-bits.com/ ，用内推码（4N84QX）进行投递，直接快人一步， ...",
-      "url": "https://www.nowcoder.com/feed/main/detail/c80496f73ece42b7a6acfbb86b8a5f4a",
-      "sentiment": "neutral",
-      "time": "2025-08-29 00:00",
-      "tags": [
-        "牛客",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "lastChange": "2026-08-02 12:58",
-      "changeNote": "摘要有更新",
       "category": "牛客",
       "topic": "招聘求职",
       "section": "舆情",
@@ -16290,7 +15705,9 @@ window.MONITOR_DATA = {
       ],
       "category": "小红书",
       "_srcKw": "雷霆游戏 绩效",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-68a4a40b000000001c033639",
@@ -16395,23 +15812,6 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-63a6c6befad81843",
-      "platform": "脉脉",
-      "title": "世纪华通、完美世界到掌趣科技、恺英网络、雷霆游戏无不在积极布局...，尤…",
-      "summary": "张晓红·News Break招聘经理",
-      "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
-      "sentiment": "neutral",
-      "time": "2025-07-01 10:54",
-      "tags": [
-        "脉脉",
-        "雷霆游戏"
-      ],
-      "category": "脉脉",
-      "topic": "经营管理",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
       "id": "maimai-01636488e17c8445",
       "platform": "脉脉",
       "title": "世纪华通、完美世界到掌趣科技、恺英网络、雷霆游戏无不在积极布局...，尤…",
@@ -16430,19 +15830,19 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-d239c4da13edb37c",
+      "id": "maimai-63a6c6befad81843",
       "platform": "脉脉",
-      "title": "完美世界、心动、掌趣、中手游、有序、电魂、吉比特...",
-      "summary": "AI招聘外包出海唐格·AA投资（vc机构）投后顾问&IR负责人",
-      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
+      "title": "世纪华通、完美世界到掌趣科技、恺英网络、雷霆游戏无不在积极布局...，尤…",
+      "summary": "张晓红·News Break招聘经理",
+      "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
       "sentiment": "neutral",
-      "time": "2025-05-15 08:09",
+      "time": "2025-07-01 10:54",
       "tags": [
         "脉脉",
-        "吉比特"
+        "雷霆游戏"
       ],
       "category": "脉脉",
-      "topic": "产品游戏",
+      "topic": "经营管理",
       "section": "舆情",
       "pushable": true
     },
@@ -16457,6 +15857,23 @@ window.MONITOR_DATA = {
       "tags": [
         "脉脉",
         "实名",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "产品游戏",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-d239c4da13edb37c",
+      "platform": "脉脉",
+      "title": "完美世界、心动、掌趣、中手游、有序、电魂、吉比特...",
+      "summary": "AI招聘外包出海唐格·AA投资（vc机构）投后顾问&IR负责人",
+      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
+      "sentiment": "neutral",
+      "time": "2025-05-15 08:09",
+      "tags": [
+        "脉脉",
         "吉比特"
       ],
       "category": "脉脉",
@@ -16501,23 +15918,6 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-0e63802521cf556b",
-      "platform": "脉脉",
-      "title": "为什么吉比特口碑那么好？",
-      "summary": "艾瑞克·腾讯研发工程师 · 11 赞 5 分享 34 评论",
-      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
-      "sentiment": "neutral",
-      "time": "2025-04-30 08:24",
-      "tags": [
-        "脉脉",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
       "id": "maimai-25cc3fd5cb2a63a0",
       "platform": "脉脉",
       "title": "为什么吉比特口碑那么好？",
@@ -16528,6 +15928,23 @@ window.MONITOR_DATA = {
       "tags": [
         "脉脉",
         "实名",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-0e63802521cf556b",
+      "platform": "脉脉",
+      "title": "为什么吉比特口碑那么好？",
+      "summary": "艾瑞克·腾讯研发工程师 · 11 赞 5 分享 34 评论",
+      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
+      "sentiment": "neutral",
+      "time": "2025-04-30 08:24",
+      "tags": [
+        "脉脉",
         "吉比特"
       ],
       "category": "脉脉",
@@ -16575,24 +15992,6 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-e10002a93b7d97d5",
-      "platform": "脉脉",
-      "title": "吉比特&雷霆游戏25届春招&26届暑期实习招聘今日启动...【关于我们】…",
-      "summary": "Eric·四川大学通信工程",
-      "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
-      "sentiment": "neutral",
-      "time": "2025-03-27 09:25",
-      "tags": [
-        "脉脉",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "脉脉",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
       "id": "maimai-f9ee9ab19097c6b4",
       "platform": "脉脉",
       "title": "吉比特&雷霆游戏25届春招&26届暑期实习招聘今日启动...【关于我们】…",
@@ -16603,6 +16002,24 @@ window.MONITOR_DATA = {
       "tags": [
         "脉脉",
         "实名",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "脉脉",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-e10002a93b7d97d5",
+      "platform": "脉脉",
+      "title": "吉比特&雷霆游戏25届春招&26届暑期实习招聘今日启动...【关于我们】…",
+      "summary": "Eric·四川大学通信工程",
+      "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
+      "sentiment": "neutral",
+      "time": "2025-03-27 09:25",
+      "tags": [
+        "脉脉",
         "吉比特",
         "雷霆游戏"
       ],
@@ -16666,24 +16083,6 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-9a87c7456e1cfb84",
-      "platform": "脉脉",
-      "title": "内推码U8O08F",
-      "summary": "陈俊鸿·吉比特雷霆游戏游戏研发工程师 · 1 赞",
-      "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
-      "sentiment": "neutral",
-      "time": "2025-03-10 15:27",
-      "tags": [
-        "脉脉",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "脉脉",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
       "id": "maimai-3b1a6cb1921fb4ba",
       "platform": "脉脉",
       "title": "内推码U8O08F",
@@ -16702,20 +16101,20 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-16f8903dc34d193e",
+      "id": "maimai-9a87c7456e1cfb84",
       "platform": "脉脉",
-      "title": "欢迎加入我们一起来做好玩有趣的游戏！...",
-      "summary": "季新波·吉比特游戏HR · 1 赞 1 评论",
+      "title": "内推码U8O08F",
+      "summary": "陈俊鸿·吉比特雷霆游戏游戏研发工程师 · 1 赞",
       "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
       "sentiment": "neutral",
-      "time": "2025-03-10 13:16",
+      "time": "2025-03-10 15:27",
       "tags": [
         "脉脉",
         "吉比特",
         "雷霆游戏"
       ],
       "category": "脉脉",
-      "topic": "公司综合",
+      "topic": "招聘求职",
       "section": "舆情",
       "pushable": true
     },
@@ -16738,20 +16137,20 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-94e872127f498ec6",
+      "id": "maimai-16f8903dc34d193e",
       "platform": "脉脉",
-      "title": "吉比特雷霆游戏秋招开始咯！！！...",
-      "summary": "挂号金兵·前上海欢乐互娱网络科技有限公司Unity客户端开发工程师",
+      "title": "欢迎加入我们一起来做好玩有趣的游戏！...",
+      "summary": "季新波·吉比特游戏HR · 1 赞 1 评论",
       "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
       "sentiment": "neutral",
-      "time": "2025-03-10 11:34",
+      "time": "2025-03-10 13:16",
       "tags": [
         "脉脉",
         "吉比特",
         "雷霆游戏"
       ],
       "category": "脉脉",
-      "topic": "招聘求职",
+      "topic": "公司综合",
       "section": "舆情",
       "pushable": true
     },
@@ -16766,6 +16165,24 @@ window.MONITOR_DATA = {
       "tags": [
         "脉脉",
         "实名",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "脉脉",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-94e872127f498ec6",
+      "platform": "脉脉",
+      "title": "吉比特雷霆游戏秋招开始咯！！！...",
+      "summary": "挂号金兵·前上海欢乐互娱网络科技有限公司Unity客户端开发工程师",
+      "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
+      "sentiment": "neutral",
+      "time": "2025-03-10 11:34",
+      "tags": [
+        "脉脉",
         "吉比特",
         "雷霆游戏"
       ],
@@ -16828,24 +16245,6 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-347ea075dfc9fa74",
-      "platform": "脉脉",
-      "title": "金三银四就要到了，吉比特&雷霆游戏程序、策划...",
-      "summary": "Richard·雷霆游戏产品运营 · 1 赞 1 评论",
-      "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
-      "sentiment": "neutral",
-      "time": "2025-02-24 11:00",
-      "tags": [
-        "脉脉",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
       "id": "maimai-20b893548987c1e7",
       "platform": "脉脉",
       "title": "金三银四就要到了，吉比特&雷霆游戏程序、策划...",
@@ -16856,6 +16255,24 @@ window.MONITOR_DATA = {
       "tags": [
         "脉脉",
         "实名",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-347ea075dfc9fa74",
+      "platform": "脉脉",
+      "title": "金三银四就要到了，吉比特&雷霆游戏程序、策划...",
+      "summary": "Richard·雷霆游戏产品运营 · 1 赞 1 评论",
+      "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
+      "sentiment": "neutral",
+      "time": "2025-02-24 11:00",
+      "tags": [
+        "脉脉",
         "吉比特",
         "雷霆游戏"
       ],
@@ -16878,7 +16295,9 @@ window.MONITOR_DATA = {
       ],
       "category": "小红书",
       "_srcKw": "吉比特 绩效",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-67b758630000000029013b59",
@@ -16895,23 +16314,6 @@ window.MONITOR_DATA = {
       "category": "小红书",
       "_srcKw": "吉比特 离职",
       "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-ae345912f94f3a0d",
-      "platform": "脉脉",
-      "title": "看到吉比特收缩代理线，第一反应是“终于卷不动了...吉比特手里捏着《问道…",
-      "summary": "小王·科大讯飞HRBP · 2 赞 1 分享",
-      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
-      "sentiment": "negative",
-      "time": "2025-02-20 11:09",
-      "tags": [
-        "脉脉",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "产品游戏",
       "section": "舆情",
       "pushable": true
     },
@@ -16934,16 +16336,16 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-8b60bf60df26ee12",
+      "id": "maimai-ae345912f94f3a0d",
       "platform": "脉脉",
-      "title": "月15日起，《异象回声》手游运营主体将从雷霆游戏变更为开发方苍火游戏..…",
-      "summary": "青年说·南京背包走天下文化传媒有限公司运营 · 1 分享",
-      "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
-      "sentiment": "neutral",
-      "time": "2025-02-20 09:58",
+      "title": "看到吉比特收缩代理线，第一反应是“终于卷不动了...吉比特手里捏着《问道…",
+      "summary": "小王·科大讯飞HRBP · 2 赞 1 分享",
+      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
+      "sentiment": "negative",
+      "time": "2025-02-20 11:09",
       "tags": [
         "脉脉",
-        "雷霆游戏"
+        "吉比特"
       ],
       "category": "脉脉",
       "topic": "产品游戏",
@@ -16961,6 +16363,23 @@ window.MONITOR_DATA = {
       "tags": [
         "脉脉",
         "实名",
+        "雷霆游戏"
+      ],
+      "category": "脉脉",
+      "topic": "产品游戏",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-8b60bf60df26ee12",
+      "platform": "脉脉",
+      "title": "月15日起，《异象回声》手游运营主体将从雷霆游戏变更为开发方苍火游戏..…",
+      "summary": "青年说·南京背包走天下文化传媒有限公司运营 · 1 分享",
+      "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
+      "sentiment": "neutral",
+      "time": "2025-02-20 09:58",
+      "tags": [
+        "脉脉",
         "雷霆游戏"
       ],
       "category": "脉脉",
@@ -17026,23 +16445,6 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-513566947f425de6",
-      "platform": "脉脉",
-      "title": "星辉娱乐、冰川网络等涨幅居前，仅恺英网络、吉比特...",
-      "summary": "同壁财经·上海同壁企业管理有限公司媒介总监",
-      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
-      "sentiment": "neutral",
-      "time": "2025-01-09 12:44",
-      "tags": [
-        "脉脉",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "经营管理",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
       "id": "maimai-caa5da54065c3d16",
       "platform": "脉脉",
       "title": "星辉娱乐、冰川网络等涨幅居前，仅恺英网络、吉比特...",
@@ -17053,6 +16455,23 @@ window.MONITOR_DATA = {
       "tags": [
         "脉脉",
         "实名",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "经营管理",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-513566947f425de6",
+      "platform": "脉脉",
+      "title": "星辉娱乐、冰川网络等涨幅居前，仅恺英网络、吉比特...",
+      "summary": "同壁财经·上海同壁企业管理有限公司媒介总监",
+      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
+      "sentiment": "neutral",
+      "time": "2025-01-09 12:44",
+      "tags": [
+        "脉脉",
         "吉比特"
       ],
       "category": "脉脉",
@@ -17079,23 +16498,6 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-e0282e37a932d87f",
-      "platform": "脉脉",
-      "title": "吉比特开年重点项目，问剑长生，1.2公测，...",
-      "summary": "季新波·吉比特游戏HR · 5 赞 2 分享 5 评论",
-      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
-      "sentiment": "neutral",
-      "time": "2024-12-31 18:34",
-      "tags": [
-        "脉脉",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
       "id": "maimai-10f0005510b1dc04",
       "platform": "脉脉",
       "title": "吉比特开年重点项目，问剑长生，1.2公测，...",
@@ -17114,13 +16516,13 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-f5590015b0762d2d",
+      "id": "maimai-e0282e37a932d87f",
       "platform": "脉脉",
-      "title": "网龙出来伙伴们，有看机会私戳我们～吉比特需求还很多",
-      "summary": "郑松月·厦门吉比特网络技术股份有限公司HRBP · 5 赞 1 分享 11 评论",
+      "title": "吉比特开年重点项目，问剑长生，1.2公测，...",
+      "summary": "季新波·吉比特游戏HR · 5 赞 2 分享 5 评论",
       "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
       "sentiment": "neutral",
-      "time": "2024-12-16 14:20",
+      "time": "2024-12-31 18:34",
       "tags": [
         "脉脉",
         "吉比特"
@@ -17149,6 +16551,23 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
+      "id": "maimai-f5590015b0762d2d",
+      "platform": "脉脉",
+      "title": "网龙出来伙伴们，有看机会私戳我们～吉比特需求还很多",
+      "summary": "郑松月·厦门吉比特网络技术股份有限公司HRBP · 5 赞 1 分享 11 评论",
+      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
+      "sentiment": "neutral",
+      "time": "2024-12-16 14:20",
+      "tags": [
+        "脉脉",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
       "id": "xhs-675e9b37000000000103f151",
       "platform": "小红书",
       "title": "1258天🔚 雷霆游戏X吉比特",
@@ -17162,7 +16581,9 @@ window.MONITOR_DATA = {
       ],
       "category": "小红书",
       "_srcKw": "吉比特 离职",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-675b07c60000000002024284",
@@ -17178,21 +16599,6 @@ window.MONITOR_DATA = {
       ],
       "category": "小红书",
       "_srcKw": "雷霆游戏 绩效",
-      "topic": "公司综合"
-    },
-    {
-      "id": "maimai-b547af950cac2770",
-      "platform": "脉脉",
-      "title": "该基金三季度末重仓股包括视源股份、灿瑞科技、浩辰软件、吉比特等企业...…",
-      "summary": "王乐·面包财经总裁",
-      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
-      "sentiment": "neutral",
-      "time": "2024-12-10 14:13",
-      "tags": [
-        "脉脉",
-        "吉比特"
-      ],
-      "category": "脉脉",
       "topic": "公司综合",
       "section": "舆情",
       "pushable": true
@@ -17216,19 +16622,19 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-18b1cdf019c6be80",
+      "id": "maimai-b547af950cac2770",
       "platform": "脉脉",
-      "title": "吉比特游戏还在招人，程序策划美术都有hc哦...",
-      "summary": "Hellywang·蕉下招聘运营 · 6 赞 15 评论",
+      "title": "该基金三季度末重仓股包括视源股份、灿瑞科技、浩辰软件、吉比特等企业...…",
+      "summary": "王乐·面包财经总裁",
       "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
       "sentiment": "neutral",
-      "time": "2024-12-10 10:37",
+      "time": "2024-12-10 14:13",
       "tags": [
         "脉脉",
         "吉比特"
       ],
       "category": "脉脉",
-      "topic": "招聘求职",
+      "topic": "公司综合",
       "section": "舆情",
       "pushable": true
     },
@@ -17251,19 +16657,19 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-6d07c1bbd53073c0",
+      "id": "maimai-18b1cdf019c6be80",
       "platform": "脉脉",
-      "title": "159869）现翻红微涨，持仓股涨跌互现，吉比特大涨超...12天发布更…",
-      "summary": "同壁财经·上海同壁企业管理有限公司媒介总监",
+      "title": "吉比特游戏还在招人，程序策划美术都有hc哦...",
+      "summary": "Hellywang·蕉下招聘运营 · 6 赞 15 评论",
       "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
       "sentiment": "neutral",
-      "time": "2024-12-09 13:03",
+      "time": "2024-12-10 10:37",
       "tags": [
         "脉脉",
         "吉比特"
       ],
       "category": "脉脉",
-      "topic": "经营管理",
+      "topic": "招聘求职",
       "section": "舆情",
       "pushable": true
     },
@@ -17278,6 +16684,23 @@ window.MONITOR_DATA = {
       "tags": [
         "脉脉",
         "实名",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "经营管理",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-6d07c1bbd53073c0",
+      "platform": "脉脉",
+      "title": "159869）现翻红微涨，持仓股涨跌互现，吉比特大涨超...12天发布更…",
+      "summary": "同壁财经·上海同壁企业管理有限公司媒介总监",
+      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
+      "sentiment": "neutral",
+      "time": "2024-12-09 13:03",
+      "tags": [
+        "脉脉",
         "吉比特"
       ],
       "category": "脉脉",
@@ -17306,19 +16729,20 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-MDc0ZmZkMDAwOS5odG1s",
-      "platform": "脉脉",
+      "id": "zhihu-MDc0ZmZkMDAwOS5odG1s",
+      "platform": "知乎",
       "title": "吉比特&雷霆游戏“精品游戏开发创作论坛”将于2024年12月12日 ...",
       "summary": "吉比特&雷霆游戏承办的“精品游戏开发创作论坛”将于北京石景山首钢国际会展中心二层203会议厅举行.",
       "url": "https://www.leiting.com/terrace/mobile/news/news_detail_ff808081934863fe01939a074ffd0009.html",
       "sentiment": "neutral",
       "time": "2024-12-06 00:00",
       "tags": [
-        "脉脉",
+        "知乎",
         "吉比特",
         "雷霆游戏"
       ],
-      "category": "脉脉",
+      "source": "serp",
+      "category": "知乎",
       "topic": "理念价值观",
       "section": "舆情",
       "pushable": true
@@ -17342,39 +16766,20 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "zhihu-MDc0ZmZkMDAwOS5odG1s",
-      "platform": "知乎",
+      "id": "maimai-MDc0ZmZkMDAwOS5odG1s",
+      "platform": "脉脉",
       "title": "吉比特&雷霆游戏“精品游戏开发创作论坛”将于2024年12月12日 ...",
       "summary": "吉比特&雷霆游戏承办的“精品游戏开发创作论坛”将于北京石景山首钢国际会展中心二层203会议厅举行.",
       "url": "https://www.leiting.com/terrace/mobile/news/news_detail_ff808081934863fe01939a074ffd0009.html",
       "sentiment": "neutral",
       "time": "2024-12-06 00:00",
       "tags": [
-        "知乎",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "source": "serp",
-      "category": "知乎",
-      "topic": "理念价值观",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-4c90b2c12c547a57",
-      "platform": "脉脉",
-      "title": "6.吉比特/雷霆游戏通知：25年取消16薪...",
-      "summary": "游戏圈内那些事·米哈游公司员工 · 4 赞 1 评论",
-      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
-      "sentiment": "neutral",
-      "time": "2024-12-02 00:43",
-      "tags": [
         "脉脉",
         "吉比特",
         "雷霆游戏"
       ],
       "category": "脉脉",
-      "topic": "公司综合",
+      "topic": "理念价值观",
       "section": "舆情",
       "pushable": true
     },
@@ -17389,6 +16794,24 @@ window.MONITOR_DATA = {
       "tags": [
         "脉脉",
         "实名",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-4c90b2c12c547a57",
+      "platform": "脉脉",
+      "title": "6.吉比特/雷霆游戏通知：25年取消16薪...",
+      "summary": "游戏圈内那些事·米哈游公司员工 · 4 赞 1 评论",
+      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
+      "sentiment": "neutral",
+      "time": "2024-12-02 00:43",
+      "tags": [
+        "脉脉",
         "吉比特",
         "雷霆游戏"
       ],
@@ -17447,7 +16870,9 @@ window.MONITOR_DATA = {
       ],
       "category": "小红书",
       "_srcKw": "雷霆游戏 绩效",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-67471c470000000008007ee2",
@@ -17463,7 +16888,9 @@ window.MONITOR_DATA = {
       ],
       "category": "小红书",
       "_srcKw": "雷霆游戏 绩效",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-6746ff2f0000000006014982",
@@ -17479,7 +16906,9 @@ window.MONITOR_DATA = {
       ],
       "category": "小红书",
       "_srcKw": "吉比特 绩效",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "maimai-1852940512",
@@ -17553,23 +16982,6 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-2fccd794b8785e16",
-      "platform": "脉脉",
-      "title": "游开投了一家又一家 灵犀4399友塔吉比特三七巨人白日梦途游西山居哈乐沃…",
-      "summary": "李子琪·东家APP前端开发工程师 · 2 评论",
-      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
-      "sentiment": "neutral",
-      "time": "2024-10-24 08:04",
-      "tags": [
-        "脉脉",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
       "id": "maimai-35a1324eeddea3ec",
       "platform": "脉脉",
       "title": "游开投了一家又一家 灵犀4399友塔吉比特三七巨人白日梦途游西山居哈乐沃…",
@@ -17580,6 +16992,23 @@ window.MONITOR_DATA = {
       "tags": [
         "脉脉",
         "实名",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-2fccd794b8785e16",
+      "platform": "脉脉",
+      "title": "游开投了一家又一家 灵犀4399友塔吉比特三七巨人白日梦途游西山居哈乐沃…",
+      "summary": "李子琪·东家APP前端开发工程师 · 2 评论",
+      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
+      "sentiment": "neutral",
+      "time": "2024-10-24 08:04",
+      "tags": [
+        "脉脉",
         "吉比特"
       ],
       "category": "脉脉",
@@ -17601,22 +17030,7 @@ window.MONITOR_DATA = {
       ],
       "category": "小红书",
       "_srcKw": "吉比特 离职",
-      "topic": "公司综合"
-    },
-    {
-      "id": "maimai-257358b0988f34db",
-      "platform": "脉脉",
-      "title": "游戏技术岗 面了好几个公司 总结下来，吉比特面试感受最好...",
-      "summary": "康琪·自由职业无线开发专家 · 9 赞 1 分享",
-      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
-      "sentiment": "neutral",
-      "time": "2024-10-21 17:29",
-      "tags": [
-        "脉脉",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "招聘求职",
+      "topic": "公司综合",
       "section": "舆情",
       "pushable": true
     },
@@ -17639,19 +17053,19 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-4889ed71635e533b",
+      "id": "maimai-257358b0988f34db",
       "platform": "脉脉",
-      "title": "，《盗墓笔记：启程》9月底首轮删档测试；吉比特...",
-      "summary": "魏伯亚·深圳优米有范科技有限公司创始合伙人",
+      "title": "游戏技术岗 面了好几个公司 总结下来，吉比特面试感受最好...",
+      "summary": "康琪·自由职业无线开发专家 · 9 赞 1 分享",
       "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
       "sentiment": "neutral",
-      "time": "2024-10-14 08:47",
+      "time": "2024-10-21 17:29",
       "tags": [
         "脉脉",
         "吉比特"
       ],
       "category": "脉脉",
-      "topic": "公司综合",
+      "topic": "招聘求职",
       "section": "舆情",
       "pushable": true
     },
@@ -17666,6 +17080,23 @@ window.MONITOR_DATA = {
       "tags": [
         "脉脉",
         "实名",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-4889ed71635e533b",
+      "platform": "脉脉",
+      "title": "，《盗墓笔记：启程》9月底首轮删档测试；吉比特...",
+      "summary": "魏伯亚·深圳优米有范科技有限公司创始合伙人",
+      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
+      "sentiment": "neutral",
+      "time": "2024-10-14 08:47",
+      "tags": [
+        "脉脉",
         "吉比特"
       ],
       "category": "脉脉",
@@ -17693,23 +17124,6 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-552780faaf7cb027",
-      "platform": "脉脉",
-      "title": "● 三七互娱 ● 世纪华通 ● 雷霆游戏...● 睿琪软件 ● 点点互动…",
-      "summary": "刘武华·扬帆出海创始人兼CEO · 2 赞",
-      "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
-      "sentiment": "neutral",
-      "time": "2024-10-11 09:25",
-      "tags": [
-        "脉脉",
-        "雷霆游戏"
-      ],
-      "category": "脉脉",
-      "topic": "理念价值观",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
       "id": "maimai-68819d78a7b74ca2",
       "platform": "脉脉",
       "title": "● 三七互娱 ● 世纪华通 ● 雷霆游戏...● 睿琪软件 ● 点点互动…",
@@ -17728,19 +17142,19 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-5b0457c5d5ca7779",
+      "id": "maimai-552780faaf7cb027",
       "platform": "脉脉",
-      "title": "华为节后开面 烽火二面结束 美的投晚了无面 吉比特简历挂...美团简历挂…",
-      "summary": "王迪壬·华为Java开发工程师 · 1 评论",
-      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
+      "title": "● 三七互娱 ● 世纪华通 ● 雷霆游戏...● 睿琪软件 ● 点点互动…",
+      "summary": "刘武华·扬帆出海创始人兼CEO · 2 赞",
+      "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
       "sentiment": "neutral",
-      "time": "2024-10-09 09:30",
+      "time": "2024-10-11 09:25",
       "tags": [
         "脉脉",
-        "吉比特"
+        "雷霆游戏"
       ],
       "category": "脉脉",
-      "topic": "公司综合",
+      "topic": "理念价值观",
       "section": "舆情",
       "pushable": true
     },
@@ -17763,19 +17177,19 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-830115dec85ebe98",
+      "id": "maimai-5b0457c5d5ca7779",
       "platform": "脉脉",
-      "title": "🚀 重装前哨 招聘专场开启！...欢迎私信，欢迎砸简历~ 更多资料vv…",
-      "summary": "依依·吉比特游戏HRBP · 1 赞 1 分享 2 评论",
+      "title": "华为节后开面 烽火二面结束 美的投晚了无面 吉比特简历挂...美团简历挂…",
+      "summary": "王迪壬·华为Java开发工程师 · 1 评论",
       "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
       "sentiment": "neutral",
-      "time": "2024-09-25 11:25",
+      "time": "2024-10-09 09:30",
       "tags": [
         "脉脉",
         "吉比特"
       ],
       "category": "脉脉",
-      "topic": "招聘求职",
+      "topic": "公司综合",
       "section": "舆情",
       "pushable": true
     },
@@ -17798,19 +17212,19 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-920bc5bb5808ed83",
+      "id": "maimai-830115dec85ebe98",
       "platform": "脉脉",
-      "title": "打造出一条高增长赛道，成就了三七互娱、世纪华通、吉比特...，2024年…",
-      "summary": "韭菜财经·韭菜财经编辑 · 1 赞",
+      "title": "🚀 重装前哨 招聘专场开启！...欢迎私信，欢迎砸简历~ 更多资料vv…",
+      "summary": "依依·吉比特游戏HRBP · 1 赞 1 分享 2 评论",
       "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
-      "sentiment": "positive",
-      "time": "2024-09-25 09:41",
+      "sentiment": "neutral",
+      "time": "2024-09-25 11:25",
       "tags": [
         "脉脉",
         "吉比特"
       ],
       "category": "脉脉",
-      "topic": "公司综合",
+      "topic": "招聘求职",
       "section": "舆情",
       "pushable": true
     },
@@ -17833,19 +17247,19 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-7a48e0386f4140d1",
+      "id": "maimai-920bc5bb5808ed83",
       "platform": "脉脉",
-      "title": "#吉比特重装前哨招聘",
-      "summary": "melo·吉比特游戏HRBP · 4 赞 1 分享 7 评论",
+      "title": "打造出一条高增长赛道，成就了三七互娱、世纪华通、吉比特...，2024年…",
+      "summary": "韭菜财经·韭菜财经编辑 · 1 赞",
       "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
-      "sentiment": "neutral",
-      "time": "2024-09-24 21:14",
+      "sentiment": "positive",
+      "time": "2024-09-25 09:41",
       "tags": [
         "脉脉",
         "吉比特"
       ],
       "category": "脉脉",
-      "topic": "招聘求职",
+      "topic": "公司综合",
       "section": "舆情",
       "pushable": true
     },
@@ -17860,6 +17274,23 @@ window.MONITOR_DATA = {
       "tags": [
         "脉脉",
         "实名",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-7a48e0386f4140d1",
+      "platform": "脉脉",
+      "title": "#吉比特重装前哨招聘",
+      "summary": "melo·吉比特游戏HRBP · 4 赞 1 分享 7 评论",
+      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
+      "sentiment": "neutral",
+      "time": "2024-09-24 21:14",
+      "tags": [
+        "脉脉",
         "吉比特"
       ],
       "category": "脉脉",
@@ -17905,23 +17336,6 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-f5a39db7b95ee8c5",
-      "platform": "脉脉",
-      "title": "hi 盆友们，预祝大家中秋节快乐呢 今年公司月饼...🥮一如既往地 #…",
-      "summary": "依依·吉比特游戏HRBP · 2 赞",
-      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
-      "sentiment": "neutral",
-      "time": "2024-09-12 15:00",
-      "tags": [
-        "脉脉",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
       "id": "maimai-cfc31ec650579bc8",
       "platform": "脉脉",
       "title": "hi 盆友们，预祝大家中秋节快乐呢 今年公司月饼...🥮一如既往地 #…",
@@ -17933,6 +17347,23 @@ window.MONITOR_DATA = {
         "脉脉",
         "实名",
         "雷霆游戏"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-f5a39db7b95ee8c5",
+      "platform": "脉脉",
+      "title": "hi 盆友们，预祝大家中秋节快乐呢 今年公司月饼...🥮一如既往地 #…",
+      "summary": "依依·吉比特游戏HRBP · 2 赞",
+      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
+      "sentiment": "neutral",
+      "time": "2024-09-12 15:00",
+      "tags": [
+        "脉脉",
+        "吉比特"
       ],
       "category": "脉脉",
       "topic": "公司综合",
@@ -17958,24 +17389,6 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-04486aea891a4c12",
-      "platform": "脉脉",
-      "title": "吉比特雷霆游戏近期美术需求大爆发，正在看机会的美术大佬们看过来哦...",
-      "summary": "Richard·雷霆游戏产品运营 · 2 赞 2 评论",
-      "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
-      "sentiment": "neutral",
-      "time": "2024-09-11 15:07",
-      "tags": [
-        "脉脉",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
       "id": "maimai-44a2d3c96667693e",
       "platform": "脉脉",
       "title": "吉比特雷霆游戏近期美术需求大爆发，正在看机会的美术大佬们看过来哦...",
@@ -17995,20 +17408,20 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-3e0ed235fbca8d3d",
+      "id": "maimai-04486aea891a4c12",
       "platform": "脉脉",
-      "title": "吉比特雷霆游戏9月热招岗位来啦，程序、策划...",
-      "summary": "Richard·雷霆游戏产品运营 · 4 赞",
+      "title": "吉比特雷霆游戏近期美术需求大爆发，正在看机会的美术大佬们看过来哦...",
+      "summary": "Richard·雷霆游戏产品运营 · 2 赞 2 评论",
       "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
       "sentiment": "neutral",
-      "time": "2024-09-11 14:59",
+      "time": "2024-09-11 15:07",
       "tags": [
         "脉脉",
         "吉比特",
         "雷霆游戏"
       ],
       "category": "脉脉",
-      "topic": "招聘求职",
+      "topic": "公司综合",
       "section": "舆情",
       "pushable": true
     },
@@ -18023,6 +17436,24 @@ window.MONITOR_DATA = {
       "tags": [
         "脉脉",
         "实名",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "脉脉",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-3e0ed235fbca8d3d",
+      "platform": "脉脉",
+      "title": "吉比特雷霆游戏9月热招岗位来啦，程序、策划...",
+      "summary": "Richard·雷霆游戏产品运营 · 4 赞",
+      "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
+      "sentiment": "neutral",
+      "time": "2024-09-11 14:59",
+      "tags": [
+        "脉脉",
         "吉比特",
         "雷霆游戏"
       ],
@@ -18050,24 +17481,6 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-a036636046e113c4",
-      "platform": "脉脉",
-      "title": "吉比特董事长：游戏行业正陷入一种「卷透了之后的迷茫...公司董事长兼总经…",
-      "summary": "Ken·速得伯信息Managing consultant · 4 赞 3 评论",
-      "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
-      "sentiment": "neutral",
-      "time": "2024-09-10 10:44",
-      "tags": [
-        "脉脉",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
       "id": "maimai-a3806b3db1b40bf6",
       "platform": "脉脉",
       "title": "吉比特董事长：游戏行业正陷入一种「卷透了之后的迷茫...公司董事长兼总经…",
@@ -18078,6 +17491,24 @@ window.MONITOR_DATA = {
       "tags": [
         "脉脉",
         "实名",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-a036636046e113c4",
+      "platform": "脉脉",
+      "title": "吉比特董事长：游戏行业正陷入一种「卷透了之后的迷茫...公司董事长兼总经…",
+      "summary": "Ken·速得伯信息Managing consultant · 4 赞 3 评论",
+      "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
+      "sentiment": "neutral",
+      "time": "2024-09-10 10:44",
+      "tags": [
+        "脉脉",
         "吉比特",
         "雷霆游戏"
       ],
@@ -18108,24 +17539,6 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-242878f7ad867baf",
-      "platform": "脉脉",
-      "title": "4 【北京深圳广州上海长沙香港]途游游戏...5[深圳厦门]吉比特&雷霆…",
-      "summary": "AI招聘外包出海唐格·AA投资（vc机构）投后顾问&IR负责人 · 1 赞",
-      "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
-      "sentiment": "neutral",
-      "time": "2024-09-09 23:06",
-      "tags": [
-        "脉脉",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "脉脉",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
       "id": "maimai-004e33b866801129",
       "platform": "脉脉",
       "title": "4 【北京深圳广州上海长沙香港]途游游戏...5[深圳厦门]吉比特&雷霆…",
@@ -18145,20 +17558,20 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-b421f094ccbf7622",
+      "id": "maimai-242878f7ad867baf",
       "platform": "脉脉",
-      "title": "这里投递：hr.g-bits.com",
-      "summary": "季新波·吉比特游戏HR · 5 赞 2 分享",
+      "title": "4 【北京深圳广州上海长沙香港]途游游戏...5[深圳厦门]吉比特&雷霆…",
+      "summary": "AI招聘外包出海唐格·AA投资（vc机构）投后顾问&IR负责人 · 1 赞",
       "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
       "sentiment": "neutral",
-      "time": "2024-09-06 18:19",
+      "time": "2024-09-09 23:06",
       "tags": [
         "脉脉",
         "吉比特",
         "雷霆游戏"
       ],
       "category": "脉脉",
-      "topic": "公司综合",
+      "topic": "招聘求职",
       "section": "舆情",
       "pushable": true
     },
@@ -18181,13 +17594,13 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-246ce7ae17bd6ce9",
+      "id": "maimai-b421f094ccbf7622",
       "platform": "脉脉",
-      "title": "众多新项目新需求！欢迎来投递，join.g-bits.com!",
-      "summary": "季新波·吉比特游戏HR · 4 赞 2 分享 1 评论",
+      "title": "这里投递：hr.g-bits.com",
+      "summary": "季新波·吉比特游戏HR · 5 赞 2 分享",
       "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
       "sentiment": "neutral",
-      "time": "2024-09-06 11:31",
+      "time": "2024-09-06 18:19",
       "tags": [
         "脉脉",
         "吉比特",
@@ -18209,6 +17622,24 @@ window.MONITOR_DATA = {
       "tags": [
         "脉脉",
         "实名",
+        "雷霆游戏"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-246ce7ae17bd6ce9",
+      "platform": "脉脉",
+      "title": "众多新项目新需求！欢迎来投递，join.g-bits.com!",
+      "summary": "季新波·吉比特游戏HR · 4 赞 2 分享 1 评论",
+      "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
+      "sentiment": "neutral",
+      "time": "2024-09-06 11:31",
+      "tags": [
+        "脉脉",
+        "吉比特",
         "雷霆游戏"
       ],
       "category": "脉脉",
@@ -18273,23 +17704,6 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-b38f728aa30eb767",
-      "platform": "脉脉",
-      "title": "米哈游#叠纸#鹰角#4399#库洛#乐元素#吉比特...",
-      "summary": "土豆泥·莉莉丝游戏研发工程师 · 2 赞 3 评论",
-      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
-      "sentiment": "neutral",
-      "time": "2024-08-27 20:13",
-      "tags": [
-        "脉脉",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
       "id": "maimai-37273823df85edd9",
       "platform": "脉脉",
       "title": "米哈游#叠纸#鹰角#4399#库洛#乐元素#吉比特...",
@@ -18308,19 +17722,19 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-81da3c28d8fcfcc6",
+      "id": "maimai-b38f728aa30eb767",
       "platform": "脉脉",
-      "title": "游戏测试工程师(吉比特)-秋招",
-      "summary": "凯文·钛动科技后端开发工程师 · 1 赞",
+      "title": "米哈游#叠纸#鹰角#4399#库洛#乐元素#吉比特...",
+      "summary": "土豆泥·莉莉丝游戏研发工程师 · 2 赞 3 评论",
       "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
       "sentiment": "neutral",
-      "time": "2024-08-23 11:34",
+      "time": "2024-08-27 20:13",
       "tags": [
         "脉脉",
         "吉比特"
       ],
       "category": "脉脉",
-      "topic": "招聘求职",
+      "topic": "公司综合",
       "section": "舆情",
       "pushable": true
     },
@@ -18343,19 +17757,19 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-18e4fe4f440a6fe5",
+      "id": "maimai-81da3c28d8fcfcc6",
       "platform": "脉脉",
-      "title": "浙版传媒涨超5%，迅游科技、顺网科技、中青宝、吉比特等跟涨...这还仅仅…",
-      "summary": "互联网那些事·南京那些事文化传媒有限公司品牌主理人 · 1 赞",
+      "title": "游戏测试工程师(吉比特)-秋招",
+      "summary": "凯文·钛动科技后端开发工程师 · 1 赞",
       "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
       "sentiment": "neutral",
-      "time": "2024-08-20 16:09",
+      "time": "2024-08-23 11:34",
       "tags": [
         "脉脉",
         "吉比特"
       ],
       "category": "脉脉",
-      "topic": "公司综合",
+      "topic": "招聘求职",
       "section": "舆情",
       "pushable": true
     },
@@ -18378,13 +17792,13 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-852028fc9f14b7c2",
+      "id": "maimai-18e4fe4f440a6fe5",
       "platform": "脉脉",
-      "title": "米哈游#叠纸#鹰角#4399#库洛#乐元素#吉比特...",
-      "summary": "土豆泥·莉莉丝游戏研发工程师 · 5 赞 4 评论",
+      "title": "浙版传媒涨超5%，迅游科技、顺网科技、中青宝、吉比特等跟涨...这还仅仅…",
+      "summary": "互联网那些事·南京那些事文化传媒有限公司品牌主理人 · 1 赞",
       "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
       "sentiment": "neutral",
-      "time": "2024-08-17 00:59",
+      "time": "2024-08-20 16:09",
       "tags": [
         "脉脉",
         "吉比特"
@@ -18413,19 +17827,19 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-fa3ec9d6c0a4e9b0",
+      "id": "maimai-852028fc9f14b7c2",
       "platform": "脉脉",
-      "title": "吉比特校招开始啦，欢迎投递！...",
-      "summary": "郑松月·厦门吉比特网络技术股份有限公司HRBP · 5 赞",
+      "title": "米哈游#叠纸#鹰角#4399#库洛#乐元素#吉比特...",
+      "summary": "土豆泥·莉莉丝游戏研发工程师 · 5 赞 4 评论",
       "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
       "sentiment": "neutral",
-      "time": "2024-08-15 08:57",
+      "time": "2024-08-17 00:59",
       "tags": [
         "脉脉",
         "吉比特"
       ],
       "category": "脉脉",
-      "topic": "招聘求职",
+      "topic": "公司综合",
       "section": "舆情",
       "pushable": true
     },
@@ -18448,20 +17862,19 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-7a0553ecd3973f35",
+      "id": "maimai-fa3ec9d6c0a4e9b0",
       "platform": "脉脉",
-      "title": "【企业介绍】吉比特&雷霆游戏，研运一体的一家上市游戏公司...cry》《…",
-      "summary": "X · 2 评论",
+      "title": "吉比特校招开始啦，欢迎投递！...",
+      "summary": "郑松月·厦门吉比特网络技术股份有限公司HRBP · 5 赞",
       "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
       "sentiment": "neutral",
-      "time": "2024-08-13 21:00",
+      "time": "2024-08-15 08:57",
       "tags": [
         "脉脉",
-        "吉比特",
-        "雷霆游戏"
+        "吉比特"
       ],
       "category": "脉脉",
-      "topic": "公司综合",
+      "topic": "招聘求职",
       "section": "舆情",
       "pushable": true
     },
@@ -18476,6 +17889,24 @@ window.MONITOR_DATA = {
       "tags": [
         "脉脉",
         "实名",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-7a0553ecd3973f35",
+      "platform": "脉脉",
+      "title": "【企业介绍】吉比特&雷霆游戏，研运一体的一家上市游戏公司...cry》《…",
+      "summary": "X · 2 评论",
+      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
+      "sentiment": "neutral",
+      "time": "2024-08-13 21:00",
+      "tags": [
+        "脉脉",
         "吉比特",
         "雷霆游戏"
       ],
@@ -18503,24 +17934,6 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-6152b176a3dc82c3",
-      "platform": "脉脉",
-      "title": "吉比特&雷霆游戏有大量招聘需求，在研项目多多...",
-      "summary": "Violet 小秋·吉比特游戏HR · 6 赞 1 分享 3 评论",
-      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
-      "sentiment": "neutral",
-      "time": "2024-08-09 18:10",
-      "tags": [
-        "脉脉",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "脉脉",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
       "id": "maimai-23501827663dc0ad",
       "platform": "脉脉",
       "title": "吉比特&雷霆游戏有大量招聘需求，在研项目多多...",
@@ -18540,17 +17953,17 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-f9ee0650d039208a",
+      "id": "maimai-6152b176a3dc82c3",
       "platform": "脉脉",
-      "title": "新的一年，吉比特2025秋招启动！",
-      "summary": "季新波·吉比特游戏HR · 4 赞 1 评论",
+      "title": "吉比特&雷霆游戏有大量招聘需求，在研项目多多...",
+      "summary": "Violet 小秋·吉比特游戏HR · 6 赞 1 分享 3 评论",
       "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
       "sentiment": "neutral",
-      "time": "2024-08-08 09:06",
+      "time": "2024-08-09 18:10",
       "tags": [
         "脉脉",
-        "实名",
-        "吉比特"
+        "吉比特",
+        "雷霆游戏"
       ],
       "category": "脉脉",
       "topic": "招聘求职",
@@ -18567,6 +17980,24 @@ window.MONITOR_DATA = {
       "time": "2024-08-08 09:06",
       "tags": [
         "脉脉",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-f9ee0650d039208a",
+      "platform": "脉脉",
+      "title": "新的一年，吉比特2025秋招启动！",
+      "summary": "季新波·吉比特游戏HR · 4 赞 1 评论",
+      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
+      "sentiment": "neutral",
+      "time": "2024-08-08 09:06",
+      "tags": [
+        "脉脉",
+        "实名",
         "吉比特"
       ],
       "category": "脉脉",
@@ -18594,6 +18025,23 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
+      "id": "maimai-a4dbaa98bef06d7e",
+      "platform": "脉脉",
+      "title": "胡莱游戏： 其余：腾讯，三七，Dena， 冰川...，中手游，吉比特，雷…",
+      "summary": "邹燕翔·君和佳仕（北京）企业管理咨询有限责任公司猎头合伙人",
+      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
+      "sentiment": "neutral",
+      "time": "2024-07-17 10:59",
+      "tags": [
+        "脉脉",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "经营管理",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
       "id": "maimai-2ba38f46ab5b5aaa",
       "platform": "脉脉",
       "title": "胡莱游戏： 其余：腾讯，三七，Dena， 冰川...，中手游，吉比特，雷…",
@@ -18604,23 +18052,6 @@ window.MONITOR_DATA = {
       "tags": [
         "脉脉",
         "实名",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "经营管理",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-a4dbaa98bef06d7e",
-      "platform": "脉脉",
-      "title": "胡莱游戏： 其余：腾讯，三七，Dena， 冰川...，中手游，吉比特，雷…",
-      "summary": "邹燕翔·君和佳仕（北京）企业管理咨询有限责任公司猎头合伙人",
-      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true&sortby=time",
-      "sentiment": "neutral",
-      "time": "2024-07-17 10:59",
-      "tags": [
-        "脉脉",
         "吉比特"
       ],
       "category": "脉脉",
@@ -18666,24 +18097,6 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-8d65e29d7831878f",
-      "platform": "脉脉",
-      "title": "#雷霆游戏自研招聘...最近公司有两个游戏自研项目（出海休闲）...#叠…",
-      "summary": "依依·吉比特游戏HRBP · 1 赞 1 评论",
-      "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
-      "sentiment": "neutral",
-      "time": "2024-06-25 18:16",
-      "tags": [
-        "脉脉",
-        "雷霆游戏",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
       "id": "maimai-7bfdb832e8734c57",
       "platform": "脉脉",
       "title": "#雷霆游戏自研招聘...最近公司有两个游戏自研项目（出海休闲）...#叠…",
@@ -18702,20 +18115,20 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-ee1e43a90391da10",
+      "id": "maimai-8d65e29d7831878f",
       "platform": "脉脉",
-      "title": "#吉比特...#雷霆游戏",
-      "summary": "依依·吉比特游戏HRBP · 1 评论",
+      "title": "#雷霆游戏自研招聘...最近公司有两个游戏自研项目（出海休闲）...#叠…",
+      "summary": "依依·吉比特游戏HRBP · 1 赞 1 评论",
       "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
       "sentiment": "neutral",
-      "time": "2024-06-20 11:29",
+      "time": "2024-06-25 18:16",
       "tags": [
         "脉脉",
-        "吉比特",
-        "雷霆游戏"
+        "雷霆游戏",
+        "吉比特"
       ],
       "category": "脉脉",
-      "topic": "公司综合",
+      "topic": "招聘求职",
       "section": "舆情",
       "pushable": true
     },
@@ -18739,20 +18152,20 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-7a3f53f1462c5e4d",
+      "id": "maimai-ee1e43a90391da10",
       "platform": "脉脉",
-      "title": "吉比特雷霆游戏6月热招岗位来啦，程序、策划...",
-      "summary": "Richard·雷霆游戏产品运营 · 1 赞 7 评论",
+      "title": "#吉比特...#雷霆游戏",
+      "summary": "依依·吉比特游戏HRBP · 1 评论",
       "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
       "sentiment": "neutral",
-      "time": "2024-06-13 10:12",
+      "time": "2024-06-20 11:29",
       "tags": [
         "脉脉",
         "吉比特",
         "雷霆游戏"
       ],
       "category": "脉脉",
-      "topic": "招聘求职",
+      "topic": "公司综合",
       "section": "舆情",
       "pushable": true
     },
@@ -18767,6 +18180,24 @@ window.MONITOR_DATA = {
       "tags": [
         "脉脉",
         "实名",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "脉脉",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-7a3f53f1462c5e4d",
+      "platform": "脉脉",
+      "title": "吉比特雷霆游戏6月热招岗位来啦，程序、策划...",
+      "summary": "Richard·雷霆游戏产品运营 · 1 赞 7 评论",
+      "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
+      "sentiment": "neutral",
+      "time": "2024-06-13 10:12",
+      "tags": [
+        "脉脉",
         "吉比特",
         "雷霆游戏"
       ],
@@ -18794,24 +18225,6 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-df581aad981a7c9c",
-      "platform": "脉脉",
-      "title": "吉比特&雷霆游戏厦门国风扁平在研项目美术岗位...餐饮补贴；休假制度；每…",
-      "summary": "郑松月·厦门吉比特网络技术股份有限公司HRBP · 2 赞 1 分享 4 评论",
-      "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
-      "sentiment": "neutral",
-      "time": "2024-05-31 10:11",
-      "tags": [
-        "脉脉",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "脉脉",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
       "id": "maimai-3e0a05c8308f0a90",
       "platform": "脉脉",
       "title": "吉比特&雷霆游戏厦门国风扁平在研项目美术岗位...餐饮补贴；休假制度；每…",
@@ -18822,6 +18235,24 @@ window.MONITOR_DATA = {
       "tags": [
         "脉脉",
         "实名",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "脉脉",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-df581aad981a7c9c",
+      "platform": "脉脉",
+      "title": "吉比特&雷霆游戏厦门国风扁平在研项目美术岗位...餐饮补贴；休假制度；每…",
+      "summary": "郑松月·厦门吉比特网络技术股份有限公司HRBP · 2 赞 1 分享 4 评论",
+      "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
+      "sentiment": "neutral",
+      "time": "2024-05-31 10:11",
+      "tags": [
+        "脉脉",
         "吉比特",
         "雷霆游戏"
       ],
@@ -18846,7 +18277,9 @@ window.MONITOR_DATA = {
       "answerCount": 117,
       "source": "cdp",
       "category": "知乎",
-      "topic": "产品游戏"
+      "topic": "产品游戏",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "xhs-66448fd1000000001e031c5a",
@@ -18922,24 +18355,6 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-af528c1db17ac097",
-      "platform": "脉脉",
-      "title": "长期招： 海外发行制作人（欧美/日韩） 【...爆款项目或经验丰富】 中…",
-      "summary": "依依·吉比特游戏HRBP · 3 赞 1 评论",
-      "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
-      "sentiment": "neutral",
-      "time": "2024-04-12 20:29",
-      "tags": [
-        "脉脉",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "脉脉",
-      "topic": "产品游戏",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
       "id": "maimai-af89cb39a9a83ed2",
       "platform": "脉脉",
       "title": "长期招： 海外发行制作人（欧美/日韩） 【...爆款项目或经验丰富】 中…",
@@ -18950,6 +18365,24 @@ window.MONITOR_DATA = {
       "tags": [
         "脉脉",
         "实名",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "脉脉",
+      "topic": "产品游戏",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-af528c1db17ac097",
+      "platform": "脉脉",
+      "title": "长期招： 海外发行制作人（欧美/日韩） 【...爆款项目或经验丰富】 中…",
+      "summary": "依依·吉比特游戏HRBP · 3 赞 1 评论",
+      "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
+      "sentiment": "neutral",
+      "time": "2024-04-12 20:29",
+      "tags": [
+        "脉脉",
         "吉比特",
         "雷霆游戏"
       ],
@@ -18977,24 +18410,6 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-56076787894c1d1b",
-      "platform": "脉脉",
-      "title": "吉比特&雷霆游戏4月热招岗位来也！...",
-      "summary": "吉比特游戏·企业号人力资源(HR)/人事 · 4 赞 1 分享 2 评论",
-      "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
-      "sentiment": "neutral",
-      "time": "2024-04-08 13:54",
-      "tags": [
-        "脉脉",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "脉脉",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
       "id": "maimai-08137091a0eb0be3",
       "platform": "脉脉",
       "title": "吉比特&雷霆游戏4月热招岗位来也！...",
@@ -19014,20 +18429,20 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-d716b8dd517dbb61",
+      "id": "maimai-56076787894c1d1b",
       "platform": "脉脉",
-      "title": "吉比特&雷霆游戏 所有福利看这个就够了！...",
-      "summary": "宋超·香港大宋投资有限公司高级咨询顾问 · 1 赞 2 评论",
+      "title": "吉比特&雷霆游戏4月热招岗位来也！...",
+      "summary": "吉比特游戏·企业号人力资源(HR)/人事 · 4 赞 1 分享 2 评论",
       "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
       "sentiment": "neutral",
-      "time": "2024-04-01 14:57",
+      "time": "2024-04-08 13:54",
       "tags": [
         "脉脉",
         "吉比特",
         "雷霆游戏"
       ],
       "category": "脉脉",
-      "topic": "企业文化",
+      "topic": "招聘求职",
       "section": "舆情",
       "pushable": true
     },
@@ -19042,6 +18457,24 @@ window.MONITOR_DATA = {
       "tags": [
         "脉脉",
         "实名",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "脉脉",
+      "topic": "企业文化",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-d716b8dd517dbb61",
+      "platform": "脉脉",
+      "title": "吉比特&雷霆游戏 所有福利看这个就够了！...",
+      "summary": "宋超·香港大宋投资有限公司高级咨询顾问 · 1 赞 2 评论",
+      "url": "https://maimai.cn/web/search_center?type=feed&query=%E9%9B%B7%E9%9C%86%E6%B8%B8%E6%88%8F&highlight=true&sortby=time",
+      "sentiment": "neutral",
+      "time": "2024-04-01 14:57",
+      "tags": [
+        "脉脉",
         "吉比特",
         "雷霆游戏"
       ],
@@ -19120,7 +18553,9 @@ window.MONITOR_DATA = {
       ],
       "category": "小红书",
       "_srcKw": "吉比特 绩效",
-      "topic": "企业文化"
+      "topic": "企业文化",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "nowcoder-596003069284966400",
@@ -19266,7 +18701,9 @@ window.MONITOR_DATA = {
       "answerCount": 1,
       "source": "cdp",
       "category": "知乎",
-      "topic": "股票财务"
+      "topic": "股票财务",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "zhihu-q634112766",
@@ -19321,7 +18758,9 @@ window.MONITOR_DATA = {
       "answerCount": 3,
       "source": "cdp",
       "category": "知乎",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "zhihu-q629488565",
@@ -19410,7 +18849,9 @@ window.MONITOR_DATA = {
       "answerCount": 4,
       "source": "cdp",
       "category": "知乎",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "maimai-2e50298efb82ef7e",
@@ -20312,6 +19753,23 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
+      "id": "maimai-WlV5N2ZVc280RlYxZVRR",
+      "platform": "脉脉",
+      "title": "大公司的朋友圈--网易、鹰角等八家公司的游戏投资版图",
+      "summary": "三、投资员工搞副业--吉比特雷霆的朋友圈. 吉比特雷霆*是国内投资比较活跃 ... 吉比特前员工，这在流动性大，又竞业泛滥的游戏行业不太常见。吉 ...",
+      "url": "https://maimai.cn/article/detail?fid\\u003d1759850598\\u0026efid\\u003d7LLgGnUZUy7fUso4FV1eTQ",
+      "sentiment": "neutral",
+      "time": "2022-11-11 00:00",
+      "tags": [
+        "脉脉",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
       "id": "maimai-1759850598",
       "platform": "脉脉",
       "title": "大公司的朋友圈--网易、鹰角等八家公司的游戏投资版图",
@@ -20325,23 +19783,6 @@ window.MONITOR_DATA = {
       ],
       "lastChange": "2026-09-13 14:43",
       "changeNote": "摘要有更新",
-      "category": "脉脉",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-WlV5N2ZVc280RlYxZVRR",
-      "platform": "脉脉",
-      "title": "大公司的朋友圈--网易、鹰角等八家公司的游戏投资版图",
-      "summary": "三、投资员工搞副业--吉比特雷霆的朋友圈. 吉比特雷霆*是国内投资比较活跃 ... 吉比特前员工，这在流动性大，又竞业泛滥的游戏行业不太常见。吉 ...",
-      "url": "https://maimai.cn/article/detail?fid\\u003d1759850598\\u0026efid\\u003d7LLgGnUZUy7fUso4FV1eTQ",
-      "sentiment": "neutral",
-      "time": "2022-11-11 00:00",
-      "tags": [
-        "脉脉",
-        "吉比特"
-      ],
       "category": "脉脉",
       "topic": "公司综合",
       "section": "舆情",
@@ -20437,6 +19878,23 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
+      "id": "maimai-230f733a7e406e14",
+      "platform": "脉脉",
+      "title": "一次可以投递四家游戏公司：真有趣、勇仕网络、极致游戏、吉比特...",
+      "summary": "吉比特游戏·企业号人力资源(HR)/人事 · 3 赞",
+      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true",
+      "sentiment": "neutral",
+      "time": "2022-10-24 20:48",
+      "tags": [
+        "脉脉",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
       "id": "maimai-1fb4a49cce1a547d",
       "platform": "脉脉",
       "title": "厦门四家游戏公司联合校招启动，动动手指，一次可以投递四家游戏公司...：…",
@@ -20451,23 +19909,6 @@ window.MONITOR_DATA = {
       ],
       "category": "脉脉",
       "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-230f733a7e406e14",
-      "platform": "脉脉",
-      "title": "一次可以投递四家游戏公司：真有趣、勇仕网络、极致游戏、吉比特...",
-      "summary": "吉比特游戏·企业号人力资源(HR)/人事 · 3 赞",
-      "url": "https://maimai.cn/web/search_center?type=feed&query=%E5%90%89%E6%AF%94%E7%89%B9&highlight=true",
-      "sentiment": "neutral",
-      "time": "2022-10-24 20:48",
-      "tags": [
-        "脉脉",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
       "section": "舆情",
       "pushable": true
     },
@@ -20503,7 +19944,9 @@ window.MONITOR_DATA = {
       "answerCount": 1,
       "source": "cdp",
       "category": "知乎",
-      "topic": "招聘求职"
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "zhihu-572741160",
@@ -20613,7 +20056,9 @@ window.MONITOR_DATA = {
       "answerCount": 2,
       "source": "cdp",
       "category": "知乎",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "zhihu-q552215240",
@@ -20630,7 +20075,9 @@ window.MONITOR_DATA = {
       "answerCount": 1,
       "source": "cdp",
       "category": "知乎",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "maimai-68e92a19a8192cfb",
@@ -20753,24 +20200,6 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-1742462008",
-      "platform": "脉脉",
-      "title": "腾讯、雷霆游戏持续加注的赛道，就差可持续输出的产品了",
-      "summary": "《奥比岛：梦想国度》，是由吉比特雷霆游戏发行、百奥家庭互动（广州百田）旗下天梯互娱研发的休闲益智/模拟经营新手游。之所以不言其为“新品”，更多在于奥比岛 ...",
-      "url": "https://maimai.cn/article/detail?fid=1742462008&efid=QZyDOjCLeXcywJ127kRCzQ",
-      "sentiment": "neutral",
-      "time": "2022-07-13 00:00",
-      "tags": [
-        "脉脉",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "脉脉",
-      "topic": "产品游戏",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
       "id": "zhihu-540898364",
       "platform": "知乎",
       "title": "腾讯、雷霆游戏持续加注的赛道，就差可持续输出的产品了",
@@ -20785,6 +20214,24 @@ window.MONITOR_DATA = {
       ],
       "source": "serp",
       "category": "知乎",
+      "topic": "产品游戏",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-1742462008",
+      "platform": "脉脉",
+      "title": "腾讯、雷霆游戏持续加注的赛道，就差可持续输出的产品了",
+      "summary": "《奥比岛：梦想国度》，是由吉比特雷霆游戏发行、百奥家庭互动（广州百田）旗下天梯互娱研发的休闲益智/模拟经营新手游。之所以不言其为“新品”，更多在于奥比岛 ...",
+      "url": "https://maimai.cn/article/detail?fid=1742462008&efid=QZyDOjCLeXcywJ127kRCzQ",
+      "sentiment": "neutral",
+      "time": "2022-07-13 00:00",
+      "tags": [
+        "脉脉",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "脉脉",
       "topic": "产品游戏",
       "section": "舆情",
       "pushable": true
@@ -20838,7 +20285,9 @@ window.MONITOR_DATA = {
       "answerCount": 16,
       "source": "cdp",
       "category": "知乎",
-      "topic": "企业文化"
+      "topic": "企业文化",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "maimai-610ca097e73536ef",
@@ -21013,7 +20462,9 @@ window.MONITOR_DATA = {
       "answerCount": 29,
       "source": "cdp",
       "category": "知乎",
-      "topic": "产品游戏"
+      "topic": "产品游戏",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "maimai-a98f6988182c7210",
@@ -21069,7 +20520,9 @@ window.MONITOR_DATA = {
       "answerCount": 33,
       "source": "cdp",
       "category": "知乎",
-      "topic": "产品游戏"
+      "topic": "产品游戏",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "maimai-de9d30c4da7e1d0c",
@@ -21139,14 +20592,16 @@ window.MONITOR_DATA = {
       "answerCount": 23,
       "source": "cdp",
       "category": "知乎",
-      "topic": "产品游戏"
+      "topic": "产品游戏",
+      "section": "舆情",
+      "pushable": true
     },
     {
-      "id": "maimai-1691580146",
+      "id": "maimai-Uk1jd281VGpEeEM5Y1BR",
       "platform": "脉脉",
       "title": "《一念逍遥》发行负责人宗亚琴：从概念到设计，国风仙侠手游 ...",
       "summary": "在国风游戏产业论坛上，吉比特雷霆游戏《一念逍遥》发行负责人宗亚琴发表了《从概念到设计，国风仙侠手游的修仙之路》的演讲。",
-      "url": "https://maimai.cn/article/detail?fid=1691580146&efid=SIn24ffRMcwo5TjDxC9cPQ",
+      "url": "https://maimai.cn/article/detail?fid\\u003d1691580146\\u0026efid\\u003dSIn24ffRMcwo5TjDxC9cPQ",
       "sentiment": "neutral",
       "time": "2021-12-16 00:00",
       "tags": [
@@ -21160,11 +20615,11 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-Uk1jd281VGpEeEM5Y1BR",
+      "id": "maimai-1691580146",
       "platform": "脉脉",
       "title": "《一念逍遥》发行负责人宗亚琴：从概念到设计，国风仙侠手游 ...",
       "summary": "在国风游戏产业论坛上，吉比特雷霆游戏《一念逍遥》发行负责人宗亚琴发表了《从概念到设计，国风仙侠手游的修仙之路》的演讲。",
-      "url": "https://maimai.cn/article/detail?fid\\u003d1691580146\\u0026efid\\u003dSIn24ffRMcwo5TjDxC9cPQ",
+      "url": "https://maimai.cn/article/detail?fid=1691580146&efid=SIn24ffRMcwo5TjDxC9cPQ",
       "sentiment": "neutral",
       "time": "2021-12-16 00:00",
       "tags": [
@@ -21231,25 +20686,6 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-WmxSb1puczk0XzJKQ2Jn",
-      "platform": "脉脉",
-      "title": "吉比特技术中心自研编程语言介绍",
-      "summary": "沈予卿，吉比特技术中心负责人，《一念逍遥》制作人。 从高中就开始用文曲星摸索编程到如今与团队自研编程语言，是一名有着一头乌黑浓密的秀发、不爱 ...",
-      "url": "https://maimai.cn/article/detail?fid\\u003d1677318801\\u0026efid\\u003dEY6VzA9ZlRoZns94_2JCbg",
-      "sentiment": "neutral",
-      "time": "2021-10-29 00:00",
-      "tags": [
-        "脉脉",
-        "吉比特"
-      ],
-      "lastChange": "2026-08-17 10:45",
-      "changeNote": "摘要有更新",
-      "category": "脉脉",
-      "topic": "产品游戏",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
       "id": "maimai-1677318801",
       "platform": "脉脉",
       "title": "吉比特技术中心自研编程语言介绍",
@@ -21262,6 +20698,25 @@ window.MONITOR_DATA = {
         "吉比特"
       ],
       "lastChange": "2026-07-31 13:04",
+      "changeNote": "摘要有更新",
+      "category": "脉脉",
+      "topic": "产品游戏",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-WmxSb1puczk0XzJKQ2Jn",
+      "platform": "脉脉",
+      "title": "吉比特技术中心自研编程语言介绍",
+      "summary": "沈予卿，吉比特技术中心负责人，《一念逍遥》制作人。 从高中就开始用文曲星摸索编程到如今与团队自研编程语言，是一名有着一头乌黑浓密的秀发、不爱 ...",
+      "url": "https://maimai.cn/article/detail?fid\\u003d1677318801\\u0026efid\\u003dEY6VzA9ZlRoZns94_2JCbg",
+      "sentiment": "neutral",
+      "time": "2021-10-29 00:00",
+      "tags": [
+        "脉脉",
+        "吉比特"
+      ],
+      "lastChange": "2026-08-17 10:45",
       "changeNote": "摘要有更新",
       "category": "脉脉",
       "topic": "产品游戏",
@@ -21360,7 +20815,9 @@ window.MONITOR_DATA = {
       "answerCount": 5,
       "source": "cdp",
       "category": "知乎",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "zhihu-q463704962",
@@ -21377,7 +20834,9 @@ window.MONITOR_DATA = {
       "answerCount": 81,
       "source": "cdp",
       "category": "知乎",
-      "topic": "产品游戏"
+      "topic": "产品游戏",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "zhihu-q453824978",
@@ -21394,7 +20853,9 @@ window.MONITOR_DATA = {
       "answerCount": 2,
       "source": "cdp",
       "category": "知乎",
-      "topic": "股票财务"
+      "topic": "股票财务",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "zhihu-363262325",
@@ -21525,7 +20986,9 @@ window.MONITOR_DATA = {
       "answerCount": 3,
       "source": "cdp",
       "category": "知乎",
-      "topic": "产品游戏"
+      "topic": "产品游戏",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "zhihu-296266186",
@@ -21547,24 +21010,6 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "nowcoder-c3Qvd2QvbmV3cy84NDY0",
-      "platform": "牛客",
-      "title": "“吉比特雷霆游戏”再次重击私服涉案金额6000余万元！",
-      "summary": "“吉比特雷霆游戏”再次重击私服涉案金额6000余万元！ ... 怎么快速找到这里？ 通过手机浏览器收藏该页面，或添加至手机桌面即可。",
-      "url": "https://game.leiting.com/list/wd/news/8464",
-      "sentiment": "neutral",
-      "time": "2020-11-13 00:00",
-      "tags": [
-        "牛客",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "牛客",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
       "id": "maimai-c3Qvd2QvbmV3cy84NDY0",
       "platform": "脉脉",
       "title": "“吉比特雷霆游戏”再次重击私服涉案金额6000余万元！",
@@ -21578,6 +21023,24 @@ window.MONITOR_DATA = {
         "雷霆游戏"
       ],
       "category": "脉脉",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "nowcoder-c3Qvd2QvbmV3cy84NDY0",
+      "platform": "牛客",
+      "title": "“吉比特雷霆游戏”再次重击私服涉案金额6000余万元！",
+      "summary": "“吉比特雷霆游戏”再次重击私服涉案金额6000余万元！ ... 怎么快速找到这里？ 通过手机浏览器收藏该页面，或添加至手机桌面即可。",
+      "url": "https://game.leiting.com/list/wd/news/8464",
+      "sentiment": "neutral",
+      "time": "2020-11-13 00:00",
+      "tags": [
+        "牛客",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "牛客",
       "topic": "公司综合",
       "section": "舆情",
       "pushable": true
@@ -21615,7 +21078,9 @@ window.MONITOR_DATA = {
       "answerCount": 1,
       "source": "cdp",
       "category": "知乎",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "zhihu-q25342693",
@@ -21634,7 +21099,9 @@ window.MONITOR_DATA = {
       "lastChange": "2026-10-14 10:23",
       "changeNote": "新增 1 个回答",
       "category": "知乎",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "zhihu-q270695457",
@@ -21651,22 +21118,6 @@ window.MONITOR_DATA = {
       "answerCount": 5,
       "source": "cdp",
       "category": "知乎",
-      "topic": "公司综合"
-    },
-    {
-      "id": "maimai-394556185",
-      "platform": "脉脉",
-      "title": "吉比特&雷霆游戏未来游戏制作人怎么样？",
-      "summary": "本人虽然喜欢游戏多年，但是还没有游戏制作的经验，最近才看到吉比特这个比赛，奖励挺诱人的但是离初赛截止日期没 ...",
-      "url": "https://www.zhihu.com/question/394556185",
-      "sentiment": "neutral",
-      "time": "2020-05-13 00:00",
-      "tags": [
-        "脉脉",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "脉脉",
       "topic": "公司综合",
       "section": "舆情",
       "pushable": true
@@ -21690,6 +21141,24 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
+      "id": "maimai-394556185",
+      "platform": "脉脉",
+      "title": "吉比特&雷霆游戏未来游戏制作人怎么样？",
+      "summary": "本人虽然喜欢游戏多年，但是还没有游戏制作的经验，最近才看到吉比特这个比赛，奖励挺诱人的但是离初赛截止日期没 ...",
+      "url": "https://www.zhihu.com/question/394556185",
+      "sentiment": "neutral",
+      "time": "2020-05-13 00:00",
+      "tags": [
+        "脉脉",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
       "id": "zhihu-q315857144",
       "platform": "知乎",
       "title": "雷霆游戏的跨越星弧，体验如何，有游戏心得吗？",
@@ -21704,7 +21173,9 @@ window.MONITOR_DATA = {
       "answerCount": 7,
       "source": "cdp",
       "category": "知乎",
-      "topic": "产品游戏"
+      "topic": "产品游戏",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "maimai-Q4OTc4MDAwMTNhNjVjMg",
@@ -21738,7 +21209,9 @@ window.MONITOR_DATA = {
       "answerCount": 4,
       "source": "cdp",
       "category": "知乎",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "zhihu-q341982497",
@@ -21778,24 +21251,6 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-YWE0ZDYyNmViMi5odG1s",
-      "platform": "脉脉",
-      "title": "雷霆游戏荣获“2014年度最佳自研厂商”",
-      "summary": "作为厦门吉比特网络技术股份有限公司的子公司，雷霆游戏秉持了吉比特“创造美好体验”的理念，集结了吉比特的精英研发团队，自主研运了广受好评的3D战斗 ...",
-      "url": "https://www.leiting.com/terrace/mobile/news/news_detail_ff808081495fed120149cbaa4d626eb2.html",
-      "sentiment": "positive",
-      "time": "2018-06-21 00:00",
-      "tags": [
-        "脉脉",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "脉脉",
-      "topic": "理念价值观",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
       "id": "nowcoder-YWE0ZDYyNmViMi5odG1s",
       "platform": "牛客",
       "title": "雷霆游戏荣获“2014年度最佳自研厂商”",
@@ -21809,6 +21264,24 @@ window.MONITOR_DATA = {
         "雷霆游戏"
       ],
       "category": "牛客",
+      "topic": "理念价值观",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-YWE0ZDYyNmViMi5odG1s",
+      "platform": "脉脉",
+      "title": "雷霆游戏荣获“2014年度最佳自研厂商”",
+      "summary": "作为厦门吉比特网络技术股份有限公司的子公司，雷霆游戏秉持了吉比特“创造美好体验”的理念，集结了吉比特的精英研发团队，自主研运了广受好评的3D战斗 ...",
+      "url": "https://www.leiting.com/terrace/mobile/news/news_detail_ff808081495fed120149cbaa4d626eb2.html",
+      "sentiment": "positive",
+      "time": "2018-06-21 00:00",
+      "tags": [
+        "脉脉",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "脉脉",
       "topic": "理念价值观",
       "section": "舆情",
       "pushable": true
@@ -21828,7 +21301,9 @@ window.MONITOR_DATA = {
       "answerCount": 1,
       "source": "cdp",
       "category": "知乎",
-      "topic": "公司综合"
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
     },
     {
       "id": "nowcoder-NjEyNTg5MzFfMjA0ODI0",
@@ -21868,24 +21343,6 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-36659279",
-      "platform": "脉脉",
-      "title": "厦门吉比特的分公司雷霆游戏怎么样？ - AppGrowing出海 ...",
-      "summary": "分享一下近期雷霆游戏的业务发展情况~. 上月末，雷霆游戏在深圳成立新公司可引科技，占股45%，余下股份由法人李欣逾持有。后者也是雷霆游戏海外短剧 ...",
-      "url": "https://www.zhihu.com/question/36659279/answer/1895207248038449695",
-      "sentiment": "neutral",
-      "time": "2015-10-19 00:00",
-      "tags": [
-        "脉脉",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
       "id": "nowcoder-36659279",
       "platform": "牛客",
       "title": "厦门吉比特的分公司雷霆游戏怎么样？ - AppGrowing出海 ...",
@@ -21904,20 +21361,20 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-25342693",
+      "id": "maimai-36659279",
       "platform": "脉脉",
-      "title": "厦门吉比特游戏公司怎么样？ - 翟健的回答",
-      "summary": "1、吉比特以及雷霆游戏是一家只想扎根游戏行业，坚持创造美好游戏理念的研发和运营的公司，也许现在还没达到，但这是目标。 2、在公司赚钱的前提下 ...",
-      "url": "https://www.zhihu.com/question/25342693/answer/108489415",
+      "title": "厦门吉比特的分公司雷霆游戏怎么样？ - AppGrowing出海 ...",
+      "summary": "分享一下近期雷霆游戏的业务发展情况~. 上月末，雷霆游戏在深圳成立新公司可引科技，占股45%，余下股份由法人李欣逾持有。后者也是雷霆游戏海外短剧 ...",
+      "url": "https://www.zhihu.com/question/36659279/answer/1895207248038449695",
       "sentiment": "neutral",
-      "time": "2014-09-12 00:00",
+      "time": "2015-10-19 00:00",
       "tags": [
         "脉脉",
         "吉比特",
         "雷霆游戏"
       ],
       "category": "脉脉",
-      "topic": "理念价值观",
+      "topic": "公司综合",
       "section": "舆情",
       "pushable": true
     },
@@ -21935,6 +21392,24 @@ window.MONITOR_DATA = {
         "雷霆游戏"
       ],
       "category": "牛客",
+      "topic": "理念价值观",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-25342693",
+      "platform": "脉脉",
+      "title": "厦门吉比特游戏公司怎么样？ - 翟健的回答",
+      "summary": "1、吉比特以及雷霆游戏是一家只想扎根游戏行业，坚持创造美好游戏理念的研发和运营的公司，也许现在还没达到，但这是目标。 2、在公司赚钱的前提下 ...",
+      "url": "https://www.zhihu.com/question/25342693/answer/108489415",
+      "sentiment": "neutral",
+      "time": "2014-09-12 00:00",
+      "tags": [
+        "脉脉",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "脉脉",
       "topic": "理念价值观",
       "section": "舆情",
       "pushable": true
@@ -21976,86 +21451,39 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "xhs-8da16cac-d63f-45da-ba98-ca7ffc563820#1792130844902",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/8da16cac-d63f-45da-ba98-ca7ffc563820#1792130844902?xsec_token=ABI38Pwi81x2d9orjw4rlizFn1udq5AyvpUH7PWdujQRLmHzpZrcURVtATO0899V-hMN3hxP5s7r7Kc9ecRv2gsanc591ij2kps0o3Xsk8JtY=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合"
-    },
-    {
-      "id": "xhs-b335f82d-fa96-4658-b778-fe94e5a5bd32#1792130846118",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/b335f82d-fa96-4658-b778-fe94e5a5bd32#1792130846118?xsec_token=ABq5Qp0XaSCxqyH40WltTunnecV23WQLqp3gEBu02jgCKlhNn47hDmHHntizpGgYOfNQWn0kAkvp9ZG-TBF9ZTitIOx3cfA1mYmeso8OWD5y4=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合"
-    },
-    {
-      "id": "xhs-579b605a-5250-453c-83c8-cd3851da3fec#1792130854134",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/579b605a-5250-453c-83c8-cd3851da3fec#1792130854134?xsec_token=ABtmFHXcOXDzth53dPS_9R-QYbv13ftTbCIlyEubqbcuxSiBxCsVeoaDw9LBhPosc9qmr17Z8l3GWKM8migylD-_l0MObM-7fiv-dl-t6S1S4=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合"
-    },
-    {
-      "id": "xhs-7a3fb293-32e9-4c3d-ba62-6a5690c16896#1792130855334",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/7a3fb293-32e9-4c3d-ba62-6a5690c16896#1792130855334?xsec_token=ABopXFlwlkXmRGnyWktqNhxn1QlM2jbC6_Yv6x3-0hYflN_4DUhusTsln5ri2U2wkfZ7HkvomraTf4RUUJ8t4HZ__C8EZqLY8gXREAVFqRO3w=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合"
-    },
-    {
-      "id": "zhihu-q621092670",
+      "id": "zhihu-q1967251225914357055",
       "platform": "知乎",
-      "title": "雷霆游戏入股子非娱科技公司，该公司未来发展前景如何？",
-      "summary": "0 个回答",
-      "url": "https://www.zhihu.com/question/621092670",
+      "title": "《杖剑传说》公司吉比特前三个季度的营收已超去年全年，它逆势增长的背后做对了什么？",
+      "summary": "6 个回答",
+      "url": "https://www.zhihu.com/question/1967251225914357055",
+      "sentiment": "positive",
+      "time": "",
+      "tags": [
+        "知乎",
+        "吉比特"
+      ],
+      "answerCount": 6,
+      "source": "cdp",
+      "lastChange": "2026-09-16 10:23",
+      "changeNote": "回答数 7→6",
+      "category": "知乎",
+      "topic": "产品游戏",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "zhihu-q485121596",
+      "platform": "知乎",
+      "title": "请问大佬们战争雷霆游戏出现这种情况怎么办？",
+      "summary": "4 个回答",
+      "url": "https://www.zhihu.com/question/485121596",
       "sentiment": "neutral",
       "time": "",
       "tags": [
         "知乎",
         "雷霆游戏"
       ],
-      "answerCount": 0,
+      "answerCount": 4,
       "source": "cdp",
       "category": "知乎",
       "topic": "公司综合",
@@ -22063,3697 +21491,11 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "zhihu-q518228256",
-      "platform": "知乎",
-      "title": "雷霆游戏代理《奥比岛：梦想国度》 预计 2022 年上线，你对该游戏有哪些期待？",
-      "summary": "0 个回答",
-      "url": "https://www.zhihu.com/question/518228256",
-      "sentiment": "positive",
-      "time": "",
-      "tags": [
-        "知乎",
-        "雷霆游戏"
-      ],
-      "answerCount": 0,
-      "source": "cdp",
-      "category": "知乎",
-      "topic": "产品游戏",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "zhihu-q530210940",
-      "platform": "知乎",
-      "title": "雷霆游戏的特色有哪些？",
-      "summary": "2 个回答",
-      "url": "https://www.zhihu.com/question/530210940",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "知乎",
-        "雷霆游戏"
-      ],
-      "answerCount": 2,
-      "source": "cdp",
-      "lastChange": "2026-09-23 10:23",
-      "changeNote": "新增 1 个回答",
-      "category": "知乎",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-c5bb6fc1-da5a-4f38-bed0-fdecb59ceb1d#1791871643111",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/c5bb6fc1-da5a-4f38-bed0-fdecb59ceb1d#1791871643111?xsec_token=AB-a27b0zlHeZHH_pOea4kXgKLC79J0fN2QxLa4Ilfn0FsBxcCeepLtyV44aDMFaA-usV0fGTxoqZ98h78pHc45cqJMqI8BfB-R9RiedDzmD0=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-e7947e27-fb8a-44d6-a42d-3d740eb2db46#1791871643893",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/e7947e27-fb8a-44d6-a42d-3d740eb2db46#1791871643893?xsec_token=ABpsZ6msz_y9759htoIoOXqndNY2Q12gtm-YKSiD0vki8Mf_zzYe-k1a-NLkv8zqRbmtc0seBzYGmtxlINZa_sm0O2C28VmBH_8gwAJSY91xw=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-2d23149a-28de-4dd9-b5eb-a0764d3ef4dc#1791871651334",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/2d23149a-28de-4dd9-b5eb-a0764d3ef4dc#1791871651334?xsec_token=ABFpAzPw1w7uv92JMYOMwl6pKE4QQfJcFnZDmTV6eO8Cu94oZmDqfGTU1Rd4byfeFt1Vluvx7AvoV37cmNPdGSh5ZW_PuZvtB6N1n3lV_4s4A=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-ee2891e3-85df-4c08-8c7d-c62de3bab837#1791871652220",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/ee2891e3-85df-4c08-8c7d-c62de3bab837#1791871652220?xsec_token=AB3QNu0kCJqmLDB0a_ubK6v-96YQeR3fgM-kxwb5gB09pcrZWkrwMt77n7FqRMvtF0gBw4herVlf0lQl_ITGdh2vVLAtr6UmxOIz67md9Idoo=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-1885929516",
+      "id": "maimai-NvdXJjZT1ob21lLWFwaQ",
       "platform": "脉脉",
-      "title": "吉比特&雷霆游戏2026校招启动",
-      "summary": "吉比特&雷霆游戏 ... 吉比特&雷霆游戏2026校招启动. 头像. 陈俊鸿. 25-08-29 · 游戏研发工程师. 好友. 内推码Z2M6I4. 吉比特&雷霆游戏2026校招启动脉脉. END.",
-      "url": "https://maimai.cn/article/detail?fid=1885929516&efid=VZNGHEZbBztZUdUvuP-GfA",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "脉脉",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "脉脉",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-1845433388",
-      "platform": "脉脉",
-      "title": "吉比特雷霆游戏内推助力校招求职！",
-      "summary": "吉比特&雷霆游戏2025秋季校园招聘开始啦！ 有《一念逍遥》《问道》《摩尔庄园》《奥比岛》《鬼谷八荒》等众多明星产品，更有拉满的福利待遇！ 深圳、广州、厦门三地， ...",
-      "url": "https://maimai.cn/article/detail?fid=1845433388&efid=S9ddeBYJ45A7ZsMTzG21mg",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "脉脉",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "lastChange": "2026-08-05 12:46",
-      "changeNote": "摘要有更新",
-      "category": "脉脉",
-      "topic": "企业文化",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-1886207695",
-      "platform": "脉脉",
-      "title": "2026秋招进行时，吉比特&雷霆游戏招聘来啦！",
-      "summary": "吉比特&雷霆游戏招聘和小红书职场一起加入「校招看见行动」活动！2026校招季，我们将建立更高效透明的求职链路，我们珍视新生血液，希望看见每一封简历背后更真实 ...",
-      "url": "https://maimai.cn/article/detail?fid=1886207695&efid=cu7oaVfjig65QCjQsRc2-Q",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "脉脉",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "lastChange": "2026-08-05 12:46",
-      "changeNote": "摘要有更新",
-      "category": "脉脉",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-1867635363",
-      "platform": "脉脉",
-      "title": "吉比特&雷霆游戏春招内推",
-      "summary": "吉比特&雷霆游戏春招内推. 头像. 陈俊鸿. 25-03-10 · 游戏研发工程师. 好友. 内推码U8O08F. 吉比特&雷霆游戏春招内推脉脉. END. 阅读 1. 声明：本文内容由脉脉用户自发 ...",
-      "url": "https://maimai.cn/article/detail?fid=1867635363&efid=EsDknPEy1JR-3WObtE_W_w",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "脉脉",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "脉脉",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-1902401419",
-      "platform": "脉脉",
-      "title": "不知道，吉比特的岗位很多样!",
-      "summary": "吉比特&雷霆游戏HC多多，职等你来! 官网投递链接：join.g-bits.com 移动端投递路径：【吉比特游戏】公众号-社招相关-社招岗位当然!最最最推荐各位大佬直接私信跟我沟通 ...",
-      "url": "https://maimai.cn/article/detail?fid=1902401419&efid=XhAAt0qW7aXvYl82PMJO2A",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "脉脉",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "脉脉",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-1843064743",
-      "platform": "脉脉",
-      "title": "吉比特&雷霆游戏2025届校招内推",
-      "summary": "【企业介绍】吉比特&雷霆游戏，研运一体的一家上市游戏公司~研发/发行过《问道》《问道手游》《一念逍遥》《奥比岛》《monster never cry》《飞吧龙骑士》《世界弹射 ...",
-      "url": "https://maimai.cn/article/detail?fid=1843064743&efid=F6nmz6gveec06V69fTavew",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "脉脉",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "lastChange": "2026-08-05 12:46",
-      "changeNote": "摘要有更新",
-      "category": "脉脉",
-      "topic": "产品游戏",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-1839424346",
-      "platform": "脉脉",
-      "title": "吉比特-雷霆游戏美术招聘",
-      "summary": "吉比特-雷霆游戏美术招聘. 头像. 瘦子江. 24-07-12 · 前端开发工程师. 好友. 吉比特-雷霆游戏美术招聘脉脉. END. 阅读 1. 声明：本文内容由脉脉用户自发贡献，部分内容 ...",
-      "url": "https://maimai.cn/article/detail?fid=1839424346&efid=vx2bNOZ90iGDdBtvBIYt_w",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "脉脉",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "脉脉",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-1846509674",
-      "platform": "脉脉",
-      "title": "中秋节快乐#吉比特#雷霆游戏",
-      "summary": "中秋节快乐#吉比特#雷霆游戏. 头像. 依依. 24-09-12 · HRBP. 好友. hi 盆友们，预祝大家中秋节快乐呢今年公司月饼 一如既往地#实用主义博饼 错过状元，还贴心设置了倒二 ...",
-      "url": "https://maimai.cn/article/detail?fid=1846509674&efid=CBl_RvCT1taPxVYOurKJ6w",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "脉脉",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-1867602693",
-      "platform": "脉脉",
-      "title": "吉比特&雷霆2025春季校园招聘",
-      "summary": "吉比特&雷霆2025春季校园招聘正式启动，欢迎各位同学加入，一起创造游戏美好体验！内推码：SC5D02。 吉比特&雷霆2025春季校园招聘脉脉.",
-      "url": "https://maimai.cn/article/detail?fid=1867602693&efid=SHG-_c-B3eSF2CcopdpnrA",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "脉脉",
-        "吉比特"
-      ],
-      "lastChange": "2026-10-08 15:57",
-      "changeNote": "摘要有更新",
-      "category": "脉脉",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-1855760459",
-      "platform": "脉脉",
-      "title": "吉比特雷霆的孩子们看看萨罗斯～",
-      "summary": "最近游戏寒冬看来已经过去， 看机会的小伙伴可以考虑下萨罗斯呀1、普遍15薪（谈是这样谈的哈哈哈）优秀者应该更高哈哈2、办公环境舒适，办公楼下万象前海逛吃玩爽歪 ...",
-      "url": "https://maimai.cn/article/detail?fid=1855760459&efid=u1xg6h3P37J1ARjyptjmcw",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "脉脉",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "nowcoder-925124509747691520",
-      "platform": "牛客",
-      "title": "吉比特游戏27秋招9.3正式启动！",
-      "summary": "吉比特-雷霆游戏2027届校招正式启动!9月3日网申开启,招满即止,先投先面!内推更快!✓ 核心岗位全覆盖:研发技术类、美术设计类、产品运营类、市场营销类、游戏客服",
-      "url": "https://www.nowcoder.com/discuss/925124509747691520",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "牛客",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "lastChange": "2026-10-07 15:41",
-      "changeNote": "摘要有更新",
-      "category": "牛客",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "nowcoder-lMmViNmNiNjI5MGEyZWU",
-      "platform": "牛客",
-      "title": "吉比特（雷霆游戏）前端二面问题飞书总结",
-      "summary": "一、岗位与经历相关1. 介绍在吉比特雷霆游戏岗位负责的具体工作内容（如营销活动、H5页面等）。 2. 你的岗位要求中提到需要哪些技术能力（如前端、服务端基础、小游戏 ...",
-      "url": "https://www.nowcoder.com/feed/main/detail/ea25a485765147d28e2eb6cb6290a2ee",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "牛客",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "lastChange": "2026-09-25 14:33",
-      "changeNote": "摘要有更新",
-      "category": "牛客",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "nowcoder-mM2M0MDk1Mzk0OTNiZjU",
-      "platform": "牛客",
-      "title": "吉比特22届秋招启动- 话题",
-      "summary": "吉比特&amp;雷霆游戏2022届秋季校园招聘全面启动！ 摩尔庄园、问道、一念逍遥、鬼谷八荒等多款热门游戏 往年筛选通过率不到50% 现在通过内推可直达笔试（免 ...",
-      "url": "https://www.nowcoder.com/creation/subject/4e45c8fb1fd246729f3c409539493bf5",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "牛客",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "lastChange": "2026-08-05 12:46",
-      "changeNote": "摘要有更新",
-      "category": "牛客",
-      "topic": "产品游戏",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "nowcoder-353158855725096960",
-      "platform": "牛客",
-      "title": "吉比特雷霆游戏营销策划面经（秋招面经回馈04）",
-      "summary": "吉比特&雷霆游戏营销策划面经・ 上岸后会将秋招中的一些面试经验及问题进行整理分享・ 介绍深挖经历第一段经历中如何做的内容策划动作第二段经历中如何做的热点抓取和内容 ...",
-      "url": "https://www.nowcoder.com/discuss/353158855725096960",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "牛客",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "lastChange": "2026-10-07 15:41",
-      "changeNote": "摘要有更新",
-      "category": "牛客",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "nowcoder-932397510612570112",
-      "platform": "牛客",
-      "title": "吉比特雷霆游戏内推码",
-      "summary": "吉比特2027届校招今天正式启动!如需内推,可以用我的内推码,优先简历筛选:9H5P8B✓ 核心岗位全覆盖:研发技术类、美术设计类、产品运营类、市场营销类、游戏客服",
-      "url": "https://www.nowcoder.com/discuss/932397510612570112",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "牛客",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "lastChange": "2026-10-07 15:41",
-      "changeNote": "摘要有更新",
-      "category": "牛客",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "nowcoder-395231592787066880",
-      "platform": "牛客",
-      "title": "【23秋招】吉比特雷霆游戏U3F8J0内推直通笔试",
-      "summary": "吉比特，雷霆游戏2023秋招开始了！base：深圳、广州、厦门校招内推码：U3F8J0校招岗位链接：https://hr.g-bits.com有大量HC等你来哦[诶嘿]主页有研发岗面筋。",
-      "url": "https://www.nowcoder.com/discuss/395231592787066880",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "牛客",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "牛客",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "nowcoder-NDAxM2YzY2ZmZjY4NWQz",
-      "platform": "牛客",
-      "title": "雷霆游戏Information",
-      "summary": "雷霆游戏成立于2011年7月，是吉比特旗下全资子公司，标志着吉比特从游戏研发商正式转型为研运一体综合游戏企业。端游时代发行了《斗仙》系列，获得了游戏玩家的认可 ...",
-      "url": "https://rocketreach.co/lei-ting-you-xi-profile_b4013f3cfff685d3",
-      "sentiment": "positive",
-      "time": "",
-      "tags": [
-        "牛客",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "牛客",
-      "topic": "经营管理",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "nowcoder-142",
-      "platform": "牛客",
-      "title": "吉比特雷霆游戏26春招27暑期实习正式启动！！！",
-      "summary": "吉比特雷霆游戏26春招&27暑期实习正式启动！！！ ... 牛客14653329...：人血馒头，但是我已经饿疯了。。。 ... 岗位是嵌入式软件开发工程师，薪资到九月份或者十月份才会告知。",
-      "url": "https://www.nowcoder.com/feed/main/detail/142e155c6bba44fb9cd57d4db726bec9",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "牛客",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "牛客",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "nowcoder-9tL2xpbmsveXgtamJ0Mw",
-      "platform": "牛客",
-      "title": "吉比特_求职",
-      "summary": "吉比特邀请你投递简历啦.",
-      "url": "https://www.nowcoder.com/link/yx-jbt3",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "牛客",
-        "吉比特"
-      ],
-      "category": "牛客",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "nowcoder-hYzI3MjllZTljZTBkM2I",
-      "platform": "牛客",
-      "title": "吉比特校招- 话题",
-      "summary": "吉比特_孵化中心_游戏开发. 【游戏行业】吉比特&雷霆游戏春招内推. 岗位如图:岗位base:厦门/深圳/广州内推码：4DX53S投递流程：* 登陆校招官网 hr.g-bits.com ...",
-      "url": "https://www.nowcoder.com/creation/subject/ef3de6e43c504238bac2729ee9ce0d3b",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "牛客",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "牛客",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "nowcoder-353158143381282816",
-      "platform": "牛客",
-      "title": "【校招春招】大厂吉比特雷霆游戏内推",
-      "summary": "去年秋招也拿了很多个offer，分别是米哈游，三七互娱，吉比特，西山居， tap4fun，多益网络，莉莉丝游戏，叠纸游戏，鹰角网络，三国杀、4399、心动网络等等.",
-      "url": "https://www.nowcoder.com/discuss/353158143381282816?toCommentId=10366319",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "牛客",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "lastChange": "2026-09-30 15:21",
-      "changeNote": "摘要有更新",
-      "category": "牛客",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "nowcoder-00",
-      "platform": "牛客",
-      "title": "吉比特雷霆游戏产品运营专员一二面HR面经",
-      "summary": "10月24号HR面HR面面经： 自我介绍对毕业后第一份工作的看法，怎么切入深挖简历，挑了几个项目，做了什么，怎么做的，有什么结论和收获（问的非常多非常深） 怎么知道吉 ...",
-      "url": "https://www.nowcoder.com/feed/main/detail/00da5243cd54454fa22d893ab56c724a",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "牛客",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "lastChange": "2026-10-01 15:43",
-      "changeNote": "摘要有更新",
-      "category": "牛客",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "nowcoder-kZWU1OTgzNGYxZDczNDk",
-      "platform": "牛客",
-      "title": "吉比特实习内推",
-      "summary": "吉比特雷霆游戏26届暑期实习（可转正）招聘进行中【关于我们】旗下有《问道》《问道手游》《一念逍遥》《奥比岛：梦想国度》《仗剑传说》等游戏。",
-      "url": "https://www.nowcoder.com/feed/main/detail/bf322a330cff4503adee59834f1d7349",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "牛客",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "牛客",
-      "topic": "产品游戏",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "nowcoder-925477928735969280",
-      "platform": "牛客",
-      "title": "吉比特游戏秋招今天开了",
-      "summary": "吉比特2027届校招今天9.3正式启动！如需内推，可以用我的内推码，优先简历筛选：9H5P8B. ⏰ 9月3日网申开启，招满即止，先投先面！ ✓ 核心岗位全覆盖：研发技术类、 ...",
-      "url": "https://m.nowcoder.com/discuss/925477928735969280?urlSource=home-api",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "牛客",
-        "吉比特"
-      ],
-      "category": "牛客",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "zhihu-394767444",
-      "platform": "知乎",
-      "title": "《摩尔庄园》破圈，“游戏茅”吉比特还能走多远？",
-      "summary": "但是“游戏茅”吉比特却被网友戏称“猴子称大王”。 带着一代人的青春记忆“破圈”，作为《摩尔庄园》手游发行商雷霆游戏的母公司，吉比特顺势掀起声浪、股价连番高涨，并被 ...",
-      "url": "https://zhuanlan.zhihu.com/p/394767444",
-      "sentiment": "positive",
-      "time": "",
-      "tags": [
-        "知乎",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "source": "serp",
-      "lastChange": "2026-09-27 15:02",
-      "changeNote": "摘要有更新",
-      "category": "知乎",
-      "topic": "产品游戏",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "nowcoder-353156166224125952",
-      "platform": "牛客",
-      "title": "吉比特雷霆游戏PC主机发行专员笔经+一面二面凉经",
-      "summary": "3月31号，晚上刚面试完另一家公司，就收到感谢信，二面HR面给挂了。和朋友交流，hr面挂很可能是因为hc太少，事后跟hr的短信交流中也得知情况确实如此（hc只有1个）。",
-      "url": "https://www.nowcoder.com/discuss/353156166224125952",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "牛客",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "牛客",
-      "topic": "产品游戏",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "nowcoder-353155855132598272",
-      "platform": "牛客",
-      "title": "恺英网络和吉比特雷霆游戏选哪个",
-      "summary": "Askwhy Garena_游戏客户端开发工程师之前在吉比特实习,福利待遇还是不错的,不知道非技术加班怎么样,反正我们那一层行政很少看到加班,G社隔一段时间就会组织游戏活动还有钱 ...",
-      "url": "https://www.nowcoder.com/discuss/353155855132598272",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "牛客",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "牛客",
-      "topic": "企业文化",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "nowcoder-929811171576672256",
-      "platform": "牛客",
-      "title": "吉比特游戏秋招今天开啦",
-      "summary": "吉比特2027届校招正式启动！如需内推，可以用我的内推码，优先简历筛选：9H5P8B⏰ 9月3日网申开启，招满即止，先投先面！✓ 核心岗位全覆盖：研发技术类、美术设计类、 ...",
-      "url": "https://m.nowcoder.com/discuss/929811171576672256?urlSource=home-api",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "牛客",
-        "吉比特"
-      ],
-      "category": "牛客",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-1885913529",
-      "platform": "脉脉",
-      "title": "吉比特2026秋招开始辣，欢迎来戳～",
-      "summary": "吉比特2026秋招开始辣，欢迎来戳～",
-      "url": "https://maimai.cn/article/detail?fid=1885913529&efid=UYAImkVoBXVk2YzQGACe2A",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "脉脉",
-        "吉比特"
-      ],
-      "lastChange": "2026-08-05 12:46",
-      "changeNote": "摘要有更新",
-      "category": "脉脉",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-1891474590",
-      "platform": "脉脉",
-      "title": "吉比特【无界计划】内推",
-      "summary": "计划有大量校招和社招需求，校招不仅限应届。三年内的游戏人都可以投递 。欢迎联系内推~ ⁠加入【无界计划】，成为创作者，你将能获得； ⁠1.与创始人共创下一个世界级 ...",
-      "url": "https://maimai.cn/article/detail?fid=1891474590&efid=r6IJimx8vxkGBwBwBI2a8w",
-      "sentiment": "positive",
-      "time": "",
-      "tags": [
-        "脉脉",
-        "吉比特"
-      ],
-      "lastChange": "2026-08-15 10:36",
-      "changeNote": "摘要有更新",
-      "category": "脉脉",
-      "topic": "理念价值观",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-1890497924",
-      "platform": "脉脉",
-      "title": "吉比特《杖剑传说》，急招",
-      "summary": "项目：杖剑传说岗位：角色原画设计师*2 地点：厦门经验要求：3年及以上，擅长明亮的日式画风，有立绘、时装经验最佳. 吉比特《杖剑传说》，急招脉脉.",
-      "url": "https://maimai.cn/article/detail?fid=1890497924&efid=pUy5WxjcVitAeUxn-Y1BSw",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "脉脉",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "产品游戏",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-1544799454",
-      "platform": "脉脉",
-      "title": "今日已更新第43天――吉比特",
-      "summary": "今日已更新第43天――吉比特 ... 我们致力于帮助大家打造一个纯净有价值的投资数据库。以每日更新一个企业的数据分析和重点整理，来和大家一起成长。 我们只分析年度净资产收益 ...",
-      "url": "https://maimai.cn/article/detail?fid=1544799454&efid=NlsiGV4iPtGV8x2yG9fAwA",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "脉脉",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-1731026926",
-      "platform": "脉脉",
-      "title": "厦门吉比特网络工资待遇怎么样？薪资分布揭秘【2022】",
-      "summary": "厦门吉比特网络热门职位薪资情况 · 1. 产品岗的中位数工资在32064上下浮动，平均薪资在32697左右浮动； · 2. 技术岗的中位数工资在24256上下浮动，平均薪资在26180左右浮动；",
-      "url": "https://maimai.cn/article/detail?fid=1731026926&efid=qFJavILumH25w5OBqI_k5A",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "脉脉",
-        "吉比特"
-      ],
-      "lastChange": "2026-08-18 10:40",
-      "changeNote": "摘要有更新",
-      "category": "脉脉",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-1739052391",
-      "platform": "脉脉",
-      "title": "深圳吉比特工资待遇怎么样？薪资福利如何？",
-      "summary": "深圳吉比特热门职位薪资情况 · 1. 产品岗的中位数工资在39762上下浮动，平均薪资在39762左右浮动； · 2. 生产制造岗的中位数工资在32100上下浮动，平均薪资在38933左右浮动；",
-      "url": "https://maimai.cn/article/detail?fid=1739052391&efid=JYegbleiZyilrkoSrzZLeA",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "脉脉",
-        "吉比特"
-      ],
-      "lastChange": "2026-09-12 14:26",
-      "changeNote": "摘要有更新",
-      "category": "脉脉",
-      "topic": "企业文化",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "zhihu-q2002381280243889154",
-      "platform": "知乎",
-      "title": "同样是游戏公司，吉比特狂发千万房产，凯撒文化却变卖房产求生。游戏公司的核心差距是产品、管理，还是什么？",
-      "summary": "1 个回答",
-      "url": "https://www.zhihu.com/question/2002381280243889154",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "知乎",
-        "吉比特"
-      ],
-      "answerCount": 1,
-      "source": "cdp",
-      "category": "知乎",
-      "topic": "企业文化",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-569487fd-8efa-4ee6-a4f4-55e309009b75#1790057241548",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/569487fd-8efa-4ee6-a4f4-55e309009b75#1790057241548?xsec_token=ABHUvs4zg1JcdYlVr7EUJ2zT8J4WZYooxWcVOOZDAjcEpaTvXKGjTwPCi4fMu7D6sbpZcuWya99EVcyVYggY58QqFV9JRydu0b9RyFA1JlHXs=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-64d4c81e-2416-4b37-9f14-64d456eba35b#1790057242306",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/64d4c81e-2416-4b37-9f14-64d456eba35b#1790057242306?xsec_token=ABTTnaKmONGJuBuiVM54Mw3B6I8R_9aNMf4riT0sM5CPjPVbpXC9GBjtYioXYbznEpnN7Za6WH8KrBhTYHzJ5zqyAkeCUcITdb8z49j9OHaAk=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-a328d6d6-4007-454e-a5a6-b551fc899a64#1790057249010",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/a328d6d6-4007-454e-a5a6-b551fc899a64#1790057249010?xsec_token=AB0iERr6qVAz_yOV4De6ndv03t6-lJ8uUIQrfJ9vhkN-XVF78Fm36kRtv0UGFaIcRPhMSJ3DrANJwJPv73VvDZEJ7r8qphgLuEL4rdaZGJD_k=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-e627101e-2ba6-4821-ad5c-cf776c395e65#1790057249802",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/e627101e-2ba6-4821-ad5c-cf776c395e65#1790057249802?xsec_token=ABtcdB8JCYmgmM9rr6yAVTgtK9IFNPLm6t7Jx_H9HMoeFDq02dPe-VogO65lH8-LNIIQQrBopeeua4cdinccXq0R6qzUBtz2-f3GUDFz-20AQ=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-3c70494d-dd2a-4a22-80c0-b3181629bad1#1789625230029",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/3c70494d-dd2a-4a22-80c0-b3181629bad1#1789625230029?xsec_token=ABwla-hDq2-29jl9y6jOCm1nvLhCqvIWTKQeNPYTluW_fotxpg5Fy59ltYZCerkdKT7GBLwBfkc7CPb60k5vs4boiaGPFWbJRN2xlnSfJ6n3g=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-5a6bda87-6d46-4e9b-b322-28923e7fb3b7#1789625230820",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/5a6bda87-6d46-4e9b-b322-28923e7fb3b7#1789625230820?xsec_token=AB3DMlECcoyTRkJyDsrHKm0WyzHlPdNYry8LlxRBjArAfhZGRb_PWx0ZaOjaDXmylqmAkw0Y5QeKnEqONH_a5RMU4Yrwn_CiqJAKNLh-2wDE4=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-2f4b0c38-9c36-451a-b748-aeb156560522#1789625238035",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/2f4b0c38-9c36-451a-b748-aeb156560522#1789625238035?xsec_token=ABOK0JIPh8xsPO3TQcXywzmEIC8AtHn7jC3DhkUFUV6cxkwShEr32_trKGjr1eFocIRV75YKPOAJ7mmG5lEES7p3CJr4ats7mIuNITMup1v3c=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-ac5bc829-8dc0-45ef-8496-d3eb5821132a#1789625239211",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/ac5bc829-8dc0-45ef-8496-d3eb5821132a#1789625239211?xsec_token=ABvm8hKZ7hwFM5RqX81jBy7eK_ui5w7ZO01P7HBUToC_bwgjJ7mtnqzNHwyPY7TxJHeBzX0Rbo7fO4vTdkvua_v71mEkneMhHqZmoF8QLbQ68=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-6aa7c7f7000000002902d60d",
-      "platform": "小红书",
-      "title": "",
-      "summary": "饭饭剪刀手 · 👍6597 收藏228 · 视频",
-      "url": "https://www.xiaohongshu.com/explore/6aa7c7f7000000002902d60d?xsec_token=ABpDBbEypcPt3BHCeCwnZp1APh_7yTT8uES-oB9cEdVUQ=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍6597"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-15b5f942-08d2-49d3-ae89-5396478a1540#1789452438667",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/15b5f942-08d2-49d3-ae89-5396478a1540#1789452438667?xsec_token=ABnbGRDW_0rkIP1gv3m_5cp9JJkwBabgnSEQsBQjFVwEZBud-B4eUR3X-Le2ItZ6ZO5P7giqjOhg8oPWhIKPM_ICfjtgSMVI0NzmUJdSWvlhE=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-b438a204-6c75-4ffe-a308-efd0150df525#1789452439543",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/b438a204-6c75-4ffe-a308-efd0150df525#1789452439543?xsec_token=ABncrUir_LDCqDLwa9NtR2Z9X1Yl9jOBeMMSPghhtoDFr-vUayCf2BLZu0q4TGEQSC6FpM6gnASw2jz7Dm1knuonWgTTDb3yT-TfT-NyDQBVw=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-fcc2ac03-1882-40ee-ace9-5017dc05bd42#1789452447069",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/fcc2ac03-1882-40ee-ace9-5017dc05bd42#1789452447069?xsec_token=AB5Lt8iXNSaBSgG3KqJ5jUYHLZAAMcv5Orhjq65B1ijPz9KDFIk2cA9oJMrVUBPBtH7BvoTiwQd2ZhwPZV05XmtbjaArg-9EdaWtht5cmhecw=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-9494078c-4a60-4c88-a3df-ffb082de12dd#1789452447953",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/9494078c-4a60-4c88-a3df-ffb082de12dd#1789452447953?xsec_token=AB-yibfH6lH7FmGjyopWFHOnEf6V35fJian-s7pqs_sm2H3gl2vfvppVuEd22YE-lt3SQedBrfVv1XFmEY7Jpw5MAXc8TpctnPMDuuChdcSxA=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-0ec89159-14da-4849-a9c1-aa0276d1bdf0#1789366037486",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/0ec89159-14da-4849-a9c1-aa0276d1bdf0#1789366037486?xsec_token=ABe0EpRH71oQpJKVLR9nqrLPi_UJDkFf6RF3ecjTg3iKt3lh3w5dQ-r-ttg642BoUuS-ocPZzO8LGVXVtS4X93XbiNOghZupPAER2GoeZ5nI4=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-88285cef-166f-4091-bc40-a8941873d3b4#1789366038429",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/88285cef-166f-4091-bc40-a8941873d3b4#1789366038429?xsec_token=ABb9_6Qu_asp9pM7NjidKsOMv2i2TgaEEryypEMNXpu_z7s7OH_uq6iNB4ka9TbbQHqQwOb5feAE5GnTtQ8YytO9Hg23-HwvZwQ0JA2yrjIOk=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-b0e7c020-c7b1-4883-8e32-6f2492f383d2#1789366046619",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/b0e7c020-c7b1-4883-8e32-6f2492f383d2#1789366046619?xsec_token=ABYqyvm4FM3keyD-ZrUDUOQZKmySyeH6H4c3-O0DmrpjzTrpCwNEeMJLcpi-2lhRr2DaQJ52jnI_Y91lD1NgpHK9PvnOO0ZN_0RGKjEcepDHI=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-c1a0c8bd-bc59-4f7a-ba8b-28f092e44e44#1789366048099",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/c1a0c8bd-bc59-4f7a-ba8b-28f092e44e44#1789366048099?xsec_token=ABxJ-3AM6x9I19f-_hIikkDzt4eY0GyHpVx3ghJXlkt-9Ls_QaJUiiYZ6jm_xvcN9uE6djGraGBa_o3ii6AT7vAJbpQFCEZrtXJt_a48wjl30=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-1805656167",
-      "platform": "脉脉",
-      "title": "2023年10月10日早报",
-      "summary": "2、吉比特：密切关注小游戏发展，已有数个产品小程序版本在开发中. 3、恺英网络与世纪华通签订战略合作协议，将在传奇系列以及传奇世界IP资源领域进行全方面深度合作. 4 ...",
-      "url": "https://maimai.cn/article/detail?fid=1805656167&efid=BbFvbSdg5yDIQ-fUsHmsdw",
-      "sentiment": "positive",
-      "time": "",
-      "tags": [
-        "脉脉",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "经营管理",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "nowcoder-b20vYXJ0aWNsZS8xMzgx",
-      "platform": "牛客",
-      "title": "直播送大量游戏周边！吉比特大佬为你揭秘游戏从创意到发行全过程 ...",
-      "summary": "吉比特是一家专注于研发和发行有趣好玩、高品质、差异化游戏的A股上市公司。吉比特成立于2004年，旗下发行子公司雷霆游戏成立于2011年，公司在厦门、深圳、广州、日本、 ...",
-      "url": "https://hr.nowcoder.com/article/1381",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "牛客",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "lastChange": "2026-08-25 10:43",
-      "changeNote": "标题、摘要有更新",
-      "category": "牛客",
-      "topic": "经营管理",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-ZzV5RElRLWZVc0htc2R3",
-      "platform": "脉脉",
-      "title": "2023年10月10日早报",
-      "summary": "2、吉比特：密切关注小游戏发展，已有数个产品小程序版本在开发中. 3、恺英网络与世纪华通签订战略合作协议，将在传奇系列以及传奇世界IP资源领域进行全方面深度合作. 4 ...",
-      "url": "https://maimai.cn/article/detail?fid\\u003d1805656167\\u0026efid\\u003dBbFvbSdg5yDIQ-fUsHmsdw",
-      "sentiment": "positive",
-      "time": "",
-      "tags": [
-        "脉脉",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "经营管理",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "nowcoder-U5RCVBMSVFNyU5QiVBRQ",
-      "platform": "牛客",
-      "title": "吉比特雷霆游戏内推邀请码- 话题",
-      "summary": "吉比特 ，雷霆游戏2023秋招开始了！ base：深圳、广州、厦门 校招内推码：U3F8J0 校招岗位信息:https://campus.g-bits.com/wap ...",
-      "url": "https://www.nowcoder.com/creation/subject/3c5cf3ad318d427eb1e5eef86a3f5949?entranceType_var\\u003d%E5%86%85%E5%AE%B9%E6%9D%A1%E7%9B%AE",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "牛客",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "牛客",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "nowcoder-ZVx1MDAzZGhvbWUtYXBp",
-      "platform": "牛客",
       "title": "吉比特雷霆游戏内推",
       "summary": "吉比特雷霆游戏内推吉比特&雷霆游戏2027届秋招内推码【PR833P】 【企业介绍】吉比特&雷霆游戏，研运一体的一家上市游戏公司~研发/发行过《问道》《问道手游》《一念 ...",
-      "url": "https://m.nowcoder.com/feed/main/detail/da30411024d04950ba0393d0cb6bd3bf?urlSource\\u003dhome-api",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "牛客",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "牛客",
-      "topic": "产品游戏",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-425b1dd8-11fc-4752-8c65-26704df0accc#1788745064309",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/425b1dd8-11fc-4752-8c65-26704df0accc#1788745064309?xsec_token=ABgZ7_9U-h9dLMKQwAfzII1UEghC3vPzh9pWCGgrU7YbZIfz9pGvLwn9PJa3tgHXWLlvCDFJg_YeljWjYdnoO1o21s5kJVWoP3riSOLLhfJjI=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-6ddecad6-421a-4a9a-9cf5-22cec87a8975#1788745065102",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/6ddecad6-421a-4a9a-9cf5-22cec87a8975#1788745065102?xsec_token=ABWRvm4fZBzLrdg56KUmfSrxKjkr8LuvmG_4SCf_6xs_B4QEDG9FqGBOVL-afpxGFVSZ30suWIH1lxlbM0hcZP_G0Y_iJX1WiBc5iVXmqev3o=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-adf90386-17a3-4cb4-bfdf-3911ae6c8a48#1788745071968",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/adf90386-17a3-4cb4-bfdf-3911ae6c8a48#1788745071968?xsec_token=AB4LWWtxGgt-IjRilxPDg1HK5kw64r6zg1rpVWqNv5xGiwhwV7uiAssDnos3bS5xQ7DOHKt22tm9QFHfOtX9x_g7I6L7-Wt4oIeeBAT_r00N0=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-911cfafb-263b-466f-b771-39b1497b1269#1788745072844",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/911cfafb-263b-466f-b771-39b1497b1269#1788745072844?xsec_token=ABUEn8DhVGeoQz_izOPJA-ivoiNAvV_Mx5_FAmj1dLjI3XwZDN7tq7kdX_lWwcSOm3uWrvpgbOU5n4sGyYWUB6EcwEj4VnPBSPprMNqi9SY4I=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-dW1IMjV3NU9CcUlfazVB",
-      "platform": "脉脉",
-      "title": "厦门吉比特网络工资待遇怎么样？薪资分布揭秘【2022】",
-      "summary": "厦门吉比特网络热门职位薪资情况 · 1. 产品岗的中位数工资在32064上下浮动，平均薪资在32697左右浮动； · 2. 技术岗的中位数工资在24256上下浮动，平均薪资在26180左右浮动；",
-      "url": "https://maimai.cn/article/detail?fid\\u003d1731026926\\u0026efid\\u003dqFJavILumH25w5OBqI_k5A",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "脉脉",
-        "吉比特"
-      ],
-      "lastChange": "2026-08-17 10:45",
-      "changeNote": "摘要有更新",
-      "category": "脉脉",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "nowcoder-0",
-      "platform": "牛客",
-      "title": "吉比特雷霆游戏营销策划面经（秋招面经回馈04）",
-      "summary": "表现层负责接收请求和返回结果，业务逻辑层负责处理核心业务规则，数据访问层负责与数据库交互。通过分层，系统职责更加清晰，修改某一层时对其他层影响较小。在实际开发中 ...",
-      "url": "https://www.nowcoder.com/feed/main/detail/0ae6c303fd504fd09b8f25ac26f19284",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "牛客",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "牛客",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "nowcoder-2MjIxMjY1MzE1MzdlYTY",
-      "platform": "牛客",
-      "title": "吉比特实习- 话题",
-      "summary": "摩尔都快上线了，你的实习找到了吗？吉比特还在等你噢！ 吉比特&amp;雷霆游戏2022届实习生项目已经全面进入面试流程啦~ 你入选了没有呢？",
-      "url": "https://www.nowcoder.com/creation/subject/eaa094f6c15645199622126531537ea6",
-      "sentiment": "positive",
-      "time": "",
-      "tags": [
-        "牛客",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "牛客",
-      "topic": "产品游戏",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "nowcoder-xZTVlZWY4NmEzZjU5NDk",
-      "platform": "牛客",
-      "title": "吉比特雷霆游戏内推邀请码- 话题",
-      "summary": "吉比特 ，雷霆游戏2023秋招开始了！ base：深圳、广州、厦门 校招内推码：U3F8J0 校招岗位信息:https://campus.g-bits.com/wap ...",
-      "url": "https://www.nowcoder.com/creation/subject/3c5cf3ad318d427eb1e5eef86a3f5949",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "牛客",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "lastChange": "2026-07-21 12:51",
-      "changeNote": "摘要有更新",
-      "category": "牛客",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-21161bf6-2e86-4051-b59e-c71ab7288020#1788502041121",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/21161bf6-2e86-4051-b59e-c71ab7288020#1788502041121?xsec_token=AB0JI8RefqV8Nv-nYVovD39Y9kJoYEc9g3bM0uyeTHas1l3Sp1WXnMtMPbROoX6WQdClj1_hdX9xAyB9OJr4LMdCgPyCM3ZTKrOeI7CZtpDqg=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-35347a9b-fe04-4b3b-bcd1-af16e41e76c0#1788502042220",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/35347a9b-fe04-4b3b-bcd1-af16e41e76c0#1788502042220?xsec_token=ABD9bwJnDoi5mbAneC9jhP5PdyYL2n_mzN01_DgcZ2kjBSGYYT1nDCOGRPcn3c2joW1Dy2LiEqfd1Tiy9VH_pWozsjNw-_Q1QfBTWLdIzay-A=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-cfd1442f-072b-4632-9650-1fbbdbd44035#1788502050909",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/cfd1442f-072b-4632-9650-1fbbdbd44035#1788502050909?xsec_token=ABrNRRHeFnc9EkcH7Lm4bGBx0pSP3nlxNNzvNyF_DErq-Ld2rhB2AJcroi3zQ3qEJa2qqZSN2M-5A-PH6ATpDe4mxispLkGL-L_DWvYUsTvCQ=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-45b599cf-03e1-4529-b65d-079f18f557d4#1788502051884",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/45b599cf-03e1-4529-b65d-079f18f557d4#1788502051884?xsec_token=ABbKEFvogVkXtnI34EIITeZyl1HREVqNOK3QLrIHZTzyhr1XoweLuMWThVqpVXhX1KK3lQHSnvO240a9TkdeFw0qsLmeo3oky5ZOE49u-6zEE=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-23e9ae10-9550-4f7e-9a3d-3d9aa7e6cb6d#1788329254670",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/23e9ae10-9550-4f7e-9a3d-3d9aa7e6cb6d#1788329254670?xsec_token=ABexVYPYG8boHuEUTC1AtzjUyLhlorO-Pt5LEZrqp7hfOZkEpXzCc7MNmYg1wuFZcx_H29k8mvM04yb8fJejfKWoK2tXrxkdtrSbllAYF-Gac=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-5a05bbe8-07f7-4ce3-8317-cf8d3c947691#1788329255466",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/5a05bbe8-07f7-4ce3-8317-cf8d3c947691#1788329255466?xsec_token=ABZ1tqqDqQ2prQIuASXcJsur4vxum9ChxkQ-8n8AOCllsQDpZUfackkGVCtDvmrZyhOTjLM4LS6I1HzRWxUl1IaZMRXim0VRW0QIQU1zZyX4A=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-3a0b31d1-0731-4083-9776-4c973c23f5ca#1788329263299",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/3a0b31d1-0731-4083-9776-4c973c23f5ca#1788329263299?xsec_token=ABjXiqgIDXSWXE4S4DKH98mfmNPk4CnN2k0jzVwUZLS05tYSaV_nChs0CzyeeMWQvDg9cgG1b6zcEqwr309l5JXQgBEiOK9QIKPmWyvcN7iMk=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-a3039d50-43e0-45d1-98d6-62361b573ade#1788329264098",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/a3039d50-43e0-45d1-98d6-62361b573ade#1788329264098?xsec_token=ABPN8dFDbYEAW_xCmzFFD5ToRi1m9Q_mD_WmU_AzYs-Ij0BiChx-3AXKOG70TCHdG66q1Mp7VXjeTMPBBFLFdxt83xT1X36D5kN5C90bYS_3U=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-59e47f0f-746c-43c9-9a6b-c0fef5e442b8#1788156445279",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/59e47f0f-746c-43c9-9a6b-c0fef5e442b8#1788156445279?xsec_token=ABhGN6Ms6ixXZAbwZfNXyFHJlcHddL6Ui_7Tc6oGEgPvo4Gc0hWa0rd4MFZ3xjkggwR8v_tAFBzls6fwuoMuyhWmbtDtBSVWJPAzbI1_4tVwE=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-50ed539c-9a87-4aa0-ac03-3ecbb13ae65a#1788156446350",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/50ed539c-9a87-4aa0-ac03-3ecbb13ae65a#1788156446350?xsec_token=ABxmyaeVJvnNDvWx6gXOTsWfdqu2PVppu-WWLqCkVinmyWS8GsrLGf92QoWkbfNzbJi0qRLF7crqHpz8pN-tV5ndyyV_E-DfJMVHEY3YnAASM=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-262932df-e478-4ebc-8161-dbee58760327#1788156453483",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/262932df-e478-4ebc-8161-dbee58760327#1788156453483?xsec_token=ABBuqQ6zgaejGPYWRV8w3KevdQtEZA1P_oDA3NXOG8MxpXG4kHn6Lzi-Bk8KHC3s1X6whhXJbz5Ilw-2PKKSeohMpj9srt_RMoWKMFZ__nUsw=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-14b7ba86-9383-4190-8e89-844782f5bbf3#1788156454410",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/14b7ba86-9383-4190-8e89-844782f5bbf3#1788156454410?xsec_token=ABFUf6Qp-Ozuie1P58Ti8TaEfEyPn3m78h6gbzYJkiRdc1oJ_AYDmdVF9afMe67B-bKZfvY2WokIZgil9zyXoedTtqTHGCyNqIFyAgz4YcPjQ=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-3fdc184c-3ffb-428a-b60f-8c023a56087c#1787724431022",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/3fdc184c-3ffb-428a-b60f-8c023a56087c#1787724431022?xsec_token=AB2n8RSg5UWKT1pgEgHBLxzvIvJZiax6mryeysY6zzrU_Ntx9On4icCY2llJPGxkBEet2yK1KT2BZnTizkdJQ1zKkib2EQbSUWUoJRZxu4ZfA=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-30b28b8f-18b2-4304-985d-042543c92c51#1787724431889",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/30b28b8f-18b2-4304-985d-042543c92c51#1787724431889?xsec_token=ABgm5UI4Yx9djgUpFwW9HywUkmbTuHXE03L_qJLEHL2N5AFD0tm3qeiQQE_9S9pm6vsVc71V_H1Ikn_r-6XBF9cAdmMrXCdfqeDOFoLhJGFow=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-41903a3f-6808-43f4-86ab-3968062fc73f#1787724439331",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/41903a3f-6808-43f4-86ab-3968062fc73f#1787724439331?xsec_token=ABda0UmVlcN6RgYnGm3JNAE9YBD-Z6LPRN_eUjOiJKKYG8uuL3PlAJTuehQUERoLGEiMAHJ26MdwrHRSsJGqy1VCAjgMqeIr3ghiWJLG1UItk=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-27432777-d140-4149-8d18-fd4b3e301014#1787724440224",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/27432777-d140-4149-8d18-fd4b3e301014#1787724440224?xsec_token=ABpiCHfCVGyyjAc-58p917LTbLcaplKMNORlRikQtRK2CM7iz_SNCmQ2b8D9pS-jHzvLfpTrSi8-dg-JZSArN8O2znYKg0lrxdg54Lf21vii4=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-1902401072",
-      "platform": "脉脉",
-      "title": "吉比特＆雷霆游戏2月最新岗位",
-      "summary": "吉比特＆雷霆游戏2月最新岗位 ; 孤先生. 品宣视频后期适合我. 02-07 ; E先生. 求社招内推码. 02-05 ; 亚先生. 我面试没过，以后还能投吗. 02-05 ; 贝先生. 四年3d角色美术想投 ...",
-      "url": "https://maimai.cn/article/detail?fid=1902401072&efid=S9oDiailyobq1_wea6yi_g",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "脉脉",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "脉脉",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-64f1d696-222c-4e88-849b-cf457e56d6e1#1787465228199",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/64f1d696-222c-4e88-849b-cf457e56d6e1#1787465228199?xsec_token=AB3ZD5zxt6KYZ3ixe-e1uLAWO5pLi-yXiX9QYpCHRrQU5qfGtIejb5JTqNRftlObUwFPg4Eu8vPuLpTygJhj23KQNa6_x-BvXNZsXLvLuMl9c=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-87faca5a-88b7-4d0b-91fe-cf03435ae13d#1787465231500",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/87faca5a-88b7-4d0b-91fe-cf03435ae13d#1787465231500?xsec_token=ABKxCKGRBbcoBUBj2nqtZxYAkl0sUPCTwARVWvSp5U92b4jqwIw17VKfcdSWRR49Q5tfLKFTY23U0p17KrfTcMUC_2GXNUQFC4Y1UrgqduMxw=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-b6467d13-533e-4ae7-8b98-764c4cf5bb13#1787465239168",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/b6467d13-533e-4ae7-8b98-764c4cf5bb13#1787465239168?xsec_token=ABtbsBqGaE66cF6xtXxfffTwZIWXuF7El3Kc9uYeeC_BTJ163ic9I5dQxgVO0gWv2U6XQ41uhv7l6Qw3Co4QL3jLxnLfAEGa5sAd27sE92lAE=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-bd7fabc7-fb77-4338-8596-c6e2c04c6027#1787378841631",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/bd7fabc7-fb77-4338-8596-c6e2c04c6027#1787378841631?xsec_token=ABUY2Q_D8ArjHE4ggpv0fotDhKiHS1b2ebsRLjo4sXIaGfgi8Dj1cKYib-zjhmICkj5T5LZDlwJy-fNA_k3iaoZDVmlXFqYhSrOa8tUuKzqg8=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-12488e78-9056-49f8-8391-0745916cc61e#1787378842327",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/12488e78-9056-49f8-8391-0745916cc61e#1787378842327?xsec_token=AB8W_JCZ29t3M6x8wJC40Zt4gyLdsjVnNGK5GIWoQD8Z66XyDvUSMF4aKIvL9UlfFkEyLphQDLmuzJ0aQBsJyFJ2fELE1k51yjpRBewfkvwfI=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-d735a112-f4db-47f3-9277-458729504583#1787378849547",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/d735a112-f4db-47f3-9277-458729504583#1787378849547?xsec_token=AB0PLyisx9oSqc3eM3iU8ORo-J3K26j9y0gYrYlDKeDEgyAmgZYv4OitKHcfOYsmKE5rAsZwgIWtbgAJ0rOQzCl3gde52Dn6w3TnPhawwmVmg=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-8a80e4b2-a9f9-405b-95c5-3280829697a0#1787378850389",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/8a80e4b2-a9f9-405b-95c5-3280829697a0#1787378850389?xsec_token=ABSlX_b78hwodb3G9djO4I8VZ4q5a_7OhuV2y_BZhMk4GRGpA6ZWQEPrrBWSg5pLm72KfoltULPNQMsz20bx-oMxya-25gWMO3QxgsPd63wSU=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "zhihu-500537114",
-      "platform": "知乎",
-      "title": "聚焦赛道，吉比特：小步快跑，加速自研，长线运营打造玩家生态",
-      "summary": "目前公司以吉比特-雷霆游戏-吉相资本为矩阵，实现研发+运营+资本运作一体化。吉比特顺应研运一体趋势，成立众多子公司。子公司涉及游戏研发制作、游戏运营、信息技术 ...",
-      "url": "https://zhuanlan.zhihu.com/p/500537114",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "知乎",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "source": "serp",
-      "lastChange": "2026-08-01 12:58",
-      "changeNote": "摘要有更新",
-      "category": "知乎",
-      "topic": "经营管理",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-4ce49f26-f9b5-40b6-bae7-eaeac483f6c0#1786687641743",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/4ce49f26-f9b5-40b6-bae7-eaeac483f6c0#1786687641743?xsec_token=ABlYLT65A1K_t9yAKptVWFiq-Cc7kIR9iaQ1Vsk0kZUY-7f59QNGls0GAExSBZfGhWUZmsqwcQeHM36rrorobPLu0q5iAeQT9E2171olT_T54=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-72df3738-8cf2-4f8c-9e5c-f031be429b8a#1786687642494",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/72df3738-8cf2-4f8c-9e5c-f031be429b8a#1786687642494?xsec_token=ABAtBSdK31rOY80R-neK1vuVsJ4eLLj3gTnDyBtSi5Nww5_gHHYIEHtDGknaGygEYaWA-oUFTaJ3GWopnn-6ccu32DmtD5hxpUaBga7L8kncg=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-6dc41895-86b8-4f6c-9822-db652453a356#1786687649647",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/6dc41895-86b8-4f6c-9822-db652453a356#1786687649647?xsec_token=ABNZPfdBR-0rMidOKSS-VYF3g4fy3u02QoNY2X-dEPvN8RKJadU2PddqYV3J3A2Zv7pZoOB-1YRNitjq_bvAIcDa5lBVGLifDHItAr5RFR6aQ=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-d27429bf-2d72-492c-8601-f54ec52c6a50#1786687650501",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/d27429bf-2d72-492c-8601-f54ec52c6a50#1786687650501?xsec_token=ABhmV0w4pSJw62JdhbsGl58dZ02P66zWmwdeB3tSlYkrn7A4cv5WNRxX0VHWfZS4PTdQImoKxGoF5EO2EJfqbzXTO53WL4oU5yTHsW5f9K0To=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-6a7ac86a000000002403e43c",
-      "platform": "小红书",
-      "title": "",
-      "summary": "Knight-艺 · 👍1 收藏2 · 视频",
-      "url": "https://www.xiaohongshu.com/explore/6a7ac86a000000002403e43c?xsec_token=AB7KGqfS7BQmPhZrTyhCoD1QuU-jqBKny9rSToWlGiztw=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍1"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-d6283882-e14e-4863-b52d-e91fac0f69a1#1786514831493",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/d6283882-e14e-4863-b52d-e91fac0f69a1#1786514831493?xsec_token=AB2cGB7AcgW9BvVzuPp-fuqowvZHVPoqE7swjFtIMDFh9kJOFvL6OlOq1QAOgdZpwt2w9c9gAqWuXuv4K48Rn0xndHWTopMvswQLeBeUoS9fA=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-b4c929b5-33e4-4abb-8571-ab1f672b401d#1786514832421",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/b4c929b5-33e4-4abb-8571-ab1f672b401d#1786514832421?xsec_token=ABM5a61AV9zfX5t3zRwuuFEvWqAljUWHjb7dnvER6oRIcUPSQgM7E0c2hjWco0rUFFhQ6weJfbGlMxQ1NqCcwQqsgRVyBNHVh0ETw6nwoJXZc=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-05450d80-e952-450d-8485-5095388e2ff7#1786514839579",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/05450d80-e952-450d-8485-5095388e2ff7#1786514839579?xsec_token=ABVGdzGYGLZI5AbpTWUYAUDTx67sHAytlSVqrwIKqpLbRtnPyKXmPd8wrrscfA8JPi6VE7qpxItFHMzaQW2tf_cBWycMub-5VtRr_ilYghgpI=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-bcc50994-ffb1-4c9b-a70d-2228ded06ee4#1786514840804",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/bcc50994-ffb1-4c9b-a70d-2228ded06ee4#1786514840804?xsec_token=ABu1oNHbXSuF3OPzbFEFRhQFtdUsOaC1oDY8cQhh-ClXxfWlA4VyhC6W6ZCpWQGrDn6lo2Tf085A0K7yrtO__E9Z2bRS2REqe24lERDpFyyaI=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-7b0e46a4-74e8-47da-b8f1-4256b4fe11b5#1786428445688",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/7b0e46a4-74e8-47da-b8f1-4256b4fe11b5#1786428445688?xsec_token=AB73X8w24t8xq4PCaI_SoeWXfTc9_-LRPrrHkx5ogD9dFYlRL4rOzfq6ojE4i63JdLP_2hEzwJhbQPW2KbbwQ2G7vOn6v95UCSaSM3uS31928=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-7b959e54-1524-4b66-8179-aaa4974e3c03#1786428446519",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/7b959e54-1524-4b66-8179-aaa4974e3c03#1786428446519?xsec_token=ABMbLMDX9gYFY8CpAND6AWQpSSIE9K-GU7qfLAF8zSf1F8SEwVd5Lk7rG2gRcZFRFtcmjliRZt_s2qdEsOvXWeBQdrQesrwyzODWHLkUA-S_Y=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-0f466f25-6936-45a4-b8f3-0e2e8a0bb0a8#1786428454202",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/0f466f25-6936-45a4-b8f3-0e2e8a0bb0a8#1786428454202?xsec_token=AB8oq0p57SAvqoJlqGxz57jtxjGu4sh1GbJSDePskUWul5dKEt6g03LrW1tSQCiYWn0_pj2AaCKl3SeDpu-qRB7qQYEA5MSJKNwAlut-_b1xQ=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-36dc6038-f158-42f5-8a58-3682da61a3a4#1786428455191",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/36dc6038-f158-42f5-8a58-3682da61a3a4#1786428455191?xsec_token=ABX3Z8aDOKDARcN_02BBfyN85feZ9BF90IKrf3tWZQEJa_9MhnWhptqWpu3EY3JLs5tAZyHXlqTMcSvRQG0-ju8j-bRY3p3MK2MzaKhSo04KU=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-8323db79-4b26-4f82-82cc-041f342719e8#1786342045010",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/8323db79-4b26-4f82-82cc-041f342719e8#1786342045010?xsec_token=ABLetCDaivOANKDVGNOlGvbkQBOQKQ3Ik0uG4-g248ECLndCpIC7j-kINljwSCQ0ZK1cufxJd3bfTfGcg2LdC5EAr14WImcNvu_kknXMzgP-4=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-4e8cf7e6-f2b4-415e-97f5-826315d97109#1786342045793",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/4e8cf7e6-f2b4-415e-97f5-826315d97109#1786342045793?xsec_token=ABRWHDVh3bjjscpQPk2KjgiynDdSZiNYYJ65pNyp9ttLZ2lIvW0QYTMvbUv3uHueuYw6V_tk2CYoqDvU6P1tYQ5suqPyJVS9S3DzqhnPiT8sY=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-e033f884-6bba-46e2-81ff-5c03a824e4ea#1786342052961",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/e033f884-6bba-46e2-81ff-5c03a824e4ea#1786342052961?xsec_token=ABsXmGikmRkYvw7Lb4vAB2gtZSr5x-QneGdOHgds71OOiJHd5e_YPNRNLoT-Jmuu3mZeAQ76pF67SYbFZ30OHxoH2UarEYTwc6IKO3byhkW5E=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-d86110ec-a190-4208-beef-15d5ab5dcaac#1786342053835",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/d86110ec-a190-4208-beef-15d5ab5dcaac#1786342053835?xsec_token=ABVZmEwR2cr4s_Xt_UP0PlKfXQruOBufrh4cZ1HH9UxO6gWieT74dvZsIVoYXu6s4nd5i_EFyhBviseLoxxg-4PWdP72Z_kHP2gHLlTJZ0skA=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-667f28bb-e2de-46c4-8553-e54047f1c730#1785996430636",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/667f28bb-e2de-46c4-8553-e54047f1c730#1785996430636?xsec_token=AB3SAJiOpwy7eyTB4UasF4oqpUfIH1hhSiKhA8vYoAQw8PWWxHepHHValCEeAcaAPqkbU0GdfUF2t12nZJW0xWWi78SGff8C1n3p6NRhEAmYA=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-7c0951dc-115f-4caa-bf46-a0cb5693cb82#1785996431418",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/7c0951dc-115f-4caa-bf46-a0cb5693cb82#1785996431418?xsec_token=ABpH7DXE0lRV6yZJsZ5hu0BNwqeSrPGkVF12gpC-1Agtlz5A-sQsBkP4MDaHOrfpVVefeFg9nlieWHINajOTVGVDqJxmHx1_c86lHadNWqg0w=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-f69fae37-91ab-4b3e-af8b-e75df5508f3b#1785996438207",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/f69fae37-91ab-4b3e-af8b-e75df5508f3b#1785996438207?xsec_token=ABxog6A5SR_GP9BBYhvHLhnNYWQaSdX_w-HOmE6HolmD-CgslL4aAGEhx9Jqn7Mzh_FNLmAJp4BgCdLEhpsYbOZMegfk4qr0PyJiqpBY394Bk=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-dc8ed78f-f84b-474c-ba2b-e8778903fc8d#1785996439062",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/dc8ed78f-f84b-474c-ba2b-e8778903fc8d#1785996439062?xsec_token=ABK4-rrKgKeQuM-Al9-v4ihCTwpEmqEJQN5FTXy-qiQc9sHnPC-AH9fhK5EJtXB9a8rS-TgsVh--MWO2ol2uIZr4owhyBHrnXv5oSxb37im8U=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-01b5287d-2856-4d2d-8609-e8928dba9d34#1785823643283",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/01b5287d-2856-4d2d-8609-e8928dba9d34#1785823643283?xsec_token=ABD_yThAidfJ3BHfuE9OBbk_VBS30g2cxqm9QbG1truJzTuGLmTMtlTTE_BtX18a9QQ2SVsA8Bx6hzAFA4K9T99OmBhe-ur4bTmbVpSr6LSr4=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-6e39a867-a349-48ee-bdf5-4fbf20861126#1785823644086",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/6e39a867-a349-48ee-bdf5-4fbf20861126#1785823644086?xsec_token=AByxBxYKEAoCo6t_VJJFLh_NhGUP0pz9t0VmXyLUY18Ilp9D9weFKKyu0YG-mgou4kd9nca43SndnvCD6a1nZ8QHVwIaJc1VAbn9CVKr4cQAI=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-4da00f9c-b66a-4499-a407-a780a4242b43#1785823650994",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/4da00f9c-b66a-4499-a407-a780a4242b43#1785823650994?xsec_token=ABLzy1VzcDF_UlD7mbJNwfnrYNHEbZw9BNU0mo0NQqqwrFk7_tXnWWFw1q6F9DyKjm7I1OoSSdwMd5FKCraArrZ77aAvHobKAeuWW1OHPXIwo=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-b578b73a-7b76-43a6-96db-943d269090a9#1785823651879",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/b578b73a-7b76-43a6-96db-943d269090a9#1785823651879?xsec_token=AB65fQjS3bO-t7khigIIv343hgbJ2prtEIY5iDlj4OcqnFq2atzBOW3thr0TZiwZXYwkePjP1GFi2QQmMzdqNBpfigKRn3wvAdN5FcX6nov18=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-cc1aae30-819d-4cf2-b2cf-40c5bed76773#1785737231726",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/cc1aae30-819d-4cf2-b2cf-40c5bed76773#1785737231726?xsec_token=ABdu8--7INLZCUB2kqW0IycT0bYrgG66sWLGqzopl4zsbmmKmdQJBf7KpMZRRqHd9f-q2b_pIsLySbYhOvwnPBnXhUo2QywS2PSgPXtMLbXaU=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-cba96f34-ad53-42da-ac01-d74d1a21b2b3#1785737232492",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/cba96f34-ad53-42da-ac01-d74d1a21b2b3#1785737232492?xsec_token=ABsRINfiHwlRgtsBWGh6OCoe9kfzd-0unp9iCGnRzoRIuSDmwqR_xrVcPf9GBaj6SD3RvUsho2ZgGvEIH679Iuce5YRb32soLwkWRlKYEuGYc=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-eead8ba0-4389-42e7-bb6f-9fa962d615c7#1785737239020",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/eead8ba0-4389-42e7-bb6f-9fa962d615c7#1785737239020?xsec_token=ABdM3eM2Ftb0CnVeUyGCvQrr3YchaMwQaSxXRo98W7GAvHUt9G4iJxVMuauZ2_4JsCVyNIrnavJyLU9pqBDL8zkWnTK8e20vW1T3IUR87ZXg0=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-cda3f77e-0120-4e38-bd7c-597099b5ea15#1785737239845",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/cda3f77e-0120-4e38-bd7c-597099b5ea15#1785737239845?xsec_token=ABAWz-m9g_zFSJD5nHMa-5B69VShQFh5Uog9cy3Tbu1XyECeZGQ5A100HADRX3eMhXCS6WQbf3EDDjz6e9EtzOPc9mn7DQnyRWZwcE4oAKjNg=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-ac0bca02-d114-42db-86f2-69222deb487c#1785306236520",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/ac0bca02-d114-42db-86f2-69222deb487c#1785306236520?xsec_token=ABqoTqJyY7OSRSBWQVh6Wi7i_zCWLNEzv5hCG_XxXtpZZT7SgYA3ZrlG-aQA0D81s1ljdwzksWzu_wKTevpqUn-55dihWOOAq_qeMAogRhzR8=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-89315b89-3f0f-4315-86b6-507567be5c12#1785306248826",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/89315b89-3f0f-4315-86b6-507567be5c12#1785306248826?xsec_token=ABXh6f0vjCrCO6YXCpRPUZtCkayCQOgQvFjryrirALdzxDc6UpcXhL_gUqPiS65Zw84nov8W8RhLvxHqbGEXSueIBd83k-7x2G7045MFr2JQQ=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-2e5ec7c0-28eb-4d04-a79d-6673bd29a0dc#1785306250229",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/2e5ec7c0-28eb-4d04-a79d-6673bd29a0dc#1785306250229?xsec_token=ABRxA4Yzmd2tYDoRCnLQsXxMEdG_tq4tpex02MGuockacXc6bs54c0nt-QOCA_pBayzmtO8nK9OxUM32pXld1P-LUqcLuxu1gFhJwkrHtL700=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-75e0789e-1c52-4659-bf66-f16a72e11403#1785218847836",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/75e0789e-1c52-4659-bf66-f16a72e11403#1785218847836?xsec_token=ABqHAQl2wK5BKFlscAwrCn3jyDH5yzYQmvQZKmBwmdmJQmJCJh3lxVVld5rYpR_Vzjf2WvMcKRaDYZtZZNydGMz13HIAeIvqQMgF0J0rWALOE=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-ca0444be-376b-4473-9b11-b64f4eeee7b0#1785218848626",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/ca0444be-376b-4473-9b11-b64f4eeee7b0#1785218848626?xsec_token=ABDm73apFDZCZ8G2RATi6TyUJYx9Lxd67sgMXFJ1yeD8eMZiQEy6n6XYLomBNQAbmSRNjLC_AwGCAunhy0pMlv29zRnOJy_x58LDSDqkVPy7k=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-91839945-10bd-43e6-8ce7-2eca675a5956#1785218856549",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/91839945-10bd-43e6-8ce7-2eca675a5956#1785218856549?xsec_token=ABQttirjolj7pStF5-gXoa6ZNcRA21glUhl12t_R13rIe1EN14VfzdKd2BiiOprp9Oq16-GUwMgZn2Rd4owKsA4weJ98OgD3atTT2z7mCbs7w=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-a09d4e25-cd1a-47a9-a090-0d822c66a682#1785218857301",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/a09d4e25-cd1a-47a9-a090-0d822c66a682#1785218857301?xsec_token=ABoXieZofnPwrYtUFSKzptYOH4xxWpc4IqGauhuRo4dZ4ZVxVgfUnuTrAmJZ7R0DxXPxFFi9wz7OfSonsPXbmn3PZeW-TyRDfCxJGeI2Q2CUk=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-39e92e18-b9c4-4b24-9371-cca4d5da6955#1785132439129",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/39e92e18-b9c4-4b24-9371-cca4d5da6955#1785132439129?xsec_token=ABsTiprsvncuWhvWLRM62huJcZ2EOgKtfihBJSzsQKi2F_dnT5-GN8gQr_ymAJeVGxZP0KzWEuu4yMp8wAThdDziva_TFHYX1JciUUyQKXYUQ=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-4d644a14-b25b-486c-9bca-dac6e224af60#1785132439999",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/4d644a14-b25b-486c-9bca-dac6e224af60#1785132439999?xsec_token=ABQ-wTdMkkMNlSwiemE3NRJf9MsLfSYQUUetH0JbGWgCDfMbsoD2HVmixooLnmlATp_-7aquMDXzyD-AzAxsajPvhJ2omPGf9ywvAv-tWK0Lg=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-822389d6-273a-41f0-b71c-a2a0b1ccd983#1785132447217",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/822389d6-273a-41f0-b71c-a2a0b1ccd983#1785132447217?xsec_token=ABNyLDEr0SFdQ8x1ToWnBYumjoWXHTU0Pm-495u6oUmJiNRFwht5hVuxBCZfvLUjyNMMtXamPVIWuRd5duPT1sQcFwmAxbEyEEZxRFSEolk40=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-21e00074-8ed1-4613-81e4-41ed58d098f4#1785132448016",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/21e00074-8ed1-4613-81e4-41ed58d098f4#1785132448016?xsec_token=ABZX1_BkDPkBXmP1wyk7awSDud3ZggqL0m1p0oLsop-yUFmLZFv4kzJk4Xajs10fr26D7gcwDMKGKQT906H4U6jlsjlHt1sTU0CdICa_ph4KI=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-0b8fc030-e011-4e5b-a7e6-1de2875eb1ce#1784873238478",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/0b8fc030-e011-4e5b-a7e6-1de2875eb1ce#1784873238478?xsec_token=ABpeY6fV75Cy0BRZZ7j7C44QhOFgXyh5cgU899t-EDhbDT3JnBDY0OnmYxv9HuyP6549mJO2Z7lXsXh9Apz2QcskbD7lpjoJzJLPTwMcvPvNY=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-8c61deb3-35f8-417d-9b39-88847268bba5#1784873239897",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/8c61deb3-35f8-417d-9b39-88847268bba5#1784873239897?xsec_token=ABqBDm7iKa0G8LcG57Bt688efOHTgKF3Xwu-NYCJQqLo87P-8SvQoUEkXb-oV99wjEAwe0QPFg7l_0QdcjyTajHccIom0ybe3DrO5W5AzVAPs=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-4b3427c6-4866-4a9b-a316-58728b14a1b3#1784873246723",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/4b3427c6-4866-4a9b-a316-58728b14a1b3#1784873246723?xsec_token=ABsLPro1cNl25FN5D5DdPhzQzn86jBKYyRCzkipeoApF2I_iSVHPFgO1wMZpjLezB1gByqTmhIgILrtq_A-DXQ1m05F7Q8C-Ei0ExmfHeBwc0=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-b2333ab1-e7e9-4437-81b3-73a1798b7e14#1784873247543",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/b2333ab1-e7e9-4437-81b3-73a1798b7e14#1784873247543?xsec_token=ABJnnTw6v4E6m6BCBaU8Y6QxrVmXTserEc85eezlJiTTJSiKZ_2HXVwPEkfGHGxzEz933DxX8cY_P8Y_ysJKxxfSPStXUrTJiV2VNY9j0y1gg=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-38c8bd3c-87d1-4025-9bc9-76379612cbd9#1784786832660",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/38c8bd3c-87d1-4025-9bc9-76379612cbd9#1784786832660?xsec_token=AByvK43ZxFJoSERbt4ZMvp3RGLb1R3ZlMfLM7kdh80WdZfqhUdGMVynWTYPdT2DUCk3L8anOF0wOYvVRRbvPhi7u10c59XbfTVMZeMyv0-kXk=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-07030364-72b1-440f-8196-8a4388bfc284#1784786833457",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/07030364-72b1-440f-8196-8a4388bfc284#1784786833457?xsec_token=ABNoQLzoifXr0qxdqnSxQv7vgKb9X0uz-KLTtcyOCS0-_UMJ_uwqGHsvsMgojE-KKI_-ivptr5TMO9TCZ677xfv2seUg0BFv5kk1SEBuINAoo=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-40c93d5c-ef05-4657-948b-75b8a39ea7d9#1784786840813",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/40c93d5c-ef05-4657-948b-75b8a39ea7d9#1784786840813?xsec_token=ABO13fK5xbJGDf8adxk30AGrBT_EjU8JUrUsL7OhA61bWhIOvtxjfXpSWnjuPkAlXD2U0PGM6y7ktR0TLix7Y2a2PgEie2HSlpcLqr6MZYu90=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-ef784333-a217-498d-9020-0c335d0aa30e#1784786841590",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/ef784333-a217-498d-9020-0c335d0aa30e#1784786841590?xsec_token=ABMu2-eQyEZJOTBDgQQtP86DkpIm8BXV6rZHBUw7VvZR-oLJBvpfhXTcse5FhQSYR4G_AUTi5loWT3gbGOb9Yt6vQo4epitBRRC8iNTe8XMRM=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-6a5f9294000000001002800d",
-      "platform": "小红书",
-      "title": "从吉比特（603444）2026 年半年度高分红提",
-      "summary": "桦信财税 · 👍1 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/6a5f9294000000001002800d?xsec_token=ABMYyFEcbZkksmGhLNLr300yxKtMGu2lazRH209r8W5So=",
-      "sentiment": "positive",
-      "time": "",
-      "tags": [
-        "小红书",
-        "👍1"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特 绩效",
-      "topic": "股票财务",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-788eacd2-63ef-4cb5-916b-0cc16a862ebd#1784700433737",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/788eacd2-63ef-4cb5-916b-0cc16a862ebd#1784700433737?xsec_token=AB_79K3ZTwdt1r7SxhTgGinGE_gbKK_CESfJg2seLrLvMrVM_LyStwgSGFbrMldwKIMtPFcNN_AOAGnQSfWz3WoS5LVOwgUFqJITB-gqLbuv4=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-d65554b1-5b7a-49df-b768-708c2382046a#1784700434533",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/d65554b1-5b7a-49df-b768-708c2382046a#1784700434533?xsec_token=AB0Ec-i1eADi6nLkvV7qhHPmw3pHK2AU6CzK8_b3BfMdm-GVJHB6hBnVnRTsokz42Ry07XAVOyfCWKWqJiURhl7UYDm5W51P6Jo1thMr3pGFY=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-dfec4e8a-0be5-4a92-95c1-3676937b73d2#1784700442275",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/dfec4e8a-0be5-4a92-95c1-3676937b73d2#1784700442275?xsec_token=ABxjMJwEpXcy0sXQ-AfDuIdZlNeHn3LojYelWc9_NlQJUhcUu4JoyC77uQ6gXrTjCmeCpi0mVa6MD0eyn_qQpOfkCLNEotT67Pv4QB_XCejyo=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-8d8eee5a-ffe9-41ad-bb45-a6939cc653dd#1784700443037",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/8d8eee5a-ffe9-41ad-bb45-a6939cc653dd#1784700443037?xsec_token=ABMYi1a4pWvp-MvnbgvCzWvIIQFSx4NEvUJo7OYMbCriN1x1n5uVjUhmenbY7ftFTdN85GSWzUwxQlzrqS8NDIZ3nxroHPW3Zt-wmIQ9NDj4Q=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-bc86ea8e-f7ed-4c2c-8989-7e8357a21efd#1784527634712",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/bc86ea8e-f7ed-4c2c-8989-7e8357a21efd#1784527634712?xsec_token=ABfypliWEbDmQ_7PKuc3ETikLxEGefZouuNg0Ptw97w0iif6wTNWzuZe_dseqp40qSSJ9P8AUSQ6ZkwxVYRR-kJ5h2tO_krFjFpUO6ViMpQ-k=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-0b51b7fc-3f67-4f24-9847-f2b7be8a7153#1784527635439",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/0b51b7fc-3f67-4f24-9847-f2b7be8a7153#1784527635439?xsec_token=ABKXiV5z0NPeYqVLLIYdjBtpRUOtV0oJXhm5WIe_ESg14gLVabp0_bDkDzcW9wDjIcY0LCjd4FRdSLU0sgEL3w_b7cr4b05lHkXvEVHO0GnIU=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-975a1df8-619e-4b99-8f27-95802788b9b6#1784527642163",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/975a1df8-619e-4b99-8f27-95802788b9b6#1784527642163?xsec_token=AB0Zc3DCX8UBWPFxDV7IlCedQLgEtpe0eDWWxYyf_FT8fhPrLc8bZKQQJOf8wavY8UkL79yzGuZO7NW6oL5BVcyws28Sv_5xCPidNI2OpUSoE=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-2aa9d7ac-dbc4-440c-b2f0-90ba75d595c7#1784527642909",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/2aa9d7ac-dbc4-440c-b2f0-90ba75d595c7#1784527642909?xsec_token=ABM_5NmwHbQdoRerb98K98n5t_ZYDT0vwioV_3OG_vvPNkQ5m2-vWjUEgdTXNtn7_GKdaCz6EjAjFrh1f_CDNHzd3aexFI2aLWkhXZkIRXtnQ=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-f6d6bd38-b518-4490-816d-a4fbd522a7ff#1784441240810",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/f6d6bd38-b518-4490-816d-a4fbd522a7ff#1784441240810?xsec_token=ABjIT77sboJaMmj15dvgUrybJ4_sMpYZGxnp6P9ZjzCdS0cpJ4ZAfNyIrfp_uwkOq_kVDnuka64bEeNU5uhJTk_acCteyy89haM7yUyVcYaEI=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-8abbd108-6802-4734-80e1-8e719e85b681#1784441248194",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/8abbd108-6802-4734-80e1-8e719e85b681#1784441248194?xsec_token=ABCz7ZKi2ZlxRg8k3a5iYXmkkjrN-c9lCZ7q_wOwLGSB5g4ShKbEYk1HNRIsWh0QgnTo47qvyZiguVYIrnD3pA-vqT3KLn2aSJhLXJQAWz7Tk=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-c8dbc71d-15bf-428f-9a2e-381ef51497b1#1784354828537",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/c8dbc71d-15bf-428f-9a2e-381ef51497b1#1784354828537?xsec_token=ABnFuMNSxkiDl526fh6yShC7vFnP7njtIw1tTY_WngW-FH67vXtQOZht7RM6ds0GDU0VDpNHjVO-oqIwbHeK7pZbI6h6hjpzCVr6CY-7vwHQM=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-f6a657e4-cd6f-4ea2-b986-6cb61a3c7509#1784354835929",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/f6a657e4-cd6f-4ea2-b986-6cb61a3c7509#1784354835929?xsec_token=ABfYtq71mdn2uLQK42AM1YG6wohtxuaHlPHC7OvMtaFYwmK3nPG3A_fRaLG7Fv0dGJuW_F0h-M7U8tokUFMLtH9LezMETVAbiUuGy-MF0F0OE=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-e7240edb-df11-4b07-bd58-c0f900beff0c#1784268434114",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/e7240edb-df11-4b07-bd58-c0f900beff0c#1784268434114?xsec_token=ABII1-NZh0ssNkHQG-SnPozMRMXKQrwmPzpjNGpaPGDtF2Z11WavbYfwzeGxuhPjIGM4m-pXOujK6PK9y9dZb7Xoylwk7tW2Xvo5rL_7mDKdQ=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-570366940893554093",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/570366940893554093?xsec_token=ABvxFcJ_WQxN3TEQy1u6X-e0-7Il-SexCB3Mx0DY6X8sIzg8gGO69acwIITS__nO0R",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-a285aa49-da92-44d1-ae35-f416c30ab0b5#1784268461222",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/a285aa49-da92-44d1-ae35-f416c30ab0b5#1784268461222?xsec_token=ABPvuLXMb46550e_pEnLBXRbVThuW3dlEj6NnIRTEQ0N8THWjhsomBYOqg4ONovxeZuLsuojz7IFk6TBThk7QHEB1zM2extNRsvGV-zmqMv0g=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-6757f05c000000000603e8da",
-      "platform": "小红书",
-      "title": "游戏公司|同事们的工位大揭秘！",
-      "summary": "吉比特游戏 · 👍675 收藏161 · 视频",
-      "url": "https://www.xiaohongshu.com/explore/6757f05c000000000603e8da?xsec_token=ABn9PyuiKslYfYnsP6pOK9Kktjnp5Lvps_Tb-eXGEsRyI=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍675"
-      ],
-      "category": "小红书",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-1885925949",
-      "platform": "脉脉",
-      "title": "吉比特&雷霆游戏2026秋季校园招聘～",
-      "summary": "吉比特&雷霆游戏2026秋季校园招聘～",
-      "url": "https://maimai.cn/article/detail?fid=1885925949&efid=qZWHNp73BEkNEuze7zTLSA",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "脉脉",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "脉脉",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-73",
-      "platform": "脉脉",
-      "title": "吉比特&雷霆游戏2026秋季校园招聘～",
-      "summary": "吉比特&雷霆游戏2026秋季校园招聘～",
-      "url": "https://maimai.cn/article/detail?fid\\u003d1885925949\\u0026efid\\u003dqZWHNp73BEkNEuze7zTLSA",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "脉脉",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "脉脉",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-1826346634",
-      "platform": "脉脉",
-      "title": "许垚毒杀林奇被判死刑！游族网络已一地鸡毛",
-      "summary": "但游族缺少持续性爆款也是一个难以忽略的问题，这让公司很难像巨人网络的《征途》、吉比特的《问道》、多益网络的《神武》等一样获得长期稳定的收益。 值得注意的是 ...",
-      "url": "https://maimai.cn/article/detail?fid=1826346634&efid=9xkwsDutPzksGj0Ra4GqDQ",
-      "sentiment": "positive",
-      "time": "",
-      "tags": [
-        "脉脉",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "产品游戏",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-1742979149",
-      "platform": "脉脉",
-      "title": "观潮周报｜抖音本地生活半年GMV约220亿，将推“团购配送”",
-      "summary": "... 吉比特”关联投资基金“诺惟合悦”。未及Wekki创立于2020年6月1日，由其设计的吐司店积木玩具打开了知名度。 潮见：Z世代的国潮积木。 7、AVAR连续完成2轮数百万美元融资.",
-      "url": "https://maimai.cn/article/detail?fid=1742979149&efid=XvTXBjCrEnagbEMscZOgQg",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "脉脉",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-1902403700",
-      "platform": "脉脉",
-      "title": "吉比特雷霆游戏招聘持续中",
-      "summary": "执行主美，3D美术负责人，2D概念负责人，动作专家，UE5引擎专家等大量岗位虚位以待，欢迎推荐自荐！ 吉比特雷霆游戏招聘持续中脉脉.",
-      "url": "https://maimai.cn/article/detail?fid=1902403700&efid=ciyYMeBUyhcEIp-IxXB_kg",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "脉脉",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "脉脉",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "nowcoder-490983",
-      "platform": "牛客",
-      "title": "0827 吉比特&雷霆游戏数据分析师笔经",
-      "summary": "总时长90分钟，考试时间120分钟，可任选其中的90分钟作答。 结构为20选择+3道问答。 选择： 概率统计、机器学习、组合数学、游戏及周边常识都有，个人觉得概率统计和游戏 ...",
-      "url": "https://www.nowcoder.com/discuss/490983",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "牛客",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "牛客",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "nowcoder-353154089339002880",
-      "platform": "牛客",
-      "title": "【已取得offer】【营销专员】吉比特雷霆游戏一二面面经",
-      "summary": "楼主某冷门工科跨专业面营销专员，8月30下午3点面的，聊了一个小时整，然后5点通知我一面过了。第一次得到面试机会，也是第一次通过面试，晚上翻来覆去睡不着，上来写篇面经 ...",
-      "url": "https://www.nowcoder.com/discuss/353154089339002880",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "牛客",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "牛客",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-1842319110",
-      "platform": "脉脉",
-      "title": "2025秋招#吉比特雷霆游戏",
-      "summary": "来咯来咯～2025届秋招启动！ vvvvx公众号有奖转发，快来参加~ 搜：吉比特游戏[Yeah]. 2025秋招#吉比特雷霆游戏脉脉. END. 阅读 1. 声明：本文内容由脉脉用户自发贡献，部分 ...",
-      "url": "https://maimai.cn/article/detail?fid=1842319110&efid=aKOEa7wc2dJLUDnjXrVYtA",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "脉脉",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "脉脉",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "nowcoder-UvNzYwL2ludGVydmlldw",
-      "platform": "牛客",
-      "title": "吉比特校招面经",
-      "summary": "吉比特（雷霆游戏）前端二面问题飞书总结 · 一、岗位与经历相关1. 介绍在吉比特雷霆游戏岗位负责的具体工作内容（如营销活动、H5页面等）。2. 你的岗位要求中 ...",
-      "url": "https://www.nowcoder.com/enterprise/760/interview",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "牛客",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "牛客",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "zhihu-xNTAwNjkyNDgcGFnZT0z",
-      "platform": "知乎",
-      "title": "吉比特&雷霆游戏未来游戏制作人大赛",
-      "summary": "2021年4月2日，第三届未来游戏制作人大赛正式开启报名。该赛事是由深圳市文化广电旅游体育局指导，南山区文化广电旅游体育局支持，吉比特&雷霆游戏主办的面向全球在校 ...",
-      "url": "https://www.zhihu.com/column/c_1360538184150069248?page=3",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "知乎",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "source": "serp",
-      "category": "知乎",
-      "topic": "产品游戏",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "zhihu-q423173220",
-      "platform": "知乎",
-      "title": "雷霆游戏怎么样？",
-      "summary": "7 个回答",
-      "url": "https://www.zhihu.com/question/423173220",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "知乎",
-        "雷霆游戏"
-      ],
-      "answerCount": 7,
-      "source": "cdp",
-      "category": "知乎",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "zhihu-q649092230",
-      "platform": "知乎",
-      "title": "雷霆游戏（石油大亨）分安卓和苹果吗?",
-      "summary": "0 个回答",
-      "url": "https://www.zhihu.com/question/649092230",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "知乎",
-        "雷霆游戏"
-      ],
-      "answerCount": 0,
-      "source": "cdp",
-      "category": "知乎",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "zhihu-q508596412",
-      "platform": "知乎",
-      "title": "雷霆游戏评价怎么样？",
-      "summary": "7 个回答",
-      "url": "https://www.zhihu.com/question/508596412",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "知乎",
-        "雷霆游戏"
-      ],
-      "answerCount": 7,
-      "source": "cdp",
-      "category": "知乎",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-6a3b931d0000000011013b48",
-      "platform": "小红书",
-      "title": "什么雷霆游戏",
-      "summary": "^年年有渔^ · 👍18 收藏2 · 视频",
-      "url": "https://www.xiaohongshu.com/explore/6a3b931d0000000011013b48?xsec_token=ABXnmVH-_suwwSwYwnHG6Ok7ivisLDg1kFsNIFC7cIA04=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍18"
-      ],
-      "category": "小红书",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-68b5b4cd000000001d02ae38",
-      "platform": "小红书",
-      "title": "吉比特&雷霆游戏26届校招今日启动",
-      "summary": "offer直通车kei · 👍15 收藏16",
-      "url": "https://www.xiaohongshu.com/explore/68b5b4cd000000001d02ae38?xsec_token=ABC8FP_c5XdkqRxRJVfER-nkhBnaX4MafVbxcZ7x0vCzk=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍15"
-      ],
-      "category": "小红书",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-2442183c-8144-44fb-a1af-ba4e5632472c#1784261116779",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/2442183c-8144-44fb-a1af-ba4e5632472c#1784261116779?xsec_token=ABnh59Twq1O8OMBvri1xaYgBivncA8kHq9d4XV4fIYzr_0BIbKDwEMM_mIVGxw9fJ_FlDQyf_J7Ctna2LUwv2MOy-A0T1r2pQtjxjdRAxE5Ug=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-d43833b1-1d4f-4d4e-a8cb-28e20a94f70e#1784261116044",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/d43833b1-1d4f-4d4e-a8cb-28e20a94f70e#1784261116044?xsec_token=ABRH8lsJPbpxhlA9GjijgkCrVA_BMlHLDL-NdVJqMgwIBCw5uRE6RhOVCGzBeoxCGMFI6e5O4PwBX8aJ95ykX1fgUzeAnKHgiCFniQjVDpRGs=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-fb4e4918-bf04-4882-97ee-e8cd2fdc2027#1784261105042",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/fb4e4918-bf04-4882-97ee-e8cd2fdc2027#1784261105042?xsec_token=ABFqx89CnzunWDcLY57yZx7IE4QWdBG9DsF17-u6PEhcAYj70R2DG2QczBF3Veg92l_2ZGDigKcZLizKmVYFwkDI-A9Je8X-akX0ew_D3qQwA=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "nowcoder-865666807464550400",
-      "platform": "牛客",
-      "title": "【吉比特雷霆游戏】2026春招！内附内推马！",
-      "summary": "公司名称：吉比特雷霆游戏 招聘岗位：https://hr.g-bits.com/web/index.html#/post-web/post-list/ 内推码：0EF76K_牛客网_牛客在手,offer不愁.",
-      "url": "https://www.nowcoder.com/discuss/865666807464550400",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "牛客",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "牛客",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-57cd6344-b8d0-48f0-be01-72a9459cb5f4#1785116498221",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/57cd6344-b8d0-48f0-be01-72a9459cb5f4#1785116498221?xsec_token=ABhwQ4-otxdZxXX_nmeFeeiSip2dMVX9gTQXsHPru8NpPCoJDX-nOdfqbRSI1sRYZk-Cn0Rj7rwlffAV6R4Zq82zK0DNUwgmSg49rzb8v12x0=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-c301eb03-c32a-481e-833e-2c4097bba205#1785116497403",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/c301eb03-c32a-481e-833e-2c4097bba205#1785116497403?xsec_token=ABl-gCU8LzNUN6BNwBRbmRW-qL1SPcXlw7scyzU995jeiRfId_lBWvb0UcMqvBLC5deFPkJWcIt2OApIEPJxiM4qj5CRkp5E27ZLPQ3nRwPtU=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-f06be8a7-4c0a-4478-96ba-4c83a1cbeca9#1785116490143",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/f06be8a7-4c0a-4478-96ba-4c83a1cbeca9#1785116490143?xsec_token=AB0Phnar7en2jnvx7tWQ_pOPmPq3T4CFWpC4DPM2HvjQmjJSyQbfZ52lvXLgxaeQ--PNvxVVBp8J6fVU7jJSjxzX_p1KJ5xwGYKI_goxvyA-g=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-5590fa17-8330-4da5-b516-578a7ffcb99e#1785116489415",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/5590fa17-8330-4da5-b516-578a7ffcb99e#1785116489415?xsec_token=AB3GzaeFDRNJ4L5486N1eZLLhYJDIURR2ibsiriXpSattv7vn1X08FHgQF4GR5mmlSdXkkwVq6Yjnu1hJ1_YzXKdyvu9Oro-nEgu_xgt_mdzQ=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "nowcoder-640318",
-      "platform": "牛客",
-      "title": "（内推）【吉比特&雷霆游戏2022届实习生招聘启动】",
-      "summary": "优厚实习薪资...... 资深导师一对一指导....... 快人一步锁定offer...... 尽在【吉比特&雷霆游戏】！ 关于吉比特&雷霆游戏. • 摩尔庄园、一念逍遥、问道等多款热门 ...",
-      "url": "https://www.nowcoder.com/discuss/640318",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "牛客",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "牛客",
-      "topic": "产品游戏",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-6c4f4a02-8890-48a4-8e63-230e0995a9da#1785907863766",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/6c4f4a02-8890-48a4-8e63-230e0995a9da#1785907863766?xsec_token=ABOoeh1tUEA3SdmwalB38H9u1yiTZwJnaXwtvGeCt4INr3kkHZ0KfOBnX2j7zMEMMIX6ClQXNitW_-ZKprfajYzsO0n3TKilGBK-wR-fCQoto=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-af9f96dd-3eb1-4115-b831-cd41b5638cdc#1785907864589",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/af9f96dd-3eb1-4115-b831-cd41b5638cdc#1785907864589?xsec_token=AB3EU62txFzvAGXYsIRrQep4FAUPyxnNWNXd91Us8Ygi8o009qXo2Q-cdlPadpnHOBig46a9VO0f76jYwqtn0uPap6026XSsG5VlGSWrl_Tko=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-6c8e6a4a-8f52-49c3-882f-8b26fcff9ada#1785907871675",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/6c8e6a4a-8f52-49c3-882f-8b26fcff9ada#1785907871675?xsec_token=AB1D9r7G94Zdsr2qLslaqGG6ZsFDzPk4KYxeeCAMlYHu9GtHAcJZOS82VUN9xCBLqzLaTpNV1b_oJEVqt1cm7xtQQ-4uqqR9e9oO_AGhTV0EI=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-753f8640-abde-4fdf-ab10-ff033d9099ba#1785907872856",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/753f8640-abde-4fdf-ab10-ff033d9099ba#1785907872856?xsec_token=ABZroQtmzU2Uc2aLo4lV343gCKhh8VNytIauewm6wZNBP0u57bchsjt2a3MIsY7jpGNPRII8aj4EV0mfHJKCugs7ye0-pxgknU9RH2NI13d0w=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-61a9149c-9156-49f0-9aae-50f095e4996e#1786169240144",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/61a9149c-9156-49f0-9aae-50f095e4996e#1786169240144?xsec_token=AB1Y2QdN2lj4ezZKSRtMpzO8nPL8ZrPlHccY7pa8TK2Sl_bupzvazcO2XriM6DCPFkauxxswe_bbCTHIKdFdB9ljLprNpTrLvr6JRvfHd0hFM=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-e8f46524-74ff-41ca-af02-2433018d21fc#1786169239292",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/e8f46524-74ff-41ca-af02-2433018d21fc#1786169239292?xsec_token=ABY8yji63dYNsICEBtc0PVC0YFyvq8_Q27HidnK0fmlFNCRU27gfVMIHf4LBcF1aPu8PLx4Kp4I-zvn7fLMxa85qW34Rqr5a8QlFjzun87_w4=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-14edb7b3-c73e-4f91-90f7-8d4db693b50c#1786169232337",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/14edb7b3-c73e-4f91-90f7-8d4db693b50c#1786169232337?xsec_token=ABo6iVLpLztMBjTHl15G277g5enAduswZDLNijddfO8v2AkFiEaBcAHDMcWBIPUYfmFMBT_8Bvry9uJMdYTDA-J8bel7Zw82uDRIDIoP12LFU=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-f907782c-02c7-4b3f-a63a-0bb0b3ccb373#1786169231237",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/f907782c-02c7-4b3f-a63a-0bb0b3ccb373#1786169231237?xsec_token=AB1KYYkIHq-s58Xa1dAL4OUFC2BPJoWNo8kvYZXd8FVQOBO_voxtLl4UsaVPyh_hjM3-Gv8ypP4dIG1PAg48fiIt2-MstKxhT3eYvdFkNdAXk=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-VzdhWHZZbDgyUE1KTzJB",
-      "platform": "脉脉",
-      "title": "不知道，吉比特的岗位很多样!",
-      "summary": "吉比特&雷霆游戏HC多多，职等你来! 官网投递链接：join.g-bits.com 移动端投递路径：【吉比特游戏】公众号-社招相关-社招岗位当然!最最最推荐各位大佬直接私信跟我沟通 ...",
-      "url": "https://maimai.cn/article/detail?fid\\u003d1902401419\\u0026efid\\u003dXhAAt0qW7aXvYl82PMJO2A",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "脉脉",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "脉脉",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-OTBpR0RkQnR2QklZdF93",
-      "platform": "脉脉",
-      "title": "吉比特-雷霆游戏美术招聘",
-      "summary": "吉比特-雷霆游戏美术招聘. 头像. 瘦子江. 24-07-12 · 前端开发工程师. 好友. 吉比特-雷霆游戏美术招聘脉脉. END. 阅读 1. 声明：本文内容由脉脉用户自发贡献，部分内容 ...",
-      "url": "https://maimai.cn/article/detail?fid\\u003d1839424346\\u0026efid\\u003dvx2bNOZ90iGDdBtvBIYt_w",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "脉脉",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "脉脉",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-eTFKUi0zV09idEVfV193",
-      "platform": "脉脉",
-      "title": "吉比特&雷霆游戏春招内推",
-      "summary": "吉比特&雷霆游戏春招内推. 头像. 陈俊鸿. 25-03-10 · 游戏研发工程师. 好友. 内推码U8O08F. 吉比特&雷霆游戏春招内推脉脉. END. 阅读 1. 声明：本文内容由脉脉用户自发 ...",
-      "url": "https://maimai.cn/article/detail?fid\\u003d1867635363\\u0026efid\\u003dEsDknPEy1JR-3WObtE_W_w",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "脉脉",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "脉脉",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-dmVlYzA2VjY5ZlRhdmV3",
-      "platform": "脉脉",
-      "title": "吉比特&雷霆游戏2025届校招内推",
-      "summary": "【企业介绍】吉比特&雷霆游戏，研运一体的一家上市游戏公司~研发/发行过《问道》《问道手游》《一念逍遥》《奥比岛》《monster never cry》《飞吧龙骑士》《世界弹射 ...",
-      "url": "https://maimai.cn/article/detail?fid\\u003d1843064743\\u0026efid\\u003dF6nmz6gveec06V69fTavew",
+      "url": "https://m.nowcoder.com/feed/main/detail/da30411024d04950ba0393d0cb6bd3bf?urlSource=home-api",
       "sentiment": "neutral",
       "time": "",
       "tags": [
@@ -25767,2241 +21509,246 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "xhs-3e00b3fc-40d8-4b4a-b692-c69b012982ad#1786601248242",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/3e00b3fc-40d8-4b4a-b692-c69b012982ad#1786601248242?xsec_token=ABMeQpMPD95hMODCrcZXkuZjBmRQw-HZ6-FU5H4Bm8fw9Dd-5Rj4ijAwXm84fS775ftJgPsNvyUFqUoixHya-KtklO-CRUGGs4a2piVYT2_bs=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-c1edc6bd-dc56-40a0-8e97-5f7b6df28189#1786601240803",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/c1edc6bd-dc56-40a0-8e97-5f7b6df28189#1786601240803?xsec_token=ABeociClKljLnsQCk6ZBn-aqWptNVO33B5vTSI3zFqLusUiBGMEZU1Faok4Xzjk1-eClycM9D2brL0jie8M_QjnuNyl1gncKAmbQk-LHXTfrY=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-f53eb2ae-c5fc-4e69-a5a3-b23062d877d4#1786601239914",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/f53eb2ae-c5fc-4e69-a5a3-b23062d877d4#1786601239914?xsec_token=ABi7ES2t0pjF7FsHfs5ee_oWgmeSbU-fvHFIdZBsef0dCtcwq5y--Qk2lklEW3uWLKL2dqPdxXVyorCuSiPpBEcZnf1RYdgtKOb9uf14q1zD4=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-SjQ1QTdac01UekcyMW1n",
+      "id": "maimai-114837",
       "platform": "脉脉",
-      "title": "吉比特雷霆游戏内推助力校招求职！",
-      "summary": "吉比特&雷霆游戏2025秋季校园招聘开始啦！ 有《一念逍遥》《问道》《摩尔庄园》《奥比岛》《鬼谷八荒》等众多明星产品，更有拉满的福利待遇！ 深圳、广州、厦门三地， ...",
-      "url": "https://maimai.cn/article/detail?fid\\u003d1845433388\\u0026efid\\u003dS9ddeBYJ45A7ZsMTzG21mg",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "脉脉",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "脉脉",
-      "topic": "企业文化",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-1902623549",
-      "platform": "脉脉",
-      "title": "7家游戏公司2025年预盈，世纪华通、吉比特盈利规模居前",
-      "summary": "截至2026年1月31日，根据申万行业分类，A股游戏行业26家上市公司，其中17家已披露2025年业绩预告。整体来看，已披露2025年业绩预告的17家公司中，业绩偏正面（包括预增、 ...",
-      "url": "https://maimai.cn/article/detail?fid=1902623549&efid=v9YjVuydI7GRF2uZchfhog",
-      "sentiment": "positive",
-      "time": "",
-      "tags": [
-        "脉脉",
-        "吉比特"
-      ],
-      "lastChange": "2026-08-14 11:49",
-      "changeNote": "摘要有更新",
-      "category": "脉脉",
-      "topic": "股票财务",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-039686ee-88ab-4f01-8e57-fcbfb34d75ef#1787033242123",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/039686ee-88ab-4f01-8e57-fcbfb34d75ef#1787033242123?xsec_token=ABv-HMkNtQIIe_wbq81A2lCUjvtyilEn3XrkZ6Pz26S0wwFapaduJOfv1EMAt563MDfkSdYL0yLwPzGjwAFkaKD9MPZO4mpJm4c7z50iWaM-Y=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-aea768fe-a1e5-45d2-99ed-49333b4def4c#1787033241216",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/aea768fe-a1e5-45d2-99ed-49333b4def4c#1787033241216?xsec_token=ABq-IdRAC_cP2H2p4zftcapv39QsmZCIHJFoIu4rAlw9J0PQ1AtgmxpYQvsnjbdc7C39VINkMvqBqk2bEJK4kpUAnpx68m_ycKN-djgvCpk2E=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-ecc4dd46-0dda-4e3e-88f1-1ee424135d10#1787033233261",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/ecc4dd46-0dda-4e3e-88f1-1ee424135d10#1787033233261?xsec_token=ABk5RknKZM22SRQPw7uoIhdvkr7hA7xSjH7_yH8qvhZWMqJSVsFuvhfHomPXyHvCHgYN6YNYo-pehkhIPpfeM0fb6PaA6fVXzfQ1VNBVVXb2Q=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-0c2c5d61-db42-41a7-9aab-995d10da595c#1787033232369",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/0c2c5d61-db42-41a7-9aab-995d10da595c#1787033232369?xsec_token=ABAsn2zqe4J6xQWMEu6rPjtA_6TJHlnrVm-o6WdciJC3msYqEbM1sgQMp9-zYAlxNC2fdrdB4A3GJepp49Mr6i7_ISSz_7OnoLeNF70a9eEIE=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-ZEk3R1JGMnVaY2hmaG9n",
-      "platform": "脉脉",
-      "title": "7家游戏公司2025年预盈，世纪华通、吉比特盈利规模居前",
-      "summary": "截至2026年1月31日，根据申万行业分类，A股游戏行业26家上市公司，其中17家已披露2025年业绩预告。整体来看，已披露2025年业绩预告的17家公司中，业绩偏正面（包括预增、 ...",
-      "url": "https://maimai.cn/article/detail?fid\\u003d1902623549\\u0026efid\\u003dv9YjVuydI7GRF2uZchfhog",
-      "sentiment": "positive",
-      "time": "",
-      "tags": [
-        "脉脉",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "股票财务",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-24192ee4-50a6-478b-ac44-ae8000339252#1787206049681",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/24192ee4-50a6-478b-ac44-ae8000339252#1787206049681?xsec_token=AB8qVIzl_H6IwgHvduTMAyS0hW2AAqRfAZb-fz0uSXoqPPHHJPaXadbePk0ASwPLd7bMp2quVJTyKNa2tU8NRs1OQiCJONT72_7FM4apCwZfI=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-ce1c4bf7-3089-4142-bb9b-08a7f2faa3c5#1787206048712",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/ce1c4bf7-3089-4142-bb9b-08a7f2faa3c5#1787206048712?xsec_token=AB2-AhuDbllvEzPhpMF0jQAIwlq6pYLVcTSbme0r3iucVszfkqSo2S8KUlv7gF-g_xrbw2bF8NbyDlGKexNVzIhjwQwo0OmRKa1fqc0tofqDk=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-c167501b-1993-437f-9a09-de3ded8df0a4#1787206041348",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/c167501b-1993-437f-9a09-de3ded8df0a4#1787206041348?xsec_token=ABCaSfPISyEId8Lrmz0FPPHW9omDQbmK6OqxT4m_il6F20Te8YPoMD5CeXSKHOHEoBeUE2Rc7fsFBaWnP2qHoB9b77V3Olue3LwZPjU6f9uBU=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-7f62f5bc-1f37-44b4-9627-346cda827f5c#1787206040460",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/7f62f5bc-1f37-44b4-9627-346cda827f5c#1787206040460?xsec_token=ABH7cEcQFrp3Wxyct8Q7cVEkjTV29SFbL0BquQLGHgZuMPDpmkENioQ5ZLlH0ohl_U3Poy8sYUXL8Q6eQqn9gqNZwnzFCJWBwxZuH-ANJ2_K8=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-1888307880",
-      "platform": "脉脉",
-      "title": "游戏美术外派",
-      "summary": "... 吉比特雷霆游戏. 游戏美术外派脉脉. END. 阅读 1. 声明：本文内容由脉脉用户自发贡献，部分内容可能整编自互联网，版权归原作者所有，脉脉不拥有其著作权，亦不承担相应 ...",
-      "url": "https://maimai.cn/article/detail?fid=1888307880&efid=E5tZ7LJ30Nbn9Ew5SMSvMw",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "脉脉",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-a18eace3-def8-49f8-940b-3d042cb867a5#1787551652912",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/a18eace3-def8-49f8-940b-3d042cb867a5#1787551652912?xsec_token=AB3ho-cHSK2CQ0Ss5-9Rs-LQlxQxz7-n_0kug_8qSY7ZTrrcZdbY0ikXJ1XvVPmwo50VoIvN2NjSam4xgenfeqWGwQyllNljOyknAE9UENoSA=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-67a4f86a-464c-434c-8783-818457ab1424#1787551652094",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/67a4f86a-464c-434c-8783-818457ab1424#1787551652094?xsec_token=ABieeh_TSBFzBAgTTWTCNWtS7gUsDd8rHS6St5qJqxdEJoFgUytVVsYugaWZ48Da5WSAfsT4DuL1V9ttaxj5QBVv-IcIWhMcuOW-vSNNJKFbQ=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-793d8394-c156-4407-be4a-1958fc920bf5#1787551644769",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/793d8394-c156-4407-be4a-1958fc920bf5#1787551644769?xsec_token=ABKbxLZgpybQplD4AL6hni03Oopiwigz0jqzzAOLJRfvotgNMgtiOvo0yraR_znuslqP0r_w1CwmWXVxjltm1dad1BXwmvhyzjJUnWjrVOVpU=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-e5e6a17c-3223-49a6-a75b-fe4c7aed8ccd#1787551643963",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/e5e6a17c-3223-49a6-a75b-fe4c7aed8ccd#1787551643963?xsec_token=ABBHNF6M8GQXHjYz99LgoVcRNENoLvA2EnrlbfMFKUcOqRKPQUq06s9aT_0eYaEqz_Dqa8nENiA2eq39wAZXNYxiCJdLxhL171tPKzwO6Gvww=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-b5e8ef7a-b38b-49e2-9879-d5fb62ce5558#1787638038868",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/b5e8ef7a-b38b-49e2-9879-d5fb62ce5558#1787638038868?xsec_token=AB1-HjAGehnqLMLNUZOV_PXzZ1exU6VAvRqg7XcAd2mu28ksSq9BXokC9rBH8XUjL5W0lBY7QsSRfFhfUmmvgXk6uVMXbSpeDDrDrRNkDkiUo=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-eee8cb05-709a-4320-a410-b00ccb5b4dfb#1787638038036",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/eee8cb05-709a-4320-a410-b00ccb5b4dfb#1787638038036?xsec_token=AB_qS2v01PF3GnaEHHdZHQX_4QTcC0kfwbTY-AGs3siN8XxdnVvWpgnrJhXej5JOrtGA4q5BfJHCtD_t9e4gDuO39Q5OUKWB6qB7JVt1rVUiQ=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-d5b34180-1549-46af-b42f-f87d148c0786#1787638031279",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/d5b34180-1549-46af-b42f-f87d148c0786#1787638031279?xsec_token=ABBRkNgU1SJPnzHwB5WmKv5fBVlrz78Yg4splW_3PkwRagZpq4pxadX8vL1HUuc97IW_TCl1CAekV8SQhGIlkSKb9b5Ihiwz6aKHMoDan03eU=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-dd6fe9f3-2e35-46c8-834b-31ffefc6dbaa#1787638030398",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/dd6fe9f3-2e35-46c8-834b-31ffefc6dbaa#1787638030398?xsec_token=ABkuke-9Ahp59c5s30mCKTqNGmWSZiOmgvx1gwswaQUFX2iRUDrnAI_-tGV8q9Ef8urkw_gvS_MoJ5tcpnJsbkHJVJdBr74T0eeGCJmk8cIgw=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "nowcoder-728949155447508992",
-      "platform": "牛客",
-      "title": "吉比特雷霆游戏25校招补录26转正实习",
-      "summary": "(上市游戏公司)吉比特雷霆25届春招26届暑期实习招聘启动【关于我们】研运一体上市游戏公司，专业从事网络游戏创意策划、研发制作及商业化运营。",
-      "url": "https://www.nowcoder.com/discuss/728949155447508992",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "牛客",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "牛客",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-d485b6fa-f324-4492-93ec-fb51d437ce7b#1787897249570",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/d485b6fa-f324-4492-93ec-fb51d437ce7b#1787897249570?xsec_token=ABLaRP8keszAvoITmtbnkhsrwlC2A5Bh2n2brvrGH2dsKlOwE55n0V5n-w_KRcgqaQwTVjo29YgqRS13Sp5Nr1uMbJqOnFzeF53Kim1EEV_po=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-96b43561-b2f1-4a03-8397-a665b0e07548#1787897242963",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/96b43561-b2f1-4a03-8397-a665b0e07548#1787897242963?xsec_token=ABFJ_LJV99h046JrKdphvrw8aj4ogyW_xfiroc2E4xg3WLpP2B2meQNkJ15kgmUnFR-8xxBGgvFht4sMxQjseZgIulBXsj49znLUsuIxnPbOs=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-dacf3b0b-9446-401b-924e-edcf6d898d0a#1787897242191",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/dacf3b0b-9446-401b-924e-edcf6d898d0a#1787897242191?xsec_token=ABdFCm057ylhyZBH-NWIC_0vuvQnagzHgp6gW9kkP42T4AGNnAuIDVaFuzsMK-ReXQL_kPro8fmWSW-FrjfUTx1LKfoS-R8zz9_fC62tWhLJE=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-VVhqM2hpSC1QRlZDdS1B",
-      "platform": "脉脉",
-      "title": "转型为游戏厂商提供合规基础网络服务",
-      "summary": "近期吉比特董事长卢竑岩就在股东大会上透露，吉比特今后“除储备IP外，只有面向全球的题材才可以立项”。充分反映了像吉比特这些以国风RPG见长的厂商，也非常重视海外 ...",
-      "url": "https://maimai.cn/article/detail?fid\\u003d1719674655\\u0026efid\\u003dio6CJUyUXj3hiH-PFVCu-A",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "脉脉",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "经营管理",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-YjF1Tm4xSG9QR1dpQWR3",
-      "platform": "脉脉",
-      "title": "25届春招、26届暑期实习内推",
-      "summary": "吉比特&雷霆游戏25届春招&26届暑期实习招聘开启【公司介绍】上市游戏公司，研运一体，20年稳定运营，专业从事网络游戏创意策划、研发制作及商业化运营。",
-      "url": "https://maimai.cn/article/detail?fid\\u003d1867647002\\u0026efid\\u003dxAmkQzvb1uNn1HoPGWiAdw",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "脉脉",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "脉脉",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "zhihu-q2062953887246636970",
-      "platform": "知乎",
-      "title": "吉比特董事长提议每 10 股派发 100 元现金红利，此举对 A 股市场释放了哪些信号？",
-      "summary": "5 个回答",
-      "url": "https://www.zhihu.com/question/2062953887246636970",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "知乎",
-        "吉比特"
-      ],
-      "answerCount": 5,
-      "source": "cdp",
-      "category": "知乎",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-3a86a5db-ac3a-40b4-9f4e-ea4fce54083a#1788415653322",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/3a86a5db-ac3a-40b4-9f4e-ea4fce54083a#1788415653322?xsec_token=AB7IsZkIC4cNW41zd063UvuZnfuMBOcrgqO8aqIFwssp1br2DZk6N1T_7dyKYvJAWGLTG9e5Ab0XuFv53PyacseYoA4YnnWTRwzduwxS-m1Ds=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-3fd12ca1-a739-46ea-abf2-5aab5afee26c#1788415652498",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/3fd12ca1-a739-46ea-abf2-5aab5afee26c#1788415652498?xsec_token=ABIxb-9As24Y8W2YrEakiUDUwnbz4hdwV3ZzlYhxr2lVZ8kVSvGt6yfgwzqWptuBAP43u1oVl_Qo1TEFX_C1QmEy75zb7XEflFT83z4Zsvulc=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-a2b75021-bfd3-4ea4-b535-3665c77e653a#1788415645094",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/a2b75021-bfd3-4ea4-b535-3665c77e653a#1788415645094?xsec_token=AB1_dXzTugqToRzOT6I7XE95zrCCQ4bCRi77DLX5HTXnGIf5oi-15fn9Y9l8XfOt32ES_ajpr-RVzylewq2SXhKaXJFvUM0KPv2Q_rRDu6A_Q=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-aa952272-c7da-41b5-be39-1dfc91e82d0d#1788415643916",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/aa952272-c7da-41b5-be39-1dfc91e82d0d#1788415643916?xsec_token=ABF7C2xJUgggWM1S_A64gaeYRTGsOLteAs6h__u_9AVKbPSKXmO_4S132yMkGDHHkzgdt2slKWme_1wmmFD0DWgsLTwpIoGjkY8zZDCnMRbUs=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "nowcoder-hZjgwN2VmZTYyYTBkZjU",
-      "platform": "牛客",
-      "title": "吉比特雷霆游戏25届秋招内推码",
-      "summary": "内推通道：内推链接：https://hr.g-bits.com内推码：62Q1RA使用内推码简历会被优先筛选，可以后台帮忙查看进度招聘对象：面向25 届的毕业生内推岗位：程序技术类、市场 ...",
-      "url": "https://www.nowcoder.com/feed/main/detail/f4bbad2e791e4be6baf807efe62a0df5",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "牛客",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "牛客",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "nowcoder-5",
-      "platform": "牛客",
-      "title": "吉比特雷霆游戏2026届校园招聘内推",
-      "summary": "吉比特amp;雷霆游戏2026届校园招聘正式启动关于我们：研运一体上市游戏公司，专业从事网络游戏创意策划、研发制作及商业化运营。旗下有《问道》《问道手游》《一念 ...",
-      "url": "https://www.nowcoder.com/feed/main/detail/5c5cd0e06f684a7fa4e96bf7b0eb93e7",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "牛客",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "lastChange": "2026-07-09 13:51",
-      "changeNote": "摘要有更新",
-      "category": "牛客",
-      "topic": "产品游戏",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "zhihu-q511979732",
-      "platform": "知乎",
-      "title": "《雷霆游戏》怎么玩主力的大剑？",
-      "summary": "3 个回答",
-      "url": "https://www.zhihu.com/question/511979732",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "知乎",
-        "雷霆游戏"
-      ],
-      "answerCount": 3,
-      "source": "cdp",
-      "lastChange": "2026-08-31 10:23",
-      "changeNote": "新增 2 个回答",
-      "category": "知乎",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "zhihu-q390457032",
-      "platform": "知乎",
-      "title": "如何看待雷霆游戏出了问道这个游戏？",
-      "summary": "2 个回答",
-      "url": "https://www.zhihu.com/question/390457032",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "知乎",
-        "雷霆游戏"
-      ],
-      "answerCount": 2,
-      "source": "cdp",
-      "category": "知乎",
-      "topic": "产品游戏",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "zhihu-q461123221",
-      "platform": "知乎",
-      "title": "如何看待雷霆游戏的用户协议？",
-      "summary": "2 个回答",
-      "url": "https://www.zhihu.com/question/461123221",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "知乎",
-        "雷霆游戏"
-      ],
-      "answerCount": 2,
-      "source": "cdp",
-      "lastChange": "2026-09-01 10:23",
-      "changeNote": "新增 2 个回答",
-      "category": "知乎",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-5fa71fe9-e8e0-4828-8480-f16dee7f4bd4#1788761237549",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/5fa71fe9-e8e0-4828-8480-f16dee7f4bd4#1788761237549?xsec_token=ABs1BsbiP1wkEJu_tedZn6Q9DSL2p9IDi0RTXRQWaVfPDyNIaDb9nb-Yc2-KBBY_87juMZ7MUW1Kkr0XMLnNPepfhqkEAnppZcOPbeLIYRnZU=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-c99c2572-1517-4237-b812-41019dbc98e8#1788761236745",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/c99c2572-1517-4237-b812-41019dbc98e8#1788761236745?xsec_token=ABERZytZFFKqdagT4Y3ZeTMS4QAZR6wW-oYCXwboJDE9U7kRU2VaFxC8nJOEN5hcvju7pomCGcSNh8Ct-1C67eEyLBshZ4bkYFvjPQIUz7-ms=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-6a289eb1-a198-481e-8f1f-73bd7a26b21d#1788761230151",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/6a289eb1-a198-481e-8f1f-73bd7a26b21d#1788761230151?xsec_token=ABqGCkMuH_sEStT5iMxFqTk9HIgbbr21qBYKfKKJ1LM83GKF33yz0Zjt0UTAms8LagBTUXGBVJB3Q6JAI6sEOc8Mjhxr37B5AE5H5KPvf74FA=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-b9f4d0b3-01a8-44ff-92fd-166a418d9b2a#1788761229441",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/b9f4d0b3-01a8-44ff-92fd-166a418d9b2a#1788761229441?xsec_token=ABn5-spTReNmjzhepf-FebFFX25La4cuisZckHdHmGOXLu8bF5P1O3UtmNNaCY2gIv5_kDwC0CIvRWtn8byX8ay1_QXiH8sY6M6xSzDHso-zI=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-aVB0R1Y4eDJ5RzlmQXdB",
-      "platform": "脉脉",
-      "title": "今日已更新第43天――吉比特",
-      "summary": "今日已更新第43天――吉比特 ... 我们致力于帮助大家打造一个纯净有价值的投资数据库。以每日更新一个企业的数据分析和重点整理，来和大家一起成长。 我们只分析年度净资产收益 ...",
-      "url": "https://maimai.cn/article/detail?fid\\u003d1544799454\\u0026efid\\u003dNlsiGV4iPtGV8x2yG9fAwA",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "脉脉",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-0",
-      "platform": "脉脉",
-      "title": "致新兴游戏创作者：邀请你，加入无界计划!",
-      "summary": "吉比特「无界计划」正式启动，欢迎“登船”—— 加入我们，打破界限，释放创意，让世界见证创作者的力量！ 本次校招专项面向人群： 毕业时间在2024年7 月-2026年7月的 ...",
-      "url": "https://maimai.cn/article/detail?fid\\u003d1888554531\\u0026efid\\u003dblnfEEACH_953jknp0lWqQ",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "脉脉",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-Y1ZpdEFlVXhuLVkxQlN3",
-      "platform": "脉脉",
-      "title": "吉比特《杖剑传说》，急招",
-      "summary": "项目：杖剑传说岗位：角色原画设计师*2 地点：厦门经验要求：3年及以上，擅长明亮的日式画风，有立绘、时装经验最佳. 吉比特《杖剑传说》，急招脉脉.",
-      "url": "https://maimai.cn/article/detail?fid\\u003d1890497924\\u0026efid\\u003dpUy5WxjcVitAeUxn-Y1BSw",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "脉脉",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "产品游戏",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-aVp5aWxya29TcnpaTGVB",
-      "platform": "脉脉",
-      "title": "深圳吉比特工资待遇怎么样？薪资福利如何？",
-      "summary": "深圳吉比特工作经验薪资情况 · 1. 工作经验为应届生的，中位数工资在7400上下浮动，平均薪资在7620左右浮动； · 2. 工作经验为1-2年的，中位数工资在15162上下浮动，平均薪资 ...",
-      "url": "https://maimai.cn/article/detail?fid\\u003d1739052391\\u0026efid\\u003dJYegbleiZyilrkoSrzZLeA",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "脉脉",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "企业文化",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-OHZ4a0dCd0J3QkkyYTh3",
-      "platform": "脉脉",
-      "title": "吉比特【无界计划】内推",
-      "summary": "计划有大量校招和社招需求，校招不仅限应届。三年内的游戏人都可以投递 。欢迎联系内推~ ⁠加入【无界计划】，成为创作者，你将能获得； ⁠1.与创始人共创下一个世界级 ...",
-      "url": "https://maimai.cn/article/detail?fid\\u003d1891474590\\u0026efid\\u003dr6IJimx8vxkGBwBwBI2a8w",
-      "sentiment": "positive",
-      "time": "",
-      "tags": [
-        "脉脉",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "理念价值观",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-amlnNjVRQ2pRc1JjMi1R",
-      "platform": "脉脉",
-      "title": "2026秋招进行时，吉比特&雷霆游戏招聘来啦！",
-      "summary": "吉比特&雷霆游戏招聘和小红书职场一起加入「校招看见行动」活动！2026校招季，我们将建立更高效透明的求职链路，我们珍视新生血液，希望看见每一封简历背后更真实 ...",
-      "url": "https://maimai.cn/article/detail?fid\\u003d1886207695\\u0026efid\\u003dcu7oaVfjig65QCjQsRc2-Q",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "脉脉",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "lastChange": "2026-08-09 11:19",
-      "changeNote": "摘要有更新",
-      "category": "脉脉",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-WjFQRnhYWEtGR1ZDTVhB",
-      "platform": "脉脉",
-      "title": "吉比特&雷霆游戏海量HC",
-      "summary": "吉比特&雷霆游戏海量HC ... 声明：本文内容由脉脉用户自发贡献，部分内容可能整编自互联网，版权归原作者所有，脉脉不拥有其著作权，亦不承担相应法律责任。如果您发现有涉嫌 ...",
-      "url": "https://maimai.cn/article/detail?fid\\u003d1902402098\\u0026efid\\u003d7yes1o1Z1PFxXXKFGVCMXA",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "脉脉",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "脉脉",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-bHlvYnExX3dlYTZ5aV9n",
-      "platform": "脉脉",
-      "title": "吉比特＆雷霆游戏2月最新岗位",
-      "summary": "吉比特＆雷霆游戏2月最新岗位 ; 孤先生. 品宣视频后期适合我. 02-07 ; E先生. 求社招内推码. 02-05 ; 亚先生. 我面试没过，以后还能投吗. 02-05 ; 贝先生. 四年3d角色美术想投 ...",
-      "url": "https://maimai.cn/article/detail?fid\\u003d1902401072\\u0026efid\\u003dS9oDiailyobq1_wea6yi_g",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "脉脉",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "脉脉",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-YkJ6dFpVZFV2dVAtR2ZB",
-      "platform": "脉脉",
-      "title": "吉比特&雷霆游戏2026校招启动",
-      "summary": "吉比特&雷霆游戏 ... 吉比特&雷霆游戏2026校招启动. 头像. 陈俊鸿. 25-08-29 · 游戏研发工程师. 好友. 内推码Z2M6I4. 吉比特&雷霆游戏2026校招启动脉脉. END.",
-      "url": "https://maimai.cn/article/detail?fid\\u003d1885929516\\u0026efid\\u003dVZNGHEZbBztZUdUvuP-GfA",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "脉脉",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "脉脉",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-27d3155b-f682-46de-a816-2b8c06515052#1788934073897",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/27d3155b-f682-46de-a816-2b8c06515052#1788934073897?xsec_token=ABKre_PlWLx_IkBsTbfJTyhrV0rM7SfB0njAEcXdmNlVGoxdCv_1xRuvY2sbqGCC0_vL9M8sFbUO74djS_92BFEsf4ppQWO4J9Vcmw1DLjwJc=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-04b6fc9f-3777-442e-992e-09e3ba402395#1788934072809",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/04b6fc9f-3777-442e-992e-09e3ba402395#1788934072809?xsec_token=ABmCOtwRUDGALtBSRoBs-bOklcaZAYy0RzWgHCQvRaEJ29uC6cFPZwNqYJx2J08sHSs8h6F95q18m_IGjch8TPiqmRC5x_vsNPp__XEm8ftaY=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-13c07f70-c097-4871-9c11-7124aca25655#1788934048853",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/13c07f70-c097-4871-9c11-7124aca25655#1788934048853?xsec_token=ABM-UrL7XgrEwdWiCBkms8b35mSVi323ChHHNt-0c7qMskpnTlnGAJ2WARd25_hDZtKijzpBtC-x2Yh_G6AmyOXdtba89J4Bzbob19pBO4hcs=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-99f5ed8a-a440-4f9e-85bd-52a2f9693a95#1788934047729",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/99f5ed8a-a440-4f9e-85bd-52a2f9693a95#1788934047729?xsec_token=AB1DVpYOaW8JMREg7cVuQHSsbMYTWxAPLP9yZMnITl0mzoO4cIV049zDLFq7WFHjpG_LvBdukM8Tu7plKhOrjfWXFxWDzwmNRJ890zPGIFR4I=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-1902402098",
-      "platform": "脉脉",
-      "title": "吉比特&雷霆游戏海量HC",
-      "summary": "吉比特&雷霆游戏海量HC ... 声明：本文内容由脉脉用户自发贡献，部分内容可能整编自互联网，版权归原作者所有，脉脉不拥有其著作权，亦不承担相应法律责任。如果您发现有涉嫌 ...",
-      "url": "https://maimai.cn/article/detail?fid=1902402098&efid=7yes1o1Z1PFxXXKFGVCMXA",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "脉脉",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "脉脉",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-b8bd2dcf-383c-4934-9163-60cc86cd898d#1789106867727",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/b8bd2dcf-383c-4934-9163-60cc86cd898d#1789106867727?xsec_token=ABgmYRENzNZK9fxH0m8DlgF3Yfq_YkjffpZChw0NMyo5Hbu9mxhnxeABXVJB3KD1HzKEOxrNiO1QWQD_Og_vbJ_ZzCmC4TuRtk70CT7agU50A=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-8a7dddc1-d643-4e06-84aa-6dc439aa8999#1789106866913",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/8a7dddc1-d643-4e06-84aa-6dc439aa8999#1789106866913?xsec_token=ABPXo89iV9ZxNRNB0X1n2fHFxw-05TlWW0mSzL_5zT6q6HTOQz5o4eAr2PXj_dQE215Hn6QK2wgRuVtyq0uTk7zgWGm3a26btAXhwJ7r80IPY=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-0ded8fdc-d520-4b33-8fba-d682db1c2a02#1789106840491",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/0ded8fdc-d520-4b33-8fba-d682db1c2a02#1789106840491?xsec_token=ABw-NxG8KAmJt2754p54KUn9gs4onrlsEmAe7jR3BwyYg8nNK-c1sy2AeWFLWbBeZ3IF6ShJPSlRiB2nyM9F5ux5_Zb7U6bwrbzkNn-sgvv8o=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-c0c976be-0637-42dd-a0f2-1c9f166e7b55#1789106839747",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/c0c976be-0637-42dd-a0f2-1c9f166e7b55#1789106839747?xsec_token=AB9SAf2_I_rgUAGu3mWNOc5YBKeIt5k7dQvjBysLO413tflbMDsbRbLaDmQaFQ8aS2BfA7dwTsdVx1zMpldtOKciic50zLOxqTLkdCM9VB_5I=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-ad0ac63d-aa15-4524-8040-4fdb4253516b#1789193237702",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/ad0ac63d-aa15-4524-8040-4fdb4253516b#1789193237702?xsec_token=ABLHsEwQXXo0w42SpOJ9UHnqWpcHYw4n4KgPj_FgQ4Q-fYacATMb-QT8wqv4_Ne_iPpuK9yTveV3mDDK2jU5CmHkxZJD7LB8MSlPI8C8Z6ysc=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-57ffc31b-7519-4a5a-be37-4ededd043198#1789193230059",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/57ffc31b-7519-4a5a-be37-4ededd043198#1789193230059?xsec_token=ABDqP8BLynTecLLDYsp1_3uwBRkEvMO2Nz65fZqF5gGN0p_1JQTusWFo6AVUP8KiokEFW4l_J_2n-Mju7RS0BFDzzBy0K17WtfeDWSFSWjbhs=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-a2217eaf-6545-4f20-98d0-a1a2b7312cc0#1789279643515",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/a2217eaf-6545-4f20-98d0-a1a2b7312cc0#1789279643515?xsec_token=ABREV-Ic4-Jb7w8kU2DX6hebwzji5HoWRVdMGh4GRFovsqRadRizCX_s70DHyohN76RgSdH_HrhwxKcxS5MipuPTYnxSczxoIzDCO8694AlcI=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-a6a53408-f709-44f0-855a-92e56a099872#1789279636254",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/a6a53408-f709-44f0-855a-92e56a099872#1789279636254?xsec_token=ABKt-3k_KqnVaTLaRSdKUuF62S3fDOIUd2w3-OBzvJ311HhIe-MATw1l8Cqqo1haxlmaFhEaZxqW4jLr39j1fOFzLxhJeJOPVePcbc-wqv0Io=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-1719674655",
-      "platform": "脉脉",
-      "title": "转型为游戏厂商提供合规基础网络服务",
-      "summary": "近期吉比特董事长卢竑岩就在股东大会上透露，吉比特今后“除储备IP外，只有面向全球的题材才可以立项”。充分反映了像吉比特这些以国风RPG见长的厂商，也非常重视海外 ...",
-      "url": "https://maimai.cn/article/detail?fid=1719674655&efid=io6CJUyUXj3hiH-PFVCu-A",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "脉脉",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "经营管理",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-1867647002",
-      "platform": "脉脉",
-      "title": "25届春招、26届暑期实习内推",
-      "summary": "吉比特&雷霆游戏25届春招&26届暑期实习招聘开启【公司介绍】上市游戏公司，研运一体，20年稳定运营，专业从事网络游戏创意策划、研发制作及商业化运营。",
-      "url": "https://maimai.cn/article/detail?fid=1867647002&efid=xAmkQzvb1uNn1HoPGWiAdw",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "脉脉",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "脉脉",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "zhihu-q462900684",
-      "platform": "知乎",
-      "title": "如何看待雷霆游戏？",
-      "summary": "0 个回答",
-      "url": "https://www.zhihu.com/question/462900684",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "知乎",
-        "雷霆游戏"
-      ],
-      "answerCount": 0,
-      "source": "cdp",
-      "lastChange": "2026-09-14 10:23",
-      "changeNote": "回答数 3→0",
-      "category": "知乎",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-9824af9b-1d6a-4baf-982d-acc27afccdd2#1789538846567",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/9824af9b-1d6a-4baf-982d-acc27afccdd2#1789538846567?xsec_token=ABgycwdr7mG_7W27GAF5UeZERqhqN2qR614Y3vK620Xt61La_oqpRexvHGNJMupiLBdkuBe5awL-1Xjk7tmw4lykCjvfajgStg8_bM7oOKENI=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-e59f4806-e202-42bf-8354-d0f13e82b506#1789538839208",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/e59f4806-e202-42bf-8354-d0f13e82b506#1789538839208?xsec_token=ABvQ5AJ7oEhTuGPnQygtAf_Le8_TY2aBy-JpawQ6Gp71cl5r3c5Ga2zlFDlaOvMEXDmhI4Pwxl9qOjQJVTdc0RDwGb-4IkUNEYoIcYahffe4Q=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-6ddc2e1e-a78d-4482-bda3-ad4b5df1bd96#1789711651813",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/6ddc2e1e-a78d-4482-bda3-ad4b5df1bd96#1789711651813?xsec_token=ABk5DdEOr-IfJIXSrLlV9Pc-m4KkLHXHiyXvgfbr_2gdMDAPCdx5Ubi9Q1OfOfM_tk9E10fMpgxQaogNLFEWl_ruOCeZ0pB4j2jYCdr3iLkWE=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-0400edbf-2a77-4b41-a2b6-8040e6f870b2#1789711650641",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/0400edbf-2a77-4b41-a2b6-8040e6f870b2#1789711650641?xsec_token=AB01fpsN9m-sXwWcjkYvA1AaJEjiQU4MFgSBA8TV0PNLpNCaTPgNHazGNuhL476ucy-w_7nbUfpzL8ZHi7k9lLChzW5yFTVwFyiSKetkcSaPU=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-f29e711f-1af8-4d62-b520-b59e32ba0c0e#1789711641641",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/f29e711f-1af8-4d62-b520-b59e32ba0c0e#1789711641641?xsec_token=ABuwDF01CRJIEke2h-aONWMX4a9MTfL7QrYdWREi7Vi4kuQCr1ob4oyNlE53Komb7HzZRvBOzlT0dtfk0P31FmY42ZolqsNHV4lP-CtbH95qQ=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-dfa4b8e6-2b19-4871-b5ae-c2bf50d65185#1789711640847",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/dfa4b8e6-2b19-4871-b5ae-c2bf50d65185#1789711640847?xsec_token=ABggUISLoE4kXrqmjukVZU4GWf6Nl-ZCsCc9KvPnJhWhFIaJt9aHB3H1W37CboT-wPoKYpJVkYryv9odluoYW2eyQ4RMAUBQ1ePAnKv65JV1I=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-1865353962",
-      "platform": "脉脉",
-      "title": "网传吉比特广州解散，吉比特官方回应",
-      "summary": "近日，网传“吉比特广州分公司解散”。有网友表示，广州吉比特只有一个项目，最终因为项目营收不佳，项目组被裁。 对此吉比特回应称：“公司近期在回顾和总结过往研发过程 ...",
-      "url": "https://maimai.cn/article/detail?fid=1865353962&efid=WZpveyt5DJKxBR-vzK-dcA",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "脉脉",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "股票财务",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "nowcoder-222",
-      "platform": "牛客",
-      "title": "吉比特27届暑期实习开启",
-      "summary": "热爱无界，创造无限，吉比特雷霆游戏等你来！ 【开放岗位】游戏策划类，程序技术类，美术设计类，产品运营类，市场营销类，公共职能类等近百个HC等你来！",
-      "url": "https://www.nowcoder.com/feed/main/detail/222d65f3fa104da2a4471c8c750324d5",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "牛客",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "牛客",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "zhihu-668992375",
-      "platform": "知乎",
-      "title": "深圳吉比特雷霆游戏前端日常实习面试面经",
-      "summary": "最新最全的求职面经、求职攻略戳：https://link.youzhiwk.com/r/6Aa8xwQHiO一面（40多分钟）1.自我介绍2.你是如何接触并学习前端的3.说一下你对vue3的了解， ...",
-      "url": "https://zhuanlan.zhihu.com/p/668992375",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "知乎",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "source": "serp",
-      "lastChange": "2026-09-19 14:32",
-      "changeNote": "摘要有更新",
-      "category": "知乎",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-6d1714e6-18f9-4afd-b291-2601accf1f3b#1789867845492",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/6d1714e6-18f9-4afd-b291-2601accf1f3b#1789867845492?xsec_token=ABdHGgAoZCtrmu9-cQU6E6alPAlTDUjkNCK1oN6cGhUiMc_64PcnBxmE7IdTqdsHWmTf3fWraDUjr2ruM4VapejnYksxd9-cV4bChLKU_udp8=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-84f4b81e-79e6-42c3-986b-35310f409346#1789867844675",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/84f4b81e-79e6-42c3-986b-35310f409346#1789867844675?xsec_token=ABGHKqDQx_jghg4smEVWrEkgWUXhsOVgmADCbSfvSQEfMntCLGD5Dm4UUZESmjBbGkgpVSjx-OC-mK84xM044XuJCO5ohU480Xuls1t_kF86w=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-dfb2c7d3-7acf-43cb-b09e-072ea781133d#1789867837942",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/dfb2c7d3-7acf-43cb-b09e-072ea781133d#1789867837942?xsec_token=ABCXZeFJKzzaIccpV3Sb8UjTgK-0QhweHmuHmVwALmQhXVjRo69wik5EjbbQ1dA9rYJd9dy7L2i08nNKPTKAP4cU8jENLTPqsnnH2nK6eTVOY=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-d8d25ba5-e425-438b-acfa-1f8910994e92#1789867837191",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/d8d25ba5-e425-438b-acfa-1f8910994e92#1789867837191?xsec_token=ABIQ_Cnln7svJl-RSTDJLHWHgO4klo-8OLsMJ1VTTnX6_bVD0Dd0_JD0j1F6GYJYMpuYNbbS6OwTUk1Z2IUp5UdWqE1G6Pp78NhR7kAnNQjdA=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-d3bc81c1-6e6b-4976-b23b-cd1eae9be38c#1789884441742",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/d3bc81c1-6e6b-4976-b23b-cd1eae9be38c#1789884441742?xsec_token=ABC1j3FBfxM3FSfnTjIUYSrIGptsJ4wUPiTwsxABqUl_IVcW4DHtVgfJyb9f-c517I5x1q0TtUkFKkWcTF0pm7dJbQvdTTTY4ZQTAnqtsDaBk=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-985c9d04-4c07-40ec-8365-722c0e93a905#1789884440842",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/985c9d04-4c07-40ec-8365-722c0e93a905#1789884440842?xsec_token=ABNvAHDdnJw3mqTL-_aHfQ5xfMAK7YJ2oTef6BQ3r2dllOJpC6KKv9-bNBZy5OXUfMZH4lkJWGaBV4k_6vxettbWqGfPWb1v6G4lZ83dq1FTM=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-7b857913-4784-42ec-9e97-af6bad4017fd#1789884432219",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/7b857913-4784-42ec-9e97-af6bad4017fd#1789884432219?xsec_token=ABnF9Qr7PMJjChooPAwVj0KXoo7jtFW2WdUAAUlvzL53_TbYUwxrhvatz6QtwNw18V934vurhv4fH32t9PCOpJJjHwlUvizWxedljnBYXhSY0=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-0b2a7823-0119-479b-89cd-77ea1076ffa2#1789884431422",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/0b2a7823-0119-479b-89cd-77ea1076ffa2#1789884431422?xsec_token=ABppLfRaLknJXjvVO-LiVe__WGrtByPUvsVp7tWESU9MCRziqg8fRzzWkOM_xsD9ngITX5DFD9-zNsatTZZMZs5_0W4aX81XVQSjQn1pELouM=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-8939dc4d-19fd-41e9-a494-7bb14672239e#1790143648833",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/8939dc4d-19fd-41e9-a494-7bb14672239e#1790143648833?xsec_token=ABkAtV_fhgthJ595RIvjDIhsJvTPAMF-r3bp_pucJi1XjA2_ceXCr9WZT1q3nxJtOFUOMSaehj4XHQRMt7Dy1MYB_uvNuS0SI_vYFFe14h35s=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-26f7a41c-3cc5-42cc-a781-3dfc2afe24bb#1790143647674",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/26f7a41c-3cc5-42cc-a781-3dfc2afe24bb#1790143647674?xsec_token=AB_AmRDXEXD1iQhEPIjvyZIy33yVQHMqQbwpr5LqV0a1Y6rMJYLJ97pDCwBaE6Goa6APfhAXO0pODgLRfHFqdVzaFojxU93YNDR9DB1b5ozn0=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-af1ee965-6bf7-46b2-a06e-ba5ca429eaf3#1790143640787",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/af1ee965-6bf7-46b2-a06e-ba5ca429eaf3#1790143640787?xsec_token=ABfRD_-D_4Hz8nEDBGkRlahxxF1_6QddYC725n5W3L0xszQVQnGD4Dm0Y8MIVqaDkPpbL_KvkCJTQgpKdVALhNOSqCkd0MIwrnPiXpanllWfg=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-5102411c-8441-4f98-85f0-c7bcabb5fa8e#1790143640027",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/5102411c-8441-4f98-85f0-c7bcabb5fa8e#1790143640027?xsec_token=ABBZttrtWuTT_cNxff1Er9OQsS0n05j1_j24o2CeL3Cp1odZMTyI2IYUS6TtosBDkbKCClIRqfvTP5PDVfONM_dr0gcB4Lar1BG8HW7LRY1uI=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-1888554531",
-      "platform": "脉脉",
-      "title": "致新兴游戏创作者：邀请你，加入无界计划!",
-      "summary": "吉比特「无界计划」正式启动，欢迎“登船”—— 加入我们，打破界限，释放创意，让世界见证创作者的力量！ 本次校招专项面向人群： 毕业时间在2024年7 月-2026年7月的 ...",
-      "url": "https://maimai.cn/article/detail?fid=1888554531&efid=blnfEEACH_953jknp0lWqQ",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "脉脉",
-        "吉比特"
-      ],
-      "category": "脉脉",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-09746b78-9685-4b0a-92ff-30e101eea474#1791526046355",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/09746b78-9685-4b0a-92ff-30e101eea474#1791526046355?xsec_token=ABZm0GDOOF1i5N9vwM3M6O-XKlAgmDMAySjGgq5zkionbbWJBNvfS4C8hcixx-TeldcZzcwT61vIQK0RsWRawNgHr-TyUg3iZX0VRekZcqwNI=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-15877803-9c19-4a31-93fa-f0a4aa2d2444#1791526045346",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/15877803-9c19-4a31-93fa-f0a4aa2d2444#1791526045346?xsec_token=ABOVLPuyGkoI9mGvOmD_XeTyfLLOBz6q0Fk4JTa9XVmhOrKSoobnl1yyqi7yRGa7US55KYYXPmxbnYDd7Rkg-nb3O3mo9hT20dTCr4fR5XkVM=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-580e91a9-0b5d-4315-afa6-981be825ca6e#1791526038647",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/580e91a9-0b5d-4315-afa6-981be825ca6e#1791526038647?xsec_token=ABasmahhzE4y2WufvYrWbTiXwZGOukPoYQhbNMKH-IrLIYPSji_kQZkDXjtOGZsJSH4z1IzZvAXKgYEWloj8jyl_3P2EDHR5GSa_ILp42o9Yw=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-e27be33e-e336-4ecc-b08d-f71afca52682#1791526037504",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/e27be33e-e336-4ecc-b08d-f71afca52682#1791526037504?xsec_token=ABXUipY75S6jZbbR2SL1xKTbXDCpjeurgqqXVa85zfWmW3pNJAtONO-p_0FnHSj5aXzQpDMIBHAPYcHEBUFF_NX5jW63xwrQnF5wF6sEaxAo4=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "nowcoder-LzQ3LjEwNy4yNDIuMTUv",
-      "platform": "牛客",
-      "title": "吉比特_雷霆游戏官方网站",
-      "summary": "雷霆游戏由一群热爱游戏的发烧友组成，以“汇聚和培养具有创新精神的人才，追求高效的工作方式，为全球用户提供差异化的产品和服务，创造和传播文娱领域的美好体验”为 ...",
-      "url": "http://47.107.242.15/",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "牛客",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "牛客",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-LzQ3LjEwNy4yNDIuMTUv",
-      "platform": "脉脉",
-      "title": "吉比特_雷霆游戏官方网站",
-      "summary": "雷霆游戏由一群热爱游戏的发烧友组成，以“汇聚和培养具有创新精神的人才，追求高效的工作方式，为全球用户提供差异化的产品和服务，创造和传播文娱领域的美好体验”为 ...",
-      "url": "http://47.107.242.15/",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "脉脉",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-0cdf378d-cfc0-4486-8420-c41ae1f22620#1791612450893",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/0cdf378d-cfc0-4486-8420-c41ae1f22620#1791612450893?xsec_token=AB_brzxKFlbTJJ9sfyTy9EV8ORI3wo53Cozy7ZDShiRU-WCCkFWI5cilsDhgH6ba8AgkkBoudbpYnqRQjOXNa7zwEjgmJrbvS61-RqS0ki6Yw=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-50d6affa-90c4-4a9f-8e54-a0ef451e6e96#1791612450080",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/50d6affa-90c4-4a9f-8e54-a0ef451e6e96#1791612450080?xsec_token=AB-PaNhBVib4vBaKOL8z-JOP-GNXIvSZ0FCQS4qYDhyo5USdOWEUgcnUb1AHQrxiaI4oJ1UDkf9MC-2d9hG3iNPyFQqxOHV8twuwgQ7A7ZULw=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-fd9cf57d-f4af-44c7-9983-8a5c2dad08ee#1791612443481",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/fd9cf57d-f4af-44c7-9983-8a5c2dad08ee#1791612443481?xsec_token=ABBDEDT0Nzl65XKTcus_PVpYe0G9FWmricPz_cfD-DauiSceZAWzcaiaZ6NVsp8KMVJMPvNDw7B0cgpvPLezSW1FOCkwzEMm7FtyHdwIiTHK4=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "xhs-fa16e2e2-97f9-4116-83e2-af7cd1e26032#1791612442730",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/fa16e2e2-97f9-4116-83e2-af7cd1e26032#1791612442730?xsec_token=ABKB1xWYgdGrhFL5kySijFNMtmr9IUGL__PxmJJSb7AQ6sNV8t3yWWKy910xsBOfKIvIGQqf3r0A_eTZy0IE9iH9Ux2aZowgpldWyv1vllJHY=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "小红书",
-        "吉比特",
-        "👍0"
-      ],
-      "category": "小红书",
-      "_srcKw": "吉比特",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "nowcoder-kaXNjdXNzL2xhdGVzdC8",
-      "platform": "牛客",
-      "title": "吉比特&雷霆游戏讨论资讯",
-      "summary": "Ooops, page crashed. Crash ID: af3ebd4e.",
-      "url": "https://leetcode.cn/topic/gbits/discuss/latest/",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "牛客",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "牛客",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "nowcoder-1MzgxODQxNTAwNjkyNDg",
-      "platform": "牛客",
-      "title": "吉比特&雷霆游戏未来游戏制作人大赛",
-      "summary": "8万元冠军奖励！17位大咖导师嘉宾，吉比特&雷霆游戏未来游戏制作人大赛启动！ · TIMELEAP-小红鱼404 · Wireman-小红鱼404 · FruityJam-吃瓜小分队 · Rebirth-吃瓜小分队 · 开赛 ...",
-      "url": "https://www.zhihu.com/column/c_1360538184150069248",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "牛客",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "牛客",
-      "topic": "产品游戏",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-kaXNjdXNzL2xhdGVzdC8",
-      "platform": "脉脉",
-      "title": "吉比特&雷霆游戏讨论资讯",
-      "summary": "Ooops, page crashed. Crash ID: af3ebd4e.",
-      "url": "https://leetcode.cn/topic/gbits/discuss/latest/",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "脉脉",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "zhihu-498493425",
-      "platform": "知乎",
-      "title": "吉比特&雷霆游戏2022暑期实习生项目火热启动",
-      "summary": "四大不同职能岗位（程序设计类、美术设计类、公共职能类、游戏策划类），总有一类适合你！ 加入我们，你能获得： ✓丰厚的薪资、住房补贴和实习证明； ✓公司亦有美味 ...",
-      "url": "https://zhuanlan.zhihu.com/p/498493425",
-      "sentiment": "positive",
-      "time": "",
-      "tags": [
-        "知乎",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "source": "serp",
-      "lastChange": "2026-10-10 15:42",
-      "changeNote": "摘要有更新",
-      "category": "知乎",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "nowcoder-ODI5MDIzNDE2MDkwNjkx",
-      "platform": "牛客",
-      "title": "吉比特游戏的动态",
-      "summary": "吉比特&雷霆游戏2024秋季校园招聘正式启动！ [星星眼] 海量岗位！超多福利！ [打 ... ✓ 内推码BILI哦！ [脱单doge] 重要的事情说三遍老规矩，转发+关注. @吉比特游戏.",
-      "url": "https://www.bilibili.com/opus/828829023416090691",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "牛客",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "牛客",
-      "topic": "企业文化",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "nowcoder-M0NDQtU0gvY29tcGFueQ",
-      "platform": "牛客",
-      "title": "吉比特公司简介及介绍",
-      "summary": "公司专注于网络游戏的研发及运营业务。主要产品包括《问道》端游、《问道手游》、《道友来挖宝》、《杖剑传说》、《一念逍遥》、《问剑长生》、《九牧之野》、《奥比岛: ...",
-      "url": "https://www.futunn.com/stock/603444-SH/company",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "牛客",
-        "吉比特"
-      ],
-      "category": "牛客",
-      "topic": "产品游戏",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "nowcoder-YW8ubGVpdGluZy5jb20v",
-      "platform": "牛客",
-      "title": "自助服务-吉比特_雷霆游戏官方网站",
-      "summary": "首页 · 游戏产品 · 账号注册 · 账号自助 · 修改密码; 联系客服; 加入我们 · 商务联系 · 关于雷霆 · 举报与投诉 · 家长陪伴平台. 关闭. 您好，请登录【注销】 ...",
-      "url": "https://fapiao.leiting.com/",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "牛客",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "牛客",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "nowcoder-RzL2pvYnMvY2FtcHVzLw",
-      "platform": "牛客",
-      "title": "吉比特&雷霆游戏招聘职位",
-      "summary": "【任职要求】 1、计算机相关专业本科及以上学历； 2、对图形学和实时渲染有较深的理解，对开源引擎做过研究者优先； 3、熟练掌握C++/C#/Lua，热爱技术，热爱游戏，热爱钻研 ...",
-      "url": "https://leetcode.cn/company/gbits/jobs/campus/",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "牛客",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "牛客",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "nowcoder-VzdHJveT9jaGFubmVsPQ",
-      "platform": "牛客",
-      "title": "LeiTing.com_吉比特旗下游戏平台 - 账号信息",
-      "summary": "Copyright© 2004-2026吉比特雷霆游戏. 互联网违法和不良信息举报邮箱:gmtousu@leiting.com 互联网违法和不良信息举报电话:0592-3285177(此专线仅受理举报类问题，其余 ...",
-      "url": "https://member.leiting.com/account_destroy/channel_destroy?channel=",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "牛客",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "牛客",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "nowcoder-dzL25ld3NfNjguaHRtbA",
-      "platform": "牛客",
-      "title": "新闻动态_雷霆游戏官方网站",
-      "summary": "3D动作新游《斗仙》，今日14：00开测 ... 厦门吉比特游戏3D动作新游《斗仙》，今日14:00破冰测试正式开启。游戏以“斗“为核心设计思路，无论是剧情创意、玩法设计还是战斗表现 ...",
-      "url": "https://www.leiting.com/terrace/news/news_68.html",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "牛客",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "牛客",
-      "topic": "产品游戏",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-Nvbi80MTk1Ny93b3Jrcw",
-      "platform": "脉脉",
-      "title": "雷霆游戏的作品列表",
-      "summary": "「雷霆游戏」的作品 · 中国式相亲 中国式相亲. Rank 8709 · 问剑长生. 2025年1月2日/ iOS、Android / 厦门吉比特网络技术股份有限公司 · 异象回声. Rank 6208 · 绝命游歌 · 航海 ...",
-      "url": "https://bangumi.tv/person/41957/works",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "脉脉",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "脉脉",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-ZXIubGVpdGluZy5jb20v",
-      "platform": "脉脉",
-      "title": "雷霆游戏客服专区_雷霆游戏官方网站",
-      "summary": "《一念逍遥》是一款水墨国风放置修仙手游，由吉比特自研，雷霆游戏发行，于2021年2月1日上线。玩家将扮演一个寻仙问道的凡人，修法炼体，学神通，炼器练丹，收集法宝，种灵 ...",
-      "url": "https://helper.leiting.com/",
-      "sentiment": "positive",
-      "time": "",
-      "tags": [
-        "脉脉",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "脉脉",
-      "topic": "产品游戏",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "zhihu-Nvbi80MTk1Ny93b3Jrcw",
-      "platform": "知乎",
-      "title": "雷霆游戏的作品列表",
-      "summary": "「雷霆游戏」的作品 · 中国式相亲 中国式相亲. Rank 8709 · 问剑长生. 2025年1月2日/ iOS、Android / 厦门吉比特网络技术股份有限公司 · 异象回声. Rank 6208 · 绝命游歌 · 航海 ...",
-      "url": "https://bangumi.tv/person/41957/works",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "知乎",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "source": "serp",
-      "category": "知乎",
-      "topic": "公司综合",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "zhihu-1MzgxODQxNTAwNjkyNDg",
-      "platform": "知乎",
-      "title": "吉比特&雷霆游戏未来游戏制作人大赛",
-      "summary": "8万元冠军奖励！17位大咖导师嘉宾，吉比特&雷霆游戏未来游戏制作人大赛启动！ · TIMELEAP-小红鱼404 · Wireman-小红鱼404 · FruityJam-吃瓜小分队 · Rebirth-吃瓜小分队 · 开赛 ...",
-      "url": "https://www.zhihu.com/column/c_1360538184150069248",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "知乎",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "source": "serp",
-      "lastChange": "2026-10-10 15:42",
-      "changeNote": "摘要有更新",
-      "category": "知乎",
-      "topic": "产品游戏",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "zhihu-930121807808458752",
-      "platform": "知乎",
-      "title": "吉比特&雷霆游戏内推码",
-      "summary": "吉比特2027届校招今天正式启动！如需内推，可以用我的内推码，优先简历筛选：9H5P8B. ✓ 核心岗位全覆盖：研发技术类、美术设计类、产品运营类、市场营销类、游戏客服 ...",
-      "url": "https://m.nowcoder.com/discuss/930121807808458752?urlSource=home-api",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "知乎",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "source": "serp",
-      "category": "知乎",
-      "topic": "招聘求职",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "zhihu-114837",
-      "platform": "知乎",
       "title": "吉比特&雷霆游戏凉经",
       "summary": "【吉比特&雷霆游戏】 笔试：（时长90分钟） 选择题中数学多，计算量较大，专业知识考察很基础； 填空题全是C++，读代码写输出。前面选择如果做得太慢，这部分会很有 ...",
       "url": "https://www.nowcoder.com/discuss/114837",
       "sentiment": "neutral",
       "time": "",
       "tags": [
-        "知乎",
+        "脉脉",
         "吉比特",
         "雷霆游戏"
       ],
-      "source": "serp",
-      "category": "知乎",
+      "category": "脉脉",
       "topic": "招聘求职",
       "section": "舆情",
       "pushable": true
     },
     {
-      "id": "zhihu-pbmcuY29tL2xpc3QvbHo",
-      "platform": "知乎",
-      "title": "《乱战》官方资讯中心- 吉比特",
-      "summary": "全部 新闻 公告. +查看更多. 扫码下载：伊洛纳. 请使用手机扫一扫. 手机登录. iOS. 安卓. captcha. 获取验证码. 我已知悉并同意《雷霆游戏隐私协议》和《雷霆游戏用户协议》.",
-      "url": "https://game.leiting.com/list/lz",
+      "id": "maimai-348440",
+      "platform": "脉脉",
+      "title": "【吉比特&雷霆游戏】技术岗社招内推，base深圳",
+      "summary": "【公司介绍】. 吉比特成立于2004年3月，专注于网络游戏的研发和运营，公司致力于制作趣味性和差异化的精品游戏，为全球玩家创造美好体验，以“解决行业问题，成为行业 ...",
+      "url": "https://www.nowcoder.com/discuss/348440",
       "sentiment": "neutral",
       "time": "",
       "tags": [
-        "知乎",
+        "脉脉",
         "吉比特",
         "雷霆游戏"
       ],
-      "source": "serp",
-      "category": "知乎",
+      "category": "脉脉",
+      "topic": "理念价值观",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-925046858223734784",
+      "platform": "脉脉",
+      "title": "【吉比特&雷霆游戏】2027秋招！内附内推马！",
+      "summary": "公司名称：吉比特&雷霆游戏 招聘岗位：https://hr.g-bits.com/web/index.html#/post-web/post-list/ 内推码：N6E6D8.",
+      "url": "https://www.nowcoder.com/discuss/925046858223734784",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "脉脉",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "脉脉",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-930121807808458752",
+      "platform": "脉脉",
+      "title": "吉比特&雷霆游戏内推码",
+      "summary": "吉比特2027届校招今天正式启动！如需内推，可以用我的内推码，优先简历筛选：9H5P8B. ✓ 核心岗位全覆盖：研发技术类、美术设计类、产品运营类、市场营销类、游戏客服 ...",
+      "url": "https://m.nowcoder.com/discuss/930121807808458752?urlSource=home-api",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "脉脉",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "脉脉",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-116862",
+      "platform": "脉脉",
+      "title": "吉比特&雷霆游戏邀请码",
+      "summary": "吉比特&雷霆游戏邀请码G553257，邀请码可以免简历筛选，直接进入笔试环节，送给需要的小伙伴，加油 （备注：邀请码只能使用1 次）",
+      "url": "https://www.nowcoder.com/discuss/116862",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "脉脉",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "脉脉",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-VzdHJveT9jaGFubmVsPQ",
+      "platform": "脉脉",
+      "title": "- 雷霆游戏_LeiTing.com_吉比特旗下游戏平台",
+      "summary": "非雷霆账号注销 · 4399游戏盒. 注销方式1：游戏内点击4399悬浮窗-联系客服申请注销； · 华为游戏中心/应用市场. 注销方式1：游戏中心-我的-帮助与客服-在线客服申请注销；",
+      "url": "https://member.leiting.com/account_destroy/channel_destroy?channel=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "脉脉",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "脉脉",
       "topic": "公司综合",
       "section": "舆情",
       "pushable": true
     },
     {
-      "id": "zhihu-dzL25ld3NfNjguaHRtbA",
-      "platform": "知乎",
-      "title": "新闻动态_雷霆游戏官方网站",
-      "summary": "3D动作新游《斗仙》，今日14：00开测 ... 厦门吉比特游戏3D动作新游《斗仙》，今日14:00破冰测试正式开启。游戏以“斗“为核心设计思路，无论是剧情创意、玩法设计还是战斗表现 ...",
-      "url": "https://www.leiting.com/terrace/news/news_68.html",
+      "id": "maimai-353156166224125952",
+      "platform": "脉脉",
+      "title": "吉比特雷霆游戏PC主机发行专员笔经+一面二面凉经",
+      "summary": "吉比特的第一批笔试，24道单选共62分，4到问答题共38分，答题总时间90分钟。 单选题大致有 ...",
+      "url": "https://www.nowcoder.com/discuss/353156166224125952",
       "sentiment": "neutral",
       "time": "",
       "tags": [
-        "知乎",
+        "脉脉",
         "吉比特",
         "雷霆游戏"
       ],
-      "source": "serp",
-      "category": "知乎",
+      "category": "脉脉",
       "topic": "产品游戏",
       "section": "舆情",
       "pushable": true
     },
     {
-      "id": "xhs-3f6a574f-f95d-456b-8a91-20ddd5e6015e#1791769060619",
-      "platform": "小红书",
-      "title": "",
-      "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/3f6a574f-f95d-456b-8a91-20ddd5e6015e#1791769060619?xsec_token=AB4i9BTiD5i26bTFqdzkykd6ZevegtXFfEXcKMUZT-bm9yUV5uATRqmr0P5d5p1gKfr4v9HBfZrBSuhcJWtJj8iSF9J8DwWpD5rbWszILIvP8=",
-      "sentiment": "neutral",
+      "id": "maimai-cy95ZGp4MTY5ZC5odG1s",
+      "platform": "脉脉",
+      "title": "吉比特公司企业文化手册",
+      "summary": "雷霆游戏作为公司的自主运营平台，专注于网络游戏的推广和运营，坚持“精品化”路线，重视产品品质及玩家服务，运营的多款游戏获得良好的口碑与较高的人气。截至目前 ...",
+      "url": "https://www.tedschool.cn/manual/gbits/ydjx169d.html",
+      "sentiment": "positive",
       "time": "",
       "tags": [
-        "小红书",
-        "雷霆游戏",
-        "👍0"
+        "脉脉",
+        "吉比特",
+        "雷霆游戏"
       ],
-      "category": "小红书",
-      "_srcKw": "雷霆游戏",
-      "topic": "公司综合",
+      "category": "脉脉",
+      "topic": "理念价值观",
       "section": "舆情",
       "pushable": true
     },
     {
-      "id": "xhs-48c89be8-9e45-47d1-827f-f29bfd607d97#1791769053522",
+      "id": "maimai-1MzgxODQxNTAwNjkyNDg",
+      "platform": "脉脉",
+      "title": "吉比特&雷霆游戏未来游戏制作人大赛",
+      "summary": "8万元冠军奖励！17位大咖导师嘉宾，吉比特&雷霆游戏未来游戏制作人大赛启动！ · TIMELEAP-小红鱼404 · Wireman-小红鱼404 · FruityJam-吃瓜小分队 · Rebirth-吃瓜小分队 · 开赛 ...",
+      "url": "https://www.zhihu.com/column/c_1360538184150069248",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "脉脉",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "脉脉",
+      "topic": "产品游戏",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "nowcoder-OTUxblo3MzlxNUV3fn4v",
+      "platform": "牛客",
+      "title": "厦门吉比特网络招聘信息",
+      "summary": "养成设计策划. 20-40K·13薪 ; 前端开发实习生. 220-270元/天 ; 场景原画设计师（问道手游）. 20-30K·13薪 ; 游戏UI设计师(道友来挖宝)-base厦门. 16-25K ; 3D模型负责人. 60- ...",
+      "url": "https://www.zhipin.com/zhaopin/1607722fe3b7ab951nZ739q5Ew~~/",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "牛客",
+        "吉比特"
+      ],
+      "category": "牛客",
+      "topic": "产品游戏",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "nowcoder-930121807808458752",
+      "platform": "牛客",
+      "title": "吉比特&雷霆游戏内推码",
+      "summary": "吉比特2027届校招今天正式启动！如需内推，可以用我的内推码，优先简历筛选：9H5P8B. ✓ 核心岗位全覆盖：研发技术类、美术设计类、产品运营类、市场营销类、游戏客服 ...",
+      "url": "https://m.nowcoder.com/discuss/930121807808458752?urlSource=home-api",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "牛客",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "lastChange": "2026-10-06 16:04",
+      "changeNote": "标题、摘要有更新",
+      "category": "牛客",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "nowcoder-cy95ZGp4MTY5ZC5odG1s",
+      "platform": "牛客",
+      "title": "吉比特公司企业文化手册",
+      "summary": "雷霆游戏作为公司的自主运营平台，专注于网络游戏的推广和运营，坚持“精品化”路线，重视产品品质及玩家服务，运营的多款游戏获得良好的口碑与较高的人气。截至目前 ...",
+      "url": "https://www.tedschool.cn/manual/gbits/ydjx169d.html",
+      "sentiment": "positive",
+      "time": "",
+      "tags": [
+        "牛客",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "牛客",
+      "topic": "理念价值观",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "nowcoder-116862",
+      "platform": "牛客",
+      "title": "吉比特&雷霆游戏邀请码",
+      "summary": "吉比特&雷霆游戏邀请码G553257，邀请码可以免简历筛选，直接进入笔试环节，送给需要的小伙伴，加油 （备注：邀请码只能使用1 次）",
+      "url": "https://www.nowcoder.com/discuss/116862",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "牛客",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "牛客",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-4d674b92-4e1b-479c-9b69-182f8b6f90a2#1791785230624",
       "platform": "小红书",
       "title": "",
       "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/48c89be8-9e45-47d1-827f-f29bfd607d97#1791769053522?xsec_token=AB8YF1hcmMwLU1Ug3ortIumFYHG1TeYDW7WRVSqaLfsU-9P6DLTJhMLNzu_Hr7bFruAyMjAWGlRNfCbMe3flUMVLbjVOfx_3B8C7XeaGeXo94=",
+      "url": "https://www.xiaohongshu.com/explore/4d674b92-4e1b-479c-9b69-182f8b6f90a2#1791785230624?xsec_token=ABxtjrOllzsLDcOOa6n6IHU_PYN-t_eo3AxlZx5HXfgdSSMCXfXHDvRqdMUHCnpmxP6iNy1xdzkoD1dXwdSD-t6OALwE8tw_m2vUagyITy_6Q=",
       "sentiment": "neutral",
       "time": "",
       "tags": [
@@ -28016,11 +21763,11 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "xhs-a2cbd8f2-d165-4fe6-876d-c04084920e58#1791769052740",
+      "id": "xhs-b78e0d36-8711-4079-9f4c-cf2c8049faae#1791785231423",
       "platform": "小红书",
       "title": "",
       "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/a2cbd8f2-d165-4fe6-876d-c04084920e58#1791769052740?xsec_token=ABWv6LXFbbFzicY9gjUUoIUlLNwz2vPU-YQg9fflDlCVYh7HmlwX6XWNDIsaePa_ZRNGefDYwi-3JyOCUPn5sY7KyybNBMlWCMsyvyk4JPm4E=",
+      "url": "https://www.xiaohongshu.com/explore/b78e0d36-8711-4079-9f4c-cf2c8049faae#1791785231423?xsec_token=ABuG3iiiuCgSh0K1r3EUtSOlaimxO64RMPRRdXiBiNcygnzVnHqWlFmpCGuAK1CkQgy9u2og9-DoYZiBGZ0Hi5R_WNjyjjkNjNMS-LmgTFHW8=",
       "sentiment": "neutral",
       "time": "",
       "tags": [
@@ -28054,11 +21801,11 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "xhs-b78e0d36-8711-4079-9f4c-cf2c8049faae#1791785231423",
+      "id": "xhs-a2cbd8f2-d165-4fe6-876d-c04084920e58#1791769052740",
       "platform": "小红书",
       "title": "",
       "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/b78e0d36-8711-4079-9f4c-cf2c8049faae#1791785231423?xsec_token=ABuG3iiiuCgSh0K1r3EUtSOlaimxO64RMPRRdXiBiNcygnzVnHqWlFmpCGuAK1CkQgy9u2og9-DoYZiBGZ0Hi5R_WNjyjjkNjNMS-LmgTFHW8=",
+      "url": "https://www.xiaohongshu.com/explore/a2cbd8f2-d165-4fe6-876d-c04084920e58#1791769052740?xsec_token=ABWv6LXFbbFzicY9gjUUoIUlLNwz2vPU-YQg9fflDlCVYh7HmlwX6XWNDIsaePa_ZRNGefDYwi-3JyOCUPn5sY7KyybNBMlWCMsyvyk4JPm4E=",
       "sentiment": "neutral",
       "time": "",
       "tags": [
@@ -28073,11 +21820,11 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "xhs-4d674b92-4e1b-479c-9b69-182f8b6f90a2#1791785230624",
+      "id": "xhs-48c89be8-9e45-47d1-827f-f29bfd607d97#1791769053522",
       "platform": "小红书",
       "title": "",
       "summary": "👍0 收藏0",
-      "url": "https://www.xiaohongshu.com/explore/4d674b92-4e1b-479c-9b69-182f8b6f90a2#1791785230624?xsec_token=ABxtjrOllzsLDcOOa6n6IHU_PYN-t_eo3AxlZx5HXfgdSSMCXfXHDvRqdMUHCnpmxP6iNy1xdzkoD1dXwdSD-t6OALwE8tw_m2vUagyITy_6Q=",
+      "url": "https://www.xiaohongshu.com/explore/48c89be8-9e45-47d1-827f-f29bfd607d97#1791769053522?xsec_token=AB8YF1hcmMwLU1Ug3ortIumFYHG1TeYDW7WRVSqaLfsU-9P6DLTJhMLNzu_Hr7bFruAyMjAWGlRNfCbMe3flUMVLbjVOfx_3B8C7XeaGeXo94=",
       "sentiment": "neutral",
       "time": "",
       "tags": [
@@ -28092,67 +21839,254 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "nowcoder-116862",
-      "platform": "牛客",
-      "title": "吉比特&雷霆游戏邀请码",
-      "summary": "吉比特&雷霆游戏邀请码G553257，邀请码可以免简历筛选，直接进入笔试环节，送给需要的小伙伴，加油 （备注：邀请码只能使用1 次）",
-      "url": "https://www.nowcoder.com/discuss/116862",
+      "id": "xhs-3f6a574f-f95d-456b-8a91-20ddd5e6015e#1791769060619",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/3f6a574f-f95d-456b-8a91-20ddd5e6015e#1791769060619?xsec_token=AB4i9BTiD5i26bTFqdzkykd6ZevegtXFfEXcKMUZT-bm9yUV5uATRqmr0P5d5p1gKfr4v9HBfZrBSuhcJWtJj8iSF9J8DwWpD5rbWszILIvP8=",
       "sentiment": "neutral",
       "time": "",
       "tags": [
-        "牛客",
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "zhihu-dzL25ld3NfNjguaHRtbA",
+      "platform": "知乎",
+      "title": "新闻动态_雷霆游戏官方网站",
+      "summary": "3D动作新游《斗仙》，今日14：00开测 ... 厦门吉比特游戏3D动作新游《斗仙》，今日14:00破冰测试正式开启。游戏以“斗“为核心设计思路，无论是剧情创意、玩法设计还是战斗表现 ...",
+      "url": "https://www.leiting.com/terrace/news/news_68.html",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "知乎",
         "吉比特",
         "雷霆游戏"
       ],
-      "category": "牛客",
+      "source": "serp",
+      "category": "知乎",
+      "topic": "产品游戏",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "zhihu-pbmcuY29tL2xpc3QvbHo",
+      "platform": "知乎",
+      "title": "《乱战》官方资讯中心- 吉比特",
+      "summary": "全部 新闻 公告. +查看更多. 扫码下载：伊洛纳. 请使用手机扫一扫. 手机登录. iOS. 安卓. captcha. 获取验证码. 我已知悉并同意《雷霆游戏隐私协议》和《雷霆游戏用户协议》.",
+      "url": "https://game.leiting.com/list/lz",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "知乎",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "source": "serp",
+      "category": "知乎",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "zhihu-114837",
+      "platform": "知乎",
+      "title": "吉比特&雷霆游戏凉经",
+      "summary": "【吉比特&雷霆游戏】 笔试：（时长90分钟） 选择题中数学多，计算量较大，专业知识考察很基础； 填空题全是C++，读代码写输出。前面选择如果做得太慢，这部分会很有 ...",
+      "url": "https://www.nowcoder.com/discuss/114837",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "知乎",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "source": "serp",
+      "category": "知乎",
       "topic": "招聘求职",
       "section": "舆情",
       "pushable": true
     },
     {
-      "id": "nowcoder-cy95ZGp4MTY5ZC5odG1s",
-      "platform": "牛客",
-      "title": "吉比特公司企业文化手册",
-      "summary": "雷霆游戏作为公司的自主运营平台，专注于网络游戏的推广和运营，坚持“精品化”路线，重视产品品质及玩家服务，运营的多款游戏获得良好的口碑与较高的人气。截至目前 ...",
-      "url": "https://www.tedschool.cn/manual/gbits/ydjx169d.html",
-      "sentiment": "positive",
-      "time": "",
-      "tags": [
-        "牛客",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "牛客",
-      "topic": "理念价值观",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "nowcoder-930121807808458752",
-      "platform": "牛客",
+      "id": "zhihu-930121807808458752",
+      "platform": "知乎",
       "title": "吉比特&雷霆游戏内推码",
       "summary": "吉比特2027届校招今天正式启动！如需内推，可以用我的内推码，优先简历筛选：9H5P8B. ✓ 核心岗位全覆盖：研发技术类、美术设计类、产品运营类、市场营销类、游戏客服 ...",
       "url": "https://m.nowcoder.com/discuss/930121807808458752?urlSource=home-api",
       "sentiment": "neutral",
       "time": "",
       "tags": [
+        "知乎",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "source": "serp",
+      "category": "知乎",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "zhihu-1MzgxODQxNTAwNjkyNDg",
+      "platform": "知乎",
+      "title": "吉比特&雷霆游戏未来游戏制作人大赛",
+      "summary": "8万元冠军奖励！17位大咖导师嘉宾，吉比特&雷霆游戏未来游戏制作人大赛启动！ · TIMELEAP-小红鱼404 · Wireman-小红鱼404 · FruityJam-吃瓜小分队 · Rebirth-吃瓜小分队 · 开赛 ...",
+      "url": "https://www.zhihu.com/column/c_1360538184150069248",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "知乎",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "source": "serp",
+      "lastChange": "2026-10-10 15:42",
+      "changeNote": "摘要有更新",
+      "category": "知乎",
+      "topic": "产品游戏",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "zhihu-Nvbi80MTk1Ny93b3Jrcw",
+      "platform": "知乎",
+      "title": "雷霆游戏的作品列表",
+      "summary": "「雷霆游戏」的作品 · 中国式相亲 中国式相亲. Rank 8709 · 问剑长生. 2025年1月2日/ iOS、Android / 厦门吉比特网络技术股份有限公司 · 异象回声. Rank 6208 · 绝命游歌 · 航海 ...",
+      "url": "https://bangumi.tv/person/41957/works",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "知乎",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "source": "serp",
+      "category": "知乎",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-ZXIubGVpdGluZy5jb20v",
+      "platform": "脉脉",
+      "title": "雷霆游戏客服专区_雷霆游戏官方网站",
+      "summary": "《一念逍遥》是一款水墨国风放置修仙手游，由吉比特自研，雷霆游戏发行，于2021年2月1日上线。玩家将扮演一个寻仙问道的凡人，修法炼体，学神通，炼器练丹，收集法宝，种灵 ...",
+      "url": "https://helper.leiting.com/",
+      "sentiment": "positive",
+      "time": "",
+      "tags": [
+        "脉脉",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "脉脉",
+      "topic": "产品游戏",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-Nvbi80MTk1Ny93b3Jrcw",
+      "platform": "脉脉",
+      "title": "雷霆游戏的作品列表",
+      "summary": "「雷霆游戏」的作品 · 中国式相亲 中国式相亲. Rank 8709 · 问剑长生. 2025年1月2日/ iOS、Android / 厦门吉比特网络技术股份有限公司 · 异象回声. Rank 6208 · 绝命游歌 · 航海 ...",
+      "url": "https://bangumi.tv/person/41957/works",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "脉脉",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "nowcoder-dzL25ld3NfNjguaHRtbA",
+      "platform": "牛客",
+      "title": "新闻动态_雷霆游戏官方网站",
+      "summary": "3D动作新游《斗仙》，今日14：00开测 ... 厦门吉比特游戏3D动作新游《斗仙》，今日14:00破冰测试正式开启。游戏以“斗“为核心设计思路，无论是剧情创意、玩法设计还是战斗表现 ...",
+      "url": "https://www.leiting.com/terrace/news/news_68.html",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
         "牛客",
         "吉比特",
         "雷霆游戏"
       ],
-      "lastChange": "2026-10-06 16:04",
-      "changeNote": "标题、摘要有更新",
+      "category": "牛客",
+      "topic": "产品游戏",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "nowcoder-VzdHJveT9jaGFubmVsPQ",
+      "platform": "牛客",
+      "title": "LeiTing.com_吉比特旗下游戏平台 - 账号信息",
+      "summary": "Copyright© 2004-2026吉比特雷霆游戏. 互联网违法和不良信息举报邮箱:gmtousu@leiting.com 互联网违法和不良信息举报电话:0592-3285177(此专线仅受理举报类问题，其余 ...",
+      "url": "https://member.leiting.com/account_destroy/channel_destroy?channel=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "牛客",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "牛客",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "nowcoder-RzL2pvYnMvY2FtcHVzLw",
+      "platform": "牛客",
+      "title": "吉比特&雷霆游戏招聘职位",
+      "summary": "【任职要求】 1、计算机相关专业本科及以上学历； 2、对图形学和实时渲染有较深的理解，对开源引擎做过研究者优先； 3、熟练掌握C++/C#/Lua，热爱技术，热爱游戏，热爱钻研 ...",
+      "url": "https://leetcode.cn/company/gbits/jobs/campus/",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "牛客",
+        "吉比特",
+        "雷霆游戏"
+      ],
       "category": "牛客",
       "topic": "招聘求职",
       "section": "舆情",
       "pushable": true
     },
     {
-      "id": "nowcoder-OTUxblo3MzlxNUV3fn4v",
+      "id": "nowcoder-YW8ubGVpdGluZy5jb20v",
       "platform": "牛客",
-      "title": "厦门吉比特网络招聘信息",
-      "summary": "养成设计策划. 20-40K·13薪 ; 前端开发实习生. 220-270元/天 ; 场景原画设计师（问道手游）. 20-30K·13薪 ; 游戏UI设计师(道友来挖宝)-base厦门. 16-25K ; 3D模型负责人. 60- ...",
-      "url": "https://www.zhipin.com/zhaopin/1607722fe3b7ab951nZ739q5Ew~~/",
+      "title": "自助服务-吉比特_雷霆游戏官方网站",
+      "summary": "首页 · 游戏产品 · 账号注册 · 账号自助 · 修改密码; 联系客服; 加入我们 · 商务联系 · 关于雷霆 · 举报与投诉 · 家长陪伴平台. 关闭. 您好，请登录【注销】 ...",
+      "url": "https://fapiao.leiting.com/",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "牛客",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "牛客",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "nowcoder-M0NDQtU0gvY29tcGFueQ",
+      "platform": "牛客",
+      "title": "吉比特公司简介及介绍",
+      "summary": "公司专注于网络游戏的研发及运营业务。主要产品包括《问道》端游、《问道手游》、《道友来挖宝》、《杖剑传说》、《一念逍遥》、《问剑长生》、《九牧之野》、《奥比岛: ...",
+      "url": "https://www.futunn.com/stock/603444-SH/company",
       "sentiment": "neutral",
       "time": "",
       "tags": [
@@ -28165,65 +22099,50 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-1MzgxODQxNTAwNjkyNDg",
-      "platform": "脉脉",
-      "title": "吉比特&雷霆游戏未来游戏制作人大赛",
-      "summary": "8万元冠军奖励！17位大咖导师嘉宾，吉比特&雷霆游戏未来游戏制作人大赛启动！ · TIMELEAP-小红鱼404 · Wireman-小红鱼404 · FruityJam-吃瓜小分队 · Rebirth-吃瓜小分队 · 开赛 ...",
-      "url": "https://www.zhihu.com/column/c_1360538184150069248",
+      "id": "nowcoder-ODI5MDIzNDE2MDkwNjkx",
+      "platform": "牛客",
+      "title": "吉比特游戏的动态",
+      "summary": "吉比特&雷霆游戏2024秋季校园招聘正式启动！ [星星眼] 海量岗位！超多福利！ [打 ... ✓ 内推码BILI哦！ [脱单doge] 重要的事情说三遍老规矩，转发+关注. @吉比特游戏.",
+      "url": "https://www.bilibili.com/opus/828829023416090691",
       "sentiment": "neutral",
       "time": "",
       "tags": [
-        "脉脉",
+        "牛客",
         "吉比特",
         "雷霆游戏"
       ],
-      "category": "脉脉",
-      "topic": "产品游戏",
+      "category": "牛客",
+      "topic": "企业文化",
       "section": "舆情",
       "pushable": true
     },
     {
-      "id": "maimai-cy95ZGp4MTY5ZC5odG1s",
-      "platform": "脉脉",
-      "title": "吉比特公司企业文化手册",
-      "summary": "雷霆游戏作为公司的自主运营平台，专注于网络游戏的推广和运营，坚持“精品化”路线，重视产品品质及玩家服务，运营的多款游戏获得良好的口碑与较高的人气。截至目前 ...",
-      "url": "https://www.tedschool.cn/manual/gbits/ydjx169d.html",
+      "id": "zhihu-498493425",
+      "platform": "知乎",
+      "title": "吉比特&雷霆游戏2022暑期实习生项目火热启动",
+      "summary": "四大不同职能岗位（程序设计类、美术设计类、公共职能类、游戏策划类），总有一类适合你！ 加入我们，你能获得： ✓丰厚的薪资、住房补贴和实习证明； ✓公司亦有美味 ...",
+      "url": "https://zhuanlan.zhihu.com/p/498493425",
       "sentiment": "positive",
       "time": "",
       "tags": [
-        "脉脉",
+        "知乎",
         "吉比特",
         "雷霆游戏"
       ],
-      "category": "脉脉",
-      "topic": "理念价值观",
+      "source": "serp",
+      "lastChange": "2026-10-10 15:42",
+      "changeNote": "摘要有更新",
+      "category": "知乎",
+      "topic": "招聘求职",
       "section": "舆情",
       "pushable": true
     },
     {
-      "id": "maimai-353156166224125952",
+      "id": "maimai-kaXNjdXNzL2xhdGVzdC8",
       "platform": "脉脉",
-      "title": "吉比特雷霆游戏PC主机发行专员笔经+一面二面凉经",
-      "summary": "吉比特的第一批笔试，24道单选共62分，4到问答题共38分，答题总时间90分钟。 单选题大致有 ...",
-      "url": "https://www.nowcoder.com/discuss/353156166224125952",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "脉脉",
-        "吉比特",
-        "雷霆游戏"
-      ],
-      "category": "脉脉",
-      "topic": "产品游戏",
-      "section": "舆情",
-      "pushable": true
-    },
-    {
-      "id": "maimai-VzdHJveT9jaGFubmVsPQ",
-      "platform": "脉脉",
-      "title": "- 雷霆游戏_LeiTing.com_吉比特旗下游戏平台",
-      "summary": "非雷霆账号注销 · 4399游戏盒. 注销方式1：游戏内点击4399悬浮窗-联系客服申请注销； · 华为游戏中心/应用市场. 注销方式1：游戏中心-我的-帮助与客服-在线客服申请注销；",
-      "url": "https://member.leiting.com/account_destroy/channel_destroy?channel=",
+      "title": "吉比特&雷霆游戏讨论资讯",
+      "summary": "Ooops, page crashed. Crash ID: af3ebd4e.",
+      "url": "https://leetcode.cn/topic/gbits/discuss/latest/",
       "sentiment": "neutral",
       "time": "",
       "tags": [
@@ -28237,11 +22156,671 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-116862",
+      "id": "nowcoder-1MzgxODQxNTAwNjkyNDg",
+      "platform": "牛客",
+      "title": "吉比特&雷霆游戏未来游戏制作人大赛",
+      "summary": "8万元冠军奖励！17位大咖导师嘉宾，吉比特&雷霆游戏未来游戏制作人大赛启动！ · TIMELEAP-小红鱼404 · Wireman-小红鱼404 · FruityJam-吃瓜小分队 · Rebirth-吃瓜小分队 · 开赛 ...",
+      "url": "https://www.zhihu.com/column/c_1360538184150069248",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "牛客",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "牛客",
+      "topic": "产品游戏",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "nowcoder-kaXNjdXNzL2xhdGVzdC8",
+      "platform": "牛客",
+      "title": "吉比特&雷霆游戏讨论资讯",
+      "summary": "Ooops, page crashed. Crash ID: af3ebd4e.",
+      "url": "https://leetcode.cn/topic/gbits/discuss/latest/",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "牛客",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "牛客",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-fa16e2e2-97f9-4116-83e2-af7cd1e26032#1791612442730",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/fa16e2e2-97f9-4116-83e2-af7cd1e26032#1791612442730?xsec_token=ABKB1xWYgdGrhFL5kySijFNMtmr9IUGL__PxmJJSb7AQ6sNV8t3yWWKy910xsBOfKIvIGQqf3r0A_eTZy0IE9iH9Ux2aZowgpldWyv1vllJHY=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-fd9cf57d-f4af-44c7-9983-8a5c2dad08ee#1791612443481",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/fd9cf57d-f4af-44c7-9983-8a5c2dad08ee#1791612443481?xsec_token=ABBDEDT0Nzl65XKTcus_PVpYe0G9FWmricPz_cfD-DauiSceZAWzcaiaZ6NVsp8KMVJMPvNDw7B0cgpvPLezSW1FOCkwzEMm7FtyHdwIiTHK4=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-50d6affa-90c4-4a9f-8e54-a0ef451e6e96#1791612450080",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/50d6affa-90c4-4a9f-8e54-a0ef451e6e96#1791612450080?xsec_token=AB-PaNhBVib4vBaKOL8z-JOP-GNXIvSZ0FCQS4qYDhyo5USdOWEUgcnUb1AHQrxiaI4oJ1UDkf9MC-2d9hG3iNPyFQqxOHV8twuwgQ7A7ZULw=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-0cdf378d-cfc0-4486-8420-c41ae1f22620#1791612450893",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/0cdf378d-cfc0-4486-8420-c41ae1f22620#1791612450893?xsec_token=AB_brzxKFlbTJJ9sfyTy9EV8ORI3wo53Cozy7ZDShiRU-WCCkFWI5cilsDhgH6ba8AgkkBoudbpYnqRQjOXNa7zwEjgmJrbvS61-RqS0ki6Yw=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-LzQ3LjEwNy4yNDIuMTUv",
       "platform": "脉脉",
-      "title": "吉比特&雷霆游戏邀请码",
-      "summary": "吉比特&雷霆游戏邀请码G553257，邀请码可以免简历筛选，直接进入笔试环节，送给需要的小伙伴，加油 （备注：邀请码只能使用1 次）",
-      "url": "https://www.nowcoder.com/discuss/116862",
+      "title": "吉比特_雷霆游戏官方网站",
+      "summary": "雷霆游戏由一群热爱游戏的发烧友组成，以“汇聚和培养具有创新精神的人才，追求高效的工作方式，为全球用户提供差异化的产品和服务，创造和传播文娱领域的美好体验”为 ...",
+      "url": "http://47.107.242.15/",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "脉脉",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "nowcoder-LzQ3LjEwNy4yNDIuMTUv",
+      "platform": "牛客",
+      "title": "吉比特_雷霆游戏官方网站",
+      "summary": "雷霆游戏由一群热爱游戏的发烧友组成，以“汇聚和培养具有创新精神的人才，追求高效的工作方式，为全球用户提供差异化的产品和服务，创造和传播文娱领域的美好体验”为 ...",
+      "url": "http://47.107.242.15/",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "牛客",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "牛客",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-e27be33e-e336-4ecc-b08d-f71afca52682#1791526037504",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/e27be33e-e336-4ecc-b08d-f71afca52682#1791526037504?xsec_token=ABXUipY75S6jZbbR2SL1xKTbXDCpjeurgqqXVa85zfWmW3pNJAtONO-p_0FnHSj5aXzQpDMIBHAPYcHEBUFF_NX5jW63xwrQnF5wF6sEaxAo4=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-580e91a9-0b5d-4315-afa6-981be825ca6e#1791526038647",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/580e91a9-0b5d-4315-afa6-981be825ca6e#1791526038647?xsec_token=ABasmahhzE4y2WufvYrWbTiXwZGOukPoYQhbNMKH-IrLIYPSji_kQZkDXjtOGZsJSH4z1IzZvAXKgYEWloj8jyl_3P2EDHR5GSa_ILp42o9Yw=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-15877803-9c19-4a31-93fa-f0a4aa2d2444#1791526045346",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/15877803-9c19-4a31-93fa-f0a4aa2d2444#1791526045346?xsec_token=ABOVLPuyGkoI9mGvOmD_XeTyfLLOBz6q0Fk4JTa9XVmhOrKSoobnl1yyqi7yRGa7US55KYYXPmxbnYDd7Rkg-nb3O3mo9hT20dTCr4fR5XkVM=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-09746b78-9685-4b0a-92ff-30e101eea474#1791526046355",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/09746b78-9685-4b0a-92ff-30e101eea474#1791526046355?xsec_token=ABZm0GDOOF1i5N9vwM3M6O-XKlAgmDMAySjGgq5zkionbbWJBNvfS4C8hcixx-TeldcZzcwT61vIQK0RsWRawNgHr-TyUg3iZX0VRekZcqwNI=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-1888554531",
+      "platform": "脉脉",
+      "title": "致新兴游戏创作者：邀请你，加入无界计划!",
+      "summary": "吉比特「无界计划」正式启动，欢迎“登船”—— 加入我们，打破界限，释放创意，让世界见证创作者的力量！ 本次校招专项面向人群： 毕业时间在2024年7 月-2026年7月的 ...",
+      "url": "https://maimai.cn/article/detail?fid=1888554531&efid=blnfEEACH_953jknp0lWqQ",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "脉脉",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-5102411c-8441-4f98-85f0-c7bcabb5fa8e#1790143640027",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/5102411c-8441-4f98-85f0-c7bcabb5fa8e#1790143640027?xsec_token=ABBZttrtWuTT_cNxff1Er9OQsS0n05j1_j24o2CeL3Cp1odZMTyI2IYUS6TtosBDkbKCClIRqfvTP5PDVfONM_dr0gcB4Lar1BG8HW7LRY1uI=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-af1ee965-6bf7-46b2-a06e-ba5ca429eaf3#1790143640787",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/af1ee965-6bf7-46b2-a06e-ba5ca429eaf3#1790143640787?xsec_token=ABfRD_-D_4Hz8nEDBGkRlahxxF1_6QddYC725n5W3L0xszQVQnGD4Dm0Y8MIVqaDkPpbL_KvkCJTQgpKdVALhNOSqCkd0MIwrnPiXpanllWfg=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-26f7a41c-3cc5-42cc-a781-3dfc2afe24bb#1790143647674",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/26f7a41c-3cc5-42cc-a781-3dfc2afe24bb#1790143647674?xsec_token=AB_AmRDXEXD1iQhEPIjvyZIy33yVQHMqQbwpr5LqV0a1Y6rMJYLJ97pDCwBaE6Goa6APfhAXO0pODgLRfHFqdVzaFojxU93YNDR9DB1b5ozn0=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-8939dc4d-19fd-41e9-a494-7bb14672239e#1790143648833",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/8939dc4d-19fd-41e9-a494-7bb14672239e#1790143648833?xsec_token=ABkAtV_fhgthJ595RIvjDIhsJvTPAMF-r3bp_pucJi1XjA2_ceXCr9WZT1q3nxJtOFUOMSaehj4XHQRMt7Dy1MYB_uvNuS0SI_vYFFe14h35s=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-0b2a7823-0119-479b-89cd-77ea1076ffa2#1789884431422",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/0b2a7823-0119-479b-89cd-77ea1076ffa2#1789884431422?xsec_token=ABppLfRaLknJXjvVO-LiVe__WGrtByPUvsVp7tWESU9MCRziqg8fRzzWkOM_xsD9ngITX5DFD9-zNsatTZZMZs5_0W4aX81XVQSjQn1pELouM=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-7b857913-4784-42ec-9e97-af6bad4017fd#1789884432219",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/7b857913-4784-42ec-9e97-af6bad4017fd#1789884432219?xsec_token=ABnF9Qr7PMJjChooPAwVj0KXoo7jtFW2WdUAAUlvzL53_TbYUwxrhvatz6QtwNw18V934vurhv4fH32t9PCOpJJjHwlUvizWxedljnBYXhSY0=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-985c9d04-4c07-40ec-8365-722c0e93a905#1789884440842",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/985c9d04-4c07-40ec-8365-722c0e93a905#1789884440842?xsec_token=ABNvAHDdnJw3mqTL-_aHfQ5xfMAK7YJ2oTef6BQ3r2dllOJpC6KKv9-bNBZy5OXUfMZH4lkJWGaBV4k_6vxettbWqGfPWb1v6G4lZ83dq1FTM=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-d3bc81c1-6e6b-4976-b23b-cd1eae9be38c#1789884441742",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/d3bc81c1-6e6b-4976-b23b-cd1eae9be38c#1789884441742?xsec_token=ABC1j3FBfxM3FSfnTjIUYSrIGptsJ4wUPiTwsxABqUl_IVcW4DHtVgfJyb9f-c517I5x1q0TtUkFKkWcTF0pm7dJbQvdTTTY4ZQTAnqtsDaBk=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-d8d25ba5-e425-438b-acfa-1f8910994e92#1789867837191",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/d8d25ba5-e425-438b-acfa-1f8910994e92#1789867837191?xsec_token=ABIQ_Cnln7svJl-RSTDJLHWHgO4klo-8OLsMJ1VTTnX6_bVD0Dd0_JD0j1F6GYJYMpuYNbbS6OwTUk1Z2IUp5UdWqE1G6Pp78NhR7kAnNQjdA=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-dfb2c7d3-7acf-43cb-b09e-072ea781133d#1789867837942",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/dfb2c7d3-7acf-43cb-b09e-072ea781133d#1789867837942?xsec_token=ABCXZeFJKzzaIccpV3Sb8UjTgK-0QhweHmuHmVwALmQhXVjRo69wik5EjbbQ1dA9rYJd9dy7L2i08nNKPTKAP4cU8jENLTPqsnnH2nK6eTVOY=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-84f4b81e-79e6-42c3-986b-35310f409346#1789867844675",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/84f4b81e-79e6-42c3-986b-35310f409346#1789867844675?xsec_token=ABGHKqDQx_jghg4smEVWrEkgWUXhsOVgmADCbSfvSQEfMntCLGD5Dm4UUZESmjBbGkgpVSjx-OC-mK84xM044XuJCO5ohU480Xuls1t_kF86w=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-6d1714e6-18f9-4afd-b291-2601accf1f3b#1789867845492",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/6d1714e6-18f9-4afd-b291-2601accf1f3b#1789867845492?xsec_token=ABdHGgAoZCtrmu9-cQU6E6alPAlTDUjkNCK1oN6cGhUiMc_64PcnBxmE7IdTqdsHWmTf3fWraDUjr2ruM4VapejnYksxd9-cV4bChLKU_udp8=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "zhihu-668992375",
+      "platform": "知乎",
+      "title": "深圳吉比特雷霆游戏前端日常实习面试面经",
+      "summary": "最新最全的求职面经、求职攻略戳：https://link.youzhiwk.com/r/6Aa8xwQHiO一面（40多分钟）1.自我介绍2.你是如何接触并学习前端的3.说一下你对vue3的了解， ...",
+      "url": "https://zhuanlan.zhihu.com/p/668992375",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "知乎",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "source": "serp",
+      "lastChange": "2026-09-19 14:32",
+      "changeNote": "摘要有更新",
+      "category": "知乎",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "nowcoder-222",
+      "platform": "牛客",
+      "title": "吉比特27届暑期实习开启",
+      "summary": "热爱无界，创造无限，吉比特雷霆游戏等你来！ 【开放岗位】游戏策划类，程序技术类，美术设计类，产品运营类，市场营销类，公共职能类等近百个HC等你来！",
+      "url": "https://www.nowcoder.com/feed/main/detail/222d65f3fa104da2a4471c8c750324d5",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "牛客",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "牛客",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-1865353962",
+      "platform": "脉脉",
+      "title": "网传吉比特广州解散，吉比特官方回应",
+      "summary": "近日，网传“吉比特广州分公司解散”。有网友表示，广州吉比特只有一个项目，最终因为项目营收不佳，项目组被裁。 对此吉比特回应称：“公司近期在回顾和总结过往研发过程 ...",
+      "url": "https://maimai.cn/article/detail?fid=1865353962&efid=WZpveyt5DJKxBR-vzK-dcA",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "脉脉",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "股票财务",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-dfa4b8e6-2b19-4871-b5ae-c2bf50d65185#1789711640847",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/dfa4b8e6-2b19-4871-b5ae-c2bf50d65185#1789711640847?xsec_token=ABggUISLoE4kXrqmjukVZU4GWf6Nl-ZCsCc9KvPnJhWhFIaJt9aHB3H1W37CboT-wPoKYpJVkYryv9odluoYW2eyQ4RMAUBQ1ePAnKv65JV1I=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-f29e711f-1af8-4d62-b520-b59e32ba0c0e#1789711641641",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/f29e711f-1af8-4d62-b520-b59e32ba0c0e#1789711641641?xsec_token=ABuwDF01CRJIEke2h-aONWMX4a9MTfL7QrYdWREi7Vi4kuQCr1ob4oyNlE53Komb7HzZRvBOzlT0dtfk0P31FmY42ZolqsNHV4lP-CtbH95qQ=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-0400edbf-2a77-4b41-a2b6-8040e6f870b2#1789711650641",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/0400edbf-2a77-4b41-a2b6-8040e6f870b2#1789711650641?xsec_token=AB01fpsN9m-sXwWcjkYvA1AaJEjiQU4MFgSBA8TV0PNLpNCaTPgNHazGNuhL476ucy-w_7nbUfpzL8ZHi7k9lLChzW5yFTVwFyiSKetkcSaPU=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-6ddc2e1e-a78d-4482-bda3-ad4b5df1bd96#1789711651813",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/6ddc2e1e-a78d-4482-bda3-ad4b5df1bd96#1789711651813?xsec_token=ABk5DdEOr-IfJIXSrLlV9Pc-m4KkLHXHiyXvgfbr_2gdMDAPCdx5Ubi9Q1OfOfM_tk9E10fMpgxQaogNLFEWl_ruOCeZ0pB4j2jYCdr3iLkWE=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-e59f4806-e202-42bf-8354-d0f13e82b506#1789538839208",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/e59f4806-e202-42bf-8354-d0f13e82b506#1789538839208?xsec_token=ABvQ5AJ7oEhTuGPnQygtAf_Le8_TY2aBy-JpawQ6Gp71cl5r3c5Ga2zlFDlaOvMEXDmhI4Pwxl9qOjQJVTdc0RDwGb-4IkUNEYoIcYahffe4Q=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-9824af9b-1d6a-4baf-982d-acc27afccdd2#1789538846567",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/9824af9b-1d6a-4baf-982d-acc27afccdd2#1789538846567?xsec_token=ABgycwdr7mG_7W27GAF5UeZERqhqN2qR614Y3vK620Xt61La_oqpRexvHGNJMupiLBdkuBe5awL-1Xjk7tmw4lykCjvfajgStg8_bM7oOKENI=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "zhihu-q462900684",
+      "platform": "知乎",
+      "title": "如何看待雷霆游戏？",
+      "summary": "0 个回答",
+      "url": "https://www.zhihu.com/question/462900684",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "知乎",
+        "雷霆游戏"
+      ],
+      "answerCount": 0,
+      "source": "cdp",
+      "lastChange": "2026-09-14 10:23",
+      "changeNote": "回答数 3→0",
+      "category": "知乎",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-1867647002",
+      "platform": "脉脉",
+      "title": "25届春招、26届暑期实习内推",
+      "summary": "吉比特&雷霆游戏25届春招&26届暑期实习招聘开启【公司介绍】上市游戏公司，研运一体，20年稳定运营，专业从事网络游戏创意策划、研发制作及商业化运营。",
+      "url": "https://maimai.cn/article/detail?fid=1867647002&efid=xAmkQzvb1uNn1HoPGWiAdw",
       "sentiment": "neutral",
       "time": "",
       "tags": [
@@ -28255,11 +22834,180 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-930121807808458752",
+      "id": "maimai-1719674655",
       "platform": "脉脉",
-      "title": "吉比特&雷霆游戏内推码",
-      "summary": "吉比特2027届校招今天正式启动！如需内推，可以用我的内推码，优先简历筛选：9H5P8B. ✓ 核心岗位全覆盖：研发技术类、美术设计类、产品运营类、市场营销类、游戏客服 ...",
-      "url": "https://m.nowcoder.com/discuss/930121807808458752?urlSource=home-api",
+      "title": "转型为游戏厂商提供合规基础网络服务",
+      "summary": "近期吉比特董事长卢竑岩就在股东大会上透露，吉比特今后“除储备IP外，只有面向全球的题材才可以立项”。充分反映了像吉比特这些以国风RPG见长的厂商，也非常重视海外 ...",
+      "url": "https://maimai.cn/article/detail?fid=1719674655&efid=io6CJUyUXj3hiH-PFVCu-A",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "脉脉",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "经营管理",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-a6a53408-f709-44f0-855a-92e56a099872#1789279636254",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/a6a53408-f709-44f0-855a-92e56a099872#1789279636254?xsec_token=ABKt-3k_KqnVaTLaRSdKUuF62S3fDOIUd2w3-OBzvJ311HhIe-MATw1l8Cqqo1haxlmaFhEaZxqW4jLr39j1fOFzLxhJeJOPVePcbc-wqv0Io=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-a2217eaf-6545-4f20-98d0-a1a2b7312cc0#1789279643515",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/a2217eaf-6545-4f20-98d0-a1a2b7312cc0#1789279643515?xsec_token=ABREV-Ic4-Jb7w8kU2DX6hebwzji5HoWRVdMGh4GRFovsqRadRizCX_s70DHyohN76RgSdH_HrhwxKcxS5MipuPTYnxSczxoIzDCO8694AlcI=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-57ffc31b-7519-4a5a-be37-4ededd043198#1789193230059",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/57ffc31b-7519-4a5a-be37-4ededd043198#1789193230059?xsec_token=ABDqP8BLynTecLLDYsp1_3uwBRkEvMO2Nz65fZqF5gGN0p_1JQTusWFo6AVUP8KiokEFW4l_J_2n-Mju7RS0BFDzzBy0K17WtfeDWSFSWjbhs=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-ad0ac63d-aa15-4524-8040-4fdb4253516b#1789193237702",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/ad0ac63d-aa15-4524-8040-4fdb4253516b#1789193237702?xsec_token=ABLHsEwQXXo0w42SpOJ9UHnqWpcHYw4n4KgPj_FgQ4Q-fYacATMb-QT8wqv4_Ne_iPpuK9yTveV3mDDK2jU5CmHkxZJD7LB8MSlPI8C8Z6ysc=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-c0c976be-0637-42dd-a0f2-1c9f166e7b55#1789106839747",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/c0c976be-0637-42dd-a0f2-1c9f166e7b55#1789106839747?xsec_token=AB9SAf2_I_rgUAGu3mWNOc5YBKeIt5k7dQvjBysLO413tflbMDsbRbLaDmQaFQ8aS2BfA7dwTsdVx1zMpldtOKciic50zLOxqTLkdCM9VB_5I=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-0ded8fdc-d520-4b33-8fba-d682db1c2a02#1789106840491",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/0ded8fdc-d520-4b33-8fba-d682db1c2a02#1789106840491?xsec_token=ABw-NxG8KAmJt2754p54KUn9gs4onrlsEmAe7jR3BwyYg8nNK-c1sy2AeWFLWbBeZ3IF6ShJPSlRiB2nyM9F5ux5_Zb7U6bwrbzkNn-sgvv8o=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-8a7dddc1-d643-4e06-84aa-6dc439aa8999#1789106866913",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/8a7dddc1-d643-4e06-84aa-6dc439aa8999#1789106866913?xsec_token=ABPXo89iV9ZxNRNB0X1n2fHFxw-05TlWW0mSzL_5zT6q6HTOQz5o4eAr2PXj_dQE215Hn6QK2wgRuVtyq0uTk7zgWGm3a26btAXhwJ7r80IPY=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-b8bd2dcf-383c-4934-9163-60cc86cd898d#1789106867727",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/b8bd2dcf-383c-4934-9163-60cc86cd898d#1789106867727?xsec_token=ABgmYRENzNZK9fxH0m8DlgF3Yfq_YkjffpZChw0NMyo5Hbu9mxhnxeABXVJB3KD1HzKEOxrNiO1QWQD_Og_vbJ_ZzCmC4TuRtk70CT7agU50A=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-1902402098",
+      "platform": "脉脉",
+      "title": "吉比特&雷霆游戏海量HC",
+      "summary": "吉比特&雷霆游戏海量HC ... 声明：本文内容由脉脉用户自发贡献，部分内容可能整编自互联网，版权归原作者所有，脉脉不拥有其著作权，亦不承担相应法律责任。如果您发现有涉嫌 ...",
+      "url": "https://maimai.cn/article/detail?fid=1902402098&efid=7yes1o1Z1PFxXXKFGVCMXA",
       "sentiment": "neutral",
       "time": "",
       "tags": [
@@ -28273,11 +23021,87 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-925046858223734784",
+      "id": "xhs-99f5ed8a-a440-4f9e-85bd-52a2f9693a95#1788934047729",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/99f5ed8a-a440-4f9e-85bd-52a2f9693a95#1788934047729?xsec_token=AB1DVpYOaW8JMREg7cVuQHSsbMYTWxAPLP9yZMnITl0mzoO4cIV049zDLFq7WFHjpG_LvBdukM8Tu7plKhOrjfWXFxWDzwmNRJ890zPGIFR4I=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-13c07f70-c097-4871-9c11-7124aca25655#1788934048853",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/13c07f70-c097-4871-9c11-7124aca25655#1788934048853?xsec_token=ABM-UrL7XgrEwdWiCBkms8b35mSVi323ChHHNt-0c7qMskpnTlnGAJ2WARd25_hDZtKijzpBtC-x2Yh_G6AmyOXdtba89J4Bzbob19pBO4hcs=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-04b6fc9f-3777-442e-992e-09e3ba402395#1788934072809",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/04b6fc9f-3777-442e-992e-09e3ba402395#1788934072809?xsec_token=ABmCOtwRUDGALtBSRoBs-bOklcaZAYy0RzWgHCQvRaEJ29uC6cFPZwNqYJx2J08sHSs8h6F95q18m_IGjch8TPiqmRC5x_vsNPp__XEm8ftaY=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-27d3155b-f682-46de-a816-2b8c06515052#1788934073897",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/27d3155b-f682-46de-a816-2b8c06515052#1788934073897?xsec_token=ABKre_PlWLx_IkBsTbfJTyhrV0rM7SfB0njAEcXdmNlVGoxdCv_1xRuvY2sbqGCC0_vL9M8sFbUO74djS_92BFEsf4ppQWO4J9Vcmw1DLjwJc=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-YkJ6dFpVZFV2dVAtR2ZB",
       "platform": "脉脉",
-      "title": "【吉比特&雷霆游戏】2027秋招！内附内推马！",
-      "summary": "公司名称：吉比特&雷霆游戏 招聘岗位：https://hr.g-bits.com/web/index.html#/post-web/post-list/ 内推码：N6E6D8.",
-      "url": "https://www.nowcoder.com/discuss/925046858223734784",
+      "title": "吉比特&雷霆游戏2026校招启动",
+      "summary": "吉比特&雷霆游戏 ... 吉比特&雷霆游戏2026校招启动. 头像. 陈俊鸿. 25-08-29 · 游戏研发工程师. 好友. 内推码Z2M6I4. 吉比特&雷霆游戏2026校招启动脉脉. END.",
+      "url": "https://maimai.cn/article/detail?fid\\u003d1885929516\\u0026efid\\u003dVZNGHEZbBztZUdUvuP-GfA",
       "sentiment": "neutral",
       "time": "",
       "tags": [
@@ -28291,17 +23115,72 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-348440",
+      "id": "maimai-bHlvYnExX3dlYTZ5aV9n",
       "platform": "脉脉",
-      "title": "【吉比特&雷霆游戏】技术岗社招内推，base深圳",
-      "summary": "【公司介绍】. 吉比特成立于2004年3月，专注于网络游戏的研发和运营，公司致力于制作趣味性和差异化的精品游戏，为全球玩家创造美好体验，以“解决行业问题，成为行业 ...",
-      "url": "https://www.nowcoder.com/discuss/348440",
+      "title": "吉比特＆雷霆游戏2月最新岗位",
+      "summary": "吉比特＆雷霆游戏2月最新岗位 ; 孤先生. 品宣视频后期适合我. 02-07 ; E先生. 求社招内推码. 02-05 ; 亚先生. 我面试没过，以后还能投吗. 02-05 ; 贝先生. 四年3d角色美术想投 ...",
+      "url": "https://maimai.cn/article/detail?fid\\u003d1902401072\\u0026efid\\u003dS9oDiailyobq1_wea6yi_g",
       "sentiment": "neutral",
       "time": "",
       "tags": [
         "脉脉",
         "吉比特",
         "雷霆游戏"
+      ],
+      "category": "脉脉",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-WjFQRnhYWEtGR1ZDTVhB",
+      "platform": "脉脉",
+      "title": "吉比特&雷霆游戏海量HC",
+      "summary": "吉比特&雷霆游戏海量HC ... 声明：本文内容由脉脉用户自发贡献，部分内容可能整编自互联网，版权归原作者所有，脉脉不拥有其著作权，亦不承担相应法律责任。如果您发现有涉嫌 ...",
+      "url": "https://maimai.cn/article/detail?fid\\u003d1902402098\\u0026efid\\u003d7yes1o1Z1PFxXXKFGVCMXA",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "脉脉",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "脉脉",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-amlnNjVRQ2pRc1JjMi1R",
+      "platform": "脉脉",
+      "title": "2026秋招进行时，吉比特&雷霆游戏招聘来啦！",
+      "summary": "吉比特&雷霆游戏招聘和小红书职场一起加入「校招看见行动」活动！2026校招季，我们将建立更高效透明的求职链路，我们珍视新生血液，希望看见每一封简历背后更真实 ...",
+      "url": "https://maimai.cn/article/detail?fid\\u003d1886207695\\u0026efid\\u003dcu7oaVfjig65QCjQsRc2-Q",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "脉脉",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "lastChange": "2026-08-09 11:19",
+      "changeNote": "摘要有更新",
+      "category": "脉脉",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-OHZ4a0dCd0J3QkkyYTh3",
+      "platform": "脉脉",
+      "title": "吉比特【无界计划】内推",
+      "summary": "计划有大量校招和社招需求，校招不仅限应届。三年内的游戏人都可以投递 。欢迎联系内推~ ⁠加入【无界计划】，成为创作者，你将能获得； ⁠1.与创始人共创下一个世界级 ...",
+      "url": "https://maimai.cn/article/detail?fid\\u003d1891474590\\u0026efid\\u003dr6IJimx8vxkGBwBwBI2a8w",
+      "sentiment": "positive",
+      "time": "",
+      "tags": [
+        "脉脉",
+        "吉比特"
       ],
       "category": "脉脉",
       "topic": "理念价值观",
@@ -28309,11 +23188,349 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-114837",
+      "id": "maimai-aVp5aWxya29TcnpaTGVB",
       "platform": "脉脉",
-      "title": "吉比特&雷霆游戏凉经",
-      "summary": "【吉比特&雷霆游戏】 笔试：（时长90分钟） 选择题中数学多，计算量较大，专业知识考察很基础； 填空题全是C++，读代码写输出。前面选择如果做得太慢，这部分会很有 ...",
-      "url": "https://www.nowcoder.com/discuss/114837",
+      "title": "深圳吉比特工资待遇怎么样？薪资福利如何？",
+      "summary": "深圳吉比特工作经验薪资情况 · 1. 工作经验为应届生的，中位数工资在7400上下浮动，平均薪资在7620左右浮动； · 2. 工作经验为1-2年的，中位数工资在15162上下浮动，平均薪资 ...",
+      "url": "https://maimai.cn/article/detail?fid\\u003d1739052391\\u0026efid\\u003dJYegbleiZyilrkoSrzZLeA",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "脉脉",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "企业文化",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-Y1ZpdEFlVXhuLVkxQlN3",
+      "platform": "脉脉",
+      "title": "吉比特《杖剑传说》，急招",
+      "summary": "项目：杖剑传说岗位：角色原画设计师*2 地点：厦门经验要求：3年及以上，擅长明亮的日式画风，有立绘、时装经验最佳. 吉比特《杖剑传说》，急招脉脉.",
+      "url": "https://maimai.cn/article/detail?fid\\u003d1890497924\\u0026efid\\u003dpUy5WxjcVitAeUxn-Y1BSw",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "脉脉",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "产品游戏",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-0",
+      "platform": "脉脉",
+      "title": "致新兴游戏创作者：邀请你，加入无界计划!",
+      "summary": "吉比特「无界计划」正式启动，欢迎“登船”—— 加入我们，打破界限，释放创意，让世界见证创作者的力量！ 本次校招专项面向人群： 毕业时间在2024年7 月-2026年7月的 ...",
+      "url": "https://maimai.cn/article/detail?fid\\u003d1888554531\\u0026efid\\u003dblnfEEACH_953jknp0lWqQ",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "脉脉",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-aVB0R1Y4eDJ5RzlmQXdB",
+      "platform": "脉脉",
+      "title": "今日已更新第43天――吉比特",
+      "summary": "今日已更新第43天――吉比特 ... 我们致力于帮助大家打造一个纯净有价值的投资数据库。以每日更新一个企业的数据分析和重点整理，来和大家一起成长。 我们只分析年度净资产收益 ...",
+      "url": "https://maimai.cn/article/detail?fid\\u003d1544799454\\u0026efid\\u003dNlsiGV4iPtGV8x2yG9fAwA",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "脉脉",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-b9f4d0b3-01a8-44ff-92fd-166a418d9b2a#1788761229441",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/b9f4d0b3-01a8-44ff-92fd-166a418d9b2a#1788761229441?xsec_token=ABn5-spTReNmjzhepf-FebFFX25La4cuisZckHdHmGOXLu8bF5P1O3UtmNNaCY2gIv5_kDwC0CIvRWtn8byX8ay1_QXiH8sY6M6xSzDHso-zI=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-6a289eb1-a198-481e-8f1f-73bd7a26b21d#1788761230151",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/6a289eb1-a198-481e-8f1f-73bd7a26b21d#1788761230151?xsec_token=ABqGCkMuH_sEStT5iMxFqTk9HIgbbr21qBYKfKKJ1LM83GKF33yz0Zjt0UTAms8LagBTUXGBVJB3Q6JAI6sEOc8Mjhxr37B5AE5H5KPvf74FA=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-c99c2572-1517-4237-b812-41019dbc98e8#1788761236745",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/c99c2572-1517-4237-b812-41019dbc98e8#1788761236745?xsec_token=ABERZytZFFKqdagT4Y3ZeTMS4QAZR6wW-oYCXwboJDE9U7kRU2VaFxC8nJOEN5hcvju7pomCGcSNh8Ct-1C67eEyLBshZ4bkYFvjPQIUz7-ms=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-5fa71fe9-e8e0-4828-8480-f16dee7f4bd4#1788761237549",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/5fa71fe9-e8e0-4828-8480-f16dee7f4bd4#1788761237549?xsec_token=ABs1BsbiP1wkEJu_tedZn6Q9DSL2p9IDi0RTXRQWaVfPDyNIaDb9nb-Yc2-KBBY_87juMZ7MUW1Kkr0XMLnNPepfhqkEAnppZcOPbeLIYRnZU=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "zhihu-q461123221",
+      "platform": "知乎",
+      "title": "如何看待雷霆游戏的用户协议？",
+      "summary": "2 个回答",
+      "url": "https://www.zhihu.com/question/461123221",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "知乎",
+        "雷霆游戏"
+      ],
+      "answerCount": 2,
+      "source": "cdp",
+      "lastChange": "2026-09-01 10:23",
+      "changeNote": "新增 2 个回答",
+      "category": "知乎",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "zhihu-q390457032",
+      "platform": "知乎",
+      "title": "如何看待雷霆游戏出了问道这个游戏？",
+      "summary": "2 个回答",
+      "url": "https://www.zhihu.com/question/390457032",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "知乎",
+        "雷霆游戏"
+      ],
+      "answerCount": 2,
+      "source": "cdp",
+      "category": "知乎",
+      "topic": "产品游戏",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "zhihu-q511979732",
+      "platform": "知乎",
+      "title": "《雷霆游戏》怎么玩主力的大剑？",
+      "summary": "3 个回答",
+      "url": "https://www.zhihu.com/question/511979732",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "知乎",
+        "雷霆游戏"
+      ],
+      "answerCount": 3,
+      "source": "cdp",
+      "lastChange": "2026-08-31 10:23",
+      "changeNote": "新增 2 个回答",
+      "category": "知乎",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "nowcoder-5",
+      "platform": "牛客",
+      "title": "吉比特雷霆游戏2026届校园招聘内推",
+      "summary": "吉比特amp;雷霆游戏2026届校园招聘正式启动关于我们：研运一体上市游戏公司，专业从事网络游戏创意策划、研发制作及商业化运营。旗下有《问道》《问道手游》《一念 ...",
+      "url": "https://www.nowcoder.com/feed/main/detail/5c5cd0e06f684a7fa4e96bf7b0eb93e7",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "牛客",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "lastChange": "2026-07-09 13:51",
+      "changeNote": "摘要有更新",
+      "category": "牛客",
+      "topic": "产品游戏",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "nowcoder-hZjgwN2VmZTYyYTBkZjU",
+      "platform": "牛客",
+      "title": "吉比特雷霆游戏25届秋招内推码",
+      "summary": "内推通道：内推链接：https://hr.g-bits.com内推码：62Q1RA使用内推码简历会被优先筛选，可以后台帮忙查看进度招聘对象：面向25 届的毕业生内推岗位：程序技术类、市场 ...",
+      "url": "https://www.nowcoder.com/feed/main/detail/f4bbad2e791e4be6baf807efe62a0df5",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "牛客",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "牛客",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-aa952272-c7da-41b5-be39-1dfc91e82d0d#1788415643916",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/aa952272-c7da-41b5-be39-1dfc91e82d0d#1788415643916?xsec_token=ABF7C2xJUgggWM1S_A64gaeYRTGsOLteAs6h__u_9AVKbPSKXmO_4S132yMkGDHHkzgdt2slKWme_1wmmFD0DWgsLTwpIoGjkY8zZDCnMRbUs=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-a2b75021-bfd3-4ea4-b535-3665c77e653a#1788415645094",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/a2b75021-bfd3-4ea4-b535-3665c77e653a#1788415645094?xsec_token=AB1_dXzTugqToRzOT6I7XE95zrCCQ4bCRi77DLX5HTXnGIf5oi-15fn9Y9l8XfOt32ES_ajpr-RVzylewq2SXhKaXJFvUM0KPv2Q_rRDu6A_Q=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-3fd12ca1-a739-46ea-abf2-5aab5afee26c#1788415652498",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/3fd12ca1-a739-46ea-abf2-5aab5afee26c#1788415652498?xsec_token=ABIxb-9As24Y8W2YrEakiUDUwnbz4hdwV3ZzlYhxr2lVZ8kVSvGt6yfgwzqWptuBAP43u1oVl_Qo1TEFX_C1QmEy75zb7XEflFT83z4Zsvulc=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-3a86a5db-ac3a-40b4-9f4e-ea4fce54083a#1788415653322",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/3a86a5db-ac3a-40b4-9f4e-ea4fce54083a#1788415653322?xsec_token=AB7IsZkIC4cNW41zd063UvuZnfuMBOcrgqO8aqIFwssp1br2DZk6N1T_7dyKYvJAWGLTG9e5Ab0XuFv53PyacseYoA4YnnWTRwzduwxS-m1Ds=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "zhihu-q2062953887246636970",
+      "platform": "知乎",
+      "title": "吉比特董事长提议每 10 股派发 100 元现金红利，此举对 A 股市场释放了哪些信号？",
+      "summary": "5 个回答",
+      "url": "https://www.zhihu.com/question/2062953887246636970",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "知乎",
+        "吉比特"
+      ],
+      "answerCount": 5,
+      "source": "cdp",
+      "category": "知乎",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-YjF1Tm4xSG9QR1dpQWR3",
+      "platform": "脉脉",
+      "title": "25届春招、26届暑期实习内推",
+      "summary": "吉比特&雷霆游戏25届春招&26届暑期实习招聘开启【公司介绍】上市游戏公司，研运一体，20年稳定运营，专业从事网络游戏创意策划、研发制作及商业化运营。",
+      "url": "https://maimai.cn/article/detail?fid\\u003d1867647002\\u0026efid\\u003dxAmkQzvb1uNn1HoPGWiAdw",
       "sentiment": "neutral",
       "time": "",
       "tags": [
@@ -28327,11 +23544,536 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "maimai-NvdXJjZT1ob21lLWFwaQ",
+      "id": "maimai-VVhqM2hpSC1QRlZDdS1B",
       "platform": "脉脉",
-      "title": "吉比特雷霆游戏内推",
-      "summary": "吉比特雷霆游戏内推吉比特&雷霆游戏2027届秋招内推码【PR833P】 【企业介绍】吉比特&雷霆游戏，研运一体的一家上市游戏公司~研发/发行过《问道》《问道手游》《一念 ...",
-      "url": "https://m.nowcoder.com/feed/main/detail/da30411024d04950ba0393d0cb6bd3bf?urlSource=home-api",
+      "title": "转型为游戏厂商提供合规基础网络服务",
+      "summary": "近期吉比特董事长卢竑岩就在股东大会上透露，吉比特今后“除储备IP外，只有面向全球的题材才可以立项”。充分反映了像吉比特这些以国风RPG见长的厂商，也非常重视海外 ...",
+      "url": "https://maimai.cn/article/detail?fid\\u003d1719674655\\u0026efid\\u003dio6CJUyUXj3hiH-PFVCu-A",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "脉脉",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "经营管理",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-dacf3b0b-9446-401b-924e-edcf6d898d0a#1787897242191",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/dacf3b0b-9446-401b-924e-edcf6d898d0a#1787897242191?xsec_token=ABdFCm057ylhyZBH-NWIC_0vuvQnagzHgp6gW9kkP42T4AGNnAuIDVaFuzsMK-ReXQL_kPro8fmWSW-FrjfUTx1LKfoS-R8zz9_fC62tWhLJE=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-96b43561-b2f1-4a03-8397-a665b0e07548#1787897242963",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/96b43561-b2f1-4a03-8397-a665b0e07548#1787897242963?xsec_token=ABFJ_LJV99h046JrKdphvrw8aj4ogyW_xfiroc2E4xg3WLpP2B2meQNkJ15kgmUnFR-8xxBGgvFht4sMxQjseZgIulBXsj49znLUsuIxnPbOs=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-d485b6fa-f324-4492-93ec-fb51d437ce7b#1787897249570",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/d485b6fa-f324-4492-93ec-fb51d437ce7b#1787897249570?xsec_token=ABLaRP8keszAvoITmtbnkhsrwlC2A5Bh2n2brvrGH2dsKlOwE55n0V5n-w_KRcgqaQwTVjo29YgqRS13Sp5Nr1uMbJqOnFzeF53Kim1EEV_po=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "nowcoder-728949155447508992",
+      "platform": "牛客",
+      "title": "吉比特雷霆游戏25校招补录26转正实习",
+      "summary": "(上市游戏公司)吉比特雷霆25届春招26届暑期实习招聘启动【关于我们】研运一体上市游戏公司，专业从事网络游戏创意策划、研发制作及商业化运营。",
+      "url": "https://www.nowcoder.com/discuss/728949155447508992",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "牛客",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "牛客",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-dd6fe9f3-2e35-46c8-834b-31ffefc6dbaa#1787638030398",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/dd6fe9f3-2e35-46c8-834b-31ffefc6dbaa#1787638030398?xsec_token=ABkuke-9Ahp59c5s30mCKTqNGmWSZiOmgvx1gwswaQUFX2iRUDrnAI_-tGV8q9Ef8urkw_gvS_MoJ5tcpnJsbkHJVJdBr74T0eeGCJmk8cIgw=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-d5b34180-1549-46af-b42f-f87d148c0786#1787638031279",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/d5b34180-1549-46af-b42f-f87d148c0786#1787638031279?xsec_token=ABBRkNgU1SJPnzHwB5WmKv5fBVlrz78Yg4splW_3PkwRagZpq4pxadX8vL1HUuc97IW_TCl1CAekV8SQhGIlkSKb9b5Ihiwz6aKHMoDan03eU=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-eee8cb05-709a-4320-a410-b00ccb5b4dfb#1787638038036",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/eee8cb05-709a-4320-a410-b00ccb5b4dfb#1787638038036?xsec_token=AB_qS2v01PF3GnaEHHdZHQX_4QTcC0kfwbTY-AGs3siN8XxdnVvWpgnrJhXej5JOrtGA4q5BfJHCtD_t9e4gDuO39Q5OUKWB6qB7JVt1rVUiQ=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-b5e8ef7a-b38b-49e2-9879-d5fb62ce5558#1787638038868",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/b5e8ef7a-b38b-49e2-9879-d5fb62ce5558#1787638038868?xsec_token=AB1-HjAGehnqLMLNUZOV_PXzZ1exU6VAvRqg7XcAd2mu28ksSq9BXokC9rBH8XUjL5W0lBY7QsSRfFhfUmmvgXk6uVMXbSpeDDrDrRNkDkiUo=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-e5e6a17c-3223-49a6-a75b-fe4c7aed8ccd#1787551643963",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/e5e6a17c-3223-49a6-a75b-fe4c7aed8ccd#1787551643963?xsec_token=ABBHNF6M8GQXHjYz99LgoVcRNENoLvA2EnrlbfMFKUcOqRKPQUq06s9aT_0eYaEqz_Dqa8nENiA2eq39wAZXNYxiCJdLxhL171tPKzwO6Gvww=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-793d8394-c156-4407-be4a-1958fc920bf5#1787551644769",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/793d8394-c156-4407-be4a-1958fc920bf5#1787551644769?xsec_token=ABKbxLZgpybQplD4AL6hni03Oopiwigz0jqzzAOLJRfvotgNMgtiOvo0yraR_znuslqP0r_w1CwmWXVxjltm1dad1BXwmvhyzjJUnWjrVOVpU=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-67a4f86a-464c-434c-8783-818457ab1424#1787551652094",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/67a4f86a-464c-434c-8783-818457ab1424#1787551652094?xsec_token=ABieeh_TSBFzBAgTTWTCNWtS7gUsDd8rHS6St5qJqxdEJoFgUytVVsYugaWZ48Da5WSAfsT4DuL1V9ttaxj5QBVv-IcIWhMcuOW-vSNNJKFbQ=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-a18eace3-def8-49f8-940b-3d042cb867a5#1787551652912",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/a18eace3-def8-49f8-940b-3d042cb867a5#1787551652912?xsec_token=AB3ho-cHSK2CQ0Ss5-9Rs-LQlxQxz7-n_0kug_8qSY7ZTrrcZdbY0ikXJ1XvVPmwo50VoIvN2NjSam4xgenfeqWGwQyllNljOyknAE9UENoSA=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-1888307880",
+      "platform": "脉脉",
+      "title": "游戏美术外派",
+      "summary": "... 吉比特雷霆游戏. 游戏美术外派脉脉. END. 阅读 1. 声明：本文内容由脉脉用户自发贡献，部分内容可能整编自互联网，版权归原作者所有，脉脉不拥有其著作权，亦不承担相应 ...",
+      "url": "https://maimai.cn/article/detail?fid=1888307880&efid=E5tZ7LJ30Nbn9Ew5SMSvMw",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "脉脉",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-7f62f5bc-1f37-44b4-9627-346cda827f5c#1787206040460",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/7f62f5bc-1f37-44b4-9627-346cda827f5c#1787206040460?xsec_token=ABH7cEcQFrp3Wxyct8Q7cVEkjTV29SFbL0BquQLGHgZuMPDpmkENioQ5ZLlH0ohl_U3Poy8sYUXL8Q6eQqn9gqNZwnzFCJWBwxZuH-ANJ2_K8=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-c167501b-1993-437f-9a09-de3ded8df0a4#1787206041348",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/c167501b-1993-437f-9a09-de3ded8df0a4#1787206041348?xsec_token=ABCaSfPISyEId8Lrmz0FPPHW9omDQbmK6OqxT4m_il6F20Te8YPoMD5CeXSKHOHEoBeUE2Rc7fsFBaWnP2qHoB9b77V3Olue3LwZPjU6f9uBU=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-ce1c4bf7-3089-4142-bb9b-08a7f2faa3c5#1787206048712",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/ce1c4bf7-3089-4142-bb9b-08a7f2faa3c5#1787206048712?xsec_token=AB2-AhuDbllvEzPhpMF0jQAIwlq6pYLVcTSbme0r3iucVszfkqSo2S8KUlv7gF-g_xrbw2bF8NbyDlGKexNVzIhjwQwo0OmRKa1fqc0tofqDk=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-24192ee4-50a6-478b-ac44-ae8000339252#1787206049681",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/24192ee4-50a6-478b-ac44-ae8000339252#1787206049681?xsec_token=AB8qVIzl_H6IwgHvduTMAyS0hW2AAqRfAZb-fz0uSXoqPPHHJPaXadbePk0ASwPLd7bMp2quVJTyKNa2tU8NRs1OQiCJONT72_7FM4apCwZfI=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-ZEk3R1JGMnVaY2hmaG9n",
+      "platform": "脉脉",
+      "title": "7家游戏公司2025年预盈，世纪华通、吉比特盈利规模居前",
+      "summary": "截至2026年1月31日，根据申万行业分类，A股游戏行业26家上市公司，其中17家已披露2025年业绩预告。整体来看，已披露2025年业绩预告的17家公司中，业绩偏正面（包括预增、 ...",
+      "url": "https://maimai.cn/article/detail?fid\\u003d1902623549\\u0026efid\\u003dv9YjVuydI7GRF2uZchfhog",
+      "sentiment": "positive",
+      "time": "",
+      "tags": [
+        "脉脉",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "股票财务",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-0c2c5d61-db42-41a7-9aab-995d10da595c#1787033232369",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/0c2c5d61-db42-41a7-9aab-995d10da595c#1787033232369?xsec_token=ABAsn2zqe4J6xQWMEu6rPjtA_6TJHlnrVm-o6WdciJC3msYqEbM1sgQMp9-zYAlxNC2fdrdB4A3GJepp49Mr6i7_ISSz_7OnoLeNF70a9eEIE=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-ecc4dd46-0dda-4e3e-88f1-1ee424135d10#1787033233261",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/ecc4dd46-0dda-4e3e-88f1-1ee424135d10#1787033233261?xsec_token=ABk5RknKZM22SRQPw7uoIhdvkr7hA7xSjH7_yH8qvhZWMqJSVsFuvhfHomPXyHvCHgYN6YNYo-pehkhIPpfeM0fb6PaA6fVXzfQ1VNBVVXb2Q=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-aea768fe-a1e5-45d2-99ed-49333b4def4c#1787033241216",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/aea768fe-a1e5-45d2-99ed-49333b4def4c#1787033241216?xsec_token=ABq-IdRAC_cP2H2p4zftcapv39QsmZCIHJFoIu4rAlw9J0PQ1AtgmxpYQvsnjbdc7C39VINkMvqBqk2bEJK4kpUAnpx68m_ycKN-djgvCpk2E=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-039686ee-88ab-4f01-8e57-fcbfb34d75ef#1787033242123",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/039686ee-88ab-4f01-8e57-fcbfb34d75ef#1787033242123?xsec_token=ABv-HMkNtQIIe_wbq81A2lCUjvtyilEn3XrkZ6Pz26S0wwFapaduJOfv1EMAt563MDfkSdYL0yLwPzGjwAFkaKD9MPZO4mpJm4c7z50iWaM-Y=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-1902623549",
+      "platform": "脉脉",
+      "title": "7家游戏公司2025年预盈，世纪华通、吉比特盈利规模居前",
+      "summary": "截至2026年1月31日，根据申万行业分类，A股游戏行业26家上市公司，其中17家已披露2025年业绩预告。整体来看，已披露2025年业绩预告的17家公司中，业绩偏正面（包括预增、 ...",
+      "url": "https://maimai.cn/article/detail?fid=1902623549&efid=v9YjVuydI7GRF2uZchfhog",
+      "sentiment": "positive",
+      "time": "",
+      "tags": [
+        "脉脉",
+        "吉比特"
+      ],
+      "lastChange": "2026-08-14 11:49",
+      "changeNote": "摘要有更新",
+      "category": "脉脉",
+      "topic": "股票财务",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-SjQ1QTdac01UekcyMW1n",
+      "platform": "脉脉",
+      "title": "吉比特雷霆游戏内推助力校招求职！",
+      "summary": "吉比特&雷霆游戏2025秋季校园招聘开始啦！ 有《一念逍遥》《问道》《摩尔庄园》《奥比岛》《鬼谷八荒》等众多明星产品，更有拉满的福利待遇！ 深圳、广州、厦门三地， ...",
+      "url": "https://maimai.cn/article/detail?fid\\u003d1845433388\\u0026efid\\u003dS9ddeBYJ45A7ZsMTzG21mg",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "脉脉",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "脉脉",
+      "topic": "企业文化",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-f53eb2ae-c5fc-4e69-a5a3-b23062d877d4#1786601239914",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/f53eb2ae-c5fc-4e69-a5a3-b23062d877d4#1786601239914?xsec_token=ABi7ES2t0pjF7FsHfs5ee_oWgmeSbU-fvHFIdZBsef0dCtcwq5y--Qk2lklEW3uWLKL2dqPdxXVyorCuSiPpBEcZnf1RYdgtKOb9uf14q1zD4=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-c1edc6bd-dc56-40a0-8e97-5f7b6df28189#1786601240803",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/c1edc6bd-dc56-40a0-8e97-5f7b6df28189#1786601240803?xsec_token=ABeociClKljLnsQCk6ZBn-aqWptNVO33B5vTSI3zFqLusUiBGMEZU1Faok4Xzjk1-eClycM9D2brL0jie8M_QjnuNyl1gncKAmbQk-LHXTfrY=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-3e00b3fc-40d8-4b4a-b692-c69b012982ad#1786601248242",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/3e00b3fc-40d8-4b4a-b692-c69b012982ad#1786601248242?xsec_token=ABMeQpMPD95hMODCrcZXkuZjBmRQw-HZ6-FU5H4Bm8fw9Dd-5Rj4ijAwXm84fS775ftJgPsNvyUFqUoixHya-KtklO-CRUGGs4a2piVYT2_bs=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-dmVlYzA2VjY5ZlRhdmV3",
+      "platform": "脉脉",
+      "title": "吉比特&雷霆游戏2025届校招内推",
+      "summary": "【企业介绍】吉比特&雷霆游戏，研运一体的一家上市游戏公司~研发/发行过《问道》《问道手游》《一念逍遥》《奥比岛》《monster never cry》《飞吧龙骑士》《世界弹射 ...",
+      "url": "https://maimai.cn/article/detail?fid\\u003d1843064743\\u0026efid\\u003dF6nmz6gveec06V69fTavew",
       "sentiment": "neutral",
       "time": "",
       "tags": [
@@ -28341,6 +24083,3601 @@ window.MONITOR_DATA = {
       ],
       "category": "脉脉",
       "topic": "产品游戏",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-eTFKUi0zV09idEVfV193",
+      "platform": "脉脉",
+      "title": "吉比特&雷霆游戏春招内推",
+      "summary": "吉比特&雷霆游戏春招内推. 头像. 陈俊鸿. 25-03-10 · 游戏研发工程师. 好友. 内推码U8O08F. 吉比特&雷霆游戏春招内推脉脉. END. 阅读 1. 声明：本文内容由脉脉用户自发 ...",
+      "url": "https://maimai.cn/article/detail?fid\\u003d1867635363\\u0026efid\\u003dEsDknPEy1JR-3WObtE_W_w",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "脉脉",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "脉脉",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-OTBpR0RkQnR2QklZdF93",
+      "platform": "脉脉",
+      "title": "吉比特-雷霆游戏美术招聘",
+      "summary": "吉比特-雷霆游戏美术招聘. 头像. 瘦子江. 24-07-12 · 前端开发工程师. 好友. 吉比特-雷霆游戏美术招聘脉脉. END. 阅读 1. 声明：本文内容由脉脉用户自发贡献，部分内容 ...",
+      "url": "https://maimai.cn/article/detail?fid\\u003d1839424346\\u0026efid\\u003dvx2bNOZ90iGDdBtvBIYt_w",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "脉脉",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "脉脉",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-VzdhWHZZbDgyUE1KTzJB",
+      "platform": "脉脉",
+      "title": "不知道，吉比特的岗位很多样!",
+      "summary": "吉比特&雷霆游戏HC多多，职等你来! 官网投递链接：join.g-bits.com 移动端投递路径：【吉比特游戏】公众号-社招相关-社招岗位当然!最最最推荐各位大佬直接私信跟我沟通 ...",
+      "url": "https://maimai.cn/article/detail?fid\\u003d1902401419\\u0026efid\\u003dXhAAt0qW7aXvYl82PMJO2A",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "脉脉",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "脉脉",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-f907782c-02c7-4b3f-a63a-0bb0b3ccb373#1786169231237",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/f907782c-02c7-4b3f-a63a-0bb0b3ccb373#1786169231237?xsec_token=AB1KYYkIHq-s58Xa1dAL4OUFC2BPJoWNo8kvYZXd8FVQOBO_voxtLl4UsaVPyh_hjM3-Gv8ypP4dIG1PAg48fiIt2-MstKxhT3eYvdFkNdAXk=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-14edb7b3-c73e-4f91-90f7-8d4db693b50c#1786169232337",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/14edb7b3-c73e-4f91-90f7-8d4db693b50c#1786169232337?xsec_token=ABo6iVLpLztMBjTHl15G277g5enAduswZDLNijddfO8v2AkFiEaBcAHDMcWBIPUYfmFMBT_8Bvry9uJMdYTDA-J8bel7Zw82uDRIDIoP12LFU=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-e8f46524-74ff-41ca-af02-2433018d21fc#1786169239292",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/e8f46524-74ff-41ca-af02-2433018d21fc#1786169239292?xsec_token=ABY8yji63dYNsICEBtc0PVC0YFyvq8_Q27HidnK0fmlFNCRU27gfVMIHf4LBcF1aPu8PLx4Kp4I-zvn7fLMxa85qW34Rqr5a8QlFjzun87_w4=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-61a9149c-9156-49f0-9aae-50f095e4996e#1786169240144",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/61a9149c-9156-49f0-9aae-50f095e4996e#1786169240144?xsec_token=AB1Y2QdN2lj4ezZKSRtMpzO8nPL8ZrPlHccY7pa8TK2Sl_bupzvazcO2XriM6DCPFkauxxswe_bbCTHIKdFdB9ljLprNpTrLvr6JRvfHd0hFM=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-753f8640-abde-4fdf-ab10-ff033d9099ba#1785907872856",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/753f8640-abde-4fdf-ab10-ff033d9099ba#1785907872856?xsec_token=ABZroQtmzU2Uc2aLo4lV343gCKhh8VNytIauewm6wZNBP0u57bchsjt2a3MIsY7jpGNPRII8aj4EV0mfHJKCugs7ye0-pxgknU9RH2NI13d0w=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-6c8e6a4a-8f52-49c3-882f-8b26fcff9ada#1785907871675",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/6c8e6a4a-8f52-49c3-882f-8b26fcff9ada#1785907871675?xsec_token=AB1D9r7G94Zdsr2qLslaqGG6ZsFDzPk4KYxeeCAMlYHu9GtHAcJZOS82VUN9xCBLqzLaTpNV1b_oJEVqt1cm7xtQQ-4uqqR9e9oO_AGhTV0EI=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-af9f96dd-3eb1-4115-b831-cd41b5638cdc#1785907864589",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/af9f96dd-3eb1-4115-b831-cd41b5638cdc#1785907864589?xsec_token=AB3EU62txFzvAGXYsIRrQep4FAUPyxnNWNXd91Us8Ygi8o009qXo2Q-cdlPadpnHOBig46a9VO0f76jYwqtn0uPap6026XSsG5VlGSWrl_Tko=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-6c4f4a02-8890-48a4-8e63-230e0995a9da#1785907863766",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/6c4f4a02-8890-48a4-8e63-230e0995a9da#1785907863766?xsec_token=ABOoeh1tUEA3SdmwalB38H9u1yiTZwJnaXwtvGeCt4INr3kkHZ0KfOBnX2j7zMEMMIX6ClQXNitW_-ZKprfajYzsO0n3TKilGBK-wR-fCQoto=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "nowcoder-640318",
+      "platform": "牛客",
+      "title": "（内推）【吉比特&雷霆游戏2022届实习生招聘启动】",
+      "summary": "优厚实习薪资...... 资深导师一对一指导....... 快人一步锁定offer...... 尽在【吉比特&雷霆游戏】！ 关于吉比特&雷霆游戏. • 摩尔庄园、一念逍遥、问道等多款热门 ...",
+      "url": "https://www.nowcoder.com/discuss/640318",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "牛客",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "牛客",
+      "topic": "产品游戏",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-5590fa17-8330-4da5-b516-578a7ffcb99e#1785116489415",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/5590fa17-8330-4da5-b516-578a7ffcb99e#1785116489415?xsec_token=AB3GzaeFDRNJ4L5486N1eZLLhYJDIURR2ibsiriXpSattv7vn1X08FHgQF4GR5mmlSdXkkwVq6Yjnu1hJ1_YzXKdyvu9Oro-nEgu_xgt_mdzQ=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-f06be8a7-4c0a-4478-96ba-4c83a1cbeca9#1785116490143",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/f06be8a7-4c0a-4478-96ba-4c83a1cbeca9#1785116490143?xsec_token=AB0Phnar7en2jnvx7tWQ_pOPmPq3T4CFWpC4DPM2HvjQmjJSyQbfZ52lvXLgxaeQ--PNvxVVBp8J6fVU7jJSjxzX_p1KJ5xwGYKI_goxvyA-g=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-c301eb03-c32a-481e-833e-2c4097bba205#1785116497403",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/c301eb03-c32a-481e-833e-2c4097bba205#1785116497403?xsec_token=ABl-gCU8LzNUN6BNwBRbmRW-qL1SPcXlw7scyzU995jeiRfId_lBWvb0UcMqvBLC5deFPkJWcIt2OApIEPJxiM4qj5CRkp5E27ZLPQ3nRwPtU=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-57cd6344-b8d0-48f0-be01-72a9459cb5f4#1785116498221",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/57cd6344-b8d0-48f0-be01-72a9459cb5f4#1785116498221?xsec_token=ABhwQ4-otxdZxXX_nmeFeeiSip2dMVX9gTQXsHPru8NpPCoJDX-nOdfqbRSI1sRYZk-Cn0Rj7rwlffAV6R4Zq82zK0DNUwgmSg49rzb8v12x0=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "nowcoder-865666807464550400",
+      "platform": "牛客",
+      "title": "【吉比特雷霆游戏】2026春招！内附内推马！",
+      "summary": "公司名称：吉比特雷霆游戏 招聘岗位：https://hr.g-bits.com/web/index.html#/post-web/post-list/ 内推码：0EF76K_牛客网_牛客在手,offer不愁.",
+      "url": "https://www.nowcoder.com/discuss/865666807464550400",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "牛客",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "牛客",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-fb4e4918-bf04-4882-97ee-e8cd2fdc2027#1784261105042",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/fb4e4918-bf04-4882-97ee-e8cd2fdc2027#1784261105042?xsec_token=ABFqx89CnzunWDcLY57yZx7IE4QWdBG9DsF17-u6PEhcAYj70R2DG2QczBF3Veg92l_2ZGDigKcZLizKmVYFwkDI-A9Je8X-akX0ew_D3qQwA=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-d43833b1-1d4f-4d4e-a8cb-28e20a94f70e#1784261116044",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/d43833b1-1d4f-4d4e-a8cb-28e20a94f70e#1784261116044?xsec_token=ABRH8lsJPbpxhlA9GjijgkCrVA_BMlHLDL-NdVJqMgwIBCw5uRE6RhOVCGzBeoxCGMFI6e5O4PwBX8aJ95ykX1fgUzeAnKHgiCFniQjVDpRGs=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-2442183c-8144-44fb-a1af-ba4e5632472c#1784261116779",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/2442183c-8144-44fb-a1af-ba4e5632472c#1784261116779?xsec_token=ABnh59Twq1O8OMBvri1xaYgBivncA8kHq9d4XV4fIYzr_0BIbKDwEMM_mIVGxw9fJ_FlDQyf_J7Ctna2LUwv2MOy-A0T1r2pQtjxjdRAxE5Ug=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-68b5b4cd000000001d02ae38",
+      "platform": "小红书",
+      "title": "吉比特&雷霆游戏26届校招今日启动",
+      "summary": "offer直通车kei · 👍15 收藏16",
+      "url": "https://www.xiaohongshu.com/explore/68b5b4cd000000001d02ae38?xsec_token=ABC8FP_c5XdkqRxRJVfER-nkhBnaX4MafVbxcZ7x0vCzk=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍15"
+      ],
+      "category": "小红书",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-6a3b931d0000000011013b48",
+      "platform": "小红书",
+      "title": "什么雷霆游戏",
+      "summary": "^年年有渔^ · 👍18 收藏2 · 视频",
+      "url": "https://www.xiaohongshu.com/explore/6a3b931d0000000011013b48?xsec_token=ABXnmVH-_suwwSwYwnHG6Ok7ivisLDg1kFsNIFC7cIA04=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍18"
+      ],
+      "category": "小红书",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "zhihu-q508596412",
+      "platform": "知乎",
+      "title": "雷霆游戏评价怎么样？",
+      "summary": "7 个回答",
+      "url": "https://www.zhihu.com/question/508596412",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "知乎",
+        "雷霆游戏"
+      ],
+      "answerCount": 7,
+      "source": "cdp",
+      "category": "知乎",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "zhihu-q649092230",
+      "platform": "知乎",
+      "title": "雷霆游戏（石油大亨）分安卓和苹果吗?",
+      "summary": "0 个回答",
+      "url": "https://www.zhihu.com/question/649092230",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "知乎",
+        "雷霆游戏"
+      ],
+      "answerCount": 0,
+      "source": "cdp",
+      "category": "知乎",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "zhihu-q423173220",
+      "platform": "知乎",
+      "title": "雷霆游戏怎么样？",
+      "summary": "7 个回答",
+      "url": "https://www.zhihu.com/question/423173220",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "知乎",
+        "雷霆游戏"
+      ],
+      "answerCount": 7,
+      "source": "cdp",
+      "category": "知乎",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "zhihu-xNTAwNjkyNDgcGFnZT0z",
+      "platform": "知乎",
+      "title": "吉比特&雷霆游戏未来游戏制作人大赛",
+      "summary": "2021年4月2日，第三届未来游戏制作人大赛正式开启报名。该赛事是由深圳市文化广电旅游体育局指导，南山区文化广电旅游体育局支持，吉比特&雷霆游戏主办的面向全球在校 ...",
+      "url": "https://www.zhihu.com/column/c_1360538184150069248?page=3",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "知乎",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "source": "serp",
+      "category": "知乎",
+      "topic": "产品游戏",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "nowcoder-UvNzYwL2ludGVydmlldw",
+      "platform": "牛客",
+      "title": "吉比特校招面经",
+      "summary": "吉比特（雷霆游戏）前端二面问题飞书总结 · 一、岗位与经历相关1. 介绍在吉比特雷霆游戏岗位负责的具体工作内容（如营销活动、H5页面等）。2. 你的岗位要求中 ...",
+      "url": "https://www.nowcoder.com/enterprise/760/interview",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "牛客",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "牛客",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-1842319110",
+      "platform": "脉脉",
+      "title": "2025秋招#吉比特雷霆游戏",
+      "summary": "来咯来咯～2025届秋招启动！ vvvvx公众号有奖转发，快来参加~ 搜：吉比特游戏[Yeah]. 2025秋招#吉比特雷霆游戏脉脉. END. 阅读 1. 声明：本文内容由脉脉用户自发贡献，部分 ...",
+      "url": "https://maimai.cn/article/detail?fid=1842319110&efid=aKOEa7wc2dJLUDnjXrVYtA",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "脉脉",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "脉脉",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "nowcoder-353154089339002880",
+      "platform": "牛客",
+      "title": "【已取得offer】【营销专员】吉比特雷霆游戏一二面面经",
+      "summary": "楼主某冷门工科跨专业面营销专员，8月30下午3点面的，聊了一个小时整，然后5点通知我一面过了。第一次得到面试机会，也是第一次通过面试，晚上翻来覆去睡不着，上来写篇面经 ...",
+      "url": "https://www.nowcoder.com/discuss/353154089339002880",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "牛客",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "牛客",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "nowcoder-490983",
+      "platform": "牛客",
+      "title": "0827 吉比特&雷霆游戏数据分析师笔经",
+      "summary": "总时长90分钟，考试时间120分钟，可任选其中的90分钟作答。 结构为20选择+3道问答。 选择： 概率统计、机器学习、组合数学、游戏及周边常识都有，个人觉得概率统计和游戏 ...",
+      "url": "https://www.nowcoder.com/discuss/490983",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "牛客",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "牛客",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-1902403700",
+      "platform": "脉脉",
+      "title": "吉比特雷霆游戏招聘持续中",
+      "summary": "执行主美，3D美术负责人，2D概念负责人，动作专家，UE5引擎专家等大量岗位虚位以待，欢迎推荐自荐！ 吉比特雷霆游戏招聘持续中脉脉.",
+      "url": "https://maimai.cn/article/detail?fid=1902403700&efid=ciyYMeBUyhcEIp-IxXB_kg",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "脉脉",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "脉脉",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-1742979149",
+      "platform": "脉脉",
+      "title": "观潮周报｜抖音本地生活半年GMV约220亿，将推“团购配送”",
+      "summary": "... 吉比特”关联投资基金“诺惟合悦”。未及Wekki创立于2020年6月1日，由其设计的吐司店积木玩具打开了知名度。 潮见：Z世代的国潮积木。 7、AVAR连续完成2轮数百万美元融资.",
+      "url": "https://maimai.cn/article/detail?fid=1742979149&efid=XvTXBjCrEnagbEMscZOgQg",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "脉脉",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-1826346634",
+      "platform": "脉脉",
+      "title": "许垚毒杀林奇被判死刑！游族网络已一地鸡毛",
+      "summary": "但游族缺少持续性爆款也是一个难以忽略的问题，这让公司很难像巨人网络的《征途》、吉比特的《问道》、多益网络的《神武》等一样获得长期稳定的收益。 值得注意的是 ...",
+      "url": "https://maimai.cn/article/detail?fid=1826346634&efid=9xkwsDutPzksGj0Ra4GqDQ",
+      "sentiment": "positive",
+      "time": "",
+      "tags": [
+        "脉脉",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "产品游戏",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-73",
+      "platform": "脉脉",
+      "title": "吉比特&雷霆游戏2026秋季校园招聘～",
+      "summary": "吉比特&雷霆游戏2026秋季校园招聘～",
+      "url": "https://maimai.cn/article/detail?fid\\u003d1885925949\\u0026efid\\u003dqZWHNp73BEkNEuze7zTLSA",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "脉脉",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "脉脉",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-1885925949",
+      "platform": "脉脉",
+      "title": "吉比特&雷霆游戏2026秋季校园招聘～",
+      "summary": "吉比特&雷霆游戏2026秋季校园招聘～",
+      "url": "https://maimai.cn/article/detail?fid=1885925949&efid=qZWHNp73BEkNEuze7zTLSA",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "脉脉",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "脉脉",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-6757f05c000000000603e8da",
+      "platform": "小红书",
+      "title": "游戏公司|同事们的工位大揭秘！",
+      "summary": "吉比特游戏 · 👍675 收藏161 · 视频",
+      "url": "https://www.xiaohongshu.com/explore/6757f05c000000000603e8da?xsec_token=ABn9PyuiKslYfYnsP6pOK9Kktjnp5Lvps_Tb-eXGEsRyI=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍675"
+      ],
+      "category": "小红书",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-a285aa49-da92-44d1-ae35-f416c30ab0b5#1784268461222",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/a285aa49-da92-44d1-ae35-f416c30ab0b5#1784268461222?xsec_token=ABPvuLXMb46550e_pEnLBXRbVThuW3dlEj6NnIRTEQ0N8THWjhsomBYOqg4ONovxeZuLsuojz7IFk6TBThk7QHEB1zM2extNRsvGV-zmqMv0g=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-570366940893554093",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/570366940893554093?xsec_token=ABvxFcJ_WQxN3TEQy1u6X-e0-7Il-SexCB3Mx0DY6X8sIzg8gGO69acwIITS__nO0R",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-e7240edb-df11-4b07-bd58-c0f900beff0c#1784268434114",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/e7240edb-df11-4b07-bd58-c0f900beff0c#1784268434114?xsec_token=ABII1-NZh0ssNkHQG-SnPozMRMXKQrwmPzpjNGpaPGDtF2Z11WavbYfwzeGxuhPjIGM4m-pXOujK6PK9y9dZb7Xoylwk7tW2Xvo5rL_7mDKdQ=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-f6a657e4-cd6f-4ea2-b986-6cb61a3c7509#1784354835929",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/f6a657e4-cd6f-4ea2-b986-6cb61a3c7509#1784354835929?xsec_token=ABfYtq71mdn2uLQK42AM1YG6wohtxuaHlPHC7OvMtaFYwmK3nPG3A_fRaLG7Fv0dGJuW_F0h-M7U8tokUFMLtH9LezMETVAbiUuGy-MF0F0OE=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-c8dbc71d-15bf-428f-9a2e-381ef51497b1#1784354828537",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/c8dbc71d-15bf-428f-9a2e-381ef51497b1#1784354828537?xsec_token=ABnFuMNSxkiDl526fh6yShC7vFnP7njtIw1tTY_WngW-FH67vXtQOZht7RM6ds0GDU0VDpNHjVO-oqIwbHeK7pZbI6h6hjpzCVr6CY-7vwHQM=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-8abbd108-6802-4734-80e1-8e719e85b681#1784441248194",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/8abbd108-6802-4734-80e1-8e719e85b681#1784441248194?xsec_token=ABCz7ZKi2ZlxRg8k3a5iYXmkkjrN-c9lCZ7q_wOwLGSB5g4ShKbEYk1HNRIsWh0QgnTo47qvyZiguVYIrnD3pA-vqT3KLn2aSJhLXJQAWz7Tk=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-f6d6bd38-b518-4490-816d-a4fbd522a7ff#1784441240810",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/f6d6bd38-b518-4490-816d-a4fbd522a7ff#1784441240810?xsec_token=ABjIT77sboJaMmj15dvgUrybJ4_sMpYZGxnp6P9ZjzCdS0cpJ4ZAfNyIrfp_uwkOq_kVDnuka64bEeNU5uhJTk_acCteyy89haM7yUyVcYaEI=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-2aa9d7ac-dbc4-440c-b2f0-90ba75d595c7#1784527642909",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/2aa9d7ac-dbc4-440c-b2f0-90ba75d595c7#1784527642909?xsec_token=ABM_5NmwHbQdoRerb98K98n5t_ZYDT0vwioV_3OG_vvPNkQ5m2-vWjUEgdTXNtn7_GKdaCz6EjAjFrh1f_CDNHzd3aexFI2aLWkhXZkIRXtnQ=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-975a1df8-619e-4b99-8f27-95802788b9b6#1784527642163",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/975a1df8-619e-4b99-8f27-95802788b9b6#1784527642163?xsec_token=AB0Zc3DCX8UBWPFxDV7IlCedQLgEtpe0eDWWxYyf_FT8fhPrLc8bZKQQJOf8wavY8UkL79yzGuZO7NW6oL5BVcyws28Sv_5xCPidNI2OpUSoE=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-0b51b7fc-3f67-4f24-9847-f2b7be8a7153#1784527635439",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/0b51b7fc-3f67-4f24-9847-f2b7be8a7153#1784527635439?xsec_token=ABKXiV5z0NPeYqVLLIYdjBtpRUOtV0oJXhm5WIe_ESg14gLVabp0_bDkDzcW9wDjIcY0LCjd4FRdSLU0sgEL3w_b7cr4b05lHkXvEVHO0GnIU=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-bc86ea8e-f7ed-4c2c-8989-7e8357a21efd#1784527634712",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/bc86ea8e-f7ed-4c2c-8989-7e8357a21efd#1784527634712?xsec_token=ABfypliWEbDmQ_7PKuc3ETikLxEGefZouuNg0Ptw97w0iif6wTNWzuZe_dseqp40qSSJ9P8AUSQ6ZkwxVYRR-kJ5h2tO_krFjFpUO6ViMpQ-k=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-8d8eee5a-ffe9-41ad-bb45-a6939cc653dd#1784700443037",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/8d8eee5a-ffe9-41ad-bb45-a6939cc653dd#1784700443037?xsec_token=ABMYi1a4pWvp-MvnbgvCzWvIIQFSx4NEvUJo7OYMbCriN1x1n5uVjUhmenbY7ftFTdN85GSWzUwxQlzrqS8NDIZ3nxroHPW3Zt-wmIQ9NDj4Q=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-dfec4e8a-0be5-4a92-95c1-3676937b73d2#1784700442275",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/dfec4e8a-0be5-4a92-95c1-3676937b73d2#1784700442275?xsec_token=ABxjMJwEpXcy0sXQ-AfDuIdZlNeHn3LojYelWc9_NlQJUhcUu4JoyC77uQ6gXrTjCmeCpi0mVa6MD0eyn_qQpOfkCLNEotT67Pv4QB_XCejyo=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-d65554b1-5b7a-49df-b768-708c2382046a#1784700434533",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/d65554b1-5b7a-49df-b768-708c2382046a#1784700434533?xsec_token=AB0Ec-i1eADi6nLkvV7qhHPmw3pHK2AU6CzK8_b3BfMdm-GVJHB6hBnVnRTsokz42Ry07XAVOyfCWKWqJiURhl7UYDm5W51P6Jo1thMr3pGFY=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-788eacd2-63ef-4cb5-916b-0cc16a862ebd#1784700433737",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/788eacd2-63ef-4cb5-916b-0cc16a862ebd#1784700433737?xsec_token=AB_79K3ZTwdt1r7SxhTgGinGE_gbKK_CESfJg2seLrLvMrVM_LyStwgSGFbrMldwKIMtPFcNN_AOAGnQSfWz3WoS5LVOwgUFqJITB-gqLbuv4=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-6a5f9294000000001002800d",
+      "platform": "小红书",
+      "title": "从吉比特（603444）2026 年半年度高分红提",
+      "summary": "桦信财税 · 👍1 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/6a5f9294000000001002800d?xsec_token=ABMYyFEcbZkksmGhLNLr300yxKtMGu2lazRH209r8W5So=",
+      "sentiment": "positive",
+      "time": "",
+      "tags": [
+        "小红书",
+        "👍1"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特 绩效",
+      "topic": "股票财务",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-ef784333-a217-498d-9020-0c335d0aa30e#1784786841590",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/ef784333-a217-498d-9020-0c335d0aa30e#1784786841590?xsec_token=ABMu2-eQyEZJOTBDgQQtP86DkpIm8BXV6rZHBUw7VvZR-oLJBvpfhXTcse5FhQSYR4G_AUTi5loWT3gbGOb9Yt6vQo4epitBRRC8iNTe8XMRM=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-40c93d5c-ef05-4657-948b-75b8a39ea7d9#1784786840813",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/40c93d5c-ef05-4657-948b-75b8a39ea7d9#1784786840813?xsec_token=ABO13fK5xbJGDf8adxk30AGrBT_EjU8JUrUsL7OhA61bWhIOvtxjfXpSWnjuPkAlXD2U0PGM6y7ktR0TLix7Y2a2PgEie2HSlpcLqr6MZYu90=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-07030364-72b1-440f-8196-8a4388bfc284#1784786833457",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/07030364-72b1-440f-8196-8a4388bfc284#1784786833457?xsec_token=ABNoQLzoifXr0qxdqnSxQv7vgKb9X0uz-KLTtcyOCS0-_UMJ_uwqGHsvsMgojE-KKI_-ivptr5TMO9TCZ677xfv2seUg0BFv5kk1SEBuINAoo=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-38c8bd3c-87d1-4025-9bc9-76379612cbd9#1784786832660",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/38c8bd3c-87d1-4025-9bc9-76379612cbd9#1784786832660?xsec_token=AByvK43ZxFJoSERbt4ZMvp3RGLb1R3ZlMfLM7kdh80WdZfqhUdGMVynWTYPdT2DUCk3L8anOF0wOYvVRRbvPhi7u10c59XbfTVMZeMyv0-kXk=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-b2333ab1-e7e9-4437-81b3-73a1798b7e14#1784873247543",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/b2333ab1-e7e9-4437-81b3-73a1798b7e14#1784873247543?xsec_token=ABJnnTw6v4E6m6BCBaU8Y6QxrVmXTserEc85eezlJiTTJSiKZ_2HXVwPEkfGHGxzEz933DxX8cY_P8Y_ysJKxxfSPStXUrTJiV2VNY9j0y1gg=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-4b3427c6-4866-4a9b-a316-58728b14a1b3#1784873246723",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/4b3427c6-4866-4a9b-a316-58728b14a1b3#1784873246723?xsec_token=ABsLPro1cNl25FN5D5DdPhzQzn86jBKYyRCzkipeoApF2I_iSVHPFgO1wMZpjLezB1gByqTmhIgILrtq_A-DXQ1m05F7Q8C-Ei0ExmfHeBwc0=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-8c61deb3-35f8-417d-9b39-88847268bba5#1784873239897",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/8c61deb3-35f8-417d-9b39-88847268bba5#1784873239897?xsec_token=ABqBDm7iKa0G8LcG57Bt688efOHTgKF3Xwu-NYCJQqLo87P-8SvQoUEkXb-oV99wjEAwe0QPFg7l_0QdcjyTajHccIom0ybe3DrO5W5AzVAPs=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-0b8fc030-e011-4e5b-a7e6-1de2875eb1ce#1784873238478",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/0b8fc030-e011-4e5b-a7e6-1de2875eb1ce#1784873238478?xsec_token=ABpeY6fV75Cy0BRZZ7j7C44QhOFgXyh5cgU899t-EDhbDT3JnBDY0OnmYxv9HuyP6549mJO2Z7lXsXh9Apz2QcskbD7lpjoJzJLPTwMcvPvNY=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-21e00074-8ed1-4613-81e4-41ed58d098f4#1785132448016",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/21e00074-8ed1-4613-81e4-41ed58d098f4#1785132448016?xsec_token=ABZX1_BkDPkBXmP1wyk7awSDud3ZggqL0m1p0oLsop-yUFmLZFv4kzJk4Xajs10fr26D7gcwDMKGKQT906H4U6jlsjlHt1sTU0CdICa_ph4KI=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-822389d6-273a-41f0-b71c-a2a0b1ccd983#1785132447217",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/822389d6-273a-41f0-b71c-a2a0b1ccd983#1785132447217?xsec_token=ABNyLDEr0SFdQ8x1ToWnBYumjoWXHTU0Pm-495u6oUmJiNRFwht5hVuxBCZfvLUjyNMMtXamPVIWuRd5duPT1sQcFwmAxbEyEEZxRFSEolk40=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-4d644a14-b25b-486c-9bca-dac6e224af60#1785132439999",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/4d644a14-b25b-486c-9bca-dac6e224af60#1785132439999?xsec_token=ABQ-wTdMkkMNlSwiemE3NRJf9MsLfSYQUUetH0JbGWgCDfMbsoD2HVmixooLnmlATp_-7aquMDXzyD-AzAxsajPvhJ2omPGf9ywvAv-tWK0Lg=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-39e92e18-b9c4-4b24-9371-cca4d5da6955#1785132439129",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/39e92e18-b9c4-4b24-9371-cca4d5da6955#1785132439129?xsec_token=ABsTiprsvncuWhvWLRM62huJcZ2EOgKtfihBJSzsQKi2F_dnT5-GN8gQr_ymAJeVGxZP0KzWEuu4yMp8wAThdDziva_TFHYX1JciUUyQKXYUQ=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-a09d4e25-cd1a-47a9-a090-0d822c66a682#1785218857301",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/a09d4e25-cd1a-47a9-a090-0d822c66a682#1785218857301?xsec_token=ABoXieZofnPwrYtUFSKzptYOH4xxWpc4IqGauhuRo4dZ4ZVxVgfUnuTrAmJZ7R0DxXPxFFi9wz7OfSonsPXbmn3PZeW-TyRDfCxJGeI2Q2CUk=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-91839945-10bd-43e6-8ce7-2eca675a5956#1785218856549",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/91839945-10bd-43e6-8ce7-2eca675a5956#1785218856549?xsec_token=ABQttirjolj7pStF5-gXoa6ZNcRA21glUhl12t_R13rIe1EN14VfzdKd2BiiOprp9Oq16-GUwMgZn2Rd4owKsA4weJ98OgD3atTT2z7mCbs7w=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-ca0444be-376b-4473-9b11-b64f4eeee7b0#1785218848626",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/ca0444be-376b-4473-9b11-b64f4eeee7b0#1785218848626?xsec_token=ABDm73apFDZCZ8G2RATi6TyUJYx9Lxd67sgMXFJ1yeD8eMZiQEy6n6XYLomBNQAbmSRNjLC_AwGCAunhy0pMlv29zRnOJy_x58LDSDqkVPy7k=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-75e0789e-1c52-4659-bf66-f16a72e11403#1785218847836",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/75e0789e-1c52-4659-bf66-f16a72e11403#1785218847836?xsec_token=ABqHAQl2wK5BKFlscAwrCn3jyDH5yzYQmvQZKmBwmdmJQmJCJh3lxVVld5rYpR_Vzjf2WvMcKRaDYZtZZNydGMz13HIAeIvqQMgF0J0rWALOE=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-2e5ec7c0-28eb-4d04-a79d-6673bd29a0dc#1785306250229",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/2e5ec7c0-28eb-4d04-a79d-6673bd29a0dc#1785306250229?xsec_token=ABRxA4Yzmd2tYDoRCnLQsXxMEdG_tq4tpex02MGuockacXc6bs54c0nt-QOCA_pBayzmtO8nK9OxUM32pXld1P-LUqcLuxu1gFhJwkrHtL700=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-89315b89-3f0f-4315-86b6-507567be5c12#1785306248826",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/89315b89-3f0f-4315-86b6-507567be5c12#1785306248826?xsec_token=ABXh6f0vjCrCO6YXCpRPUZtCkayCQOgQvFjryrirALdzxDc6UpcXhL_gUqPiS65Zw84nov8W8RhLvxHqbGEXSueIBd83k-7x2G7045MFr2JQQ=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-ac0bca02-d114-42db-86f2-69222deb487c#1785306236520",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/ac0bca02-d114-42db-86f2-69222deb487c#1785306236520?xsec_token=ABqoTqJyY7OSRSBWQVh6Wi7i_zCWLNEzv5hCG_XxXtpZZT7SgYA3ZrlG-aQA0D81s1ljdwzksWzu_wKTevpqUn-55dihWOOAq_qeMAogRhzR8=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-cda3f77e-0120-4e38-bd7c-597099b5ea15#1785737239845",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/cda3f77e-0120-4e38-bd7c-597099b5ea15#1785737239845?xsec_token=ABAWz-m9g_zFSJD5nHMa-5B69VShQFh5Uog9cy3Tbu1XyECeZGQ5A100HADRX3eMhXCS6WQbf3EDDjz6e9EtzOPc9mn7DQnyRWZwcE4oAKjNg=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-eead8ba0-4389-42e7-bb6f-9fa962d615c7#1785737239020",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/eead8ba0-4389-42e7-bb6f-9fa962d615c7#1785737239020?xsec_token=ABdM3eM2Ftb0CnVeUyGCvQrr3YchaMwQaSxXRo98W7GAvHUt9G4iJxVMuauZ2_4JsCVyNIrnavJyLU9pqBDL8zkWnTK8e20vW1T3IUR87ZXg0=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-cba96f34-ad53-42da-ac01-d74d1a21b2b3#1785737232492",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/cba96f34-ad53-42da-ac01-d74d1a21b2b3#1785737232492?xsec_token=ABsRINfiHwlRgtsBWGh6OCoe9kfzd-0unp9iCGnRzoRIuSDmwqR_xrVcPf9GBaj6SD3RvUsho2ZgGvEIH679Iuce5YRb32soLwkWRlKYEuGYc=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-cc1aae30-819d-4cf2-b2cf-40c5bed76773#1785737231726",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/cc1aae30-819d-4cf2-b2cf-40c5bed76773#1785737231726?xsec_token=ABdu8--7INLZCUB2kqW0IycT0bYrgG66sWLGqzopl4zsbmmKmdQJBf7KpMZRRqHd9f-q2b_pIsLySbYhOvwnPBnXhUo2QywS2PSgPXtMLbXaU=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-b578b73a-7b76-43a6-96db-943d269090a9#1785823651879",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/b578b73a-7b76-43a6-96db-943d269090a9#1785823651879?xsec_token=AB65fQjS3bO-t7khigIIv343hgbJ2prtEIY5iDlj4OcqnFq2atzBOW3thr0TZiwZXYwkePjP1GFi2QQmMzdqNBpfigKRn3wvAdN5FcX6nov18=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-4da00f9c-b66a-4499-a407-a780a4242b43#1785823650994",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/4da00f9c-b66a-4499-a407-a780a4242b43#1785823650994?xsec_token=ABLzy1VzcDF_UlD7mbJNwfnrYNHEbZw9BNU0mo0NQqqwrFk7_tXnWWFw1q6F9DyKjm7I1OoSSdwMd5FKCraArrZ77aAvHobKAeuWW1OHPXIwo=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-6e39a867-a349-48ee-bdf5-4fbf20861126#1785823644086",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/6e39a867-a349-48ee-bdf5-4fbf20861126#1785823644086?xsec_token=AByxBxYKEAoCo6t_VJJFLh_NhGUP0pz9t0VmXyLUY18Ilp9D9weFKKyu0YG-mgou4kd9nca43SndnvCD6a1nZ8QHVwIaJc1VAbn9CVKr4cQAI=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-01b5287d-2856-4d2d-8609-e8928dba9d34#1785823643283",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/01b5287d-2856-4d2d-8609-e8928dba9d34#1785823643283?xsec_token=ABD_yThAidfJ3BHfuE9OBbk_VBS30g2cxqm9QbG1truJzTuGLmTMtlTTE_BtX18a9QQ2SVsA8Bx6hzAFA4K9T99OmBhe-ur4bTmbVpSr6LSr4=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-dc8ed78f-f84b-474c-ba2b-e8778903fc8d#1785996439062",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/dc8ed78f-f84b-474c-ba2b-e8778903fc8d#1785996439062?xsec_token=ABK4-rrKgKeQuM-Al9-v4ihCTwpEmqEJQN5FTXy-qiQc9sHnPC-AH9fhK5EJtXB9a8rS-TgsVh--MWO2ol2uIZr4owhyBHrnXv5oSxb37im8U=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-f69fae37-91ab-4b3e-af8b-e75df5508f3b#1785996438207",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/f69fae37-91ab-4b3e-af8b-e75df5508f3b#1785996438207?xsec_token=ABxog6A5SR_GP9BBYhvHLhnNYWQaSdX_w-HOmE6HolmD-CgslL4aAGEhx9Jqn7Mzh_FNLmAJp4BgCdLEhpsYbOZMegfk4qr0PyJiqpBY394Bk=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-7c0951dc-115f-4caa-bf46-a0cb5693cb82#1785996431418",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/7c0951dc-115f-4caa-bf46-a0cb5693cb82#1785996431418?xsec_token=ABpH7DXE0lRV6yZJsZ5hu0BNwqeSrPGkVF12gpC-1Agtlz5A-sQsBkP4MDaHOrfpVVefeFg9nlieWHINajOTVGVDqJxmHx1_c86lHadNWqg0w=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-667f28bb-e2de-46c4-8553-e54047f1c730#1785996430636",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/667f28bb-e2de-46c4-8553-e54047f1c730#1785996430636?xsec_token=AB3SAJiOpwy7eyTB4UasF4oqpUfIH1hhSiKhA8vYoAQw8PWWxHepHHValCEeAcaAPqkbU0GdfUF2t12nZJW0xWWi78SGff8C1n3p6NRhEAmYA=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-d86110ec-a190-4208-beef-15d5ab5dcaac#1786342053835",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/d86110ec-a190-4208-beef-15d5ab5dcaac#1786342053835?xsec_token=ABVZmEwR2cr4s_Xt_UP0PlKfXQruOBufrh4cZ1HH9UxO6gWieT74dvZsIVoYXu6s4nd5i_EFyhBviseLoxxg-4PWdP72Z_kHP2gHLlTJZ0skA=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-e033f884-6bba-46e2-81ff-5c03a824e4ea#1786342052961",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/e033f884-6bba-46e2-81ff-5c03a824e4ea#1786342052961?xsec_token=ABsXmGikmRkYvw7Lb4vAB2gtZSr5x-QneGdOHgds71OOiJHd5e_YPNRNLoT-Jmuu3mZeAQ76pF67SYbFZ30OHxoH2UarEYTwc6IKO3byhkW5E=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-4e8cf7e6-f2b4-415e-97f5-826315d97109#1786342045793",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/4e8cf7e6-f2b4-415e-97f5-826315d97109#1786342045793?xsec_token=ABRWHDVh3bjjscpQPk2KjgiynDdSZiNYYJ65pNyp9ttLZ2lIvW0QYTMvbUv3uHueuYw6V_tk2CYoqDvU6P1tYQ5suqPyJVS9S3DzqhnPiT8sY=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-8323db79-4b26-4f82-82cc-041f342719e8#1786342045010",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/8323db79-4b26-4f82-82cc-041f342719e8#1786342045010?xsec_token=ABLetCDaivOANKDVGNOlGvbkQBOQKQ3Ik0uG4-g248ECLndCpIC7j-kINljwSCQ0ZK1cufxJd3bfTfGcg2LdC5EAr14WImcNvu_kknXMzgP-4=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-36dc6038-f158-42f5-8a58-3682da61a3a4#1786428455191",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/36dc6038-f158-42f5-8a58-3682da61a3a4#1786428455191?xsec_token=ABX3Z8aDOKDARcN_02BBfyN85feZ9BF90IKrf3tWZQEJa_9MhnWhptqWpu3EY3JLs5tAZyHXlqTMcSvRQG0-ju8j-bRY3p3MK2MzaKhSo04KU=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-0f466f25-6936-45a4-b8f3-0e2e8a0bb0a8#1786428454202",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/0f466f25-6936-45a4-b8f3-0e2e8a0bb0a8#1786428454202?xsec_token=AB8oq0p57SAvqoJlqGxz57jtxjGu4sh1GbJSDePskUWul5dKEt6g03LrW1tSQCiYWn0_pj2AaCKl3SeDpu-qRB7qQYEA5MSJKNwAlut-_b1xQ=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-7b959e54-1524-4b66-8179-aaa4974e3c03#1786428446519",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/7b959e54-1524-4b66-8179-aaa4974e3c03#1786428446519?xsec_token=ABMbLMDX9gYFY8CpAND6AWQpSSIE9K-GU7qfLAF8zSf1F8SEwVd5Lk7rG2gRcZFRFtcmjliRZt_s2qdEsOvXWeBQdrQesrwyzODWHLkUA-S_Y=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-7b0e46a4-74e8-47da-b8f1-4256b4fe11b5#1786428445688",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/7b0e46a4-74e8-47da-b8f1-4256b4fe11b5#1786428445688?xsec_token=AB73X8w24t8xq4PCaI_SoeWXfTc9_-LRPrrHkx5ogD9dFYlRL4rOzfq6ojE4i63JdLP_2hEzwJhbQPW2KbbwQ2G7vOn6v95UCSaSM3uS31928=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-bcc50994-ffb1-4c9b-a70d-2228ded06ee4#1786514840804",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/bcc50994-ffb1-4c9b-a70d-2228ded06ee4#1786514840804?xsec_token=ABu1oNHbXSuF3OPzbFEFRhQFtdUsOaC1oDY8cQhh-ClXxfWlA4VyhC6W6ZCpWQGrDn6lo2Tf085A0K7yrtO__E9Z2bRS2REqe24lERDpFyyaI=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-05450d80-e952-450d-8485-5095388e2ff7#1786514839579",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/05450d80-e952-450d-8485-5095388e2ff7#1786514839579?xsec_token=ABVGdzGYGLZI5AbpTWUYAUDTx67sHAytlSVqrwIKqpLbRtnPyKXmPd8wrrscfA8JPi6VE7qpxItFHMzaQW2tf_cBWycMub-5VtRr_ilYghgpI=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-b4c929b5-33e4-4abb-8571-ab1f672b401d#1786514832421",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/b4c929b5-33e4-4abb-8571-ab1f672b401d#1786514832421?xsec_token=ABM5a61AV9zfX5t3zRwuuFEvWqAljUWHjb7dnvER6oRIcUPSQgM7E0c2hjWco0rUFFhQ6weJfbGlMxQ1NqCcwQqsgRVyBNHVh0ETw6nwoJXZc=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-d6283882-e14e-4863-b52d-e91fac0f69a1#1786514831493",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/d6283882-e14e-4863-b52d-e91fac0f69a1#1786514831493?xsec_token=AB2cGB7AcgW9BvVzuPp-fuqowvZHVPoqE7swjFtIMDFh9kJOFvL6OlOq1QAOgdZpwt2w9c9gAqWuXuv4K48Rn0xndHWTopMvswQLeBeUoS9fA=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-6a7ac86a000000002403e43c",
+      "platform": "小红书",
+      "title": "",
+      "summary": "Knight-艺 · 👍1 收藏2 · 视频",
+      "url": "https://www.xiaohongshu.com/explore/6a7ac86a000000002403e43c?xsec_token=AB7KGqfS7BQmPhZrTyhCoD1QuU-jqBKny9rSToWlGiztw=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍1"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-d27429bf-2d72-492c-8601-f54ec52c6a50#1786687650501",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/d27429bf-2d72-492c-8601-f54ec52c6a50#1786687650501?xsec_token=ABhmV0w4pSJw62JdhbsGl58dZ02P66zWmwdeB3tSlYkrn7A4cv5WNRxX0VHWfZS4PTdQImoKxGoF5EO2EJfqbzXTO53WL4oU5yTHsW5f9K0To=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-6dc41895-86b8-4f6c-9822-db652453a356#1786687649647",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/6dc41895-86b8-4f6c-9822-db652453a356#1786687649647?xsec_token=ABNZPfdBR-0rMidOKSS-VYF3g4fy3u02QoNY2X-dEPvN8RKJadU2PddqYV3J3A2Zv7pZoOB-1YRNitjq_bvAIcDa5lBVGLifDHItAr5RFR6aQ=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-72df3738-8cf2-4f8c-9e5c-f031be429b8a#1786687642494",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/72df3738-8cf2-4f8c-9e5c-f031be429b8a#1786687642494?xsec_token=ABAtBSdK31rOY80R-neK1vuVsJ4eLLj3gTnDyBtSi5Nww5_gHHYIEHtDGknaGygEYaWA-oUFTaJ3GWopnn-6ccu32DmtD5hxpUaBga7L8kncg=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-4ce49f26-f9b5-40b6-bae7-eaeac483f6c0#1786687641743",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/4ce49f26-f9b5-40b6-bae7-eaeac483f6c0#1786687641743?xsec_token=ABlYLT65A1K_t9yAKptVWFiq-Cc7kIR9iaQ1Vsk0kZUY-7f59QNGls0GAExSBZfGhWUZmsqwcQeHM36rrorobPLu0q5iAeQT9E2171olT_T54=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "zhihu-500537114",
+      "platform": "知乎",
+      "title": "聚焦赛道，吉比特：小步快跑，加速自研，长线运营打造玩家生态",
+      "summary": "目前公司以吉比特-雷霆游戏-吉相资本为矩阵，实现研发+运营+资本运作一体化。吉比特顺应研运一体趋势，成立众多子公司。子公司涉及游戏研发制作、游戏运营、信息技术 ...",
+      "url": "https://zhuanlan.zhihu.com/p/500537114",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "知乎",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "source": "serp",
+      "lastChange": "2026-08-01 12:58",
+      "changeNote": "摘要有更新",
+      "category": "知乎",
+      "topic": "经营管理",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-8a80e4b2-a9f9-405b-95c5-3280829697a0#1787378850389",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/8a80e4b2-a9f9-405b-95c5-3280829697a0#1787378850389?xsec_token=ABSlX_b78hwodb3G9djO4I8VZ4q5a_7OhuV2y_BZhMk4GRGpA6ZWQEPrrBWSg5pLm72KfoltULPNQMsz20bx-oMxya-25gWMO3QxgsPd63wSU=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-d735a112-f4db-47f3-9277-458729504583#1787378849547",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/d735a112-f4db-47f3-9277-458729504583#1787378849547?xsec_token=AB0PLyisx9oSqc3eM3iU8ORo-J3K26j9y0gYrYlDKeDEgyAmgZYv4OitKHcfOYsmKE5rAsZwgIWtbgAJ0rOQzCl3gde52Dn6w3TnPhawwmVmg=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-12488e78-9056-49f8-8391-0745916cc61e#1787378842327",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/12488e78-9056-49f8-8391-0745916cc61e#1787378842327?xsec_token=AB8W_JCZ29t3M6x8wJC40Zt4gyLdsjVnNGK5GIWoQD8Z66XyDvUSMF4aKIvL9UlfFkEyLphQDLmuzJ0aQBsJyFJ2fELE1k51yjpRBewfkvwfI=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-bd7fabc7-fb77-4338-8596-c6e2c04c6027#1787378841631",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/bd7fabc7-fb77-4338-8596-c6e2c04c6027#1787378841631?xsec_token=ABUY2Q_D8ArjHE4ggpv0fotDhKiHS1b2ebsRLjo4sXIaGfgi8Dj1cKYib-zjhmICkj5T5LZDlwJy-fNA_k3iaoZDVmlXFqYhSrOa8tUuKzqg8=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-b6467d13-533e-4ae7-8b98-764c4cf5bb13#1787465239168",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/b6467d13-533e-4ae7-8b98-764c4cf5bb13#1787465239168?xsec_token=ABtbsBqGaE66cF6xtXxfffTwZIWXuF7El3Kc9uYeeC_BTJ163ic9I5dQxgVO0gWv2U6XQ41uhv7l6Qw3Co4QL3jLxnLfAEGa5sAd27sE92lAE=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-87faca5a-88b7-4d0b-91fe-cf03435ae13d#1787465231500",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/87faca5a-88b7-4d0b-91fe-cf03435ae13d#1787465231500?xsec_token=ABKxCKGRBbcoBUBj2nqtZxYAkl0sUPCTwARVWvSp5U92b4jqwIw17VKfcdSWRR49Q5tfLKFTY23U0p17KrfTcMUC_2GXNUQFC4Y1UrgqduMxw=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-64f1d696-222c-4e88-849b-cf457e56d6e1#1787465228199",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/64f1d696-222c-4e88-849b-cf457e56d6e1#1787465228199?xsec_token=AB3ZD5zxt6KYZ3ixe-e1uLAWO5pLi-yXiX9QYpCHRrQU5qfGtIejb5JTqNRftlObUwFPg4Eu8vPuLpTygJhj23KQNa6_x-BvXNZsXLvLuMl9c=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-1902401072",
+      "platform": "脉脉",
+      "title": "吉比特＆雷霆游戏2月最新岗位",
+      "summary": "吉比特＆雷霆游戏2月最新岗位 ; 孤先生. 品宣视频后期适合我. 02-07 ; E先生. 求社招内推码. 02-05 ; 亚先生. 我面试没过，以后还能投吗. 02-05 ; 贝先生. 四年3d角色美术想投 ...",
+      "url": "https://maimai.cn/article/detail?fid=1902401072&efid=S9oDiailyobq1_wea6yi_g",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "脉脉",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "脉脉",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-27432777-d140-4149-8d18-fd4b3e301014#1787724440224",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/27432777-d140-4149-8d18-fd4b3e301014#1787724440224?xsec_token=ABpiCHfCVGyyjAc-58p917LTbLcaplKMNORlRikQtRK2CM7iz_SNCmQ2b8D9pS-jHzvLfpTrSi8-dg-JZSArN8O2znYKg0lrxdg54Lf21vii4=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-41903a3f-6808-43f4-86ab-3968062fc73f#1787724439331",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/41903a3f-6808-43f4-86ab-3968062fc73f#1787724439331?xsec_token=ABda0UmVlcN6RgYnGm3JNAE9YBD-Z6LPRN_eUjOiJKKYG8uuL3PlAJTuehQUERoLGEiMAHJ26MdwrHRSsJGqy1VCAjgMqeIr3ghiWJLG1UItk=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-30b28b8f-18b2-4304-985d-042543c92c51#1787724431889",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/30b28b8f-18b2-4304-985d-042543c92c51#1787724431889?xsec_token=ABgm5UI4Yx9djgUpFwW9HywUkmbTuHXE03L_qJLEHL2N5AFD0tm3qeiQQE_9S9pm6vsVc71V_H1Ikn_r-6XBF9cAdmMrXCdfqeDOFoLhJGFow=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-3fdc184c-3ffb-428a-b60f-8c023a56087c#1787724431022",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/3fdc184c-3ffb-428a-b60f-8c023a56087c#1787724431022?xsec_token=AB2n8RSg5UWKT1pgEgHBLxzvIvJZiax6mryeysY6zzrU_Ntx9On4icCY2llJPGxkBEet2yK1KT2BZnTizkdJQ1zKkib2EQbSUWUoJRZxu4ZfA=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-14b7ba86-9383-4190-8e89-844782f5bbf3#1788156454410",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/14b7ba86-9383-4190-8e89-844782f5bbf3#1788156454410?xsec_token=ABFUf6Qp-Ozuie1P58Ti8TaEfEyPn3m78h6gbzYJkiRdc1oJ_AYDmdVF9afMe67B-bKZfvY2WokIZgil9zyXoedTtqTHGCyNqIFyAgz4YcPjQ=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-262932df-e478-4ebc-8161-dbee58760327#1788156453483",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/262932df-e478-4ebc-8161-dbee58760327#1788156453483?xsec_token=ABBuqQ6zgaejGPYWRV8w3KevdQtEZA1P_oDA3NXOG8MxpXG4kHn6Lzi-Bk8KHC3s1X6whhXJbz5Ilw-2PKKSeohMpj9srt_RMoWKMFZ__nUsw=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-50ed539c-9a87-4aa0-ac03-3ecbb13ae65a#1788156446350",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/50ed539c-9a87-4aa0-ac03-3ecbb13ae65a#1788156446350?xsec_token=ABxmyaeVJvnNDvWx6gXOTsWfdqu2PVppu-WWLqCkVinmyWS8GsrLGf92QoWkbfNzbJi0qRLF7crqHpz8pN-tV5ndyyV_E-DfJMVHEY3YnAASM=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-59e47f0f-746c-43c9-9a6b-c0fef5e442b8#1788156445279",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/59e47f0f-746c-43c9-9a6b-c0fef5e442b8#1788156445279?xsec_token=ABhGN6Ms6ixXZAbwZfNXyFHJlcHddL6Ui_7Tc6oGEgPvo4Gc0hWa0rd4MFZ3xjkggwR8v_tAFBzls6fwuoMuyhWmbtDtBSVWJPAzbI1_4tVwE=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-a3039d50-43e0-45d1-98d6-62361b573ade#1788329264098",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/a3039d50-43e0-45d1-98d6-62361b573ade#1788329264098?xsec_token=ABPN8dFDbYEAW_xCmzFFD5ToRi1m9Q_mD_WmU_AzYs-Ij0BiChx-3AXKOG70TCHdG66q1Mp7VXjeTMPBBFLFdxt83xT1X36D5kN5C90bYS_3U=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-3a0b31d1-0731-4083-9776-4c973c23f5ca#1788329263299",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/3a0b31d1-0731-4083-9776-4c973c23f5ca#1788329263299?xsec_token=ABjXiqgIDXSWXE4S4DKH98mfmNPk4CnN2k0jzVwUZLS05tYSaV_nChs0CzyeeMWQvDg9cgG1b6zcEqwr309l5JXQgBEiOK9QIKPmWyvcN7iMk=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-5a05bbe8-07f7-4ce3-8317-cf8d3c947691#1788329255466",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/5a05bbe8-07f7-4ce3-8317-cf8d3c947691#1788329255466?xsec_token=ABZ1tqqDqQ2prQIuASXcJsur4vxum9ChxkQ-8n8AOCllsQDpZUfackkGVCtDvmrZyhOTjLM4LS6I1HzRWxUl1IaZMRXim0VRW0QIQU1zZyX4A=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-23e9ae10-9550-4f7e-9a3d-3d9aa7e6cb6d#1788329254670",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/23e9ae10-9550-4f7e-9a3d-3d9aa7e6cb6d#1788329254670?xsec_token=ABexVYPYG8boHuEUTC1AtzjUyLhlorO-Pt5LEZrqp7hfOZkEpXzCc7MNmYg1wuFZcx_H29k8mvM04yb8fJejfKWoK2tXrxkdtrSbllAYF-Gac=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-45b599cf-03e1-4529-b65d-079f18f557d4#1788502051884",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/45b599cf-03e1-4529-b65d-079f18f557d4#1788502051884?xsec_token=ABbKEFvogVkXtnI34EIITeZyl1HREVqNOK3QLrIHZTzyhr1XoweLuMWThVqpVXhX1KK3lQHSnvO240a9TkdeFw0qsLmeo3oky5ZOE49u-6zEE=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-cfd1442f-072b-4632-9650-1fbbdbd44035#1788502050909",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/cfd1442f-072b-4632-9650-1fbbdbd44035#1788502050909?xsec_token=ABrNRRHeFnc9EkcH7Lm4bGBx0pSP3nlxNNzvNyF_DErq-Ld2rhB2AJcroi3zQ3qEJa2qqZSN2M-5A-PH6ATpDe4mxispLkGL-L_DWvYUsTvCQ=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-35347a9b-fe04-4b3b-bcd1-af16e41e76c0#1788502042220",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/35347a9b-fe04-4b3b-bcd1-af16e41e76c0#1788502042220?xsec_token=ABD9bwJnDoi5mbAneC9jhP5PdyYL2n_mzN01_DgcZ2kjBSGYYT1nDCOGRPcn3c2joW1Dy2LiEqfd1Tiy9VH_pWozsjNw-_Q1QfBTWLdIzay-A=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-21161bf6-2e86-4051-b59e-c71ab7288020#1788502041121",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/21161bf6-2e86-4051-b59e-c71ab7288020#1788502041121?xsec_token=AB0JI8RefqV8Nv-nYVovD39Y9kJoYEc9g3bM0uyeTHas1l3Sp1WXnMtMPbROoX6WQdClj1_hdX9xAyB9OJr4LMdCgPyCM3ZTKrOeI7CZtpDqg=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "nowcoder-xZTVlZWY4NmEzZjU5NDk",
+      "platform": "牛客",
+      "title": "吉比特雷霆游戏内推邀请码- 话题",
+      "summary": "吉比特 ，雷霆游戏2023秋招开始了！ base：深圳、广州、厦门 校招内推码：U3F8J0 校招岗位信息:https://campus.g-bits.com/wap ...",
+      "url": "https://www.nowcoder.com/creation/subject/3c5cf3ad318d427eb1e5eef86a3f5949",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "牛客",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "lastChange": "2026-07-21 12:51",
+      "changeNote": "摘要有更新",
+      "category": "牛客",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "nowcoder-2MjIxMjY1MzE1MzdlYTY",
+      "platform": "牛客",
+      "title": "吉比特实习- 话题",
+      "summary": "摩尔都快上线了，你的实习找到了吗？吉比特还在等你噢！ 吉比特&amp;雷霆游戏2022届实习生项目已经全面进入面试流程啦~ 你入选了没有呢？",
+      "url": "https://www.nowcoder.com/creation/subject/eaa094f6c15645199622126531537ea6",
+      "sentiment": "positive",
+      "time": "",
+      "tags": [
+        "牛客",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "牛客",
+      "topic": "产品游戏",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "nowcoder-0",
+      "platform": "牛客",
+      "title": "吉比特雷霆游戏营销策划面经（秋招面经回馈04）",
+      "summary": "表现层负责接收请求和返回结果，业务逻辑层负责处理核心业务规则，数据访问层负责与数据库交互。通过分层，系统职责更加清晰，修改某一层时对其他层影响较小。在实际开发中 ...",
+      "url": "https://www.nowcoder.com/feed/main/detail/0ae6c303fd504fd09b8f25ac26f19284",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "牛客",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "牛客",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-dW1IMjV3NU9CcUlfazVB",
+      "platform": "脉脉",
+      "title": "厦门吉比特网络工资待遇怎么样？薪资分布揭秘【2022】",
+      "summary": "厦门吉比特网络热门职位薪资情况 · 1. 产品岗的中位数工资在32064上下浮动，平均薪资在32697左右浮动； · 2. 技术岗的中位数工资在24256上下浮动，平均薪资在26180左右浮动；",
+      "url": "https://maimai.cn/article/detail?fid\\u003d1731026926\\u0026efid\\u003dqFJavILumH25w5OBqI_k5A",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "脉脉",
+        "吉比特"
+      ],
+      "lastChange": "2026-08-17 10:45",
+      "changeNote": "摘要有更新",
+      "category": "脉脉",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-911cfafb-263b-466f-b771-39b1497b1269#1788745072844",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/911cfafb-263b-466f-b771-39b1497b1269#1788745072844?xsec_token=ABUEn8DhVGeoQz_izOPJA-ivoiNAvV_Mx5_FAmj1dLjI3XwZDN7tq7kdX_lWwcSOm3uWrvpgbOU5n4sGyYWUB6EcwEj4VnPBSPprMNqi9SY4I=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-adf90386-17a3-4cb4-bfdf-3911ae6c8a48#1788745071968",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/adf90386-17a3-4cb4-bfdf-3911ae6c8a48#1788745071968?xsec_token=AB4LWWtxGgt-IjRilxPDg1HK5kw64r6zg1rpVWqNv5xGiwhwV7uiAssDnos3bS5xQ7DOHKt22tm9QFHfOtX9x_g7I6L7-Wt4oIeeBAT_r00N0=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-6ddecad6-421a-4a9a-9cf5-22cec87a8975#1788745065102",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/6ddecad6-421a-4a9a-9cf5-22cec87a8975#1788745065102?xsec_token=ABWRvm4fZBzLrdg56KUmfSrxKjkr8LuvmG_4SCf_6xs_B4QEDG9FqGBOVL-afpxGFVSZ30suWIH1lxlbM0hcZP_G0Y_iJX1WiBc5iVXmqev3o=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-425b1dd8-11fc-4752-8c65-26704df0accc#1788745064309",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/425b1dd8-11fc-4752-8c65-26704df0accc#1788745064309?xsec_token=ABgZ7_9U-h9dLMKQwAfzII1UEghC3vPzh9pWCGgrU7YbZIfz9pGvLwn9PJa3tgHXWLlvCDFJg_YeljWjYdnoO1o21s5kJVWoP3riSOLLhfJjI=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "nowcoder-ZVx1MDAzZGhvbWUtYXBp",
+      "platform": "牛客",
+      "title": "吉比特雷霆游戏内推",
+      "summary": "吉比特雷霆游戏内推吉比特&雷霆游戏2027届秋招内推码【PR833P】 【企业介绍】吉比特&雷霆游戏，研运一体的一家上市游戏公司~研发/发行过《问道》《问道手游》《一念 ...",
+      "url": "https://m.nowcoder.com/feed/main/detail/da30411024d04950ba0393d0cb6bd3bf?urlSource\\u003dhome-api",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "牛客",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "牛客",
+      "topic": "产品游戏",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "nowcoder-U5RCVBMSVFNyU5QiVBRQ",
+      "platform": "牛客",
+      "title": "吉比特雷霆游戏内推邀请码- 话题",
+      "summary": "吉比特 ，雷霆游戏2023秋招开始了！ base：深圳、广州、厦门 校招内推码：U3F8J0 校招岗位信息:https://campus.g-bits.com/wap ...",
+      "url": "https://www.nowcoder.com/creation/subject/3c5cf3ad318d427eb1e5eef86a3f5949?entranceType_var\\u003d%E5%86%85%E5%AE%B9%E6%9D%A1%E7%9B%AE",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "牛客",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "牛客",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-ZzV5RElRLWZVc0htc2R3",
+      "platform": "脉脉",
+      "title": "2023年10月10日早报",
+      "summary": "2、吉比特：密切关注小游戏发展，已有数个产品小程序版本在开发中. 3、恺英网络与世纪华通签订战略合作协议，将在传奇系列以及传奇世界IP资源领域进行全方面深度合作. 4 ...",
+      "url": "https://maimai.cn/article/detail?fid\\u003d1805656167\\u0026efid\\u003dBbFvbSdg5yDIQ-fUsHmsdw",
+      "sentiment": "positive",
+      "time": "",
+      "tags": [
+        "脉脉",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "经营管理",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "nowcoder-b20vYXJ0aWNsZS8xMzgx",
+      "platform": "牛客",
+      "title": "直播送大量游戏周边！吉比特大佬为你揭秘游戏从创意到发行全过程 ...",
+      "summary": "吉比特是一家专注于研发和发行有趣好玩、高品质、差异化游戏的A股上市公司。吉比特成立于2004年，旗下发行子公司雷霆游戏成立于2011年，公司在厦门、深圳、广州、日本、 ...",
+      "url": "https://hr.nowcoder.com/article/1381",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "牛客",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "lastChange": "2026-08-25 10:43",
+      "changeNote": "标题、摘要有更新",
+      "category": "牛客",
+      "topic": "经营管理",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-1805656167",
+      "platform": "脉脉",
+      "title": "2023年10月10日早报",
+      "summary": "2、吉比特：密切关注小游戏发展，已有数个产品小程序版本在开发中. 3、恺英网络与世纪华通签订战略合作协议，将在传奇系列以及传奇世界IP资源领域进行全方面深度合作. 4 ...",
+      "url": "https://maimai.cn/article/detail?fid=1805656167&efid=BbFvbSdg5yDIQ-fUsHmsdw",
+      "sentiment": "positive",
+      "time": "",
+      "tags": [
+        "脉脉",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "经营管理",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-c1a0c8bd-bc59-4f7a-ba8b-28f092e44e44#1789366048099",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/c1a0c8bd-bc59-4f7a-ba8b-28f092e44e44#1789366048099?xsec_token=ABxJ-3AM6x9I19f-_hIikkDzt4eY0GyHpVx3ghJXlkt-9Ls_QaJUiiYZ6jm_xvcN9uE6djGraGBa_o3ii6AT7vAJbpQFCEZrtXJt_a48wjl30=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-b0e7c020-c7b1-4883-8e32-6f2492f383d2#1789366046619",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/b0e7c020-c7b1-4883-8e32-6f2492f383d2#1789366046619?xsec_token=ABYqyvm4FM3keyD-ZrUDUOQZKmySyeH6H4c3-O0DmrpjzTrpCwNEeMJLcpi-2lhRr2DaQJ52jnI_Y91lD1NgpHK9PvnOO0ZN_0RGKjEcepDHI=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-88285cef-166f-4091-bc40-a8941873d3b4#1789366038429",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/88285cef-166f-4091-bc40-a8941873d3b4#1789366038429?xsec_token=ABb9_6Qu_asp9pM7NjidKsOMv2i2TgaEEryypEMNXpu_z7s7OH_uq6iNB4ka9TbbQHqQwOb5feAE5GnTtQ8YytO9Hg23-HwvZwQ0JA2yrjIOk=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-0ec89159-14da-4849-a9c1-aa0276d1bdf0#1789366037486",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/0ec89159-14da-4849-a9c1-aa0276d1bdf0#1789366037486?xsec_token=ABe0EpRH71oQpJKVLR9nqrLPi_UJDkFf6RF3ecjTg3iKt3lh3w5dQ-r-ttg642BoUuS-ocPZzO8LGVXVtS4X93XbiNOghZupPAER2GoeZ5nI4=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-9494078c-4a60-4c88-a3df-ffb082de12dd#1789452447953",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/9494078c-4a60-4c88-a3df-ffb082de12dd#1789452447953?xsec_token=AB-yibfH6lH7FmGjyopWFHOnEf6V35fJian-s7pqs_sm2H3gl2vfvppVuEd22YE-lt3SQedBrfVv1XFmEY7Jpw5MAXc8TpctnPMDuuChdcSxA=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-fcc2ac03-1882-40ee-ace9-5017dc05bd42#1789452447069",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/fcc2ac03-1882-40ee-ace9-5017dc05bd42#1789452447069?xsec_token=AB5Lt8iXNSaBSgG3KqJ5jUYHLZAAMcv5Orhjq65B1ijPz9KDFIk2cA9oJMrVUBPBtH7BvoTiwQd2ZhwPZV05XmtbjaArg-9EdaWtht5cmhecw=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-b438a204-6c75-4ffe-a308-efd0150df525#1789452439543",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/b438a204-6c75-4ffe-a308-efd0150df525#1789452439543?xsec_token=ABncrUir_LDCqDLwa9NtR2Z9X1Yl9jOBeMMSPghhtoDFr-vUayCf2BLZu0q4TGEQSC6FpM6gnASw2jz7Dm1knuonWgTTDb3yT-TfT-NyDQBVw=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-15b5f942-08d2-49d3-ae89-5396478a1540#1789452438667",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/15b5f942-08d2-49d3-ae89-5396478a1540#1789452438667?xsec_token=ABnbGRDW_0rkIP1gv3m_5cp9JJkwBabgnSEQsBQjFVwEZBud-B4eUR3X-Le2ItZ6ZO5P7giqjOhg8oPWhIKPM_ICfjtgSMVI0NzmUJdSWvlhE=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-6aa7c7f7000000002902d60d",
+      "platform": "小红书",
+      "title": "",
+      "summary": "饭饭剪刀手 · 👍6597 收藏228 · 视频",
+      "url": "https://www.xiaohongshu.com/explore/6aa7c7f7000000002902d60d?xsec_token=ABpDBbEypcPt3BHCeCwnZp1APh_7yTT8uES-oB9cEdVUQ=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍6597"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-ac5bc829-8dc0-45ef-8496-d3eb5821132a#1789625239211",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/ac5bc829-8dc0-45ef-8496-d3eb5821132a#1789625239211?xsec_token=ABvm8hKZ7hwFM5RqX81jBy7eK_ui5w7ZO01P7HBUToC_bwgjJ7mtnqzNHwyPY7TxJHeBzX0Rbo7fO4vTdkvua_v71mEkneMhHqZmoF8QLbQ68=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-2f4b0c38-9c36-451a-b748-aeb156560522#1789625238035",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/2f4b0c38-9c36-451a-b748-aeb156560522#1789625238035?xsec_token=ABOK0JIPh8xsPO3TQcXywzmEIC8AtHn7jC3DhkUFUV6cxkwShEr32_trKGjr1eFocIRV75YKPOAJ7mmG5lEES7p3CJr4ats7mIuNITMup1v3c=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-5a6bda87-6d46-4e9b-b322-28923e7fb3b7#1789625230820",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/5a6bda87-6d46-4e9b-b322-28923e7fb3b7#1789625230820?xsec_token=AB3DMlECcoyTRkJyDsrHKm0WyzHlPdNYry8LlxRBjArAfhZGRb_PWx0ZaOjaDXmylqmAkw0Y5QeKnEqONH_a5RMU4Yrwn_CiqJAKNLh-2wDE4=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-3c70494d-dd2a-4a22-80c0-b3181629bad1#1789625230029",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/3c70494d-dd2a-4a22-80c0-b3181629bad1#1789625230029?xsec_token=ABwla-hDq2-29jl9y6jOCm1nvLhCqvIWTKQeNPYTluW_fotxpg5Fy59ltYZCerkdKT7GBLwBfkc7CPb60k5vs4boiaGPFWbJRN2xlnSfJ6n3g=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-e627101e-2ba6-4821-ad5c-cf776c395e65#1790057249802",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/e627101e-2ba6-4821-ad5c-cf776c395e65#1790057249802?xsec_token=ABtcdB8JCYmgmM9rr6yAVTgtK9IFNPLm6t7Jx_H9HMoeFDq02dPe-VogO65lH8-LNIIQQrBopeeua4cdinccXq0R6qzUBtz2-f3GUDFz-20AQ=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-a328d6d6-4007-454e-a5a6-b551fc899a64#1790057249010",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/a328d6d6-4007-454e-a5a6-b551fc899a64#1790057249010?xsec_token=AB0iERr6qVAz_yOV4De6ndv03t6-lJ8uUIQrfJ9vhkN-XVF78Fm36kRtv0UGFaIcRPhMSJ3DrANJwJPv73VvDZEJ7r8qphgLuEL4rdaZGJD_k=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-64d4c81e-2416-4b37-9f14-64d456eba35b#1790057242306",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/64d4c81e-2416-4b37-9f14-64d456eba35b#1790057242306?xsec_token=ABTTnaKmONGJuBuiVM54Mw3B6I8R_9aNMf4riT0sM5CPjPVbpXC9GBjtYioXYbznEpnN7Za6WH8KrBhTYHzJ5zqyAkeCUcITdb8z49j9OHaAk=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-569487fd-8efa-4ee6-a4f4-55e309009b75#1790057241548",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/569487fd-8efa-4ee6-a4f4-55e309009b75#1790057241548?xsec_token=ABHUvs4zg1JcdYlVr7EUJ2zT8J4WZYooxWcVOOZDAjcEpaTvXKGjTwPCi4fMu7D6sbpZcuWya99EVcyVYggY58QqFV9JRydu0b9RyFA1JlHXs=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "zhihu-q2002381280243889154",
+      "platform": "知乎",
+      "title": "同样是游戏公司，吉比特狂发千万房产，凯撒文化却变卖房产求生。游戏公司的核心差距是产品、管理，还是什么？",
+      "summary": "1 个回答",
+      "url": "https://www.zhihu.com/question/2002381280243889154",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "知乎",
+        "吉比特"
+      ],
+      "answerCount": 1,
+      "source": "cdp",
+      "category": "知乎",
+      "topic": "企业文化",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-1739052391",
+      "platform": "脉脉",
+      "title": "深圳吉比特工资待遇怎么样？薪资福利如何？",
+      "summary": "深圳吉比特热门职位薪资情况 · 1. 产品岗的中位数工资在39762上下浮动，平均薪资在39762左右浮动； · 2. 生产制造岗的中位数工资在32100上下浮动，平均薪资在38933左右浮动；",
+      "url": "https://maimai.cn/article/detail?fid=1739052391&efid=JYegbleiZyilrkoSrzZLeA",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "脉脉",
+        "吉比特"
+      ],
+      "lastChange": "2026-09-12 14:26",
+      "changeNote": "摘要有更新",
+      "category": "脉脉",
+      "topic": "企业文化",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-1731026926",
+      "platform": "脉脉",
+      "title": "厦门吉比特网络工资待遇怎么样？薪资分布揭秘【2022】",
+      "summary": "厦门吉比特网络热门职位薪资情况 · 1. 产品岗的中位数工资在32064上下浮动，平均薪资在32697左右浮动； · 2. 技术岗的中位数工资在24256上下浮动，平均薪资在26180左右浮动；",
+      "url": "https://maimai.cn/article/detail?fid=1731026926&efid=qFJavILumH25w5OBqI_k5A",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "脉脉",
+        "吉比特"
+      ],
+      "lastChange": "2026-08-18 10:40",
+      "changeNote": "摘要有更新",
+      "category": "脉脉",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-1544799454",
+      "platform": "脉脉",
+      "title": "今日已更新第43天――吉比特",
+      "summary": "今日已更新第43天――吉比特 ... 我们致力于帮助大家打造一个纯净有价值的投资数据库。以每日更新一个企业的数据分析和重点整理，来和大家一起成长。 我们只分析年度净资产收益 ...",
+      "url": "https://maimai.cn/article/detail?fid=1544799454&efid=NlsiGV4iPtGV8x2yG9fAwA",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "脉脉",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-1890497924",
+      "platform": "脉脉",
+      "title": "吉比特《杖剑传说》，急招",
+      "summary": "项目：杖剑传说岗位：角色原画设计师*2 地点：厦门经验要求：3年及以上，擅长明亮的日式画风，有立绘、时装经验最佳. 吉比特《杖剑传说》，急招脉脉.",
+      "url": "https://maimai.cn/article/detail?fid=1890497924&efid=pUy5WxjcVitAeUxn-Y1BSw",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "脉脉",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "产品游戏",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-1885913529",
+      "platform": "脉脉",
+      "title": "吉比特2026秋招开始辣，欢迎来戳～",
+      "summary": "吉比特2026秋招开始辣，欢迎来戳～",
+      "url": "https://maimai.cn/article/detail?fid=1885913529&efid=UYAImkVoBXVk2YzQGACe2A",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "脉脉",
+        "吉比特"
+      ],
+      "lastChange": "2026-08-05 12:46",
+      "changeNote": "摘要有更新",
+      "category": "脉脉",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "nowcoder-929811171576672256",
+      "platform": "牛客",
+      "title": "吉比特游戏秋招今天开啦",
+      "summary": "吉比特2027届校招正式启动！如需内推，可以用我的内推码，优先简历筛选：9H5P8B⏰ 9月3日网申开启，招满即止，先投先面！✓ 核心岗位全覆盖：研发技术类、美术设计类、 ...",
+      "url": "https://m.nowcoder.com/discuss/929811171576672256?urlSource=home-api",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "牛客",
+        "吉比特"
+      ],
+      "category": "牛客",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "nowcoder-353155855132598272",
+      "platform": "牛客",
+      "title": "恺英网络和吉比特雷霆游戏选哪个",
+      "summary": "Askwhy Garena_游戏客户端开发工程师之前在吉比特实习,福利待遇还是不错的,不知道非技术加班怎么样,反正我们那一层行政很少看到加班,G社隔一段时间就会组织游戏活动还有钱 ...",
+      "url": "https://www.nowcoder.com/discuss/353155855132598272",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "牛客",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "牛客",
+      "topic": "企业文化",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "nowcoder-353156166224125952",
+      "platform": "牛客",
+      "title": "吉比特雷霆游戏PC主机发行专员笔经+一面二面凉经",
+      "summary": "3月31号，晚上刚面试完另一家公司，就收到感谢信，二面HR面给挂了。和朋友交流，hr面挂很可能是因为hc太少，事后跟hr的短信交流中也得知情况确实如此（hc只有1个）。",
+      "url": "https://www.nowcoder.com/discuss/353156166224125952",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "牛客",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "牛客",
+      "topic": "产品游戏",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "zhihu-394767444",
+      "platform": "知乎",
+      "title": "《摩尔庄园》破圈，“游戏茅”吉比特还能走多远？",
+      "summary": "但是“游戏茅”吉比特却被网友戏称“猴子称大王”。 带着一代人的青春记忆“破圈”，作为《摩尔庄园》手游发行商雷霆游戏的母公司，吉比特顺势掀起声浪、股价连番高涨，并被 ...",
+      "url": "https://zhuanlan.zhihu.com/p/394767444",
+      "sentiment": "positive",
+      "time": "",
+      "tags": [
+        "知乎",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "source": "serp",
+      "lastChange": "2026-09-27 15:02",
+      "changeNote": "摘要有更新",
+      "category": "知乎",
+      "topic": "产品游戏",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "nowcoder-925477928735969280",
+      "platform": "牛客",
+      "title": "吉比特游戏秋招今天开了",
+      "summary": "吉比特2027届校招今天9.3正式启动！如需内推，可以用我的内推码，优先简历筛选：9H5P8B. ⏰ 9月3日网申开启，招满即止，先投先面！ ✓ 核心岗位全覆盖：研发技术类、 ...",
+      "url": "https://m.nowcoder.com/discuss/925477928735969280?urlSource=home-api",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "牛客",
+        "吉比特"
+      ],
+      "category": "牛客",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "nowcoder-kZWU1OTgzNGYxZDczNDk",
+      "platform": "牛客",
+      "title": "吉比特实习内推",
+      "summary": "吉比特雷霆游戏26届暑期实习（可转正）招聘进行中【关于我们】旗下有《问道》《问道手游》《一念逍遥》《奥比岛：梦想国度》《仗剑传说》等游戏。",
+      "url": "https://www.nowcoder.com/feed/main/detail/bf322a330cff4503adee59834f1d7349",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "牛客",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "牛客",
+      "topic": "产品游戏",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "nowcoder-00",
+      "platform": "牛客",
+      "title": "吉比特雷霆游戏产品运营专员一二面HR面经",
+      "summary": "10月24号HR面HR面面经： 自我介绍对毕业后第一份工作的看法，怎么切入深挖简历，挑了几个项目，做了什么，怎么做的，有什么结论和收获（问的非常多非常深） 怎么知道吉 ...",
+      "url": "https://www.nowcoder.com/feed/main/detail/00da5243cd54454fa22d893ab56c724a",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "牛客",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "lastChange": "2026-10-01 15:43",
+      "changeNote": "摘要有更新",
+      "category": "牛客",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "nowcoder-353158143381282816",
+      "platform": "牛客",
+      "title": "【校招春招】大厂吉比特雷霆游戏内推",
+      "summary": "去年秋招也拿了很多个offer，分别是米哈游，三七互娱，吉比特，西山居， tap4fun，多益网络，莉莉丝游戏，叠纸游戏，鹰角网络，三国杀、4399、心动网络等等.",
+      "url": "https://www.nowcoder.com/discuss/353158143381282816?toCommentId=10366319",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "牛客",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "lastChange": "2026-09-30 15:21",
+      "changeNote": "摘要有更新",
+      "category": "牛客",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "nowcoder-hYzI3MjllZTljZTBkM2I",
+      "platform": "牛客",
+      "title": "吉比特校招- 话题",
+      "summary": "吉比特_孵化中心_游戏开发. 【游戏行业】吉比特&雷霆游戏春招内推. 岗位如图:岗位base:厦门/深圳/广州内推码：4DX53S投递流程：* 登陆校招官网 hr.g-bits.com ...",
+      "url": "https://www.nowcoder.com/creation/subject/ef3de6e43c504238bac2729ee9ce0d3b",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "牛客",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "牛客",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "nowcoder-9tL2xpbmsveXgtamJ0Mw",
+      "platform": "牛客",
+      "title": "吉比特_求职",
+      "summary": "吉比特邀请你投递简历啦.",
+      "url": "https://www.nowcoder.com/link/yx-jbt3",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "牛客",
+        "吉比特"
+      ],
+      "category": "牛客",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "nowcoder-142",
+      "platform": "牛客",
+      "title": "吉比特雷霆游戏26春招27暑期实习正式启动！！！",
+      "summary": "吉比特雷霆游戏26春招&27暑期实习正式启动！！！ ... 牛客14653329...：人血馒头，但是我已经饿疯了。。。 ... 岗位是嵌入式软件开发工程师，薪资到九月份或者十月份才会告知。",
+      "url": "https://www.nowcoder.com/feed/main/detail/142e155c6bba44fb9cd57d4db726bec9",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "牛客",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "牛客",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "nowcoder-NDAxM2YzY2ZmZjY4NWQz",
+      "platform": "牛客",
+      "title": "雷霆游戏Information",
+      "summary": "雷霆游戏成立于2011年7月，是吉比特旗下全资子公司，标志着吉比特从游戏研发商正式转型为研运一体综合游戏企业。端游时代发行了《斗仙》系列，获得了游戏玩家的认可 ...",
+      "url": "https://rocketreach.co/lei-ting-you-xi-profile_b4013f3cfff685d3",
+      "sentiment": "positive",
+      "time": "",
+      "tags": [
+        "牛客",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "牛客",
+      "topic": "经营管理",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "nowcoder-395231592787066880",
+      "platform": "牛客",
+      "title": "【23秋招】吉比特雷霆游戏U3F8J0内推直通笔试",
+      "summary": "吉比特，雷霆游戏2023秋招开始了！base：深圳、广州、厦门校招内推码：U3F8J0校招岗位链接：https://hr.g-bits.com有大量HC等你来哦[诶嘿]主页有研发岗面筋。",
+      "url": "https://www.nowcoder.com/discuss/395231592787066880",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "牛客",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "牛客",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "nowcoder-932397510612570112",
+      "platform": "牛客",
+      "title": "吉比特雷霆游戏内推码",
+      "summary": "吉比特2027届校招今天正式启动!如需内推,可以用我的内推码,优先简历筛选:9H5P8B✓ 核心岗位全覆盖:研发技术类、美术设计类、产品运营类、市场营销类、游戏客服",
+      "url": "https://www.nowcoder.com/discuss/932397510612570112",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "牛客",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "lastChange": "2026-10-07 15:41",
+      "changeNote": "摘要有更新",
+      "category": "牛客",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "nowcoder-353158855725096960",
+      "platform": "牛客",
+      "title": "吉比特雷霆游戏营销策划面经（秋招面经回馈04）",
+      "summary": "吉比特&雷霆游戏营销策划面经・ 上岸后会将秋招中的一些面试经验及问题进行整理分享・ 介绍深挖经历第一段经历中如何做的内容策划动作第二段经历中如何做的热点抓取和内容 ...",
+      "url": "https://www.nowcoder.com/discuss/353158855725096960",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "牛客",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "lastChange": "2026-10-07 15:41",
+      "changeNote": "摘要有更新",
+      "category": "牛客",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "nowcoder-mM2M0MDk1Mzk0OTNiZjU",
+      "platform": "牛客",
+      "title": "吉比特22届秋招启动- 话题",
+      "summary": "吉比特&amp;雷霆游戏2022届秋季校园招聘全面启动！ 摩尔庄园、问道、一念逍遥、鬼谷八荒等多款热门游戏 往年筛选通过率不到50% 现在通过内推可直达笔试（免 ...",
+      "url": "https://www.nowcoder.com/creation/subject/4e45c8fb1fd246729f3c409539493bf5",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "牛客",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "lastChange": "2026-08-05 12:46",
+      "changeNote": "摘要有更新",
+      "category": "牛客",
+      "topic": "产品游戏",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "nowcoder-lMmViNmNiNjI5MGEyZWU",
+      "platform": "牛客",
+      "title": "吉比特（雷霆游戏）前端二面问题飞书总结",
+      "summary": "一、岗位与经历相关1. 介绍在吉比特雷霆游戏岗位负责的具体工作内容（如营销活动、H5页面等）。 2. 你的岗位要求中提到需要哪些技术能力（如前端、服务端基础、小游戏 ...",
+      "url": "https://www.nowcoder.com/feed/main/detail/ea25a485765147d28e2eb6cb6290a2ee",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "牛客",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "lastChange": "2026-09-25 14:33",
+      "changeNote": "摘要有更新",
+      "category": "牛客",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "nowcoder-925124509747691520",
+      "platform": "牛客",
+      "title": "吉比特游戏27秋招9.3正式启动！",
+      "summary": "吉比特-雷霆游戏2027届校招正式启动!9月3日网申开启,招满即止,先投先面!内推更快!✓ 核心岗位全覆盖:研发技术类、美术设计类、产品运营类、市场营销类、游戏客服",
+      "url": "https://www.nowcoder.com/discuss/925124509747691520",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "牛客",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "lastChange": "2026-10-07 15:41",
+      "changeNote": "摘要有更新",
+      "category": "牛客",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-1867602693",
+      "platform": "脉脉",
+      "title": "吉比特&雷霆2025春季校园招聘",
+      "summary": "吉比特&雷霆2025春季校园招聘正式启动，欢迎各位同学加入，一起创造游戏美好体验！内推码：SC5D02。 吉比特&雷霆2025春季校园招聘脉脉.",
+      "url": "https://maimai.cn/article/detail?fid=1867602693&efid=SHG-_c-B3eSF2CcopdpnrA",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "脉脉",
+        "吉比特"
+      ],
+      "lastChange": "2026-10-08 15:57",
+      "changeNote": "摘要有更新",
+      "category": "脉脉",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-ee2891e3-85df-4c08-8c7d-c62de3bab837#1791871652220",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/ee2891e3-85df-4c08-8c7d-c62de3bab837#1791871652220?xsec_token=AB3QNu0kCJqmLDB0a_ubK6v-96YQeR3fgM-kxwb5gB09pcrZWkrwMt77n7FqRMvtF0gBw4herVlf0lQl_ITGdh2vVLAtr6UmxOIz67md9Idoo=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-2d23149a-28de-4dd9-b5eb-a0764d3ef4dc#1791871651334",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/2d23149a-28de-4dd9-b5eb-a0764d3ef4dc#1791871651334?xsec_token=ABFpAzPw1w7uv92JMYOMwl6pKE4QQfJcFnZDmTV6eO8Cu94oZmDqfGTU1Rd4byfeFt1Vluvx7AvoV37cmNPdGSh5ZW_PuZvtB6N1n3lV_4s4A=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-e7947e27-fb8a-44d6-a42d-3d740eb2db46#1791871643893",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/e7947e27-fb8a-44d6-a42d-3d740eb2db46#1791871643893?xsec_token=ABpsZ6msz_y9759htoIoOXqndNY2Q12gtm-YKSiD0vki8Mf_zzYe-k1a-NLkv8zqRbmtc0seBzYGmtxlINZa_sm0O2C28VmBH_8gwAJSY91xw=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-c5bb6fc1-da5a-4f38-bed0-fdecb59ceb1d#1791871643111",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/c5bb6fc1-da5a-4f38-bed0-fdecb59ceb1d#1791871643111?xsec_token=AB-a27b0zlHeZHH_pOea4kXgKLC79J0fN2QxLa4Ilfn0FsBxcCeepLtyV44aDMFaA-usV0fGTxoqZ98h78pHc45cqJMqI8BfB-R9RiedDzmD0=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "zhihu-q530210940",
+      "platform": "知乎",
+      "title": "雷霆游戏的特色有哪些？",
+      "summary": "2 个回答",
+      "url": "https://www.zhihu.com/question/530210940",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "知乎",
+        "雷霆游戏"
+      ],
+      "answerCount": 2,
+      "source": "cdp",
+      "lastChange": "2026-09-23 10:23",
+      "changeNote": "新增 1 个回答",
+      "category": "知乎",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "zhihu-q518228256",
+      "platform": "知乎",
+      "title": "雷霆游戏代理《奥比岛：梦想国度》 预计 2022 年上线，你对该游戏有哪些期待？",
+      "summary": "0 个回答",
+      "url": "https://www.zhihu.com/question/518228256",
+      "sentiment": "positive",
+      "time": "",
+      "tags": [
+        "知乎",
+        "雷霆游戏"
+      ],
+      "answerCount": 0,
+      "source": "cdp",
+      "category": "知乎",
+      "topic": "产品游戏",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "zhihu-q621092670",
+      "platform": "知乎",
+      "title": "雷霆游戏入股子非娱科技公司，该公司未来发展前景如何？",
+      "summary": "0 个回答",
+      "url": "https://www.zhihu.com/question/621092670",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "知乎",
+        "雷霆游戏"
+      ],
+      "answerCount": 0,
+      "source": "cdp",
+      "category": "知乎",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-7a3fb293-32e9-4c3d-ba62-6a5690c16896#1792130855334",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/7a3fb293-32e9-4c3d-ba62-6a5690c16896#1792130855334?xsec_token=ABopXFlwlkXmRGnyWktqNhxn1QlM2jbC6_Yv6x3-0hYflN_4DUhusTsln5ri2U2wkfZ7HkvomraTf4RUUJ8t4HZ__C8EZqLY8gXREAVFqRO3w=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-579b605a-5250-453c-83c8-cd3851da3fec#1792130854134",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/579b605a-5250-453c-83c8-cd3851da3fec#1792130854134?xsec_token=ABtmFHXcOXDzth53dPS_9R-QYbv13ftTbCIlyEubqbcuxSiBxCsVeoaDw9LBhPosc9qmr17Z8l3GWKM8migylD-_l0MObM-7fiv-dl-t6S1S4=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "雷霆游戏",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "雷霆游戏",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-b335f82d-fa96-4658-b778-fe94e5a5bd32#1792130846118",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/b335f82d-fa96-4658-b778-fe94e5a5bd32#1792130846118?xsec_token=ABq5Qp0XaSCxqyH40WltTunnecV23WQLqp3gEBu02jgCKlhNn47hDmHHntizpGgYOfNQWn0kAkvp9ZG-TBF9ZTitIOx3cfA1mYmeso8OWD5y4=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "xhs-8da16cac-d63f-45da-ba98-ca7ffc563820#1792130844902",
+      "platform": "小红书",
+      "title": "",
+      "summary": "👍0 收藏0",
+      "url": "https://www.xiaohongshu.com/explore/8da16cac-d63f-45da-ba98-ca7ffc563820#1792130844902?xsec_token=ABI38Pwi81x2d9orjw4rlizFn1udq5AyvpUH7PWdujQRLmHzpZrcURVtATO0899V-hMN3hxP5s7r7Kc9ecRv2gsanc591ij2kps0o3Xsk8JtY=",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "小红书",
+        "吉比特",
+        "👍0"
+      ],
+      "category": "小红书",
+      "_srcKw": "吉比特",
+      "topic": "公司综合",
       "section": "舆情",
       "pushable": true
     },
@@ -28536,39 +27873,886 @@ window.MONITOR_DATA = {
       "pushable": true
     },
     {
-      "id": "zhihu-q485121596",
-      "platform": "知乎",
-      "title": "请问大佬们战争雷霆游戏出现这种情况怎么办？",
-      "summary": "4 个回答",
-      "url": "https://www.zhihu.com/question/485121596",
-      "sentiment": "neutral",
-      "time": "",
-      "tags": [
-        "知乎",
-        "雷霆游戏"
-      ],
-      "answerCount": 4,
-      "source": "cdp",
-      "category": "知乎",
-      "topic": "公司综合"
-    },
-    {
-      "id": "zhihu-q1967251225914357055",
-      "platform": "知乎",
-      "title": "《杖剑传说》公司吉比特前三个季度的营收已超去年全年，它逆势增长的背后做对了什么？",
-      "summary": "6 个回答",
-      "url": "https://www.zhihu.com/question/1967251225914357055",
+      "id": "maimai-1891474590",
+      "platform": "脉脉",
+      "title": "吉比特【无界计划】内推",
+      "summary": "计划有大量校招和社招需求，校招不仅限应届。三年内的游戏人都可以投递 。欢迎联系内推~ ⁠加入【无界计划】，成为创作者，你将能获得； ⁠1.与创始人共创下一个世界级 ...",
+      "url": "https://maimai.cn/article/detail?fid=1891474590&efid=r6IJimx8vxkGBwBwBI2a8w",
       "sentiment": "positive",
       "time": "",
       "tags": [
-        "知乎",
+        "脉脉",
         "吉比特"
       ],
-      "answerCount": 6,
-      "source": "cdp",
-      "lastChange": "2026-09-16 10:23",
-      "changeNote": "回答数 7→6",
-      "category": "知乎",
+      "lastChange": "2026-08-15 10:36",
+      "changeNote": "摘要有更新",
+      "category": "脉脉",
+      "topic": "理念价值观",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-1855760459",
+      "platform": "脉脉",
+      "title": "吉比特雷霆的孩子们看看萨罗斯～",
+      "summary": "最近游戏寒冬看来已经过去， 看机会的小伙伴可以考虑下萨罗斯呀1、普遍15薪（谈是这样谈的哈哈哈）优秀者应该更高哈哈2、办公环境舒适，办公楼下万象前海逛吃玩爽歪 ...",
+      "url": "https://maimai.cn/article/detail?fid=1855760459&efid=u1xg6h3P37J1ARjyptjmcw",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "脉脉",
+        "吉比特"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-1843064743",
+      "platform": "脉脉",
+      "title": "吉比特&雷霆游戏2025届校招内推",
+      "summary": "【企业介绍】吉比特&雷霆游戏，研运一体的一家上市游戏公司~研发/发行过《问道》《问道手游》《一念逍遥》《奥比岛》《monster never cry》《飞吧龙骑士》《世界弹射 ...",
+      "url": "https://maimai.cn/article/detail?fid=1843064743&efid=F6nmz6gveec06V69fTavew",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "脉脉",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "lastChange": "2026-08-05 12:46",
+      "changeNote": "摘要有更新",
+      "category": "脉脉",
+      "topic": "产品游戏",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-1839424346",
+      "platform": "脉脉",
+      "title": "吉比特-雷霆游戏美术招聘",
+      "summary": "吉比特-雷霆游戏美术招聘. 头像. 瘦子江. 24-07-12 · 前端开发工程师. 好友. 吉比特-雷霆游戏美术招聘脉脉. END. 阅读 1. 声明：本文内容由脉脉用户自发贡献，部分内容 ...",
+      "url": "https://maimai.cn/article/detail?fid=1839424346&efid=vx2bNOZ90iGDdBtvBIYt_w",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "脉脉",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "脉脉",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-1902401419",
+      "platform": "脉脉",
+      "title": "不知道，吉比特的岗位很多样!",
+      "summary": "吉比特&雷霆游戏HC多多，职等你来! 官网投递链接：join.g-bits.com 移动端投递路径：【吉比特游戏】公众号-社招相关-社招岗位当然!最最最推荐各位大佬直接私信跟我沟通 ...",
+      "url": "https://maimai.cn/article/detail?fid=1902401419&efid=XhAAt0qW7aXvYl82PMJO2A",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "脉脉",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "脉脉",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-1846509674",
+      "platform": "脉脉",
+      "title": "中秋节快乐#吉比特#雷霆游戏",
+      "summary": "中秋节快乐#吉比特#雷霆游戏. 头像. 依依. 24-09-12 · HRBP. 好友. hi 盆友们，预祝大家中秋节快乐呢今年公司月饼 一如既往地#实用主义博饼 错过状元，还贴心设置了倒二 ...",
+      "url": "https://maimai.cn/article/detail?fid=1846509674&efid=CBl_RvCT1taPxVYOurKJ6w",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "脉脉",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "脉脉",
+      "topic": "公司综合",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-1867635363",
+      "platform": "脉脉",
+      "title": "吉比特&雷霆游戏春招内推",
+      "summary": "吉比特&雷霆游戏春招内推. 头像. 陈俊鸿. 25-03-10 · 游戏研发工程师. 好友. 内推码U8O08F. 吉比特&雷霆游戏春招内推脉脉. END. 阅读 1. 声明：本文内容由脉脉用户自发 ...",
+      "url": "https://maimai.cn/article/detail?fid=1867635363&efid=EsDknPEy1JR-3WObtE_W_w",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "脉脉",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "脉脉",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-1845433388",
+      "platform": "脉脉",
+      "title": "吉比特雷霆游戏内推助力校招求职！",
+      "summary": "吉比特&雷霆游戏2025秋季校园招聘开始啦！ 有《一念逍遥》《问道》《摩尔庄园》《奥比岛》《鬼谷八荒》等众多明星产品，更有拉满的福利待遇！ 深圳、广州、厦门三地， ...",
+      "url": "https://maimai.cn/article/detail?fid=1845433388&efid=S9ddeBYJ45A7ZsMTzG21mg",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "脉脉",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "lastChange": "2026-08-05 12:46",
+      "changeNote": "摘要有更新",
+      "category": "脉脉",
+      "topic": "企业文化",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-1886207695",
+      "platform": "脉脉",
+      "title": "2026秋招进行时，吉比特&雷霆游戏招聘来啦！",
+      "summary": "吉比特&雷霆游戏招聘和小红书职场一起加入「校招看见行动」活动！2026校招季，我们将建立更高效透明的求职链路，我们珍视新生血液，希望看见每一封简历背后更真实 ...",
+      "url": "https://maimai.cn/article/detail?fid=1886207695&efid=cu7oaVfjig65QCjQsRc2-Q",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "脉脉",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "lastChange": "2026-08-05 12:46",
+      "changeNote": "摘要有更新",
+      "category": "脉脉",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "maimai-1885929516",
+      "platform": "脉脉",
+      "title": "吉比特&雷霆游戏2026校招启动",
+      "summary": "吉比特&雷霆游戏 ... 吉比特&雷霆游戏2026校招启动. 头像. 陈俊鸿. 25-08-29 · 游戏研发工程师. 好友. 内推码Z2M6I4. 吉比特&雷霆游戏2026校招启动脉脉. END.",
+      "url": "https://maimai.cn/article/detail?fid=1885929516&efid=VZNGHEZbBztZUdUvuP-GfA",
+      "sentiment": "neutral",
+      "time": "",
+      "tags": [
+        "脉脉",
+        "吉比特",
+        "雷霆游戏"
+      ],
+      "category": "脉脉",
+      "topic": "招聘求职",
+      "section": "舆情",
+      "pushable": true
+    },
+    {
+      "id": "media-g78ios",
+      "platform": "游戏陀螺",
+      "title": "曾经流水破亿的AI游戏，是如何一步步走向破产的？",
+      "summary": "&mdash;&mdash;月活2000万、28家金主拒收购，Character.AI 到底留下了什么？ 2026年10月12日，Character.AI 宣布破产。按照官方预期，交易将在11月底或12月初完成；如果找不到愿意接盘并维持运营的买家，可能要逐渐停服。 这是国外最火的类&ldquo;酒馆&rdquo;软件，用户进来只干一件事，那就是和角色扮演的AI聊天。 从流水几个亿到几千万，AI对话游戏就好像一阵风，来的也快，去得也快。 ",
+      "url": "https://www.youxituoluo.com/534966.html",
+      "sentiment": "negative",
+      "time": "2026-10-16 19:10",
+      "tags": [
+        "游戏陀螺",
+        "行业"
+      ],
+      "section": "行业",
+      "pushable": false,
+      "category": "游戏垂媒",
+      "topic": "经营管理"
+    },
+    {
+      "id": "media-jm247n",
+      "platform": "GameLook",
+      "title": "二游过节?《终末地》畅销榜第4，“绿皇”二游《绿梦》公测，异环「明音凛」实装",
+      "summary": "【GameLook专稿，禁止转载！】 GameLook报道/在今年上半年，鹰角《明日方舟终末地》与完美《异环》相继上线以后，国内能够称得上旗舰级产品的二游就已经达到了6款（米哈游《...",
+      "url": "http://www.gamelook.com.cn/2026/10/604033/",
+      "sentiment": "positive",
+      "time": "2026-10-16 10:46",
+      "tags": [
+        "GameLook",
+        "行业"
+      ],
+      "section": "行业",
+      "pushable": false,
+      "category": "游戏垂媒",
+      "topic": "产品游戏"
+    },
+    {
+      "id": "media-jm253i",
+      "platform": "GameLook",
+      "title": "二游神仙打架，西山居今天拼了老命！《剑侠世界4：无限》上桌了",
+      "summary": "10月15日这个日子，游戏圈着实有些热闹。 一边是二次元阵营的“狂欢”，《明日方舟：终末地》迎来新版本《丹青渡》并于同日开启Steam国际服，《异环》与凉宫春日联动的下半版本同步上...",
+      "url": "http://www.gamelook.com.cn/2026/10/604049/",
+      "sentiment": "neutral",
+      "time": "2026-10-16 10:35",
+      "tags": [
+        "GameLook",
+        "行业"
+      ],
+      "section": "行业",
+      "pushable": false,
+      "category": "游戏垂媒",
+      "topic": "产品游戏"
+    },
+    {
+      "id": "media-jm26j6",
+      "platform": "GameLook",
+      "title": "上线才3个月，拳头停运《英雄联盟》经典模式！召回老玩家已兑现？",
+      "summary": "【GameLook专稿，禁止转载！】 说起《英雄联盟》，无数玩家的青春记忆都会和召唤师峡谷绑定在一起。随着游戏持续十余年的版本迭代，大量老玩家因为生活、工作慢慢淡出峡谷。在各大社区...",
+      "url": "http://www.gamelook.com.cn/2026/10/604067/",
+      "sentiment": "neutral",
+      "time": "2026-10-16 10:20",
+      "tags": [
+        "GameLook",
+        "行业"
+      ],
+      "section": "行业",
+      "pushable": false,
+      "category": "游戏垂媒",
+      "topic": "产品游戏"
+    },
+    {
+      "id": "media-jlo6wh",
+      "platform": "GameLook",
+      "title": "Epic CEO豪言“全公司AI加速到极致”：AI编程重造EGS商店，“性能锤爆Steam”",
+      "summary": "【GameLook专稿，禁止转载！】 GameLook报道/Epic终于想起来，除了给玩家送游戏，还可以让玩家领完游戏之后，少等一会儿。 10月14日，Epic Games推出新版...",
+      "url": "http://www.gamelook.com.cn/2026/10/603991/",
+      "sentiment": "neutral",
+      "time": "2026-10-16 09:49",
+      "tags": [
+        "GameLook",
+        "行业"
+      ],
+      "section": "行业",
+      "pushable": false,
+      "category": "游戏垂媒",
+      "topic": "公司综合"
+    },
+    {
+      "id": "media-bquljl",
+      "platform": "触乐",
+      "title": "米哈游生活模拟游戏终测，有了最有活人感的AI",
+      "summary": "&ldquo;眠土豆来啦？一起听故事。&rdquo; 这里是《星布谷地》星空街市的咖啡馆。我刚推门进入，老板娘娜洛便热情地叫出我的名字，接着她又转身继续回应吧台前的玩家：&ldquo;后面发生了什么事？&rdquo; 客人正在给娜洛讲恐龙如何与灵长文明相互交替的故事。新客人不断加入，&ldquo;野咖啡&rdquo;变得更加热闹，新话题也不停蹦出，娜洛总能迅速回应。期间，她随口说起一名玩家常点的咖啡，转身问我：&ldquo;还是点之前的",
+      "url": "http://www.chuapp.com/article/291678.html",
+      "sentiment": "neutral",
+      "time": "2026-10-15 19:36",
+      "tags": [
+        "触乐",
+        "行业"
+      ],
+      "section": "行业",
+      "pushable": false,
+      "category": "游戏垂媒",
+      "topic": "公司综合"
+    },
+    {
+      "id": "media-f959we",
+      "platform": "游戏陀螺",
+      "title": "四个月创收超4亿元：外表像塔防的小游戏，到底为什么这么赚钱？",
+      "summary": "2026年5月21日，《塔塔冒险队》在海外上线。 4个月后，根据数据平台估算，游戏总收入已经达到4560万美元（约合人民币3.3亿元，加上国内等市场已超4亿）。 一个画风温馨可爱的小游戏，短时间内吸金这么多，确实很罕见。 它第一个月收入约800万美元，第二个月790万，第三个月涨到1050万，第四个月直接冲到1910万美元，几乎是第三个月的两倍，单月就占了总收入的42%。 很多靠狂打广告拉新人的游戏不是这种走势。它们通常一开始收入最猛，",
+      "url": "https://www.youxituoluo.com/534964.html",
+      "sentiment": "positive",
+      "time": "2026-10-15 18:24",
+      "tags": [
+        "游戏陀螺",
+        "行业"
+      ],
+      "section": "行业",
+      "pushable": false,
+      "category": "游戏垂媒",
+      "topic": "产品游戏"
+    },
+    {
+      "id": "media-jlo0at",
+      "platform": "GameLook",
+      "title": "开发者吐槽：“游戏刚发售、一大群Steam鉴赏家来要Key”，同行：90%是骗子！",
+      "summary": "【GameLook专稿，禁止转载！】 GameLook报道/很多读者可能都不陌生的是，这两年海外独立游戏圈聊得最多的，是曝光难、愿望单难、不买量就没活路：一款新游在 Steam 上...",
+      "url": "http://www.gamelook.com.cn/2026/10/603904/",
+      "sentiment": "negative",
+      "time": "2026-10-15 11:30",
+      "tags": [
+        "GameLook",
+        "行业"
+      ],
+      "section": "行业",
+      "pushable": false,
+      "category": "游戏垂媒",
+      "topic": "产品游戏"
+    },
+    {
+      "id": "media-jlo0de",
+      "platform": "GameLook",
+      "title": "大快人心！“用DEI祸害游戏”的Sweet Baby裁员80%、清空厂商合作",
+      "summary": "在过去这两年，Sweet Baby Inc.（简称SBI）几乎是欧美游戏“政治正确”（DEI）争议的代名词，他们作为咨询顾问反复出现在各家公司的名单上，让玩家避之不及。 然而，这家...",
+      "url": "http://www.gamelook.com.cn/2026/10/603907/",
+      "sentiment": "neutral",
+      "time": "2026-10-15 09:53",
+      "tags": [
+        "GameLook",
+        "行业"
+      ],
+      "section": "行业",
+      "pushable": false,
+      "category": "游戏垂媒",
+      "topic": "公司综合"
+    },
+    {
+      "id": "media-jlo2iw",
+      "platform": "GameLook",
+      "title": "“烧十亿token救妹妹”！国内玩家用AI把停服二游“奶”回来了？",
+      "summary": "【GameLook专稿，禁止转载！】 GameLook报道/前年二游市场前仆后继的惨烈情况依旧历历在目，其中大部分产品虽然都有充足的倒下的原因，但是对于喜欢该游戏的玩家而言，自己投...",
+      "url": "http://www.gamelook.com.cn/2026/10/603934/",
+      "sentiment": "negative",
+      "time": "2026-10-15 09:49",
+      "tags": [
+        "GameLook",
+        "行业"
+      ],
+      "section": "行业",
+      "pushable": false,
+      "category": "游戏垂媒",
+      "topic": "公司综合"
+    },
+    {
+      "id": "media-dcysbm",
+      "platform": "游戏陀螺",
+      "title": "移动游戏收入下滑7%，2026年为何没有一款新作冲进全球收入榜？",
+      "summary": "过去几年，移动游戏市场仍在不断诞生新的收入黑马。 从SLG到放置RPG，再到融合玩法产品，新游戏曾经可以凭借创新玩法快速突破市场。 2026年，移动游戏市场却出现了一个罕见现象。 根据Aream &amp; Co. 发布的《Video Game Market Update Q3 2026》，今年第三季度全球移动游戏内购收入同比下降7%，达到196亿美元。与此同时，2026 年上线的新游戏， 至今仍没有一款进入全球收入最高的移动游戏榜单。",
+      "url": "https://www.youxituoluo.com/534960.html",
+      "sentiment": "neutral",
+      "time": "2026-10-14 22:30",
+      "tags": [
+        "游戏陀螺",
+        "行业"
+      ],
+      "section": "行业",
+      "pushable": false,
+      "category": "游戏垂媒",
+      "topic": "产品游戏"
+    },
+    {
+      "id": "media-jlnfjd",
+      "platform": "GameLook",
+      "title": "韩国游戏大厂“主播充值3亿韩元，游戏干到畅销榜冠军”，被议员批斗“操纵榜单”！",
+      "summary": "【GameLook专稿，禁止转载！】 GameLook报道/十几年前，中国手游圈流行过一种朴素的营销智慧：游戏还没人花钱？公司先替玩家花。 当时的“自充值”，就是研发商或发行商掏钱...",
+      "url": "http://www.gamelook.com.cn/2026/10/603834/",
+      "sentiment": "neutral",
+      "time": "2026-10-14 09:55",
+      "tags": [
+        "GameLook",
+        "行业"
+      ],
+      "section": "行业",
+      "pushable": false,
+      "category": "游戏垂媒",
+      "topic": "产品游戏"
+    },
+    {
+      "id": "media-jlnjak",
+      "platform": "GameLook",
+      "title": "Epic与迪士尼IP大作延期：“要求员工只能用AI写代码、搞美术”，引爆全球玩家非议",
+      "summary": "【GameLook专稿，禁止转载！】 GameLook报道/近期Epic Games 与迪士尼合作的星战漫威射击新作，最近以一种相当荒诞的方式进入公众视野。由于游戏制作进度不及预期...",
+      "url": "http://www.gamelook.com.cn/2026/10/603886/",
+      "sentiment": "positive",
+      "time": "2026-10-14 09:54",
+      "tags": [
+        "GameLook",
+        "行业"
+      ],
+      "section": "行业",
+      "pushable": false,
+      "category": "游戏垂媒",
+      "topic": "公司综合"
+    },
+    {
+      "id": "media-jlnfk8",
+      "platform": "GameLook",
+      "title": "版署印发《出版业发展“十五五”规划》：网游首次纳入国家五年规划，游戏业迎新风口",
+      "summary": "国家新闻出版署近日正式印发《出版业发展“十五五”规划》（以下简称《规划》），网络游戏首次被系统性纳入国家级出版业五年规划框架。这份规划不仅为未来五年出版业发展定下基调，也为游戏产业...",
+      "url": "http://www.gamelook.com.cn/2026/10/603835/",
+      "sentiment": "neutral",
+      "time": "2026-10-14 09:53",
+      "tags": [
+        "GameLook",
+        "行业"
+      ],
+      "section": "行业",
+      "pushable": false,
+      "category": "游戏垂媒",
+      "topic": "公司综合"
+    },
+    {
+      "id": "media-1bfhwf",
+      "platform": "游戏陀螺",
+      "title": "AI漫剧之后最大风口：零基础，6人爆肝4个月，做出赛道No.1产品",
+      "summary": "如果要问今年上半年，互联网文创行业最大风口是什么，想必很多人会脱口而出：AI漫剧。公开数据显示，仅2026上半年，抖音就上线了22万部+AI漫剧作品。 而到了这几个月， 新风口&mdash;&mdash;AI互动影游开始悄然涌现。 一方面，以字节跳动旗下《不问凡尘》为代表的，以玩法为驱动的AI互动游戏争相入局，打响了3D类AI互动产品登陆Steam的第一枪。 另一方面，剧情向AI互动影游也迎来了第一批吃螃蟹的人。最近，陀螺君就在Stea",
+      "url": "https://www.youxituoluo.com/534950.html",
+      "sentiment": "positive",
+      "time": "2026-10-13 19:09",
+      "tags": [
+        "游戏陀螺",
+        "行业"
+      ],
+      "section": "行业",
+      "pushable": false,
+      "category": "游戏垂媒",
+      "topic": "产品游戏"
+    },
+    {
+      "id": "media-ph5mz8",
+      "platform": "触乐",
+      "title": "裁员潮下，海外3A开发者挤进独立游戏赛道",
+      "summary": "2025年2月，由于《多元宇宙大乱斗》（Multiversus）的开发商Player First Games被华纳兄弟关闭，贾斯汀&middot;费舍尔（Justin Fischer）和布罗克&middot;费尔德曼（Brock Feldman）突然失去了工作。《多元宇宙大乱斗》是一款汇集华纳兄弟旗下众多明星角色的免费格斗游戏，最早在2022年启动抢先体验和开放测试，经过大约一年测试后重回开发阶段，并于2024年5月正式发布。华纳兄弟在",
+      "url": "http://www.chuapp.com/article/291686.html",
+      "sentiment": "neutral",
+      "time": "2026-10-13 18:11",
+      "tags": [
+        "触乐",
+        "行业"
+      ],
+      "section": "行业",
+      "pushable": false,
+      "category": "游戏垂媒",
+      "topic": "公司综合"
+    },
+    {
+      "id": "media-jlmqdh",
+      "platform": "GameLook",
+      "title": "起大风了！虚拟主播手游月收入稳定破亿、成头部二游，下一款是打牌？",
+      "summary": "【GameLook专稿，禁止转载！】 GameLook报道/游戏公司可能得重新认识一下自己的“带货主播”了。 7月23日上线的《Hololive Dreams》，如今已经走过两个多...",
+      "url": "http://www.gamelook.com.cn/2026/10/603706/",
+      "sentiment": "positive",
+      "time": "2026-10-13 10:16",
+      "tags": [
+        "GameLook",
+        "行业"
+      ],
+      "section": "行业",
+      "pushable": false,
+      "category": "游戏垂媒",
+      "topic": "产品游戏"
+    },
+    {
+      "id": "media-jlmqbr",
+      "platform": "GameLook",
+      "title": "苹果慌了？拉反垄断专家“写中国报告邀功”，米哈游网易成“官网充值”案例",
+      "summary": "【GameLook专稿，禁止转载！】 GameLook报道/不声不响地，苹果10月8日在官网Newsroom单独发布了《中国App Store生态系统——2025年开发者与用户价值...",
+      "url": "http://www.gamelook.com.cn/2026/10/603704/",
+      "sentiment": "neutral",
+      "time": "2026-10-13 10:15",
+      "tags": [
+        "GameLook",
+        "行业"
+      ],
+      "section": "行业",
+      "pushable": false,
+      "category": "游戏垂媒",
+      "topic": "公司综合"
+    },
+    {
+      "id": "media-jlmsna",
+      "platform": "GameLook",
+      "title": "《火影忍者》官宣出海，老外欢呼“苦等10年”！魔方连出三牌迎来“赛点时刻”？",
+      "summary": "【GameLook专稿，禁止转载！】 GameLook报道/自从腾讯开始全面推行长青游戏战略来看，我们能够看到腾讯每年几乎都会跑出一到两个爆款游戏，而今年腾讯的一大爆款，同时也是整...",
+      "url": "http://www.gamelook.com.cn/2026/10/603738/",
+      "sentiment": "positive",
+      "time": "2026-10-13 10:14",
+      "tags": [
+        "GameLook",
+        "行业"
+      ],
+      "section": "行业",
+      "pushable": false,
+      "category": "游戏垂媒",
+      "topic": "经营管理"
+    },
+    {
+      "id": "media-jlmsmf",
+      "platform": "GameLook",
+      "title": "“战棋大佬紫龙”下场钓鱼，新游《极境：垂钓者》能打动赛博钓鱼佬吗？",
+      "summary": "【GameLook专稿，禁止转载！】GameLook报道/“战棋还有活路吗？”这个问题，在2026年的游戏圈几乎每隔几个月就会被翻出来讨论一次。当紫龙游戏在7月22日放出《梦战：剑...",
+      "url": "http://www.gamelook.com.cn/2026/10/603737/",
+      "sentiment": "neutral",
+      "time": "2026-10-13 10:13",
+      "tags": [
+        "GameLook",
+        "行业"
+      ],
+      "section": "行业",
+      "pushable": false,
+      "category": "游戏垂媒",
+      "topic": "产品游戏"
+    },
+    {
+      "id": "media-n3xj09",
+      "platform": "触乐",
+      "title": "“巫师”系列制作人与中国策划在一起会聊什么",
+      "summary": "&ldquo;从业者采访从业者&rdquo;是触乐的一个新系列。这个系列会不定期地让一些处于开发一线的从业者朋友对另一些处于开发一线的从业者进行采访。我们会选择具备足够丰富经验的一线游戏行业工作者&mdash;&mdash;无论是访谈者还是受访者都是这样。与此前常见的&ldquo;编辑采访从业者&rdquo;相比，我们希望它能够做到更有趣、更有意义、更有价值，也希望它会为读者带来不同角度的阅读感受和启发。 在2026年的小红书Redla",
+      "url": "http://www.chuapp.com/article/291681.html",
+      "sentiment": "neutral",
+      "time": "2026-10-13 09:59",
+      "tags": [
+        "触乐",
+        "行业"
+      ],
+      "section": "行业",
+      "pushable": false,
+      "category": "游戏垂媒",
+      "topic": "公司综合"
+    },
+    {
+      "id": "media-jlmslk",
+      "platform": "GameLook",
+      "title": "《ARC Raiders》自救成功！Steam在线暴涨10倍至18万人，腾讯国服看到希望",
+      "summary": "【GameLook专稿，禁止转载！】 GameLook报道/10月8日，《ARC Raiders》2.0大版本“霜痕小径”正式上线，全平台免费畅玩同步开启。Steam同时在线从9月...",
+      "url": "http://www.gamelook.com.cn/2026/10/603736/",
+      "sentiment": "positive",
+      "time": "2026-10-13 09:58",
+      "tags": [
+        "GameLook",
+        "行业"
+      ],
+      "section": "行业",
+      "pushable": false,
+      "category": "游戏垂媒",
+      "topic": "产品游戏"
+    },
+    {
+      "id": "media-coifd3",
+      "platform": "游戏陀螺",
+      "title": "谷歌入局AI游戏开发，人人都在追的“一句话做游戏”，到底怎么样了？",
+      "summary": "10月7日，谷歌推出实验性AI游戏创作平台Google Playground，并宣布与 Unity宣布建立战略合作伙伴关系，代号Unity Spark。 与传统游戏开发工具不同，Playground试图将游戏制作的过程压缩成一场对话。用户不需要掌握编程、美术或游戏引擎等专业技能，只需通过自然语言描述自己想要的玩法、画面和交互方式，AI便能够生成一款可以在浏览器中运行的游戏。 如果对生成结果不满意，用户还可以继续通过对话调整内容。 从提出",
+      "url": "https://www.youxituoluo.com/534947.html",
+      "sentiment": "positive",
+      "time": "2026-10-12 18:23",
+      "tags": [
+        "游戏陀螺",
+        "行业"
+      ],
+      "section": "行业",
+      "pushable": false,
+      "category": "游戏垂媒",
+      "topic": "经营管理"
+    },
+    {
+      "id": "media-jlm7wp",
+      "platform": "GameLook",
+      "title": "憋了9年！网易最强射击工作室掏出“真3A FPS”，要与腾讯正面刚",
+      "summary": "【GameLook专稿，禁止转载！】 GameLook报道/最近两年，网易游戏业务的调整很多，但整体的战略方向其实可以简单概括成一句话，聚焦资源，做长青游戏。 而如果说哪个赛道更容...",
+      "url": "http://www.gamelook.com.cn/2026/10/603669/",
+      "sentiment": "neutral",
+      "time": "2026-10-12 10:44",
+      "tags": [
+        "GameLook",
+        "行业"
+      ],
+      "section": "行业",
+      "pushable": false,
+      "category": "游戏垂媒",
+      "topic": "经营管理"
+    },
+    {
+      "id": "media-jllmdp",
+      "platform": "GameLook",
+      "title": "7年烧光千万、3次推倒重来，王老菊首款游戏终于要上线了？",
+      "summary": "10月23日，知名B站UP主“怕上火暴王老菊”（以下简称王老菊）创办的未来科技工作室推出的首款游戏《再再启程》，将正式在Steam平台上线。 从2019年5月王老菊高调官宣跨界做游...",
+      "url": "http://www.gamelook.com.cn/2026/10/603588/",
+      "sentiment": "positive",
+      "time": "2026-10-12 09:49",
+      "tags": [
+        "GameLook",
+        "行业"
+      ],
+      "section": "行业",
+      "pushable": false,
+      "category": "游戏垂媒",
+      "topic": "产品游戏"
+    },
+    {
+      "id": "media-jllkul",
+      "platform": "GameLook",
+      "title": "“最惨独游神作”？10年花掉2亿巨款，吹哥“推箱子游戏”，好评97%却卖不动？",
+      "summary": "【GameLook专稿，禁止转载！】 在如今这个快节奏的游戏行业，绝大多数项目都在追求短平快的开发周期。资本期待快速上线、快速回笼资金，流水线式的游戏作品一茬接着一茬涌入 Stea...",
+      "url": "http://www.gamelook.com.cn/2026/10/603566/",
+      "sentiment": "positive",
+      "time": "2026-10-12 09:37",
+      "tags": [
+        "GameLook",
+        "行业"
+      ],
+      "section": "行业",
+      "pushable": false,
+      "category": "游戏垂媒",
+      "topic": "产品游戏"
+    },
+    {
+      "id": "media-dmlo5h",
+      "platform": "游戏陀螺",
+      "title": "独游开发者复盘：Steam 56万美元总流水，最终仅到手7.3万美元",
+      "summary": "随着这些年独立游戏逐步走入公众视野，不少开发者都怀揣着一个浪漫的暴富梦想：一个人、一台电脑、几年做出一款爆款游戏，上线Steam坐等流水暴涨，躺着赚米。 但最近海外一位名为Omer的独立游戏开发者的真实账单复盘，揭开了独游行业的残酷真相：他的两款游戏（《Northend Tower Defense》和《Deepstone Rift》）五年内在Steam累计总流水56万美元，看似是妥妥的成功案例。但层层扣费后，其个人最终实际到手仅7.3万",
+      "url": "https://www.youxituoluo.com/534945.html",
+      "sentiment": "positive",
+      "time": "2026-10-10 22:23",
+      "tags": [
+        "游戏陀螺",
+        "行业"
+      ],
+      "section": "行业",
+      "pushable": false,
+      "category": "游戏垂媒",
+      "topic": "产品游戏"
+    },
+    {
+      "id": "media-e3najo",
+      "platform": "游戏陀螺",
+      "title": "10月新游清单来了！《剑侠世界4》《影之刃零》《霓虹深渊2》你选谁？",
+      "summary": "中秋假期的余温尚未散去，10月的战鼓已经擂响。 据陀螺君不完全统计，10月已有28款新游预计上线，另有10款产品开启或即将开启限量测试。与9月相比，定档数量明显回升，测试产品则更聚焦于开放世界、MMO与硬核生存等细分赛道。 从发行排期来看，多数新品集中在10月中下旬上线，原因或在于国庆假期不少老游戏进行版本更新，新游上线面临的竞争压力较大。同时，本月PC跨端与海外发行产品占比提升，头部厂商在动作RPG、MMORPG与模拟经营赛道持续加码",
+      "url": "https://www.youxituoluo.com/534944.html",
+      "sentiment": "positive",
+      "time": "2026-10-10 18:25",
+      "tags": [
+        "游戏陀螺",
+        "行业"
+      ],
+      "section": "行业",
+      "pushable": false,
+      "category": "游戏垂媒",
+      "topic": "产品游戏"
+    },
+    {
+      "id": "media-o20rsn",
+      "platform": "触乐",
+      "title": "触乐本周行业大事：《王者荣耀》中国队名古屋亚运会卫冕，《三角洲行动》官宣日活破5800万",
+      "summary": "■ 名古屋亚运会《王者荣耀》中国队卫冕金牌 9月28日，在爱知 &middot; 名古屋亚运会电子竞技《王者荣耀》项目的决赛中，中国队以 4 比 0 击败马来西亚队，夺得金牌。 这是中国队继杭州亚运会之后再次夺得《王者荣耀》项目金牌。出场选手一诺（徐必成）成为全联盟首位、历史唯一一位双金牌得主。 中国队再次夺金 ■ 《三角洲行动》官宣日活突破5800万 10月8日，腾讯天美工作室群旗下《三角洲行动》项目组官宣，正值上线两周年之际，该游戏",
+      "url": "http://www.chuapp.com/article/291683.html",
+      "sentiment": "positive",
+      "time": "2026-10-10 17:18",
+      "tags": [
+        "触乐",
+        "行业"
+      ],
+      "section": "行业",
+      "pushable": false,
+      "category": "游戏垂媒",
+      "topic": "产品游戏"
+    },
+    {
+      "id": "media-jllk3w",
+      "platform": "GameLook",
+      "title": "育碧哭了！发布仅8个月《彩虹六号手游》海外停运，腾讯《彩六:围攻》待发",
+      "summary": "【GameLook专稿，禁止转载！】 GameLook报道/10月8日，育碧蒙特利尔工作室通过官方渠道发布了一封致玩家的公开信，正式宣布将停止《彩虹六号手游》（Rainbow Si...",
+      "url": "http://www.gamelook.com.cn/2026/10/603556/",
+      "sentiment": "negative",
+      "time": "2026-10-10 11:39",
+      "tags": [
+        "GameLook",
+        "行业"
+      ],
+      "section": "行业",
+      "pushable": false,
+      "category": "游戏垂媒",
+      "topic": "产品游戏"
+    },
+    {
+      "id": "media-jll035",
+      "platform": "GameLook",
+      "title": "末法时代的MMO：制作人离场,《剑侠世界4：无限》发“小作文”下周拼命！",
+      "summary": "【GameLook专稿，禁止转载！】 GameLook报道/都说MMO越来越像游戏圈困难户，随着年轻人被二游、竞技游戏、单机游戏先后重塑认知，“MMO没人玩”似乎成了很多人眼中的共...",
+      "url": "http://www.gamelook.com.cn/2026/10/603496/",
+      "sentiment": "neutral",
+      "time": "2026-10-10 11:13",
+      "tags": [
+        "GameLook",
+        "行业"
+      ],
+      "section": "行业",
+      "pushable": false,
+      "category": "游戏垂媒",
+      "topic": "公司综合"
+    },
+    {
+      "id": "media-jllihc",
+      "platform": "GameLook",
+      "title": "战棋卡牌小游戏新爆款？《精英军团》空降微信畅销榜Top 20！",
+      "summary": "【GameLook专稿，禁止转载！】 GameLook报道/在小游戏平台，战棋玩法并不是传统的热门品类，在畅销榜能见到的则更是凤毛麟角。4月份的时候，武汉多趣信息的《占城大师》在抖...",
+      "url": "http://www.gamelook.com.cn/2026/10/603530/",
+      "sentiment": "positive",
+      "time": "2026-10-10 11:05",
+      "tags": [
+        "GameLook",
+        "行业"
+      ],
+      "section": "行业",
+      "pushable": false,
+      "category": "游戏垂媒",
+      "topic": "产品游戏"
+    },
+    {
+      "id": "media-jllgfa",
+      "platform": "GameLook",
+      "title": "开发者自曝：“骗子用AI抄我游戏，威胁不给200美元就发Steam”！同行集体笑了",
+      "summary": "【GameLook专稿，禁止转载！】 GameLook报道/在生成式AI工具和Vibe Coding概念风靡的当下，游戏圈似乎迎来了一种新型诈骗手段。 最近，在游戏社区Reddit...",
+      "url": "http://www.gamelook.com.cn/2026/10/603507/",
+      "sentiment": "neutral",
+      "time": "2026-10-10 10:30",
+      "tags": [
+        "GameLook",
+        "行业"
+      ],
+      "section": "行业",
+      "pushable": false,
+      "category": "游戏垂媒",
+      "topic": "公司综合"
+    },
+    {
+      "id": "media-f1qjc2",
+      "platform": "游戏陀螺",
+      "title": "《三角洲行动》日活突破5800万，华纳千亿美元合并，《艾希》续作众筹破3000万丨陀螺周报",
+      "summary": "随着国内游戏厂商持续推进全球化布局，游戏产业在资本投资、产品发行、技术研发及平台生态等领域不断出现新的变化。一方面，国内厂商通过海外合作、资本投资和支付本地化等方式拓展业务边界；另一方面，国际游戏行业的并购整合、工作室裁员及AI技术应用也在持续影响市场格局。本周，陀螺君将为大家盘点近期值得关注的游戏产业动态。 业内声音🔊 &mdash;&mdash;&ldquo;我们希望找到真正优秀的人才，以及拥有独特创作愿景的开发者。拉瑞安和Fro",
+      "url": "https://www.youxituoluo.com/534942.html",
+      "sentiment": "positive",
+      "time": "2026-10-09 18:25",
+      "tags": [
+        "游戏陀螺",
+        "行业"
+      ],
+      "section": "行业",
+      "pushable": false,
+      "category": "游戏垂媒",
+      "topic": "理念价值观"
+    },
+    {
+      "id": "media-mmvwm2",
+      "platform": "触乐",
+      "title": "触乐夜话：购买了游戏圈的未来",
+      "summary": "触乐怪话，每天胡侃和游戏有关的屁事、鬼事、新鲜事。 图/小罗 我突然发现，我的Steam游戏库里仍然有非常多的EA（抢先体验版）游戏。 其中，有一部分原因是我已经习惯了Steam的&ldquo;抢先体验&rdquo;模式。当我遇到了一款感兴趣的游戏之后，往往因为害怕再也无法与它相遇，于是便急头白脸地想要把它买进库内。大多数时候，这些游戏总是看起来充满活力，价格也不高。制作团队总会列出一个长长的更新计划，让人只看见就感到十分的安心。 同时",
+      "url": "http://www.chuapp.com/article/291680.html",
+      "sentiment": "neutral",
+      "time": "2026-10-09 18:08",
+      "tags": [
+        "触乐",
+        "行业"
+      ],
+      "section": "行业",
+      "pushable": false,
+      "category": "游戏垂媒",
+      "topic": "公司综合"
+    },
+    {
+      "id": "media-jlkwct",
+      "platform": "GameLook",
+      "title": "独游《艾希:续》众筹、玩家疯狂充值3000万，制作人：“这辈子都不敢众筹了”！",
+      "summary": "【GameLook专稿，禁止转载！】 GameLook报道/最近两年，当“国产”、“独立游戏”、“众筹”三个词组合到一起时，玩家都会瞬间在心里拉响警铃。这是因为尽管众筹是独游开发者...",
+      "url": "http://www.gamelook.com.cn/2026/10/603445/",
+      "sentiment": "neutral",
+      "time": "2026-10-09 10:28",
+      "tags": [
+        "GameLook",
+        "行业"
+      ],
+      "section": "行业",
+      "pushable": false,
+      "category": "游戏垂媒",
+      "topic": "公司综合"
+    },
+    {
+      "id": "media-jlkw9d",
+      "platform": "GameLook",
+      "title": "韩国游戏公司CEO离谱丑闻：4个夜场美女&#8221;挂职领工资 ”，被诉贪污4亿韩元",
+      "summary": "【GameLook专稿，禁止转载！】 GameLook报道/近年来，游戏行业内的“反腐大风”吹遍了大江南北。从国内几大头部大厂如米哈游、网易等公司内部通报的数起反腐案件来看，贪腐问...",
+      "url": "http://www.gamelook.com.cn/2026/10/603441/",
+      "sentiment": "neutral",
+      "time": "2026-10-09 10:15",
+      "tags": [
+        "GameLook",
+        "行业"
+      ],
+      "section": "行业",
+      "pushable": false,
+      "category": "游戏垂媒",
+      "topic": "公司综合"
+    },
+    {
+      "id": "media-jlkux5",
+      "platform": "GameLook",
+      "title": "米哈游大伟哥成“小红书RED LAND”最大“人形彩蛋”，玩家：合照来者不拒",
+      "summary": "【GameLook专稿，禁止转载！】 GameLook报道/10月2日至6日，小红书大型线下游戏、动漫活动RED LAND如约来到上海杨浦复兴岛。 相比去年，本届RED LAND的...",
+      "url": "http://www.gamelook.com.cn/2026/10/603427/",
+      "sentiment": "neutral",
+      "time": "2026-10-09 09:57",
+      "tags": [
+        "GameLook",
+        "行业"
+      ],
+      "section": "行业",
+      "pushable": false,
+      "category": "游戏垂媒",
+      "topic": "公司综合"
+    },
+    {
+      "id": "media-jlktfr",
+      "platform": "GameLook",
+      "title": "MMO又伟大了？《永恒之塔2》Steam爆红 40万人在线，“最小C杯”老外震惊",
+      "summary": "【GameLook专稿，禁止转载！】 GameLook报道/被誉为「MMORPG大国」的韩国，最近几年的日子过得多少有些艰辛。 端游时代靠钻研西幻题材吃到了甜头，但随着手游时代中国...",
+      "url": "http://www.gamelook.com.cn/2026/10/603407/",
+      "sentiment": "neutral",
+      "time": "2026-10-09 09:52",
+      "tags": [
+        "GameLook",
+        "行业"
+      ],
+      "section": "行业",
+      "pushable": false,
+      "category": "游戏垂媒",
+      "topic": "产品游戏"
+    },
+    {
+      "id": "media-jlktcb",
+      "platform": "GameLook",
+      "title": "又一大佬入局！谷歌与Unity推出AI游戏研发平台，“一句话生成游戏”",
+      "summary": "【GameLook专稿，禁止转载！】 GameLook报道/AI游戏引擎的风，最终还是刮了起来。 10月7日，谷歌与Unity宣布达成战略合作，共同推出面向下一代互动娱乐的AI游戏...",
+      "url": "http://www.gamelook.com.cn/2026/10/603403/",
+      "sentiment": "positive",
+      "time": "2026-10-09 09:08",
+      "tags": [
+        "GameLook",
+        "行业"
+      ],
+      "section": "行业",
+      "pushable": false,
+      "category": "游戏垂媒",
+      "topic": "经营管理"
+    },
+    {
+      "id": "media-jlkbh2",
+      "platform": "GameLook",
+      "title": "鸣潮又悄悄干成了一件大事？“鸣”式国风，太对味了",
+      "summary": "【GameLook专稿，禁止转载！】 GameLook报道/随着3.7版本「镜锁妄世，心照红尘」正式上线，《鸣潮》的玄方地界篇章也走到了尾声。 有意思的是，版本到了最后，玩家们反倒...",
+      "url": "http://www.gamelook.com.cn/2026/10/603370/",
+      "sentiment": "positive",
+      "time": "2026-10-09 01:14",
+      "tags": [
+        "GameLook",
+        "行业"
+      ],
+      "section": "行业",
+      "pushable": false,
+      "category": "游戏垂媒",
       "topic": "产品游戏"
     }
   ]
